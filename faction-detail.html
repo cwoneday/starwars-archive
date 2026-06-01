@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>세력 기록 · FACTION RECORD</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--void:#04060b;--base:#080c14;--panel:#0e131c;--elevated:#141b27;--ink:#dce4ee;--dim:#8b97a8;--faint:#515c6b;
+--line:rgba(120,140,180,.14);--holo:#45d4e3;--warn:#ff5a4d;--amber:#f4b740;
+--fd:'Chakra Petch',sans-serif;--fb:'Spline Sans',sans-serif;--fm:'JetBrains Mono',monospace;}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(1100px 600px at 50% -8%,#0a1018,transparent 60%),var(--void);color:var(--ink);font-family:var(--fb);min-height:100vh;line-height:1.6}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;background:repeating-linear-gradient(to bottom,rgba(69,212,227,.025) 0 1px,transparent 1px 3px);opacity:.5}
+.wrap{max-width:780px;margin:0 auto;padding:28px 22px 80px;position:relative;z-index:2}
+.hud-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:var(--fm);font-size:11px;color:var(--dim);letter-spacing:.08em;margin-bottom:20px}
+.hud-bar .sep{color:var(--faint)}.hud-bar .id{color:var(--holo)}
+.hud-bar a{color:var(--dim);text-decoration:none;border-bottom:1px dashed var(--line)}.hud-bar a:hover{color:var(--holo)}
+.record{position:relative;background:linear-gradient(180deg,var(--panel),var(--base));border:1px solid var(--line);border-radius:12px;padding:34px 30px;transition:opacity .4s}
+.corner{position:absolute;width:18px;height:18px;border:1.5px solid var(--holo);opacity:.55}
+.corner.tl{top:-1px;left:-1px;border-right:0;border-bottom:0}.corner.br{bottom:-1px;right:-1px;border-left:0;border-top:0}
+.kicker{font-family:var(--fm);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--holo);margin-bottom:10px}
+h1{font-family:var(--fd);font-weight:700;font-size:2.1rem;line-height:1.12;letter-spacing:.01em}
+.title-en{font-family:var(--fm);font-size:12px;color:var(--faint);margin-top:5px;letter-spacing:.04em}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.badge{font-family:var(--fm);font-size:11px;padding:5px 10px;border-radius:6px;border:1px solid var(--line);color:var(--dim);background:rgba(255,255,255,.02)}
+.badge.year{color:var(--ink);border-color:var(--holo)}.badge.year b{font-family:var(--fd);color:var(--holo)}
+.badge.canon{color:var(--amber)}
+.rule{height:1px;background:linear-gradient(90deg,var(--holo),transparent);margin:22px 0;opacity:.4}
+.one-liner{font-family:var(--fd);font-size:1.15rem;font-weight:500;color:var(--ink);border-left:2px solid var(--holo);padding-left:14px;margin:4px 0 0}
+.readout{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:20px 0;padding:14px;background:var(--void);border:1px solid var(--line);border-radius:8px}
+.readout>div{display:flex;justify-content:space-between;font-family:var(--fm);font-size:11px;border-bottom:1px solid var(--line);padding-bottom:5px}
+.readout .k{color:var(--faint)}.readout .v{color:var(--holo)}
+.sec-label{font-family:var(--fm);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin:24px 0 9px}
+.sec-body{font-size:1rem;color:var(--ink)}.sec-body.dim{color:var(--dim)}
+.chip-group{margin-bottom:14px}.grp-label{font-family:var(--fm);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{display:inline-flex;flex-direction:column;gap:1px;padding:6px 10px;border-radius:7px;border:1px solid var(--line);background:rgba(255,255,255,.02);text-decoration:none;transition:all .15s}
+a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
+.chip .nm{font-size:12px;color:var(--ink)}.chip .ref{font-family:var(--fm);font-size:9px;color:var(--faint)}
+.chip.pending{opacity:.55}.chip.pending .nm{color:var(--dim)}
+.srcline{font-family:var(--fm);font-size:11px;color:var(--dim);margin-top:6px}.srcline b{color:var(--ink);font-weight:500}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.tag{font-family:var(--fm);font-size:10px;color:var(--holo);background:rgba(69,212,227,.07);border:1px solid var(--line);border-radius:20px;padding:3px 10px}
+.nav{display:flex;justify-content:space-between;gap:12px;margin-top:24px}
+.nav a{flex:1;text-decoration:none;border:1px solid var(--line);border-radius:9px;padding:12px 14px;background:rgba(255,255,255,.02);transition:all .15s;min-width:0}
+.nav a:hover{border-color:var(--holo);background:rgba(69,212,227,.05)}
+.nav .dir{font-family:var(--fm);font-size:10px;color:var(--faint);letter-spacing:.1em}
+.nav .t{font-family:var(--fd);font-size:14px;color:var(--ink);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nav .next{text-align:right}
+.back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
+.notfound{text-align:center;padding:80px 20px;color:var(--dim)}
+.legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
+</style></head>
+<body><main class="wrap" id="app"></main>
+<script>
+const ERAKEYS={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
+const STYP={film:"영화",series:"시리즈",novel:"소설",comic:"코믹",game:"게임"};
+const CANON_OP={explicit:1,referenced:.9,inferred:.78};
+const CANON_KO={explicit:"명시",referenced:"언급",inferred:"추론"};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function getId(d){const u=new URLSearchParams(location.search);return u.get("id")||location.hash.replace("#","")||d;}
+function evChip(e){return `<a class="chip" href="event-detail.html?id=${e.id}"><span class="nm">${esc(e.title)}</span><span class="ref">${esc(e.year_label)}</span></a>`;}
+function charChip(c){return `<a class="chip" href="galaxy-network.html?focus=${c.id}" title="관계망에서 보기"><span class="nm">${esc(c.name)}</span><span class="ref">${esc(c.id)}</span></a>`;}
+function failBox(files){return `<div class="notfound"><div style="font-family:var(--fd);font-size:1.1rem;color:var(--ink);margin-bottom:14px">데이터 파일을 불러오지 못했습니다</div>이 페이지는 ${files}를 직접 읽습니다 (헌법 제2조).<br>더블클릭은 file:// 보안정책에 막힙니다. 로컬 서버로 열어주세요:<br><br><code style="color:var(--holo);font-family:var(--fm)">python3 -m http.server</code></div>`;}
+
+const FTYPE={order:"교단",government:"정부",military:"군대",criminal:"무법 조직"};
+const ALIGNKO={light:"라이트사이드",dark:"다크사이드",neutral:"중립"};
+let FAC={},EVENTS=[];
+function render(){
+  const id=getId("jedi-order"),e=FAC[id],app=document.getElementById("app");
+  if(!e){app.innerHTML=`<div class="notfound">해당 세력 기록을 찾을 수 없습니다.<br><a class="back" href="timeline.html">← 타임라인으로</a></div>`;return;}
+  document.title=`${e.name} · 세력 기록`;
+  const evs=EVENTS.filter(x=>x.factions.includes(id)).sort((a,b)=>a.year_value-b.year_value);
+  const ac={light:"var(--holo)",dark:"var(--warn)",neutral:"var(--amber)"}[e.alignment]||"var(--holo)";
+  app.innerHTML=`
+  <div class="hud-bar"><a href="timeline.html">스타워즈 캐넌 아카이브</a><span class="sep">//</span><span>FACTION</span><span class="sep">//</span><span class="id">${e.id}</span></div>
+  <article class="record" style="opacity:${CANON_OP[e.canon_status]||1}">
+    <span class="corner tl"></span><span class="corner br"></span>
+    <div class="kicker">세력 기록 · Faction Record</div>
+    <h1>${esc(e.name)}</h1><div class="title-en">${esc(e.name_en)}</div>
+    <div class="meta"><span class="badge year" style="border-color:${ac}"><b style="color:${ac}">${FTYPE[e.type]||e.type}</b></span><span class="badge" style="color:${ac}">${ALIGNKO[e.alignment]||e.alignment}</span><span class="badge">${esc(e.era)}</span><span class="badge canon">canon · ${CANON_KO[e.canon_status]}</span></div>
+    <div class="rule"></div><p class="one-liner" style="border-color:${ac}">${esc(e.one_liner)}</p>
+    <div class="readout">
+      <div><span class="k">type</span><span class="v">${e.type}</span></div>
+      <div><span class="k">alignment</span><span class="v">${e.alignment}</span></div>
+      <div><span class="k">era</span><span class="v">${esc(e.era)}</span></div>
+      <div><span class="k">canon_status</span><span class="v">${e.canon_status}</span></div></div>
+    <div class="sec-label">이 세력이 관여한 사건 · Involved Events (${evs.length})</div>
+    ${evs.length?`<div class="chips">${evs.map(evChip).join("")}</div>`:'<p class="sec-body dim">기록된 주요 사건이 아직 없습니다.</p>'}
+    <div class="srcline">출처 · <b>${esc(e.source)}</b> · ${STYP[e.source_type]||e.source_type}</div>
+    <div class="legend-hint">‘관여한 사건’은 events.json의 factions 역참조입니다. 세력 소속 인물은 인물 데이터의 affiliation_history가 채워지면 자동 연결됩니다 (헌법 제2·4조).</div>
+  </article>
+  <a class="back" href="timeline.html">← 전체 타임라인으로</a>`;
+  window.scrollTo(0,0);
+}
+async function load(){try{
+  const [fa,ev]=await Promise.all([fetch("factions.json").then(r=>r.json()),fetch("events.json").then(r=>r.json())]);
+  FAC=Object.fromEntries(fa.map(x=>[x.id,x]));EVENTS=ev;render();
+}catch(err){document.getElementById("app").innerHTML=failBox("factions·events.json");}}
+window.addEventListener("popstate",render);load();
+</script></body></html>

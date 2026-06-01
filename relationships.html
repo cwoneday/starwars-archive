@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>중요인물 관계도 · KEY TIES</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#04060b; --panel:rgba(12,17,26,.85); --ink:#dce4ee; --dim:#8b97a8; --faint:#515c6b;
+  --line:rgba(120,140,180,.12); --holo:#45d4e3;
+  /* 성향(노드) */
+  --light:#5aa9ff; --dark:#ff5a4d; --neutral:#c2a86a;
+  /* 관계(엣지) */
+  --r-family:#ff79c6; --r-master:#45d4e3; --r-ally:#7ee787; --r-rival:#f4b740;
+  --font-display:'Chakra Petch',sans-serif; --font-mono:'JetBrains Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:var(--font-mono)}
+#stage{position:fixed;inset:0}
+canvas,svg{position:absolute;inset:0;width:100%;height:100%}
+.starfield{position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(1px 1px at 22% 28%,rgba(255,255,255,.6),transparent),
+    radial-gradient(1px 1px at 68% 58%,rgba(255,255,255,.45),transparent),
+    radial-gradient(1.4px 1.4px at 44% 82%,rgba(69,212,227,.5),transparent),
+    radial-gradient(1px 1px at 86% 20%,rgba(255,255,255,.5),transparent),
+    radial-gradient(1px 1px at 10% 70%,rgba(255,255,255,.4),transparent),
+    radial-gradient(circle at 50% 42%,rgba(30,55,95,.22),transparent 62%);
+  animation:tw 5s ease-in-out infinite alternate}
+@keyframes tw{0%{opacity:.55}100%{opacity:.9}}
+
+header{position:fixed;top:0;left:0;right:0;z-index:20;padding:18px 24px;pointer-events:none}
+.title{font-family:var(--font-display);font-weight:700;letter-spacing:.16em;font-size:15px;text-transform:uppercase}
+.title span{color:var(--holo)}
+.subtitle{color:var(--dim);font-size:11px;letter-spacing:.05em;margin-top:4px}
+
+.controls{position:fixed;top:78px;left:24px;z-index:20;width:230px;background:var(--panel);
+  border:1px solid var(--line);border-radius:12px;padding:16px;backdrop-filter:blur(12px)}
+.controls h3{font-family:var(--font-display);font-size:10px;letter-spacing:.2em;color:var(--dim);
+  text-transform:uppercase;margin-bottom:10px}
+.search{width:100%;background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--ink);
+  padding:9px 11px;border-radius:8px;font-family:var(--font-mono);font-size:12px;margin-bottom:16px;outline:none}
+.search:focus{border-color:var(--holo)}
+.search::placeholder{color:var(--faint)}
+.rel-btn{display:flex;align-items:center;gap:9px;width:100%;background:rgba(255,255,255,.03);
+  border:1px solid var(--line);color:var(--ink);padding:7px 10px;border-radius:7px;
+  font-family:var(--font-mono);font-size:11px;margin-bottom:5px;cursor:pointer;text-align:left;transition:all .15s}
+.rel-btn:hover{border-color:rgba(120,140,180,.4)}
+.rel-btn.off{opacity:.35}
+.rel-btn .bar{width:18px;height:3px;border-radius:2px;flex-shrink:0;box-shadow:0 0 6px currentColor}
+.legend-item{display:flex;align-items:center;gap:9px;font-size:11px;margin-bottom:7px;color:var(--ink)}
+.dot{width:11px;height:11px;border-radius:50%;flex-shrink:0;box-shadow:0 0 8px currentColor}
+.hint{font-size:10px;color:var(--dim);line-height:1.6;margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
+
+.detail{position:fixed;top:78px;right:24px;z-index:20;width:272px;background:var(--panel);
+  border:1px solid var(--line);border-radius:12px;padding:18px;backdrop-filter:blur(12px);
+  opacity:0;transform:translateX(16px);transition:all .28s cubic-bezier(.2,.8,.2,1);pointer-events:none;max-height:78vh;overflow-y:auto}
+.detail.show{opacity:1;transform:none;pointer-events:auto}
+.detail .align-tag{display:inline-block;font-family:var(--font-display);font-weight:700;font-size:9px;
+  letter-spacing:.16em;text-transform:uppercase;padding:4px 9px;border-radius:20px;margin-bottom:10px}
+.detail .name{font-family:var(--font-display);font-weight:700;font-size:20px;line-height:1.2;margin-bottom:4px}
+.detail .meta{font-size:10px;color:var(--dim);letter-spacing:.04em;margin-bottom:14px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:5px 14px;margin-bottom:14px}
+.stat{display:flex;justify-content:space-between;font-size:11px;border-bottom:1px solid var(--line);padding-bottom:4px}
+.stat .k{color:var(--dim)} .stat .v{color:var(--ink);font-weight:500}
+.films-box{margin-bottom:12px}
+.fb-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:7px}
+.film-tag{display:inline-block;font-size:10px;background:rgba(69,212,227,.08);border:1px solid var(--line);border-radius:6px;padding:4px 8px;margin:0 4px 5px 0}
+.film-tag b{font-family:var(--font-display);color:var(--holo);margin-right:3px}
+.nodata{font-size:11px;color:var(--faint);font-style:italic;border:1px dashed var(--line);border-radius:7px;padding:10px;margin-bottom:12px;line-height:1.5}
+.note{font-size:10px;color:var(--dim);margin-bottom:12px;line-height:1.5;border-left:2px solid var(--line);padding-left:8px}
+.rel-group{margin-bottom:12px}
+.rel-group .lbl{display:flex;align-items:center;gap:7px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:7px}
+.rel-group .lbl .bar{width:14px;height:3px;border-radius:2px;box-shadow:0 0 6px currentColor}
+.chip{display:inline-block;font-size:11px;background:rgba(255,255,255,.05);border:1px solid var(--line);
+  padding:4px 9px;border-radius:6px;margin:0 4px 5px 0;cursor:pointer;transition:all .12s}
+.chip:hover{border-color:var(--holo);color:var(--holo)}
+.chip .rel-dir{color:var(--faint);font-size:9px}
+
+.footer{position:fixed;bottom:18px;left:24px;z-index:20;font-size:10px;color:var(--dim);letter-spacing:.05em;line-height:1.6}
+.footer b{color:var(--ink)}
+.tooltip{position:fixed;z-index:30;background:rgba(4,6,11,.95);border:1px solid var(--line);border-radius:7px;
+  padding:6px 10px;font-size:11px;pointer-events:none;opacity:0;transition:opacity .1s;white-space:nowrap;
+  font-family:var(--font-display);font-weight:600;letter-spacing:.03em}
+
+@media (max-width:760px){
+  .controls{width:166px;top:72px;left:12px;padding:12px}
+  .detail{width:210px;right:12px;top:72px;padding:14px}
+  .footer{font-size:9px;left:12px}
+}
+</style>
+</head>
+<body>
+<div class="starfield"></div>
+<div id="stage"><canvas id="links"></canvas><svg id="nodes"></svg></div>
+
+<header>
+  <div class="title">KEY <span>TIES</span></div>
+  <div class="subtitle">스타워즈 중요인물 22인 · 인물 데이터 SWAPI (Ep I–VI) · 엣지=관계 타입</div>
+</header>
+
+<div class="controls">
+  <h3>관계 타입 (클릭 필터)</h3>
+  <div id="relBtns"></div>
+  <h3 style="margin-top:16px">성향</h3>
+  <div class="legend-item"><span class="dot" style="background:var(--light);color:var(--light)"></span>라이트사이드</div>
+  <div class="legend-item"><span class="dot" style="background:var(--dark);color:var(--dark)"></span>다크사이드</div>
+  <div class="legend-item"><span class="dot" style="background:var(--neutral);color:var(--neutral)"></span>중립 / 기타</div>
+  <input class="search" id="search" placeholder="인물 검색…" autocomplete="off" style="margin-top:16px">
+  <div class="hint">노드 클릭 → 그 인물의 타이만 빛남. 빈 공간 클릭 시 해제. 드래그로 이동.</div>
+</div>
+
+<div class="detail" id="detail"></div>
+<div class="footer" id="footer"></div>
+<div class="tooltip" id="tooltip"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+// h/m/b/g/home/films 는 첨부된 SWAPI(Ep I–VI) 데이터에서 병합. avail:false = 데이터셋 외.
+const NODES = [
+  {id:"anakin",kr:"아나킨 / 베이더",align:"dark",era:"제다이의 몰락 · 제국의 시대",h:"188",m:"84",b:"41.9BBY",g:"male",home:"타투인",films:[4,5,6,1,2,3],note:"다스 베이더 슈트 착용 시 202cm · 136kg"},
+  {id:"luke",kr:"루크 스카이워커",align:"light",era:"반란의 시대",h:"172",m:"77",b:"19BBY",g:"male",home:"타투인",films:[1,2,3,6]},
+  {id:"leia",kr:"레이아 오르가나",align:"light",era:"반란의 시대",h:"150",m:"49",b:"19BBY",g:"female",home:"알데란",films:[1,2,3,6]},
+  {id:"han",kr:"한 솔로",align:"neutral",era:"반란의 시대",h:"180",m:"80",b:"29BBY",g:"male",home:"코렐리아",films:[1,2,3]},
+  {id:"obiwan",kr:"오비완 케노비",align:"light",era:"제다이의 몰락",h:"182",m:"77",b:"57BBY",g:"male",home:"스튜존",films:[1,2,3,4,5,6]},
+  {id:"padme",kr:"파드메 아미달라",align:"neutral",era:"제다이의 몰락",h:"185",m:"45",b:"46BBY",g:"female",home:"나부",films:[4,5,6]},
+  {id:"yoda",kr:"요다",align:"light",era:"하이 리퍼블릭~",h:"66",m:"17",b:"896BBY",g:"male",home:"불명",films:[2,3,4,5,6]},
+  {id:"quigon",kr:"퀴곤 진",align:"light",era:"제다이의 몰락",h:"193",m:"89",b:"92BBY",g:"male",home:"불명",films:[4]},
+  {id:"mace",kr:"메이스 윈두",align:"light",era:"제다이의 몰락",h:"188",m:"84",b:"72BBY",g:"male",home:"하룬 칼",films:[4,5,6]},
+  {id:"palpatine",kr:"팰퍼틴 / 시디어스",align:"dark",era:"제국의 시대",h:"170",m:"75",b:"82BBY",g:"male",home:"나부",films:[2,3,4,5,6]},
+  {id:"maul",kr:"다스 몰",align:"dark",era:"제다이의 몰락",h:"175",m:"80",b:"54BBY",g:"male",home:"다소미르",films:[4]},
+  {id:"dooku",kr:"두쿠 백작",align:"dark",era:"제다이의 몰락",h:"193",m:"80",b:"102BBY",g:"male",home:"세레노",films:[5,6]},
+  {id:"grievous",kr:"그리버스 장군",align:"dark",era:"제다이의 몰락",h:"216",m:"159",b:"불명",g:"male",home:"칼리",films:[6]},
+  {id:"ahsoka",kr:"아소카 타노",align:"light",era:"제다이의 몰락",avail:false},
+  {id:"chewbacca",kr:"추바카",align:"neutral",era:"반란의 시대",h:"228",m:"112",b:"200BBY",g:"male",home:"카시크",films:[1,2,3,6]},
+  {id:"lando",kr:"랜도 칼리시안",align:"neutral",era:"반란의 시대",h:"177",m:"79",b:"31BBY",g:"male",home:"소코로",films:[2,3]},
+  {id:"r2d2",kr:"R2-D2",align:"neutral",era:"전 시대",h:"96",m:"32",b:"33BBY",g:"droid",home:"나부",films:[1,2,3,4,5,6]},
+  {id:"c3po",kr:"C-3PO",align:"neutral",era:"전 시대",h:"167",m:"75",b:"112BBY",g:"droid",home:"타투인",films:[1,2,3,4,5,6]},
+  {id:"rey",kr:"레이",align:"light",era:"뉴 제다이 오더",avail:false},
+  {id:"kylo",kr:"카일로 렌 / 벤 솔로",align:"dark",era:"퍼스트 오더",avail:false},
+  {id:"finn",kr:"핀",align:"light",era:"퍼스트 오더",avail:false},
+  {id:"snoke",kr:"스노크",align:"dark",era:"퍼스트 오더",avail:false}
+];
+// type: family / master(=사제, s→t: s가 스승) / ally / rival
+const LINKS = [
+  {s:"anakin",t:"luke",type:"family"},
+  {s:"anakin",t:"leia",type:"family"},
+  {s:"anakin",t:"padme",type:"family"},
+  {s:"luke",t:"leia",type:"family"},
+  {s:"leia",t:"han",type:"family"},
+  {s:"leia",t:"kylo",type:"family"},
+  {s:"han",t:"kylo",type:"family"},
+  {s:"anakin",t:"kylo",type:"family"},
+
+  {s:"obiwan",t:"anakin",type:"master"},
+  {s:"quigon",t:"obiwan",type:"master"},
+  {s:"dooku",t:"quigon",type:"master"},
+  {s:"yoda",t:"dooku",type:"master"},
+  {s:"palpatine",t:"anakin",type:"master"},
+  {s:"palpatine",t:"dooku",type:"master"},
+  {s:"palpatine",t:"maul",type:"master"},
+  {s:"yoda",t:"luke",type:"master"},
+  {s:"obiwan",t:"luke",type:"master"},
+  {s:"anakin",t:"ahsoka",type:"master"},
+  {s:"palpatine",t:"snoke",type:"master"},
+  {s:"snoke",t:"kylo",type:"master"},
+
+  {s:"han",t:"luke",type:"ally"},
+  {s:"han",t:"chewbacca",type:"ally"},
+  {s:"han",t:"lando",type:"ally"},
+  {s:"luke",t:"r2d2",type:"ally"},
+  {s:"r2d2",t:"c3po",type:"ally"},
+  {s:"anakin",t:"r2d2",type:"ally"},
+  {s:"rey",t:"finn",type:"ally"},
+  {s:"obiwan",t:"yoda",type:"ally"},
+  {s:"mace",t:"yoda",type:"ally"},
+  {s:"leia",t:"chewbacca",type:"ally"},
+  {s:"rey",t:"chewbacca",type:"ally"},
+
+  {s:"obiwan",t:"maul",type:"rival"},
+  {s:"mace",t:"palpatine",type:"rival"},
+  {s:"anakin",t:"dooku",type:"rival"},
+  {s:"obiwan",t:"grievous",type:"rival"},
+  {s:"anakin",t:"grievous",type:"rival"},
+  {s:"rey",t:"kylo",type:"rival"},
+  {s:"luke",t:"palpatine",type:"rival"}
+];
+
+const ALIGN = {light:"var(--light)",dark:"var(--dark)",neutral:"var(--neutral)"};
+const REL = {
+  family:{c:"#ff79c6",ko:"가족"}, master:{c:"#45d4e3",ko:"사제"},
+  ally:{c:"#7ee787",ko:"동맹"}, rival:{c:"#f4b740",ko:"적대"}
+};
+let activeTypes = new Set(Object.keys(REL));
+// 출연작(SWAPI film id → 에피소드)
+const FILMS = {
+  4:{ep:"I",t:"보이지 않는 위험"}, 5:{ep:"II",t:"클론의 습격"}, 6:{ep:"III",t:"시스의 복수"},
+  1:{ep:"IV",t:"새로운 희망"}, 2:{ep:"V",t:"제국의 역습"}, 3:{ep:"VI",t:"제다이의 귀환"}
+};
+const FILM_ORDER=[4,5,6,1,2,3];
+const GENDER={male:"남성",female:"여성",droid:"드로이드"};
+let selected = null;
+
+// degree
+const deg = {}; NODES.forEach(n=>deg[n.id]=0);
+LINKS.forEach(l=>{deg[l.s]++;deg[l.t]++;});
+const nodes = NODES.map(n=>({...n,deg:deg[n.id]}));
+const nodeById = new Map(nodes.map(n=>[n.id,n]));
+const links = LINKS.map(l=>({source:l.s,target:l.t,type:l.type}));
+
+// 이웃(타입·방향 포함)
+const neighbors = new Map(nodes.map(n=>[n.id,[]]));
+LINKS.forEach(l=>{
+  neighbors.get(l.s).push({id:l.t,type:l.type,role:l.type==="master"?"master":null});
+  neighbors.get(l.t).push({id:l.s,type:l.type,role:l.type==="master"?"apprentice":null});
+});
+
+const stage=document.getElementById('stage'),canvas=document.getElementById('links'),ctx=canvas.getContext('2d');
+const svg=d3.select('#nodes'),tooltip=document.getElementById('tooltip'),detail=document.getElementById('detail');
+let W=0,H=0,DPR=Math.min(window.devicePixelRatio||1,2);
+function resize(){W=stage.clientWidth;H=stage.clientHeight;canvas.width=W*DPR;canvas.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);svg.attr('viewBox',`0 0 ${W} ${H}`);}
+resize();
+
+const rScale=d3.scaleSqrt().domain([1,d3.max(nodes,n=>n.deg)]).range([7,20]);
+const distOf=t=>t==="rival"?150:t==="family"?70:t==="master"?95:110;
+
+const sim=d3.forceSimulation(nodes)
+  .force('link',d3.forceLink(links).id(d=>d.id).distance(d=>distOf(d.type)).strength(.25))
+  .force('charge',d3.forceManyBody().strength(-300))
+  .force('center',d3.forceCenter(W/2,H/2))
+  .force('collide',d3.forceCollide().radius(d=>rScale(d.deg)+18))
+  .on('tick',ticked);
+
+const g=svg.selectAll('g.node').data(nodes).join('g').attr('class','node').style('cursor','pointer')
+  .call(d3.drag()
+    .on('start',(e,d)=>{if(!e.active)sim.alphaTarget(.3).restart();d.fx=d.x;d.fy=d.y;})
+    .on('drag',(e,d)=>{d.fx=e.x;d.fy=e.y;})
+    .on('end',(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null;}))
+  .on('mouseenter',(e,d)=>{tooltip.style.opacity=1;tooltip.textContent=d.kr;tooltip.style.left=(e.clientX+14)+'px';tooltip.style.top=(e.clientY-8)+'px';})
+  .on('mousemove',e=>{tooltip.style.left=(e.clientX+14)+'px';tooltip.style.top=(e.clientY-8)+'px';})
+  .on('mouseleave',()=>tooltip.style.opacity=0)
+  .on('click',(e,d)=>{e.stopPropagation();select(d.id);});
+
+g.append('circle').attr('r',d=>rScale(d.deg)).attr('fill',d=>ALIGN[d.align])
+  .attr('stroke','rgba(4,6,11,.9)').attr('stroke-width',1.5)
+  .attr('color',d=>ALIGN[d.align]).style('filter','drop-shadow(0 0 6px currentColor)');
+g.append('text').text(d=>d.kr).attr('x',d=>rScale(d.deg)+6).attr('y',4)
+  .attr('font-family',"var(--font-mono)").attr('font-size','11px').attr('fill','var(--dim)').style('pointer-events','none');
+
+svg.on('click',()=>select(null));
+
+function activeLinks(){return links.filter(l=>activeTypes.has(l.type));}
+function ticked(){
+  ctx.clearRect(0,0,W,H);
+  for(const l of activeLinks()){
+    const s=l.source,t=l.target; if(s.x==null)continue;
+    const hot=selected&&(s.id===selected||t.id===selected);
+    const dim=selected&&!hot;
+    ctx.beginPath();ctx.moveTo(s.x,s.y);ctx.lineTo(t.x,t.y);
+    const col=REL[l.type].c;
+    if(hot){ctx.strokeStyle=col;ctx.lineWidth=2.4;ctx.globalAlpha=.95;}
+    else if(dim){ctx.strokeStyle=col;ctx.lineWidth=.6;ctx.globalAlpha=.06;}
+    else{ctx.strokeStyle=col;ctx.lineWidth=1.4;ctx.globalAlpha=.32;}
+    ctx.stroke();
+  }
+  ctx.globalAlpha=1;
+  g.attr('transform',d=>`translate(${d.x},${d.y})`);
+}
+
+function applyVisual(){
+  g.transition().duration(220)
+    .style('opacity',d=>{
+      if(!selected)return 1;
+      if(d.id===selected)return 1;
+      return neighbors.get(selected).some(n=>n.id===d.id)?.95:.12;
+    });
+  g.select('text').attr('fill',d=>(selected&&d.id===selected)?'var(--ink)':'var(--dim)');
+}
+function select(id){selected=id;applyVisual();if(!id){detail.classList.remove('show');return;}showDetail(nodeById.get(id));}
+
+function showDetail(d){
+  const groups={family:[],master:[],ally:[],rival:[]};
+  neighbors.get(d.id).forEach(n=>groups[n.type].push(n));
+  const alignKo=d.align==="light"?"라이트사이드":d.align==="dark"?"다크사이드":"중립 / 기타";
+  let html=`<span class="align-tag" style="background:${ALIGN[d.align]}22;color:${ALIGN[d.align]};border:1px solid ${ALIGN[d.align]}55">${alignKo}</span>
+    <div class="name">${d.kr}</div>
+    <div class="meta">주 활동 시대 · ${d.era}</div>`;
+  if(d.avail===false){
+    html+=`<div class="nodata">본 데이터셋(SWAPI · Ep I–VI) 외 인물 — 기본 정보 미수록. 관계 정보만 표시됩니다.</div>`;
+  }else{
+    html+=`<div class="stats">
+      <div class="stat"><span class="k">출생</span><span class="v">${d.b}</span></div>
+      <div class="stat"><span class="k">키</span><span class="v">${d.h}cm</span></div>
+      <div class="stat"><span class="k">몸무게</span><span class="v">${d.m}kg</span></div>
+      <div class="stat"><span class="k">성별</span><span class="v">${GENDER[d.g]||d.g}</span></div>
+      <div class="stat"><span class="k">고향</span><span class="v">${d.home}</span></div>
+      <div class="stat"><span class="k">출연</span><span class="v">${d.films.length}편</span></div>
+    </div>
+    <div class="films-box"><div class="fb-label">출연작 · Filmography</div>`;
+    html+=FILM_ORDER.filter(f=>d.films.includes(f)).map(f=>`<span class="film-tag"><b>${FILMS[f].ep}</b> ${FILMS[f].t}</span>`).join('');
+    html+=`</div>`;
+    if(d.note) html+=`<div class="note">${d.note}</div>`;
+  }
+  Object.keys(REL).forEach(type=>{
+    if(!groups[type].length)return;
+    html+=`<div class="rel-group"><div class="lbl" style="color:${REL[type].c}"><span class="bar" style="background:${REL[type].c}"></span>${REL[type].ko} ${groups[type].length}</div>`;
+    html+=groups[type].map(n=>{
+      let dir="";
+      if(type==="master")dir=n.role==="master"?'<span class="rel-dir"> ← 스승</span>':'<span class="rel-dir"> → 제자</span>';
+      return `<span class="chip" data-id="${n.id}">${nodeById.get(n.id).kr}${dir}</span>`;
+    }).join('');
+    html+=`</div>`;
+  });
+  detail.innerHTML=html;detail.classList.add('show');
+  detail.querySelectorAll('.chip[data-id]').forEach(c=>c.onclick=()=>select(c.dataset.id));
+}
+
+// 관계 타입 버튼
+const relBtns=document.getElementById('relBtns');
+Object.keys(REL).forEach(type=>{
+  const b=document.createElement('button');b.className='rel-btn';
+  b.innerHTML=`<span class="bar" style="background:${REL[type].c};color:${REL[type].c}"></span><span>${REL[type].ko}</span>`;
+  b.onclick=()=>{if(activeTypes.has(type)){activeTypes.delete(type);b.classList.add('off');}else{activeTypes.add(type);b.classList.remove('off');}updateFooter();};
+  relBtns.appendChild(b);
+});
+
+document.getElementById('search').addEventListener('input',e=>{
+  const q=e.target.value.trim().toLowerCase();
+  if(!q){select(null);return;}
+  const hit=nodes.find(n=>n.kr.toLowerCase().includes(q)||n.id.includes(q));
+  if(hit)select(hit.id);
+});
+
+function updateFooter(){document.getElementById('footer').innerHTML=`인물 <b>${nodes.length}</b> · 관계선 <b>${activeLinks().length}</b> · 타입 <b>${activeTypes.size}/4</b>`;}
+updateFooter();
+window.addEventListener('resize',()=>{resize();sim.force('center',d3.forceCenter(W/2,H/2));sim.alpha(.3).restart();});
+</script>
+</body>
+</html>
