@@ -49,6 +49,17 @@ header{position:fixed;top:0;left:0;right:0;z-index:20;padding:18px 24px;pointer-
 .tooltip{position:fixed;z-index:30;background:rgba(4,6,11,.95);border:1px solid var(--line);border-radius:7px;padding:6px 10px;font-size:11px;pointer-events:none;opacity:0;transition:opacity .1s;white-space:nowrap;font-family:var(--fd);font-weight:600}
 @media (max-width:760px){.controls{width:166px;top:72px;left:12px;padding:12px}.detail{width:216px;right:12px;top:72px;padding:14px}.footer{font-size:9px;left:12px}}
 </style></head><body>
+<style>
+.site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
+.site-nav .brand{color:#45d4e3;font-weight:700;font-size:12px;letter-spacing:.12em;text-decoration:none;white-space:nowrap}
+.site-nav .links{display:flex;gap:4px;flex-wrap:wrap;overflow:hidden}
+.site-nav .links a{color:#8b97a8;font-size:12px;letter-spacing:.03em;text-decoration:none;padding:6px 11px;border-radius:6px;white-space:nowrap;transition:color .15s,background .15s,border-color .15s;border:1px solid transparent}
+.site-nav .links a:hover{color:#dce4ee;background:rgba(255,255,255,.06)}
+.site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
+@media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
+#stage{top:46px}header{top:46px}.controls{top:124px}.detail{top:124px}</style>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="galaxy-network.html" class="active">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+
 <div class="starfield"></div>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
 <symbol id="sil-jedi" viewBox="0 0 100 130"><g fill="currentColor"><path d="M50 30 C41 30 35 36 33 46 L26 120 C25 125 29 126 33 126 L67 126 C71 126 75 125 74 120 L67 46 C65 36 59 30 50 30 Z"/><path d="M50 8 C36 8 28 22 31 42 C31 42 39 30 50 30 C61 30 69 42 69 42 C72 22 64 8 50 8 Z"/><path d="M66 48 C74 50 80 56 80 66 L74 66 C74 58 70 54 64 53 Z"/><rect x="75" y="64" width="9" height="9" rx="1.5"/></g><rect x="77" y="10" width="5" height="56" rx="2.5" fill="var(--blade,#45d4e3)"/></symbol>
