@@ -13,6 +13,10 @@ def load(n): return json.load(open(os.path.join(DIR,n),encoding='utf-8'))
 
 events=load('events.json'); chars=load('characters.json')
 locs=load('locations.json'); facs=load('factions.json'); rels=load('relations.json')
+try:
+    films=load('films.json')
+except FileNotFoundError:
+    films=[]
 
 ERR=[]; WARN=[]; INFO=[]
 def err(m): ERR.append(m)
@@ -117,6 +121,30 @@ for i,r in enumerate(rels):
         if r.get(k) not in ch_ids: err(f"[relations#{i}] 깨진 인물 참조({k}): {r.get(k)}")
     if r.get('s')==r.get('t'): warn(f"[relations#{i}] 자기 자신 관계: {r.get('s')}")
 
+# ================= films (작품 축) =================
+WORKTYPE={"film","series","novel","comic","game"}
+TRILOGY={"prequel","original","sequel","none"}
+film_ids={f['id'] for f in films}
+dup_check(films,'films')
+FILM_REQ=["id","title","title_en","work_type","summary","source_type","canon_status"]
+for f in films:
+    for k in FILM_REQ:
+        if k not in f: err(f"[films:{f.get('id','?')}] 필수 필드 누락: {k}")
+    if f.get('work_type') not in WORKTYPE: err(f"[films:{f['id']}] work_type 위반: {f.get('work_type')}")
+    if f.get('trilogy') and f.get('trilogy') not in TRILOGY: warn(f"[films:{f['id']}] trilogy 비표준: {f.get('trilogy')}")
+    if f.get('canon_status') not in CANON: err(f"[films:{f['id']}] canon_status 위반: {f.get('canon_status')}")
+    if f.get('source_type') not in STYPE: err(f"[films:{f['id']}] source_type 위반: {f.get('source_type')}")
+    if f.get('era_primary') and f.get('era_primary') not in ERA: err(f"[films:{f['id']}] era_primary 위반: {f.get('era_primary')}")
+# 사건 work 링크 정합성
+for e in events:
+    if e.get('work') and e['work'] not in film_ids:
+        err(f"[events:{e['id']}] work 깨진 작품 참조: {e['work']}")
+# 인물 works 링크 정합성
+for c in chars:
+    for w in c.get('works',[]):
+        if film_ids and w not in film_ids:
+            warn(f"[characters:{c['id']}] works 미등록 작품 slug: {w}")
+
 # 고아 데이터 (어디서도 참조 안 됨)
 ref_loc=set(); ref_fac=set(); ref_ch=set()
 for e in events:
@@ -149,6 +177,9 @@ info(f"[커버리지] 인물 심층서사(동기): {nar}/{len(chars)}")
 info(f"[커버리지] 인물 소속 기록: {aff}/{len(chars)}")
 info(f"[커버리지] 인물 변화(arc): {arc}/{len(chars)}")
 info(f"[커버리지] 사건 canon: " + ", ".join(f"{k}={v}" for k,v in Counter(e['canon_status'] for e in events).items()))
+linked=sum(1 for e in events if e.get("work"))
+info(f"[커버리지] 작품 연결 사건: {linked}/{len(events)}")
+info(f"[커버리지] 작품(films): {len(films)}편")
 info(f"[규모] events={len(events)} characters={len(chars)} locations={len(locs)} factions={len(facs)} relations={len(rels)}")
 
 # ================= 출력 =================
