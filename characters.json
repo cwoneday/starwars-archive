@@ -15,9 +15,27 @@
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "더 넓은 세계로 나가고 싶은 갈망에서 출발해, 아버지의 그림자를 마주하고 그를 구원하려는 믿음으로 자란다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "농장 소년에서 데스 스타를 부순 영웅으로."
+      },
+      {
+        "event": "battle-of-hoth",
+        "note": "요다를 찾아 제다이의 길을 배우기 시작한다."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "아버지 안의 빛을 믿고 검을 버려, 증오 대신 연민으로 시스를 끝낸다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-endor",
+        "note": "황제 앞에서 광선검을 내던진다 — 다크사이드를 거부한 결정적 선택."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-4-a-new-hope",
@@ -51,8 +69,17 @@
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "motivation": "예법과 안전을 중시하는 소심한 통역 드로이드. 그럼에도 늘 사건의 한복판을 떠나지 못한다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "어린 아나킨의 손에서 조립된다."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "이워크들에게 신으로 받들어져 뜻밖의 동맹을 이끈다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -89,8 +116,17 @@
     "birth_year_certainty": "referenced",
     "homeworld": "naboo",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "motivation": "주인을 향한 변함없는 충직함. 작은 몸으로 은하의 가장 큰 순간들마다 결정적 도움을 준다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "어린 파드메의 함선을 구해낸다."
+      },
+      {
+        "event": "battle-of-yavin",
+        "note": "설계도를 품고 반란에 불을 댕긴다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -127,9 +163,27 @@
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "한때 아나킨이었던 자아를 억누른 채 황제의 의지를 집행한다. 그러나 마음 깊은 곳엔 잃어버린 자신을 향한 미련이 남아 있다.",
+    "arc": [
+      {
+        "event": "battle-of-scarif",
+        "note": "제국의 칼로서 반란의 싹을 가차없이 쫓는다."
+      },
+      {
+        "event": "battle-of-hoth",
+        "note": "아들 루크의 존재를 알고 집착하기 시작한다."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "아들을 구하려 황제를 내치며 아나킨으로 돌아와 숨을 거둔다 — 구원."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-endor",
+        "note": "황제를 들어 던진 그 순간, 두려움이 아니라 사랑을 택한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-4-a-new-hope",
@@ -163,9 +217,23 @@
     "birth_year_certainty": "referenced",
     "homeworld": "alderaan",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "불의에 맞서는 타고난 지도자. 입양된 왕가의 신념과 친부의 어둠 사이에서도 흔들리지 않는다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "설계도를 지켜 반란의 불씨를 살린다."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "동맹을 이끌고 제국의 등뼈를 부순다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-yavin",
+        "note": "고문과 행성의 파괴 위협 앞에서도 기지의 위치를 끝까지 지킨다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-4-a-new-hope",
@@ -335,9 +403,27 @@
     "birth_year_certainty": "referenced",
     "homeworld": "stewjon",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "스승의 유지와 제다이의 규율에 충실하려는 책임감. 자신이 길러낸 제자의 타락을 평생 짊어지고 산다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "스승 퀴곤을 잃고 약속대로 아나킨을 떠맡는다."
+      },
+      {
+        "event": "order-66",
+        "note": "형제 같던 아나킨과 맞서 싸우고, 모든 걸 잃은 채 사막으로 숨는다."
+      },
+      {
+        "event": "battle-of-yavin",
+        "note": "은둔에서 나와 루크에게 길을 열어주고 스스로 포스가 된다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-yavin",
+        "note": "베이더 앞에서 검을 내려 죽음을 택해, 루크에게 더 큰 길을 남긴다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-4-a-new-hope",
@@ -373,9 +459,27 @@
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "사랑하는 이를 잃지 않으려는 두려움이 그의 가장 큰 힘이자 약점이다. 통제할 수 없는 상실 앞에서 그는 점점 더 큰 힘을 갈망한다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "노예 소년에서 제다이의 길로 들어선다. 어머니를 두고 떠나며 첫 상실을 마음에 새긴다."
+      },
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "기사로 성장하지만 분노와 자만도 함께 자란다."
+      },
+      {
+        "event": "order-66",
+        "note": "팰퍼틴의 거짓 약속에 매달려 다크사이드로 넘어가고, 지키려던 모든 것을 스스로 파괴한다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "order-66",
+        "note": "파드메를 구한다는 명분으로 시스에 무릎 꿇는다 — 두려움에 자유의지를 넘긴 순간."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace",
@@ -442,8 +546,17 @@
     "birth_year_certainty": "referenced",
     "homeworld": "kashyyyk",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "motivation": "생명의 빚과 의리로 맺어진 충성. 한 솔로의 곁을 평생 지킨다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "팰컨의 부조종사로 반란에 합류한다."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "지상전에서 제국군을 무너뜨린다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -467,7 +580,7 @@
     "name": "한 솔로",
     "name_en": "Han Solo",
     "alignment": "neutral",
-    "tier": 2,
+    "tier": 1,
     "era_primary": "age_of_rebellion",
     "height_cm": 180,
     "mass_kg": 80.0,
@@ -478,9 +591,27 @@
     "birth_year_certainty": "referenced",
     "homeworld": "corellia",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "냉소적인 밀수꾼에서 출발해, 대의와 우정을 위해 기꺼이 위험을 감수하는 사람으로 변한다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "보상만 좇다 결정적 순간 돌아와 루크를 구한다."
+      },
+      {
+        "event": "battle-of-hoth",
+        "note": "반란군의 일원으로 깊이 들어선다."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "장군으로서 지상 공격을 이끈다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-yavin",
+        "note": "떠났다가 되돌아온 그 선택이 데스 스타의 운명을 갈랐다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-4-a-new-hope",
@@ -546,8 +677,13 @@
     "birth_year_certainty": "referenced",
     "homeworld": "nal-hutta",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "motivation": "탐욕과 지배욕으로 외곽계 암흑가를 군림하는 범죄 군주.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "한 솔로의 빚을 빌미로 그를 옭아맨다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -649,9 +785,27 @@
     "birth_year_certainty": "referenced",
     "homeworld": null,
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "포스의 균형과 제다이의 지혜를 지키려는 천 년의 책임. 그러나 자신과 교단의 한계도 끝내 마주한다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "전쟁의 장군이 되며 제다이가 길을 잃기 시작함을 직감한다."
+      },
+      {
+        "event": "order-66",
+        "note": "교단의 몰락을 막지 못하고 망명을 택한다."
+      },
+      {
+        "event": "battle-of-hoth",
+        "note": "은둔에서 마지막 제자를 길러 다음 세대에 희망을 넘긴다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "order-66",
+        "note": "팰퍼틴과의 대결에서 물러나, 싸움 대신 미래를 기약하는 후퇴를 택한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-5-empire",
@@ -686,9 +840,35 @@
     "birth_year_certainty": "referenced",
     "homeworld": "naboo",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "은하 전체를 다크사이드 아래 두려는 권력 의지. 모든 갈등은 그가 양손에 쥔 각본이다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "위기를 연출해 최고의장 자리에 오른다."
+      },
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "전쟁의 양편을 모두 조종한다."
+      },
+      {
+        "event": "order-66",
+        "note": "제다이를 쓸어내고 제국을 선포해 권력을 완성한다."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "자만이 부른 함정에서 제자의 손에 떨어진다."
+      },
+      {
+        "event": "battle-of-exegol",
+        "note": "죽음마저 속이고 돌아오지만 끝내 혈통과 함대째 무너진다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "order-66",
+        "note": "오랜 잠복을 끝내고 단 한 번의 명령으로 은하의 주인이 된다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-5-empire",
@@ -723,8 +903,13 @@
     "birth_year_certainty": "referenced",
     "homeworld": "kamino",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "motivation": "아버지를 본떠 만들어진 최고의 사냥꾼. 명성과 보수, 그리고 아버지의 그림자를 좇는다.",
+    "arc": [
+      {
+        "event": "battle-of-hoth",
+        "note": "베이더에게 고용돼 한 솔로를 끝까지 추적한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -813,7 +998,7 @@
     "name": "랜도 칼리시안",
     "name_en": "Lando Calrissian",
     "alignment": "neutral",
-    "tier": 3,
+    "tier": 1,
     "era_primary": "age_of_rebellion",
     "height_cm": 177,
     "mass_kg": 79.0,
@@ -824,9 +1009,23 @@
     "birth_year_certainty": "referenced",
     "homeworld": "socorro",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "자기 사람들을 지키려는 생존주의자. 배신과 속죄 사이에서 결국 옳은 편을 택한다.",
+    "arc": [
+      {
+        "event": "battle-of-hoth",
+        "note": "도시를 지키려 친구를 제국에 넘기지만 곧 후회한다."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "팰컨을 몰아 제2 데스 스타를 부순다 — 속죄."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-endor",
+        "note": "한때 배신했던 그가 반란의 최전선에서 결정타를 날린다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-5-empire",
@@ -1045,7 +1244,7 @@
     "name": "퀴곤 진",
     "name_en": "Qui-Gon Jinn",
     "alignment": "light",
-    "tier": 2,
+    "tier": 1,
     "era_primary": "fall_of_the_jedi",
     "height_cm": 193,
     "mass_kg": 89.0,
@@ -1056,9 +1255,19 @@
     "birth_year_certainty": "referenced",
     "homeworld": null,
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "규율보다 살아있는 포스의 뜻을 따르려는 신념. 예언과 직관을 좇아 제다이의 통념에 맞선다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "아나킨을 '선택받은 자'로 알아보고, 그의 수련을 유언으로 남긴 채 몰에게 스러진다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-naboo",
+        "note": "평의회의 반대를 무릅쓰고 아나킨을 데려온다 — 모든 이야기의 첫 단추."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace"
@@ -1157,9 +1366,27 @@
     "birth_year_certainty": "referenced",
     "homeworld": "naboo",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "민주주의와 공화국의 이상을 지키려는 정치가의 신념. 그 신념과 한 사람을 향한 사랑 사이에서 끝내 갈린다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "어린 여왕으로서 점령당한 행성을 되찾는다."
+      },
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "원로원 의원으로 전쟁을 막으려 하지만 막지 못한다."
+      },
+      {
+        "event": "declaration-of-empire",
+        "note": "환호 속에 공화국이 제국으로 바뀌는 것을 절망 속에 지켜본다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "금지된 사랑을 받아들이며 의무와 마음 사이에서 마음을 택한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace",
@@ -1425,9 +1652,19 @@
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "아들의 자유와 미래를 위해 자신을 내어주는 어머니의 사랑.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "아들을 제다이의 길로 떠나보낸다 — 자유를 위해 곁을 포기한다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-naboo",
+        "note": "아들을 붙잡지 않고 보내는 선택이 한 영웅과 한 비극의 출발이 된다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace",
@@ -1448,7 +1685,7 @@
     "name": "다스 몰",
     "name_en": "Darth Maul",
     "alignment": "dark",
-    "tier": 2,
+    "tier": 1,
     "era_primary": "fall_of_the_jedi",
     "height_cm": 175,
     "mass_kg": 80.0,
@@ -1459,9 +1696,19 @@
     "birth_year_certainty": "referenced",
     "homeworld": "dathomir",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "복수와 인정에 굶주린 무기. 버려진 뒤에도 증오 하나로 스스로를 지탱한다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "시디어스의 칼로 나타나 퀴곤을 베지만 오비완에게 두 동강 난다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-naboo",
+        "note": "주인을 위해 제다이를 노린 습격에 모든 것을 건다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace"
@@ -1692,9 +1939,23 @@
     "birth_year_certainty": "referenced",
     "homeworld": "haruun-kal",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "제다이의 정통과 질서를 지키려는 강직함. 위협 앞에서는 단호함이 곧 정의라 믿는다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "평의회의 검으로 전장에 선다."
+      },
+      {
+        "event": "order-66",
+        "note": "시디어스의 정체를 밝혀 처단하려다 아나킨의 배신으로 추락한다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "order-66",
+        "note": "체포가 아닌 처형을 택하려는 순간, 그 강경함이 아나킨을 어둠으로 떠민다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace",
@@ -2234,9 +2495,23 @@
     "birth_year_certainty": "referenced",
     "homeworld": "serenno",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "부패한 공화국에 환멸을 느껴 떠났으나, 더 큰 어둠의 도구가 되어버린 이상주의자의 변질.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "분리주의의 얼굴로 전쟁을 이끈다."
+      },
+      {
+        "event": "order-66",
+        "note": "주인에게 버림받을 운명을 모른 채 충성한다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "제다이를 떠나 시스의 제자가 되기로 한 선택."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-2-attack-of-clones",
@@ -2268,9 +2543,27 @@
     "birth_year_certainty": "referenced",
     "homeworld": "alderaan",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "공화국의 이상을 끝까지 믿은 정치가. 제국의 그늘에서 조용히 저항의 씨를 심는다.",
+    "arc": [
+      {
+        "event": "declaration-of-empire",
+        "note": "자유가 죽는 원로원에 앉아 침묵 속에 결심한다."
+      },
+      {
+        "event": "rise-of-rebellion-cells",
+        "note": "흩어진 저항을 하나의 연합으로 엮는다."
+      },
+      {
+        "event": "battle-of-scarif",
+        "note": "레이아에게 설계도의 임무를 맡긴다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "rise-of-rebellion-cells",
+        "note": "딸 레이아를 저항의 길로 들이는 결정."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-2-attack-of-clones",

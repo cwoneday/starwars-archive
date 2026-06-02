@@ -169,6 +169,7 @@ function applyVisual(){
   g.select('text').attr('fill',d=>(selected&&d.id===selected)?'var(--ink)':'var(--dim)');
 }
 function select(id){selected=id;applyVisual();updateLOD();if(!id){detail.classList.remove('show');return;}showDetail(nodeById.get(id));}
+let NARR={};
 function showDetail(d){
   const groups={family:[],master:[],ally:[],rival:[]};
   nbT.get(d.id).forEach(n=>groups[n.type].push(n));
@@ -187,6 +188,12 @@ function showDetail(d){
   Object.keys(REL).forEach(type=>{if(!groups[type].length)return;
     html+=`<div class="rel-group" style="margin-top:12px"><div class="lbl" style="color:${REL[type].c}"><span class="bar" style="background:${REL[type].c}"></span>${REL[type].ko} ${groups[type].length}</div>`;
     html+=groups[type].map(n=>{let dir="";if(type==="master")dir=n.role==="master"?'<span class="rel-dir"> → 제자</span>':'<span class="rel-dir"> ← 스승</span>';return `<span class="chip" data-id="${n.id}">${nodeById.get(n.id).kr}${dir}</span>`;}).join('')+`</div>`;});
+  const nr=NARR[d.id];
+  if(nr&&nr.motivation){
+    html+=`<div class="conns"><div class="fb-label">동기 · Motivation</div><p style="font-size:12px;color:var(--ink);line-height:1.6;margin:0 0 10px">${nr.motivation}</p>`;
+    if(nr.arc&&nr.arc.length){html+=`<div class="fb-label">변화 · Arc</div>`+nr.arc.map(a=>`<div style="font-size:11px;color:var(--dim);line-height:1.55;margin-bottom:7px;padding-left:9px;border-left:1px solid var(--line)">${a.event?`<a href="event-detail.html?id=${a.event}" style="color:var(--holo);text-decoration:none;font-family:var(--fm);font-size:10px">▸ ${a.event}</a><br>`:""}${a.note}</div>`).join("");}
+    html+=`</div>`;
+  }
   const cc=nbC.get(d.id).size;
   html+=`<div class="conns"><div class="fb-label">공동출연 ${cc}명</div>${[...nbC.get(d.id)].sort((a,b)=>nbC.get(b).size-nbC.get(a).size).slice(0,10).map(id=>`<span class="chip" data-id="${id}">${nodeById.get(id).kr}</span>`).join('')}${cc>10?`<span class="chip" style="cursor:default;opacity:.5">+${cc-10}</span>`:''}</div>`;
   detail.innerHTML=html;detail.classList.add('show');
@@ -201,6 +208,7 @@ document.getElementById('coappBtn').onclick=function(){showCoapp=!showCoapp;this
 document.getElementById('search').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();if(!q){select(null);return;}const hit=nodes.find(n=>n.kr.toLowerCase().includes(q)||n.en.toLowerCase().includes(q));if(hit)select(hit.id);});
 function updateFooter(){const tl=typed.filter(l=>activeTypes.has(l.type)).length;document.getElementById('footer').innerHTML=`인물 <b>82</b> · 관계선 <b>${tl}</b>${showCoapp?` · 공동출연 <b>${coapp.length}</b>`:''} · 타입 <b>${activeTypes.size}/4</b>`;}
 updateFooter();updateLOD();
+fetch('characters.json').then(r=>r.json()).then(cs=>{NARR=Object.fromEntries(cs.map(c=>[c.id,{motivation:c.motivation,arc:c.arc}]));if(selected)showDetail(nodeById.get(selected));}).catch(()=>{});
 const _f=new URLSearchParams(location.search).get('focus');if(_f&&nodeById.get(_f)){setTimeout(()=>{select(_f);zoomToNode(_f);},900);}
 window.addEventListener('resize',()=>{resize();sim.force('center',d3.forceCenter(W/2,H/2));sim.alpha(.2).restart();});
 </script></body></html>
