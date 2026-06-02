@@ -49,7 +49,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
 .notfound{text-align:center;padding:80px 20px;color:var(--dim)}
 .legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
-</style></head>
+a.film-tag{text-decoration:none;color:inherit;cursor:pointer}a.film-tag:hover{border-color:var(--holo)}</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -90,7 +90,7 @@ body{padding-top:46px}</style>
 </style>
 <main class="wrap" id="app"></main>
 <script>
-let CH={},REL=[],EVBY={},LOC={};
+let CH={},REL=[],EVBY={},LOC={},FACMAP={};
 const ERA={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
 const ALIGN={light:"var(--light)",dark:"var(--dark)",neutral:"var(--neutral)"};
 const ALIGNHEX={light:"#5aa9ff",dark:"#ff5a4d",neutral:"#c2a86a"};
@@ -145,6 +145,14 @@ function render(){
       <div class="stat"><span class="k">고향</span><span class="v">${home?`<a href="location-detail.html?id=${d.homeworld}" style="color:var(--holo);text-decoration:none">${esc(home)}</a>`:(d.homeworld||"불명")}</span></div>
       <div class="stat"><span class="k">등장</span><span class="v">${appears.length}개 사건</span></div>
     </div>`;
+  const aff=d.affiliation_history||[];
+  if(aff.length){
+    html+=`<div class="sec-label">소속 · Affiliation</div><div class="chips">`+aff.map(a=>{
+      const fn=FACMAP[a.faction]||a.faction;
+      const per=(a.from_event&&EVBY[a.from_event]?EVBY[a.from_event].year_label:"")+(a.to_event&&EVBY[a.to_event]?` ~ ${EVBY[a.to_event].year_label}`:(a.from_event&&EVBY[a.from_event]?" ~":""));
+      return `<a class="chip" href="faction-detail.html?id=${a.faction}"><span class="nm">${esc(fn)}</span>${per?`<span class="ref">${esc(per)}</span>`:""}</a>`;
+    }).join("")+`</div>`;
+  }
   if(d.motivation){
     html+=`<div class="sec-label">동기 · Motivation</div><p class="sec-body">${esc(d.motivation)}</p>`;
   }
@@ -170,7 +178,7 @@ function render(){
   html+=`<div class="sec-label" style="margin-top:18px">등장 사건 · Appears In (${appears.length})</div>`;
   html+= appears.length?`<div class="chips">${appears.map(e=>`<a class="chip" href="event-detail.html?id=${e.id}"><span class="nm">${esc(e.title)}</span><span class="ref">${esc(e.year_label)}</span></a>`).join("")}</div>`:`<p class="sec-body dim">events.json에서 직접 참조된 사건이 없습니다.</p>`;
 
-  if(fl.length){html+=`<div class="sec-label" style="margin-top:18px">출연작 · Filmography</div>`+fl.map(w=>`<span class="film-tag"><b>${WORKS[w][0]}</b> ${WORKS[w][1]}</span>`).join("");}
+  if(fl.length){html+=`<div class="sec-label" style="margin-top:18px">출연작 · Filmography</div>`+fl.map(w=>`<a class="film-tag" href="film-detail.html?id=${w}"><b>${WORKS[w][0]}</b> ${WORKS[w][1]}</a>`).join("");}
 
   html+=`<div class="srcline" style="margin-top:14px">출처 · <b>${esc(d.source)}</b> · ${d.source_type} · canon ${d.canon_status}</div>
     <div class="legend-hint">동기·변화·결정적 선택 = 인물 프로파일러(제3·6조) · 관계 = 관계 추출자(제4조) · 등장 사건 = events.json 역참조 · 실루엣 = asset-designer(제6조).</div>
@@ -180,8 +188,8 @@ function render(){
   app.innerHTML=html;window.scrollTo(0,0);
 }
 async function load(){try{
-  const [cs,rl,ev,lo]=await Promise.all([fetch("characters.json").then(r=>r.json()),fetch("relations.json").then(r=>r.json()),fetch("events.json").then(r=>r.json()),fetch("locations.json").then(r=>r.json())]);
-  CH=Object.fromEntries(cs.map(c=>[c.id,c]));REL=rl;EVBY=Object.fromEntries(ev.map(e=>[e.id,e]));LOC=Object.fromEntries(lo.map(l=>[l.id,l.name]));render();
+  const [cs,rl,ev,lo,fa]=await Promise.all([fetch("characters.json").then(r=>r.json()),fetch("relations.json").then(r=>r.json()),fetch("events.json").then(r=>r.json()),fetch("locations.json").then(r=>r.json()),fetch("factions.json").then(r=>r.json())]);
+  CH=Object.fromEntries(cs.map(c=>[c.id,c]));REL=rl;EVBY=Object.fromEntries(ev.map(e=>[e.id,e]));LOC=Object.fromEntries(lo.map(l=>[l.id,l.name]));FACMAP=Object.fromEntries(fa.map(f=>[f.id,f.name]));render();
 }catch(err){document.getElementById("app").innerHTML=`<div class="notfound"><div style="font-family:var(--fd);font-size:1.1rem;color:var(--ink);margin-bottom:14px">데이터 파일을 불러오지 못했습니다</div>characters·relations·events·locations.json을 직접 읽습니다 (헌법 제2조).<br>더블클릭은 file:// 보안정책에 막힙니다. 로컬 서버로 열어주세요:<br><br><code style="color:var(--holo);font-family:var(--fm)">python3 -m http.server</code></div>`;}}
 window.addEventListener("popstate",render);
 document.addEventListener("click",e=>{const a=e.target.closest('a[href^="?id="]');if(a){e.preventDefault();history.pushState({},"",a.getAttribute("href"));render();}});

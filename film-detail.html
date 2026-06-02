@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>사건 기록 · EVENT RECORD</title>
+<title>작품 기록 · FILM RECORD</title>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--void:#04060b;--base:#080c14;--panel:#0e131c;--elevated:#141b27;--ink:#dce4ee;--dim:#8b97a8;--faint:#515c6b;
@@ -62,7 +62,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
 .notfound{text-align:center;padding:80px 20px;color:var(--dim)}
 .legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
-.worklink{color:var(--holo);text-decoration:none}.worklink:hover{text-decoration:underline}</style></head>
+</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -92,118 +92,81 @@ body{padding-top:46px}</style>
 </defs></svg>
 <main class="wrap" id="app"></main>
 <script>
-let EVENTS=[],BYID={},CHARMAP={},LOCMAP={},FACMAP={};
-const ERABG={
- dawn_of_the_jedi:{g:["#1a2a3a","#0a1118"],a:[0.15,0.45,0.5]},
- high_republic:{g:["#3a3320","#15110a"],a:[0.6,0.5,0.2]},
- fall_of_the_jedi:{g:["#2a2230","#120a14"],a:[0.55,0.35,0.2]},
- reign_of_the_empire:{g:["#0d1622","#070b12"],a:[0.25,0.34,0.45]},
- age_of_rebellion:{g:["#16233a","#0a1018"],a:[0.2,0.45,0.7]},
- new_republic:{g:["#16302a","#0a1812"],a:[0.2,0.55,0.45]},
- rise_of_the_first_order:{g:["#2a0d0d","#120708"],a:[0.7,0.18,0.12]},
- new_jedi_order:{g:["#1a2740","#0a1322"],a:[0.4,0.55,0.7]}
-};
+const ERA_KO={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
+const TRI_KO={prequel:"프리퀄 3부작",original:"오리지널 3부작",sequel:"시퀄 3부작",none:"단독"};
+const ALIGN_KO={light:"라이트",dark:"다크",neutral:"중립"};
+const EMBC2={light:"#5aa9ff",dark:"#ff5a4d",neutral:"#c2a86a"};
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const ERABG={dawn_of_the_jedi:{g:["#1a2a3a","#0a1118"],a:[0.15,0.45,0.5]},high_republic:{g:["#3a3320","#15110a"],a:[0.6,0.5,0.2]},fall_of_the_jedi:{g:["#2a2230","#120a14"],a:[0.55,0.35,0.2]},reign_of_the_empire:{g:["#0d1622","#070b12"],a:[0.25,0.34,0.45]},age_of_rebellion:{g:["#16233a","#0a1018"],a:[0.2,0.45,0.7]},new_republic:{g:["#16302a","#0a1812"],a:[0.2,0.55,0.45]},rise_of_the_first_order:{g:["#2a0d0d","#120708"],a:[0.7,0.18,0.12]},new_jedi_order:{g:["#1a2740","#0a1322"],a:[0.4,0.55,0.7]}};
 const STARS=(()=>{let r=7,out="";const rnd=()=>{r=(r*9301+49297)%233280;return r/233280};for(let i=0;i<26;i++){out+=`<circle cx="${(rnd()*1200)|0}" cy="${(rnd()*800)|0}" r="${(rnd()*1.4+0.5).toFixed(1)}" fill="#eaf2ff" opacity="${(rnd()*0.5+0.3).toFixed(2)}"/>`}return out})();
-function eraBackdrop(era){const c=ERABG[era]||ERABG.dawn_of_the_jedi;const[ar,ag,ab]=c.a;
- return `<svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="eg" cx="35%" cy="28%" r="90%"><stop offset="0%" stop-color="${c.g[0]}"/><stop offset="55%" stop-color="${c.g[1]}"/><stop offset="100%" stop-color="#04060b"/></radialGradient><filter id="ef"><feTurbulence type="fractalNoise" baseFrequency="0.006 0.009" numOctaves="3" seed="9"/><feColorMatrix type="matrix" values="0 0 0 0 ${ar}  0 0 0 0 ${ag}  0 0 0 0 ${ab}  0 0 0 0.5 0"/></filter></defs><rect width="1200" height="800" fill="url(#eg)"/><rect width="1200" height="800" filter="url(#ef)" opacity="0.32"/>${STARS}</svg>`;
-}
+function eraBackdrop(era){const c=ERABG[era]||ERABG.age_of_rebellion;const[ar,ag,ab]=c.a;return `<svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="eg" cx="35%" cy="28%" r="90%"><stop offset="0%" stop-color="${c.g[0]}"/><stop offset="55%" stop-color="${c.g[1]}"/><stop offset="100%" stop-color="#04060b"/></radialGradient><filter id="ef"><feTurbulence type="fractalNoise" baseFrequency="0.006 0.009" numOctaves="3" seed="9"/><feColorMatrix type="matrix" values="0 0 0 0 ${ar}  0 0 0 0 ${ag}  0 0 0 0 ${ab}  0 0 0 0.5 0"/></filter></defs><rect width="1200" height="800" fill="url(#eg)"/><rect width="1200" height="800" filter="url(#ef)" opacity="0.32"/>${STARS}</svg>`;}
 
-const ERA={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
-const CAT={battle:"전투",duel:"결투",politics:"정치",mission:"임무",founding:"창건",fall:"몰락",discovery:"발견",treaty:"조약",other:"기타"};
-const STYP={film:"영화",series:"시리즈",novel:"소설",comic:"코믹",game:"게임"};
-const CERT_BORDER={exact:"solid",approximate:"dashed",disputed:"dotted"};
-const CERT_KO={exact:"확정",approximate:"근사",disputed:"논쟁"};
-const CANON_OP={explicit:1,referenced:.9,inferred:.78};
-const CANON_KO={explicit:"명시",referenced:"언급",inferred:"추론"};
-const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const EMBC={light:"#5aa9ff",dark:"#ff5a4d",neutral:"#c2a86a"};
-function facEmb(f){const a=(FACMAP[f]&&FACMAP[f].a)||"neutral";const n=FACMAP[f]?esc(FACMAP[f].n):f;return `<span class="fac"><svg class="emb-mini" style="color:${EMBC[a]}"><use href="#emb-${f}"/></svg>${n}</span>`;}
-function getId(){const u=new URLSearchParams(location.search);return u.get("id")||location.hash.replace("#","")||"battle-of-yavin";}
+let FILMS=[],BYID={},CHARS=[],EVENTS=[];
+const getId=()=>new URLSearchParams(location.search).get('id');
 
-function entityChips(ids,label,kind){
-  if(!ids||!ids.length)return"";
-  const chips=ids.map(id=>{
-    if(kind==="char"&&CHARMAP[id])return `<a class="chip" href="character-detail.html?id=${id}" title="${esc(CHARMAP[id])} 기록 보기"><span class="nm">${esc(CHARMAP[id])}</span><span class="ref">${esc(id)}</span></a>`;
-    if(kind==="loc"&&LOCMAP[id])return `<a class="chip" href="location-detail.html?id=${id}" title="${esc(LOCMAP[id].o)}"><span class="nm">${esc(LOCMAP[id].n)}</span><span class="ref">${esc(id)}</span></a>`;
-    if(kind==="fac"&&FACMAP[id])return `<a class="chip" href="faction-detail.html?id=${id}" title="${esc(FACMAP[id].o)}"><span class="nm">${esc(FACMAP[id].n)}</span><span class="ref">${esc(id)}</span></a>`;
-    return `<span class="chip pending" title="해당 축 준비 중"><span class="nm">${esc(id.replace(/-/g," "))}</span><span class="ref">${esc(id)}</span></span>`;
-  }).join("");
-  return `<div class="chip-group"><div class="grp-label">${label}</div><div class="chips">${chips}</div></div>`;
-}
-function navLink(id,dir){
-  if(!id||!BYID[id])return `<span style="flex:1"></span>`;
-  const e=BYID[id];const cls=dir==="next"?"next":"";
-  return `<a class="${cls}" href="?id=${id}"><div class="dir">${dir==="next"?"다음 사건 →":"← 이전 사건"}</div><div class="t">${esc(e.title)}</div></a>`;
-}
-function render(){
-  const e=BYID[getId()];const app=document.getElementById("app");
-  if(!e){app.innerHTML=`<div class="notfound">해당 사건 기록을 찾을 수 없습니다.<br><a class="back" href="timeline.html">← 타임라인으로</a></div>`;return;}
-  document.title=`${e.title} · 사건 기록`;
-  document.getElementById("eraBg").innerHTML=eraBackdrop(e.era);
-  app.innerHTML=`
-  <div class="hud-bar">
-    <a href="timeline.html">스타워즈 캐넌 아카이브</a><span class="sep">//</span>
-    <span>${e.era.toUpperCase()}</span><span class="sep">//</span><span class="id">${e.id}</span>
-  </div>
-  <article class="record" style="opacity:${CANON_OP[e.canon_status]||1}">
-    <span class="corner tl"></span><span class="corner br"></span>
-    <div class="kicker">사건 기록 · Event Record</div>
-    <h1>${esc(e.title)}</h1><div class="title-en">${esc(e.title_en)}</div>
-    <div class="meta">
-      <span class="badge year" style="border-style:${CERT_BORDER[e.year_certainty]}" title="연대 확정도: ${CERT_KO[e.year_certainty]}"><b>${esc(e.year_label)}</b></span>
-      <span class="badge">${ERA[e.era]}</span><span class="badge">${CAT[e.category]||e.category}</span>
-      <span class="badge">tier ${e.tier}</span><span class="badge canon" title="원작 확정도">canon · ${CANON_KO[e.canon_status]}</span>
-    </div>
-    <div class="rule"></div>
-    <p class="one-liner">${esc(e.one_liner)}</p>
-    <div class="readout">
-      <div><span class="k">era</span><span class="v">${e.era}</span></div>
-      <div><span class="k">year_value</span><span class="v">${e.year_value}</span></div>
-      <div><span class="k">year_certainty</span><span class="v">${e.year_certainty}</span></div>
-      <div><span class="k">tier</span><span class="v">${e.tier}</span></div>
-      <div><span class="k">category</span><span class="v">${e.category}</span></div>
-      <div><span class="k">canon_status</span><span class="v">${e.canon_status}</span></div>
-    </div>
-    ${e.belligerents?`<div class="sec-label">교전 · Belligerents</div><div class="belli"><div class="side"><div class="sl">SIDE A</div>${(e.belligerents.side_a||[]).map(facEmb).join("")||'<span class="fac" style="color:var(--faint)">—</span>'}</div><div class="vs">VS</div><div class="side"><div class="sl">SIDE B</div>${(e.belligerents.side_b||[]).map(facEmb).join("")||'<span class="fac" style="color:var(--faint)">—</span>'}</div></div>`:""}
-    ${e.outcome?`<div class="sec-label">결과 · Outcome</div><p class="outcome">${esc(e.outcome)}</p>`:""}
-    ${e.key_figures&&e.key_figures.length?`<div class="sec-label">핵심 인물 · Key Figures</div><div class="kfig">${e.key_figures.map(id=>CHARMAP[id]?`<a class="chip" href="character-detail.html?id=${id}"><span class="nm">${esc(CHARMAP[id])}</span></a>`:"").join("")}</div>`:""}
-    ${e.background?`<div class="sec-label">배경 · Background</div><p class="sec-body">${esc(e.background)}</p>`:""}
-    <div class="sec-label">개요 · Summary</div><p class="sec-body">${esc(e.summary)}</p>
-    ${e.significance?`<div class="sec-label">의미 · Significance</div><p class="sec-body dim">${esc(e.significance)}</p>`:""}
-    ${e.aftermath?`<div class="sec-label">여파 · Aftermath</div><p class="sec-body">${esc(e.aftermath)}</p>`:""}
-    ${e.deep_dive&&e.deep_dive.length?`<div class="sec-label">전개 · Deep Dive</div><div class="dd">${e.deep_dive.map(d=>`<div class="step"><div class="ph">${esc(d.phase)}</div><div class="nt">${esc(d.note)}</div></div>`).join("")}</div>`:""}
-    <div class="rule"></div>
-    <div class="sec-label">연결 · Linked Entities</div>
-    ${entityChips(e.characters,"인물 · characters","char")}
-    ${entityChips(e.locations,"장소 · locations","loc")}
-    ${entityChips(e.factions,"세력 · factions","fac")}
-    <div class="srcline">출처 · <b>${esc(e.source)}</b> · ${STYP[e.source_type]||e.source_type}${e.work?` · <a class="worklink" href="film-detail.html?id=${e.work}">작품 보기 ▸</a>`:""}</div>
-    ${e.tags&&e.tags.length?`<div class="tags">${e.tags.map(t=>`<span class="tag">#${esc(t)}</span>`).join("")}</div>`:""}
-    <div class="legend-hint">연대 배지 테두리 = 확정도(실선 확정 · 파선 근사 · 점선 논쟁) · 기록 투명도 = 원작 확정도(명시·언급·추론). 데이터 그대로의 시각 인코딩입니다 (헌법 제5조).</div>
-  </article>
-  <div class="nav">${navLink(e.preceded_by&&e.preceded_by[0],"prev")}${navLink(e.followed_by&&e.followed_by[0],"next")}</div>
-  <a class="back" href="timeline.html">← 전체 타임라인으로</a>`;
-  window.scrollTo(0,0);
-}
-async function loadData(){
+async function load(){
   try{
-    const [ev,ch,lo,fa]=await Promise.all([
-      fetch("events.json").then(r=>r.json()),
-      fetch("characters.json").then(r=>r.json()),
-      fetch("locations.json").then(r=>r.json()),
-      fetch("factions.json").then(r=>r.json())
-    ]);
-    EVENTS=ev;BYID=Object.fromEntries(ev.map(e=>[e.id,e]));
-    CHARMAP=Object.fromEntries(ch.map(c=>[c.id,c.name]));
-    LOCMAP=Object.fromEntries(lo.map(l=>[l.id,{n:l.name,o:l.one_liner}]));
-    FACMAP=Object.fromEntries(fa.map(f=>[f.id,{n:f.name,o:f.one_liner,a:f.alignment}]));
+    const [fi,ch,ev]=await Promise.all(["films.json","characters.json","events.json"].map(f=>fetch(f).then(r=>r.json())));
+    FILMS=fi; CHARS=ch; EVENTS=ev; BYID=Object.fromEntries(fi.map(f=>[f.id,f]));
     render();
   }catch(err){
-    document.getElementById("app").innerHTML=`<div class="notfound"><div style="font-family:var(--fd);font-size:1.1rem;color:var(--ink);margin-bottom:14px">데이터 파일을 불러오지 못했습니다</div>이 페이지는 events·characters·locations·factions.json을 직접 읽습니다 (헌법 제2조 — 하나의 공유 스키마).<br>파일을 더블클릭하면 브라우저 보안정책(file://)이 막습니다. 로컬 서버로 열어주세요:<br><br><code style="color:var(--holo);font-family:var(--fm)">python3 -m http.server</code><br><br>그 뒤 <code style="color:var(--holo);font-family:var(--fm)">localhost:8000/event-detail.html?id=battle-of-yavin</code></div>`;
+    document.getElementById("app").innerHTML=`<div class="notfound"><div style="font-family:var(--fd);font-size:1.1rem;color:var(--ink);margin-bottom:14px">데이터를 불러오지 못했습니다</div>films/characters/events.json을 직접 읽습니다. 로컬 서버/GitHub Pages로 열어주세요:<br><br><code style="color:var(--holo);font-family:var(--fm)">python3 -m http.server</code></div>`;
   }
 }
-window.addEventListener("popstate",render);
-document.addEventListener("click",e=>{const a=e.target.closest('a[href^="?id="]');if(a){e.preventDefault();history.pushState({},"",a.getAttribute("href"));render();}});
-loadData();
+function render(){
+  const f=BYID[getId()], app=document.getElementById("app");
+  if(!f){ app.innerHTML=`<div class="hud-bar"><a href="timeline.html">스타워즈 캐넌 아카이브</a><span class="sep">//</span><span>FILM RECORD</span></div><div class="notfound">해당 작품을 찾을 수 없습니다.<br><a class="back" href="timeline.html">← 타임라인으로</a></div>`; return; }
+  document.title=`${f.title} · 작품 기록`;
+  document.getElementById("eraBg").innerHTML=eraBackdrop(f.era_primary||"age_of_rebellion");
+
+  const chars=CHARS.filter(c=>(c.works||[]).includes(f.id)).sort((a,b)=>(a.tier-b.tier)||a.name.localeCompare(b.name,"ko"));
+  const evs=EVENTS.filter(e=>e.work===f.id).sort((a,b)=>a.year_value-b.year_value);
+  const prev=FILMS.find(x=>x.episode_number===f.episode_number-1);
+  const next=FILMS.find(x=>x.episode_number===f.episode_number+1);
+
+  const charChips=chars.length?chars.map(c=>{const a=ALIGN_KO[c.alignment]?EMBC2[c.alignment]:"var(--dim)";return `<a class="chip" href="character-detail.html?id=${c.id}"><span class="dot" style="background:${EMBC2[c.alignment]||'var(--faint)'}"></span><span class="nm">${esc(c.name)}</span></a>`;}).join(""):'<span class="empty">등록된 등장인물이 아직 없습니다.</span>';
+  const evChips=evs.length?evs.map(e=>`<a class="chip ev" href="event-detail.html?id=${e.id}"><span class="yr">${esc(e.year_label)}</span><span class="nm">${esc(e.title)}</span></a>`).join(""):'<span class="empty">연결된 사건이 아직 없습니다.</span>';
+
+  app.innerHTML=`
+    <div class="hud-bar"><a href="timeline.html">스타워즈 캐넌 아카이브</a><span class="sep">//</span><span>FILM RECORD</span></div>
+    <div class="kicker">작품 기록 · Film Record</div>
+    <h1 style="font-size:1.9rem;margin:2px 0 2px">${esc(f.title)}</h1>
+    <div class="title-en">${esc(f.title_en)}</div>
+    <div class="badges">
+      ${f.episode_number?`<span class="badge holo">EPISODE ${f.episode_number}</span>`:""}
+      ${f.trilogy?`<span class="badge">${esc(TRI_KO[f.trilogy]||f.trilogy)}</span>`:""}
+      ${f.release_year?`<span class="badge">${f.release_year}</span>`:""}
+      ${f.era_primary?`<span class="badge">${esc(ERA_KO[f.era_primary]||f.era_primary)}</span>`:""}
+      <span class="badge dim">${esc(f.canon_status)}</span>
+    </div>
+    <div class="sec-label">줄거리 · Summary</div><p class="sec-body">${esc(f.summary)}</p>
+    ${f.significance?`<div class="sec-label">의의 · Significance</div><p class="sec-body dim">${esc(f.significance)}</p>`:""}
+    <div class="sec-label">등장인물 · Characters <span class="cnt">(${chars.length})</span></div><div class="chips">${charChips}</div>
+    <div class="sec-label">수록 사건 · Events <span class="cnt">(${evs.length})</span></div><div class="chips">${evChips}</div>
+    ${(f.tags&&f.tags.length)?`<div class="sec-label">태그 · Tags</div><div class="tags">${f.tags.map(t=>`<span class="tag">#${esc(t)}</span>`).join("")}</div>`:""}
+    <div class="filmnav">
+      ${prev?`<a class="back" href="film-detail.html?id=${prev.id}">← EP${prev.episode_number} ${esc(prev.title)}</a>`:'<span></span>'}
+      ${next?`<a class="back" href="film-detail.html?id=${next.id}">EP${next.episode_number} ${esc(next.title)} →</a>`:'<span></span>'}
+    </div>
+    <a class="back" href="timeline.html" style="margin-top:18px">← 타임라인으로</a>`;
+}
+load();
 </script>
+<style>
+.title-en{font-family:var(--fm);font-size:12px;color:var(--dim);letter-spacing:.06em;margin-bottom:12px}
+.badges{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:8px}
+.badge{font-family:var(--fm);font-size:10px;letter-spacing:.06em;padding:4px 9px;border:1px solid var(--line);border-radius:20px;color:var(--ink)}
+.badge.holo{color:var(--holo);border-color:rgba(69,212,227,.4)}.badge.dim{color:var(--faint)}
+.cnt{color:var(--faint);font-size:10px}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:4px}
+.chip{display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink);font-size:13px;background:var(--void)}
+.chip:hover{border-color:var(--holo)}
+.chip .dot{width:8px;height:8px;border-radius:50%;flex:none}
+.chip.ev .yr{font-family:var(--fm);font-size:10px;color:var(--dim)}
+.empty{color:var(--faint);font-size:13px}
+.filmnav{display:flex;justify-content:space-between;gap:12px;margin-top:26px;flex-wrap:wrap}
+.filmnav .back{margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-family:var(--fm);font-size:11px;color:var(--dim)}
+</style>
 </body></html>
