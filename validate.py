@@ -21,6 +21,10 @@ try:
     vehicles=load('vehicles.json')
 except FileNotFoundError:
     vehicles=[]
+try:
+    starships=load('starships.json')
+except FileNotFoundError:
+    starships=[]
 
 ERR=[]; WARN=[]; INFO=[]
 def err(m): ERR.append(m)
@@ -163,6 +167,19 @@ for v in vehicles:
     if v.get('canon_status') and v['canon_status'] not in CANON:
         err(f"[vehicles:{v['id']}] canon_status 위반: {v['canon_status']}")
 
+# ================= starships (함선 축) =================
+dup_check(starships,'starships')
+for v in starships:
+    if 'id' not in v or 'name' not in v: err(f"[starships:{v.get('id','?')}] 필수 필드 누락")
+    for fi in v.get('films',[]):
+        if fi not in film_ids: err(f"[starships:{v['id']}] films 깨진 작품 참조: {fi}")
+    for p in v.get('pilots',[]):
+        if p not in char_ids_v: err(f"[starships:{v['id']}] pilots 깨진 인물 참조: {p}")
+    if v.get('affiliation') and v['affiliation'] not in fac_ids:
+        err(f"[starships:{v['id']}] affiliation 깨진 세력 참조: {v['affiliation']}")
+    if v.get('canon_status') and v['canon_status'] not in CANON:
+        err(f"[starships:{v['id']}] canon_status 위반: {v['canon_status']}")
+
 # 고아 데이터 (어디서도 참조 안 됨)
 ref_loc=set(); ref_fac=set(); ref_ch=set()
 for e in events:
@@ -199,6 +216,7 @@ linked=sum(1 for e in events if e.get("work"))
 info(f"[커버리지] 작품 연결 사건: {linked}/{len(events)}")
 info(f"[커버리지] 작품(films): {len(films)}편")
 info(f"[커버리지] 탈것(vehicles): {len(vehicles)}종 (조종사연결 "+str(sum(1 for v in vehicles if v.get('pilots')))+", 소속 "+str(sum(1 for v in vehicles if v.get('affiliation')))+")")
+info(f"[커버리지] 함선(starships): {len(starships)}종 (조종사연결 "+str(sum(1 for v in starships if v.get('pilots')))+", 소속 "+str(sum(1 for v in starships if v.get('affiliation')))+")")
 info(f"[규모] events={len(events)} characters={len(chars)} locations={len(locs)} factions={len(facs)} relations={len(rels)}")
 
 # ================= 출력 =================

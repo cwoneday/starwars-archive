@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>작품 기록 · FILM RECORD</title>
+<title>함선 아카이브 · STARSHIPS</title>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--void:#04060b;--base:#080c14;--panel:#0e131c;--elevated:#141b27;--ink:#dce4ee;--dim:#8b97a8;--faint:#515c6b;
@@ -62,10 +62,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
 .notfound{text-align:center;padding:80px 20px;color:var(--dim)}
 .legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
-.prod-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px;margin-top:4px}
-.prod-grid .pd{background:var(--void);border:1px solid var(--line);border-radius:8px;padding:9px 11px;display:flex;flex-direction:column;gap:3px}
-.prod-grid .pk{font-family:var(--fm);font-size:9px;letter-spacing:.08em;color:var(--faint);text-transform:uppercase}
-.prod-grid .pv{font-size:13px;color:var(--ink)}</style></head>
+.worklink{color:var(--holo);text-decoration:none}.worklink:hover{text-decoration:underline}</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -76,7 +73,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="films.html">작품</a><a href="vehicles.html" class="active">탈것</a><a href="starships.html" class="active">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <div class="era-bg" id="eraBg"></div>
 <style>.era-bg{position:fixed;inset:0;z-index:0;opacity:.5;pointer-events:none}.era-bg svg{width:100%;height:100%}</style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
@@ -95,88 +92,49 @@ body{padding-top:46px}</style>
 </defs></svg>
 <main class="wrap" id="app"></main>
 <script>
-const ERA_KO={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
-const TRI_KO={prequel:"프리퀄 3부작",original:"오리지널 3부작",sequel:"시퀄 3부작",none:"단독"};
-const ALIGN_KO={light:"라이트",dark:"다크",neutral:"중립"};
-const EMBC2={light:"#5aa9ff",dark:"#ff5a4d",neutral:"#c2a86a"};
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-
-const ERABG={dawn_of_the_jedi:{g:["#1a2a3a","#0a1118"],a:[0.15,0.45,0.5]},high_republic:{g:["#3a3320","#15110a"],a:[0.6,0.5,0.2]},fall_of_the_jedi:{g:["#2a2230","#120a14"],a:[0.55,0.35,0.2]},reign_of_the_empire:{g:["#0d1622","#070b12"],a:[0.25,0.34,0.45]},age_of_rebellion:{g:["#16233a","#0a1018"],a:[0.2,0.45,0.7]},new_republic:{g:["#16302a","#0a1812"],a:[0.2,0.55,0.45]},rise_of_the_first_order:{g:["#2a0d0d","#120708"],a:[0.7,0.18,0.12]},new_jedi_order:{g:["#1a2740","#0a1322"],a:[0.4,0.55,0.7]}};
-const STARS=(()=>{let r=7,out="";const rnd=()=>{r=(r*9301+49297)%233280;return r/233280};for(let i=0;i<26;i++){out+=`<circle cx="${(rnd()*1200)|0}" cy="${(rnd()*800)|0}" r="${(rnd()*1.4+0.5).toFixed(1)}" fill="#eaf2ff" opacity="${(rnd()*0.5+0.3).toFixed(2)}"/>`}return out})();
-function eraBackdrop(era){const c=ERABG[era]||ERABG.age_of_rebellion;const[ar,ag,ab]=c.a;return `<svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="eg" cx="35%" cy="28%" r="90%"><stop offset="0%" stop-color="${c.g[0]}"/><stop offset="55%" stop-color="${c.g[1]}"/><stop offset="100%" stop-color="#04060b"/></radialGradient><filter id="ef"><feTurbulence type="fractalNoise" baseFrequency="0.006 0.009" numOctaves="3" seed="9"/><feColorMatrix type="matrix" values="0 0 0 0 ${ar}  0 0 0 0 ${ag}  0 0 0 0 ${ab}  0 0 0 0.5 0"/></filter></defs><rect width="1200" height="800" fill="url(#eg)"/><rect width="1200" height="800" filter="url(#ef)" opacity="0.32"/>${STARS}</svg>`;}
-
-let FILMS=[],BYID={},CHARS=[],EVENTS=[],VEHS=[],SSS=[];
-const getId=()=>new URLSearchParams(location.search).get('id');
-
+const FAC_KO={"galactic-empire":"제국","rebel-alliance":"반란연합","galactic-republic":"공화국","trade-federation":"무역연합","confederacy-of-independent-systems":"분리주의","sith":"시스"};
+// vehicle_class → 한국어 그룹
+const GROUP=v=>{const c=(v.starship_class||"").toLowerCase();
+  if(c.includes("walker"))return "워커 · Walkers";
+  if(c.includes("starfighter")||c.includes("bomber"))return "전투기 · Starfighters";
+  if(c.includes("speeder")||c.includes("repulsor")||c.includes("airspeeder")||c.includes("air speeder"))return "스피더 · Speeders";
+  if(c.includes("gunship")||c.includes("tank")||c.includes("artillery"))return "전투 차량 · Combat";
+  if(c.includes("transport")||c.includes("landing")||c.includes("barge")||c.includes("skiff")||c.includes("shuttle")||c.includes("submarine")||c.includes("wheeled"))return "수송·기타 · Transport";
+  return "기타 · Other";};
+const ORDER=["전투기 · Starfighters","워커 · Walkers","전투 차량 · Combat","스피더 · Speeders","수송·기타 · Transport","기타 · Other"];
 async function load(){
+  const app=document.getElementById("app");
   try{
-    const [fi,ch,ev,vh,ss]=await Promise.all(["films.json","characters.json","events.json","vehicles.json","starships.json"].map(f=>fetch(f).then(r=>r.json())));
-    FILMS=fi; CHARS=ch; EVENTS=ev; VEHS=vh||[]; SSS=ss||[]; BYID=Object.fromEntries(fi.map(f=>[f.id,f]));
-    render();
-  }catch(err){
-    document.getElementById("app").innerHTML=`<div class="notfound"><div style="font-family:var(--fd);font-size:1.1rem;color:var(--ink);margin-bottom:14px">데이터를 불러오지 못했습니다</div>films/characters/events.json을 직접 읽습니다. 로컬 서버/GitHub Pages로 열어주세요:<br><br><code style="color:var(--holo);font-family:var(--fm)">python3 -m http.server</code></div>`;
-  }
-}
-function render(){
-  const f=BYID[getId()], app=document.getElementById("app");
-  if(!f){ app.innerHTML=`<div class="hud-bar"><a href="timeline.html">스타워즈 캐넌 아카이브</a><span class="sep">//</span><span>FILM RECORD</span></div><div class="notfound">해당 작품을 찾을 수 없습니다.<br><a class="back" href="timeline.html">← 타임라인으로</a></div>`; return; }
-  document.title=`${f.title} · 작품 기록`;
-  document.getElementById("eraBg").innerHTML=eraBackdrop(f.era_primary||"age_of_rebellion");
-
-  const chars=CHARS.filter(c=>(c.works||[]).includes(f.id)).sort((a,b)=>(a.tier-b.tier)||a.name.localeCompare(b.name,"ko"));
-  const evs=EVENTS.filter(e=>e.work===f.id).sort((a,b)=>a.year_value-b.year_value);
-  const prev=FILMS.find(x=>x.episode_number===f.episode_number-1);
-  const next=FILMS.find(x=>x.episode_number===f.episode_number+1);
-
-  const charChips=chars.length?chars.map(c=>{const a=ALIGN_KO[c.alignment]?EMBC2[c.alignment]:"var(--dim)";return `<a class="chip" href="character-detail.html?id=${c.id}"><span class="dot" style="background:${EMBC2[c.alignment]||'var(--faint)'}"></span><span class="nm">${esc(c.name)}</span></a>`;}).join(""):'<span class="empty">등록된 등장인물이 아직 없습니다.</span>';
-  const evChips=evs.length?evs.map(e=>`<a class="chip ev" href="event-detail.html?id=${e.id}"><span class="yr">${esc(e.year_label)}</span><span class="nm">${esc(e.title)}</span></a>`).join(""):'<span class="empty">연결된 사건이 아직 없습니다.</span>';
-
-  app.innerHTML=`
-    <div class="hud-bar"><a href="timeline.html">스타워즈 캐넌 아카이브</a><span class="sep">//</span><span>FILM RECORD</span></div>
-    <div class="kicker">작품 기록 · Film Record</div>
-    <h1 style="font-size:1.9rem;margin:2px 0 2px">${esc(f.title)}</h1>
-    <div class="title-en">${esc(f.title_en)}</div>
-    <div class="badges">
-      ${f.episode_number?`<span class="badge holo">EPISODE ${f.episode_number}</span>`:""}
-      ${f.trilogy?`<span class="badge">${esc(TRI_KO[f.trilogy]||f.trilogy)}</span>`:""}
-      ${f.release_year?`<span class="badge">${f.release_year}</span>`:""}
-      ${f.era_primary?`<span class="badge">${esc(ERA_KO[f.era_primary]||f.era_primary)}</span>`:""}
-      <span class="badge dim">${esc(f.canon_status)}</span>
-    </div>
-    ${(f.director||f.producer||f.release_date)?`<div class="sec-label">제작 정보 · Production</div><div class="prod-grid">
-      ${f.director?`<div class="pd"><span class="pk">감독 · Director</span><span class="pv">${esc(f.director)}</span></div>`:""}
-      ${f.producer?`<div class="pd"><span class="pk">제작 · Producer</span><span class="pv">${esc(f.producer)}</span></div>`:""}
-      ${f.release_date?`<div class="pd"><span class="pk">개봉일 · Released</span><span class="pv">${esc(f.release_date)}</span></div>`:""}
-    </div>`:""}
-    <div class="sec-label">줄거리 · Summary</div><p class="sec-body">${esc(f.summary)}</p>
-    ${f.significance?`<div class="sec-label">의의 · Significance</div><p class="sec-body dim">${esc(f.significance)}</p>`:""}
-    <div class="sec-label">등장인물 · Characters <span class="cnt">(${chars.length})</span></div><div class="chips">${charChips}</div>
-    <div class="sec-label">수록 사건 · Events <span class="cnt">(${evs.length})</span></div><div class="chips">${evChips}</div>
-    ${(()=>{const vs=VEHS.filter(v=>(v.films||[]).includes(f.id));return vs.length?`<div class="sec-label">등장 탈것 · Vehicles <span class="cnt">(${vs.length})</span></div><div class="chips">${vs.map(v=>`<a class="chip" href="vehicle-detail.html?id=${v.id}">${esc(v.name)}</a>`).join("")}</div>`:"";})()}
-    ${(()=>{const vs=SSS.filter(v=>(v.films||[]).includes(f.id));return vs.length?`<div class="sec-label">등장 함선 · Starships <span class="cnt">(${vs.length})</span></div><div class="chips">${vs.map(v=>`<a class="chip" href="starship-detail.html?id=${v.id}">${esc(v.name)}</a>`).join("")}</div>`:"";})()}
-    ${(f.tags&&f.tags.length)?`<div class="sec-label">태그 · Tags</div><div class="tags">${f.tags.map(t=>`<span class="tag">#${esc(t)}</span>`).join("")}</div>`:""}
-    <div class="filmnav">
-      ${prev?`<a class="back" href="film-detail.html?id=${prev.id}">← EP${prev.episode_number} ${esc(prev.title)}</a>`:'<span></span>'}
-      ${next?`<a class="back" href="film-detail.html?id=${next.id}">EP${next.episode_number} ${esc(next.title)} →</a>`:'<span></span>'}
-    </div>
-    <a class="back" href="timeline.html" style="margin-top:18px">← 타임라인으로</a>`;
+    const veh=await fetch("starships.json").then(r=>r.json());
+    const groups={};
+    veh.forEach(v=>{(groups[GROUP(v)]=groups[GROUP(v)]||[]).push(v);});
+    let html=`<div class="hud-bar"><a href="timeline.html">스타워즈 캐넌 아카이브</a><span class="sep">//</span><span>STARSHIPS</span></div>
+      <div class="kicker">함선 아카이브 · Starships</div><h1 style="font-size:1.8rem;margin-bottom:4px">함선</h1>
+      <p class="sec-body dim">우주 함선 ${veh.length}종. 전투기·대형함·수송선·요트를 작품·인물·세력과 연결합니다.</p>`;
+    ORDER.forEach(g=>{const list=(groups[g]||[]).sort((a,b)=>a.name.localeCompare(b.name,"ko"));if(!list.length)return;
+      html+=`<div class="sec-label">${g} <span class="cnt">(${list.length})</span></div><div class="vgrid">`;
+      list.forEach(v=>{const aff=v.affiliation?FAC_KO[v.affiliation]||v.affiliation:"";
+        html+=`<a class="vcard" href="starship-detail.html?id=${v.id}">
+          <div class="vc-name">${esc(v.name)}</div>
+          <div class="vc-en">${esc(v.name_en)}</div>
+          <div class="vc-meta">${esc(v.starship_class)}${aff?` · ${esc(aff)}`:""}</div>
+          <div class="vc-stat">${v.pilots&&v.pilots.length?`조종사 ${v.pilots.length} · `:""}작품 ${(v.films||[]).length}</div>
+        </a>`;});
+      html+=`</div>`;});
+    html+=`<a class="back" href="timeline.html" style="margin-top:20px">← 타임라인으로</a>`;
+    app.innerHTML=html;
+  }catch(e){app.innerHTML=`<div class="notfound">데이터를 불러오지 못했습니다. 로컬 서버/GitHub Pages로 열어주세요.</div>`;}
 }
 load();
 </script>
 <style>
-.title-en{font-family:var(--fm);font-size:12px;color:var(--dim);letter-spacing:.06em;margin-bottom:12px}
-.badges{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:8px}
-.badge{font-family:var(--fm);font-size:10px;letter-spacing:.06em;padding:4px 9px;border:1px solid var(--line);border-radius:20px;color:var(--ink)}
-.badge.holo{color:var(--holo);border-color:rgba(69,212,227,.4)}.badge.dim{color:var(--faint)}
 .cnt{color:var(--faint);font-size:10px}
-.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:4px}
-.chip{display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink);font-size:13px;background:var(--void)}
-.chip:hover{border-color:var(--holo)}
-.chip .dot{width:8px;height:8px;border-radius:50%;flex:none}
-.chip.ev .yr{font-family:var(--fm);font-size:10px;color:var(--dim)}
-.empty{color:var(--faint);font-size:13px}
-.filmnav{display:flex;justify-content:space-between;gap:12px;margin-top:26px;flex-wrap:wrap}
-.filmnav .back{margin:0}
-.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-family:var(--fm);font-size:11px;color:var(--dim)}
-</style>
-</body></html>
+.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:11px;margin-top:6px}
+.vcard{display:block;padding:13px;border:1px solid var(--line);border-radius:11px;background:var(--void);text-decoration:none;color:var(--ink)}
+.vcard:hover{border-color:var(--holo)}
+.vc-name{font-family:var(--fd);font-weight:700;font-size:1rem;line-height:1.25}
+.vc-en{font-family:var(--fm);font-size:10px;color:var(--dim);margin-top:2px}
+.vc-meta{font-size:11px;color:var(--dim);margin-top:8px}
+.vc-stat{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:3px}
+</style></body></html>
