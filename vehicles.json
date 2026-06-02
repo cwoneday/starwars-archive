@@ -1,0 +1,825 @@
+[
+  {
+    "id": "veh-sand-crawler",
+    "name": "샌드크롤러",
+    "name_en": "Sand Crawler",
+    "model": "Digger Crawler",
+    "manufacturer": "Corellia Mining Corporation",
+    "vehicle_class": "wheeled",
+    "cost_in_credits": "150000",
+    "length": "36.8",
+    "max_atmosphering_speed": "30",
+    "crew": "46",
+    "passengers": "30",
+    "cargo_capacity": "50000",
+    "consumables": "2 months",
+    "films": [
+      "ep-4-a-new-hope",
+      "ep-2-attack-of-clones"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-t-16-skyhopper",
+    "name": "T-16 스카이호퍼",
+    "name_en": "T-16 skyhopper",
+    "model": "T-16 skyhopper",
+    "manufacturer": "Incom Corporation",
+    "vehicle_class": "repulsorcraft",
+    "cost_in_credits": "14500",
+    "length": "10.4",
+    "max_atmosphering_speed": "1200",
+    "crew": "1",
+    "passengers": "1",
+    "cargo_capacity": "50",
+    "consumables": "0",
+    "films": [
+      "ep-4-a-new-hope"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-x-34-landspeeder",
+    "name": "X-34 랜드스피더",
+    "name_en": "X-34 landspeeder",
+    "model": "X-34 landspeeder",
+    "manufacturer": "SoroSuub Corporation",
+    "vehicle_class": "repulsorcraft",
+    "cost_in_credits": "10550",
+    "length": "3.4",
+    "max_atmosphering_speed": "250",
+    "crew": "1",
+    "passengers": "1",
+    "cargo_capacity": "5",
+    "films": [
+      "ep-4-a-new-hope"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-tie-ln-starfighter",
+    "name": "타이 파이터 (TIE/LN)",
+    "name_en": "TIE/LN starfighter",
+    "model": "Twin Ion Engine/Ln Starfighter",
+    "manufacturer": "Sienar Fleet Systems",
+    "vehicle_class": "starfighter",
+    "length": "6.4",
+    "max_atmosphering_speed": "1200",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "65",
+    "consumables": "2 days",
+    "films": [
+      "ep-4-a-new-hope",
+      "ep-5-empire",
+      "ep-6-return-of-jedi"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-empire",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-snowspeeder",
+    "name": "스노스피더",
+    "name_en": "Snowspeeder",
+    "model": "t-47 airspeeder",
+    "manufacturer": "Incom corporation",
+    "vehicle_class": "airspeeder",
+    "length": "4.5",
+    "max_atmosphering_speed": "650",
+    "crew": "2",
+    "passengers": "0",
+    "cargo_capacity": "10",
+    "films": [
+      "ep-5-empire"
+    ],
+    "pilots": [
+      "luke-skywalker",
+      "wedge-antilles"
+    ],
+    "affiliation": "rebel-alliance",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-tie-bomber",
+    "name": "타이 폭격기",
+    "name_en": "TIE bomber",
+    "model": "TIE/sa bomber",
+    "manufacturer": "Sienar Fleet Systems",
+    "vehicle_class": "space/planetary bomber",
+    "length": "7.8",
+    "max_atmosphering_speed": "850",
+    "crew": "1",
+    "passengers": "0",
+    "consumables": "2 days",
+    "films": [
+      "ep-5-empire",
+      "ep-6-return-of-jedi"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-empire",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-at-at",
+    "name": "AT-AT 워커",
+    "name_en": "AT-AT",
+    "model": "All Terrain Armored Transport",
+    "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+    "vehicle_class": "assault walker",
+    "length": "20",
+    "max_atmosphering_speed": "60",
+    "crew": "5",
+    "passengers": "40",
+    "cargo_capacity": "1000",
+    "films": [
+      "ep-5-empire",
+      "ep-6-return-of-jedi"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-empire",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-at-st",
+    "name": "AT-ST 워커",
+    "name_en": "AT-ST",
+    "model": "All Terrain Scout Transport",
+    "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+    "vehicle_class": "walker",
+    "length": "2",
+    "max_atmosphering_speed": "90",
+    "crew": "2",
+    "passengers": "0",
+    "cargo_capacity": "200",
+    "films": [
+      "ep-5-empire",
+      "ep-6-return-of-jedi"
+    ],
+    "pilots": [
+      "chewbacca"
+    ],
+    "affiliation": "galactic-empire",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-storm-iv-twin-pod-cloud-car",
+    "name": "클라우드 카",
+    "name_en": "Storm IV Twin-Pod cloud car",
+    "model": "Storm IV Twin-Pod",
+    "manufacturer": "Bespin Motors",
+    "vehicle_class": "repulsorcraft",
+    "cost_in_credits": "75000",
+    "length": "7",
+    "max_atmosphering_speed": "1500",
+    "crew": "2",
+    "passengers": "0",
+    "cargo_capacity": "10",
+    "consumables": "1 day",
+    "films": [
+      "ep-5-empire"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-sail-barge",
+    "name": "세일 바지",
+    "name_en": "Sail barge",
+    "model": "Modified Luxury Sail Barge",
+    "manufacturer": "Ubrikkian Industries Custom Vehicle Division",
+    "vehicle_class": "sail barge",
+    "cost_in_credits": "285000",
+    "length": "30",
+    "max_atmosphering_speed": "100",
+    "crew": "26",
+    "passengers": "500",
+    "cargo_capacity": "2000000",
+    "consumables": "Live food tanks",
+    "films": [
+      "ep-6-return-of-jedi"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-bantha-ii-cargo-skiff",
+    "name": "밴타-II 스키프",
+    "name_en": "Bantha-II cargo skiff",
+    "model": "Bantha-II",
+    "manufacturer": "Ubrikkian Industries",
+    "vehicle_class": "repulsorcraft cargo skiff",
+    "cost_in_credits": "8000",
+    "length": "9.5",
+    "max_atmosphering_speed": "250",
+    "crew": "5",
+    "passengers": "16",
+    "cargo_capacity": "135000",
+    "consumables": "1 day",
+    "films": [
+      "ep-6-return-of-jedi"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-tie-in-interceptor",
+    "name": "타이 인터셉터",
+    "name_en": "TIE/IN interceptor",
+    "model": "Twin Ion Engine Interceptor",
+    "manufacturer": "Sienar Fleet Systems",
+    "vehicle_class": "starfighter",
+    "length": "9.6",
+    "max_atmosphering_speed": "1250",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "75",
+    "consumables": "2 days",
+    "films": [
+      "ep-6-return-of-jedi"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-empire",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-imperial-speeder-bike",
+    "name": "제국 스피더 바이크",
+    "name_en": "Imperial Speeder Bike",
+    "model": "74-Z speeder bike",
+    "manufacturer": "Aratech Repulsor Company",
+    "vehicle_class": "speeder",
+    "cost_in_credits": "8000",
+    "length": "3",
+    "max_atmosphering_speed": "360",
+    "crew": "1",
+    "passengers": "1",
+    "cargo_capacity": "4",
+    "consumables": "1 day",
+    "films": [
+      "ep-6-return-of-jedi"
+    ],
+    "pilots": [
+      "luke-skywalker",
+      "leia-organa"
+    ],
+    "affiliation": "galactic-empire",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-vulture-droid",
+    "name": "벌처 드로이드",
+    "name_en": "Vulture Droid",
+    "model": "Vulture-class droid starfighter",
+    "manufacturer": "Haor Chall Engineering, Baktoid Armor Workshop",
+    "vehicle_class": "starfighter",
+    "length": "3.5",
+    "max_atmosphering_speed": "1200",
+    "crew": "0",
+    "passengers": "0",
+    "cargo_capacity": "0",
+    "films": [
+      "ep-1-phantom-menace",
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "affiliation": "trade-federation",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-multi-troop-transport",
+    "name": "다중 병력 수송선 (MTT)",
+    "name_en": "Multi-Troop Transport",
+    "model": "Multi-Troop Transport",
+    "manufacturer": "Baktoid Armor Workshop",
+    "vehicle_class": "repulsorcraft",
+    "cost_in_credits": "138000",
+    "length": "31",
+    "max_atmosphering_speed": "35",
+    "crew": "4",
+    "passengers": "112",
+    "cargo_capacity": "12000",
+    "films": [
+      "ep-1-phantom-menace"
+    ],
+    "pilots": [],
+    "affiliation": "trade-federation",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-armored-assault-tank",
+    "name": "장갑 강습 전차 (AAT)",
+    "name_en": "Armored Assault Tank",
+    "model": "Armoured Assault Tank",
+    "manufacturer": "Baktoid Armor Workshop",
+    "vehicle_class": "repulsorcraft",
+    "length": "9.75",
+    "max_atmosphering_speed": "55",
+    "crew": "4",
+    "passengers": "6",
+    "films": [
+      "ep-1-phantom-menace"
+    ],
+    "pilots": [],
+    "affiliation": "trade-federation",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-single-trooper-aerial-platform",
+    "name": "STAP",
+    "name_en": "Single Trooper Aerial Platform",
+    "model": "Single Trooper Aerial Platform",
+    "manufacturer": "Baktoid Armor Workshop",
+    "vehicle_class": "repulsorcraft",
+    "cost_in_credits": "2500",
+    "length": "2",
+    "max_atmosphering_speed": "400",
+    "crew": "1",
+    "passengers": "0",
+    "films": [
+      "ep-1-phantom-menace"
+    ],
+    "pilots": [],
+    "affiliation": "trade-federation",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-c-9979-landing-craft",
+    "name": "C-9979 강습정",
+    "name_en": "C-9979 landing craft",
+    "model": "C-9979 landing craft",
+    "manufacturer": "Haor Chall Engineering",
+    "vehicle_class": "landing craft",
+    "cost_in_credits": "200000",
+    "length": "210",
+    "max_atmosphering_speed": "587",
+    "crew": "140",
+    "passengers": "284",
+    "cargo_capacity": "1800000",
+    "consumables": "1 day",
+    "films": [
+      "ep-1-phantom-menace"
+    ],
+    "pilots": [],
+    "affiliation": "trade-federation",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-tribubble-bongo",
+    "name": "트라이버블 봉고",
+    "name_en": "Tribubble bongo",
+    "model": "Tribubble bongo",
+    "manufacturer": "Otoh Gunga Bongameken Cooperative",
+    "vehicle_class": "submarine",
+    "length": "15",
+    "max_atmosphering_speed": "85",
+    "crew": "1",
+    "passengers": "2",
+    "cargo_capacity": "1600",
+    "films": [
+      "ep-1-phantom-menace"
+    ],
+    "pilots": [
+      "obi-wan-kenobi",
+      "qui-gon-jinn"
+    ],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-sith-speeder",
+    "name": "시스 스피더",
+    "name_en": "Sith speeder",
+    "model": "FC-20 speeder bike",
+    "manufacturer": "Razalon",
+    "vehicle_class": "speeder",
+    "cost_in_credits": "4000",
+    "length": "1.5",
+    "max_atmosphering_speed": "180",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "2",
+    "films": [
+      "ep-1-phantom-menace"
+    ],
+    "pilots": [
+      "darth-maul"
+    ],
+    "affiliation": "sith",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-zephyr-g-swoop-bike",
+    "name": "제퍼-G 스웁 바이크",
+    "name_en": "Zephyr-G swoop bike",
+    "model": "Zephyr-G swoop bike",
+    "manufacturer": "Mobquet Swoops and Speeders",
+    "vehicle_class": "repulsorcraft",
+    "cost_in_credits": "5750",
+    "length": "3.68",
+    "max_atmosphering_speed": "350",
+    "crew": "1",
+    "passengers": "1",
+    "cargo_capacity": "200",
+    "films": [
+      "ep-2-attack-of-clones"
+    ],
+    "pilots": [
+      "anakin-skywalker"
+    ],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-koro-2-exodrive-airspeeder",
+    "name": "코로-2 에어스피더",
+    "name_en": "Koro-2 Exodrive airspeeder",
+    "model": "Koro-2 Exodrive airspeeder",
+    "manufacturer": "Desler Gizh Outworld Mobility Corporation",
+    "vehicle_class": "airspeeder",
+    "length": "6.6",
+    "max_atmosphering_speed": "800",
+    "crew": "1",
+    "passengers": "1",
+    "cargo_capacity": "80",
+    "films": [
+      "ep-2-attack-of-clones"
+    ],
+    "pilots": [
+      "zam-wesell"
+    ],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-xj-6-airspeeder",
+    "name": "XJ-6 에어스피더",
+    "name_en": "XJ-6 airspeeder",
+    "model": "XJ-6 airspeeder",
+    "manufacturer": "Narglatch AirTech prefabricated kit",
+    "vehicle_class": "airspeeder",
+    "length": "6.23",
+    "max_atmosphering_speed": "720",
+    "crew": "1",
+    "passengers": "1",
+    "films": [
+      "ep-2-attack-of-clones"
+    ],
+    "pilots": [
+      "anakin-skywalker"
+    ],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-laat-i",
+    "name": "LAAT/i 건쉽",
+    "name_en": "LAAT/i",
+    "model": "Low Altitude Assault Transport/infrantry",
+    "manufacturer": "Rothana Heavy Engineering",
+    "vehicle_class": "gunship",
+    "length": "17.4",
+    "max_atmosphering_speed": "620",
+    "crew": "6",
+    "passengers": "30",
+    "cargo_capacity": "170",
+    "films": [
+      "ep-2-attack-of-clones",
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-republic",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-laat-c",
+    "name": "LAAT/c 수송선",
+    "name_en": "LAAT/c",
+    "model": "Low Altitude Assault Transport/carrier",
+    "manufacturer": "Rothana Heavy Engineering",
+    "vehicle_class": "gunship",
+    "length": "28.82",
+    "max_atmosphering_speed": "620",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "40000",
+    "films": [
+      "ep-2-attack-of-clones"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-republic",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-at-te",
+    "name": "AT-TE 워커",
+    "name_en": "AT-TE",
+    "model": "All Terrain Tactical Enforcer",
+    "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards",
+    "vehicle_class": "walker",
+    "length": "13.2",
+    "max_atmosphering_speed": "60",
+    "crew": "6",
+    "passengers": "36",
+    "cargo_capacity": "10000",
+    "consumables": "21 days",
+    "films": [
+      "ep-2-attack-of-clones",
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-republic",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-spha",
+    "name": "SPHA 자주포",
+    "name_en": "SPHA",
+    "model": "Self-Propelled Heavy Artillery",
+    "manufacturer": "Rothana Heavy Engineering",
+    "vehicle_class": "walker",
+    "length": "140",
+    "max_atmosphering_speed": "35",
+    "crew": "25",
+    "passengers": "30",
+    "cargo_capacity": "500",
+    "consumables": "7 days",
+    "films": [
+      "ep-2-attack-of-clones"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-republic",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-flitknot-speeder",
+    "name": "플릿노트 스피더",
+    "name_en": "Flitknot speeder",
+    "model": "Flitknot speeder",
+    "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+    "vehicle_class": "speeder",
+    "cost_in_credits": "8000",
+    "length": "2",
+    "max_atmosphering_speed": "634",
+    "crew": "1",
+    "passengers": "0",
+    "films": [
+      "ep-2-attack-of-clones"
+    ],
+    "pilots": [
+      "dooku"
+    ],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-neimoidian-shuttle",
+    "name": "네이모이디안 셔틀",
+    "name_en": "Neimoidian shuttle",
+    "model": "Sheathipede-class transport shuttle",
+    "manufacturer": "Haor Chall Engineering",
+    "vehicle_class": "transport",
+    "length": "20",
+    "max_atmosphering_speed": "880",
+    "crew": "2",
+    "passengers": "6",
+    "cargo_capacity": "1000",
+    "consumables": "7 days",
+    "films": [
+      "ep-2-attack-of-clones",
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-geonosian-starfighter",
+    "name": "지오노시안 스타파이터",
+    "name_en": "Geonosian starfighter",
+    "model": "Nantex-class territorial defense",
+    "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
+    "vehicle_class": "starfighter",
+    "length": "9.8",
+    "max_atmosphering_speed": "20000",
+    "crew": "1",
+    "passengers": "0",
+    "films": [
+      "ep-2-attack-of-clones"
+    ],
+    "pilots": [],
+    "affiliation": "confederacy-of-independent-systems",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-tsmeu-6-personal-wheel-bike",
+    "name": "츠뮤-6 휠 바이크",
+    "name_en": "Tsmeu-6 personal wheel bike",
+    "model": "Tsmeu-6 personal wheel bike",
+    "manufacturer": "Z-Gomot Ternbuell Guppat Corporation",
+    "vehicle_class": "wheeled walker",
+    "cost_in_credits": "15000",
+    "length": "3.5",
+    "max_atmosphering_speed": "330",
+    "crew": "1",
+    "passengers": "1",
+    "cargo_capacity": "10",
+    "films": [
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [
+      "grievous"
+    ],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-emergency-firespeeder",
+    "name": "소방 스피더",
+    "name_en": "Emergency Firespeeder",
+    "model": "Fire suppression speeder",
+    "manufacturer": "unknown",
+    "vehicle_class": "fire suppression ship",
+    "crew": "2",
+    "films": [
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-droid-tri-fighter",
+    "name": "드로이드 트라이파이터",
+    "name_en": "Droid tri-fighter",
+    "model": "tri-fighter",
+    "manufacturer": "Colla Designs, Phlac-Arphocc Automata Industries",
+    "vehicle_class": "droid starfighter",
+    "cost_in_credits": "20000",
+    "length": "5.4",
+    "max_atmosphering_speed": "1180",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "0",
+    "films": [
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "affiliation": "confederacy-of-independent-systems",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-oevvaor-jet-catamaran",
+    "name": "오에바오르 제트 카타마란",
+    "name_en": "Oevvaor jet catamaran",
+    "model": "Oevvaor jet catamaran",
+    "manufacturer": "Appazanna Engineering Works",
+    "vehicle_class": "airspeeder",
+    "cost_in_credits": "12125",
+    "length": "15.1",
+    "max_atmosphering_speed": "420",
+    "crew": "2",
+    "passengers": "2",
+    "cargo_capacity": "50",
+    "consumables": "3 days",
+    "films": [
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-raddaugh-gnasp-fluttercraft",
+    "name": "라다우 플러터크래프트",
+    "name_en": "Raddaugh Gnasp fluttercraft",
+    "model": "Raddaugh Gnasp fluttercraft",
+    "manufacturer": "Appazanna Engineering Works",
+    "vehicle_class": "air speeder",
+    "cost_in_credits": "14750",
+    "length": "7",
+    "max_atmosphering_speed": "310",
+    "crew": "2",
+    "passengers": "0",
+    "cargo_capacity": "20",
+    "films": [
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-clone-turbo-tank",
+    "name": "클론 터보 탱크",
+    "name_en": "Clone turbo tank",
+    "model": "HAVw A6 Juggernaut",
+    "manufacturer": "Kuat Drive Yards",
+    "vehicle_class": "wheeled walker",
+    "cost_in_credits": "350000",
+    "length": "49.4",
+    "max_atmosphering_speed": "160",
+    "crew": "20",
+    "passengers": "300",
+    "cargo_capacity": "30000",
+    "consumables": "20 days",
+    "films": [
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-republic",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-corporate-alliance-tank-droid",
+    "name": "기업연합 탱크 드로이드",
+    "name_en": "Corporate Alliance tank droid",
+    "model": "NR-N99 Persuader-class droid enforcer",
+    "manufacturer": "Techno Union",
+    "vehicle_class": "droid tank",
+    "cost_in_credits": "49000",
+    "length": "10.96",
+    "max_atmosphering_speed": "100",
+    "crew": "0",
+    "passengers": "4",
+    "films": [
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "affiliation": "confederacy-of-independent-systems",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-droid-gunship",
+    "name": "드로이드 건쉽",
+    "name_en": "Droid gunship",
+    "model": "HMP droid gunship",
+    "manufacturer": "Baktoid Fleet Ordnance, Haor Chall Engineering",
+    "vehicle_class": "airspeeder",
+    "cost_in_credits": "60000",
+    "length": "12.3",
+    "max_atmosphering_speed": "820",
+    "crew": "0",
+    "passengers": "0",
+    "cargo_capacity": "0",
+    "films": [
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "affiliation": "confederacy-of-independent-systems",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  },
+  {
+    "id": "veh-at-rt",
+    "name": "AT-RT 워커",
+    "name_en": "AT-RT",
+    "model": "All Terrain Recon Transport",
+    "manufacturer": "Kuat Drive Yards",
+    "vehicle_class": "walker",
+    "cost_in_credits": "40000",
+    "length": "3.2",
+    "max_atmosphering_speed": "90",
+    "crew": "1",
+    "passengers": "0",
+    "cargo_capacity": "20",
+    "consumables": "1 day",
+    "films": [
+      "ep-3-revenge-of-sith"
+    ],
+    "pilots": [],
+    "affiliation": "galactic-republic",
+    "canon_status": "explicit",
+    "data_source": "SWAPI"
+  }
+]
