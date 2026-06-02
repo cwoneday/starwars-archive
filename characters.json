@@ -1118,7 +1118,12 @@
     "homeworld": null,
     "affiliation_history": [],
     "motivation": "감정 없는 암살 드로이드. 표적 제거를 유일한 목적으로 삼는다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-hoth",
+        "note": "베이더의 부름에 응한 암살 드로이드로 달아난 반란군을 쫓는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1151,7 +1156,12 @@
     "homeworld": "trandosha",
     "affiliation_history": [],
     "motivation": "사냥을 본능으로 여기는 트란도샨 헌터. 끈질긴 추적을 즐긴다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-hoth",
+        "note": "호스 전투 직후 베이더가 소집한 현상금 사냥꾼 중 하나로 팰컨 추격에 나선다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1794,7 +1804,12 @@
     "homeworld": "naboo",
     "affiliation_history": [],
     "motivation": "군구안 군대를 이끄는 노련한 지휘관. 행성의 위기에 앞장선다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "군구안 군대를 이끌고 평원에서 드로이드 군단과 맞선다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1827,8 +1842,18 @@
     "homeworld": "naboo",
     "affiliation_history": [],
     "motivation": "군구안족을 다스리는 자존심 강한 우두머리. 결국 외지인과 손잡아 행성을 지킨다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "오랜 불신을 접고 지상 동맹을 받아들여 행성 방어에 함께 나선다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-naboo",
+        "note": "외지인 여왕의 청을 받아들여 군구안 군대를 내준 결정."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace"
@@ -2571,7 +2596,12 @@
       }
     ],
     "motivation": "냉철한 비행 전문 제다이. 말보다 행동으로 평의회를 돕는다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "order-66",
+        "note": "시디어스를 체포하려는 시도에 가담했다가 그 자리에서 스러진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3252,7 +3282,12 @@
     "homeworld": null,
     "affiliation_history": [],
     "motivation": "은하 곳곳을 떠돈 정보통 요리사. 오랜 친구에게 결정적 단서를 건넨다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "그가 건넨 작은 단서가 클론 군대와 지오노시스로 이어지는 실마리가 된다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3285,7 +3320,12 @@
     "homeworld": "kamino",
     "affiliation_history": [],
     "motivation": "클론 생산을 관장하는 카미노안 총리. 거대한 군대를 사업처럼 다룬다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "그가 사업처럼 길러낸 클론 군대가 이 전투에서 처음 전장에 선다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3318,7 +3358,12 @@
     "homeworld": "kamino",
     "affiliation_history": [],
     "motivation": "클론 사업을 관리하는 카미노안 행정관. 차분하게 의뢰를 처리한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "그녀가 관리한 클론들이 지오노시스에서 공화국의 첫 군대로 투입된다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3621,7 +3666,12 @@
     "homeworld": "kashyyyk",
     "affiliation_history": [],
     "motivation": "카시크를 지키는 우키족 전사 우두머리. 동족과 함께 행성을 방어한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "order-66",
+        "note": "카시크 방어전 중 오더 66가 떨어지자 요다가 탈출하도록 돕는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3748,8 +3798,18 @@
     "homeworld": "utapau",
     "affiliation_history": [],
     "motivation": "우타파우의 행정 수반. 점령 세력의 위협을 외부에 은밀히 알린다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": "battle-of-utapau",
+        "note": "점령 세력의 위협을 무릅쓰고 오비완에게 그리버스의 위치를 은밀히 알린다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-utapau",
+        "note": "위험을 무릅쓴 한마디가 그리버스 추격의 결정적 단서가 된다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-3-revenge-of-sith"

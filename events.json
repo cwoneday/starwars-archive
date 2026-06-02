@@ -346,7 +346,8 @@
         "phase": "니힐의 그림자",
         "note": "사고 뒤에 변경의 약탈 집단 니힐의 흔적이 드러난다. 빛의 시대의 낙관에 첫 균열이 생기고, 새로운 위협의 윤곽이 나타난다."
       }
-    ]
+    ],
+    "work": "light-of-the-jedi"
   },
   {
     "id": "battle-of-kur",
@@ -395,7 +396,8 @@
     ],
     "followed_by": [
       "starlight-beacon"
-    ]
+    ],
+    "work": "light-of-the-jedi"
   },
   {
     "id": "starlight-beacon",
@@ -443,7 +445,8 @@
     "key_figures": [],
     "background": "변경계 수호와 탐사의 거점으로 삼기 위해 공화국이 거대한 우주 정거장을 봉헌·가동했다.",
     "aftermath": "빛의 시대를 상징하는 기념물이 되었지만, 곧 그 상징이 무너질 무대가 된다.",
-    "deep_dive": []
+    "deep_dive": [],
+    "work": "the-high-republic"
   },
   {
     "id": "attack-on-valo",
@@ -511,7 +514,8 @@
     ],
     "followed_by": [
       "fall-of-starlight"
-    ]
+    ],
+    "work": "the-rising-storm"
   },
   {
     "id": "fall-of-starlight",
@@ -559,7 +563,8 @@
     "key_figures": [],
     "background": "변경의 약탈 세력 니힐이 등대 격이던 정거장을 공격해 무너뜨렸다.",
     "aftermath": "빛의 시대를 떠받치던 상징이 사라지며 공화국의 자신감이 흔들렸고, 황금기가 저물기 시작한다.",
-    "deep_dive": []
+    "deep_dive": [],
+    "work": "the-high-republic"
   },
   {
     "id": "battle-of-naboo",
@@ -580,7 +585,9 @@
       "anakin-skywalker",
       "jar-jar-binks",
       "nute-gunray",
-      "r2-d2"
+      "r2-d2",
+      "roos-tarpals",
+      "rugor-nass"
     ],
     "locations": [
       "naboo"
@@ -824,7 +831,8 @@
     "tier": 2,
     "characters": [
       "obi-wan-kenobi",
-      "grievous"
+      "grievous",
+      "tion-medon"
     ],
     "locations": [
       "utapau"
@@ -885,7 +893,9 @@
       "anakin-skywalker",
       "yoda",
       "obi-wan-kenobi",
-      "mace-windu"
+      "mace-windu",
+      "tarfful",
+      "saesee-tiin"
     ],
     "locations": [
       "coruscant"
@@ -1150,7 +1160,8 @@
     ],
     "background": "제국의 압제에 맞서 흩어져 활동하던 저항 조직들이 서로를 찾아 하나의 연합으로 묶이기 시작했다.",
     "aftermath": "훗날 제국을 무너뜨릴 반란연합의 씨앗이 뿌려진 시기다.",
-    "deep_dive": []
+    "deep_dive": [],
+    "work": "rebels"
   },
   {
     "id": "ghorman-massacre",
@@ -1216,7 +1227,8 @@
     ],
     "followed_by": [
       "formation-of-rebel-alliance"
-    ]
+    ],
+    "work": "andor"
   },
   {
     "id": "formation-of-rebel-alliance",
@@ -1286,7 +1298,8 @@
     ],
     "followed_by": [
       "battle-of-scarif"
-    ]
+    ],
+    "work": "andor"
   },
   {
     "id": "battle-of-scarif",
@@ -1355,7 +1368,8 @@
         "phase": "불씨의 전달",
         "note": "베이더의 추격을 뚫고 설계도가 레이아의 함선으로 넘어간다. 야빈 전투 승리의 직접적 도화선이 된다."
       }
-    ]
+    ],
+    "work": "rogue-one"
   },
   {
     "id": "battle-of-yavin",
@@ -1678,7 +1692,8 @@
         "phase": "미지로의 후퇴",
         "note": "패배한 잔당은 미지의 영역으로 물러난다. 이 도주가 훗날 퍼스트 오더로 자라날 씨앗이 된다."
       }
-    ]
+    ],
+    "work": "aftermath-trilogy"
   },
   {
     "id": "galactic-concordance",
@@ -1728,7 +1743,8 @@
     ],
     "background": "자쿠의 패배 직후 제국은 항복 문서에 서명했다. 군비 제한과 배상이 명문화됐다.",
     "aftermath": "신공화국 시대가 공식 개막했지만, 제국 잔당을 음지로 밀어내 새로운 위협의 씨앗을 남겼다.",
-    "deep_dive": []
+    "deep_dive": [],
+    "work": "aftermath-trilogy"
   },
   {
     "id": "liberation-of-coruscant",
@@ -1777,7 +1793,8 @@
     ],
     "followed_by": [
       "military-disarmament"
-    ]
+    ],
+    "work": "aftermath-trilogy"
   },
   {
     "id": "military-disarmament",
@@ -1823,7 +1840,8 @@
     ],
     "followed_by": [
       "rise-of-the-resistance"
-    ]
+    ],
+    "work": "bloodline"
   },
   {
     "id": "rise-of-the-resistance",
@@ -1891,7 +1909,8 @@
     ],
     "followed_by": [
       "battle-of-takodana"
-    ]
+    ],
+    "work": "bloodline"
   },
   {
     "id": "battle-of-takodana",
