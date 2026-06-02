@@ -504,5 +504,38 @@
     "source": "스타워즈 캐넌",
     "source_type": "film",
     "canon_status": "referenced"
+  },
+  {
+    "id": "ahch-to",
+    "name": "아크-투",
+    "name_en": "Ahch-To",
+    "type": "planet",
+    "region": "미지의 영역",
+    "one_liner": "최초의 제다이 신전이 세워진 외딴 바다 섬 세계.",
+    "source": "스타워즈 전승",
+    "source_type": "film",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "tython",
+    "name": "타이손",
+    "name_en": "Tython",
+    "type": "planet",
+    "region": "딥 코어",
+    "one_liner": "포스가 강하게 흐르는 고대 행성. 제다이의 기원과 얽혀 있다.",
+    "source": "스타워즈 전승",
+    "source_type": "novel",
+    "canon_status": "inferred"
+  },
+  {
+    "id": "moraband",
+    "name": "모라반드",
+    "name_en": "Moraband",
+    "type": "planet",
+    "region": "외곽",
+    "one_liner": "시스의 고대 본향으로 전해지는 죽음의 행성.",
+    "source": "스타워즈 전승",
+    "source_type": "novel",
+    "canon_status": "inferred"
   }
 ]

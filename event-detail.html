@@ -74,9 +74,26 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
 <nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<div class="era-bg" id="eraBg"></div>
+<style>.era-bg{position:fixed;inset:0;z-index:0;opacity:.5;pointer-events:none}.era-bg svg{width:100%;height:100%}</style>
 <main class="wrap" id="app"></main>
 <script>
 let EVENTS=[],BYID={},CHARMAP={},LOCMAP={},FACMAP={};
+const ERABG={
+ dawn_of_the_jedi:{g:["#1a2a3a","#0a1118"],a:[0.15,0.45,0.5]},
+ high_republic:{g:["#3a3320","#15110a"],a:[0.6,0.5,0.2]},
+ fall_of_the_jedi:{g:["#2a2230","#120a14"],a:[0.55,0.35,0.2]},
+ reign_of_the_empire:{g:["#0d1622","#070b12"],a:[0.25,0.34,0.45]},
+ age_of_rebellion:{g:["#16233a","#0a1018"],a:[0.2,0.45,0.7]},
+ new_republic:{g:["#16302a","#0a1812"],a:[0.2,0.55,0.45]},
+ rise_of_the_first_order:{g:["#2a0d0d","#120708"],a:[0.7,0.18,0.12]},
+ new_jedi_order:{g:["#1a2740","#0a1322"],a:[0.4,0.55,0.7]}
+};
+const STARS=(()=>{let r=7,out="";const rnd=()=>{r=(r*9301+49297)%233280;return r/233280};for(let i=0;i<26;i++){out+=`<circle cx="${(rnd()*1200)|0}" cy="${(rnd()*800)|0}" r="${(rnd()*1.4+0.5).toFixed(1)}" fill="#eaf2ff" opacity="${(rnd()*0.5+0.3).toFixed(2)}"/>`}return out})();
+function eraBackdrop(era){const c=ERABG[era]||ERABG.dawn_of_the_jedi;const[ar,ag,ab]=c.a;
+ return `<svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="eg" cx="35%" cy="28%" r="90%"><stop offset="0%" stop-color="${c.g[0]}"/><stop offset="55%" stop-color="${c.g[1]}"/><stop offset="100%" stop-color="#04060b"/></radialGradient><filter id="ef"><feTurbulence type="fractalNoise" baseFrequency="0.006 0.009" numOctaves="3" seed="9"/><feColorMatrix type="matrix" values="0 0 0 0 ${ar}  0 0 0 0 ${ag}  0 0 0 0 ${ab}  0 0 0 0.5 0"/></filter></defs><rect width="1200" height="800" fill="url(#eg)"/><rect width="1200" height="800" filter="url(#ef)" opacity="0.32"/>${STARS}</svg>`;
+}
+
 const ERA={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
 const CAT={battle:"전투",duel:"결투",politics:"정치",mission:"임무",founding:"창건",fall:"몰락",discovery:"발견",treaty:"조약",other:"기타"};
 const STYP={film:"영화",series:"시리즈",novel:"소설",comic:"코믹",game:"게임"};
@@ -106,6 +123,7 @@ function render(){
   const e=BYID[getId()];const app=document.getElementById("app");
   if(!e){app.innerHTML=`<div class="notfound">해당 사건 기록을 찾을 수 없습니다.<br><a class="back" href="timeline.html">← 타임라인으로</a></div>`;return;}
   document.title=`${e.title} · 사건 기록`;
+  document.getElementById("eraBg").innerHTML=eraBackdrop(e.era);
   app.innerHTML=`
   <div class="hud-bar">
     <a href="timeline.html">스타워즈 캐넌 아카이브</a><span class="sep">//</span>

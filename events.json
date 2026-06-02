@@ -22,7 +22,7 @@
     "significance": "은하 역사 내내 반복될 빛과 어둠의 대립이 이 결성에서 비로소 제도화된 형태로 시작된다.",
     "preceded_by": [],
     "followed_by": [
-      "first-schism"
+      "first-jedi-temple"
     ],
     "tags": [
       "제다이",
@@ -59,6 +59,52 @@
     ]
   },
   {
+    "id": "first-jedi-temple",
+    "title": "최초의 제다이 신전",
+    "title_en": "First Jedi Temple",
+    "era": "dawn_of_the_jedi",
+    "year_value": -24900,
+    "year_label": "~24,900 BBY",
+    "year_certainty": "approximate",
+    "category": "founding",
+    "tier": 2,
+    "characters": [],
+    "locations": [
+      "ahch-to"
+    ],
+    "factions": [
+      "jedi-order"
+    ],
+    "source": "스타워즈 시퀄 3부작 (아크-투)",
+    "source_type": "film",
+    "canon_status": "referenced",
+    "one_liner": "외딴 섬 세계에 제다이의 첫 신전이 세워지다",
+    "summary": "갓 결성된 제다이는 포스가 깊이 흐르는 외딴 바다 세계에 첫 신전을 세웠다. 이곳은 교단의 가르침과 고대 문헌을 보관하는 정신적 중심이 된다.",
+    "significance": "제다이 전통이 물리적 거점을 갖춘 출발점으로, 수천 년 뒤까지 교단의 뿌리로 기억된다.",
+    "belligerents": {
+      "side_a": [
+        "jedi-order"
+      ],
+      "side_b": []
+    },
+    "outcome": "제다이 정신적 중심지 확립",
+    "key_figures": [],
+    "background": "흩어져 수련하던 제다이는 가르침과 지식을 한곳에 모을 거점이 필요했다.",
+    "aftermath": "신전은 교단의 성지로 남았고, 먼 훗날 마지막 제다이가 다시 이곳을 찾는다.",
+    "deep_dive": [],
+    "tags": [
+      "제다이",
+      "신전",
+      "기원"
+    ],
+    "preceded_by": [
+      "jedi-order-founding"
+    ],
+    "followed_by": [
+      "first-schism"
+    ]
+  },
+  {
     "id": "first-schism",
     "title": "제1차 대분열",
     "title_en": "First Schism",
@@ -81,10 +127,10 @@
     "summary": "교단 안에서 포스를 정복과 힘의 수단으로 보려는 무리가 갈라져 나가며 첫 대규모 내분이 벌어졌다. 이들은 훗날 다크사이드 전통의 선조 격으로 기록된다.",
     "significance": "제다이와 시스라는, 이후 모든 갈등의 원형이 여기서 처음 모습을 드러낸다.",
     "preceded_by": [
-      "jedi-order-founding"
+      "first-jedi-temple"
     ],
     "followed_by": [
-      "great-disaster"
+      "hundred-year-darkness"
     ],
     "tags": [
       "다크사이드",
@@ -104,6 +150,135 @@
     "background": "포스를 힘과 정복의 수단으로 보려는 무리가 교단의 규율에 반발하며 갈라졌다.",
     "aftermath": "이 분파는 훗날 다크사이드 전통의 선조 격으로 기록되며, 제다이와 시스 대립의 원형이 된다.",
     "deep_dive": []
+  },
+  {
+    "id": "hundred-year-darkness",
+    "title": "백년의 어둠",
+    "title_en": "The Hundred-Year Darkness",
+    "era": "dawn_of_the_jedi",
+    "year_value": -24300,
+    "year_label": "~24,300 BBY",
+    "year_certainty": "disputed",
+    "category": "battle",
+    "tier": 1,
+    "characters": [],
+    "locations": [
+      "tython"
+    ],
+    "factions": [
+      "jedi-order",
+      "sith"
+    ],
+    "source": "제다이 전승",
+    "source_type": "novel",
+    "canon_status": "inferred",
+    "one_liner": "금지된 포스를 좇는 무리와 제다이가 벌인 고대의 긴 전쟁",
+    "summary": "대분열로 갈라져 나간 다크사이드 추종자들이 금지된 힘으로 괴물 같은 군대를 부려 제다이에 맞섰다. 빛과 어둠이 처음으로 전면전을 벌인, 한 세대를 넘긴 길고 참혹한 전쟁이었다.",
+    "significance": "빛과 어둠의 대립이 사상 처음으로 대규모 전쟁의 형태로 터져 나온 사건. 이 전쟁의 패자들이 훗날 시스가 된다.",
+    "belligerents": {
+      "side_a": [
+        "jedi-order"
+      ],
+      "side_b": [
+        "sith"
+      ]
+    },
+    "outcome": "제다이의 승리, 다크사이드 무리 추방",
+    "key_figures": [],
+    "background": "교단을 떠난 무리는 포스를 정복과 변형의 도구로 삼으며 점점 위험해졌다. 제다이는 더 이상 이들을 방관할 수 없었다.",
+    "aftermath": "제다이가 승리하지만 큰 대가를 치렀고, 패배한 다크사이드 무리는 은하 변경으로 추방된다 — 시스의 탄생으로 이어진다.",
+    "deep_dive": [
+      {
+        "phase": "금지된 실험",
+        "note": "분열한 무리가 포스로 생명을 비틀어 전쟁 짐승과 군대를 만들어낸다. 절제를 버린 힘의 추구였다."
+      },
+      {
+        "phase": "전면전",
+        "note": "빛과 어둠이 처음으로 대규모 군대를 맞부딪힌다. 전쟁은 한 세대를 넘겨 이어진다."
+      },
+      {
+        "phase": "제다이의 승리",
+        "note": "제다이가 큰 희생 끝에 다크사이드 군세를 꺾는다. 그러나 교단도 깊은 상처를 입는다."
+      },
+      {
+        "phase": "추방",
+        "note": "패배한 무리는 처형 대신 추방된다. 이 관용이 훗날 더 큰 위협의 씨앗이 된다."
+      }
+    ],
+    "tags": [
+      "다크사이드",
+      "전쟁",
+      "고대"
+    ],
+    "preceded_by": [
+      "first-schism"
+    ],
+    "followed_by": [
+      "founding-of-the-sith"
+    ]
+  },
+  {
+    "id": "founding-of-the-sith",
+    "title": "시스의 기원",
+    "title_en": "Founding of the Sith",
+    "era": "dawn_of_the_jedi",
+    "year_value": -24000,
+    "year_label": "~24,000 BBY",
+    "year_certainty": "disputed",
+    "category": "founding",
+    "tier": 1,
+    "characters": [],
+    "locations": [
+      "moraband"
+    ],
+    "factions": [
+      "sith"
+    ],
+    "source": "제다이 전승",
+    "source_type": "novel",
+    "canon_status": "inferred",
+    "one_liner": "추방된 다크사이드 무리가 변경에서 시스 전통을 세우다",
+    "summary": "백년의 어둠에서 패해 추방된 다크사이드 무리는 은하 변경의 외딴 행성에 정착했다. 그곳에서 토착 종족과 뒤섞이며 증오와 힘을 숭배하는 새로운 전통, 시스를 세운다.",
+    "significance": "이후 수만 년간 제다이의 영원한 적이 될 시스가 비로소 하나의 전통으로 자리잡는다. 빛과 어둠의 대립이 두 교단의 형태로 굳어진다.",
+    "belligerents": {
+      "side_a": [
+        "sith"
+      ],
+      "side_b": []
+    },
+    "outcome": "시스 전통 확립",
+    "key_figures": [],
+    "background": "전쟁에서 진 다크사이드 무리는 죽음 대신 추방을 택해 알려진 우주 밖으로 사라졌다.",
+    "aftermath": "시스는 변경에서 은밀히 세를 키우며, 먼 훗날 다시 은하로 돌아와 제다이와 충돌하게 된다.",
+    "deep_dive": [
+      {
+        "phase": "추방과 정착",
+        "note": "패배한 무리가 변경의 외딴 행성에 다다라 새 터전을 잡는다."
+      },
+      {
+        "phase": "융합",
+        "note": "이들은 토착 종족과 뒤섞이며 다크사이드를 숭배하는 독자적 문화를 만든다."
+      },
+      {
+        "phase": "전통의 확립",
+        "note": "증오·야망·힘의 추구를 교리로 삼은 시스 전통이 형태를 갖춘다."
+      },
+      {
+        "phase": "잠복",
+        "note": "시스는 변경에서 수만 년간 힘을 키우며 제다이에 대한 복수를 벼른다."
+      }
+    ],
+    "tags": [
+      "시스",
+      "기원",
+      "다크사이드"
+    ],
+    "preceded_by": [
+      "hundred-year-darkness"
+    ],
+    "followed_by": [
+      "great-disaster"
+    ]
   },
   {
     "id": "great-disaster",
@@ -131,7 +306,7 @@
     "summary": "초공간을 항행하던 대형 선박의 사고가 연쇄 폭발과 잔해 세례로 이어져 변경계 여러 행성을 덮쳤다. 공화국과 제다이는 전례 없는 규모의 구조 작전에 나섰다.",
     "significance": "하이 리퍼블릭의 낙관에 처음으로 균열을 낸 사건으로, 변경의 위협 니힐의 등장을 알린다.",
     "preceded_by": [
-      "first-schism"
+      "founding-of-the-sith"
     ],
     "followed_by": [
       "starlight-beacon"
