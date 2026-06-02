@@ -1708,7 +1708,9 @@
     "characters": [
       "mon-mothma"
     ],
-    "locations": [],
+    "locations": [
+      "chandrila"
+    ],
     "factions": [
       "new-republic",
       "galactic-empire"
@@ -1809,7 +1811,9 @@
     "characters": [
       "mon-mothma"
     ],
-    "locations": [],
+    "locations": [
+      "hosnian-prime"
+    ],
     "factions": [
       "new-republic"
     ],
@@ -2120,7 +2124,9 @@
     "characters": [
       "leia-organa"
     ],
-    "locations": [],
+    "locations": [
+      "dqar"
+    ],
     "factions": [
       "first-order",
       "resistance"

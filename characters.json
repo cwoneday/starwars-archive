@@ -886,7 +886,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "bestine-iv",
     "affiliation_history": [
       {
         "faction": "rebel-alliance",
@@ -2219,7 +2219,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "aleen-minor",
     "affiliation_history": [],
     "motivation": "민첩함을 무기로 삼는 포드레이서. 위험한 코스에 도전했다 스러진다.",
     "arc": [],
@@ -2252,7 +2252,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "vulpter",
     "affiliation_history": [],
     "motivation": "작고 날렵한 포드레이스 경쟁자. 속도에 모든 것을 건다.",
     "arc": [],
@@ -2285,7 +2285,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "troiken",
     "affiliation_history": [],
     "motivation": "여러 팔로 기체를 다루는 노련한 포드레이서. 침착한 운전이 강점이다.",
     "arc": [],
@@ -2318,7 +2318,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "tund",
     "affiliation_history": [],
     "motivation": "운에 기대 출전한 포드레이스 도전자. 출발선에서부터 불운에 발목 잡힌다.",
     "arc": [],
@@ -2507,7 +2507,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "iridonia",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -2587,7 +2587,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "iktotch",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -2632,7 +2632,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "quermia",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -3279,7 +3279,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "ojom",
     "affiliation_history": [],
     "motivation": "은하 곳곳을 떠돈 정보통 요리사. 오랜 친구에게 결정적 단서를 건넨다.",
     "arc": [
@@ -3521,7 +3521,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "muunilinst",
     "affiliation_history": [
       {
         "faction": "confederacy-of-independent-systems",
@@ -3565,7 +3565,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "shili",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -3750,7 +3750,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
-    "homeworld": null,
+    "homeworld": "umbara",
     "affiliation_history": [
       {
         "faction": "galactic-empire",
