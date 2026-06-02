@@ -49,7 +49,11 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
 .notfound{text-align:center;padding:80px 20px;color:var(--dim)}
 .legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
-</style></head>
+.planet-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-top:4px}
+.pd{background:var(--void);border:1px solid var(--line);border-radius:8px;padding:9px 11px;display:flex;flex-direction:column;gap:3px}
+.pd .pk{font-family:var(--fm);font-size:9px;letter-spacing:.08em;color:var(--faint);text-transform:uppercase}
+.pd .pv{font-size:13px;color:var(--ink)}
+.pd-note{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:8px}</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -60,7 +64,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="films.html">작품</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <main class="wrap" id="app"></main>
 <script>
 const ERAKEYS={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
@@ -94,6 +98,18 @@ function render(){
       <div><span class="k">region</span><span class="v">${esc(e.region)}</span></div>
       <div><span class="k">source_type</span><span class="v">${e.source_type}</span></div>
       <div><span class="k">canon_status</span><span class="v">${e.canon_status}</span></div></div>
+    ${(e.climate||e.terrain||e.gravity||e.diameter_km||e.population||e.surface_water_pct!=null)?`<div class="sec-label">행성 정보 · Planet Data</div>
+    <div class="planet-grid">
+      ${e.climate?`<div class="pd"><span class="pk">기후 · Climate</span><span class="pv">${esc(e.climate)}</span></div>`:""}
+      ${e.terrain?`<div class="pd"><span class="pk">지형 · Terrain</span><span class="pv">${esc(e.terrain)}</span></div>`:""}
+      ${e.gravity?`<div class="pd"><span class="pk">중력 · Gravity</span><span class="pv">${esc(e.gravity)}</span></div>`:""}
+      ${e.diameter_km?`<div class="pd"><span class="pk">지름 · Diameter</span><span class="pv">${Number(e.diameter_km).toLocaleString()} km</span></div>`:""}
+      ${e.population?`<div class="pd"><span class="pk">인구 · Population</span><span class="pv">${Number(e.population).toLocaleString()}</span></div>`:""}
+      ${e.rotation_period_h?`<div class="pd"><span class="pk">자전 · Rotation</span><span class="pv">${esc(e.rotation_period_h)}시간</span></div>`:""}
+      ${e.orbital_period_d?`<div class="pd"><span class="pk">공전 · Orbital</span><span class="pv">${esc(e.orbital_period_d)}일</span></div>`:""}
+      ${e.surface_water_pct!=null?`<div class="pd"><span class="pk">표면수 · Water</span><span class="pv">${esc(e.surface_water_pct)}%</span></div>`:""}
+    </div>
+    <div class="pd-note">물리·지리 정보는 스타워즈 캐넌(SWAPI) 기준. 정확한 수치 미상 항목은 비워 둠.</div>`:""}
     <div class="sec-label">이곳에서 일어난 사건 · Events Here (${evs.length})</div>
     ${evs.length?`<div class="chips">${evs.map(evChip).join("")}</div>`:'<p class="sec-body dim">기록된 주요 사건이 아직 없습니다.</p>'}
     <div class="sec-label">이곳 출신 인물 · Natives (${natives.length})</div>
