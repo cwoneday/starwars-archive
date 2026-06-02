@@ -392,7 +392,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": null,
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "운반·정비를 맡는 평범한 작업 드로이드. 고장 하나가 운명의 갈림길을 만들기도 한다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -765,7 +765,7 @@
     "birth_year_certainty": "referenced",
     "homeworld": "rodia",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "보수를 좇는 풋내기 현상금 사냥꾼. 큰 한 건을 노리다 제 명을 재촉한다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -894,8 +894,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "낙천적이고 든든한 반란군 파일럿. 위험 앞에서도 농담을 잃지 않는다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "데스 스타 공략에 나섰다가 참호 돌입 중 전사한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1112,7 +1117,7 @@
     "birth_year_certainty": "referenced",
     "homeworld": null,
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "감정 없는 암살 드로이드. 표적 제거를 유일한 목적으로 삼는다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -1145,7 +1150,7 @@
     "birth_year_certainty": "referenced",
     "homeworld": "trandosha",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "사냥을 본능으로 여기는 트란도샨 헌터. 끈질긴 추적을 즐긴다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -1232,7 +1237,7 @@
     "birth_year_certainty": "referenced",
     "homeworld": "bespin",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "베스핀 행정관의 충직한 보좌. 기계와 연결된 머리로 도시 운영을 떠받친다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -1276,8 +1281,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "냉철한 전략가이자 몬 칼라마리의 제독. 자기 종족의 해방 경험을 은하 전체의 자유로 넓힌다.",
+    "arc": [
+      {
+        "event": "battle-of-endor",
+        "note": "반란 함대를 지휘해 제2 데스 스타 공략을 이끌고, 제국의 함정을 간파한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1325,9 +1335,31 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "원칙을 굽히지 않는 정치가. 제국의 불의 앞에서 안락한 침묵 대신 공개적 저항을 택한다.",
+    "arc": [
+      {
+        "event": "declaration-of-empire",
+        "note": "자유가 죽는 원로원에서 침묵하지 않기로 마음먹는다."
+      },
+      {
+        "event": "formation-of-rebel-alliance",
+        "note": "결별을 선언하며 흩어진 저항을 하나의 동맹으로 묶는다."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "동맹의 지도자로서 제국의 종말을 이끈다."
+      },
+      {
+        "event": "galactic-concordance",
+        "note": "신공화국의 수반으로 평화 협정을 매듭짓는다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "formation-of-rebel-alliance",
+        "note": "원로원에서 제국을 공개 규탄하고 결별을 선언한 순간 — 돌아갈 수 없는 길을 택한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-6-return-of-jedi"
@@ -1364,9 +1396,19 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "물러서지 않는 반란군 파일럿. 마지막 순간 자신을 던져 전세를 바꾼다.",
+    "arc": [
+      {
+        "event": "battle-of-endor",
+        "note": "피격당한 전투기로 제국 기함의 함교에 돌진해 거함을 추락시킨다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-endor",
+        "note": "추락하는 기체를 적 기함에 들이받아 전세를 바꾼 마지막 선택."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-6-return-of-jedi"
@@ -1403,8 +1445,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "호기심 많고 용감한 어린 이워크. 낯선 외지인을 친구로 받아들인다.",
+    "arc": [
+      {
+        "event": "battle-of-endor",
+        "note": "숲의 동족을 이끌어 반란군 편에서 제국 지상군을 무너뜨린다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1442,8 +1489,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "능청스럽고 대담한 술러스트 출신 파일럿. 위험한 임무일수록 앞장선다.",
+    "arc": [
+      {
+        "event": "battle-of-endor",
+        "note": "팰컨의 부조종사로 제2 데스 스타 내부 돌입에 함께한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1585,9 +1637,19 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "개혁을 바랐으나 무력했던 공화국의 전임 최고의장. 그의 실각이 팰퍼틴의 부상을 연다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "나부 위기에 무력하게 대처하다 불신임을 받고, 팰퍼틴에게 자리를 내준다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-naboo",
+        "note": "위기 앞의 무능이 그를 끌어내리고, 야심가에게 길을 터준다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace"
@@ -1731,7 +1793,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": "naboo",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "군구안 군대를 이끄는 노련한 지휘관. 행성의 위기에 앞장선다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -1764,7 +1826,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": "naboo",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "군구안족을 다스리는 자존심 강한 우두머리. 결국 외지인과 손잡아 행성을 지킨다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -1803,8 +1865,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "침착한 나부 왕실 파일럿. 위기의 순간 봉쇄선을 뚫는 조종 실력으로 응한다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "여왕의 함선을 몰아 무역연합의 봉쇄를 돌파한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1880,7 +1947,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": "malastare",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "수단을 가리지 않는 포드레이스 챔피언. 승리를 위해 반칙도 서슴지 않는다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -1919,8 +1986,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "여왕의 안위를 최우선으로 삼는 나부 경비대장. 신중함으로 위기를 헤쳐 나간다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "봉쇄와 점령의 위기에서 여왕을 호위하며 해방 작전을 돕는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2045,7 +2117,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": "ryloth",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "범죄 군주 곁에 붙은 교활한 집사. 권력의 곁에서 제 잇속을 챙긴다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2124,7 +2196,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": null,
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "민첩함을 무기로 삼는 포드레이서. 위험한 코스에 도전했다 스러진다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2157,7 +2229,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": null,
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "작고 날렵한 포드레이스 경쟁자. 속도에 모든 것을 건다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2190,7 +2262,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": null,
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "여러 팔로 기체를 다루는 노련한 포드레이서. 침착한 운전이 강점이다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2223,7 +2295,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": null,
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "운에 기대 출전한 포드레이스 도전자. 출발선에서부터 불운에 발목 잡힌다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2418,7 +2490,7 @@
         "to_event": null
       }
     ],
-    "motivation": null,
+    "motivation": "과묵하고 강인한 평의회의 제다이. 절제된 힘으로 임무를 수행한다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2458,7 +2530,7 @@
         "to_event": null
       }
     ],
-    "motivation": null,
+    "motivation": "기민하고 충직한 평의회의 제다이. 첩보와 외교에 능하다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2498,7 +2570,7 @@
         "to_event": null
       }
     ],
-    "motivation": null,
+    "motivation": "냉철한 비행 전문 제다이. 말보다 행동으로 평의회를 돕는다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2538,7 +2610,7 @@
         "to_event": null
       }
     ],
-    "motivation": null,
+    "motivation": "신비로운 분위기의 평의회 제다이. 정신 수련에 능하다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2673,8 +2745,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "의원의 안전을 목숨으로 지키는 경호 책임자. 위협 속에서도 흔들리지 않는다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "암살 위협에 노출된 파드메를 지키며 위기의 시기를 함께 넘는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2712,9 +2789,19 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "의원을 위해 신분을 위장하는 대역 시녀. 그 충성이 곧 목숨을 건 일이다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "파드메를 노린 암살 시도의 표적이 되어 대신 스러진다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "의원의 대역으로 나선 선택이 그녀의 마지막이 된다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-2-attack-of-clones"
@@ -2745,8 +2832,13 @@
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "motivation": "거친 땅에서 가족을 일군 타투인의 농부. 사랑하는 이를 지키려다 큰 상처를 입는다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "납치된 아내를 구하려 애쓰지만 끝내 잃고 만다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2784,7 +2876,7 @@
         "to_event": null
       }
     ],
-    "motivation": null,
+    "motivation": "지오노시안을 이끄는 대공. 분리주의에 가담해 무기를 대량 생산한다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -2869,9 +2961,19 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "치유에 능한 제다이였으나, 전쟁에 물든 교단에 깊은 환멸을 느끼게 된다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "스승과 함께 전장에 서지만, 끝없는 전쟁이 그녀의 신념을 갉아먹는다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "제다이가 전쟁의 도구가 되었다는 회의가, 훗날 그녀를 교단에 등 돌리게 만든다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-2-attack-of-clones"
@@ -2908,8 +3010,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "의원을 그림자처럼 보좌하는 충직한 시녀. 주인의 안전을 위해 자신을 드러내지 않는다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "위협이 고조되는 시기에 파드메의 곁을 지킨다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3101,9 +3208,19 @@
     "birth_year_certainty": "inferred",
     "homeworld": "zolan",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "변신술을 쓰는 클로다이트 현상금 사냥꾼. 의뢰를 위해 어떤 얼굴도 빌린다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "파드메 암살을 의뢰받았다가, 입을 막으려는 고용주의 손에 제거된다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "의뢰인을 발설하려는 순간 침묵당한다 — 청부의 끝."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-2-attack-of-clones"
@@ -3134,7 +3251,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": null,
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "은하 곳곳을 떠돈 정보통 요리사. 오랜 친구에게 결정적 단서를 건넨다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -3167,7 +3284,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": "kamino",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "클론 생산을 관장하는 카미노안 총리. 거대한 군대를 사업처럼 다룬다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -3200,7 +3317,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": "kamino",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "클론 사업을 관리하는 카미노안 행정관. 차분하게 의뢰를 처리한다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -3239,8 +3356,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "제다이 기록보관소를 지키는 사서. 교단의 지식과 기억을 자신의 사명으로 여긴다.",
+    "arc": [
+      {
+        "event": "order-66",
+        "note": "교단이 무너지는 와중에도 보관소의 지식을 지키려다 스러진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3278,7 +3400,7 @@
         "to_event": null
       }
     ],
-    "motivation": null,
+    "motivation": "제다이 전투기의 충실한 정비 드로이드. 조종사를 그림자처럼 보조한다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -3318,8 +3440,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "기술과 이윤을 좇는 테크노 유니온의 수장. 분리주의의 산업력을 쥐고 흔든다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "분리주의 평의회의 일원으로 전쟁에 가담했다가, 끝내 자신이 섬긴 어둠에 버려진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3357,8 +3484,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "전쟁마저 투자처로 보는 은행 클랜의 의장. 양쪽 모두에 돈을 대며 이득을 노린다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "분리주의에 자금을 대며 전쟁을 키웠지만, 시스의 손에 버려진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3488,7 +3620,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": "kashyyyk",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "카시크를 지키는 우키족 전사 우두머리. 동족과 함께 행성을 방어한다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
@@ -3527,8 +3659,17 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "왕가에 충성하는 베테랑 함장. 위험한 전령의 임무를 묵묵히 떠맡는다.",
+    "arc": [
+      {
+        "event": "battle-of-scarif",
+        "note": "빼낸 데스 스타 설계도를 실은 함선을 맡아 반란의 희망을 나른다."
+      },
+      {
+        "event": "battle-of-yavin",
+        "note": "설계도를 지키려다 베이더에게 사로잡혀 최후를 맞는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3567,8 +3708,13 @@
         "to_event": null
       }
     ],
-    "motivation": null,
-    "arc": [],
+    "motivation": "황제의 그림자에서 움직이는 비밀스러운 보좌관. 권력의 가장 어두운 자리를 지킨다.",
+    "arc": [
+      {
+        "event": "declaration-of-empire",
+        "note": "제국 선포의 막후에서 팰퍼틴을 그림자처럼 보좌한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3601,7 +3747,7 @@
     "birth_year_certainty": "inferred",
     "homeworld": "utapau",
     "affiliation_history": [],
-    "motivation": null,
+    "motivation": "우타파우의 행정 수반. 점령 세력의 위협을 외부에 은밀히 알린다.",
     "arc": [],
     "key_choices": [],
     "appears_in": [],
