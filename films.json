@@ -178,5 +178,309 @@
       "엑세골",
       "대단원"
     ]
+  },
+  {
+    "id": "rogue-one",
+    "title": "로그 원",
+    "title_en": "Rogue One: A Star Wars Story",
+    "work_type": "film",
+    "trilogy": "none",
+    "release_year": 2016,
+    "era_primary": "age_of_rebellion",
+    "summary": "데스 스타 설계도를 빼내기 위해 모인 반란군 결사대의 이야기. 이름 없는 영웅들이 목숨을 던져 '새로운 희망'으로 이어질 불씨를 남긴다.",
+    "significance": "에피소드 4 직전을 잇는 외전. 야빈 승리의 토대가 된 희생을 그린다.",
+    "source": "로그 원",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "tags": [
+      "외전",
+      "스카리프",
+      "설계도"
+    ]
+  },
+  {
+    "id": "solo",
+    "title": "솔로",
+    "title_en": "Solo: A Star Wars Story",
+    "work_type": "film",
+    "trilogy": "none",
+    "release_year": 2018,
+    "era_primary": "reign_of_the_empire",
+    "summary": "젊은 한 솔로가 밀수와 도박의 세계에서 츄바카·랜도와 얽히며 전설적 밀수꾼으로 성장하는 과정을 그린다.",
+    "significance": "오리지널의 주역 한 솔로의 기원을 다룬 외전.",
+    "source": "솔로",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "tags": [
+      "외전",
+      "한 솔로",
+      "기원"
+    ]
+  },
+  {
+    "id": "the-clone-wars",
+    "title": "클론 전쟁",
+    "title_en": "The Clone Wars",
+    "work_type": "series",
+    "trilogy": "none",
+    "release_year": 2008,
+    "era_primary": "fall_of_the_jedi",
+    "summary": "에피소드 2와 3 사이, 클론 전쟁의 수많은 전선을 그린 애니메이션. 아나킨과 그의 제자 아소카를 중심으로 전쟁의 명암을 깊이 파고든다.",
+    "significance": "프리퀄 시대를 가장 넓고 깊게 확장한 작품.",
+    "source": "클론 전쟁",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "tags": [
+      "애니메이션",
+      "클론전쟁",
+      "아소카"
+    ]
+  },
+  {
+    "id": "rebels",
+    "title": "반란군",
+    "title_en": "Star Wars Rebels",
+    "work_type": "series",
+    "trilogy": "none",
+    "release_year": 2014,
+    "era_primary": "reign_of_the_empire",
+    "summary": "제국 초기, 작은 저항 세포의 활동을 그린 애니메이션. 흩어진 불씨가 어떻게 반란연합으로 자라는지를 보여준다.",
+    "significance": "제국 시대 초기 저항의 형성을 다룬 작품.",
+    "source": "반란군",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "tags": [
+      "애니메이션",
+      "저항세포",
+      "제국초기"
+    ]
+  },
+  {
+    "id": "andor",
+    "title": "안돌",
+    "title_en": "Andor",
+    "work_type": "series",
+    "trilogy": "none",
+    "release_year": 2022,
+    "era_primary": "reign_of_the_empire",
+    "summary": "평범한 사람들이 어떻게 반란군이 되는가를 사실적으로 그린 시리즈. 압제와 학살 속에서 저항의 명분이 굳어지는 과정을 담는다.",
+    "significance": "반란의 도덕적·정치적 뿌리를 가장 진지하게 파고든 작품.",
+    "source": "안돌",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "tags": [
+      "드라마",
+      "저항",
+      "고르만"
+    ]
+  },
+  {
+    "id": "the-mandalorian",
+    "title": "만달로리안",
+    "title_en": "The Mandalorian",
+    "work_type": "series",
+    "trilogy": "none",
+    "release_year": 2019,
+    "era_primary": "new_republic",
+    "summary": "제국 몰락 후의 변경을 떠도는 만달로리안 현상금 사냥꾼과 그가 보호하게 된 어린 포스 감응자의 여정.",
+    "significance": "신공화국 시대 변경의 이야기를 연 작품.",
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "tags": [
+      "드라마",
+      "만달로어",
+      "변경"
+    ]
+  },
+  {
+    "id": "obi-wan-kenobi",
+    "title": "오비완 케노비",
+    "title_en": "Obi-Wan Kenobi",
+    "work_type": "series",
+    "trilogy": "none",
+    "release_year": 2022,
+    "era_primary": "reign_of_the_empire",
+    "summary": "오더 66 이후 은둔한 오비완이 다시 한 번 옛 제자이자 적이 된 베이더와 마주하는 이야기.",
+    "significance": "프리퀄과 오리지널 사이의 공백을 잇는 작품.",
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "tags": [
+      "드라마",
+      "오비완",
+      "공백기"
+    ]
+  },
+  {
+    "id": "light-of-the-jedi",
+    "title": "하이 리퍼블릭: 빛의 시대",
+    "title_en": "The High Republic: Light of the Jedi",
+    "work_type": "novel",
+    "trilogy": "none",
+    "release_year": 2021,
+    "era_primary": "high_republic",
+    "summary": "하이 리퍼블릭 시대의 문을 연 소설. 대재난과 그에 맞선 제다이의 활약, 변경의 위협 니힐의 등장을 그린다.",
+    "significance": "하이 리퍼블릭 출판 기획의 출발점.",
+    "source": "하이 리퍼블릭: 빛의 시대",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "tags": [
+      "소설",
+      "대재난",
+      "니힐"
+    ]
+  },
+  {
+    "id": "the-rising-storm",
+    "title": "하이 리퍼블릭: 떠오르는 폭풍",
+    "title_en": "The High Republic: The Rising Storm",
+    "work_type": "novel",
+    "trilogy": "none",
+    "release_year": 2021,
+    "era_primary": "high_republic",
+    "summary": "공화국 대축제를 노린 니힐의 기습(발로 습격)을 중심으로, 빛의 시대의 낙관이 무너지는 순간을 그린다.",
+    "significance": "하이 리퍼블릭 1단계의 전환점을 다룬 소설.",
+    "source": "하이 리퍼블릭: 떠오르는 폭풍",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "tags": [
+      "소설",
+      "발로",
+      "니힐"
+    ]
+  },
+  {
+    "id": "the-high-republic",
+    "title": "하이 리퍼블릭 (기획)",
+    "title_en": "The High Republic",
+    "work_type": "novel",
+    "trilogy": "none",
+    "release_year": 2021,
+    "era_primary": "high_republic",
+    "summary": "황금기 제다이를 조명한 다매체 출판 기획. 스타라이트 비콘을 무대로 빛의 시대의 영광과 그늘을 폭넓게 그린다.",
+    "significance": "하이 리퍼블릭 시대 전체를 아우르는 기획.",
+    "source": "하이 리퍼블릭 (기획)",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "tags": [
+      "기획",
+      "스타라이트",
+      "황금기"
+    ]
+  },
+  {
+    "id": "aftermath-trilogy",
+    "title": "여파 3부작",
+    "title_en": "Aftermath Trilogy",
+    "work_type": "novel",
+    "trilogy": "none",
+    "release_year": 2015,
+    "era_primary": "new_republic",
+    "summary": "엔도 이후 무너지는 제국과 일어서는 신공화국, 자쿠 전투로 향하는 과도기를 그린 3부작 소설.",
+    "significance": "제국 몰락과 신공화국 수립 사이의 공백을 메운다.",
+    "source": "여파 3부작",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "tags": [
+      "소설",
+      "자쿠",
+      "과도기"
+    ]
+  },
+  {
+    "id": "bloodline",
+    "title": "블러드라인",
+    "title_en": "Bloodline",
+    "work_type": "novel",
+    "trilogy": "none",
+    "release_year": 2016,
+    "era_primary": "new_republic",
+    "summary": "퍼스트 오더 부상 직전, 분열하는 신공화국 정계와 레이아가 저항군을 결심하기까지를 그린 정치 소설.",
+    "significance": "시퀄 3부작의 정치적 배경을 놓은 작품.",
+    "source": "블러드라인",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "tags": [
+      "소설",
+      "정치",
+      "레이아"
+    ]
+  },
+  {
+    "id": "thrawn",
+    "title": "스론",
+    "title_en": "Thrawn",
+    "work_type": "novel",
+    "trilogy": "none",
+    "release_year": 2017,
+    "era_primary": "reign_of_the_empire",
+    "summary": "냉철한 전략가 스론 대제독이 제국의 위계를 오르는 과정을 그린 소설. 적을 예술처럼 분석하는 지략을 조명한다.",
+    "significance": "캐넌으로 재편입된 스론의 기원을 다룬다.",
+    "source": "스론",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "tags": [
+      "소설",
+      "스론",
+      "전략"
+    ]
+  },
+  {
+    "id": "jedi-fallen-order",
+    "title": "제다이: 폴른 오더",
+    "title_en": "Jedi: Fallen Order",
+    "work_type": "game",
+    "trilogy": "none",
+    "release_year": 2019,
+    "era_primary": "reign_of_the_empire",
+    "summary": "오더 66에서 살아남은 젊은 제다이 칼 케스티스가 추적을 피하며 자신의 길을 되찾는 액션 게임.",
+    "significance": "제국 시대 생존 제다이의 이야기를 게임으로 그린 캐넌 작품.",
+    "source": "제다이: 폴른 오더",
+    "source_type": "game",
+    "canon_status": "explicit",
+    "tags": [
+      "게임",
+      "칼 케스티스",
+      "생존"
+    ]
+  },
+  {
+    "id": "jedi-survivor",
+    "title": "제다이: 서바이버",
+    "title_en": "Jedi: Survivor",
+    "work_type": "game",
+    "trilogy": "none",
+    "release_year": 2023,
+    "era_primary": "reign_of_the_empire",
+    "summary": "성장한 칼 케스티스가 더 거대한 제국의 위협과 자신의 신념을 시험받는 후속 게임.",
+    "significance": "폴른 오더의 이야기를 잇는 후속작.",
+    "source": "제다이: 서바이버",
+    "source_type": "game",
+    "canon_status": "explicit",
+    "tags": [
+      "게임",
+      "칼 케스티스",
+      "후속"
+    ]
+  },
+  {
+    "id": "darth-vader-comic",
+    "title": "다스 베이더 (코믹)",
+    "title_en": "Darth Vader (Marvel)",
+    "work_type": "comic",
+    "trilogy": "none",
+    "release_year": 2017,
+    "era_primary": "reign_of_the_empire",
+    "summary": "오더 66와 무스타파 이후, 갓 태어난 다스 베이더가 자신의 새 존재를 받아들이고 황제의 칼이 되어가는 과정을 그린 만화.",
+    "significance": "베이더의 초기 심연을 파고든 캐넌 코믹.",
+    "source": "다스 베이더 (코믹)",
+    "source_type": "comic",
+    "canon_status": "explicit",
+    "tags": [
+      "코믹",
+      "베이더",
+      "제국초기"
+    ]
   }
 ]
