@@ -49,7 +49,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
 .notfound{text-align:center;padding:80px 20px;color:var(--dim)}
 .legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
-</style></head>
+.fac-emblem-wrap{margin-bottom:10px}.fac-emblem{width:56px;height:56px;filter:drop-shadow(0 0 10px currentColor)}.fac-emblem use{}</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -61,6 +61,20 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
 <nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="emb-jedi-order" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="2" opacity=".5"/><path d="M32 8 L37 32 L32 52 L27 32 Z" fill="currentColor"/><circle cx="32" cy="32" r="4" fill="#04060b" stroke="currentColor" stroke-width="1.5"/></symbol>
+<symbol id="emb-sith" viewBox="0 0 64 64"><path d="M32 6 L52 50 L32 40 L12 50 Z" fill="currentColor"/><line x1="32" y1="22" x2="32" y2="58" stroke="currentColor" stroke-width="2.5"/></symbol>
+<symbol id="emb-galactic-republic" viewBox="0 0 64 64"><circle cx="32" cy="32" r="24" fill="none" stroke="currentColor" stroke-width="2"/><g stroke="currentColor" stroke-width="2"><line x1="32" y1="4" x2="32" y2="60"/><line x1="4" y1="32" x2="60" y2="32"/><line x1="12" y1="12" x2="52" y2="52"/><line x1="52" y1="12" x2="12" y2="52"/></g><circle cx="32" cy="32" r="7" fill="#04060b" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="emb-galactic-empire" viewBox="0 0 64 64"><path d="M32 5 L55 18 L55 46 L32 59 L9 46 L9 18 Z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M32 17 L45 24.5 L45 39.5 L32 47 L19 39.5 L19 24.5 Z" fill="currentColor"/></symbol>
+<symbol id="emb-confederacy-of-independent-systems" viewBox="0 0 64 64"><path d="M32 6 A26 26 0 1 1 17 11" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M32 20 L44 42 L20 42 Z" fill="currentColor"/></symbol>
+<symbol id="emb-trade-federation" viewBox="0 0 64 64"><circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="32" cy="32" r="9" fill="currentColor"/><g stroke="currentColor" stroke-width="2.5"><line x1="32" y1="2" x2="32" y2="13"/><line x1="32" y1="51" x2="32" y2="62"/><line x1="2" y1="32" x2="13" y2="32"/><line x1="51" y1="32" x2="62" y2="32"/></g></symbol>
+<symbol id="emb-rebel-alliance" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="2" opacity=".4"/><path d="M32 52 C20 40 24 22 32 10 C40 22 44 40 32 52 Z" fill="currentColor"/></symbol>
+<symbol id="emb-new-republic" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="2" opacity=".4"/><path d="M16 40 L32 18 L48 40" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 49 L32 35 L42 49" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/></symbol>
+<symbol id="emb-first-order" viewBox="0 0 64 64"><path d="M32 5 L55 18 L55 46 L32 59 L9 46 L9 18 Z" fill="currentColor"/><path d="M20 22 L44 42 M44 22 L20 42" stroke="#04060b" stroke-width="4"/></symbol>
+<symbol id="emb-resistance" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="1.5" opacity=".4"/><g stroke="currentColor" stroke-width="3" stroke-linecap="round"><line x1="32" y1="14" x2="32" y2="50"/><line x1="14" y1="32" x2="50" y2="32"/><line x1="20" y1="20" x2="44" y2="44"/><line x1="44" y1="20" x2="20" y2="44"/></g><circle cx="32" cy="32" r="5" fill="currentColor"/></symbol>
+<symbol id="emb-final-order" viewBox="0 0 64 64"><g stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"><line x1="32" y1="8" x2="32" y2="52"/><path d="M16 20 L16 44 M48 20 L48 44"/><path d="M16 44 L32 54 L48 44"/></g><path d="M28 53 L32 60 L36 53 Z" fill="currentColor"/></symbol>
+<symbol id="emb-nihil" viewBox="0 0 64 64"><g stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"><path d="M32 32 C40 20 52 18 56 24"/><path d="M32 32 C28 46 16 50 10 44"/><path d="M32 32 C44 40 46 52 40 56"/></g><circle cx="32" cy="32" r="4" fill="currentColor"/></symbol>
+</defs></svg>
 <main class="wrap" id="app"></main>
 <script>
 const ERAKEYS={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
@@ -75,17 +89,19 @@ function failBox(files){return `<div class="notfound"><div style="font-family:va
 
 const FTYPE={order:"교단",government:"정부",military:"군대",criminal:"무법 조직"};
 const ALIGNKO={light:"라이트사이드",dark:"다크사이드",neutral:"중립"};
-let FAC={},EVENTS=[];
+let FAC={},EVENTS=[],CHARS=[];
 function render(){
   const id=getId("jedi-order"),e=FAC[id],app=document.getElementById("app");
   if(!e){app.innerHTML=`<div class="notfound">해당 세력 기록을 찾을 수 없습니다.<br><a class="back" href="timeline.html">← 타임라인으로</a></div>`;return;}
   document.title=`${e.name} · 세력 기록`;
   const evs=EVENTS.filter(x=>x.factions.includes(id)).sort((a,b)=>a.year_value-b.year_value);
+  const members=CHARS.filter(c=>(c.affiliation_history||[]).some(a=>a.faction===id)).sort((a,b)=>a.tier-b.tier||a.name.localeCompare(b.name,'ko'));
   const ac={light:"var(--holo)",dark:"var(--warn)",neutral:"var(--amber)"}[e.alignment]||"var(--holo)";
   app.innerHTML=`
   <div class="hud-bar"><a href="timeline.html">스타워즈 캐넌 아카이브</a><span class="sep">//</span><span>FACTION</span><span class="sep">//</span><span class="id">${e.id}</span></div>
   <article class="record" style="opacity:${CANON_OP[e.canon_status]||1}">
     <span class="corner tl"></span><span class="corner br"></span>
+    <div class="fac-emblem-wrap"><svg class="fac-emblem" style="color:${ac}"><use href="#emb-${e.id}"/></svg></div>
     <div class="kicker">세력 기록 · Faction Record</div>
     <h1>${esc(e.name)}</h1><div class="title-en">${esc(e.name_en)}</div>
     <div class="meta"><span class="badge year" style="border-color:${ac}"><b style="color:${ac}">${FTYPE[e.type]||e.type}</b></span><span class="badge" style="color:${ac}">${ALIGNKO[e.alignment]||e.alignment}</span><span class="badge">${esc(e.era)}</span><span class="badge canon">canon · ${CANON_KO[e.canon_status]}</span></div>
@@ -97,6 +113,8 @@ function render(){
       <div><span class="k">canon_status</span><span class="v">${e.canon_status}</span></div></div>
     <div class="sec-label">이 세력이 관여한 사건 · Involved Events (${evs.length})</div>
     ${evs.length?`<div class="chips">${evs.map(evChip).join("")}</div>`:'<p class="sec-body dim">기록된 주요 사건이 아직 없습니다.</p>'}
+    <div class="sec-label">소속 인물 · Members (${members.length})</div>
+    ${members.length?`<div class="chips">${members.map(c=>`<a class="chip" href="character-detail.html?id=${c.id}"><span class="nm">${esc(c.name)}</span><span class="ref">${esc(c.id)}</span></a>`).join("")}</div>`:'<p class="sec-body dim">이 데이터셋(Ep I–VI)에서 소속이 기록된 인물이 없습니다.</p>'}
     <div class="srcline">출처 · <b>${esc(e.source)}</b> · ${STYP[e.source_type]||e.source_type}</div>
     <div class="legend-hint">‘관여한 사건’은 events.json의 factions 역참조입니다. 세력 소속 인물은 인물 데이터의 affiliation_history가 채워지면 자동 연결됩니다 (헌법 제2·4조).</div>
   </article>
@@ -104,8 +122,8 @@ function render(){
   window.scrollTo(0,0);
 }
 async function load(){try{
-  const [fa,ev]=await Promise.all([fetch("factions.json").then(r=>r.json()),fetch("events.json").then(r=>r.json())]);
-  FAC=Object.fromEntries(fa.map(x=>[x.id,x]));EVENTS=ev;render();
+  const [fa,ev,cs]=await Promise.all([fetch("factions.json").then(r=>r.json()),fetch("events.json").then(r=>r.json()),fetch("characters.json").then(r=>r.json())]);
+  FAC=Object.fromEntries(fa.map(x=>[x.id,x]));EVENTS=ev;CHARS=cs;render();
 }catch(err){document.getElementById("app").innerHTML=failBox("factions·events.json");}}
 window.addEventListener("popstate",render);load();
 </script></body></html>
