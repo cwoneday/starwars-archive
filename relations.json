@@ -1,0 +1,567 @@
+[
+ {
+  "s": "anakin-skywalker",
+  "t": "shmi-skywalker",
+  "type": "family"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "padme-amidala",
+  "type": "family"
+ },
+ {
+  "s": "darth-vader",
+  "t": "luke-skywalker",
+  "type": "family"
+ },
+ {
+  "s": "darth-vader",
+  "t": "leia-organa",
+  "type": "family"
+ },
+ {
+  "s": "luke-skywalker",
+  "t": "leia-organa",
+  "type": "family"
+ },
+ {
+  "s": "shmi-skywalker",
+  "t": "cliegg-lars",
+  "type": "family"
+ },
+ {
+  "s": "cliegg-lars",
+  "t": "owen-lars",
+  "type": "family"
+ },
+ {
+  "s": "owen-lars",
+  "t": "beru-whitesun-lars",
+  "type": "family"
+ },
+ {
+  "s": "owen-lars",
+  "t": "luke-skywalker",
+  "type": "family"
+ },
+ {
+  "s": "bail-prestor-organa",
+  "t": "leia-organa",
+  "type": "family"
+ },
+ {
+  "s": "jango-fett",
+  "t": "boba-fett",
+  "type": "family"
+ },
+ {
+  "s": "qui-gon-jinn",
+  "t": "obi-wan-kenobi",
+  "type": "master"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "anakin-skywalker",
+  "type": "master"
+ },
+ {
+  "s": "dooku",
+  "t": "qui-gon-jinn",
+  "type": "master"
+ },
+ {
+  "s": "yoda",
+  "t": "dooku",
+  "type": "master"
+ },
+ {
+  "s": "palpatine",
+  "t": "dooku",
+  "type": "master"
+ },
+ {
+  "s": "palpatine",
+  "t": "darth-vader",
+  "type": "master"
+ },
+ {
+  "s": "palpatine",
+  "t": "darth-maul",
+  "type": "master"
+ },
+ {
+  "s": "yoda",
+  "t": "luke-skywalker",
+  "type": "master"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "luke-skywalker",
+  "type": "master"
+ },
+ {
+  "s": "luminara-unduli",
+  "t": "barriss-offee",
+  "type": "master"
+ },
+ {
+  "s": "mace-windu",
+  "t": "yoda",
+  "type": "ally"
+ },
+ {
+  "s": "ki-adi-mundi",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "kit-fisto",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "plo-koon",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "saesee-tiin",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "eeth-koth",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "adi-gallia",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "yarael-poof",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "shaak-ti",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "ayla-secura",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "luminara-unduli",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "jocasta-nu",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "mace-windu",
+  "type": "ally"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "obi-wan-kenobi",
+  "type": "ally"
+ },
+ {
+  "s": "padme-amidala",
+  "t": "bail-prestor-organa",
+  "type": "ally"
+ },
+ {
+  "s": "bail-prestor-organa",
+  "t": "mon-mothma",
+  "type": "ally"
+ },
+ {
+  "s": "padme-amidala",
+  "t": "jar-jar-binks",
+  "type": "ally"
+ },
+ {
+  "s": "finis-valorum",
+  "t": "palpatine",
+  "type": "ally"
+ },
+ {
+  "s": "palpatine",
+  "t": "mas-amedda",
+  "type": "ally"
+ },
+ {
+  "s": "mas-amedda",
+  "t": "sly-moore",
+  "type": "ally"
+ },
+ {
+  "s": "padme-amidala",
+  "t": "quarsh-panaka",
+  "type": "ally"
+ },
+ {
+  "s": "padme-amidala",
+  "t": "corde",
+  "type": "ally"
+ },
+ {
+  "s": "padme-amidala",
+  "t": "dorme",
+  "type": "ally"
+ },
+ {
+  "s": "padme-amidala",
+  "t": "gregar-typho",
+  "type": "ally"
+ },
+ {
+  "s": "padme-amidala",
+  "t": "ric-olie",
+  "type": "ally"
+ },
+ {
+  "s": "jar-jar-binks",
+  "t": "roos-tarpals",
+  "type": "ally"
+ },
+ {
+  "s": "roos-tarpals",
+  "t": "rugor-nass",
+  "type": "ally"
+ },
+ {
+  "s": "qui-gon-jinn",
+  "t": "jar-jar-binks",
+  "type": "ally"
+ },
+ {
+  "s": "leia-organa",
+  "t": "han-solo",
+  "type": "ally"
+ },
+ {
+  "s": "han-solo",
+  "t": "chewbacca",
+  "type": "ally"
+ },
+ {
+  "s": "han-solo",
+  "t": "lando-calrissian",
+  "type": "ally"
+ },
+ {
+  "s": "lando-calrissian",
+  "t": "lobot",
+  "type": "ally"
+ },
+ {
+  "s": "leia-organa",
+  "t": "mon-mothma",
+  "type": "ally"
+ },
+ {
+  "s": "leia-organa",
+  "t": "ackbar",
+  "type": "ally"
+ },
+ {
+  "s": "ackbar",
+  "t": "nien-nunb",
+  "type": "ally"
+ },
+ {
+  "s": "luke-skywalker",
+  "t": "wedge-antilles",
+  "type": "ally"
+ },
+ {
+  "s": "wedge-antilles",
+  "t": "biggs-darklighter",
+  "type": "ally"
+ },
+ {
+  "s": "biggs-darklighter",
+  "t": "jek-tono-porkins",
+  "type": "ally"
+ },
+ {
+  "s": "wedge-antilles",
+  "t": "arvel-crynyd",
+  "type": "ally"
+ },
+ {
+  "s": "leia-organa",
+  "t": "wicket-systri-warrick",
+  "type": "ally"
+ },
+ {
+  "s": "bail-prestor-organa",
+  "t": "raymus-antilles",
+  "type": "ally"
+ },
+ {
+  "s": "chewbacca",
+  "t": "tarfful",
+  "type": "ally"
+ },
+ {
+  "s": "r2-d2",
+  "t": "c-3po",
+  "type": "ally"
+ },
+ {
+  "s": "luke-skywalker",
+  "t": "r2-d2",
+  "type": "ally"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "r2-d2",
+  "type": "ally"
+ },
+ {
+  "s": "c-3po",
+  "t": "anakin-skywalker",
+  "type": "ally"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "r4-p17",
+  "type": "ally"
+ },
+ {
+  "s": "r2-d2",
+  "t": "r5-d4",
+  "type": "ally"
+ },
+ {
+  "s": "darth-vader",
+  "t": "wilhuff-tarkin",
+  "type": "ally"
+ },
+ {
+  "s": "palpatine",
+  "t": "wilhuff-tarkin",
+  "type": "ally"
+ },
+ {
+  "s": "darth-vader",
+  "t": "boba-fett",
+  "type": "ally"
+ },
+ {
+  "s": "boba-fett",
+  "t": "bossk",
+  "type": "ally"
+ },
+ {
+  "s": "boba-fett",
+  "t": "ig-88",
+  "type": "ally"
+ },
+ {
+  "s": "bossk",
+  "t": "ig-88",
+  "type": "ally"
+ },
+ {
+  "s": "jango-fett",
+  "t": "zam-wesell",
+  "type": "ally"
+ },
+ {
+  "s": "dooku",
+  "t": "nute-gunray",
+  "type": "ally"
+ },
+ {
+  "s": "dooku",
+  "t": "poggle-the-lesser",
+  "type": "ally"
+ },
+ {
+  "s": "dooku",
+  "t": "wat-tambor",
+  "type": "ally"
+ },
+ {
+  "s": "dooku",
+  "t": "san-hill",
+  "type": "ally"
+ },
+ {
+  "s": "dooku",
+  "t": "grievous",
+  "type": "ally"
+ },
+ {
+  "s": "nute-gunray",
+  "t": "grievous",
+  "type": "ally"
+ },
+ {
+  "s": "lama-su",
+  "t": "taun-we",
+  "type": "ally"
+ },
+ {
+  "s": "jango-fett",
+  "t": "lama-su",
+  "type": "ally"
+ },
+ {
+  "s": "jabba-desilijic-tiure",
+  "t": "bib-fortuna",
+  "type": "ally"
+ },
+ {
+  "s": "jabba-desilijic-tiure",
+  "t": "boba-fett",
+  "type": "ally"
+ },
+ {
+  "s": "watto",
+  "t": "anakin-skywalker",
+  "type": "ally"
+ },
+ {
+  "s": "sebulba",
+  "t": "watto",
+  "type": "ally"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "dexter-jettster",
+  "type": "ally"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "tion-medon",
+  "type": "ally"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "darth-maul",
+  "type": "rival"
+ },
+ {
+  "s": "qui-gon-jinn",
+  "t": "darth-maul",
+  "type": "rival"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "grievous",
+  "type": "rival"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "darth-vader",
+  "type": "rival"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "dooku",
+  "type": "rival"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "grievous",
+  "type": "rival"
+ },
+ {
+  "s": "mace-windu",
+  "t": "palpatine",
+  "type": "rival"
+ },
+ {
+  "s": "mace-windu",
+  "t": "jango-fett",
+  "type": "rival"
+ },
+ {
+  "s": "yoda",
+  "t": "palpatine",
+  "type": "rival"
+ },
+ {
+  "s": "luke-skywalker",
+  "t": "palpatine",
+  "type": "rival"
+ },
+ {
+  "s": "han-solo",
+  "t": "greedo",
+  "type": "rival"
+ },
+ {
+  "s": "han-solo",
+  "t": "jabba-desilijic-tiure",
+  "type": "rival"
+ },
+ {
+  "s": "han-solo",
+  "t": "boba-fett",
+  "type": "rival"
+ },
+ {
+  "s": "padme-amidala",
+  "t": "nute-gunray",
+  "type": "rival"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "sebulba",
+  "type": "rival"
+ },
+ {
+  "s": "obi-wan-kenobi",
+  "t": "jango-fett",
+  "type": "rival"
+ },
+ {
+  "s": "mace-windu",
+  "t": "dooku",
+  "type": "rival"
+ },
+ {
+  "s": "luke-skywalker",
+  "t": "jabba-desilijic-tiure",
+  "type": "rival"
+ },
+ {
+  "s": "leia-organa",
+  "t": "jabba-desilijic-tiure",
+  "type": "rival"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "ratts-tyerel",
+  "type": "rival"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "dud-bolt",
+  "type": "rival"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "gasgano",
+  "type": "rival"
+ },
+ {
+  "s": "anakin-skywalker",
+  "t": "ben-quadinaros",
+  "type": "rival"
+ }
+]

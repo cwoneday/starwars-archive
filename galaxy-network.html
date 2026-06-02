@@ -176,7 +176,7 @@ function showDetail(d){
   const tint=ALIGN[d.align], fl=FORDER.filter(f=>d.films.includes(f));
   let html=`<div class="dhead"><div class="card-sil" style="color:${tint};--blade:${d.align==='dark'?'#ff5a4d':'#45d4e3'}"><svg><use href="#${ARCHSYM[d.arch]}"/></svg></div><div>
     <span class="align-tag" style="background:${tint.replace('var(--','rgba(0,0,0,0)')};color:${tint};border:1px solid ${tint}">${ALIGNKO[d.align]}</span>
-    <div class="name">${d.kr}</div><div class="name-en">${d.en}</div><div class="arch-ko">${ARCHKO[d.arch]}</div></div></div>
+    <div class="name">${d.kr}</div><div class="name-en">${d.en}</div><div class="arch-ko">${ARCHKO[d.arch]}</div><a href="character-detail.html?id=${d.id}" style="display:inline-block;margin-top:6px;font-size:10px;color:var(--holo);text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:4px 8px">전체 기록 ▸</a></div></div>
     <div class="stats">
       <div class="stat"><span class="k">출생</span><span class="v">${d.b==='unknown'?'?':d.b}</span></div>
       <div class="stat"><span class="k">키</span><span class="v">${d.h==='unknown'?'?':d.h+'cm'}</span></div>

@@ -77,7 +77,7 @@ function getId(){const u=new URLSearchParams(location.search);return u.get("id")
 function entityChips(ids,label,kind){
   if(!ids||!ids.length)return"";
   const chips=ids.map(id=>{
-    if(kind==="char"&&CHARMAP[id])return `<a class="chip" href="galaxy-network.html?focus=${id}" title="관계망에서 ${esc(CHARMAP[id])} 보기"><span class="nm">${esc(CHARMAP[id])}</span><span class="ref">${esc(id)}</span></a>`;
+    if(kind==="char"&&CHARMAP[id])return `<a class="chip" href="character-detail.html?id=${id}" title="${esc(CHARMAP[id])} 기록 보기"><span class="nm">${esc(CHARMAP[id])}</span><span class="ref">${esc(id)}</span></a>`;
     if(kind==="loc"&&LOCMAP[id])return `<a class="chip" href="location-detail.html?id=${id}" title="${esc(LOCMAP[id].o)}"><span class="nm">${esc(LOCMAP[id].n)}</span><span class="ref">${esc(id)}</span></a>`;
     if(kind==="fac"&&FACMAP[id])return `<a class="chip" href="faction-detail.html?id=${id}" title="${esc(FACMAP[id].o)}"><span class="nm">${esc(FACMAP[id].n)}</span><span class="ref">${esc(id)}</span></a>`;
     return `<span class="chip pending" title="해당 축 준비 중"><span class="nm">${esc(id.replace(/-/g," "))}</span><span class="ref">${esc(id)}</span></span>`;
