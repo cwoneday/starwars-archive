@@ -1,0 +1,168 @@
+#!/usr/bin/env python3
+"""
+스타워즈 캐넌 아카이브 — 데이터 거버넌스 검증기
+schema-validator(구조) + canon-auditor(출처·확정도) 를 한 파일로.
+헌법: 제2조(공유 스키마)·제4조(id 참조)·제5조(확정/추론 구분).
+사용: python3 validate.py        (실패 시 종료코드 1)
+"""
+import json, sys, os
+from collections import Counter, defaultdict
+
+DIR=os.path.dirname(os.path.abspath(__file__))
+def load(n): return json.load(open(os.path.join(DIR,n),encoding='utf-8'))
+
+events=load('events.json'); chars=load('characters.json')
+locs=load('locations.json'); facs=load('factions.json'); rels=load('relations.json')
+
+ERR=[]; WARN=[]; INFO=[]
+def err(m): ERR.append(m)
+def warn(m): WARN.append(m)
+def info(m): INFO.append(m)
+
+# ---- 허용 enum (헌법 표준) ----
+ERA={"dawn_of_the_jedi","high_republic","fall_of_the_jedi","reign_of_the_empire","age_of_rebellion","new_republic","rise_of_the_first_order","new_jedi_order"}
+CATEGORY={"battle","duel","politics","mission","founding","fall","discovery","treaty","other"}
+TIER={1,2,3}
+CERT={"exact","approximate","disputed"}
+CANON={"explicit","referenced","inferred"}
+STYPE={"film","series","novel","comic","game"}
+ALIGN={"light","dark","neutral"}
+ARCH={"jedi","sith","droid","trooper","pilot","bounty-hunter","bounty","royalty-politician","royal","creature","civilian"}
+GENDER={"male","female","droid","none","other","n/a","hermaphrodite"}
+RELTYPE={"family","master","ally","rival"}
+
+# ---- id 집합 ----
+ev_ids={e['id'] for e in events}
+ch_ids={c['id'] for c in chars}
+loc_ids={l['id'] for l in locs}
+fac_ids={f['id'] for f in facs}
+
+def dup_check(rows,label):
+    ids=[r['id'] for r in rows]
+    for k,n in Counter(ids).items():
+        if n>1: err(f"[{label}] 중복 id: {k} ({n}회)")
+
+# ================= schema-validator =================
+dup_check(events,'events'); dup_check(chars,'characters'); dup_check(locs,'locations'); dup_check(facs,'factions')
+
+# events
+EV_REQ=["id","title","title_en","era","year_value","year_certainty","category","tier","characters","locations","factions","source","source_type","canon_status","one_liner","summary","preceded_by","followed_by"]
+for e in events:
+    for f in EV_REQ:
+        if f not in e: err(f"[events:{e.get('id','?')}] 필수 필드 누락: {f}")
+    if e.get('era') not in ERA: err(f"[events:{e['id']}] era enum 위반: {e.get('era')}")
+    if e.get('category') not in CATEGORY: err(f"[events:{e['id']}] category enum 위반: {e.get('category')}")
+    if e.get('tier') not in TIER: err(f"[events:{e['id']}] tier 위반: {e.get('tier')}")
+    if e.get('year_certainty') not in CERT: err(f"[events:{e['id']}] year_certainty 위반: {e.get('year_certainty')}")
+    if e.get('canon_status') not in CANON: err(f"[events:{e['id']}] canon_status 위반: {e.get('canon_status')}")
+    if e.get('source_type') not in STYPE: err(f"[events:{e['id']}] source_type 위반: {e.get('source_type')}")
+    for cid in e.get('characters',[]):
+        if cid not in ch_ids: err(f"[events:{e['id']}] 깨진 인물 참조: {cid}")
+    for lid in e.get('locations',[]):
+        if lid not in loc_ids: err(f"[events:{e['id']}] 깨진 장소 참조: {lid}")
+    for fid in e.get('factions',[]):
+        if fid not in fac_ids: err(f"[events:{e['id']}] 깨진 세력 참조: {fid}")
+    for k in ('preceded_by','followed_by'):
+        for x in e.get(k,[]):
+            if x not in ev_ids: err(f"[events:{e['id']}] {k} 깨진 참조: {x}")
+    # 확장 필드 (구조화 + 서술) — 있으면 검증
+    if 'belligerents' in e:
+        b=e['belligerents']
+        if not isinstance(b,dict) or 'side_a' not in b or 'side_b' not in b:
+            err(f"[events:{e['id']}] belligerents 형식 오류(side_a/side_b 필요)")
+        else:
+            for side in ('side_a','side_b'):
+                for fid in b.get(side,[]):
+                    if fid not in fac_ids: err(f"[events:{e['id']}] belligerents {side} 깨진 세력: {fid}")
+                    elif fid not in e.get('factions',[]): warn(f"[events:{e['id']}] belligerents {side} 세력 {fid} 이 factions 목록에 없음")
+    for kf in e.get('key_figures',[]):
+        if kf not in ch_ids: err(f"[events:{e['id']}] key_figures 깨진 인물: {kf}")
+        elif kf not in e.get('characters',[]): warn(f"[events:{e['id']}] key_figures {kf} 이 characters 목록에 없음")
+    for dd in e.get('deep_dive',[]):
+        if 'phase' not in dd or 'note' not in dd: err(f"[events:{e['id']}] deep_dive 항목 형식 오류(phase/note 필요)")
+    # tier1 인데 깊은 서술(deep_dive) 없으면 안내
+    if e.get('tier')==1 and not e.get('deep_dive'): info(f"[커버리지] tier1 사건 deep_dive 미작성: {e['id']}")
+
+# characters
+for c in chars:
+    if c.get('alignment') not in ALIGN|{None}: err(f"[characters:{c['id']}] alignment 위반: {c.get('alignment')}")
+    if c.get('tier') not in TIER: err(f"[characters:{c['id']}] tier 위반: {c.get('tier')}")
+    if c.get('gender') not in GENDER: warn(f"[characters:{c['id']}] gender 비표준: {c.get('gender')}")
+    if c.get('era_primary') not in ERA|{None}: err(f"[characters:{c['id']}] era_primary 위반: {c.get('era_primary')}")
+    arch=c.get('portrait',{}).get('archetype')
+    if arch not in ARCH|{None}: err(f"[characters:{c['id']}] archetype 위반: {arch}")
+    if c.get('canon_status') not in CANON: err(f"[characters:{c['id']}] canon_status 위반: {c.get('canon_status')}")
+    hw=c.get('homeworld')
+    if hw and hw not in loc_ids: err(f"[characters:{c['id']}] homeworld 깨진 참조: {hw}")
+    for a in c.get('affiliation_history',[]):
+        if a['faction'] not in fac_ids: err(f"[characters:{c['id']}] affiliation 깨진 세력: {a['faction']}")
+        for k in ('from_event','to_event'):
+            if a.get(k) and a[k] not in ev_ids: err(f"[characters:{c['id']}] affiliation {k} 깨진 사건: {a[k]}")
+    for fld in ('arc','key_choices'):
+        for b in c.get(fld,[]):
+            if b.get('event') and b['event'] not in ev_ids: err(f"[characters:{c['id']}] {fld} 깨진 사건: {b['event']}")
+
+# locations / factions
+for l in locs:
+    if l.get('canon_status') not in CANON: err(f"[locations:{l['id']}] canon_status 위반: {l.get('canon_status')}")
+    if l.get('source_type') not in STYPE: warn(f"[locations:{l['id']}] source_type 비표준: {l.get('source_type')}")
+for f in facs:
+    if f.get('alignment') not in ALIGN: err(f"[factions:{f['id']}] alignment 위반: {f.get('alignment')}")
+    if f.get('canon_status') not in CANON: err(f"[factions:{f['id']}] canon_status 위반: {f.get('canon_status')}")
+
+# relations
+for i,r in enumerate(rels):
+    if r.get('type') not in RELTYPE: err(f"[relations#{i}] type 위반: {r.get('type')}")
+    for k in ('s','t'):
+        if r.get(k) not in ch_ids: err(f"[relations#{i}] 깨진 인물 참조({k}): {r.get(k)}")
+    if r.get('s')==r.get('t'): warn(f"[relations#{i}] 자기 자신 관계: {r.get('s')}")
+
+# 고아 데이터 (어디서도 참조 안 됨)
+ref_loc=set(); ref_fac=set(); ref_ch=set()
+for e in events:
+    ref_loc|=set(e.get('locations',[])); ref_fac|=set(e.get('factions',[])); ref_ch|=set(e.get('characters',[]))
+for c in chars:
+    if c.get('homeworld'): ref_loc.add(c['homeworld'])
+    for a in c.get('affiliation_history',[]): ref_fac.add(a['faction'])
+for r in rels: ref_ch.add(r['s']); ref_ch.add(r['t'])
+for l in loc_ids-ref_loc: info(f"[고아] 장소 미참조: {l}")
+for f in fac_ids-ref_fac: info(f"[고아] 세력 미참조: {f}")
+for c in ch_ids-ref_ch: info(f"[고아] 인물 미참조(관계·사건 어디에도 없음): {c}")
+
+# ================= canon-auditor =================
+# 연대 체인 정합성 (preceded/followed 상호 일치)
+byid={e['id']:e for e in events}
+for e in events:
+    for nxt in e.get('followed_by',[]):
+        if nxt in byid and e['id'] not in byid[nxt].get('preceded_by',[]):
+            warn(f"[연대체인] {e['id']} → {nxt} 이지만 역방향 preceded_by 불일치")
+# 추론을 확정처럼 쓰지 않는지: inferred인데 year_certainty exact 면 주의
+for e in events:
+    if e.get('canon_status')=='inferred' and e.get('year_certainty')=='exact':
+        warn(f"[제5조] {e['id']}: canon=inferred 인데 연대=exact (추론을 확정처럼 표기)")
+
+# ================= 커버리지 리포트 =================
+nar=sum(1 for c in chars if c.get('motivation'))
+aff=sum(1 for c in chars if c.get('affiliation_history'))
+arc=sum(1 for c in chars if c.get('arc'))
+info(f"[커버리지] 인물 심층서사(동기): {nar}/{len(chars)}")
+info(f"[커버리지] 인물 소속 기록: {aff}/{len(chars)}")
+info(f"[커버리지] 인물 변화(arc): {arc}/{len(chars)}")
+info(f"[커버리지] 사건 canon: " + ", ".join(f"{k}={v}" for k,v in Counter(e['canon_status'] for e in events).items()))
+info(f"[규모] events={len(events)} characters={len(chars)} locations={len(locs)} factions={len(facs)} relations={len(rels)}")
+
+# ================= 출력 =================
+print("="*54)
+print(" 스타워즈 캐넌 아카이브 · 데이터 거버넌스 감사")
+print("="*54)
+def block(title,items,sym):
+    print(f"\n{sym} {title} ({len(items)})")
+    for m in items: print(f"   {m}")
+block("ERROR (반드시 수정)",ERR,"❌")
+block("WARNING (검토 권장)",WARN,"⚠️ ")
+block("INFO (리포트)",INFO,"ℹ️ ")
+print("\n"+"-"*54)
+verdict = "PASS ✅ — 구조 오류 없음" if not ERR else f"FAIL ❌ — 오류 {len(ERR)}건"
+print(f" 판정: {verdict}  |  경고 {len(WARN)}  정보 {len(INFO)}")
+print("-"*54)
+sys.exit(1 if ERR else 0)

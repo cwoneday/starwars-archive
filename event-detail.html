@@ -30,6 +30,19 @@ h1{font-family:var(--fd);font-weight:700;font-size:2.1rem;line-height:1.12;lette
 .readout>div{display:flex;justify-content:space-between;font-family:var(--fm);font-size:11px;border-bottom:1px solid var(--line);padding-bottom:5px}
 .readout .k{color:var(--faint)}.readout .v{color:var(--holo)}
 .sec-label{font-family:var(--fm);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin:24px 0 9px}
+.belli{display:flex;align-items:stretch;gap:10px;margin:6px 0}
+.belli .side{flex:1;background:var(--void);border:1px solid var(--line);border-radius:8px;padding:11px}
+.belli .side .sl{font-family:var(--fm);font-size:9px;letter-spacing:.1em;color:var(--faint);margin-bottom:6px}
+.belli .vs{display:flex;align-items:center;font-family:var(--fd);font-weight:700;color:var(--warn);font-size:13px}
+.belli .fac{display:block;font-size:12px;color:var(--ink);margin-bottom:2px}
+.outcome{font-family:var(--fd);font-weight:600;color:var(--holo);font-size:1rem;border-left:2px solid var(--holo);padding-left:12px;margin:4px 0}
+.kfig{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.dd{counter-reset:phase;margin-top:4px}
+.dd .step{position:relative;padding-left:34px;padding-bottom:16px;border-left:1px solid var(--line);margin-left:10px}
+.dd .step:last-child{border-left-color:transparent;padding-bottom:0}
+.dd .step::before{counter-increment:phase;content:counter(phase);position:absolute;left:-11px;top:0;width:22px;height:22px;border-radius:50%;background:var(--void);border:1px solid var(--holo);color:var(--holo);font-family:var(--fm);font-size:11px;display:flex;align-items:center;justify-content:center}
+.dd .ph{font-family:var(--fd);font-weight:600;color:var(--ink);font-size:.98rem;margin-bottom:3px}
+.dd .nt{font-size:.92rem;color:var(--dim);line-height:1.6}
 .sec-body{font-size:1rem;color:var(--ink)}.sec-body.dim{color:var(--dim)}
 .chip-group{margin-bottom:14px}.grp-label{font-family:var(--fm);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
 .chips{display:flex;flex-wrap:wrap;gap:7px}
@@ -117,8 +130,14 @@ function render(){
       <div><span class="k">category</span><span class="v">${e.category}</span></div>
       <div><span class="k">canon_status</span><span class="v">${e.canon_status}</span></div>
     </div>
+    ${e.belligerents?`<div class="sec-label">교전 · Belligerents</div><div class="belli"><div class="side"><div class="sl">SIDE A</div>${(e.belligerents.side_a||[]).map(f=>`<span class="fac">${FACMAP[f]?esc(FACMAP[f].n):esc(f)}</span>`).join("")||'<span class="fac" style="color:var(--faint)">—</span>'}</div><div class="vs">VS</div><div class="side"><div class="sl">SIDE B</div>${(e.belligerents.side_b||[]).map(f=>`<span class="fac">${FACMAP[f]?esc(FACMAP[f].n):esc(f)}</span>`).join("")||'<span class="fac" style="color:var(--faint)">—</span>'}</div></div>`:""}
+    ${e.outcome?`<div class="sec-label">결과 · Outcome</div><p class="outcome">${esc(e.outcome)}</p>`:""}
+    ${e.key_figures&&e.key_figures.length?`<div class="sec-label">핵심 인물 · Key Figures</div><div class="kfig">${e.key_figures.map(id=>CHARMAP[id]?`<a class="chip" href="character-detail.html?id=${id}"><span class="nm">${esc(CHARMAP[id])}</span></a>`:"").join("")}</div>`:""}
+    ${e.background?`<div class="sec-label">배경 · Background</div><p class="sec-body">${esc(e.background)}</p>`:""}
     <div class="sec-label">개요 · Summary</div><p class="sec-body">${esc(e.summary)}</p>
     ${e.significance?`<div class="sec-label">의미 · Significance</div><p class="sec-body dim">${esc(e.significance)}</p>`:""}
+    ${e.aftermath?`<div class="sec-label">여파 · Aftermath</div><p class="sec-body">${esc(e.aftermath)}</p>`:""}
+    ${e.deep_dive&&e.deep_dive.length?`<div class="sec-label">전개 · Deep Dive</div><div class="dd">${e.deep_dive.map(d=>`<div class="step"><div class="ph">${esc(d.phase)}</div><div class="nt">${esc(d.note)}</div></div>`).join("")}</div>`:""}
     <div class="rule"></div>
     <div class="sec-label">연결 · Linked Entities</div>
     ${entityChips(e.characters,"인물 · characters","char")}
