@@ -14,7 +14,18 @@
     "birth_year_value": -19.0,
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "jedi-order",
+        "from_event": "battle-of-hoth",
+        "to_event": null
+      }
+    ],
     "motivation": "더 넓은 세계로 나가고 싶은 갈망에서 출발해, 아버지의 그림자를 마주하고 그를 구원하려는 믿음으로 자란다.",
     "arc": [
       {
@@ -68,7 +79,13 @@
     "birth_year_value": -112.0,
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "예법과 안전을 중시하는 소심한 통역 드로이드. 그럼에도 늘 사건의 한복판을 떠나지 못한다.",
     "arc": [
       {
@@ -115,7 +132,13 @@
     "birth_year_value": -33.0,
     "birth_year_certainty": "referenced",
     "homeworld": "naboo",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "주인을 향한 변함없는 충직함. 작은 몸으로 은하의 가장 큰 순간들마다 결정적 도움을 준다.",
     "arc": [
       {
@@ -162,7 +185,18 @@
     "birth_year_value": -41.9,
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "sith",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "galactic-empire",
+        "from_event": "declaration-of-empire",
+        "to_event": null
+      }
+    ],
     "motivation": "한때 아나킨이었던 자아를 억누른 채 황제의 의지를 집행한다. 그러나 마음 깊은 곳엔 잃어버린 자신을 향한 미련이 남아 있다.",
     "arc": [
       {
@@ -216,7 +250,18 @@
     "birth_year_value": -19.0,
     "birth_year_certainty": "referenced",
     "homeworld": "alderaan",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "new-republic",
+        "from_event": "battle-of-endor",
+        "to_event": null
+      }
+    ],
     "motivation": "불의에 맞서는 타고난 지도자. 입양된 왕가의 신념과 친부의 어둠 사이에서도 흔들리지 않는다.",
     "arc": [
       {
@@ -267,8 +312,13 @@
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "motivation": "땅과 가족을 지키려는 소박한 농부. 더 넓은 세계의 위험으로부터 조카를 떼어 놓으려 한다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "조카 루크를 평범하게 지키려 했지만, 제국의 추적이 농장까지 닿으며 변을 당한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -302,8 +352,13 @@
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "motivation": "조용한 온기로 가족을 품는 사람. 루크를 친자식처럼 키운다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "루크의 곁을 지키던 평온한 일상이 제국의 손길에 끝난다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -369,10 +424,26 @@
     "birth_year_value": -24.0,
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "루크의 고향 친구이자 먼저 길을 떠난 이상주의자. 대의를 위해 제국을 등진다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "친구 루크 곁에서 참호를 함께 돌입하다 베이더에게 격추된다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-yavin",
+        "note": "아카데미를 버리고 반란에 합류한 선택이 그를 야빈의 하늘로 이끈다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-4-a-new-hope"
@@ -402,7 +473,18 @@
     "birth_year_value": -57.0,
     "birth_year_certainty": "referenced",
     "homeworld": "stewjon",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      }
+    ],
     "motivation": "스승의 유지와 제다이의 규율에 충실하려는 책임감. 자신이 길러낸 제자의 타락을 평생 짊어지고 산다.",
     "arc": [
       {
@@ -458,7 +540,18 @@
     "birth_year_value": -41.9,
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": "order-66"
+      },
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      }
+    ],
     "motivation": "사랑하는 이를 잃지 않으려는 두려움이 그의 가장 큰 힘이자 약점이다. 통제할 수 없는 상실 앞에서 그는 점점 더 큰 힘을 갈망한다.",
     "arc": [
       {
@@ -511,10 +604,26 @@
     "birth_year_value": -64.0,
     "birth_year_certainty": "referenced",
     "homeworld": "eriadu",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "공포로 질서를 세울 수 있다는 신념의 화신. 데스 스타를 그 신념을 증명할 도구로 삼는다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "알데란을 시범 삼아 파괴하며 공포 통치를 과시하지만, 그 오만이 데스 스타와 함께 그를 삼킨다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-yavin",
+        "note": "경고를 무시하고 기지에 남아 데스 스타와 운명을 같이한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-4-a-new-hope",
@@ -545,7 +654,13 @@
     "birth_year_value": -200.0,
     "birth_year_certainty": "referenced",
     "homeworld": "kashyyyk",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "생명의 빚과 의리로 맺어진 충성. 한 솔로의 곁을 평생 지킨다.",
     "arc": [
       {
@@ -590,7 +705,13 @@
     "birth_year_value": -29.0,
     "birth_year_certainty": "referenced",
     "homeworld": "corellia",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "냉소적인 밀수꾼에서 출발해, 대의와 우정을 위해 기꺼이 위험을 감수하는 사람으로 변한다.",
     "arc": [
       {
@@ -716,9 +837,24 @@
     "birth_year_value": -21.0,
     "birth_year_certainty": "referenced",
     "homeworld": "corellia",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "침착하고 노련한 반란군 에이스 파일럿. 끝까지 살아남아 동료를 엄호한다.",
+    "arc": [
+      {
+        "event": "battle-of-yavin",
+        "note": "데스 스타 참호 돌입에서 살아남은 몇 안 되는 파일럿."
+      },
+      {
+        "event": "battle-of-endor",
+        "note": "제2 데스 스타 내부 공격을 이끌어 결정타에 기여한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -751,7 +887,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -784,7 +926,18 @@
     "birth_year_value": -896.0,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      }
+    ],
     "motivation": "포스의 균형과 제다이의 지혜를 지키려는 천 년의 책임. 그러나 자신과 교단의 한계도 끝내 마주한다.",
     "arc": [
       {
@@ -839,7 +992,23 @@
     "birth_year_value": -82.0,
     "birth_year_certainty": "referenced",
     "homeworld": "naboo",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "sith",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      },
+      {
+        "faction": "galactic-empire",
+        "from_event": "declaration-of-empire",
+        "to_event": null
+      }
+    ],
     "motivation": "은하 전체를 다크사이드 아래 두려는 권력 의지. 모든 갈등은 그가 양손에 쥔 각본이다.",
     "arc": [
       {
@@ -1008,7 +1177,13 @@
     "birth_year_value": -31.0,
     "birth_year_certainty": "referenced",
     "homeworld": "socorro",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "자기 사람들을 지키려는 생존주의자. 배신과 속죄 사이에서 결국 옳은 편을 택한다.",
     "arc": [
       {
@@ -1089,7 +1264,18 @@
     "birth_year_value": -41.0,
     "birth_year_certainty": "referenced",
     "homeworld": "mon-cala",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "new-republic",
+        "from_event": "battle-of-endor",
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -1122,7 +1308,23 @@
     "birth_year_value": -48.0,
     "birth_year_certainty": "referenced",
     "homeworld": "chandrila",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      },
+      {
+        "faction": "rebel-alliance",
+        "from_event": "rise-of-rebellion-cells",
+        "to_event": null
+      },
+      {
+        "faction": "new-republic",
+        "from_event": "battle-of-endor",
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -1155,7 +1357,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -1188,7 +1396,13 @@
     "birth_year_value": -8.0,
     "birth_year_certainty": "referenced",
     "homeworld": "endor",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": "battle-of-endor",
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -1221,7 +1435,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "sullust",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -1254,7 +1474,13 @@
     "birth_year_value": -92.0,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "규율보다 살아있는 포스의 뜻을 따르려는 신념. 예언과 직관을 좇아 제다이의 통념에 맞선다.",
     "arc": [
       {
@@ -1297,9 +1523,29 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "neimoidia",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "affiliation_history": [
+      {
+        "faction": "trade-federation",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "confederacy-of-independent-systems",
+        "from_event": "first-battle-of-geonosis",
+        "to_event": null
+      }
+    ],
+    "motivation": "이윤과 보신을 좇는 무역연합의 총독. 시스의 약속에 휘둘려 점점 깊은 음모에 발을 담근다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "나부를 봉쇄·점령하지만 패배한다."
+      },
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "분리주의의 얼굴로 다시 나서지만, 끝내 자신이 섬긴 어둠에 버려진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1332,7 +1578,13 @@
     "birth_year_value": -91.0,
     "birth_year_certainty": "referenced",
     "homeworld": "coruscant",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -1365,7 +1617,13 @@
     "birth_year_value": -46.0,
     "birth_year_certainty": "referenced",
     "homeworld": "naboo",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "민주주의와 공화국의 이상을 지키려는 정치가의 신념. 그 신념과 한 사람을 향한 사랑 사이에서 끝내 갈린다.",
     "arc": [
       {
@@ -1418,10 +1676,30 @@
     "birth_year_value": -52.0,
     "birth_year_certainty": "referenced",
     "homeworld": "naboo",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "받아들여지길 바라는 선량한 외톨이. 좋은 뜻이 번번이 더 큰 흐름에 이용당한다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "멸시받던 군구안족과 지상군의 다리를 놓아 해방에 기여한다."
+      },
+      {
+        "event": "declaration-of-empire",
+        "note": "선의로 낸 제안이 팰퍼틴에게 비상대권을 안기는 빌미가 된다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "declaration-of-empire",
+        "note": "최고의장에게 비상권한을 위임하자는 발의 — 선의가 독재의 문을 연 순간."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace",
@@ -1518,7 +1796,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "naboo",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -1552,9 +1836,19 @@
     "birth_year_certainty": "inferred",
     "homeworld": "toydaria",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "motivation": "이문과 도박을 좇는 타투인의 부품상. 노예를 재산으로 여기며 산다.",
+    "arc": [
+      {
+        "event": "battle-of-naboo",
+        "note": "포드레이스 내기에 져 노예 소년 아나킨을 놓아준다 — 한 영웅의 출발에 본의 아니게 기여한다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-naboo",
+        "note": "퀴곤과의 내기를 받아들인 것이 아나킨을 자유와 제다이의 길로 보낸다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-1-phantom-menace",
@@ -1618,7 +1912,13 @@
     "birth_year_value": -62.0,
     "birth_year_certainty": "referenced",
     "homeworld": "naboo",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -1695,7 +1995,13 @@
     "birth_year_value": -54.0,
     "birth_year_certainty": "referenced",
     "homeworld": "dathomir",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "sith",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "복수와 인정에 굶주린 무기. 버려진 뒤에도 증오 하나로 스스로를 지탱한다.",
     "arc": [
       {
@@ -1771,9 +2077,20 @@
     "birth_year_value": -48.0,
     "birth_year_certainty": "referenced",
     "homeworld": "ryloth",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "충직하고 용맹한 전장의 제다이 장군. 함께 싸우는 클론들을 신뢰했다.",
+    "arc": [
+      {
+        "event": "order-66",
+        "note": "함께 싸우던 클론들의 갑작스러운 배신에 외딴 행성에서 스러진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1938,7 +2255,18 @@
     "birth_year_value": -72.0,
     "birth_year_certainty": "referenced",
     "homeworld": "haruun-kal",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      }
+    ],
     "motivation": "제다이의 정통과 질서를 지키려는 강직함. 위협 앞에서는 단호함이 곧 정의라 믿는다.",
     "arc": [
       {
@@ -1987,9 +2315,24 @@
     "birth_year_value": -92.0,
     "birth_year_certainty": "referenced",
     "homeworld": "cerea",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "원칙과 의무에 충실한 평의회의 제다이. 교단의 판단을 자신의 신념으로 삼는다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "평의회의 일원으로 전장에 선다."
+      },
+      {
+        "event": "order-66",
+        "note": "전선에서 클론들의 총구가 돌아서며 스러진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2022,9 +2365,20 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "glee-anselm",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "물 흐르듯 싸우는 노련한 검사. 위협 앞에서 망설이지 않는다.",
+    "arc": [
+      {
+        "event": "order-66",
+        "note": "시디어스를 체포하려는 시도에 가담했다가 그 자리에서 스러진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2057,7 +2411,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2091,7 +2451,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "coruscant",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2125,7 +2491,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2159,7 +2531,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2192,9 +2570,20 @@
     "birth_year_value": -22.0,
     "birth_year_certainty": "referenced",
     "homeworld": "dorin",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "연민이 깊은 제다이. 생명을 구하는 일을 사명으로 여긴다.",
+    "arc": [
+      {
+        "event": "order-66",
+        "note": "순찰 비행 중 함께 날던 클론들의 배신으로 추락해 스러진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2227,9 +2616,25 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "champala",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      },
+      {
+        "faction": "galactic-empire",
+        "from_event": "declaration-of-empire",
+        "to_event": null
+      }
+    ],
+    "motivation": "권력의 곁을 지키는 처세의 달인. 공화국이든 제국이든, 정점에 선 자의 그늘에 머문다.",
+    "arc": [
+      {
+        "event": "declaration-of-empire",
+        "note": "공화국이 제국으로 바뀌는 자리에서도 권력의 곁을 떠나지 않고 살아남는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2261,7 +2666,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "naboo",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2294,7 +2705,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "naboo",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2360,7 +2777,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "geonosis",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "confederacy-of-independent-systems",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2394,9 +2817,20 @@
     "birth_year_value": -58.0,
     "birth_year_certainty": "referenced",
     "homeworld": "mirial",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "규율과 절제를 중시하는 제다이. 흔들림 없는 평정을 추구한다.",
+    "arc": [
+      {
+        "event": "order-66",
+        "note": "숙청을 피하지 못하고 사로잡혀 교단의 비극에 이름을 더한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2428,7 +2862,13 @@
     "birth_year_value": -40.0,
     "birth_year_certainty": "referenced",
     "homeworld": "mirial",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2461,7 +2901,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "naboo",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2494,7 +2940,18 @@
     "birth_year_value": -102.0,
     "birth_year_certainty": "referenced",
     "homeworld": "serenno",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "sith",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "confederacy-of-independent-systems",
+        "from_event": "first-battle-of-geonosis",
+        "to_event": null
+      }
+    ],
     "motivation": "부패한 공화국에 환멸을 느껴 떠났으나, 더 큰 어둠의 도구가 되어버린 이상주의자의 변질.",
     "arc": [
       {
@@ -2542,7 +2999,18 @@
     "birth_year_value": -67.0,
     "birth_year_certainty": "referenced",
     "homeworld": "alderaan",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      },
+      {
+        "faction": "rebel-alliance",
+        "from_event": "rise-of-rebellion-cells",
+        "to_event": null
+      }
+    ],
     "motivation": "공화국의 이상을 끝까지 믿은 정치가. 제국의 그늘에서 조용히 저항의 씨를 심는다.",
     "arc": [
       {
@@ -2595,8 +3063,13 @@
     "birth_year_certainty": "referenced",
     "homeworld": "concord-dawn",
     "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "motivation": "보수와 실력으로 사는 최고의 현상금 사냥꾼. 자신을 복제한 '아들' 보바를 남기려 한다.",
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "클론 군대의 원본으로서 분리주의 편에 섰다가 처형장 전투에서 스러진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2759,7 +3232,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "coruscant",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2792,7 +3271,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2826,7 +3311,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "skako",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "confederacy-of-independent-systems",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2859,7 +3350,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "confederacy-of-independent-systems",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -2892,9 +3389,20 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": null,
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "차분한 수호자. 성전과 어린 수련생들을 지키는 데 헌신한다.",
+    "arc": [
+      {
+        "event": "order-66",
+        "note": "교단의 몰락 속에서 끝까지 자리를 지키다 스러진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2926,10 +3434,30 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "kalee",
-    "affiliation_history": [],
-    "motivation": null,
-    "arc": [],
-    "key_choices": [],
+    "affiliation_history": [
+      {
+        "faction": "confederacy-of-independent-systems",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "정복과 사냥의 전율을 좇는 개조된 장군. 쓰러뜨린 제다이의 광선검을 전리품으로 모으며 자신의 공허를 채우려 한다.",
+    "arc": [
+      {
+        "event": "battle-of-coruscant",
+        "note": "최고의장을 납치해 전쟁을 뒤집으려 하지만 구출을 막지 못한다."
+      },
+      {
+        "event": "battle-of-utapau",
+        "note": "우타파우로 쫓겨 숨었다가 오비완에게 최후를 맞는다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-utapau",
+        "note": "끝까지 도망치며 싸웠지만, 분리주의의 군사 지휘는 그와 함께 끝난다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ep-3-revenge-of-sith"
@@ -2992,7 +3520,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "alderaan",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
@@ -3026,7 +3560,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": null,
     "arc": [],
     "key_choices": [],
