@@ -537,5 +537,60 @@
     "source": "스타워즈 전승",
     "source_type": "novel",
     "canon_status": "inferred"
+  },
+  {
+    "id": "valo",
+    "name": "발로",
+    "name_en": "Valo",
+    "type": "planet",
+    "region": "외곽",
+    "one_liner": "공화국 대축제가 열렸다가 니힐의 기습으로 폐허가 된 행성.",
+    "source": "하이 리퍼블릭",
+    "source_type": "novel",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "mustafar",
+    "name": "무스타파",
+    "name_en": "Mustafar",
+    "type": "planet",
+    "region": "외곽",
+    "one_liner": "용암이 흐르는 화산 행성. 아나킨이 베이더로 추락한 곳.",
+    "source": "스타워즈 캐넌",
+    "source_type": "film",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "ghorman",
+    "name": "고르만",
+    "name_en": "Ghorman",
+    "type": "planet",
+    "region": "미드림",
+    "one_liner": "제국의 학살이 벌어져 반란의 분노에 불을 지핀 행성.",
+    "source": "스타워즈 캐넌",
+    "source_type": "series",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "takodana",
+    "name": "타코다나",
+    "name_en": "Takodana",
+    "type": "planet",
+    "region": "미드림",
+    "one_liner": "마즈 카나타의 성이 있던 숲의 행성.",
+    "source": "스타워즈 캐넌",
+    "source_type": "film",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "crait",
+    "name": "크레이트",
+    "name_en": "Crait",
+    "type": "planet",
+    "region": "외곽",
+    "one_liner": "붉은 소금 사막의 광물 행성. 저항군 최후의 항전지.",
+    "source": "스타워즈 캐넌",
+    "source_type": "film",
+    "canon_status": "referenced"
   }
 ]
