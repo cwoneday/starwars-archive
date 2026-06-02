@@ -62,7 +62,10 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
 .notfound{text-align:center;padding:80px 20px;color:var(--dim)}
 .legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
-</style></head>
+.prod-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px;margin-top:4px}
+.prod-grid .pd{background:var(--void);border:1px solid var(--line);border-radius:8px;padding:9px 11px;display:flex;flex-direction:column;gap:3px}
+.prod-grid .pk{font-family:var(--fm);font-size:9px;letter-spacing:.08em;color:var(--faint);text-transform:uppercase}
+.prod-grid .pv{font-size:13px;color:var(--ink)}</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -140,6 +143,11 @@ function render(){
       ${f.era_primary?`<span class="badge">${esc(ERA_KO[f.era_primary]||f.era_primary)}</span>`:""}
       <span class="badge dim">${esc(f.canon_status)}</span>
     </div>
+    ${(f.director||f.producer||f.release_date)?`<div class="sec-label">제작 정보 · Production</div><div class="prod-grid">
+      ${f.director?`<div class="pd"><span class="pk">감독 · Director</span><span class="pv">${esc(f.director)}</span></div>`:""}
+      ${f.producer?`<div class="pd"><span class="pk">제작 · Producer</span><span class="pv">${esc(f.producer)}</span></div>`:""}
+      ${f.release_date?`<div class="pd"><span class="pk">개봉일 · Released</span><span class="pv">${esc(f.release_date)}</span></div>`:""}
+    </div>`:""}
     <div class="sec-label">줄거리 · Summary</div><p class="sec-body">${esc(f.summary)}</p>
     ${f.significance?`<div class="sec-label">의의 · Significance</div><p class="sec-body dim">${esc(f.significance)}</p>`:""}
     <div class="sec-label">등장인물 · Characters <span class="cnt">(${chars.length})</span></div><div class="chips">${charChips}</div>
