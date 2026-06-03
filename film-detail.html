@@ -65,7 +65,9 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .prod-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px;margin-top:4px}
 .prod-grid .pd{background:var(--void);border:1px solid var(--line);border-radius:8px;padding:9px 11px;display:flex;flex-direction:column;gap:3px}
 .prod-grid .pk{font-family:var(--fm);font-size:9px;letter-spacing:.08em;color:var(--faint);text-transform:uppercase}
-.prod-grid .pv{font-size:13px;color:var(--ink)}</style></head>
+.prod-grid .pv{font-size:13px;color:var(--ink)}.xref{color:var(--holo);text-decoration:none;border-bottom:1px dashed rgba(69,212,227,.5)}
+.xref:hover{border-bottom-style:solid;text-shadow:0 0 6px var(--holo-glow,rgba(69,212,227,.4))}
+</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -105,13 +107,43 @@ const ERABG={dawn_of_the_jedi:{g:["#1a2a3a","#0a1118"],a:[0.15,0.45,0.5]},high_r
 const STARS=(()=>{let r=7,out="";const rnd=()=>{r=(r*9301+49297)%233280;return r/233280};for(let i=0;i<26;i++){out+=`<circle cx="${(rnd()*1200)|0}" cy="${(rnd()*800)|0}" r="${(rnd()*1.4+0.5).toFixed(1)}" fill="#eaf2ff" opacity="${(rnd()*0.5+0.3).toFixed(2)}"/>`}return out})();
 function eraBackdrop(era){const c=ERABG[era]||ERABG.age_of_rebellion;const[ar,ag,ab]=c.a;return `<svg viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="eg" cx="35%" cy="28%" r="90%"><stop offset="0%" stop-color="${c.g[0]}"/><stop offset="55%" stop-color="${c.g[1]}"/><stop offset="100%" stop-color="#04060b"/></radialGradient><filter id="ef"><feTurbulence type="fractalNoise" baseFrequency="0.006 0.009" numOctaves="3" seed="9"/><feColorMatrix type="matrix" values="0 0 0 0 ${ar}  0 0 0 0 ${ag}  0 0 0 0 ${ab}  0 0 0 0.5 0"/></filter></defs><rect width="1200" height="800" fill="url(#eg)"/><rect width="1200" height="800" filter="url(#ef)" opacity="0.32"/>${STARS}</svg>`;}
 
-let FILMS=[],BYID={},CHARS=[],EVENTS=[],VEHS=[],SSS=[];
+let FILMS=[],BYID={},CHARS=[],EVENTS=[],VEHS=[],SSS=[],LOCS=[],FACS=[];
+// 제6조-B: 서술 안의 데이터 이름을 상세 페이지로 자동 링크
+let LINK_INDEX=[], LINK_RE=null, LINK_MAP={};
+function buildLinkIndex(){
+  const idx=[];
+  const add=(name,url)=>{ if(name && String(name).length>=2) idx.push({name:String(name),url}); };
+  EVENTS.forEach(e=>add(e.title,`event-detail.html?id=${e.id}`));
+  CHARS.forEach(c=>add(c.name,`character-detail.html?id=${c.id}`));
+  LOCS.forEach(l=>add(l.name,`location-detail.html?id=${l.id}`));
+  FACS.forEach(x=>add(x.name,`faction-detail.html?id=${x.id}`));
+  VEHS.forEach(v=>add(v.name,`vehicle-detail.html?id=${v.id}`));
+  SSS.forEach(v=>add(v.name,`starship-detail.html?id=${v.id}`));
+  // 긴 이름 우선 (부분 매칭 방지)
+  idx.sort((a,b)=>b.name.length-a.name.length);
+  LINK_INDEX=idx; LINK_MAP={}; idx.forEach(o=>{ if(!(o.name in LINK_MAP)) LINK_MAP[o.name]=o.url; });
+  const esc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  const seen=new Set(); const alts=[];
+  idx.forEach(o=>{ if(!seen.has(o.name)){ seen.add(o.name); alts.push(esc(o.name)); }});
+  LINK_RE = alts.length ? new RegExp(alts.join('|'),'g') : null;
+}
+// escapedText(이미 HTML 이스케이프됨) 안의 이름을 링크로
+function linkify(escapedText){
+  if(!LINK_RE) return escapedText;
+  return escapedText.replace(LINK_RE,(m,offset,str)=>{
+    const prev=str[offset-1]||"", next=str[offset+m.length]||"";
+    // 〈 〉 《 》 안의 작품명 표기는 링크하지 않음 (예: 마블 〈다스 베이더〉)
+    if(prev==="\u3008"||next==="\u3009"||prev==="\u300A"||next==="\u300B") return m;
+    return LINK_MAP[m] ? `<a class="xref" href="${LINK_MAP[m]}">${m}</a>` : m;
+  });
+}
 const getId=()=>new URLSearchParams(location.search).get('id');
 
 async function load(){
   try{
-    const [fi,ch,ev,vh,ss]=await Promise.all(["films.json","characters.json","events.json","vehicles.json","starships.json"].map(f=>fetch(f).then(r=>r.json())));
-    FILMS=fi; CHARS=ch; EVENTS=ev; VEHS=vh||[]; SSS=ss||[]; BYID=Object.fromEntries(fi.map(f=>[f.id,f]));
+    const [fi,ch,ev,vh,ss,lo,fa]=await Promise.all(["films.json","characters.json","events.json","vehicles.json","starships.json","locations.json","factions.json"].map(f=>fetch(f).then(r=>r.json()).catch(()=>[])));
+    FILMS=fi; CHARS=ch; EVENTS=ev; VEHS=vh||[]; SSS=ss||[]; LOCS=lo||[]; FACS=fa||[]; BYID=Object.fromEntries(fi.map(f=>[f.id,f]));
+    buildLinkIndex();
     render();
   }catch(err){
     document.getElementById("app").innerHTML=`<div class="notfound"><div style="font-family:var(--fd);font-size:1.1rem;color:var(--ink);margin-bottom:14px">데이터를 불러오지 못했습니다</div>films/characters/events.json을 직접 읽습니다. 로컬 서버/GitHub Pages로 열어주세요:<br><br><code style="color:var(--holo);font-family:var(--fm)">python3 -m http.server</code></div>`;
@@ -150,8 +182,8 @@ function render(){
       ${f.publisher?`<div class="pd"><span class="pk">출판 · Publisher</span><span class="pv">${esc(f.publisher)}</span></div>`:""}
       ${f.release_date?`<div class="pd"><span class="pk">${f.work_type==="novel"?"발행일 · Published":"개봉일 · Released"}</span><span class="pv">${esc(f.release_date)}</span></div>`:""}
     </div>`:""}
-    <div class="sec-label">줄거리 · Summary</div><p class="sec-body">${esc(f.summary)}</p>
-    ${f.significance?`<div class="sec-label">의의 · Significance</div><p class="sec-body dim">${esc(f.significance)}</p>`:""}
+    <div class="sec-label">줄거리 · Summary</div><p class="sec-body">${linkify(esc(f.summary))}</p>
+    ${f.significance?`<div class="sec-label">의의 · Significance</div><p class="sec-body dim">${linkify(esc(f.significance))}</p>`:""}
     <div class="sec-label">등장인물 · Characters <span class="cnt">(${chars.length})</span></div><div class="chips">${charChips}</div>
     <div class="sec-label">수록 사건 · Events <span class="cnt">(${evs.length})</span></div><div class="chips">${evChips}</div>
     ${(()=>{const vs=VEHS.filter(v=>(v.films||[]).includes(f.id));return vs.length?`<div class="sec-label">등장 탈것 · Vehicles <span class="cnt">(${vs.length})</span></div><div class="chips">${vs.map(v=>`<a class="chip" href="vehicle-detail.html?id=${v.id}">${esc(v.name)}</a>`).join("")}</div>`:"";})()}

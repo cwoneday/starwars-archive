@@ -17,10 +17,14 @@ NEED={
  "character-detail.html":["characters","events","factions","locations","relations"],
  "event-detail.html":["characters","events","factions","locations"],
  "faction-detail.html":["characters","events","factions"],
- "film-detail.html":["characters","events","films"],
+ "film-detail.html":["characters","events","films","vehicles","starships","locations","factions"],
  "films.html":["characters","events","films"],
  "location-detail.html":["characters","events","locations"],
  "galaxy-network.html":["characters"],
+ "vehicle-detail.html":["vehicles","characters","films"],
+ "vehicles.html":["vehicles"],
+ "starship-detail.html":["starships","characters","films"],
+ "starships.html":["starships"],
  "validator.html":["characters","events","factions","locations","relations"],
 }
 # fetch 없이 더블클릭으로 이미 작동 (그대로 복사)
