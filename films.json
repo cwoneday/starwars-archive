@@ -185,7 +185,7 @@
   },
   {
     "id": "ep-9-rise-of-skywalker",
-    "title": "스카이워커의 부상",
+    "title": "라이즈 오브 스카이워커",
     "title_en": "The Rise of Skywalker",
     "work_type": "film",
     "episode_number": 9,
@@ -515,5 +515,29 @@
       "베이더",
       "제국초기"
     ]
+  },
+  {
+    "id": "the-mandalorian-and-grogu",
+    "title": "만달로리안과 그로구",
+    "title_en": "The Mandalorian and Grogu",
+    "work_type": "film",
+    "trilogy": null,
+    "release_year": 2026,
+    "era_primary": "new_republic",
+    "summary": "딘 자린과 그로구가 신공화국과 함께 새로운 임무에 나서는 극장판. 만달로리안 시리즈 시즌 3 이후를 잇는 이야기로, 제국 잔당의 그림자가 다시 드리운다.",
+    "significance": "7년 만의 스타워즈 극장 복귀작이자, 만달로리안·그로구 콤비의 첫 스크린 데뷔. 제다이의 귀환과 깨어난 포스 사이 신공화국 시대를 대형 스크린으로 처음 그린다.",
+    "source": "루카스필름 / 캐넌",
+    "canon_status": "explicit",
+    "tags": [
+      "신공화국",
+      "만달로리안",
+      "극장판",
+      "2026"
+    ],
+    "episode_number": null,
+    "release_date": "2026-05-22",
+    "director": "존 패브로 (Jon Favreau)",
+    "producer": "존 패브로, 캐슬린 케네디, 데이브 필로니, 이언 브라이스",
+    "source_type": "film"
   }
 ]

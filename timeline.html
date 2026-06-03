@@ -98,6 +98,10 @@ h1{font-family:var(--font-display);font-weight:700;font-size:var(--fs-3xl);line-
 .cat-dot{width:8px;height:8px;border-radius:50%;flex:none}
 .cert-tag{font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-faint)}
 .tier-tag{font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-faint);margin-left:auto}
+.film-node .dot.film-dot{left:-28px;top:15px;width:11px;height:11px;border-radius:2px;transform:rotate(45deg);background:var(--bg-void);border:2px solid #d8b45a;box-shadow:0 0 9px rgba(216,180,90,.55);animation:none}
+.film-card{border-left:3px solid #d8b45a !important;background:linear-gradient(90deg,rgba(216,180,90,.08),var(--bg-panel) 60%)}
+.film-card:hover{border-color:#d8b45a}
+.film-badge{font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;color:#d8b45a;border:1px solid rgba(216,180,90,.45);border-radius:20px;padding:2px 8px}
 .card h3{font-family:var(--font-display);font-weight:500;font-size:var(--fs-lg);color:var(--text);line-height:1.25}
 .card .ol{color:var(--text-dim);font-size:var(--fs-sm);margin-top:4px}
 .card .arrow{color:var(--holo);opacity:0;transition:opacity var(--dur-fast);font-family:var(--font-mono)}
@@ -140,7 +144,7 @@ footer.page-foot b{color:var(--text-dim);font-weight:500}
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html" class="active">타임라인</a><a href="films.html">작품</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html" class="active">타임라인</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 
 <main class="wrap">
   <div class="hud-bar">
@@ -244,16 +248,56 @@ ERAS.forEach((e,i)=>{
   railEl.appendChild(b);
 });
 
+// 영화 에피소드 마커 (작중 연대 위치)
+const WT_ICON={film:"\uD83C\uDFAC",series:"\uD83D\uDCFA",novel:"\uD83D\uDCD6",game:"\uD83C\uDFAE",comic:"\uD83D\uDCD7"};
+const WT_KO={film:"\uC601\uD654",series:"\uC2DC\uB9AC\uC988",novel:"\uC18C\uC124",game:"\uAC8C\uC784",comic:"\uCF54\uBBF9"};
+const FILMS_TL=[
+  {id:"ep-1-phantom-menace",era:"fall_of_the_jedi",year_value:-32,year_label:"32 BBY",episode:1,title:"에피소드 I — 보이지 않는 위험",title_en:"The Phantom Menace"},
+  {id:"ep-2-attack-of-clones",era:"fall_of_the_jedi",year_value:-22,year_label:"22 BBY",episode:2,title:"에피소드 II — 클론의 습격",title_en:"Attack of the Clones"},
+  {id:"ep-3-revenge-of-sith",era:"fall_of_the_jedi",year_value:-19.02,year_label:"19 BBY",episode:3,title:"에피소드 III — 시스의 복수",title_en:"Revenge of the Sith"},
+  {id:"ep-4-a-new-hope",era:"age_of_rebellion",year_value:0.01,year_label:"0 ABY",episode:4,title:"에피소드 IV — 새로운 희망",title_en:"A New Hope"},
+  {id:"ep-5-empire",era:"age_of_rebellion",year_value:3.01,year_label:"3 ABY",episode:5,title:"에피소드 V — 제국의 역습",title_en:"The Empire Strikes Back"},
+  {id:"ep-6-return-of-jedi",era:"age_of_rebellion",year_value:4.01,year_label:"4 ABY",episode:6,title:"에피소드 VI — 제다이의 귀환",title_en:"Return of the Jedi"},
+  {id:"ep-7-force-awakens",era:"rise_of_the_first_order",year_value:34.01,year_label:"34 ABY",episode:7,title:"에피소드 VII — 깨어난 포스",title_en:"The Force Awakens"},
+  {id:"ep-8-last-jedi",era:"rise_of_the_first_order",year_value:34.21,year_label:"34 ABY",episode:8,title:"에피소드 VIII — 라스트 제다이",title_en:"The Last Jedi"},
+  {id:"ep-9-rise-of-skywalker",era:"new_jedi_order",year_value:35.01,year_label:"35 ABY",episode:9,title:"에피소드 IX — 라이즈 오브 스카이워커",title_en:"The Rise of Skywalker"},
+  {id:"light-of-the-jedi",era:"high_republic",year_value:-232.01,year_label:"232 BBY",wt:"novel",title:"하이 리퍼블릭: 빛의 시대",title_en:"Light of the Jedi"},
+  {id:"the-high-republic",era:"high_republic",year_value:-230.5,year_label:"~230 BBY",wt:"novel",title:"하이 리퍼블릭 (기획)",title_en:"The High Republic"},
+  {id:"the-rising-storm",era:"high_republic",year_value:-230.4,year_label:"231 BBY",wt:"novel",title:"하이 리퍼블릭: 떠오르는 폭풍",title_en:"The Rising Storm"},
+  {id:"the-clone-wars",era:"fall_of_the_jedi",year_value:-20.5,year_label:"22–19 BBY",wt:"series",title:"클론 전쟁",title_en:"The Clone Wars"},
+  {id:"darth-vader-comic",era:"reign_of_the_empire",year_value:-18.9,year_label:"19 BBY",wt:"comic",title:"다스 베이더 (코믹)",title_en:"Darth Vader"},
+  {id:"jedi-fallen-order",era:"reign_of_the_empire",year_value:-14,year_label:"14 BBY",wt:"game",title:"제다이: 폴른 오더",title_en:"Jedi: Fallen Order"},
+  {id:"thrawn",era:"reign_of_the_empire",year_value:-11,year_label:"~11 BBY",wt:"novel",title:"스론",title_en:"Thrawn"},
+  {id:"solo",era:"reign_of_the_empire",year_value:-10,year_label:"~10 BBY",wt:"film",title:"솔로",title_en:"Solo"},
+  {id:"obi-wan-kenobi",era:"reign_of_the_empire",year_value:-9,year_label:"9 BBY",wt:"series",title:"오비완 케노비",title_en:"Obi-Wan Kenobi"},
+  {id:"jedi-survivor",era:"reign_of_the_empire",year_value:-8.9,year_label:"9 BBY",wt:"game",title:"제다이: 서바이버",title_en:"Jedi: Survivor"},
+  {id:"andor",era:"reign_of_the_empire",year_value:-2,year_label:"5–1 BBY",wt:"series",title:"안돌",title_en:"Andor"},
+  {id:"rebels",era:"reign_of_the_empire",year_value:-5.01,year_label:"5 BBY",wt:"series",title:"반란군",title_en:"Star Wars Rebels"},
+  {id:"rogue-one",era:"age_of_rebellion",year_value:-0.05,year_label:"0 BBY",wt:"film",title:"로그 원",title_en:"Rogue One"},
+  {id:"aftermath-trilogy",era:"new_republic",year_value:5.01,year_label:"5 ABY",wt:"novel",title:"여파 3부작",title_en:"Aftermath Trilogy"},
+  {id:"the-mandalorian",era:"new_republic",year_value:9,year_label:"9 ABY",wt:"series",title:"만달로리안",title_en:"The Mandalorian"},
+  {id:"the-mandalorian-and-grogu",era:"new_republic",year_value:12,year_label:"~12 ABY",wt:"film",title:"만달로리안과 그로구",title_en:"The Mandalorian and Grogu"},
+  {id:"bloodline",era:"new_republic",year_value:28,year_label:"28 ABY",wt:"novel",title:"블러드라인",title_en:"Bloodline"},
+];
+
 // 타임라인 렌더 (시대별, year_value 정렬)
 const tl=document.getElementById("timeline");
 ERAS.forEach(era=>{
-  const evs=EVENTS.filter(x=>x.era===era.key).sort((a,b)=>a.year_value-b.year_value);
-  if(!evs.length) return;
+  const evs=EVENTS.filter(x=>x.era===era.key).map(e=>Object.assign({_t:"event"},e));
+  const fms=FILMS_TL.filter(x=>x.era===era.key).map(f=>Object.assign({_t:"film"},f));
+  const items=[...evs,...fms].sort((a,b)=>a.year_value-b.year_value);
+  if(!items.length) return;
   const sec=document.createElement("section");
   sec.className="era-section"; sec.id="sec-"+era.key; sec.dataset.key=era.key;
   sec.innerHTML=`<div class="era-head rv"><h2>${era.label}</h2><span class="er-range">${era.range}</span><span class="er-line"></span></div>`;
   const spine=document.createElement("div"); spine.className="spine";
-  evs.forEach(ev=>{
+  items.forEach(it=>{
+    if(it._t==="film"){
+      const fn=document.createElement("div"); fn.className="node film-node rv";
+      fn.innerHTML=`<span class="dot film-dot"></span><a class="card film-card" href="film-detail.html?id=${it.id}"><div class="card-top"><span class="film-badge">${it.episode?("\uD83C\uDFAC EPISODE "+it.episode):(WT_ICON[it.wt]+" "+WT_KO[it.wt])}</span><span class="yr">${it.year_label}</span></div><h3>${it.title} <span class="arrow">\u2197</span></h3><p class="ol">${WT_KO[it.wt||"film"]} \u00b7 ${it.title_en}</p></a>`;
+      spine.appendChild(fn); return;
+    }
+    const ev=it;
     const node=document.createElement("div");
     node.className="node rv"; node.dataset.tier=ev.tier; node.dataset.certainty=ev.year_certainty;
     node.innerHTML=`
@@ -279,6 +323,7 @@ document.getElementById("totalCount").textContent=EVENTS.length;
 const tlEl=document.getElementById("timeline");
 function applyDensity(d){
   document.querySelectorAll(".node").forEach(n=>{
+    if(n.classList.contains("film-node")){n.style.display="";return;}
     const t=+n.dataset.tier;
     let show=true;
     if(d==="1") show=(t===1);
