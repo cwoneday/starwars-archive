@@ -143,10 +143,12 @@ function render(){
       ${f.era_primary?`<span class="badge">${esc(ERA_KO[f.era_primary]||f.era_primary)}</span>`:""}
       <span class="badge dim">${esc(f.canon_status)}</span>
     </div>
-    ${(f.director||f.producer||f.release_date)?`<div class="sec-label">제작 정보 · Production</div><div class="prod-grid">
+    ${(f.director||f.producer||f.author||f.publisher||f.release_date)?`<div class="sec-label">제작·출간 정보 · Credits</div><div class="prod-grid">
       ${f.director?`<div class="pd"><span class="pk">감독 · Director</span><span class="pv">${esc(f.director)}</span></div>`:""}
+      ${f.author?`<div class="pd"><span class="pk">저자 · Author</span><span class="pv">${esc(f.author)}</span></div>`:""}
       ${f.producer?`<div class="pd"><span class="pk">제작 · Producer</span><span class="pv">${esc(f.producer)}</span></div>`:""}
-      ${f.release_date?`<div class="pd"><span class="pk">개봉일 · Released</span><span class="pv">${esc(f.release_date)}</span></div>`:""}
+      ${f.publisher?`<div class="pd"><span class="pk">출판 · Publisher</span><span class="pv">${esc(f.publisher)}</span></div>`:""}
+      ${f.release_date?`<div class="pd"><span class="pk">${f.work_type==="novel"?"발행일 · Published":"개봉일 · Released"}</span><span class="pv">${esc(f.release_date)}</span></div>`:""}
     </div>`:""}
     <div class="sec-label">줄거리 · Summary</div><p class="sec-body">${esc(f.summary)}</p>
     ${f.significance?`<div class="sec-label">의의 · Significance</div><p class="sec-body dim">${esc(f.significance)}</p>`:""}
