@@ -1108,5 +1108,24 @@
     "source": "스타워즈 캐넌",
     "source_type": "film",
     "canon_status": "referenced"
+  },
+  {
+    "id": "janix",
+    "name": "자닉스",
+    "name_en": "Janix",
+    "type": "planet",
+    "region": "외곽",
+    "one_liner": "제국의 손이 닿지 않은 변경 행성. 범죄 신디케이트들이 불안한 균형 속에 자치하는 무법지대.",
+    "source": "몰 — 섀도 로드",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "climate": null,
+    "terrain": "도시",
+    "gravity": "표준",
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "data_source": "starwars.com"
   }
 ]

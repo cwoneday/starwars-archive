@@ -673,5 +673,30 @@
     "s": "marchion-ro",
     "t": "lina-soh",
     "type": "rival"
+  },
+  {
+    "s": "eeko-dio-daki",
+    "t": "devon-izara",
+    "type": "master"
+  },
+  {
+    "s": "darth-maul",
+    "t": "devon-izara",
+    "type": "master"
+  },
+  {
+    "s": "darth-maul",
+    "t": "rook-kast",
+    "type": "ally"
+  },
+  {
+    "s": "darth-maul",
+    "t": "darth-vader",
+    "type": "rival"
+  },
+  {
+    "s": "darth-maul",
+    "t": "brander-lawson",
+    "type": "rival"
   }
 ]

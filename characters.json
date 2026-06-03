@@ -220,10 +220,11 @@
     ],
     "appears_in": [],
     "works": [
+      "ep-3-revenge-of-sith",
       "ep-4-a-new-hope",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "ep-3-revenge-of-sith"
+      "maul-shadow-lord"
     ],
     "portrait": {
       "type": "silhouette",
@@ -2117,7 +2118,10 @@
     ],
     "appears_in": [],
     "works": [
-      "ep-1-phantom-menace"
+      "ep-1-phantom-menace",
+      "maul-shadow-lord",
+      "solo",
+      "the-clone-wars"
     ],
     "portrait": {
       "type": "silhouette",
@@ -4840,6 +4844,150 @@
     },
     "source": "제다이: 폴른 오더 / 서바이버",
     "source_type": "game",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "devon-izara",
+    "name": "데본 이자라",
+    "name_en": "Devon Izara",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Twi'lek",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "제국을 피해 숨어 살던 환멸에 찬 패다완. 행동을 갈망하다 몰과 얽히며 다른 미래를 받아들여야 한다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "maul-shadow-lord"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "몰 — 섀도 로드",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "eeko-dio-daki",
+    "name": "이코디오 다키",
+    "name_en": "Eeko-Dio Daki",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Unknown",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "전통을 지키는 노련한 제다이 마스터. 제국 초기 데본을 숨겨 기르며 푸른 라이트세이버를 감춘다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "maul-shadow-lord"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "몰 — 섀도 로드",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "rook-kast",
+    "name": "룩 카스트",
+    "name_en": "Rook Kast",
+    "alignment": "dark",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "몰에게 충성하는 만달로어인 부관. 그의 신디케이트 재건을 돕는다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "maul-shadow-lord"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "몰 — 섀도 로드",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "brander-lawson",
+    "name": "브랜더 로슨",
+    "name_en": "Brander Lawson",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "janix",
+    "affiliation_history": [],
+    "motivation": "자닉스의 형사. 신디케이트 전쟁을 수사하며 제국에는 협력하지 않는 강직한 인물.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "maul-shadow-lord"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "몰 — 섀도 로드",
+    "source_type": "series",
     "canon_status": "explicit"
   }
 ]
