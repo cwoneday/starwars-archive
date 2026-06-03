@@ -1315,7 +1315,7 @@
   },
   {
     "id": "mon-mothma",
-    "name": "몬 마스마",
+    "name": "몬 모스마",
     "name_en": "Mon Mothma",
     "alignment": "light",
     "tier": 3,
@@ -1372,7 +1372,10 @@
     ],
     "appears_in": [],
     "works": [
-      "ep-6-return-of-jedi"
+      "andor",
+      "bloodline",
+      "ep-6-return-of-jedi",
+      "rogue-one"
     ],
     "portrait": {
       "type": "silhouette",
@@ -3822,6 +3825,1021 @@
     },
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "mae-aniseya",
+    "name": "메이",
+    "name_en": "Mae (Aniseya)",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "sith",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "어린 시절 화재로 가족을 잃었다 믿고 제다이에게 복수하려는 전직 패다완. 스트레인저의 도제가 된다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "sith",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "osha-aniseya",
+    "name": "오샤",
+    "name_en": "Osha (Aniseya)",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "제다이를 떠나 정비공으로 살다, 쌍둥이 자매 메이와 자신을 둘러싼 진실을 마주한다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "master-sol",
+    "name": "마스터 솔",
+    "name_en": "Sol",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "존경받는 제다이 마스터. 신념과 과거의 죄책감 사이에서 흔들린다. 이정재가 연기했다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "qimir",
+    "name": "키미르",
+    "name_en": "Qimir (The Stranger)",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "sith",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "제다이의 규율 밖에서 자유로이 힘을 추구하는 다크사이드 사용자 '스트레인저'. 메이를 도제로 거둔다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "sith",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "din-djarin",
+    "name": "딘 자린",
+    "name_en": "Din Djarin",
+    "alignment": "light",
+    "tier": 1,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "계율을 지키는 만달로어 현상금 사냥꾼. 그로구를 맡으며 외톨이에서 보호자로 변한다. 페드로 파스칼이 연기했다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian",
+      "the-mandalorian-and-grogu"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "bounty-hunter",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "grogu",
+    "name": "그로구",
+    "name_en": "Grogu",
+    "alignment": "light",
+    "tier": 1,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Unknown",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "포스에 민감한 어린 존재('베이비 요다'). 딘 자린과 부자 같은 유대를 맺는다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian",
+      "the-mandalorian-and-grogu"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "creature",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "rotta-the-hutt",
+    "name": "로타 더 헛",
+    "name_en": "Rotta the Hutt",
+    "alignment": "neutral",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Hutt",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "nal-hutta",
+    "affiliation_history": [],
+    "motivation": "자바 더 헛의 아들. 극장판에서 군벌에게 붙잡혀 구출 대상이 된다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian-and-grogu"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "creature",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안과 그로구",
+    "source_type": "film",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "colonel-ward",
+    "name": "워드 대령",
+    "name_en": "Colonel Ward",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "new-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "신공화국 장교로, 딘 자린과 그로구에게 위험한 임무를 맡긴다. 시고니 위버가 연기했다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian-and-grogu"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안과 그로구",
+    "source_type": "film",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "ahsoka-tano",
+    "name": "아소카 타노",
+    "name_en": "Ahsoka Tano",
+    "alignment": "light",
+    "tier": 1,
+    "era_primary": "fall_of_the_jedi",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Togruta",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "shili",
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "아나킨의 패다완으로 출발해, 제다이 오더를 떠난 뒤에도 자신만의 길로 은하를 지킨다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-clone-wars",
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "클론 전쟁 / 반란군",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "cal-kestis",
+    "name": "칼 케스티스",
+    "name_en": "Cal Kestis",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "대숙청에서 살아남은 패다완. 숨어 살다 다시 제다이의 길을 되찾으려 한다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "jedi-fallen-order",
+      "jedi-survivor"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "제다이: 폴른 오더 / 서바이버",
+    "source_type": "game",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "cassian-andor",
+    "name": "카시안 안도르",
+    "name_en": "Cassian Andor",
+    "alignment": "light",
+    "tier": 1,
+    "era_primary": "age_of_rebellion",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "냉소적인 좀도둑에서 반란에 모든 것을 바치는 정보 요원으로 거듭난다. 디에고 루나가 연기했다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "andor",
+      "rogue-one"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "안돌 / 로그 원",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "jyn-erso",
+    "name": "진 어소",
+    "name_en": "Jyn Erso",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "age_of_rebellion",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "무관심하던 떠돌이에서 아버지가 남긴 희망을 좇아 데스 스타 설계도를 탈취하는 전사가 된다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rogue-one"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "로그 원",
+    "source_type": "film",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "galen-erso",
+    "name": "갈렌 어소",
+    "name_en": "Galen Erso",
+    "alignment": "neutral",
+    "tier": 3,
+    "era_primary": "age_of_rebellion",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "데스 스타 설계를 강요받지만, 치명적 약점을 몰래 심어 저항한다. 진 어소의 아버지.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rogue-one"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "로그 원",
+    "source_type": "film",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "k-2so",
+    "name": "K-2SO",
+    "name_en": "K-2SO",
+    "alignment": "neutral",
+    "tier": 3,
+    "era_primary": "age_of_rebellion",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Droid",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "재프로그램된 제국 보안 드로이드. 직설적인 입담으로 카시안과 동행한다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rogue-one"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "droid",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "로그 원",
+    "source_type": "film",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "chirrut-imwe",
+    "name": "치루트 임웨",
+    "name_en": "Chirrut Îmwe",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "age_of_rebellion",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "포스를 믿는 눈먼 무사. 스카리프 작전에 합류한다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rogue-one"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "로그 원",
+    "source_type": "film",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "grand-admiral-thrawn",
+    "name": "스론",
+    "name_en": "Grand Admiral Thrawn",
+    "alignment": "dark",
+    "tier": 1,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Chiss",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "치스에서 온 전술 천재. 제국에 봉사하며 냉철한 질서를 추구하는 대제독.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "thrawn",
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "스론 / 반란군",
+    "source_type": "novel",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "ezra-bridger",
+    "name": "에즈라 브리저",
+    "name_en": "Ezra Bridger",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "로탈의 거리 소년에서 케이넌의 제자로 제다이의 길을 걷는다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "반란군",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "kanan-jarrus",
+    "name": "케이넌 재러스",
+    "name_en": "Kanan Jarrus",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "오더 66에서 살아남아 숨어 살던 제다이. 에즈라의 스승이자 고스트의 일원.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "반란군",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "hera-syndulla",
+    "name": "헤라 신둘라",
+    "name_en": "Hera Syndulla",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Twi'lek",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "ryloth",
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "우주선 고스트의 선장이자 반란을 이끄는 명조종사.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "pilot",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "반란군",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "sabine-wren",
+    "name": "사빈 렌",
+    "name_en": "Sabine Wren",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "만달로어 출신의 폭발물 전문가이자 예술가. 고스트 크루의 일원.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "반란군",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "marchion-ro",
+    "name": "마키온 로",
+    "name_en": "Marchion Ro",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "nihil",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "니힐의 '눈(Eye)'으로서 제다이와 공화국에 깊은 복수를 꾀하는 수괴.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "light-of-the-jedi",
+      "the-rising-storm"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "하이 리퍼블릭",
+    "source_type": "novel",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "lina-soh",
+    "name": "리나 소",
+    "name_en": "Lina Soh",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "'하나의 공화국'을 기치로 변경을 통합하려는 하이 리퍼블릭 시대의 수상.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "light-of-the-jedi",
+      "the-rising-storm",
+      "the-high-republic"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "royalty-politician",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "하이 리퍼블릭",
+    "source_type": "novel",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "rae-sloane",
+    "name": "레이 슬로언",
+    "name_en": "Rae Sloane",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "엔도 이후 흩어진 제국 잔당을 이끄는 대제독. 신공화국 최고 수배자가 된다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "aftermath-trilogy"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "여파 3부작",
+    "source_type": "novel",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "norra-wexley",
+    "name": "노라 웩슬리",
+    "name_en": "Norra Wexley",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "new-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "신공화국을 위해 제국 전범을 쫓는 전직 반란군 조종사.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "aftermath-trilogy"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "pilot",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "여파 3부작",
+    "source_type": "novel",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "luthen-rael",
+    "name": "루선 라엘",
+    "name_en": "Luthen Rael",
+    "alignment": "neutral",
+    "tier": 2,
+    "era_primary": "age_of_rebellion",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "골동품상으로 위장한 채 초기 반란을 은밀히 설계하는 인물.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "andor"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "안돌",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "nightsister-merrin",
+    "name": "나이트시스터 머린",
+    "name_en": "Merrin",
+    "alignment": "neutral",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Dathomirian",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "dathomir",
+    "affiliation_history": [],
+    "motivation": "다투미르의 나이트시스터 마법사. 칼 케스티스와 동행하며 자매들의 복수를 짊어진다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "jedi-fallen-order",
+      "jedi-survivor"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "제다이: 폴른 오더 / 서바이버",
+    "source_type": "game",
     "canon_status": "explicit"
   }
 ]

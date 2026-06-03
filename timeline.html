@@ -104,6 +104,8 @@ h1{font-family:var(--font-display);font-weight:700;font-size:var(--fs-3xl);line-
 .film-badge{font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;color:#d8b45a;border:1px solid rgba(216,180,90,.45);border-radius:20px;padding:2px 8px}
 .card h3{font-family:var(--font-display);font-weight:500;font-size:var(--fs-lg);color:var(--text);line-height:1.25}
 .card .ol{color:var(--text-dim);font-size:var(--fs-sm);margin-top:4px}
+.film-card .fmeta{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.04em;color:#c9a24a;opacity:.85;margin-top:3px}
+.film-card .fprev{margin-top:6px;line-height:1.5;color:var(--text-dim)}
 .card .arrow{color:var(--holo);opacity:0;transition:opacity var(--dur-fast);font-family:var(--font-mono)}
 .card:hover .arrow{opacity:1}
 
@@ -280,6 +282,7 @@ const FILMS_TL=[
   {id:"the-mandalorian-and-grogu",era:"new_republic",year_value:12,year_label:"~12 ABY",wt:"film",title:"만달로리안과 그로구",title_en:"The Mandalorian and Grogu"},
   {id:"bloodline",era:"new_republic",year_value:28,year_label:"28 ABY",wt:"novel",title:"블러드라인",title_en:"Bloodline"},
 ];
+const FILM_PREVIEW={"ep-1-phantom-menace": "스타워즈 정규 넘버링의 네 번째 제작이자 프리퀄 삼부작의 첫 편. 1977년 〈새로운 희망〉 이후 16년 만에 조지 루카스가 직접 메가폰을 잡고 1999년 5…", "ep-2-attack-of-clones": "프리퀄 삼부작의 두 번째 편. 조지 루카스가 각본·연출을 맡아 2002년 개봉했고, 전 세계 약 6억 5천만 달러를 벌었다.", "ep-3-revenge-of-sith": "프리퀄 삼부작의 완결편. 조지 루카스가 각본·연출했고 2005년 개봉, 전 세계 약 8억 7천만 달러를 벌어들였다.", "ep-4-a-new-hope": "1977년 5월 개봉한, 모든 것의 시작인 첫 스타워즈 영화. 조지 루카스가 각본·연출했고, 당시로선 무명에 가까운 기획이었으나 공개와 함께 폭발적인 흥행으로…", "ep-5-empire": "오리지널 3부작의 두 번째 편. 어빈 커슈너가 연출하고 조지 루카스가 제작해 1980년 개봉했다.", "ep-6-return-of-jedi": "오리지널 3부작의 완결편. 리처드 마퀀드가 연출하고 조지 루카스가 각본·제작에 참여해 1983년 개봉했다.", "ep-7-force-awakens": "시퀄 삼부작의 첫 편이자, 디즈니 인수 후 처음 나온 스카이워커 사가 영화. J.J. 에이브럼스가 연출하고 공동 각본을 썼으며 2015년 12월 개봉했다.", "ep-8-last-jedi": "시퀄 삼부작의 두 번째 편. 라이언 존슨이 각본·연출해 2017년 12월 개봉했고, 전 세계 약 13억 달러를 벌어들였다.", "ep-9-rise-of-skywalker": "시퀄 삼부작이자 스카이워커 사가 9부작의 완결편. J.J. 에이브럼스가 〈깨어난 포스〉에 이어 다시 연출을 맡아 2019년 12월 개봉했고, 전 세계 10억…", "light-of-the-jedi": "스타워즈 하이 리퍼블릭 다매체 기획(코드명 '프로젝트 루미너스')의 문을 연 첫 성인 소설. 2021년 1월 5일 델 레이에서 출간됐으며, 마블 〈다스 베이더…", "the-high-republic": "스타워즈 캐넌의 새 시대를 개척하기 위해 루카스필름이 2021년 출범시킨 대규모 다매체 출판 기획(개발 코드명 '프로젝트 루미너스'). 스카이워커 사가로부터…", "the-rising-storm": "하이 리퍼블릭 1단계의 두 번째 성인 소설. 2021년 6월 29일 델 레이에서 출간됐으며, 마블·IDW 코믹과 오디오드라마 〈두쿠: 제다이 로스트〉로 정평이…", "the-acolyte": "레슬리 헤들랜드가 창작·총괄한 디즈니+ 시리즈로, 하이 리퍼블릭 시대를 처음으로 실사화한 작품이다.", "the-clone-wars": "조지 루카스와 데이브 필로니가 주도한 3D 애니메이션 시리즈. 2008년 카툰네트워크에서 출발해 2013년 5시즌으로 한 차례 막을 내렸다가, 팬들의 끈질긴…", "darth-vader-comic": "마블 코믹스의 캐넌 시리즈 〈다스 베이더: 다크 로드 오브 더 시스〉. 찰스 술이 글을, 주세페 카문콜리가 그림을 맡아 2017년부터 2018년까지 전 25호…", "jedi-fallen-order": "리스폰 엔터테인먼트가 개발하고 EA가 2019년 11월 내놓은 싱글플레이어 액션 어드벤처 게임. 오더 66로부터 약 5년 뒤, 행성 브라카의 폐선 해체장에서…", "thrawn": "티모시 잔이 쓰고 델 레이가 2017년 출간한 캐넌 소설. '임페리얼 3부작'의 첫 권으로, 추방된 치스족 군인 미스라우누루오도 — 통칭 스론이 제국 해군에…", "solo": "한 솔로의 젊은 시절을 그린 외전(앤솔로지) 영화. 처음엔 필 로드·크리스토퍼 밀러가 연출하다 촬영 중반 하차하면서 론 하워드가 넘겨받아 2018년 5월 개봉…", "obi-wan-kenobi": "이완 맥그리거가 프리퀄 이후 오비완 케노비로 돌아온 디즈니+ 6부작 한정 시리즈. 데버라 차우가 전편을 연출했고 2022년 5~6월 공개됐다.", "jedi-survivor": "〈제다이: 폴른 오더〉의 정식 후속작. 리스폰이 개발하고 EA가 2023년 4월 내놓았으며, 전작으로부터 5년 뒤를 다룬다.", "andor": "토니 길로이가 창작·총괄한 디즈니+ 시리즈로, 〈로그 원〉의 프리퀄이다.", "rebels": "〈클론 전쟁〉의 정신적 후속작이자 데이브 필로니·사이먼 킨버그·캐리 벡이 창작한 3D 애니메이션 시리즈. 2014년부터 2018년까지 4시즌으로 방영됐다.", "rogue-one": "스타워즈 첫 외전(앤솔로지) 영화. 개러스 에드워즈가 연출해 2016년 12월 개봉했고, 전 세계 10억 달러를 넘게 벌어들였다.", "aftermath-trilogy": "척 웬디그가 쓰고 델 레이가 펴낸 캐넌 소설 3부작 — 〈여파〉(2015), 〈생명의 빚〉(2016), 〈제국의 종말〉(2017). 엔도 전투 직후부터 〈깨어…", "the-mandalorian": "존 패브로가 창작한 첫 실사 스타워즈 시리즈. 디즈니+ 출범일인 2019년 11월 12일 첫 회를 공개했고, 3시즌이 방영됐다.", "the-mandalorian-and-grogu": "디즈니+ 시리즈 〈만달로리안〉을 잇는 첫 극장판. 존 패브로가 연출하고 데이브 필로니와 공동 각본을 썼으며, 2026년 5월 22일 개봉했다.", "bloodline": "클라우디아 그레이가 쓰고 델 레이가 2016년 펴낸 캐넌 소설. 〈깨어난 포스〉보다 약 6년 앞선 시기를 다룬다."};
 
 // 타임라인 렌더 (시대별, year_value 정렬)
 const tl=document.getElementById("timeline");
@@ -295,7 +298,8 @@ ERAS.forEach(era=>{
   items.forEach(it=>{
     if(it._t==="film"){
       const fn=document.createElement("div"); fn.className="node film-node rv";
-      fn.innerHTML=`<span class="dot film-dot"></span><a class="card film-card" href="film-detail.html?id=${it.id}"><div class="card-top"><span class="film-badge">${it.episode?("\uD83C\uDFAC EPISODE "+it.episode):(WT_ICON[it.wt]+" "+WT_KO[it.wt])}</span><span class="yr">${it.year_label}</span></div><h3>${it.title} <span class="arrow">\u2197</span></h3><p class="ol">${WT_KO[it.wt||"film"]} \u00b7 ${it.title_en}</p></a>`;
+      const _pv=(typeof FILM_PREVIEW!=="undefined"&&FILM_PREVIEW[it.id])?FILM_PREVIEW[it.id]:"";
+      fn.innerHTML=`<span class="dot film-dot"></span><a class="card film-card" href="film-detail.html?id=${it.id}"><div class="card-top"><span class="film-badge">${it.episode?("\uD83C\uDFAC EPISODE "+it.episode):(WT_ICON[it.wt]+" "+WT_KO[it.wt])}</span><span class="yr">${it.year_label}</span></div><h3>${it.title} <span class="arrow">\u2197</span></h3><p class="fmeta">${WT_KO[it.wt||"film"]} \u00b7 ${it.title_en}</p>${_pv?`<p class="ol fprev">${_pv}</p>`:""}</a>`;
       spine.appendChild(fn); return;
     }
     const ev=it;
