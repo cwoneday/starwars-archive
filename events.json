@@ -2504,5 +2504,415 @@
       "battle-of-exegol"
     ],
     "followed_by": []
+  },
+  {
+    "id": "mae-jedi-hunt",
+    "title": "메이의 제다이 사냥",
+    "title_en": "Mae's Hunt for the Jedi",
+    "era": "high_republic",
+    "year_value": -132,
+    "year_label": "~132 BBY",
+    "year_certainty": "approximate",
+    "category": "duel",
+    "tier": 2,
+    "characters": [
+      "mae-aniseya",
+      "master-sol",
+      "osha-aniseya",
+      "qimir"
+    ],
+    "locations": [
+      "coruscant",
+      "brendok"
+    ],
+    "factions": [
+      "jedi-order",
+      "sith"
+    ],
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "전직 패다완 메이가 옛 제다이들을 차례로 노리며 숨어 있던 시스의 부활이 드러나다",
+    "summary": "어린 시절의 비극으로 제다이에게 복수를 품은 메이가, 자신을 길러낸 마스터들을 하나씩 쓰러뜨리기 시작한다. 추적에 나선 마스터 솔과 쌍둥이 오샤는 사건의 진짜 배후에 다크사이드 사용자 스트레인저(키미르)가 있음을 알게 되고, 황금기라 믿던 제다이 오더의 사각지대가 백일하에 드러난다.",
+    "significance": "시스 군주가 원로원에 숨어든 〈보이지 않는 위험〉보다 한 세기 앞서, 시스의 그림자가 이미 제다이 곁에 도사리고 있었음을 보여준 사건.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "하이 리퍼블릭",
+      "시스",
+      "제다이"
+    ],
+    "work": "the-acolyte",
+    "key_figures": [
+      "mae-aniseya",
+      "qimir"
+    ],
+    "background": "누구도 자신들을 위협하지 못한다고 자신하던 제다이의 절정기. 그 확신이 곧 사각지대였다.",
+    "aftermath": "오더는 사건을 조용히 덮으려 하지만, 어둠은 이미 뿌리를 내렸다. 스트레인저는 새 도제와 함께 사라진다.",
+    "deep_dive": [
+      {
+        "phase": "연쇄 살해",
+        "note": "메이가 옛 스승들을 차례로 노린다. 제다이는 내부의 적을 좀처럼 인정하지 못한다."
+      },
+      {
+        "phase": "쌍둥이의 진실",
+        "note": "메이와 오샤를 둘러싼 브렌독의 비밀이 드러나며 사건의 동기가 뒤집힌다."
+      },
+      {
+        "phase": "스트레인저",
+        "note": "배후의 다크사이드 사용자가 모습을 드러낸다. 규율 밖의 힘이 오더를 비웃는다."
+      }
+    ]
+  },
+  {
+    "id": "janix-syndicate-war",
+    "title": "자닉스 신디케이트 전쟁",
+    "title_en": "The Janix Syndicate War",
+    "era": "reign_of_the_empire",
+    "year_value": -18,
+    "year_label": "~18 BBY",
+    "year_certainty": "approximate",
+    "category": "battle",
+    "tier": 2,
+    "characters": [
+      "darth-maul",
+      "devon-izara",
+      "eeko-dio-daki"
+    ],
+    "locations": [
+      "janix"
+    ],
+    "factions": [],
+    "source": "몰 — 섀도 로드",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "제국의 손이 닿지 않은 변경 행성에서 몰이 범죄 신디케이트를 재건하려 벌인 암흑가 전쟁",
+    "summary": "클론 전쟁이 끝나고 제국이 들어선 지 약 1년, 살아남은 몰은 자닉스의 범죄 조직들을 자기 아래 굴복시키려 한다. 그 과정에서 제국을 피해 숨어 살던 패다완 데본 이자라와 얽히고, 그를 복수의 도제로 끌어들이려 한다.",
+    "significance": "클론 전쟁과 〈솔로〉의 크림슨 던 사이, 몰이 어떻게 다시 암흑가의 군주로 일어섰는지를 메운 공백.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "제국 초기",
+      "신디케이트",
+      "다크사이드"
+    ],
+    "work": "maul-shadow-lord",
+    "key_figures": [
+      "darth-maul"
+    ],
+    "background": "제국의 질서가 닿지 않는 변경에선 옛 범죄 조직들이 여전히 칼을 겨눈다. 몰에겐 기회의 땅이었다.",
+    "aftermath": "몰은 신디케이트를 손에 넣어가지만, 데본의 선택은 그의 뜻대로 흘러가지 않는다."
+  },
+  {
+    "id": "maul-vader-duel",
+    "title": "몰과 베이더의 대결",
+    "title_en": "Duel of Maul and Vader",
+    "era": "reign_of_the_empire",
+    "year_value": -17.99,
+    "year_label": "~18 BBY",
+    "year_certainty": "approximate",
+    "category": "duel",
+    "tier": 3,
+    "characters": [
+      "darth-maul",
+      "darth-vader"
+    ],
+    "locations": [],
+    "factions": [
+      "sith"
+    ],
+    "source": "몰 — 섀도 로드",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "한때 시스의 자리를 두고 갈렸던 몰과 베이더가 칼을 맞대다",
+    "summary": "제국의 어둠 속에서 몰과 다스 베이더가 맞붙는다. 시스의 유산을 두고 갈라진 두 다크사이드 사용자의 충돌이다.",
+    "significance": "프리퀄의 몰과 OT의 베이더라는 두 상징이 직접 교차하는, 사가 전체를 잇는 장면.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "시스",
+      "대결",
+      "교차"
+    ],
+    "work": "maul-shadow-lord"
+  },
+  {
+    "id": "battle-of-mos-espa",
+    "title": "모스 에스파 전투",
+    "title_en": "The Battle of Mos Espa",
+    "era": "new_republic",
+    "year_value": 9.05,
+    "year_label": "~9 ABY",
+    "year_certainty": "approximate",
+    "category": "battle",
+    "tier": 2,
+    "characters": [
+      "boba-fett",
+      "fennec-shand",
+      "din-djarin",
+      "black-krrsantan",
+      "cad-bane",
+      "grogu"
+    ],
+    "locations": [
+      "tatooine"
+    ],
+    "factions": [],
+    "source": "보바 펫의 북",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "보바 펫이 파이크 신디케이트에 맞서 모스 에스파의 지배권을 건 결전을 벌이다",
+    "summary": "자바의 옛 영역을 차지하려는 보바 펫과, 타투인을 장악하려는 파이크 신디케이트가 모스 에스파에서 정면충돌한다. 펜넥 샨드와 딘 자린, 블랙 크르샨탄까지 가세하고, 파이크가 고용한 캐드 베인이 보바 앞을 막아선다.",
+    "significance": "보바 펫이 '공포가 아닌 존중으로 다스리겠다'던 선언을 실력으로 증명하며 모스 에스파의 다이묘로 올라선 분기점.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "타투인",
+      "범죄 군주",
+      "만달로리안 사가"
+    ],
+    "work": "the-book-of-boba-fett",
+    "key_figures": [
+      "boba-fett",
+      "fennec-shand"
+    ],
+    "background": "헛 쌍둥이를 물린 보바였지만, 진짜 위협은 행성 마약 거래를 노린 파이크 신디케이트였다.",
+    "aftermath": "보바와 펜넥이 모스 에스파를 장악한다. 캐드 베인과의 오랜 악연도 이 거리에서 끝을 본다.",
+    "deep_dive": [
+      {
+        "phase": "동맹 규합",
+        "note": "보바가 거리의 주민과 사냥꾼들을 한편으로 모은다."
+      },
+      {
+        "phase": "시가전",
+        "note": "파이크 군세와 모스 에스파 한복판에서 전면전이 벌어진다."
+      },
+      {
+        "phase": "옛 악연의 청산",
+        "note": "파이크가 고용한 캐드 베인과 보바가 결판을 낸다."
+      }
+    ]
+  },
+  {
+    "id": "return-of-thrawn",
+    "title": "스론의 귀환",
+    "title_en": "The Return of Thrawn",
+    "era": "new_republic",
+    "year_value": 9.2,
+    "year_label": "~9 ABY",
+    "year_certainty": "approximate",
+    "category": "battle",
+    "tier": 1,
+    "characters": [
+      "ahsoka-tano",
+      "sabine-wren",
+      "grand-admiral-thrawn",
+      "ezra-bridger",
+      "morgan-elsbeth",
+      "baylan-skoll",
+      "shin-hati",
+      "hera-syndulla"
+    ],
+    "locations": [
+      "peridea"
+    ],
+    "factions": [
+      "galactic-empire"
+    ],
+    "source": "아소카",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "먼 은하로 유배됐던 대제독 스론이 돌아오며 새로운 제국의 위협이 싹트다",
+    "summary": "아소카와 사빈은 모건 엘스베스 일당이 먼 은하의 스론을 데려오려는 음모를 쫓는다. 페리디아에서 사빈은 실종됐던 에즈라와 재회하지만, 스론의 귀환을 막지는 못한다. 베일런 스콜과 신 하티라는 새로운 다크사이드 검객들도 이 사건에서 등장한다.",
+    "significance": "엔도 이후 흩어진 제국 잔당의 '미래 전쟁 군주' 스론이 복귀하며, 뉴 리퍼블릭 시대의 새로운 갈등 축을 연 사건.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "뉴 리퍼블릭",
+      "제국 잔당",
+      "반란군 후속"
+    ],
+    "work": "ahsoka",
+    "belligerents": {
+      "side_a": [
+        "galactic-empire"
+      ],
+      "side_b": []
+    },
+    "key_figures": [
+      "grand-admiral-thrawn",
+      "ahsoka-tano"
+    ],
+    "background": "〈반란군〉 결말에서 에즈라와 함께 먼 은하로 사라졌던 스론. 그의 추종자들은 줄곧 그의 귀환을 준비해왔다.",
+    "aftermath": "스론은 본 은하로 돌아오고, 아소카와 사빈은 페리디아에 남는다. 새로운 전쟁의 서막이 오른다.",
+    "deep_dive": [
+      {
+        "phase": "지도와 음모",
+        "note": "모건 일당이 스론에게 이르는 길을 좇는다. 아소카가 이를 가로막으려 한다."
+      },
+      {
+        "phase": "페리디아",
+        "note": "먼 은하의 행성에서 사빈이 에즈라와 재회한다. 그러나 대가가 따른다."
+      },
+      {
+        "phase": "귀환",
+        "note": "스론이 본 은하로 돌아온다. 새 위협의 막이 오른다."
+      }
+    ]
+  },
+  {
+    "id": "clone-force-99-escape",
+    "title": "클론 포스 99의 탈출",
+    "title_en": "The Flight of Clone Force 99",
+    "era": "reign_of_the_empire",
+    "year_value": -18.5,
+    "year_label": "~18 BBY",
+    "year_certainty": "approximate",
+    "category": "other",
+    "tier": 2,
+    "characters": [
+      "hunter-clone",
+      "omega",
+      "crosshair",
+      "echo-clone",
+      "wrecker-clone",
+      "tech-clone",
+      "dr-hemlock"
+    ],
+    "locations": [],
+    "factions": [
+      "galactic-empire"
+    ],
+    "source": "배드 배치",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "오더 66 이후, 명령에 따르지 않은 실험형 클론들이 제국에서 도망쳐 어린 오메가를 지키다",
+    "summary": "클론 전쟁이 끝나고 제국이 클론을 스톰트루퍼로 대체해가는 가운데, 변종 클론 부대 '클론 포스 99'는 명령을 거부하고 탈주한다. 이들은 또 다른 클론 오메가를 거두어 가족이 되고, 헴록 박사가 이끄는 제국의 비밀 복제 계획에 쫓긴다.",
+    "significance": "오더 66 직후의 공백을 클론의 시선으로 메운 사건. 훗날 시퀄 시대 팰퍼틴 부활로 이어질 제국의 복제 집착이 여기서 싹튼다.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "제국 초기",
+      "클론",
+      "복제 계획"
+    ],
+    "work": "the-bad-batch",
+    "key_figures": [
+      "omega",
+      "hunter-clone"
+    ],
+    "background": "전쟁이 끝나자 제국은 더 이상 클론을 필요로 하지 않았다. 충성하지 않는 클론에게 남은 길은 도주뿐이었다.",
+    "aftermath": "클론 포스 99는 제국의 추격을 피해 살아남고, 오메가를 지켜낸다. 그러나 제국의 복제 야욕은 멈추지 않는다."
+  },
+  {
+    "id": "dooku-disillusion",
+    "title": "두쿠, 오더에 등을 돌리다",
+    "title_en": "Dooku Turns from the Order",
+    "era": "fall_of_the_jedi",
+    "year_value": -21.5,
+    "year_label": "프리퀄 전반",
+    "year_certainty": "approximate",
+    "category": "fall",
+    "tier": 2,
+    "characters": [
+      "dooku",
+      "ahsoka-tano"
+    ],
+    "locations": [
+      "coruscant"
+    ],
+    "factions": [
+      "jedi-order"
+    ],
+    "source": "제다이 이야기",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "제다이 마스터 두쿠가 부패한 공화국과 무력한 오더에 환멸을 느끼며 타락의 길로 들어서다",
+    "summary": "헌신적인 제다이였던 두쿠는 공화국의 부패와 정치에 침묵하는 오더를 지켜보며 점점 신념을 잃는다. 일련의 사건을 거치며 그는 다른 길을 택하고, 끝내 시스의 어둠으로 발을 들인다.",
+    "significance": "〈클론의 습격〉에서 시스 군주의 도제로 등장하는 두쿠 백작이, 어떻게 빛에서 어둠으로 미끄러졌는지를 채운 전사(前史).",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "프리퀄",
+      "타락",
+      "제다이"
+    ],
+    "work": "tales-of-the-jedi",
+    "key_figures": [
+      "dooku"
+    ],
+    "background": "두쿠는 오더 안에서 가장 명망 높은 마스터 중 하나였다. 그러나 그가 본 공화국은 이상과 너무 멀었다.",
+    "aftermath": "두쿠는 오더를 떠나 시스의 도제 다스 티라누스가 된다. 클론 전쟁의 불씨가 그렇게 지펴진다."
+  },
+  {
+    "id": "paths-under-empire",
+    "title": "제국 아래 갈림길",
+    "title_en": "Divergent Paths Under the Empire",
+    "era": "reign_of_the_empire",
+    "year_value": -17.9,
+    "year_label": "제국 시대",
+    "year_certainty": "approximate",
+    "category": "other",
+    "tier": 3,
+    "characters": [
+      "barriss-offee",
+      "morgan-elsbeth"
+    ],
+    "locations": [],
+    "factions": [
+      "galactic-empire"
+    ],
+    "source": "제국 이야기",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "제국의 시대, 배리스 오피와 모건 엘스베스가 어둠 속에서 서로 다른 생존의 길을 걷다",
+    "summary": "오더를 배신했던 배리스 오피와 나이트시스터의 후예 모건 엘스베스가 제국 치하에서 각자의 길을 간다. 한쪽은 속죄를, 다른 한쪽은 권력과 복수를 좇으며 어둠의 의미를 달리 받아들인다.",
+    "significance": "〈클론 전쟁〉과 〈아소카〉를 잇는 두 인물의 공백을 메우며, 같은 시대 어둠 속에서도 선택이 갈릴 수 있음을 보여준다.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "제국 시대",
+      "나이트시스터",
+      "선택"
+    ],
+    "work": "tales-of-the-empire",
+    "key_figures": [
+      "morgan-elsbeth"
+    ]
+  },
+  {
+    "id": "underworld-ventress-bane",
+    "title": "뒷골목의 벤트리스와 베인",
+    "title_en": "Ventress and Bane in the Underworld",
+    "era": "reign_of_the_empire",
+    "year_value": -17.8,
+    "year_label": "제국 시대",
+    "year_certainty": "approximate",
+    "category": "other",
+    "tier": 3,
+    "characters": [
+      "asajj-ventress",
+      "cad-bane"
+    ],
+    "locations": [],
+    "factions": [],
+    "source": "언더월드 이야기",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "전 나이트시스터 아사즈 벤트리스와 현상금 사냥꾼 캐드 베인이 은하 뒷골목에서 각자의 사연을 풀어내다",
+    "summary": "다크사이드와 빛 사이를 떠돌던 아사즈 벤트리스와, 냉혹한 현상금 사냥꾼 캐드 베인이 제국기의 암흑가에서 살아남기 위해 움직인다. 두 무법자의 시선으로 본 은하의 밑바닥 이야기다.",
+    "significance": "주류 영웅 서사 바깥, 무법자들의 시점으로 제국기 암흑가를 비춘 외전.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "제국 시대",
+      "무법자",
+      "암흑가"
+    ],
+    "work": "tales-of-the-underworld",
+    "key_figures": [
+      "asajj-ventress",
+      "cad-bane"
+    ]
   }
 ]
