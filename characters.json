@@ -2978,7 +2978,7 @@
   },
   {
     "id": "barriss-offee",
-    "name": "바리스 오피",
+    "name": "배리스 오피",
     "name_en": "Barriss Offee",
     "alignment": "light",
     "tier": 2,
@@ -3013,7 +3013,8 @@
     ],
     "appears_in": [],
     "works": [
-      "ep-2-attack-of-clones"
+      "ep-2-attack-of-clones",
+      "tales-of-the-empire"
     ],
     "portrait": {
       "type": "silhouette",
@@ -3116,7 +3117,8 @@
     "appears_in": [],
     "works": [
       "ep-2-attack-of-clones",
-      "ep-3-revenge-of-sith"
+      "ep-3-revenge-of-sith",
+      "tales-of-the-jedi"
     ],
     "portrait": {
       "type": "silhouette",
@@ -4154,8 +4156,10 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
-      "the-clone-wars",
-      "rebels"
+      "ahsoka",
+      "rebels",
+      "tales-of-the-jedi",
+      "the-clone-wars"
     ],
     "portrait": {
       "type": "silhouette",
@@ -4430,8 +4434,9 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
-      "thrawn",
-      "rebels"
+      "ahsoka",
+      "rebels",
+      "thrawn"
     ],
     "portrait": {
       "type": "silhouette",
@@ -4475,6 +4480,7 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
+      "ahsoka",
       "rebels"
     ],
     "portrait": {
@@ -4558,6 +4564,7 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
+      "ahsoka",
       "rebels"
     ],
     "portrait": {
@@ -4597,6 +4604,7 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
+      "ahsoka",
       "rebels"
     ],
     "portrait": {
@@ -4987,6 +4995,433 @@
       "license": "original"
     },
     "source": "몰 — 섀도 로드",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "morgan-elsbeth",
+    "name": "모건 엘스베스",
+    "name_en": "Morgan Elsbeth",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "제국 잔당과 손잡은 마법사 출신 책략가. 스론을 은하로 다시 불러들이려 모든 것을 건다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ahsoka",
+      "tales-of-the-empire"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "아소카",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "baylan-skoll",
+    "name": "베일런 스콜",
+    "name_en": "Baylan Skoll",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "한때 제다이였으나 길을 떠난 용병. 또 다른 전쟁이 불가피하다 믿으며 더 큰 힘을 좇는다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ahsoka"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "아소카",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "shin-hati",
+    "name": "신 하티",
+    "name_en": "Shin Hati",
+    "alignment": "dark",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "베일런 스콜의 도제. 스승을 따라 다크사이드의 경계를 넘나든다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ahsoka"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "아소카",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "hunter-clone",
+    "name": "헌터",
+    "name_en": "Hunter",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human (clone)",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "kamino",
+    "affiliation_history": [],
+    "motivation": "감각이 예민한 클론 포스 99의 리더. 오메가의 보호자를 자처하며 부대를 이끈다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-bad-batch"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "배드 배치",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "omega",
+    "name": "오메가",
+    "name_en": "Omega",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human (clone)",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "kamino",
+    "affiliation_history": [],
+    "motivation": "카미노에서 자란 변형 없는 어린 복제체. 배드 배치와 가족이 되어 함께 도망친다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-bad-batch"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "배드 배치",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "crosshair",
+    "name": "크로스헤어",
+    "name_en": "Crosshair",
+    "alignment": "neutral",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human (clone)",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "kamino",
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "냉정한 명사수. 한때 제국에 남았다가 형제들과의 관계를 두고 갈등한다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-bad-batch"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "배드 배치",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "wrecker-clone",
+    "name": "렉커",
+    "name_en": "Wrecker",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human (clone)",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "kamino",
+    "affiliation_history": [],
+    "motivation": "괴력의 폭파 담당. 우직하고 충직한 배드 배치의 일원.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-bad-batch"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "배드 배치",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "tech-clone",
+    "name": "테크",
+    "name_en": "Tech",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human (clone)",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "kamino",
+    "affiliation_history": [],
+    "motivation": "분석과 기술에 능한 두뇌. 어떤 상황도 데이터로 풀어낸다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-bad-batch"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "배드 배치",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "echo-clone",
+    "name": "에코",
+    "name_en": "Echo",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human (clone)",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "kamino",
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "사이보그 개조를 받은 전직 정규 클론. 배드 배치에 합류한다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-bad-batch"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "배드 배치",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "dr-hemlock",
+    "name": "헴록 박사",
+    "name_en": "Dr. Royce Hemlock",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "wayland",
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "마운트 탄티스의 비밀 복제 연구를 지휘하는 제국 과학자. 목적을 위해 수단을 가리지 않는다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-bad-batch"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "배드 배치",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "asajj-ventress",
+    "name": "아사즈 벤트리스",
+    "name_en": "Asajj Ventress",
+    "alignment": "neutral",
+    "tier": 2,
+    "era_primary": "fall_of_the_jedi",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Dathomirian",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "dathomir",
+    "affiliation_history": [
+      {
+        "faction": "confederacy-of-independent-systems",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "두쿠의 옛 도제였던 전직 시스 암살자. 죽음에서 돌아와 새 삶의 기회를 좇는다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "tales-of-the-underworld"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "sith",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "언더월드 이야기",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "cad-bane",
+    "name": "캐드 베인",
+    "name_en": "Cad Bane",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "fall_of_the_jedi",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Duros",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "은하 최고의 속사 무법자. 냉혹한 현상금 사냥꾼으로 제국 시대 암흑가를 누빈다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "tales-of-the-underworld"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "bounty-hunter",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "언더월드 이야기",
     "source_type": "series",
     "canon_status": "explicit"
   }

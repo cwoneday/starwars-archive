@@ -1127,5 +1127,24 @@
     "rotation_period_h": null,
     "orbital_period_d": null,
     "data_source": "starwars.com"
+  },
+  {
+    "id": "wayland",
+    "name": "웨이랜드",
+    "name_en": "Wayland",
+    "type": "planet",
+    "region": "미지",
+    "one_liner": "마운트 탄티스 깊은 곳에 제국의 비밀 복제 시설이 숨겨진 행성.",
+    "source": "배드 배치",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "climate": null,
+    "terrain": "산악·정글",
+    "gravity": "표준",
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "data_source": "starwars.com"
   }
 ]

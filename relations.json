@@ -698,5 +698,95 @@
     "s": "darth-maul",
     "t": "brander-lawson",
     "type": "rival"
+  },
+  {
+    "s": "baylan-skoll",
+    "t": "shin-hati",
+    "type": "master"
+  },
+  {
+    "s": "morgan-elsbeth",
+    "t": "baylan-skoll",
+    "type": "ally"
+  },
+  {
+    "s": "morgan-elsbeth",
+    "t": "grand-admiral-thrawn",
+    "type": "ally"
+  },
+  {
+    "s": "ahsoka-tano",
+    "t": "sabine-wren",
+    "type": "master"
+  },
+  {
+    "s": "ahsoka-tano",
+    "t": "morgan-elsbeth",
+    "type": "rival"
+  },
+  {
+    "s": "ahsoka-tano",
+    "t": "baylan-skoll",
+    "type": "rival"
+  },
+  {
+    "s": "hera-syndulla",
+    "t": "ahsoka-tano",
+    "type": "ally"
+  },
+  {
+    "s": "hunter-clone",
+    "t": "omega",
+    "type": "family"
+  },
+  {
+    "s": "hunter-clone",
+    "t": "wrecker-clone",
+    "type": "ally"
+  },
+  {
+    "s": "hunter-clone",
+    "t": "tech-clone",
+    "type": "ally"
+  },
+  {
+    "s": "hunter-clone",
+    "t": "echo-clone",
+    "type": "ally"
+  },
+  {
+    "s": "hunter-clone",
+    "t": "crosshair",
+    "type": "family"
+  },
+  {
+    "s": "crosshair",
+    "t": "omega",
+    "type": "ally"
+  },
+  {
+    "s": "dr-hemlock",
+    "t": "omega",
+    "type": "rival"
+  },
+  {
+    "s": "dr-hemlock",
+    "t": "crosshair",
+    "type": "rival"
+  },
+  {
+    "s": "dooku",
+    "t": "asajj-ventress",
+    "type": "master"
+  },
+  {
+    "s": "asajj-ventress",
+    "t": "cad-bane",
+    "type": "ally"
+  },
+  {
+    "s": "barriss-offee",
+    "t": "ahsoka-tano",
+    "type": "rival"
   }
 ]
