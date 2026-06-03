@@ -49,10 +49,11 @@
     ],
     "appears_in": [],
     "works": [
+      "ep-3-revenge-of-sith",
       "ep-4-a-new-hope",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "ep-3-revenge-of-sith"
+      "the-book-of-boba-fett"
     ],
     "portrait": {
       "type": "silhouette",
@@ -1088,9 +1089,10 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
+      "ep-2-attack-of-clones",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "ep-2-attack-of-clones"
+      "the-book-of-boba-fett"
     ],
     "portrait": {
       "type": "silhouette",
@@ -4010,6 +4012,7 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
+      "the-book-of-boba-fett",
       "the-mandalorian",
       "the-mandalorian-and-grogu"
     ],
@@ -4044,6 +4047,7 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
+      "the-book-of-boba-fett",
       "the-mandalorian",
       "the-mandalorian-and-grogu"
     ],
@@ -5413,7 +5417,8 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
-      "tales-of-the-underworld"
+      "tales-of-the-underworld",
+      "the-book-of-boba-fett"
     ],
     "portrait": {
       "type": "silhouette",
@@ -5422,6 +5427,72 @@
       "license": "original"
     },
     "source": "언더월드 이야기",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "fennec-shand",
+    "name": "펜넥 샨드",
+    "name_en": "Fennec Shand",
+    "alignment": "neutral",
+    "tier": 2,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "치명적인 저격수이자 용병. 보바 펫의 오른팔로서 타투인 장악을 함께한다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-book-of-boba-fett"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "bounty-hunter",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "보바 펫의 북",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "black-krrsantan",
+    "name": "블랙 크르샨탄",
+    "name_en": "Black Krrsantan",
+    "alignment": "neutral",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Wookiee",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "흉포한 워키 현상금 사냥꾼이자 검투사. 적이었다가 보바의 편에 선다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-book-of-boba-fett"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "bounty-hunter",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "보바 펫의 북",
     "source_type": "series",
     "canon_status": "explicit"
   }

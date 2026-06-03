@@ -788,5 +788,25 @@
     "s": "barriss-offee",
     "t": "ahsoka-tano",
     "type": "rival"
+  },
+  {
+    "s": "boba-fett",
+    "t": "fennec-shand",
+    "type": "ally"
+  },
+  {
+    "s": "boba-fett",
+    "t": "black-krrsantan",
+    "type": "ally"
+  },
+  {
+    "s": "boba-fett",
+    "t": "cad-bane",
+    "type": "rival"
+  },
+  {
+    "s": "boba-fett",
+    "t": "din-djarin",
+    "type": "ally"
   }
 ]
