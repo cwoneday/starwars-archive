@@ -9,8 +9,14 @@ import os,re,json,shutil
 
 DIR=os.path.dirname(os.path.abspath(__file__))
 OUT=os.path.join(DIR,"standalone")
-if os.path.exists(OUT): shutil.rmtree(OUT)
-os.makedirs(OUT)
+# 폴더 자체를 rmtree하면 일부 마운트에서 I/O 오류가 나므로, 폴더는 두고 내용만 비운다
+os.makedirs(OUT, exist_ok=True)
+for _n in os.listdir(OUT):
+    _p=os.path.join(OUT,_n)
+    try:
+        shutil.rmtree(_p) if os.path.isdir(_p) else os.remove(_p)
+    except OSError:
+        pass
 
 # 페이지별 필요한 JSON (fetch 분석 결과)
 NEED={
