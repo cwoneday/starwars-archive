@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>시대 개요 · ERAS</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--void:#04060b;--base:#080c14;--panel:#0e131c;--ink:#dce4ee;--dim:#8b97a8;--faint:#515c6b;
+--line:rgba(120,140,180,.14);--holo:#45d4e3;--gold:#d8b45a;
+--fd:'Chakra Petch',sans-serif;--fb:'Spline Sans',sans-serif;--fm:'JetBrains Mono',monospace}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1100px 600px at 50% -8%,#0a1018,transparent 60%),var(--void);color:var(--ink);font-family:var(--fb);min-height:100vh;line-height:1.6}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;background:repeating-linear-gradient(to bottom,rgba(69,212,227,.025) 0 1px,transparent 1px 3px);opacity:.5}
+.site-nav{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;padding:12px 20px;border-bottom:1px solid var(--line);background:rgba(8,12,20,.7);position:relative;z-index:2}
+.site-nav .brand{font-family:var(--fd);font-weight:700;color:var(--holo);text-decoration:none;margin-right:8px}
+.site-nav .links{display:flex;flex-wrap:wrap;gap:4px 14px}
+.site-nav a{color:var(--dim);text-decoration:none;font-size:13px}
+.site-nav a:hover,.site-nav a.active{color:var(--holo)}
+.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}
+.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}
+.wrap{max-width:1000px;margin:0 auto;padding:30px 18px 80px;position:relative;z-index:2}
+.kicker{font-family:var(--fm);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--holo);margin-bottom:8px}
+h1{font-family:var(--fd);font-weight:700;font-size:1.8rem;margin:0 0 6px}
+.lead{color:var(--dim);font-size:14px;margin:0 0 22px}
+.jump{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:30px;position:sticky;top:0;background:linear-gradient(180deg,var(--void) 70%,transparent);padding:10px 0;z-index:3}
+.jump a{font-family:var(--fm);font-size:11px;padding:5px 10px;border-radius:20px;border:1px solid var(--line);color:var(--dim);text-decoration:none;transition:all .15s}
+.jump a:hover{color:var(--void);background:var(--holo);border-color:var(--holo)}
+.era{position:relative;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,var(--panel),var(--base));padding:22px 22px 18px;margin-bottom:20px;scroll-margin-top:60px;overflow:hidden}
+.era .bar{position:absolute;left:0;top:0;bottom:0;width:4px}
+.era-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:4px}
+.era-num{font-family:var(--fm);font-size:11px;color:var(--faint)}
+.era-name{font-family:var(--fd);font-weight:700;font-size:1.35rem}
+.era-range{font-family:var(--fm);font-size:12px;color:var(--gold)}
+.era-desc{color:var(--dim);font-size:13.5px;margin:2px 0 14px}
+.grp{margin-top:12px}
+.grp .gl{font-family:var(--fm);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:7px}
+.grp .gl b{color:var(--dim)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:5px 11px;border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink);background:rgba(255,255,255,.02);transition:all .15s}
+.chip:hover{border-color:var(--holo);color:var(--holo)}
+.chip .yr{font-family:var(--fm);font-size:10px;color:var(--faint)}
+.chip.film{border-left:2px solid var(--gold)}
+.chip .dot{width:7px;height:7px;border-radius:50%;flex:none}
+.more{font-family:var(--fm);font-size:11px;color:var(--faint);align-self:center;padding-left:2px}
+.empty{color:var(--faint);font-size:12px;font-style:italic}
+.counts{display:flex;gap:14px;font-family:var(--fm);font-size:11px;color:var(--dim);margin-top:2px}
+.counts b{color:var(--holo)}
+</style></head>
+<body>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="eras.html" class="active">시대</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<div class="wrap">
+  <div class="kicker">Era Overview · 시대 개요</div>
+  <h1>여덟 시대로 보는 은하사</h1>
+  <p class="lead">연대기를 마스터 축으로, 각 시대의 작품·사건·인물을 한자리에 모았습니다. 시대 이름을 누르면 바로 이동합니다.</p>
+  <div class="jump" id="jump"></div>
+  <div id="eras"></div>
+</div>
+<script>
+const ERAS=[
+ {key:"dawn_of_the_jedi",label:"제다이의 여명",range:"~25,000 BBY",color:"#7b6cff",desc:"포스와 제다이·시스의 기원이 놓인 까마득한 여명기."},
+ {key:"high_republic",label:"하이 리퍼블릭",range:"~500–100 BBY",color:"#45d4e3",desc:"제다이가 절정에 이른 공화국의 황금기."},
+ {key:"fall_of_the_jedi",label:"제다이의 몰락",range:"32–19 BBY",color:"#5ad17a",desc:"시스의 음모 속에 공화국이 제국으로 기우는 몰락기."},
+ {key:"reign_of_the_empire",label:"제국의 시대",range:"19–5 BBY",color:"#d8b45a",desc:"제국의 압제 아래 어둠이 은하를 뒤덮은 시대."},
+ {key:"age_of_rebellion",label:"반란의 시대",range:"5 BBY–4 ABY",color:"#ff7a4d",desc:"반란 동맹이 제국에 맞서 일어선 저항의 시대."},
+ {key:"new_republic",label:"뉴 리퍼블릭",range:"5–34 ABY",color:"#4db5ff",desc:"제국이 무너지고 새 질서가 자리 잡아가던 시대."},
+ {key:"rise_of_the_first_order",label:"퍼스트 오더의 부상",range:"~34 ABY",color:"#ff5a8a",desc:"제국의 잿더미에서 퍼스트 오더가 떠오른 시대."},
+ {key:"new_jedi_order",label:"뉴 제다이 오더",range:"~35 ABY",color:"#b98aff",desc:"스카이워커 사가 이후, 새로운 제다이의 시대."},
+];
+const ALIGN={light:"#45d4e3",dark:"#ff5a4d",neutral:"#8b97a8"};
+const WT={film:"🎬",series:"📺",novel:"📖",game:"🎮",comic:"📗"};
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let FILMS=[],EVENTS=[],CHARS=[];
+async function load(){
+  const j=async f=>{try{return await fetch(f).then(r=>r.json())}catch(e){return[]}};
+  [FILMS,EVENTS,CHARS]=await Promise.all([j("films.json"),j("events.json"),j("characters.json")]);
+  document.getElementById("jump").innerHTML=ERAS.map(e=>`<a href="#${e.key}" style="border-color:${e.color}55">${e.label}</a>`).join("");
+  render();
+}
+function chipsFilm(arr){return arr.map(f=>`<a class="chip film" href="film-detail.html?id=${f.id}">${WT[f.work_type]||"●"} ${esc(f.title)}</a>`).join("");}
+function chipsEvent(arr){return arr.map(e=>`<a class="chip" href="event-detail.html?id=${e.id}"><span class="yr">${esc(e.year_label||"")}</span> ${esc(e.title)}</a>`).join("");}
+function chipsChar(arr){return arr.map(c=>`<a class="chip" href="character-detail.html?id=${c.id}"><span class="dot" style="background:${ALIGN[c.alignment]||'#515c6b'}"></span>${esc(c.name)}</a>`).join("");}
+function group(label,total,html,capped){
+  if(!total)return `<div class="grp"><div class="gl"><b>${label}</b></div><div class="empty">아직 없음</div></div>`;
+  return `<div class="grp"><div class="gl"><b>${label}</b> · ${total}</div><div class="chips">${html}${capped?`<span class="more">+${capped} more</span>`:""}</div></div>`;
+}
+function render(){
+  const wrap=document.getElementById("eras");
+  wrap.innerHTML=ERAS.map(era=>{
+    const films=FILMS.filter(f=>f.era_primary===era.key);
+    let evs=EVENTS.filter(e=>e.era===era.key).sort((a,b)=>(a.tier-b.tier)||(a.year_value-b.year_value));
+    let chars=CHARS.filter(c=>c.era_primary===era.key).sort((a,b)=>(a.tier-b.tier)||a.name.localeCompare(b.name,"ko"));
+    const evCap=Math.max(0,evs.length-16), chCap=Math.max(0,chars.length-16);
+    return `<section class="era" id="${era.key}"><div class="bar" style="background:${era.color}"></div>
+      <div class="era-head"><span class="era-num">${String(ERAS.indexOf(era)+1).padStart(2,"0")}</span>
+        <span class="era-name" style="color:${era.color}">${era.label}</span>
+        <span class="era-range">${era.range}</span></div>
+      <div class="counts">작품 <b>${films.length}</b> · 사건 <b>${evs.length}</b> · 인물 <b>${chars.length}</b></div>
+      <div class="era-desc">${era.desc}</div>
+      ${group("작품",films.length,chipsFilm(films))}
+      ${group("주요 사건",evs.length,chipsEvent(evs.slice(0,16)),evCap)}
+      ${group("인물",chars.length,chipsChar(chars.slice(0,16)),chCap)}
+    </section>`;
+  }).join("");
+}
+load();
+</script>
+</body></html>

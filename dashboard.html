@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>통계 대시보드 · STATS</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--void:#04060b;--base:#080c14;--panel:#0e131c;--ink:#dce4ee;--dim:#8b97a8;--faint:#515c6b;
+--line:rgba(120,140,180,.14);--holo:#45d4e3;--gold:#d8b45a;--warn:#ff5a4d;
+--fd:'Chakra Petch',sans-serif;--fb:'Spline Sans',sans-serif;--fm:'JetBrains Mono',monospace}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1100px 600px at 50% -8%,#0a1018,transparent 60%),var(--void);color:var(--ink);font-family:var(--fb);min-height:100vh;line-height:1.6}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;background:repeating-linear-gradient(to bottom,rgba(69,212,227,.025) 0 1px,transparent 1px 3px);opacity:.5}
+.site-nav{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;padding:12px 20px;border-bottom:1px solid var(--line);background:rgba(8,12,20,.7);position:relative;z-index:2}
+.site-nav .brand{font-family:var(--fd);font-weight:700;color:var(--holo);text-decoration:none;margin-right:8px}
+.site-nav .links{display:flex;flex-wrap:wrap;gap:4px 14px}
+.site-nav a{color:var(--dim);text-decoration:none;font-size:13px}
+.site-nav a:hover,.site-nav a.active{color:var(--holo)}
+.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600}
+.site-nav .nav-search:hover{background:rgba(69,212,227,.2)}
+.wrap{max-width:1000px;margin:0 auto;padding:30px 18px 80px;position:relative;z-index:2}
+.kicker{font-family:var(--fm);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--holo);margin-bottom:8px}
+h1{font-family:var(--fd);font-weight:700;font-size:1.8rem;margin:0 0 6px}
+.lead{color:var(--dim);font-size:14px;margin:0 0 24px}
+.totals{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-bottom:30px}
+.tcard{background:linear-gradient(180deg,var(--panel),var(--base));border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
+.tcard .n{font-family:var(--fd);font-weight:700;font-size:1.9rem;color:var(--holo);line-height:1}
+.tcard .l{font-family:var(--fm);font-size:10.5px;letter-spacing:.08em;color:var(--dim);margin-top:6px}
+.panel{background:linear-gradient(180deg,var(--panel),var(--base));border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:18px}
+.panel h2{font-family:var(--fm);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:0 0 16px}
+.row{display:flex;align-items:center;gap:10px;margin-bottom:9px}
+.row .lab{flex:0 0 130px;font-size:12.5px;color:var(--dim);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .track{flex:1;background:var(--void);border-radius:6px;height:18px;overflow:hidden;border:1px solid var(--line)}
+.row .fill{height:100%;border-radius:6px 0 0 6px;transition:width .8s cubic-bezier(.2,.8,.2,1);min-width:2px}
+.row .val{flex:0 0 38px;font-family:var(--fm);font-size:12px;color:var(--ink);text-align:left}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:640px){.cols{grid-template-columns:1fr}.row .lab{flex-basis:96px}}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-family:var(--fm);font-size:11px;color:var(--dim);margin-top:6px}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend i{width:10px;height:10px;border-radius:2px;display:inline-block}
+</style></head>
+<body>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html" class="active">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<div class="wrap">
+  <div class="kicker">Archive Statistics · 통계 대시보드</div>
+  <h1>아카이브 한눈에 보기</h1>
+  <p class="lead">데이터 파일에서 실시간 집계한 분포입니다.</p>
+  <div class="totals" id="totals"></div>
+  <div class="panel"><h2>시대별 사건·작품 분포</h2><div id="byEra"></div></div>
+  <div class="cols">
+    <div class="panel"><h2>인물 진영 분포</h2><div id="align"></div></div>
+    <div class="panel"><h2>인물 등급(tier) 분포</h2><div id="tier"></div></div>
+    <div class="panel"><h2>작품 매체 비율</h2><div id="media"></div></div>
+    <div class="panel"><h2>사건 유형 분포</h2><div id="cat"></div></div>
+  </div>
+</div>
+<script>
+const ERAS=[
+ ["dawn_of_the_jedi","제다이의 여명","#7b6cff"],["high_republic","하이 리퍼블릭","#45d4e3"],
+ ["fall_of_the_jedi","제다이의 몰락","#5ad17a"],["reign_of_the_empire","제국의 시대","#d8b45a"],
+ ["age_of_rebellion","반란의 시대","#ff7a4d"],["new_republic","뉴 리퍼블릭","#4db5ff"],
+ ["rise_of_the_first_order","퍼스트 오더의 부상","#ff5a8a"],["new_jedi_order","뉴 제다이 오더","#b98aff"]];
+const ALIGN={light:["라이트","#45d4e3"],dark:["다크","#ff5a4d"],neutral:["중립","#8b97a8"]};
+const MEDIA={film:["영화","#d8b45a"],series:["시리즈","#45d4e3"],novel:["소설","#5ad17a"],game:["게임","#ff7a4d"],comic:["코믹","#b98aff"]};
+const CAT={battle:["전투","#ff5a4d"],duel:["듀얼","#ff7a4d"],politics:["정치","#4db5ff"],fall:["몰락","#b98aff"],founding:["창건","#5ad17a"],treaty:["조약","#45d4e3"],other:["기타","#8b97a8"]};
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const j=async f=>{try{return await fetch(f).then(r=>r.json())}catch(e){return[]}};
+function bar(label,val,max,color){
+  const w=max?Math.round(val/max*100):0;
+  return `<div class="row"><div class="lab">${esc(label)}</div><div class="track"><div class="fill" style="width:${w}%;background:${color}"></div></div><div class="val">${val}</div></div>`;
+}
+function countBy(arr,key){const m={};arr.forEach(o=>{const k=typeof key==="function"?key(o):o[key];if(k==null)return;m[k]=(m[k]||0)+1;});return m;}
+(async function(){
+  const [films,chars,events,rels,locs,facs,veh,ss]=await Promise.all(
+    ["films.json","characters.json","events.json","relations.json","locations.json","factions.json","vehicles.json","starships.json"].map(j));
+  // totals
+  const T=[["작품",films.length],["인물",chars.length],["사건",events.length],["관계",rels.length],
+           ["장소",locs.length],["세력",facs.length],["탈것",veh.length],["함선",ss.length]];
+  document.getElementById("totals").innerHTML=T.map(([l,n])=>`<div class="tcard"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
+  // by era (events + films)
+  const evE=countBy(events,"era"), fmE=countBy(films,"era_primary");
+  const maxE=Math.max(1,...ERAS.map(([k])=>Math.max(evE[k]||0,fmE[k]||0)));
+  document.getElementById("byEra").innerHTML=ERAS.map(([k,lab,c])=>
+    bar(lab+" · 사건",evE[k]||0,maxE,c)+bar(lab+" · 작품",fmE[k]||0,maxE,c+"99")).join("")
+    +`<div class="legend"><span><i style="background:var(--holo)"></i>위=사건 / 아래=작품 (시대색)</span></div>`;
+  // alignment
+  const al=countBy(chars,"alignment"),maxA=Math.max(1,...Object.values(al));
+  document.getElementById("align").innerHTML=Object.keys(ALIGN).map(k=>bar(ALIGN[k][0],al[k]||0,maxA,ALIGN[k][1])).join("");
+  // tier
+  const ti=countBy(chars,"tier"),maxT=Math.max(1,...Object.values(ti));
+  document.getElementById("tier").innerHTML=[1,2,3].map(t=>bar("Tier "+t,ti[t]||0,maxT,["#d8b45a","#45d4e3","#8b97a8"][t-1])).join("");
+  // media
+  const md=countBy(films,"work_type"),maxM=Math.max(1,...Object.values(md));
+  document.getElementById("media").innerHTML=Object.keys(MEDIA).map(k=>bar(MEDIA[k][0],md[k]||0,maxM,MEDIA[k][1])).join("");
+  // event category
+  const ct=countBy(events,"category"),maxC=Math.max(1,...Object.values(ct));
+  document.getElementById("cat").innerHTML=Object.keys(CAT).map(k=>bar(CAT[k][0],ct[k]||0,maxC,CAT[k][1])).join("");
+})();
+</script>
+</body></html>
