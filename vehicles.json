@@ -14,8 +14,10 @@
     "cargo_capacity": "50000",
     "consumables": "2 months",
     "films": [
+      "ep-2-attack-of-clones",
       "ep-4-a-new-hope",
-      "ep-2-attack-of-clones"
+      "the-book-of-boba-fett",
+      "the-mandalorian"
     ],
     "pilots": [],
     "canon_status": "explicit",
@@ -76,9 +78,16 @@
     "cargo_capacity": "65",
     "consumables": "2 days",
     "films": [
+      "ahsoka",
+      "andor",
       "ep-4-a-new-hope",
       "ep-5-empire",
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "obi-wan-kenobi",
+      "rebels",
+      "rogue-one",
+      "the-bad-batch",
+      "the-mandalorian"
     ],
     "pilots": [],
     "affiliation": "galactic-empire",
@@ -143,7 +152,9 @@
     "cargo_capacity": "1000",
     "films": [
       "ep-5-empire",
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "rogue-one",
+      "the-bad-batch"
     ],
     "pilots": [],
     "affiliation": "galactic-empire",
@@ -164,7 +175,9 @@
     "cargo_capacity": "200",
     "films": [
       "ep-5-empire",
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "the-bad-batch",
+      "the-mandalorian"
     ],
     "pilots": [
       "chewbacca"
@@ -209,7 +222,8 @@
     "cargo_capacity": "2000000",
     "consumables": "Live food tanks",
     "films": [
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "the-book-of-boba-fett"
     ],
     "pilots": [],
     "canon_status": "explicit",
@@ -272,7 +286,10 @@
     "cargo_capacity": "4",
     "consumables": "1 day",
     "films": [
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "obi-wan-kenobi",
+      "the-book-of-boba-fett",
+      "the-mandalorian"
     ],
     "pilots": [
       "luke-skywalker",
@@ -296,7 +313,10 @@
     "cargo_capacity": "0",
     "films": [
       "ep-1-phantom-menace",
-      "ep-3-revenge-of-sith"
+      "ep-3-revenge-of-sith",
+      "tales-of-the-jedi",
+      "the-bad-batch",
+      "the-clone-wars"
     ],
     "pilots": [],
     "affiliation": "trade-federation",
@@ -507,7 +527,10 @@
     "cargo_capacity": "170",
     "films": [
       "ep-2-attack-of-clones",
-      "ep-3-revenge-of-sith"
+      "ep-3-revenge-of-sith",
+      "tales-of-the-jedi",
+      "the-bad-batch",
+      "the-clone-wars"
     ],
     "pilots": [],
     "affiliation": "galactic-republic",
@@ -549,7 +572,9 @@
     "consumables": "21 days",
     "films": [
       "ep-2-attack-of-clones",
-      "ep-3-revenge-of-sith"
+      "ep-3-revenge-of-sith",
+      "tales-of-the-jedi",
+      "the-clone-wars"
     ],
     "pilots": [],
     "affiliation": "galactic-republic",

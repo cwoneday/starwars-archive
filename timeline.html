@@ -134,7 +134,7 @@ footer.page-foot b{color:var(--text-dim);font-weight:500}
 .nasa-fallback{position:absolute;inset:0;background:radial-gradient(120% 100% at 35% 20%,#243a55,#0c1622 55%,#050810);}
 .nasa-fallback::after{content:"";position:absolute;inset:0;background-image:radial-gradient(1px 1px at 20% 30%,#fff,transparent),radial-gradient(1px 1px at 70% 60%,#cfe0ff,transparent),radial-gradient(1.5px 1.5px at 50% 80%,#fff,transparent),radial-gradient(1px 1px at 85% 25%,#fff,transparent);opacity:.7}
 .nasa-grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,6,11,.2),rgba(4,6,11,.85))}
-.nasa-attr{position:absolute;bottom:8px;right:12px;font-family:var(--fm,monospace);font-size:10px;color:var(--dim,#8b97a8);z-index:2}</style>
+.nasa-attr{position:absolute;bottom:8px;right:12px;font-family:var(--fm,monospace);font-size:10px;color:var(--dim,#8b97a8);z-index:2}.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}</style>
 </head>
 <body>
 <style>
@@ -146,7 +146,7 @@ footer.page-foot b{color:var(--text-dim);font-weight:500}
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html" class="active">타임라인</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html" class="active">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 
 <main class="wrap">
   <div class="hud-bar">
@@ -197,6 +197,8 @@ const ERAS = [
 ];
 
 const EVENTS = [
+  {id:"leia-kidnapping",era:"reign_of_the_empire",year_value:-9,year_label:"9 BBY",year_certainty:"approximate",tier:2,category:"other",title:"레이아 납치 사건",one_liner:"인퀴지터 레바가 어린 레이아를 납치해, 은둔하던 오비완을 다시 세상으로 끌어내다"},
+  {id:"obi-wan-vader-rematch",era:"reign_of_the_empire",year_value:-9,year_label:"9 BBY",year_certainty:"approximate",tier:1,category:"duel",title:"케노비와 베이더의 재대결",one_liner:"무스타파 이후 처음으로 옛 스승과 제자가 다시 칼을 맞대다"},
   {id:"mae-jedi-hunt",era:"high_republic",year_value:-132,year_label:"~132 BBY",year_certainty:"approximate",tier:2,category:"duel",title:"메이의 제다이 사냥",one_liner:"전직 패다완 메이가 옛 제다이들을 차례로 노리며 숨어 있던 시스의 부활이 드러나다"},
   {id:"janix-syndicate-war",era:"reign_of_the_empire",year_value:-18,year_label:"~18 BBY",year_certainty:"approximate",tier:2,category:"battle",title:"자닉스 신디케이트 전쟁",one_liner:"제국의 손이 닿지 않은 변경 행성에서 몰이 범죄 신디케이트를 재건하려 벌인 암흑가 전쟁"},
   {id:"maul-vader-duel",era:"reign_of_the_empire",year_value:-17.99,year_label:"~18 BBY",year_certainty:"approximate",tier:3,category:"duel",title:"몰과 베이더의 대결",one_liner:"한때 시스의 자리를 두고 갈렸던 몰과 베이더가 칼을 맞대다"},

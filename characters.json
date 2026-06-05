@@ -5794,8 +5794,22 @@
       }
     ],
     "motivation": "오더 66에서 살아남은 옛 영링. 인퀴지터리우스의 제3자매가 되어, 베이더에게 복수하기 위해 오비완을 집요하게 쫓는다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": "leia-kidnapping",
+        "note": "베이더에게 닿기 위해 레이아를 납치하고 오비완을 쫓는다."
+      },
+      {
+        "event": "obi-wan-vader-rematch",
+        "note": "복수의 끝에서 루크를 해치지 못하고, 자신이 괴물이 되길 거부한다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "obi-wan-vader-rematch",
+        "note": "무방비의 루크 앞에서 칼을 거두며 복수의 사슬을 끊는다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "obi-wan-kenobi"
@@ -5838,7 +5852,12 @@
       }
     ],
     "motivation": "인퀴지터리우스를 이끄는 수장. 살아남은 제다이를 사냥하는 제국의 칼날이다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "leia-kidnapping",
+        "note": "제다이 사냥을 지휘하나 레바의 독단에 뒤통수를 맞는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [

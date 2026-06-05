@@ -917,7 +917,8 @@
     ],
     "followed_by": [
       "declaration-of-empire",
-      "clone-force-99-escape"
+      "clone-force-99-escape",
+      "leia-kidnapping"
     ],
     "tags": [
       "제다이 숙청",
@@ -1109,7 +1110,8 @@
       "declaration-of-empire"
     ],
     "followed_by": [
-      "rise-of-rebellion-cells"
+      "rise-of-rebellion-cells",
+      "obi-wan-vader-rematch"
     ],
     "work": "ep-3-revenge-of-sith"
   },
@@ -2945,6 +2947,127 @@
     "key_figures": [
       "asajj-ventress",
       "cad-bane"
+    ]
+  },
+  {
+    "id": "leia-kidnapping",
+    "title": "레이아 납치 사건",
+    "title_en": "The Abduction of Leia",
+    "era": "reign_of_the_empire",
+    "year_value": -9,
+    "year_label": "9 BBY",
+    "year_certainty": "approximate",
+    "category": "other",
+    "tier": 2,
+    "characters": [
+      "obi-wan-kenobi",
+      "reva",
+      "leia-organa",
+      "bail-organa",
+      "grand-inquisitor"
+    ],
+    "locations": [
+      "tatooine",
+      "daiyu",
+      "alderaan",
+      "mapuzo"
+    ],
+    "factions": [
+      "inquisitorius",
+      "galactic-empire"
+    ],
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "인퀴지터 레바가 어린 레이아를 납치해, 은둔하던 오비완을 다시 세상으로 끌어내다",
+    "summary": "오더 66에서 살아남은 인퀴지터 레바는 베이더에게 닿기 위해, 그가 찾는 오비완을 끌어내려 한다. 그 미끼로 알데란의 어린 공주 레이아를 납치하고, 다급해진 베일 오르가나는 옛 동지 오비완에게 도움을 청한다. 타투인에 숨어 살던 오비완은 결국 칼을 다시 든다.",
+    "significance": "〈새로운 희망〉에서 레이아가 오비완에게 도움을 청한 까닭을 채운 사건. 인퀴지터리우스라는 제국의 제다이 사냥 조직을 전면에 세웠다.",
+    "preceded_by": [
+      "order-66"
+    ],
+    "followed_by": [
+      "obi-wan-vader-rematch"
+    ],
+    "tags": [
+      "제국 시대",
+      "인퀴지터리우스"
+    ],
+    "work": "obi-wan-kenobi",
+    "key_figures": [
+      "reva",
+      "obi-wan-kenobi"
+    ],
+    "deep_dive": [
+      {
+        "phase": "미끼",
+        "note": "레바가 베이더의 눈에 들기 위해 레이아를 납치한다."
+      },
+      {
+        "phase": "은둔의 끝",
+        "note": "베일의 요청에 오비완이 다시 세상으로 나선다."
+      },
+      {
+        "phase": "추격",
+        "note": "인퀴지터리우스가 도망자 제다이를 좁혀 온다."
+      }
+    ]
+  },
+  {
+    "id": "obi-wan-vader-rematch",
+    "title": "케노비와 베이더의 재대결",
+    "title_en": "The Kenobi–Vader Rematch",
+    "era": "reign_of_the_empire",
+    "year_value": -9,
+    "year_label": "9 BBY",
+    "year_certainty": "approximate",
+    "category": "duel",
+    "tier": 1,
+    "characters": [
+      "obi-wan-kenobi",
+      "darth-vader",
+      "reva"
+    ],
+    "locations": [
+      "mustafar",
+      "jabiim"
+    ],
+    "factions": [
+      "galactic-empire",
+      "inquisitorius"
+    ],
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "무스타파 이후 처음으로 옛 스승과 제자가 다시 칼을 맞대다",
+    "summary": "오비완과 베이더가 무스타파의 비극 이후 처음으로 정면으로 맞붙는다. 오비완은 옛 제자 안에 아나킨이 남아 있지 않음을 받아들이고, 레바 또한 복수의 끝에서 자신이 누구인지를 다시 묻는다.",
+    "significance": "프리퀄과 오리지널 사이, 오비완이 죄책감을 내려놓고 다시 스승으로 설 수 있게 된 분기점. 베이더와의 관계에 마침표를 찍는다.",
+    "preceded_by": [
+      "leia-kidnapping",
+      "duel-on-mustafar"
+    ],
+    "followed_by": [],
+    "tags": [
+      "제국 시대",
+      "인퀴지터리우스"
+    ],
+    "work": "obi-wan-kenobi",
+    "key_figures": [
+      "obi-wan-kenobi",
+      "darth-vader"
+    ],
+    "deep_dive": [
+      {
+        "phase": "재회",
+        "note": "두 사람이 다시 칼을 겨눈다. 오비완은 더 이상 흔들리지 않는다."
+      },
+      {
+        "phase": "작별",
+        "note": "오비완은 베이더 안의 아나킨을 놓아준다."
+      },
+      {
+        "phase": "레바의 선택",
+        "note": "레바는 복수의 끝에서 루크를 해치지 못하고 멈춰 선다."
+      }
     ]
   }
 ]

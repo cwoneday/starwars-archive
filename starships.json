@@ -41,9 +41,15 @@
     "hyperdrive_rating": "2.0",
     "MGLT": "60",
     "films": [
+      "ahsoka",
+      "andor",
       "ep-4-a-new-hope",
       "ep-5-empire",
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "obi-wan-kenobi",
+      "rebels",
+      "the-bad-batch",
+      "the-mandalorian"
     ],
     "pilots": [],
     "affiliation": "galactic-empire",
@@ -116,11 +122,13 @@
     "films": [
       "ep-4-a-new-hope",
       "ep-5-empire",
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "solo"
     ],
     "pilots": [
       "chewbacca",
       "han-solo",
+      "lando-calrissian",
       "leia-organa",
       "nien-nunb"
     ],
@@ -173,7 +181,9 @@
     "films": [
       "ep-4-a-new-hope",
       "ep-5-empire",
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "rogue-one",
+      "the-mandalorian"
     ],
     "pilots": [
       "luke-skywalker",
@@ -201,7 +211,8 @@
     "hyperdrive_rating": "1.0",
     "MGLT": "105",
     "films": [
-      "ep-4-a-new-hope"
+      "ep-4-a-new-hope",
+      "obi-wan-kenobi"
     ],
     "pilots": [
       "darth-vader"
@@ -274,10 +285,13 @@
     "hyperdrive_rating": "3.0",
     "MGLT": "70",
     "films": [
+      "ep-2-attack-of-clones",
       "ep-5-empire",
-      "ep-2-attack-of-clones"
+      "the-book-of-boba-fett",
+      "the-mandalorian"
     ],
     "pilots": [
+      "boba-fett",
       "jango-fett"
     ],
     "canon_status": "explicit",
@@ -865,5 +879,58 @@
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
     "data_source": "SWAPI"
+  },
+  {
+    "id": "ss-ghost",
+    "name": "고스트",
+    "name_en": "Ghost",
+    "model": "VCX-100 light freighter",
+    "manufacturer": "코렐리안 엔지니어링",
+    "starship_class": "light freighter",
+    "cost_in_credits": null,
+    "length": "43.9",
+    "max_atmosphering_speed": null,
+    "crew": "4-6",
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables": null,
+    "hyperdrive_rating": null,
+    "MGLT": null,
+    "films": [
+      "rebels",
+      "ahsoka"
+    ],
+    "pilots": [
+      "hera-syndulla"
+    ],
+    "affiliation": "rebel-alliance",
+    "canon_status": "explicit",
+    "data_source": "starwars.com"
+  },
+  {
+    "id": "ss-razor-crest",
+    "name": "레이저 크레스트",
+    "name_en": "Razor Crest",
+    "model": "ST-70 Assault Ship",
+    "manufacturer": "루세인 메탈워크스",
+    "starship_class": "gunship",
+    "cost_in_credits": null,
+    "length": "27",
+    "max_atmosphering_speed": null,
+    "crew": "1",
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables": null,
+    "hyperdrive_rating": null,
+    "MGLT": null,
+    "films": [
+      "the-mandalorian"
+    ],
+    "pilots": [
+      "din-djarin"
+    ],
+    "affiliation": null,
+    "canon_status": "explicit",
+    "data_source": "starwars.com"
   }
 ]

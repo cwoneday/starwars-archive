@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>전역 검색 · SEARCH</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--void:#04060b;--base:#080c14;--panel:#0e131c;--elevated:#141b27;--ink:#dce4ee;--dim:#8b97a8;--faint:#515c6b;
+--line:rgba(120,140,180,.14);--holo:#45d4e3;--gold:#d8b45a;--warn:#ff5a4d;
+--fd:'Chakra Petch',sans-serif;--fb:'Spline Sans',sans-serif;--fm:'JetBrains Mono',monospace}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1100px 600px at 50% -8%,#0a1018,transparent 60%),var(--void);color:var(--ink);font-family:var(--fb);min-height:100vh;line-height:1.6}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;background:repeating-linear-gradient(to bottom,rgba(69,212,227,.025) 0 1px,transparent 1px 3px);opacity:.5}
+.site-nav{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;padding:12px 20px;border-bottom:1px solid var(--line);background:rgba(8,12,20,.7);position:relative;z-index:2}
+.site-nav .brand{font-family:var(--fd);font-weight:700;color:var(--holo);text-decoration:none;margin-right:8px}
+.site-nav .links{display:flex;flex-wrap:wrap;gap:4px 14px}
+.site-nav a{color:var(--dim);text-decoration:none;font-size:13px}
+.site-nav a:hover,.site-nav a.active{color:var(--holo)}
+.wrap{max-width:920px;margin:0 auto;padding:30px 18px 80px;position:relative;z-index:2}
+.kicker{font-family:var(--fm);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--holo);margin-bottom:8px}
+h1{font-family:var(--fd);font-weight:700;font-size:1.7rem;margin:0 0 18px}
+.searchbox{position:relative;margin-bottom:10px}
+.searchbox input{width:100%;background:var(--void);border:1px solid var(--line);border-radius:12px;padding:16px 16px 16px 44px;color:var(--ink);font-family:var(--fb);font-size:16px;outline:none;transition:border-color .2s,box-shadow .2s}
+.searchbox input:focus{border-color:var(--holo);box-shadow:0 0 0 3px rgba(69,212,227,.12)}
+.searchbox .ic{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--holo);font-size:16px}
+.hint{font-family:var(--fm);font-size:11px;color:var(--faint);margin:0 0 22px}
+.hint b{color:var(--dim)}
+.filters{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:22px}
+.chiptype{font-family:var(--fm);font-size:11px;padding:5px 11px;border-radius:20px;border:1px solid var(--line);color:var(--dim);background:rgba(255,255,255,.02);cursor:pointer;user-select:none;transition:all .15s}
+.chiptype.on{color:var(--void);background:var(--holo);border-color:var(--holo);font-weight:600}
+.grp{margin-bottom:24px}
+.grp h2{font-family:var(--fm);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:0 0 10px;display:flex;align-items:center;gap:8px}
+.grp h2 .cnt{color:var(--faint)}
+.res{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
+.card{display:block;text-decoration:none;background:linear-gradient(180deg,var(--panel),var(--base));border:1px solid var(--line);border-radius:10px;padding:11px 13px;transition:all .15s}
+.card:hover{border-color:var(--holo);transform:translateY(-1px)}
+.card .nm{font-family:var(--fd);font-size:14px;color:var(--ink)}
+.card .en{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:1px}
+.card .sub{font-size:11.5px;color:var(--dim);margin-top:5px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.empty{color:var(--dim);font-size:14px;padding:40px 0;text-align:center}
+.empty .big{font-family:var(--fd);color:var(--faint);font-size:1.1rem;margin-bottom:6px}
+mark{background:rgba(69,212,227,.25);color:var(--holo);border-radius:2px;padding:0 1px}
+.total{font-family:var(--fm);font-size:11px;color:var(--faint);margin-bottom:14px}
+.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}</style></head>
+<body>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search active">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<div class="wrap">
+  <div class="kicker">Global Search · 전역 검색</div>
+  <h1>아카이브 전체 검색</h1>
+  <div class="searchbox"><span class="ic">⌕</span><input id="q" type="text" placeholder="인물·작품·사건·장소·세력·탈것·함선을 검색…" autocomplete="off" autofocus></div>
+  <p class="hint">한글·영문 이름, 한 줄 설명, 줄거리, 태그까지 검색합니다. <b id="loaded">데이터 불러오는 중…</b></p>
+  <div class="filters" id="filters"></div>
+  <div class="total" id="total"></div>
+  <div id="results"></div>
+</div>
+<script>
+const TYPES={
+  character:{label:"인물",icon:"👤",file:"characters.json",url:"character-detail.html",
+    name:o=>o.name,en:o=>o.name_en,sub:o=>o.motivation||"",fields:o=>[o.name,o.name_en,o.motivation]},
+  film:{label:"작품",icon:"🎬",file:"films.json",url:"film-detail.html",
+    name:o=>o.title,en:o=>o.title_en,sub:o=>o.summary||"",fields:o=>[o.title,o.title_en,o.summary,o.significance,(o.tags||[]).join(" ")]},
+  event:{label:"사건",icon:"◆",file:"events.json",url:"event-detail.html",
+    name:o=>o.title,en:o=>o.title_en,sub:o=>o.one_liner||o.summary||"",fields:o=>[o.title,o.title_en,o.one_liner,o.summary,(o.tags||[]).join(" ")]},
+  location:{label:"장소",icon:"🪐",file:"locations.json",url:"location-detail.html",
+    name:o=>o.name,en:o=>o.name_en,sub:o=>o.one_liner||"",fields:o=>[o.name,o.name_en,o.one_liner,o.region]},
+  faction:{label:"세력",icon:"⬡",file:"factions.json",url:"faction-detail.html",
+    name:o=>o.name,en:o=>o.name_en,sub:o=>o.one_liner||"",fields:o=>[o.name,o.name_en,o.one_liner,o.type]},
+  vehicle:{label:"탈것",icon:"🛞",file:"vehicles.json",url:"vehicle-detail.html",
+    name:o=>o.name,en:o=>o.name_en,sub:o=>o.model||o.vehicle_class||"",fields:o=>[o.name,o.name_en,o.model,o.vehicle_class]},
+  starship:{label:"함선",icon:"🚀",file:"starships.json",url:"starship-detail.html",
+    name:o=>o.name,en:o=>o.name_en,sub:o=>o.model||o.starship_class||"",fields:o=>[o.name,o.name_en,o.model,o.starship_class]},
+};
+const ORDER=["character","film","event","location","faction","vehicle","starship"];
+let INDEX=[]; let active=new Set(ORDER);
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function hl(text,q){const t=esc(text);if(!q)return t;const i=t.toLowerCase().indexOf(q.toLowerCase());if(i<0)return t;return t.slice(0,i)+"<mark>"+t.slice(i,i+q.length)+"</mark>"+t.slice(i+q.length);}
+
+async function load(){
+  for(const key of ORDER){
+    const cfg=TYPES[key];
+    try{
+      const arr=await fetch(cfg.file).then(r=>r.json());
+      arr.forEach(o=>{
+        if(!o||!o.id)return;
+        INDEX.push({type:key,id:o.id,name:cfg.name(o)||o.id,en:cfg.en(o)||"",sub:cfg.sub(o)||"",
+          hay:(cfg.fields(o)||[]).filter(Boolean).join(" ").toLowerCase()});
+      });
+    }catch(e){/* 파일 없으면 건너뜀 */}
+  }
+  document.getElementById("loaded").textContent=`총 ${INDEX.length}개 항목 검색 가능`;
+  buildFilters(); run();
+}
+function buildFilters(){
+  const f=document.getElementById("filters");
+  f.innerHTML=ORDER.map(k=>{const c=INDEX.filter(x=>x.type===k).length;return `<span class="chiptype on" data-k="${k}">${TYPES[k].icon} ${TYPES[k].label} <span style="opacity:.6">${c}</span></span>`;}).join("");
+  f.querySelectorAll(".chiptype").forEach(el=>el.addEventListener("click",()=>{
+    const k=el.dataset.k;
+    if(active.has(k)){active.delete(k);el.classList.remove("on");}else{active.add(k);el.classList.add("on");}
+    if(active.size===0){active=new Set(ORDER);f.querySelectorAll(".chiptype").forEach(e=>e.classList.add("on"));}
+    run();
+  }));
+}
+function score(item,q){
+  const n=item.name.toLowerCase(), e=item.en.toLowerCase();
+  if(n===q||e===q)return 0;
+  if(n.startsWith(q)||e.startsWith(q))return 1;
+  if(n.includes(q)||e.includes(q))return 2;
+  return 3;
+}
+function run(){
+  const q=document.getElementById("q").value.trim().toLowerCase();
+  const res=document.getElementById("results"), tot=document.getElementById("total");
+  let pool=INDEX.filter(x=>active.has(x.type));
+  let hits = q ? pool.filter(x=>x.hay.includes(q)) : pool.slice();
+  if(q) hits.sort((a,b)=>score(a,q)-score(b,q)||a.name.localeCompare(b.name,"ko"));
+  else hits.sort((a,b)=>a.name.localeCompare(b.name,"ko"));
+  tot.textContent = q ? `"${q}" — ${hits.length}개 결과` : `${hits.length}개 항목`;
+  if(!hits.length){res.innerHTML=`<div class="empty"><div class="big">검색 결과가 없습니다</div>다른 키워드로 시도해 보세요.</div>`;return;}
+  let html="";
+  for(const k of ORDER){
+    if(!active.has(k))continue;
+    const group=hits.filter(x=>x.type===k);
+    if(!group.length)continue;
+    const show=group.slice(0,60);
+    html+=`<div class="grp"><h2>${TYPES[k].icon} ${TYPES[k].label} <span class="cnt">(${group.length})</span></h2><div class="res">`;
+    html+=show.map(x=>`<a class="card" href="${TYPES[k].url}?id=${encodeURIComponent(x.id)}"><div class="nm">${hl(x.name,q)}</div>${x.en?`<div class="en">${hl(x.en,q)}</div>`:""}${x.sub?`<div class="sub">${hl(x.sub,q)}</div>`:""}</a>`).join("");
+    html+=`</div></div>`;
+  }
+  res.innerHTML=html;
+}
+document.getElementById("q").addEventListener("input",run);
+load();
+</script>
+</body></html>
