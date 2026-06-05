@@ -142,5 +142,77 @@
     "source": "스타워즈 캐넌",
     "source_type": "film",
     "canon_status": "referenced"
+  },
+  {
+    "id": "pyke-syndicate",
+    "name": "파이크 신디케이트",
+    "name_en": "Pyke Syndicate",
+    "type": "syndicate",
+    "alignment": "dark",
+    "era": "공화국~제국",
+    "one_liner": "스파이스 밀매를 장악한 강력한 범죄 신디케이트. 클론 전쟁기부터 은하 암흑가의 큰손이다.",
+    "source": "스타워즈 캐넌",
+    "source_type": "series",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "crimson-dawn",
+    "name": "크림슨 던",
+    "name_en": "Crimson Dawn",
+    "type": "syndicate",
+    "alignment": "dark",
+    "era": "제국의 시대~",
+    "one_liner": "그림자 속에서 은하 암흑가를 주무른 범죄 조직. 한때 몰이 배후에서 이끌었다.",
+    "source": "스타워즈 캐넌",
+    "source_type": "series",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "nightsisters",
+    "name": "나이트시스터",
+    "name_en": "Nightsisters",
+    "type": "coven",
+    "alignment": "dark",
+    "era": "유구~",
+    "one_liner": "다투미르의 마법을 다루는 마녀 결사. 다크사이드 주술로 두려움을 샀다.",
+    "source": "스타워즈 캐넌",
+    "source_type": "series",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "mandalorians",
+    "name": "만달로어인",
+    "name_en": "Mandalorians",
+    "type": "culture",
+    "alignment": "neutral",
+    "era": "유구~",
+    "one_liner": "전사 문화로 이름난 만달로어의 부족들. 베스카 갑옷과 엄격한 신조로 대표된다.",
+    "source": "스타워즈 캐넌",
+    "source_type": "series",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "hutt-cartel",
+    "name": "헛 카르텔",
+    "name_en": "Hutt Cartel",
+    "type": "cartel",
+    "alignment": "neutral",
+    "era": "유구~",
+    "one_liner": "헛 일족이 대를 이어 지배해온 범죄 제국. 타투인 등 외곽의 암흑가를 주물렀다.",
+    "source": "스타워즈 캐넌",
+    "source_type": "series",
+    "canon_status": "referenced"
+  },
+  {
+    "id": "inquisitorius",
+    "name": "인퀴지터리우스",
+    "name_en": "Inquisitorius",
+    "type": "order",
+    "alignment": "dark",
+    "era": "제국의 시대",
+    "one_liner": "오더 66 이후 살아남은 제다이를 사냥하기 위해 제국이 부린 다크사이드 심문관 집단.",
+    "source": "스타워즈 캐넌",
+    "source_type": "series",
+    "canon_status": "referenced"
   }
 ]

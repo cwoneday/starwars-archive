@@ -225,7 +225,8 @@
       "ep-4-a-new-hope",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "maul-shadow-lord"
+      "maul-shadow-lord",
+      "obi-wan-kenobi"
     ],
     "portrait": {
       "type": "silhouette",
@@ -283,10 +284,11 @@
     ],
     "appears_in": [],
     "works": [
+      "ep-3-revenge-of-sith",
       "ep-4-a-new-hope",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "ep-3-revenge-of-sith"
+      "obi-wan-kenobi"
     ],
     "portrait": {
       "type": "silhouette",
@@ -324,9 +326,10 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
-      "ep-4-a-new-hope",
       "ep-2-attack-of-clones",
-      "ep-3-revenge-of-sith"
+      "ep-3-revenge-of-sith",
+      "ep-4-a-new-hope",
+      "obi-wan-kenobi"
     ],
     "portrait": {
       "type": "silhouette",
@@ -510,12 +513,13 @@
     ],
     "appears_in": [],
     "works": [
+      "ep-1-phantom-menace",
+      "ep-2-attack-of-clones",
+      "ep-3-revenge-of-sith",
       "ep-4-a-new-hope",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "ep-1-phantom-menace",
-      "ep-2-attack-of-clones",
-      "ep-3-revenge-of-sith"
+      "obi-wan-kenobi"
     ],
     "portrait": {
       "type": "silhouette",
@@ -799,7 +803,13 @@
     "birth_year_value": -600.0,
     "birth_year_certainty": "referenced",
     "homeworld": "nal-hutta",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "hutt-cartel",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "탐욕과 지배욕으로 외곽계 암흑가를 군림하는 범죄 군주.",
     "arc": [
       {
@@ -1078,7 +1088,13 @@
     "birth_year_value": -31.5,
     "birth_year_certainty": "referenced",
     "homeworld": "kamino",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "hutt-cartel",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "아버지를 본떠 만들어진 최고의 사냥꾼. 명성과 보수, 그리고 아버지의 그림자를 좇는다.",
     "arc": [
       {
@@ -2101,6 +2117,16 @@
     "affiliation_history": [
       {
         "faction": "sith",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "nightsisters",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "crimson-dawn",
         "from_event": null,
         "to_event": null
       }
@@ -3858,8 +3884,18 @@
       }
     ],
     "motivation": "어린 시절 화재로 가족을 잃었다 믿고 제다이에게 복수하려는 전직 패다완. 스트레인저의 도제가 된다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": "mae-jedi-hunt",
+        "note": "복수심에 옛 스승들을 차례로 노리지만, 쌍둥이를 둘러싼 진실 앞에서 자신이 믿어온 동기마저 흔들린다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "mae-jedi-hunt",
+        "note": "제다이를 향하던 칼끝을 거두고, 복수가 아닌 다른 길을 다시 묻는다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "the-acolyte"
@@ -3897,7 +3933,12 @@
       }
     ],
     "motivation": "제다이를 떠나 정비공으로 살다, 쌍둥이 자매 메이와 자신을 둘러싼 진실을 마주한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "mae-jedi-hunt",
+        "note": "제다이를 떠나 정비공으로 살다, 쌍둥이 메이와 자신을 둘러싼 진실과 마주하며 다크사이드의 유혹에 발을 들인다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3936,8 +3977,18 @@
       }
     ],
     "motivation": "존경받는 제다이 마스터. 신념과 과거의 죄책감 사이에서 흔들린다. 이정재가 연기했다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": "mae-jedi-hunt",
+        "note": "신념에 찬 제다이 마스터로 사건을 쫓지만, 오래 감춰온 과거의 죄가 드러나며 무너진다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "mae-jedi-hunt",
+        "note": "브렌독에서 벌어진 일의 진실을 끝내 가슴에 묻은 채 떠난다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "the-acolyte"
@@ -3975,7 +4026,12 @@
       }
     ],
     "motivation": "제다이의 규율 밖에서 자유로이 힘을 추구하는 다크사이드 사용자 '스트레인저'. 메이를 도제로 거둔다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "mae-jedi-hunt",
+        "note": "규율 밖의 자유로운 힘을 설파하며, 메이를 자신의 도제로 거두어 어둠을 잇는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -4006,10 +4062,30 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "mandalorians",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "계율을 지키는 만달로어 현상금 사냥꾼. 그로구를 맡으며 외톨이에서 보호자로 변한다. 페드로 파스칼이 연기했다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "계율을 지키던 외톨이 사냥꾼에서, 그로구를 맡으며 보호자이자 아버지로 변해간다."
+      },
+      {
+        "event": "battle-of-mos-espa",
+        "note": "옛 동료 보바를 도와 모스 에스파를 지키는 전투에 합류한다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": null,
+        "note": "만달로어인의 신조를 어기고 투구를 벗어, 그로구와 다시 마주한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "the-book-of-boba-fett",
@@ -4043,7 +4119,12 @@
     "homeworld": null,
     "affiliation_history": [],
     "motivation": "포스에 민감한 어린 존재('베이비 요다'). 딘 자린과 부자 같은 유대를 맺는다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-mos-espa",
+        "note": "루크의 제다이 수련과 딘 곁의 삶 사이에서, 결국 딘에게 돌아오는 길을 택한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -4076,7 +4157,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": "nal-hutta",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "hutt-cartel",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "자바 더 헛의 아들. 극장판에서 군벌에게 붙잡혀 구출 대상이 된다.",
     "arc": [],
     "key_choices": [],
@@ -4156,8 +4243,26 @@
       }
     ],
     "motivation": "아나킨의 패다완으로 출발해, 제다이 오더를 떠난 뒤에도 자신만의 길로 은하를 지킨다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "아나킨의 패다완으로 출발해 전쟁 속에서 빠르게 성장한다."
+      },
+      {
+        "event": null,
+        "note": "누명을 쓰고 오더를 스스로 떠나, 어디에도 매이지 않는 길을 걷는다."
+      },
+      {
+        "event": "return-of-thrawn",
+        "note": "스론의 귀환을 막으려는 추적 속에 사빈을 제자로 받아들인다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": null,
+        "note": "오더의 사과를 뒤로하고 제다이를 떠나는 결단을 내린다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ahsoka",
@@ -4434,7 +4539,12 @@
       }
     ],
     "motivation": "치스에서 온 전술 천재. 제국에 봉사하며 냉철한 질서를 추구하는 대제독.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "return-of-thrawn",
+        "note": "먼 은하 페리디아로의 유배에서 돌아와, 흩어진 제국 잔당의 새로운 구심점이 된다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -4480,7 +4590,16 @@
       }
     ],
     "motivation": "로탈의 거리 소년에서 케이넌의 제자로 제다이의 길을 걷는다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "로탈의 거리 소년에서 케이넌의 제자로 제다이의 길을 걷는다."
+      },
+      {
+        "event": "return-of-thrawn",
+        "note": "먼 은하에서 사빈과 재회해 마침내 고향으로 돌아온다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -4564,7 +4683,12 @@
       }
     ],
     "motivation": "우주선 고스트의 선장이자 반란을 이끄는 명조종사.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "return-of-thrawn",
+        "note": "신공화국 장군이 된 뒤에도 고스트의 선장으로서 옛 동료들의 위기에 달려간다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -4595,17 +4719,32 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "mandalore",
     "affiliation_history": [
       {
         "faction": "rebel-alliance",
         "from_event": null,
         "to_event": null
+      },
+      {
+        "faction": "mandalorians",
+        "from_event": null,
+        "to_event": null
       }
     ],
     "motivation": "만달로어 출신의 폭발물 전문가이자 예술가. 고스트 크루의 일원.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": "return-of-thrawn",
+        "note": "아소카의 제자가 되어, 실종된 에즈라를 찾아 먼 은하 페리디아로 향한다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "return-of-thrawn",
+        "note": "스론이 풀려날 위험을 무릅쓰고 지도를 넘겨 에즈라를 구한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "ahsoka",
@@ -4839,7 +4978,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": "dathomir",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "nightsisters",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "다투미르의 나이트시스터 마법사. 칼 케스티스와 동행하며 자매들의 복수를 짊어진다.",
     "arc": [],
     "key_choices": [],
@@ -4881,7 +5026,12 @@
       }
     ],
     "motivation": "제국을 피해 숨어 살던 환멸에 찬 패다완. 행동을 갈망하다 몰과 얽히며 다른 미래를 받아들여야 한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "janix-syndicate-war",
+        "note": "제국을 피해 숨어 살던 환멸의 패다완이, 몰과 얽히며 다른 미래 앞에서 선택을 강요받는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -4920,7 +5070,12 @@
       }
     ],
     "motivation": "전통을 지키는 노련한 제다이 마스터. 제국 초기 데본을 숨겨 기르며 푸른 라이트세이버를 감춘다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "janix-syndicate-war",
+        "note": "제국 초기, 푸른 검을 감춘 채 데본을 숨겨 기르며 제다이의 전통을 지킨다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -4951,7 +5106,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "mandalorians",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "몰에게 충성하는 만달로어인 부관. 그의 신디케이트 재건을 돕는다.",
     "arc": [],
     "key_choices": [],
@@ -5022,10 +5183,24 @@
         "faction": "galactic-empire",
         "from_event": null,
         "to_event": null
+      },
+      {
+        "faction": "nightsisters",
+        "from_event": null,
+        "to_event": null
       }
     ],
     "motivation": "제국 잔당과 손잡은 마법사 출신 책략가. 스론을 은하로 다시 불러들이려 모든 것을 건다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "paths-under-empire",
+        "note": "나이트시스터의 마지막 후예로 제국기를 살아남으며 권력과 복수를 좇는다."
+      },
+      {
+        "event": "return-of-thrawn",
+        "note": "스론을 본 은하로 데려오려는 음모의 핵심에 선다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5059,7 +5234,12 @@
     "homeworld": null,
     "affiliation_history": [],
     "motivation": "한때 제다이였으나 길을 떠난 용병. 또 다른 전쟁이 불가피하다 믿으며 더 큰 힘을 좇는다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "return-of-thrawn",
+        "note": "오더를 떠난 검객으로, 낡은 질서를 끝낼 더 큰 힘을 좇는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5092,7 +5272,12 @@
     "homeworld": null,
     "affiliation_history": [],
     "motivation": "베일런 스콜의 도제. 스승을 따라 다크사이드의 경계를 넘나든다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "return-of-thrawn",
+        "note": "베일런의 제자로서 스승의 그늘을 넘어 자신의 야망을 키운다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5125,8 +5310,18 @@
     "homeworld": "kamino",
     "affiliation_history": [],
     "motivation": "감각이 예민한 클론 포스 99의 리더. 오메가의 보호자를 자처하며 부대를 이끈다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "제국의 명령을 거부하고, 어린 오메가를 지키는 가장이자 부대의 양심이 된다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "제국에 등을 돌리고 형제들과 함께 도주를 택한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "the-bad-batch"
@@ -5158,7 +5353,12 @@
     "homeworld": "kamino",
     "affiliation_history": [],
     "motivation": "카미노에서 자란 변형 없는 어린 복제체. 배드 배치와 가족이 되어 함께 도망친다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "보호가 필요하던 어린 클론에서, 가족을 얻고 스스로 일어서는 법을 배운다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5197,8 +5397,18 @@
       }
     ],
     "motivation": "냉정한 명사수. 한때 제국에 남았다가 형제들과의 관계를 두고 갈등한다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "한때 제국에 남았으나, 끝내 형제들 곁으로 돌아온다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "제국을 향한 충성과 형제 사이에서 형제를 택한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "the-bad-batch"
@@ -5230,7 +5440,12 @@
     "homeworld": "kamino",
     "affiliation_history": [],
     "motivation": "괴력의 폭파 담당. 우직하고 충직한 배드 배치의 일원.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "가장 거친 힘을 지녔지만, 오메가에게는 가장 다정한 형제가 된다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5263,8 +5478,18 @@
     "homeworld": "kamino",
     "affiliation_history": [],
     "motivation": "분석과 기술에 능한 두뇌. 어떤 상황도 데이터로 풀어낸다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "냉정한 분석가지만, 결정적 순간 가족을 위해 모든 것을 내건다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "추락하는 순간 스스로 손을 놓아 동료들을 살린다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "the-bad-batch"
@@ -5302,7 +5527,12 @@
       }
     ],
     "motivation": "사이보그 개조를 받은 전직 정규 클론. 배드 배치에 합류한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "사이보그가 된 클론으로서, 동족 클론들의 해방으로 눈을 돌린다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5341,7 +5571,12 @@
       }
     ],
     "motivation": "마운트 탄티스의 비밀 복제 연구를 지휘하는 제국 과학자. 목적을 위해 수단을 가리지 않는다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "clone-force-99-escape",
+        "note": "제국의 비밀 복제 계획을 이끄는 냉혹한 과학자로 클론 포스 99를 추격한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5377,10 +5612,20 @@
         "faction": "confederacy-of-independent-systems",
         "from_event": null,
         "to_event": null
+      },
+      {
+        "faction": "nightsisters",
+        "from_event": null,
+        "to_event": null
       }
     ],
     "motivation": "두쿠의 옛 도제였던 전직 시스 암살자. 죽음에서 돌아와 새 삶의 기회를 좇는다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "underworld-ventress-bane",
+        "note": "다크사이드와 빛 사이를 떠돌던 전 나이트시스터로, 뒷골목에서 새 삶을 모색한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5411,10 +5656,30 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "pyke-syndicate",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "은하 최고의 속사 무법자. 냉혹한 현상금 사냥꾼으로 제국 시대 암흑가를 누빈다.",
-    "arc": [],
-    "key_choices": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "은하 최고의 현상금 사냥꾼으로 이름을 떨친다."
+      },
+      {
+        "event": "battle-of-mos-espa",
+        "note": "파이크에 고용돼 모스 에스파에서 보바와 최후의 결판을 벌인다."
+      }
+    ],
+    "key_choices": [
+      {
+        "event": "battle-of-mos-espa",
+        "note": "보바 앞에서 끝내 총을 뽑아 들어 오랜 악연에 마침표를 찍으려 한다."
+      }
+    ],
     "appears_in": [],
     "works": [
       "tales-of-the-underworld",
@@ -5447,7 +5712,12 @@
     "homeworld": null,
     "affiliation_history": [],
     "motivation": "치명적인 저격수이자 용병. 보바 펫의 오른팔로서 타투인 장악을 함께한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-mos-espa",
+        "note": "치명적 저격수에서 보바의 오른팔로, 모스 에스파 장악을 함께 이끈다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5480,7 +5750,12 @@
     "homeworld": null,
     "affiliation_history": [],
     "motivation": "흉포한 워키 현상금 사냥꾼이자 검투사. 적이었다가 보바의 편에 선다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-mos-espa",
+        "note": "적이었던 워키 검투사가, 결전에서 보바의 편에 선다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5493,6 +5768,172 @@
       "license": "original"
     },
     "source": "보바 펫의 북",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "reva",
+    "name": "레바 세반데르",
+    "name_en": "Reva Sevander",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "inquisitorius",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "오더 66에서 살아남은 옛 영링. 인퀴지터리우스의 제3자매가 되어, 베이더에게 복수하기 위해 오비완을 집요하게 쫓는다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "sith",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "grand-inquisitor",
+    "name": "대심문관",
+    "name_en": "Grand Inquisitor",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Pau'an",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "inquisitorius",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "인퀴지터리우스를 이끄는 수장. 살아남은 제다이를 사냥하는 제국의 칼날이다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "sith",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "fifth-brother",
+    "name": "제5형제",
+    "name_en": "Fifth Brother",
+    "alignment": "dark",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "inquisitorius",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "인퀴지터리우스의 일원으로, 서열을 두고 레바와 신경전을 벌인다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "sith",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit"
+  },
+  {
+    "id": "bail-organa",
+    "name": "베일 오르가나",
+    "name_en": "Bail Organa",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "alderaan",
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "알데란의 의원이자 레이아의 양부. 위기에 처하자 옛 동지 오비완에게 도움을 청한다.",
+    "arc": [],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "royalty-politician",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
     "source_type": "series",
     "canon_status": "explicit"
   }

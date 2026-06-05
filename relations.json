@@ -808,5 +808,45 @@
     "s": "boba-fett",
     "t": "din-djarin",
     "type": "ally"
+  },
+  {
+    "s": "jabba-desilijic-tiure",
+    "t": "rotta-the-hutt",
+    "type": "family"
+  },
+  {
+    "s": "darth-vader",
+    "t": "reva",
+    "type": "master"
+  },
+  {
+    "s": "reva",
+    "t": "grand-inquisitor",
+    "type": "rival"
+  },
+  {
+    "s": "reva",
+    "t": "obi-wan-kenobi",
+    "type": "rival"
+  },
+  {
+    "s": "grand-inquisitor",
+    "t": "fifth-brother",
+    "type": "master"
+  },
+  {
+    "s": "bail-organa",
+    "t": "leia-organa",
+    "type": "family"
+  },
+  {
+    "s": "obi-wan-kenobi",
+    "t": "leia-organa",
+    "type": "ally"
+  },
+  {
+    "s": "obi-wan-kenobi",
+    "t": "bail-organa",
+    "type": "ally"
   }
 ]

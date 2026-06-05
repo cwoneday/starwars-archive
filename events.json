@@ -692,7 +692,8 @@
     "summary": "분리주의 연합의 본거지 지오노시스에서 제다이 구출대와 새로 만들어진 클론 군대가 처음으로 대규모 전투를 벌였다. 이 충돌로 은하는 전면적인 클론 전쟁에 돌입한다.",
     "significance": "공화국이 군대를 손에 쥐는 순간이자, 팰퍼틴이 설계한 거대한 전쟁의 막이 오르는 지점.",
     "preceded_by": [
-      "battle-of-naboo"
+      "battle-of-naboo",
+      "dooku-disillusion"
     ],
     "followed_by": [
       "battle-of-coruscant"
@@ -915,7 +916,8 @@
       "battle-of-utapau"
     ],
     "followed_by": [
-      "declaration-of-empire"
+      "declaration-of-empire",
+      "clone-force-99-escape"
     ],
     "tags": [
       "제다이 숙청",
@@ -996,7 +998,8 @@
       "order-66"
     ],
     "followed_by": [
-      "duel-on-mustafar"
+      "duel-on-mustafar",
+      "janix-syndicate-war"
     ],
     "tags": [
       "제국 성립",
@@ -1581,7 +1584,8 @@
       "battle-of-hoth"
     ],
     "followed_by": [
-      "battle-of-jakku"
+      "battle-of-jakku",
+      "return-of-thrawn"
     ],
     "tags": [
       "제2데스스타",
@@ -2582,15 +2586,21 @@
     "locations": [
       "janix"
     ],
-    "factions": [],
+    "factions": [
+      "crimson-dawn"
+    ],
     "source": "몰 — 섀도 로드",
     "source_type": "series",
     "canon_status": "explicit",
     "one_liner": "제국의 손이 닿지 않은 변경 행성에서 몰이 범죄 신디케이트를 재건하려 벌인 암흑가 전쟁",
     "summary": "클론 전쟁이 끝나고 제국이 들어선 지 약 1년, 살아남은 몰은 자닉스의 범죄 조직들을 자기 아래 굴복시키려 한다. 그 과정에서 제국을 피해 숨어 살던 패다완 데본 이자라와 얽히고, 그를 복수의 도제로 끌어들이려 한다.",
     "significance": "클론 전쟁과 〈솔로〉의 크림슨 던 사이, 몰이 어떻게 다시 암흑가의 군주로 일어섰는지를 메운 공백.",
-    "preceded_by": [],
-    "followed_by": [],
+    "preceded_by": [
+      "declaration-of-empire"
+    ],
+    "followed_by": [
+      "maul-vader-duel"
+    ],
     "tags": [
       "제국 초기",
       "신디케이트",
@@ -2627,7 +2637,9 @@
     "one_liner": "한때 시스의 자리를 두고 갈렸던 몰과 베이더가 칼을 맞대다",
     "summary": "제국의 어둠 속에서 몰과 다스 베이더가 맞붙는다. 시스의 유산을 두고 갈라진 두 다크사이드 사용자의 충돌이다.",
     "significance": "프리퀄의 몰과 OT의 베이더라는 두 상징이 직접 교차하는, 사가 전체를 잇는 장면.",
-    "preceded_by": [],
+    "preceded_by": [
+      "janix-syndicate-war"
+    ],
     "followed_by": [],
     "tags": [
       "시스",
@@ -2657,7 +2669,10 @@
     "locations": [
       "tatooine"
     ],
-    "factions": [],
+    "factions": [
+      "hutt-cartel",
+      "pyke-syndicate"
+    ],
     "source": "보바 펫의 북",
     "source_type": "series",
     "canon_status": "explicit",
@@ -2691,7 +2706,15 @@
         "phase": "옛 악연의 청산",
         "note": "파이크가 고용한 캐드 베인과 보바가 결판을 낸다."
       }
-    ]
+    ],
+    "belligerents": {
+      "side_a": [
+        "hutt-cartel"
+      ],
+      "side_b": [
+        "pyke-syndicate"
+      ]
+    }
   },
   {
     "id": "return-of-thrawn",
@@ -2725,7 +2748,9 @@
     "one_liner": "먼 은하로 유배됐던 대제독 스론이 돌아오며 새로운 제국의 위협이 싹트다",
     "summary": "아소카와 사빈은 모건 엘스베스 일당이 먼 은하의 스론을 데려오려는 음모를 쫓는다. 페리디아에서 사빈은 실종됐던 에즈라와 재회하지만, 스론의 귀환을 막지는 못한다. 베일런 스콜과 신 하티라는 새로운 다크사이드 검객들도 이 사건에서 등장한다.",
     "significance": "엔도 이후 흩어진 제국 잔당의 '미래 전쟁 군주' 스론이 복귀하며, 뉴 리퍼블릭 시대의 새로운 갈등 축을 연 사건.",
-    "preceded_by": [],
+    "preceded_by": [
+      "battle-of-endor"
+    ],
     "followed_by": [],
     "tags": [
       "뉴 리퍼블릭",
@@ -2789,7 +2814,9 @@
     "one_liner": "오더 66 이후, 명령에 따르지 않은 실험형 클론들이 제국에서 도망쳐 어린 오메가를 지키다",
     "summary": "클론 전쟁이 끝나고 제국이 클론을 스톰트루퍼로 대체해가는 가운데, 변종 클론 부대 '클론 포스 99'는 명령을 거부하고 탈주한다. 이들은 또 다른 클론 오메가를 거두어 가족이 되고, 헴록 박사가 이끄는 제국의 비밀 복제 계획에 쫓긴다.",
     "significance": "오더 66 직후의 공백을 클론의 시선으로 메운 사건. 훗날 시퀄 시대 팰퍼틴 부활로 이어질 제국의 복제 집착이 여기서 싹튼다.",
-    "preceded_by": [],
+    "preceded_by": [
+      "order-66"
+    ],
     "followed_by": [],
     "tags": [
       "제국 초기",
@@ -2831,7 +2858,9 @@
     "summary": "헌신적인 제다이였던 두쿠는 공화국의 부패와 정치에 침묵하는 오더를 지켜보며 점점 신념을 잃는다. 일련의 사건을 거치며 그는 다른 길을 택하고, 끝내 시스의 어둠으로 발을 들인다.",
     "significance": "〈클론의 습격〉에서 시스 군주의 도제로 등장하는 두쿠 백작이, 어떻게 빛에서 어둠으로 미끄러졌는지를 채운 전사(前史).",
     "preceded_by": [],
-    "followed_by": [],
+    "followed_by": [
+      "first-battle-of-geonosis"
+    ],
     "tags": [
       "프리퀄",
       "타락",
@@ -2860,7 +2889,8 @@
     ],
     "locations": [],
     "factions": [
-      "galactic-empire"
+      "galactic-empire",
+      "nightsisters"
     ],
     "source": "제국 이야기",
     "source_type": "series",
@@ -2895,7 +2925,9 @@
       "cad-bane"
     ],
     "locations": [],
-    "factions": [],
+    "factions": [
+      "nightsisters"
+    ],
     "source": "언더월드 이야기",
     "source_type": "series",
     "canon_status": "explicit",
