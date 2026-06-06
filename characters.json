@@ -1121,7 +1121,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "레드 6 콜사인의 반란군 X-윙 조종사. 야빈 전투에서 데스 스타 표면 공격에 나섰다가 첫 돌입 와중에 전사했다. 짧은 출연에도 두터운 팬덤 농담의 주인공으로 남은 인물."
   },
   {
     "id": "yoda",
@@ -1748,7 +1749,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "엔도 전투의 A-윙 조종사, 그린 리더. 피격당해 추락하는 기체를 그대로 제국 기함 이그제큐터의 함교에 꽂아 넣어 — 단신으로 슈퍼 스타 디스트로이어를 떨어뜨린 전설을 남겼다."
   },
   {
     "id": "wicket-systri-warrick",
@@ -2034,7 +2036,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "팰퍼틴 직전의 공화국 최고의장. 개혁을 바랐으나 관료제와 부패에 묶여 무력했고, 나부 위기 대응 실패로 불신임당했다. 그의 실각이 곧 시디어스가 설계한 권력 교체의 첫 수였다."
   },
   {
     "id": "padme-amidala",
@@ -2208,7 +2211,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Gungan"
+    "species_en": "Gungan",
+    "profile": "오토 궁가의 노련한 건간 지휘관. 나부 전투에서 건간 대군을 이끌고 평원에서 드로이드 군단의 진격을 정면으로 받아냈다."
   },
   {
     "id": "rugor-nass",
@@ -2252,7 +2256,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Gungan"
+    "species_en": "Gungan",
+    "profile": "건간족을 다스리는 자존심 강한 보스. 지상인들을 향한 오랜 불신을 위기 앞에서 접고, 아미달라 여왕의 손을 잡아 나부 공동 방어를 이끌었다 — '우리는 한 행성'임을 받아들인 결단."
   },
   {
     "id": "ric-olie",
@@ -2451,7 +2456,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "아미달라 여왕의 안위를 책임진 나부 왕실 경비대장. 봉쇄와 점령, 탈출과 탈환 작전 내내 여왕의 곁을 지킨 신중한 직업군인이다."
   },
   {
     "id": "shmi-skywalker",
@@ -2701,7 +2707,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Vulptereen"
+    "species_en": "Vulptereen",
+    "profile": "분타 이브 클래식에 출전한 벌프터린 포드레이서. 작은 몸집의 기체로 난폭한 선두권 다툼에 끼어들었다."
   },
   {
     "id": "gasgano",
@@ -3349,7 +3356,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "파나카의 뒤를 이어 파드메 의원의 경호를 책임진 대위. 한쪽 눈을 잃고도 흔들림 없는 충직함으로, 암살 위협이 정점이던 시기 의원의 그림자가 되었다."
   },
   {
     "id": "corde",
@@ -3399,7 +3407,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "파드메의 대역을 맡은 시녀. 의원의 옷을 입고 의원의 자리에 섰다가, 코러산트 착륙장의 폭발 암살에서 주인 대신 스러졌다 — '임무에 실패했다'는 마지막 말을 남기고."
   },
   {
     "id": "cliegg-lars",
@@ -3661,7 +3670,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "파드메를 그림자처럼 보좌한 시녀. 의원이 위협을 피해 나부로 떠나는 동안 코러산트에 남아 빈자리를 메우는 위험을 떠안았다."
   },
   {
     "id": "dooku",
@@ -4417,7 +4427,8 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "알데란 왕가에 충성한 탄티브 IV의 함장. 클론 전쟁 끝에서는 드로이드들의 기억 소거를 지시받았고, 20년 뒤 데스 스타 설계도를 실은 그 배에서 베이더의 손에 목숨으로 침묵을 지켰다."
   },
   {
     "id": "sly-moore",
@@ -4577,7 +4588,8 @@
     "source": "애콜라이트",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "하이 리퍼블릭 말기, 어린 시절의 화재로 가족을 잃었다 믿으며 자란 쌍둥이. 스트레인저의 도제가 되어 옛 스승 제다이들을 차례로 노렸으나, 브렌독의 진실 앞에서 복수의 근거 자체가 흔들린다."
   },
   {
     "id": "osha-aniseya",
@@ -4622,7 +4634,8 @@
     "source": "애콜라이트",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "제다이를 떠나 정비공 멕넥으로 살던 전직 패다완. 죽은 줄 알았던 쌍둥이 메이의 재등장으로 과거와 마주했고, 진실이 드러난 끝에서 다크사이드의 문턱을 넘는다 — 자매의 자리가 뒤바뀌는 이야기의 축."
   },
   {
     "id": "master-sol",
@@ -4672,7 +4685,8 @@
     "source": "애콜라이트",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "오샤를 가르쳤던 존경받는 제다이 마스터. 신념에 차 사건을 쫓지만, 브렌독에서 저지른 과거의 죄가 드러나며 그 신념째 무너진다. 이정재가 연기해 화제가 된 배역."
   },
   {
     "id": "qimir",
@@ -4717,7 +4731,8 @@
     "source": "애콜라이트",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "'스트레인저'라 불리는 다크사이드 사용자. 제다이의 규율 밖에서 자유로운 힘을 설파하며, 코르토시스 투구 뒤에 정체를 감춘 채 메이를 — 그리고 끝내 오샤를 — 어둠의 도제로 거둔다."
   },
   {
     "id": "din-djarin",
@@ -4924,7 +4939,8 @@
     "source": "만달로리안과 그로구",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "신공화국의 장교. 딘 자린과 그로구에게 위험한 임무를 맡기는 인물로, 시고니 위버가 연기했다."
   },
   {
     "id": "ahsoka-tano",
@@ -5637,7 +5653,8 @@
     "source": "하이 리퍼블릭",
     "source_type": "novel",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "하이 리퍼블릭 시대 무법자 집단 니힐의 '눈(Eye)'. 표면의 약탈 뒤에서 제다이와 공화국을 향한 깊은 복수를 설계한 진짜 수괴로, 대재난과 그 이후의 참사들이 그의 손에서 나왔다."
   },
   {
     "id": "lina-soh",
@@ -5679,7 +5696,8 @@
     "source": "하이 리퍼블릭",
     "source_type": "novel",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "'우리는 모두 공화국이다'를 기치로 내건 하이 리퍼블릭 시대의 수상. 스타라이트 비콘 같은 대공사로 변경을 통합하려 한 이상주의 정치가로, 니힐의 위협이 그 이상을 시험한다."
   },
   {
     "id": "rae-sloane",
@@ -5774,7 +5792,8 @@
     "source": "여파 3부작",
     "source_type": "novel",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "엔도 전투를 치른 전직 반란군 Y-윙 조종사. 종전 후에도 총을 놓지 않고 신공화국을 위해 도주한 제국 전범들을 추적하는 팀을 이끌었다."
   },
   {
     "id": "luthen-rael",
@@ -5865,7 +5884,8 @@
     "source": "제다이: 폴른 오더 / 서바이버",
     "source_type": "game",
     "canon_status": "explicit",
-    "species_en": "Dathomirian"
+    "species_en": "Dathomirian",
+    "profile": "다투미르 학살에서 살아남은 나이트시스터 마법사. 자매들의 복수심으로 침입자를 경계하다, 칼 케스티스와 만나 맨티스 크루의 일원이 된다. 녹색 마법(이초르)을 다루는 게임 축 인기 인물."
   },
   {
     "id": "devon-izara",
@@ -5910,7 +5930,8 @@
     "source": "몰 — 섀도 로드",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Twi'lek"
+    "species_en": "Twi'lek",
+    "profile": "제국 초기, 숨어 살던 환멸의 패다완. 행동을 갈망하다 자닉스의 신디케이트 전쟁에서 몰과 얽히고, 제다이도 시스도 아닌 다른 미래 앞에서 선택을 강요받는다."
   },
   {
     "id": "eeko-dio-daki",
@@ -5955,7 +5976,8 @@
     "source": "몰 — 섀도 로드",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Unknown"
+    "species_en": "Unknown",
+    "profile": "제국의 눈을 피해 푸른 라이트세이버를 감춘 노련한 제다이 마스터. 자닉스에서 데본을 숨겨 기르며, 무너진 오더의 전통을 혼자서라도 잇는다."
   },
   {
     "id": "rook-kast",
@@ -5995,7 +6017,8 @@
     "source": "몰 — 섀도 로드",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "몰에게 충성하는 만달로어인 부관. 자닉스에서 몰의 신디케이트 재건을 곁에서 떠받친다."
   },
   {
     "id": "brander-lawson",
@@ -6029,7 +6052,8 @@
     "source": "몰 — 섀도 로드",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "자닉스의 형사. 신디케이트 전쟁을 수사하면서도 제국에는 협력하지 않는 강직함으로, 범죄와 압제 사이의 좁은 길을 걷는다."
   },
   {
     "id": "morgan-elsbeth",
@@ -6133,7 +6157,8 @@
     "source": "아소카",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "오더 66을 살아남고도 제다이의 길을 떠난 거구의 검객 용병. 전쟁의 순환이 불가피하다 믿으며, 낡은 질서를 끝낼 더 큰 힘을 찾아 페리디아의 옛 전설로 향한다. 레이 스티븐슨의 유작 배역."
   },
   {
     "id": "shin-hati",
@@ -6172,7 +6197,8 @@
     "source": "아소카",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "베일런 스콜의 도제. 스승을 따라 제다이도 시스도 아닌 경계를 걸으며, 그 그늘 밖에서 자신의 야망을 키워 간다."
   },
   {
     "id": "hunter-clone",
@@ -6825,7 +6851,8 @@
     "source": "오비완 케노비",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "profile": "오더 66의 밤, 영링으로서 학살을 살아남은 생존자. 인퀴지터리우스의 제3자매가 되어 — 베이더에게 복수의 칼을 꽂기 위해 — 오비완을 집요하게 쫓는다. 복수와 구원의 갈림길에 선 오비완 시리즈의 문제적 축."
   },
   {
     "id": "grand-inquisitor",
