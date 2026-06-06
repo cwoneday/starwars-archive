@@ -1,0 +1,84 @@
+[
+  {
+    "id": "bantha",
+    "name": "밴타",
+    "name_en": "Bantha",
+    "type": "포유류 (탈것·가축)",
+    "homeworld": "tatooine",
+    "one_liner": "타투인 사막을 무리 지어 떠도는 거대한 털북숭이 포유류. 터스큰 약탈자의 탈것으로, 둘 사이엔 거의 신비에 가까운 유대가 있다.",
+    "works": [
+      "ep-4-a-new-hope",
+      "the-mandalorian",
+      "the-book-of-boba-fett"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+  },
+  {
+    "id": "loth-bat",
+    "name": "로스-박쥐",
+    "name_en": "Loth-bat",
+    "type": "비행 생물",
+    "homeworld": "lothal",
+    "one_liner": "로탈 토착의 거대한 날개 생물. 무리 지어 활공하며, 밤하늘에 내지르는 새된 울음이 야간 순찰 스톰트루퍼들의 신경을 긁는다.",
+    "works": [
+      "rebels"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+  },
+  {
+    "id": "nexu",
+    "name": "넥수",
+    "name_en": "Nexu",
+    "type": "맹수",
+    "homeworld": null,
+    "one_liner": "지오노시스 처형장에 풀린 세 맹수 중 하나. 송곳니 가득한 아가리와 네 개의 눈, 등줄기의 가시털과 갈고리 발톱을 지닌 민첩한 포식자다.",
+    "works": [
+      "ep-2-attack-of-clones"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+  },
+  {
+    "id": "acklay",
+    "name": "아클레이",
+    "name_en": "Acklay",
+    "type": "맹수",
+    "homeworld": null,
+    "one_liner": "역시 지오노시스 처형장의 맹수. 날카로운 발톱과 송곳니의 분노 그 자체로, 오비완을 묶은 사슬을 제 발톱으로 끊어버릴 만큼 난폭했다.",
+    "works": [
+      "ep-2-attack-of-clones"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+  },
+  {
+    "id": "anooba",
+    "name": "아누바",
+    "name_en": "Anooba",
+    "type": "견치류 (사냥짐승)",
+    "homeworld": null,
+    "one_liner": "외곽 전역에 사는 사나운 짐승. 길들일 수 있어 사냥꾼들이 부렸고, 사빈 렌의 갑옷엔 아누바를 양식화한 문양이 그려져 있다.",
+    "works": [
+      "the-clone-wars",
+      "rebels"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+  },
+  {
+    "id": "bomarr-monk-spider",
+    "name": "보마르 수도승 거미",
+    "name_en": "B'omarr Monk Spider",
+    "type": "기계화 생물",
+    "homeworld": "tatooine",
+    "one_liner": "자바의 궁전이 원래 보마르 수도회의 수도원이었음을 증언하는 존재. 깨달음을 위해 뇌를 몸에서 분리한 수도승들이 기계 거미 다리로 그늘을 거닌다.",
+    "works": [
+      "ep-6-return-of-jedi",
+      "the-book-of-boba-fett"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+  }
+]

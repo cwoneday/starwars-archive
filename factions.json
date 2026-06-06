@@ -214,5 +214,17 @@
     "source": "스타워즈 캐넌",
     "source_type": "series",
     "canon_status": "referenced"
+  },
+  {
+    "id": "hidden-path",
+    "name": "히든 패스",
+    "name_en": "The Hidden Path",
+    "type": "network",
+    "alignment": "light",
+    "era": "제국의 시대",
+    "one_liner": "제국의 눈을 피해 살아남은 제다이와 포스 민감자들을 빼돌리던 비밀 연락망. 마푸조의 은신 경로와 자비임의 거점으로 이어졌다.",
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit"
   }
 ]

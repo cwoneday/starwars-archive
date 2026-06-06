@@ -41,7 +41,7 @@ mark{background:rgba(69,212,227,.25);color:var(--holo);border-radius:2px;padding
 .total{font-family:var(--fm);font-size:11px;color:var(--faint);margin-bottom:14px}
 .site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}</style></head>
 <body>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search active">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search active">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <div class="wrap">
   <div class="kicker">Global Search · 전역 검색</div>
   <h1>아카이브 전체 검색</h1>
@@ -67,8 +67,10 @@ const TYPES={
     name:o=>o.name,en:o=>o.name_en,sub:o=>o.model||o.vehicle_class||"",fields:o=>[o.name,o.name_en,o.model,o.vehicle_class]},
   starship:{label:"함선",icon:"🚀",file:"starships.json",url:"starship-detail.html",
     name:o=>o.name,en:o=>o.name_en,sub:o=>o.model||o.starship_class||"",fields:o=>[o.name,o.name_en,o.model,o.starship_class]},
+  creature:{label:"생물",icon:"🦎",file:"creatures.json",url:"creatures.html#",
+    name:o=>o.name,en:o=>o.name_en,sub:o=>o.one_liner||"",fields:o=>[o.name,o.name_en,o.one_liner,o.type]},
 };
-const ORDER=["character","film","event","location","faction","vehicle","starship"];
+const ORDER=["character","film","event","location","faction","vehicle","starship","creature"];
 let INDEX=[]; let active=new Set(ORDER);
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function hl(text,q){const t=esc(text);if(!q)return t;const i=t.toLowerCase().indexOf(q.toLowerCase());if(i<0)return t;return t.slice(0,i)+"<mark>"+t.slice(i,i+q.length)+"</mark>"+t.slice(i+q.length);}
@@ -121,7 +123,7 @@ function run(){
     if(!group.length)continue;
     const show=group.slice(0,60);
     html+=`<div class="grp"><h2>${TYPES[k].icon} ${TYPES[k].label} <span class="cnt">(${group.length})</span></h2><div class="res">`;
-    html+=show.map(x=>`<a class="card" href="${TYPES[k].url}?id=${encodeURIComponent(x.id)}"><div class="nm">${hl(x.name,q)}</div>${x.en?`<div class="en">${hl(x.en,q)}</div>`:""}${x.sub?`<div class="sub">${hl(x.sub,q)}</div>`:""}</a>`).join("");
+    html+=show.map(x=>`<a class="card" href="${TYPES[k].url.endsWith("#")?TYPES[k].url+encodeURIComponent(x.id):TYPES[k].url+"?id="+encodeURIComponent(x.id)}"><div class="nm">${hl(x.name,q)}</div>${x.en?`<div class="en">${hl(x.en,q)}</div>`:""}${x.sub?`<div class="sub">${hl(x.sub,q)}</div>`:""}</a>`).join("");
     html+=`</div></div>`;
   }
   res.innerHTML=html;

@@ -1,0 +1,59 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>생물 도감 · CREATURES</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--void:#04060b;--base:#080c14;--panel:#0e131c;--ink:#dce4ee;--dim:#8b97a8;--faint:#515c6b;
+--line:rgba(120,140,180,.14);--holo:#45d4e3;--gold:#d8b45a;
+--fd:'Chakra Petch',sans-serif;--fb:'Spline Sans',sans-serif;--fm:'JetBrains Mono',monospace}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1100px 600px at 50% -8%,#0a1018,transparent 60%),var(--void);color:var(--ink);font-family:var(--fb);min-height:100vh;line-height:1.6}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;background:repeating-linear-gradient(to bottom,rgba(69,212,227,.025) 0 1px,transparent 1px 3px);opacity:.5}
+.site-nav{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;padding:12px 20px;border-bottom:1px solid var(--line);background:rgba(8,12,20,.7);position:relative;z-index:2}
+.site-nav .brand{font-family:var(--fd);font-weight:700;color:var(--holo);text-decoration:none;margin-right:8px}
+.site-nav .links{display:flex;flex-wrap:wrap;gap:4px 14px}
+.site-nav a{color:var(--dim);text-decoration:none;font-size:13px}
+.site-nav a:hover,.site-nav a.active{color:var(--holo)}
+.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600}
+.wrap{max-width:1000px;margin:0 auto;padding:30px 18px 80px;position:relative;z-index:2}
+.kicker{font-family:var(--fm);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--holo);margin-bottom:8px}
+h1{font-family:var(--fd);font-weight:700;font-size:1.8rem;margin:0 0 6px}
+.lead{color:var(--dim);font-size:14px;margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{border:1px solid var(--line);border-radius:13px;background:linear-gradient(180deg,var(--panel),var(--base));padding:16px;scroll-margin-top:20px}
+.card:target{border-color:var(--holo);box-shadow:0 0 0 3px rgba(69,212,227,.12)}
+.card .nm{font-family:var(--fd);font-size:1.05rem;color:var(--ink)}
+.card .en{font-family:var(--fm);font-size:10.5px;color:var(--faint);margin-top:1px}
+.card .typ{display:inline-block;font-family:var(--fm);font-size:10px;color:var(--gold);border:1px solid rgba(216,180,90,.4);border-radius:20px;padding:1px 9px;margin-top:8px}
+.card .ol{font-size:12.5px;color:var(--dim);margin-top:9px;line-height:1.6}
+.card .meta{margin-top:10px;display:flex;flex-wrap:wrap;gap:5px}
+.card .meta a{font-family:var(--fm);font-size:10px;color:var(--holo);text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:2px 7px}
+.card .meta a:hover{border-color:var(--holo)}
+</style></head>
+<body>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html" class="active">생물</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<div class="wrap">
+  <div class="kicker">Creature Compendium · 생물 도감</div>
+  <h1>은하의 생물들</h1>
+  <p class="lead">작품 속 행성들을 살아 숨 쉬게 하는 생물 기록. 등장 작품과 서식지로 아카이브와 연결됩니다.</p>
+  <div class="grid" id="grid"></div>
+</div>
+<script>
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+(async function(){
+  const j=async f=>{try{return await fetch(f).then(r=>r.json())}catch(e){return[]}};
+  const [crs,films,locs]=await Promise.all([j("creatures.json"),j("films.json"),j("locations.json")]);
+  const F={},L={};films.forEach(f=>F[f.id]=f.title);locs.forEach(l=>L[l.id]=l.name);
+  document.getElementById("grid").innerHTML=crs.map(c=>`
+    <div class="card" id="${c.id}">
+      <div class="nm">${esc(c.name)}</div><div class="en">${esc(c.name_en)}</div>
+      <span class="typ">${esc(c.type)}</span>
+      <div class="ol">${esc(c.one_liner)}</div>
+      <div class="meta">
+        ${c.homeworld&&L[c.homeworld]?`<a href="location-detail.html?id=${c.homeworld}">🪐 ${esc(L[c.homeworld])}</a>`:""}
+        ${(c.works||[]).map(w=>F[w]?`<a href="film-detail.html?id=${w}">${esc(F[w])}</a>`:"").join("")}
+      </div>
+    </div>`).join("");
+})();
+</script>
+</body></html>
