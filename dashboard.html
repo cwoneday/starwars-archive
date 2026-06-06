@@ -71,11 +71,11 @@ function bar(label,val,max,color){
 }
 function countBy(arr,key){const m={};arr.forEach(o=>{const k=typeof key==="function"?key(o):o[key];if(k==null)return;m[k]=(m[k]||0)+1;});return m;}
 (async function(){
-  const [films,chars,events,rels,locs,facs,veh,ss]=await Promise.all(
-    ["films.json","characters.json","events.json","relations.json","locations.json","factions.json","vehicles.json","starships.json"].map(j));
+  const [films,chars,events,rels,locs,facs,veh,ss,crs]=await Promise.all(
+    ["films.json","characters.json","events.json","relations.json","locations.json","factions.json","vehicles.json","starships.json","creatures.json"].map(j));
   // totals
   const T=[["작품",films.length],["인물",chars.length],["사건",events.length],["관계",rels.length],
-           ["장소",locs.length],["세력",facs.length],["탈것",veh.length],["함선",ss.length]];
+           ["장소",locs.length],["세력",facs.length],["탈것",veh.length],["함선",ss.length],["생물",crs.length]];
   document.getElementById("totals").innerHTML=T.map(([l,n])=>`<div class="tcard"><div class="n">${n}</div><div class="l">${l}</div></div>`).join("");
   // by era (events + films)
   const evE=countBy(events,"era"), fmE=countBy(films,"era_primary");
@@ -114,8 +114,10 @@ function countBy(arr,key){const m={};arr.forEach(o=>{const k=typeof key==="funct
     pbar("함선",dS,ss.length,"#b98aff")+
     pbar("세력",dF,facs.length,"#b98aff")+
     pbar("탈것",dV,veh.length,"#b98aff")+
-    pbar("장소",dL,locs.length,"#b98aff");
-  const dT=dC+dL+dF+dV+dS, dD=chars.length+locs.length+facs.length+veh.length+ss.length;
+    pbar("장소",dL,locs.length,"#b98aff")+
+    pbar("생물",crs.filter(hasDbk).length,crs.length,"#b98aff");
+  const dCr=crs.filter(hasDbk).length;
+  const dT=dC+dL+dF+dV+dS+dCr, dD=chars.length+locs.length+facs.length+veh.length+ss.length+crs.length;
   document.getElementById("dbkNote").innerHTML=
     `<span><i style="background:#b98aff"></i>합계 <b style="color:var(--holo)">${dT}/${dD}</b> 항목에 공식 이미지·출처 연결 (Star Wars Databank © Lucasfilm Ltd. · 미매칭은 데이터뱅크 항목 부재)</span>`;
   // alignment

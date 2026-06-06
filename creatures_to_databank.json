@@ -1,0 +1,146 @@
+{
+ "bantha": {
+  "file": "creatures.json",
+  "databank_name": "Bantha",
+  "databank_id": "640b2f06b6a2a8104f0a0d6f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/bantha-main_a52af05f.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "loth-bat": {
+  "file": "creatures.json",
+  "databank_name": "Loth-bat",
+  "databank_id": "640b2f06b6a2a8104f0a0d8e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/rebels-databank-410-loth-bat-main-image_94ae4994.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "nexu": {
+  "file": "creatures.json",
+  "databank_name": "Nexu",
+  "databank_id": "640b2f06b6a2a8104f0a0d96",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/nexu-main_f7b861f1.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "acklay": {
+  "file": "creatures.json",
+  "databank_name": "Acklay",
+  "databank_id": "640b2f06b6a2a8104f0a0d6d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_acklay_01_169_e544124f.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "anooba": {
+  "file": "creatures.json",
+  "databank_name": "Anooba",
+  "databank_id": "640b2f06b6a2a8104f0a0d6e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/anooba_deaed00b.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "bomarr-monk-spider": {
+  "file": "creatures.json",
+  "databank_name": "B’omarr monk spider",
+  "databank_id": "640b2f06b6a2a8104f0a0d77",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/b-omarr-monk-spider-main_cbaab5b5.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "reek": {
+  "file": "creatures.json",
+  "databank_name": "Reek",
+  "databank_id": "640b2f06b6a2a8104f0a0da2",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_reek_01_169_4cd1b702.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "sarlacc": {
+  "file": "creatures.json",
+  "databank_name": "Sarlacc",
+  "databank_id": "640b2f06b6a2a8104f0a0da6",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-book-of-boba-fett-chapter-1-story-gallery-02_a6166942.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "purrgil": {
+  "file": "creatures.json",
+  "databank_name": "Purrgil",
+  "databank_id": "640b2f06b6a2a8104f0a0d9f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/purrgil_8a48dffc.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "loth-wolf": {
+  "file": "creatures.json",
+  "databank_name": "Loth-wolf",
+  "databank_id": "640b2f06b6a2a8104f0a0d90",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/loth-wolf_d797d8f9.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "loth-cat": {
+  "file": "creatures.json",
+  "databank_name": "Loth-cat",
+  "databank_id": "640b2f06b6a2a8104f0a0d8f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_baddce4e.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "tauntaun": {
+  "file": "creatures.json",
+  "databank_name": "Tauntaun",
+  "databank_id": "640b2f06b6a2a8104f0a0dad",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_tauntaun_01_169_b7307446.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "wampa": {
+  "file": "creatures.json",
+  "databank_name": "Wampa",
+  "databank_id": "640b2f06b6a2a8104f0a0db6",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_c3ce73b0.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "blurrg": {
+  "file": "creatures.json",
+  "databank_name": "Blurrg",
+  "databank_id": "640b2f06b6a2a8104f0a0d71",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/blurrg-main_be0c18ef.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "mudhorn": {
+  "file": "creatures.json",
+  "databank_name": "mudhorn",
+  "databank_id": "640b2f06b6a2a8104f0a0d92",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/mudhorn-main_de3d4551.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "dewback": {
+  "file": "creatures.json",
+  "databank_name": "Dewback",
+  "databank_id": "640b2f06b6a2a8104f0a0d7b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_dewback_01_169_bc886996.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "porg": {
+  "file": "creatures.json",
+  "databank_name": "Porg",
+  "databank_id": "640b2f06b6a2a8104f0a0d9d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/porg-main_16933d3b.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "drengir": {
+  "file": "creatures.json",
+  "databank_name": "The Drengir",
+  "databank_id": "640b2f06b6a2a8104f0a0daf",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-drengir-main_797e6cbe.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ }
+}

@@ -12,7 +12,16 @@
       "the-book-of-boba-fett"
     ],
     "canon_status": "explicit",
-    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d6f",
+        "name": "Bantha",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/bantha-main_a52af05f.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "loth-bat",
@@ -25,7 +34,16 @@
       "rebels"
     ],
     "canon_status": "explicit",
-    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d8e",
+        "name": "Loth-bat",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/rebels-databank-410-loth-bat-main-image_94ae4994.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "nexu",
@@ -38,7 +56,16 @@
       "ep-2-attack-of-clones"
     ],
     "canon_status": "explicit",
-    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d96",
+        "name": "Nexu",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/nexu-main_f7b861f1.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "acklay",
@@ -51,7 +78,16 @@
       "ep-2-attack-of-clones"
     ],
     "canon_status": "explicit",
-    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d6d",
+        "name": "Acklay",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_acklay_01_169_e544124f.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "anooba",
@@ -65,7 +101,16 @@
       "rebels"
     ],
     "canon_status": "explicit",
-    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d6e",
+        "name": "Anooba",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/anooba_deaed00b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "bomarr-monk-spider",
@@ -79,6 +124,282 @@
       "the-book-of-boba-fett"
     ],
     "canon_status": "explicit",
-    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)"
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d77",
+        "name": "B’omarr monk spider",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/b-omarr-monk-spider-main_cbaab5b5.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "reek",
+    "name": "리크",
+    "name_en": "Reek",
+    "type": "포유류 (투기장 맹수)",
+    "homeworld": null,
+    "one_liner": "가죽 갑옷 같은 피부의 우람한 돌격 맹수. 지오노시스 처형장에 풀린 3맹수 중 하나로 아나킨·파드메·오비완을 덮쳤으나, 아나킨이 길들여 도리어 탈출의 발판이 됐다 — 넥수·아클레이와 함께 처형장 트리오를 이룬다.",
+    "works": [
+      "ep-2-attack-of-clones"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0da2",
+        "name": "Reek",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_reek_01_169_4cd1b702.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "sarlacc",
+    "name": "살락",
+    "name_en": "Sarlacc",
+    "type": "무척추 포식생물 (정주형)",
+    "homeworld": "tatooine",
+    "one_liner": "카쿤 대공동의 모래 우물에 몸을 묻고 거대한 입과 부리 혀만 드러낸 괴생물. 자바가 처형 무대로 애용했고, 보바 펫을 삼키고도 끝내 소화하지 못한 것으로 유명하다.",
+    "works": [
+      "ep-6-return-of-jedi",
+      "the-book-of-boba-fett"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0da6",
+        "name": "Sarlacc",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-book-of-boba-fett-chapter-1-story-gallery-02_a6166942.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "purrgil",
+    "name": "퍼걸",
+    "name_en": "Purrgil",
+    "type": "우주 생물 (고래형)",
+    "homeworld": null,
+    "one_liner": "바다가 아닌 우주를 헤엄치는 고래형 거수. 밀수꾼들의 전설로 떠돌다 에즈라 브리저와 교감했고, 스론의 함대를 휘감아 먼 은하로 사라진 — 사가에서 가장 시적인 퇴장의 주역이다.",
+    "works": [
+      "rebels",
+      "ahsoka"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d9f",
+        "name": "Purrgil",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/purrgil_8a48dffc.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "loth-wolf",
+    "name": "로스울프",
+    "name_en": "Loth-wolf",
+    "type": "포유류 (포스 교감)",
+    "homeworld": "lothal",
+    "one_liner": "로탈의 동굴벽화에 새겨진 태고의 거대 늑대. 행성의 포스와 깊이 얽힌 존재로, 에즈라 앞에만 모습을 드러내며 로탈 해방 서사의 신비한 안내자가 됐다.",
+    "works": [
+      "rebels"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d90",
+        "name": "Loth-wolf",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/loth-wolf_d797d8f9.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "loth-cat",
+    "name": "로스캣",
+    "name_en": "Loth-cat",
+    "type": "포유류 (투카과)",
+    "homeworld": "lothal",
+    "one_liner": "로탈 초원에 사는 투카과의 소형 고양이. 변덕스럽고 사나운 구석이 있지만, 그 사랑스러운 외형 덕에 시리즈의 마스코트처럼 자리 잡았다.",
+    "works": [
+      "rebels"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d8f",
+        "name": "Loth-cat",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_baddce4e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "tauntaun",
+    "name": "톤톤",
+    "name_en": "Tauntaun",
+    "type": "파충류 (설원 탈것)",
+    "homeworld": "hoth",
+    "one_liner": "호스의 설원을 내달리는 눈도마뱀. 에코 기지의 반란군이 정찰용 탈것으로 길들였고 — 한 솔로가 루크를 살리려 그 배를 가른 장면으로 영원히 기억된다.",
+    "works": [
+      "ep-5-empire"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0dad",
+        "name": "Tauntaun",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_tauntaun_01_169_b7307446.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "wampa",
+    "name": "왐파",
+    "name_en": "Wampa",
+    "type": "포유류 (설원 포식자)",
+    "homeworld": "hoth",
+    "one_liner": "호스의 눈벌판을 지배하는 흰 털의 거구 포식자. 날카로운 송곳니와 발톱에 어울리지 않는 은밀함으로 사냥하며, 루크를 얼음 동굴에 매달았던 바로 그 괴물이다.",
+    "works": [
+      "ep-5-empire"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0db6",
+        "name": "Wampa",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_c3ce73b0.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "blurrg",
+    "name": "블러그",
+    "name_en": "Blurrg",
+    "type": "파충류 (역축)",
+    "homeworld": null,
+    "one_liner": "두 다리로 걷는 우직한 역축. 농사부터 전쟁까지 은하 곳곳에서 부려지며, 쿠일의 농장에서 딘 자린이 길들이느라 진땀을 뺀 첫 관문으로 등장했다.",
+    "works": [
+      "the-mandalorian"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d71",
+        "name": "Blurrg",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/blurrg-main_be0c18ef.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "mudhorn",
+    "name": "머드혼",
+    "name_en": "mudhorn",
+    "type": "포유류 (뿔 거수)",
+    "homeworld": null,
+    "one_liner": "아발라-7의 동굴에 사는 진흙투성이 뿔 거수. 딘 자린이 그로구의 포스에 힘입어 쓰러뜨린 상대로, 그 뿔의 문장이 두 사람의 '클랜 오브 투'를 새기는 인장이 됐다.",
+    "works": [
+      "the-mandalorian"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d92",
+        "name": "mudhorn",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/mudhorn-main_de3d4551.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "dewback",
+    "name": "듀백",
+    "name_en": "Dewback",
+    "type": "파충류 (사막 탈것)",
+    "homeworld": "tatooine",
+    "one_liner": "두꺼운 가죽의 듬직한 사막 파충류. 느릿하지만 의외의 순발력을 숨긴 탈것으로, 타투인의 샌드트루퍼들이 드로이드 수색에 부렸다.",
+    "works": [
+      "ep-4-a-new-hope"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d7b",
+        "name": "Dewback",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_dewback_01_169_bc886996.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "porg",
+    "name": "포그",
+    "name_en": "Porg",
+    "type": "조류 (군집성)",
+    "homeworld": "ahch-to",
+    "one_liner": "아크토 섬의 절벽에 둥지를 트는 납작 주둥이의 호기심 많은 새. 츄바카의 팰컨에 무단 입주한 뒤로, 시퀄 시대의 비공식 마스코트가 됐다.",
+    "works": [
+      "ep-8-last-jedi"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0d9d",
+        "name": "Porg",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/porg-main_16933d3b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
+  },
+  {
+    "id": "drengir",
+    "name": "드렌기르",
+    "name_en": "The Drengir",
+    "type": "식물형 지성체 (육식)",
+    "homeworld": null,
+    "one_liner": "촉수와 가시, 이빨로 뒤엉킨 육식성 식물 지성체. 하이 리퍼블릭 시대에 다시 풀려나 변경을 집어삼키며, 니힐과 함께 그 시대 제다이가 마주한 양대 악몽으로 꼽힌다.",
+    "works": [
+      "light-of-the-jedi",
+      "the-rising-storm"
+    ],
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "external_refs": {
+      "databank": {
+        "id": "640b2f06b6a2a8104f0a0daf",
+        "name": "The Drengir",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-drengir-main_797e6cbe.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   }
 ]
