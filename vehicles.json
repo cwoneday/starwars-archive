@@ -21,7 +21,16 @@
     ],
     "pilots": [],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1de9",
+        "name": "Sandcrawler",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/sandcrawler-main_eb1b036b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-t-16-skyhopper",
@@ -42,7 +51,16 @@
     ],
     "pilots": [],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e03",
+        "name": "T-16 Skyhopper",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_t16skyhopper_01_169_ad69e901.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-x-34-landspeeder",
@@ -62,7 +80,16 @@
     ],
     "pilots": [],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e3b",
+        "name": "X-34 Landspeeder",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/landspeeder-1-1_68b36956.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-tie-ln-starfighter",
@@ -92,7 +119,16 @@
     "pilots": [],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e23",
+        "name": "TIE Fighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/TIE-Fighter_25397c64.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-snowspeeder",
@@ -115,7 +151,16 @@
     ],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1df7",
+        "name": "Snowspeeder",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/snowspeeder_ef2f9334.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-tie-bomber",
@@ -136,7 +181,16 @@
     "pilots": [],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e1e",
+        "name": "TIE Bomber",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/tie-bomber-main_d4d9b979.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-at-at",
@@ -159,7 +213,16 @@
     "pilots": [],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d44",
+        "name": "AT-AT Walker (All Terrain Armored Transport)",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/AT-AT_89d0105f.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-at-st",
@@ -184,7 +247,16 @@
     ],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d4a",
+        "name": "AT-ST Walker",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_5724_a150e6d4.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-storm-iv-twin-pod-cloud-car",
@@ -205,7 +277,16 @@
     ],
     "pilots": [],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d59",
+        "name": "Cloud Car",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/cloud-car-main-image_8d2e4e89.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-sail-barge",
@@ -269,7 +350,16 @@
     "pilots": [],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e24",
+        "name": "TIE Interceptor",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/tie-interceptor-2_b2250e79.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-imperial-speeder-bike",
@@ -297,7 +387,16 @@
     ],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1dfa",
+        "name": "Speeder Bike",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/speeder-bike-main_954f3273.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-vulture-droid",
@@ -342,7 +441,16 @@
     "pilots": [],
     "affiliation": "trade-federation",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1dbf",
+        "name": "MTT",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_mtt_01_169_efb8a98a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-armored-assault-tank",
@@ -361,7 +469,16 @@
     "pilots": [],
     "affiliation": "trade-federation",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d3d",
+        "name": "AAT Battle Tank",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_aatbattletank_01_169_9de46aea.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-single-trooper-aerial-platform",
@@ -381,7 +498,16 @@
     "pilots": [],
     "affiliation": "trade-federation",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1dfb",
+        "name": "STAP",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_stap_01_169_75029522.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-c-9979-landing-craft",
@@ -425,7 +551,16 @@
       "qui-gon-jinn"
     ],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d8d",
+        "name": "Gungan Bongo Submarine",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_gunganbongosubmarine_01_169_fc9286be.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-sith-speeder",
@@ -448,7 +583,16 @@
     ],
     "affiliation": "sith",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1df4",
+        "name": "Sith Speeder",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_sithspeeder_01_169_cfa01a05.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-zephyr-g-swoop-bike",
@@ -470,7 +614,16 @@
       "anakin-skywalker"
     ],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e01",
+        "name": "Swoop",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/solo-db-swoop-main-image_d041c11a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-koro-2-exodrive-airspeeder",
@@ -511,7 +664,16 @@
       "anakin-skywalker"
     ],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e3d",
+        "name": "XJ-6 Airspeeder",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/xj-6-air-speeder-square_34ff8062.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-laat-i",
@@ -535,7 +697,16 @@
     "pilots": [],
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1dd9",
+        "name": "Republic Attack Gunship",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_republicattackgunship_01_169_4ed5c0a7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-laat-c",
@@ -579,7 +750,16 @@
     "pilots": [],
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d4b",
+        "name": "AT-TE Walker",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/at-te-main_09471f2b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-spha",
@@ -642,7 +822,16 @@
     ],
     "pilots": [],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1df1",
+        "name": "Sheathipede-class Shuttle",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/sheathipede-class-shuttle_3f807659.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-geonosian-starfighter",
@@ -661,7 +850,16 @@
     "pilots": [],
     "affiliation": "confederacy-of-independent-systems",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d87",
+        "name": "Geonosian Fighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/geonosian-fighter_119560e5.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-tsmeu-6-personal-wheel-bike",
@@ -683,7 +881,16 @@
       "grievous"
     ],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d86",
+        "name": "General Grievous’ TSMEU-6 Wheel Bike",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/ep3_ia_96565_46396938.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-emergency-firespeeder",
@@ -782,7 +989,16 @@
     "pilots": [],
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1da4",
+        "name": "Juggernaut Transport Vehicle",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/juggernaut-transport-vehicle-main_09946f42.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-corporate-alliance-tank-droid",
@@ -823,7 +1039,16 @@
     "pilots": [],
     "affiliation": "confederacy-of-independent-systems",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d69",
+        "name": "Droid Gunship",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/droid_gunship_20546779.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-at-rt",
@@ -845,7 +1070,16 @@
     "pilots": [],
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d49",
+        "name": "AT-RT Walker",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_atrtwalker_01_169_dc4f22ad.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-anakin-podracer",

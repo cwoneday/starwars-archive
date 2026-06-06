@@ -23,7 +23,16 @@
     "pilots": [],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e07",
+        "name": "Tantive IV",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/tantive-iv-main_f1ea3fa5.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-star-destroyer",
@@ -54,7 +63,16 @@
     "pilots": [],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d9f",
+        "name": "Imperial Star Destroyer",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Star-Destroyer_ab6b94bb.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-sentinel-class-landing-craft",
@@ -78,7 +96,16 @@
     "pilots": [],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d9d",
+        "name": "Imperial Sentinel-Class Shuttle",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Imperial-Sentinel-Class-Shuttle_a2dc7d3b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-death-star",
@@ -101,7 +128,16 @@
     "pilots": [],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb63",
+        "name": "Death Star",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Death-Star-I-copy_36ad2500.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-millennium-falcon",
@@ -134,7 +170,16 @@
     ],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1db9",
+        "name": "Millennium Falcon",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/millennium-falcon-main-tlj-a_7cf89d3a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-y-wing",
@@ -160,7 +205,16 @@
     "pilots": [],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e3e",
+        "name": "Y-wing Starfighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Y-Wing-Fighter_0e78c9ae.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-x-wing",
@@ -193,7 +247,16 @@
     ],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e3c",
+        "name": "X-wing Starfighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/X-Wing-Fighter_47c7c342.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-tie-advanced-x1",
@@ -219,7 +282,16 @@
     ],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d65",
+        "name": "Darth Vader's TIE Fighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/vaders-tie-fighter_8bcb92e1.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-executor",
@@ -243,7 +315,16 @@
     "pilots": [],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d6d",
+        "name": "Executor",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_executor_01_169_8157df82.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-rebel-transport",
@@ -267,7 +348,16 @@
     "pilots": [],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d8a",
+        "name": "GR-75 Medium Transport",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/medium-transport-1-1_db17a48f.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-slave-1",
@@ -295,7 +385,16 @@
       "jango-fett"
     ],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1df6",
+        "name": "Slave I",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/slave-1-main_81d5c1c7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-imperial-shuttle",
@@ -324,7 +423,16 @@
     ],
     "affiliation": "galactic-empire",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d9e",
+        "name": "Imperial Shuttle",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/veh_ia_1752_040381b2.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-ef76-nebulon-b-escort-frigate",
@@ -371,7 +479,16 @@
     "pilots": [],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1dbe",
+        "name": "Mon Calamari Star Cruiser",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2581_47f64de7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-a-wing",
@@ -397,7 +514,16 @@
     ],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d3a",
+        "name": "A-wing Fighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-05-26_at_5_16a39e17.png",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-b-wing",
@@ -421,7 +547,16 @@
     "pilots": [],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d4d",
+        "name": "B-wing Fighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_bwingfighter_01_169_460cc528.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-republic-cruiser",
@@ -441,7 +576,16 @@
     "pilots": [],
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1ddb",
+        "name": "Republic Cruiser",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_republiccruiser_01_169_fd769e33.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-droid-control-ship",
@@ -464,7 +608,16 @@
     "pilots": [],
     "affiliation": "trade-federation",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e27",
+        "name": "Trade Federation Battleship",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_tradefederationbattleship_01_169_fc5458ce.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-naboo-fighter",
@@ -492,7 +645,16 @@
     ],
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1dc0",
+        "name": "Naboo N-1 Starfighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_naboon1starfighter_01_169_26691adf.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-naboo-royal-starship",
@@ -512,7 +674,16 @@
       "ric-olie"
     ],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1dc2",
+        "name": "Naboo Royal Starship",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_nabooroyalstarship_01_169_e61f677e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-scimitar",
@@ -537,7 +708,16 @@
     ],
     "affiliation": "sith",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1df3",
+        "name": "Sith Infiltrator",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_sithinfiltrator_01_169_1bd0a638.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-j-type-diplomatic-barge",
@@ -574,7 +754,16 @@
     ],
     "pilots": [],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d3c",
+        "name": "AA-9 Coruscant freighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/aa-9-coruscant-freighter_a856053d.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-jedi-starfighter",
@@ -601,7 +790,16 @@
     ],
     "affiliation": "jedi-order",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d67",
+        "name": "Delta-7 Jedi Starfighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/delta-7-starfighter_fe9a59bc.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-h-type-nubian-yacht",
@@ -621,7 +819,16 @@
       "padme-amidala"
     ],
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d8f",
+        "name": "H-type Nubian yacht",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/h-type-nubian-yacht_7d67bc00.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-republic-assault-ship",
@@ -665,7 +872,16 @@
     "pilots": [],
     "affiliation": "confederacy-of-independent-systems",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1df8",
+        "name": "Solar Sailer",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_geonosiansolarsailer_01_169_b3873578.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-trade-federation-cruiser",
@@ -736,7 +952,16 @@
     "pilots": [],
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1dd8",
+        "name": "Republic Attack Cruiser",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_republicattackcruiser_01_169_812f153d.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-naboo-star-skiff",
@@ -784,7 +1009,16 @@
     ],
     "affiliation": "jedi-order",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d6c",
+        "name": "Eta-2 Jedi Starfighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/1-1-starfighter_decf3188.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-arc-170",
@@ -808,7 +1042,16 @@
     "pilots": [],
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d42",
+        "name": "ARC-170 Starfighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_arc170starfighter_01_169_f932abcb.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-banking-clan-frigate",
@@ -855,7 +1098,16 @@
     ],
     "affiliation": "confederacy-of-independent-systems",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1df9",
+        "name": "Soulless One",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_soullessone_01_169_08305d9b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-v-wing",
@@ -878,7 +1130,16 @@
     "pilots": [],
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e38",
+        "name": "V-wing Fighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/v-wing-main_37a7dec1.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-ghost",
@@ -906,7 +1167,16 @@
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
     "data_source": "starwars.com",
-    "one_liner": "헤라 신둘라가 모는 VCX-100 경화물선. 고스트 크루의 집이자 초기 반란의 상징으로, 스카리프와 엔도의 하늘에도 모습을 드러냈다."
+    "one_liner": "헤라 신둘라가 모는 VCX-100 경화물선. 고스트 크루의 집이자 초기 반란의 상징으로, 스카리프와 엔도의 하늘에도 모습을 드러냈다.",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e0d",
+        "name": "The Ghost",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-ghost-s3_499fca79.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-razor-crest",
@@ -963,7 +1233,16 @@
     "affiliation": "galactic-republic",
     "canon_status": "explicit",
     "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
-    "one_liner": "클론 포스 99의 수송선이자 건쉽, 그리고 집. 클론 전쟁의 비밀 임무부터 제국 치하의 도피 생활까지 배드 배치와 함께한 명예 멤버 같은 기체다."
+    "one_liner": "클론 포스 99의 수송선이자 건쉽, 그리고 집. 클론 전쟁의 비밀 임무부터 제국 치하의 도피 생활까지 배드 배치와 함께한 명예 멤버 같은 기체다.",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1db6",
+        "name": "Marauder",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/marauder-main_b64030c9.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-t6-shuttle",
@@ -991,7 +1270,16 @@
     "affiliation": "jedi-order",
     "canon_status": "explicit",
     "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
-    "one_liner": "클론 전쟁기 제다이 오더가 쓰던 고전 설계. 반원형 동체가 회전해 착륙·도킹 형상이 자유롭고, 평시 외교용이라 무장이 없다. 아소카가 스론 추적에 몰고 다닌다."
+    "one_liner": "클론 전쟁기 제다이 오더가 쓰던 고전 설계. 반원형 동체가 회전해 착륙·도킹 형상이 자유롭고, 평시 외교용이라 무장이 없다. 아소카가 스론 추적에 몰고 다닌다.",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1da2",
+        "name": "Jedi T-6 Shuttle",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_jedit6shuttle_01_169_2fd46362.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-u-wing",
@@ -1019,7 +1307,16 @@
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
     "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
-    "one_liner": "반란군 특공대를 전장에 실어 나르는 인콤제 수송 건쉽. 가변 S-포일을 젖혀 장거리 비행과 화력 지원을 오간다. 스카리프의 하늘을 지킨 기체."
+    "one_liner": "반란군 특공대를 전장에 실어 나르는 인콤제 수송 건쉽. 가변 S-포일을 젖혀 장거리 비행과 화력 지원을 오간다. 스카리프의 하늘을 지킨 기체.",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1e31",
+        "name": "U-wing",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/u-wing_3a89a295.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-fondor-haulcraft",

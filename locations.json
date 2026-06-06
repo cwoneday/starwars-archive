@@ -16,7 +16,16 @@
     "population": 1000000000000,
     "rotation_period_h": 24,
     "orbital_period_d": 368,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb54",
+        "name": "Coruscant",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/coruscant-main_4f0cf6a7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "alderaan",
@@ -36,7 +45,16 @@
     "rotation_period_h": 24,
     "orbital_period_d": 364,
     "surface_water_pct": 40,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb1e",
+        "name": "Alderaan",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/alderaan-main_f5b676cf.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "corellia",
@@ -56,7 +74,16 @@
     "rotation_period_h": 25,
     "orbital_period_d": 329,
     "surface_water_pct": 70,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb52",
+        "name": "Corellia",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/corellia-main_621fbca8.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "chandrila",
@@ -96,7 +123,16 @@
     "rotation_period_h": 26,
     "orbital_period_d": 312,
     "surface_water_pct": 12,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbdb",
+        "name": "Naboo",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_naboo_01_169_6cd7e1e0.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "tatooine",
@@ -116,7 +152,16 @@
     "rotation_period_h": 23,
     "orbital_period_d": 304,
     "surface_water_pct": 1,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc29",
+        "name": "Tatooine",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/tatooine-main_9542b896.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "kashyyyk",
@@ -136,7 +181,16 @@
     "rotation_period_h": 26,
     "orbital_period_d": 381,
     "surface_water_pct": 60,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abba5",
+        "name": "Kashyyyk",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/kashyyyk-main_37a2e497.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "serenno",
@@ -151,7 +205,16 @@
     "climate": "온대",
     "terrain": "우림·강·산악",
     "gravity": "표준",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc17",
+        "name": "Serenno",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_serenno_01_169_0541fc55.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "dathomir",
@@ -170,7 +233,16 @@
     "population": 5200,
     "rotation_period_h": 24,
     "orbital_period_d": 491,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb62",
+        "name": "Dathomir",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_dathomir_01_169_304c5db2.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "haruun-kal",
@@ -245,7 +317,16 @@
     "population": 7000000000,
     "rotation_period_h": 87,
     "orbital_period_d": 413,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbdc",
+        "name": "Nal Hutta",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_nalhutta_01_169_72d58d25.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "toydaria",
@@ -264,7 +345,16 @@
     "population": 11000000,
     "rotation_period_h": 21,
     "orbital_period_d": 184,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc3d",
+        "name": "Toydaria",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_toydaria_01_169_70b20e0e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "malastare",
@@ -283,7 +373,16 @@
     "population": 2000000000,
     "rotation_period_h": 26,
     "orbital_period_d": 201,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbc3",
+        "name": "Malastare",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_malastare_01_169_59df245f.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "neimoidia",
@@ -297,7 +396,16 @@
     "canon_status": "referenced",
     "climate": "습윤",
     "terrain": "습지·도시",
-    "gravity": "표준"
+    "gravity": "표준",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb47",
+        "name": "Cato Neimoidia",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_catoneimoidia_01_169_d2b9bb58.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "endor",
@@ -317,7 +425,16 @@
     "rotation_period_h": 18,
     "orbital_period_d": 402,
     "surface_water_pct": 8,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb6f",
+        "name": "Endor",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_endor_01_169_68ba9bdc.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "mon-cala",
@@ -337,7 +454,16 @@
     "rotation_period_h": 21,
     "orbital_period_d": 398,
     "surface_water_pct": 100,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbcb",
+        "name": "Mon Cala",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_moncala_01_169_b5bc76f1.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "cerea",
@@ -414,7 +540,16 @@
     "rotation_period_h": 30,
     "orbital_period_d": 305,
     "surface_water_pct": 5,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc0e",
+        "name": "Ryloth",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/ryloth-main_72a1cd8c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "mirial",
@@ -449,7 +584,16 @@
     "rotation_period_h": 27,
     "orbital_period_d": 463,
     "surface_water_pct": 100,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abba3",
+        "name": "Kamino",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/kamino-main_3001369e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "concord-dawn",
@@ -464,7 +608,16 @@
     "climate": "온대",
     "terrain": "정글·숲·사막",
     "gravity": "표준",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb50",
+        "name": "Concord Dawn",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/concord-dawn_4277a880.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "geonosis",
@@ -484,7 +637,16 @@
     "rotation_period_h": 30,
     "orbital_period_d": 256,
     "surface_water_pct": 5,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb83",
+        "name": "Geonosis",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_geonosis_01_169_1d04e086.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "skako",
@@ -522,7 +684,16 @@
     "rotation_period_h": 29,
     "orbital_period_d": 305,
     "surface_water_pct": 60,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc0b",
+        "name": "Rodia",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_rodia_01_169_6f76b79d.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "trandosha",
@@ -559,7 +730,16 @@
     "population": 22000000000,
     "rotation_period_h": 24,
     "orbital_period_d": 360,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb71",
+        "name": "Eriadu",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-story-gallery-the-summit-04_e0c438cb.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "bespin",
@@ -578,7 +758,16 @@
     "population": 6000000,
     "rotation_period_h": 12,
     "orbital_period_d": 5110,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb38",
+        "name": "Bespin",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Bespin_2d0759aa.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "sullust",
@@ -635,7 +824,16 @@
     "population": 95000000,
     "rotation_period_h": 27,
     "orbital_period_d": 351,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc42",
+        "name": "Utapau",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_utapau_01_169_14a54eb1.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "zolan",
@@ -672,7 +870,16 @@
     "one_liner": "행성을 통째로 파괴하는 제국의 초병기. 야빈에서 파괴된다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb63",
+        "name": "Death Star",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Death-Star-I-copy_36ad2500.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "death-star-ii",
@@ -683,7 +890,16 @@
     "one_liner": "엔도 상공에서 건설 중이던 더 큰 데스 스타.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb64",
+        "name": "Death Star II",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/death-star-ii-main_92554cb4.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "starlight-beacon",
@@ -705,7 +921,16 @@
     "one_liner": "정글 위성. 반란연합의 비밀 기지가 있던 곳.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc53",
+        "name": "Yavin 4",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_yavin4_01_169_b6945e20.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "scarif",
@@ -719,7 +944,16 @@
     "canon_status": "referenced",
     "climate": "열대",
     "terrain": "해변·바다·야자·제국 시설",
-    "gravity": "표준"
+    "gravity": "표준",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc13",
+        "name": "Scarif",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/scarif-main-b_f5298baa.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "hoth",
@@ -738,7 +972,16 @@
     "rotation_period_h": 23,
     "orbital_period_d": 549,
     "surface_water_pct": 100,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb8b",
+        "name": "Hoth",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Hoth_d074d307.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "jakku",
@@ -752,7 +995,16 @@
     "canon_status": "referenced",
     "climate": "건조",
     "terrain": "사막·폐선의 묘지",
-    "gravity": "표준"
+    "gravity": "표준",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb98",
+        "name": "Jakku",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/mr0170_a69c0abe.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "hosnian-prime",
@@ -766,7 +1018,16 @@
     "canon_status": "referenced",
     "climate": "온대",
     "terrain": "도시(신공화국 수도)",
-    "gravity": "표준"
+    "gravity": "표준",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb8a",
+        "name": "Hosnian Prime",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/hosnian-prime_2fbc263b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "starkiller-base",
@@ -777,7 +1038,16 @@
     "one_liner": "행성을 무기로 개조한 퍼스트 오더의 초병기.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc22",
+        "name": "Starkiller Base",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/starkiller-base_36eb17b3.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "exegol",
@@ -791,7 +1061,16 @@
     "canon_status": "referenced",
     "climate": "한랭·폭풍",
     "terrain": "황무지·동굴·번개 폭풍",
-    "gravity": "표준"
+    "gravity": "표준",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb73",
+        "name": "Exegol",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/exegol-main_01e57629.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ahch-to",
@@ -805,7 +1084,16 @@
     "canon_status": "referenced",
     "climate": "해양",
     "terrain": "바위섬·바다",
-    "gravity": "표준"
+    "gravity": "표준",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb18",
+        "name": "Ahch-To",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/ahch-to-db-main_d13ac48c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "tython",
@@ -833,7 +1121,16 @@
     "canon_status": "inferred",
     "climate": "건조",
     "terrain": "사막·황무지·시스 무덤",
-    "gravity": "표준"
+    "gravity": "표준",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbcc",
+        "name": "Moraband",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_99e00bdb.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "valo",
@@ -866,7 +1163,16 @@
     "population": 20000,
     "rotation_period_h": 36,
     "orbital_period_d": 412,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbd8",
+        "name": "Mustafar",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_mustafar_01_169_5b470758.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ghorman",
@@ -894,7 +1200,16 @@
     "canon_status": "referenced",
     "climate": "온대",
     "terrain": "숲·호수",
-    "gravity": "표준"
+    "gravity": "표준",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc27",
+        "name": "Takodana",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/takodana_37fe9f0e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "crait",
@@ -908,7 +1223,16 @@
     "canon_status": "referenced",
     "climate": "건조(광물)",
     "terrain": "소금 평원·광물 동굴",
-    "gravity": "표준"
+    "gravity": "표준",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb58",
+        "name": "Crait",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/crait_8878cb62.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "iktotch",
@@ -980,7 +1304,16 @@
     "source": "SWAPI / 캐넌",
     "source_type": "film",
     "canon_status": "referenced",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc41",
+        "name": "Umbara",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_umbara_01_169_beef68c7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "muunilinst",
@@ -1046,7 +1379,16 @@
     "source": "SWAPI / 캐넌",
     "source_type": "film",
     "canon_status": "referenced",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb20",
+        "name": "Aleen",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_aleen_01_169_40bcb2df.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "troiken",
@@ -1107,7 +1449,16 @@
     "terrain": "숲·평원",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb5b",
+        "name": "D'Qar",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/d-qar_ddba97b1.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "janix",
@@ -1145,7 +1496,16 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc4c",
+        "name": "Wayland",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/wayland-main_7f6929d4.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "peridea",
@@ -1202,7 +1562,16 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbc5",
+        "name": "Mandalore",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_mandalore_01_169_91a551b7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "daiyu",
@@ -1221,7 +1590,16 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb5d",
+        "name": "Daiyu",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/daiyu-main_6d61b1bf.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "mapuzo",
@@ -1240,7 +1618,16 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbc6",
+        "name": "Mapuzo",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/mapuzo-main_514f04e4.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "jabiim",
@@ -1259,7 +1646,16 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb96",
+        "name": "Jabiim",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/jabiim-main_bc7b64f5.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "lothal",
@@ -1278,7 +1674,16 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "작품 본편"
+    "data_source": "작품 본편",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbb8",
+        "name": "Lothal",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_106bc26a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "aldhani",
@@ -1297,7 +1702,16 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "작품 본편"
+    "data_source": "작품 본편",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb1f",
+        "name": "Aldhani",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/aldhani-main_71e8062e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ferrix",
@@ -1316,7 +1730,16 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "작품 본편"
+    "data_source": "작품 본편",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb76",
+        "name": "Ferrix",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/andor-trivia-105_4ffc9493.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "bracca",
@@ -1335,6 +1758,15 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "작품 본편"
+    "data_source": "작품 본편",
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb3d",
+        "name": "Bracca",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/bracca-main_b8a501e4.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   }
 ]

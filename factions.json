@@ -9,7 +9,16 @@
     "one_liner": "포스를 빛의 길로 수련하며 은하의 평화를 지킨 기사단.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1cf8",
+        "name": "Jedi Order",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Jedi-Order_c0dfa281.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "sith",
@@ -21,7 +30,16 @@
     "one_liner": "다크사이드의 힘을 좇는 비밀 결사. 늘 둘만 존재한다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1d22",
+        "name": "Sith",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Sith_7abb7b3c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "galactic-republic",
@@ -33,7 +51,16 @@
     "one_liner": "수천 년간 은하를 다스린 민주 연방. 클론 전쟁 끝에 제국으로 변질된다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1ce3",
+        "name": "Galactic Republic",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Galactic_Republic-1_69f82abe.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "galactic-empire",
@@ -45,7 +72,16 @@
     "one_liner": "팰퍼틴이 공화국을 개편해 세운 독재 체제.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1ce2",
+        "name": "Galactic Empire",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Galactic-Empire_ee15e2e7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "confederacy-of-independent-systems",
@@ -57,7 +93,16 @@
     "one_liner": "공화국에서 이탈한 행성·기업 연합. 클론 전쟁의 한 축.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1cc4",
+        "name": "Confederacy of Independent Systems",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/confederacy-of-independent-systems_27125097.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "trade-federation",
@@ -69,7 +114,16 @@
     "one_liner": "막강한 상선대를 거느린 거대 통상 조직. 나부를 봉쇄했다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1d31",
+        "name": "Trade Federation",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_tradefederation_01_169_4d5122ac.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "rebel-alliance",
@@ -81,7 +135,16 @@
     "one_liner": "제국의 압제에 맞선 저항 세력의 연합체.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1d14",
+        "name": "Rebel Alliance",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Rebel-Alliance_96d56058.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "new-republic",
@@ -93,7 +156,16 @@
     "one_liner": "제국을 무너뜨린 뒤 세워진 새 민주 정부.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1d2d",
+        "name": "The New Republic",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/new-republic_7742fb97.png",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "first-order",
@@ -117,7 +189,16 @@
     "one_liner": "레이아가 이끈, 퍼스트 오더에 맞선 소규모 군대.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1d2f",
+        "name": "The Resistance",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-resistance-tros-main-a_db5fe641.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "final-order",
@@ -153,7 +234,16 @@
     "one_liner": "스파이스 밀매를 장악한 강력한 범죄 신디케이트. 클론 전쟁기부터 은하 암흑가의 큰손이다.",
     "source": "스타워즈 캐넌",
     "source_type": "series",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1d12",
+        "name": "Pyke Syndicate",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/pyke-syndicate-main_26c5afa9.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "crimson-dawn",
@@ -165,7 +255,16 @@
     "one_liner": "그림자 속에서 은하 암흑가를 주무른 범죄 조직. 한때 몰이 배후에서 이끌었다.",
     "source": "스타워즈 캐넌",
     "source_type": "series",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1cc8",
+        "name": "Crimson Dawn",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/crimson-dawn-main-b_edc99197.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "nightsisters",
@@ -177,7 +276,16 @@
     "one_liner": "다투미르의 마법을 다루는 마녀 결사. 다크사이드 주술로 두려움을 샀다.",
     "source": "스타워즈 캐넌",
     "source_type": "series",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1d0a",
+        "name": "Nightsisters",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/acw_ia_62085_00883f8c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "mandalorians",
@@ -201,7 +309,16 @@
     "one_liner": "헛 일족이 대를 이어 지배해온 범죄 제국. 타투인 등 외곽의 암흑가를 주물렀다.",
     "source": "스타워즈 캐넌",
     "source_type": "series",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1ce7",
+        "name": "Hutt Clan",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_659e2fa6.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "inquisitorius",
@@ -225,6 +342,15 @@
     "one_liner": "제국의 눈을 피해 살아남은 제다이와 포스 민감자들을 빼돌리던 비밀 연락망. 마푸조의 은신 경로와 자비임의 거점으로 이어졌다.",
     "source": "오비완 케노비",
     "source_type": "series",
-    "canon_status": "explicit"
+    "canon_status": "explicit",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1d2b",
+        "name": "the Hidden Path",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-hidden-path-main_68f470f9.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   }
 ]

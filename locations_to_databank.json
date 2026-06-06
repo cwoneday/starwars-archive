@@ -1,0 +1,604 @@
+{
+ "coruscant": {
+  "file": "locations.json",
+  "databank_name": "Coruscant",
+  "databank_id": "64293151d99b54f25a4abb54",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/coruscant-main_4f0cf6a7.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "alderaan": {
+  "file": "locations.json",
+  "databank_name": "Alderaan",
+  "databank_id": "64293151d99b54f25a4abb1e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/alderaan-main_f5b676cf.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "corellia": {
+  "file": "locations.json",
+  "databank_name": "Corellia",
+  "databank_id": "64293151d99b54f25a4abb52",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/corellia-main_621fbca8.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "chandrila": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "naboo": {
+  "file": "locations.json",
+  "databank_name": "Naboo",
+  "databank_id": "64293151d99b54f25a4abbdb",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_naboo_01_169_6cd7e1e0.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "tatooine": {
+  "file": "locations.json",
+  "databank_name": "Tatooine",
+  "databank_id": "64293151d99b54f25a4abc29",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/tatooine-main_9542b896.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "kashyyyk": {
+  "file": "locations.json",
+  "databank_name": "Kashyyyk",
+  "databank_id": "64293151d99b54f25a4abba5",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/kashyyyk-main_37a2e497.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "serenno": {
+  "file": "locations.json",
+  "databank_name": "Serenno",
+  "databank_id": "64293151d99b54f25a4abc17",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_serenno_01_169_0541fc55.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "dathomir": {
+  "file": "locations.json",
+  "databank_name": "Dathomir",
+  "databank_id": "64293151d99b54f25a4abb62",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_dathomir_01_169_304c5db2.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "haruun-kal": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "kalee": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "socorro": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "nal-hutta": {
+  "file": "locations.json",
+  "databank_name": "Nal Hutta",
+  "databank_id": "64293151d99b54f25a4abbdc",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_nalhutta_01_169_72d58d25.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "toydaria": {
+  "file": "locations.json",
+  "databank_name": "Toydaria",
+  "databank_id": "64293151d99b54f25a4abc3d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_toydaria_01_169_70b20e0e.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "malastare": {
+  "file": "locations.json",
+  "databank_name": "Malastare",
+  "databank_id": "64293151d99b54f25a4abbc3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_malastare_01_169_59df245f.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "neimoidia": {
+  "file": "locations.json",
+  "databank_name": "Cato Neimoidia",
+  "databank_id": "64293151d99b54f25a4abb47",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_catoneimoidia_01_169_d2b9bb58.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "endor": {
+  "file": "locations.json",
+  "databank_name": "Endor",
+  "databank_id": "64293151d99b54f25a4abb6f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_endor_01_169_68ba9bdc.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "mon-cala": {
+  "file": "locations.json",
+  "databank_name": "Mon Cala",
+  "databank_id": "64293151d99b54f25a4abbcb",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_moncala_01_169_b5bc76f1.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "cerea": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "glee-anselm": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "dorin": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ryloth": {
+  "file": "locations.json",
+  "databank_name": "Ryloth",
+  "databank_id": "64293151d99b54f25a4abc0e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/ryloth-main_72a1cd8c.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "mirial": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "kamino": {
+  "file": "locations.json",
+  "databank_name": "Kamino",
+  "databank_id": "64293151d99b54f25a4abba3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/kamino-main_3001369e.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "concord-dawn": {
+  "file": "locations.json",
+  "databank_name": "Concord Dawn",
+  "databank_id": "64293151d99b54f25a4abb50",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/concord-dawn_4277a880.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "geonosis": {
+  "file": "locations.json",
+  "databank_name": "Geonosis",
+  "databank_id": "64293151d99b54f25a4abb83",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_geonosis_01_169_1d04e086.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "skako": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "databank의 Skako Minor는 별개 천체 — 오매핑 방지"
+ },
+ "rodia": {
+  "file": "locations.json",
+  "databank_name": "Rodia",
+  "databank_id": "64293151d99b54f25a4abc0b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_rodia_01_169_6f76b79d.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "trandosha": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "eriadu": {
+  "file": "locations.json",
+  "databank_name": "Eriadu",
+  "databank_id": "64293151d99b54f25a4abb71",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-story-gallery-the-summit-04_e0c438cb.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "bespin": {
+  "file": "locations.json",
+  "databank_name": "Bespin",
+  "databank_id": "64293151d99b54f25a4abb38",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Bespin_2d0759aa.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "sullust": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "champala": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "utapau": {
+  "file": "locations.json",
+  "databank_name": "Utapau",
+  "databank_id": "64293151d99b54f25a4abc42",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_utapau_01_169_14a54eb1.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "zolan": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "stewjon": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "death-star": {
+  "file": "locations.json",
+  "databank_name": "Death Star",
+  "databank_id": "64293151d99b54f25a4abb63",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Death-Star-I-copy_36ad2500.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "death-star-ii": {
+  "file": "locations.json",
+  "databank_name": "Death Star II",
+  "databank_id": "64293151d99b54f25a4abb64",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/death-star-ii-main_92554cb4.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "starlight-beacon": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "yavin-4": {
+  "file": "locations.json",
+  "databank_name": "Yavin 4",
+  "databank_id": "64293151d99b54f25a4abc53",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_yavin4_01_169_b6945e20.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "scarif": {
+  "file": "locations.json",
+  "databank_name": "Scarif",
+  "databank_id": "64293151d99b54f25a4abc13",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/scarif-main-b_f5298baa.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "hoth": {
+  "file": "locations.json",
+  "databank_name": "Hoth",
+  "databank_id": "64293151d99b54f25a4abb8b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Hoth_d074d307.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "jakku": {
+  "file": "locations.json",
+  "databank_name": "Jakku",
+  "databank_id": "64293151d99b54f25a4abb98",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/mr0170_a69c0abe.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "hosnian-prime": {
+  "file": "locations.json",
+  "databank_name": "Hosnian Prime",
+  "databank_id": "64293151d99b54f25a4abb8a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/hosnian-prime_2fbc263b.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "starkiller-base": {
+  "file": "locations.json",
+  "databank_name": "Starkiller Base",
+  "databank_id": "64293151d99b54f25a4abc22",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/starkiller-base_36eb17b3.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "exegol": {
+  "file": "locations.json",
+  "databank_name": "Exegol",
+  "databank_id": "64293151d99b54f25a4abb73",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/exegol-main_01e57629.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ahch-to": {
+  "file": "locations.json",
+  "databank_name": "Ahch-To",
+  "databank_id": "64293151d99b54f25a4abb18",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/ahch-to-db-main_d13ac48c.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "tython": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "moraband": {
+  "file": "locations.json",
+  "databank_name": "Moraband",
+  "databank_id": "64293151d99b54f25a4abbcc",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_99e00bdb.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "valo": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "mustafar": {
+  "file": "locations.json",
+  "databank_name": "Mustafar",
+  "databank_id": "64293151d99b54f25a4abbd8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_mustafar_01_169_5b470758.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ghorman": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "takodana": {
+  "file": "locations.json",
+  "databank_name": "Takodana",
+  "databank_id": "64293151d99b54f25a4abc27",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/takodana_37fe9f0e.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "crait": {
+  "file": "locations.json",
+  "databank_name": "Crait",
+  "databank_id": "64293151d99b54f25a4abb58",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/crait_8878cb62.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "iktotch": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "shili": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "quermia": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ojom": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "umbara": {
+  "file": "locations.json",
+  "databank_name": "Umbara",
+  "databank_id": "64293151d99b54f25a4abc41",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_umbara_01_169_beef68c7.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "muunilinst": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "iridonia": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "bestine-iv": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "aleen-minor": {
+  "file": "locations.json",
+  "databank_name": "Aleen",
+  "databank_id": "64293151d99b54f25a4abb20",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_aleen_01_169_40bcb2df.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "troiken": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "tund": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "vulpter": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "dqar": {
+  "file": "locations.json",
+  "databank_name": "D'Qar",
+  "databank_id": "64293151d99b54f25a4abb5b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/d-qar_ddba97b1.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "janix": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "wayland": {
+  "file": "locations.json",
+  "databank_name": "Wayland",
+  "databank_id": "64293151d99b54f25a4abc4c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/wayland-main_7f6929d4.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "peridea": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "brendok": {
+  "file": "locations.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "mandalore": {
+  "file": "locations.json",
+  "databank_name": "Mandalore",
+  "databank_id": "64293151d99b54f25a4abbc5",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_mandalore_01_169_91a551b7.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "daiyu": {
+  "file": "locations.json",
+  "databank_name": "Daiyu",
+  "databank_id": "64293151d99b54f25a4abb5d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/daiyu-main_6d61b1bf.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "mapuzo": {
+  "file": "locations.json",
+  "databank_name": "Mapuzo",
+  "databank_id": "64293151d99b54f25a4abbc6",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/mapuzo-main_514f04e4.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "jabiim": {
+  "file": "locations.json",
+  "databank_name": "Jabiim",
+  "databank_id": "64293151d99b54f25a4abb96",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/jabiim-main_bc7b64f5.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "lothal": {
+  "file": "locations.json",
+  "databank_name": "Lothal",
+  "databank_id": "64293151d99b54f25a4abbb8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_106bc26a.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "aldhani": {
+  "file": "locations.json",
+  "databank_name": "Aldhani",
+  "databank_id": "64293151d99b54f25a4abb1f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/aldhani-main_71e8062e.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ferrix": {
+  "file": "locations.json",
+  "databank_name": "Ferrix",
+  "databank_id": "64293151d99b54f25a4abb76",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/andor-trivia-105_4ffc9493.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "bracca": {
+  "file": "locations.json",
+  "databank_name": "Bracca",
+  "databank_id": "64293151d99b54f25a4abb3d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/bracca-main_b8a501e4.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ }
+}

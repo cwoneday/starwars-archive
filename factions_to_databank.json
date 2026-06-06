@@ -1,0 +1,154 @@
+{
+ "jedi-order": {
+  "file": "factions.json",
+  "databank_name": "Jedi Order",
+  "databank_id": "6429291d021f17e13fbc1cf8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Jedi-Order_c0dfa281.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "sith": {
+  "file": "factions.json",
+  "databank_name": "Sith",
+  "databank_id": "6429291d021f17e13fbc1d22",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Sith_7abb7b3c.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "galactic-republic": {
+  "file": "factions.json",
+  "databank_name": "Galactic Republic",
+  "databank_id": "6429291d021f17e13fbc1ce3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Galactic_Republic-1_69f82abe.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "galactic-empire": {
+  "file": "factions.json",
+  "databank_name": "Galactic Empire",
+  "databank_id": "6429291d021f17e13fbc1ce2",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Galactic-Empire_ee15e2e7.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "confederacy-of-independent-systems": {
+  "file": "factions.json",
+  "databank_name": "Confederacy of Independent Systems",
+  "databank_id": "6429291d021f17e13fbc1cc4",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/confederacy-of-independent-systems_27125097.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "trade-federation": {
+  "file": "factions.json",
+  "databank_name": "Trade Federation",
+  "databank_id": "6429291d021f17e13fbc1d31",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_tradefederation_01_169_4d5122ac.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "rebel-alliance": {
+  "file": "factions.json",
+  "databank_name": "Rebel Alliance",
+  "databank_id": "6429291d021f17e13fbc1d14",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Rebel-Alliance_96d56058.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "new-republic": {
+  "file": "factions.json",
+  "databank_name": "The New Republic",
+  "databank_id": "6429291d021f17e13fbc1d2d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/new-republic_7742fb97.png",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "first-order": {
+  "file": "factions.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "본체 항목 부재 — 트루퍼 분과만 존재"
+ },
+ "resistance": {
+  "file": "factions.json",
+  "databank_name": "The Resistance",
+  "databank_id": "6429291d021f17e13fbc1d2f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-resistance-tros-main-a_db5fe641.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "final-order": {
+  "file": "factions.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "항목 부재"
+ },
+ "nihil": {
+  "file": "factions.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "항목 부재"
+ },
+ "pyke-syndicate": {
+  "file": "factions.json",
+  "databank_name": "Pyke Syndicate",
+  "databank_id": "6429291d021f17e13fbc1d12",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/pyke-syndicate-main_26c5afa9.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "crimson-dawn": {
+  "file": "factions.json",
+  "databank_name": "Crimson Dawn",
+  "databank_id": "6429291d021f17e13fbc1cc8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/crimson-dawn-main-b_edc99197.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "nightsisters": {
+  "file": "factions.json",
+  "databank_name": "Nightsisters",
+  "databank_id": "6429291d021f17e13fbc1d0a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/acw_ia_62085_00883f8c.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "mandalorians": {
+  "file": "factions.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "Guard/Super Commando는 별개 하위 조직"
+ },
+ "hutt-cartel": {
+  "file": "factions.json",
+  "databank_name": "Hutt Clan",
+  "databank_id": "6429291d021f17e13fbc1ce7",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_659e2fa6.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "inquisitorius": {
+  "file": "factions.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "항목 부재"
+ },
+ "hidden-path": {
+  "file": "factions.json",
+  "databank_name": "the Hidden Path",
+  "databank_id": "6429291d021f17e13fbc1d2b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-hidden-path-main_68f470f9.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ }
+}
