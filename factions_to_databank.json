@@ -65,11 +65,12 @@
  },
  "first-order": {
   "file": "factions.json",
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "rejected",
-  "note": "본체 항목 부재 — 트루퍼 분과만 존재"
+  "databank_name": "The First Order",
+  "databank_id": "6429291d021f17e13fbc1d2a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-first-order-tros-main-a_9e90c9fe.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06",
+  "note": "교정: 토큰 검색 출력 절단([:8])으로 본체가 가려져 오판 reject했던 건"
  },
  "resistance": {
   "file": "factions.json",
@@ -85,7 +86,7 @@
   "databank_id": null,
   "image_url": null,
   "match_status": "rejected",
-  "note": "항목 부재"
+  "note": "항목 부재 — 인접 조직 'Sith Eternal'은 존재하나 별개 명칭(부분 중첩)이라 보수적으로 미연결"
  },
  "nihil": {
   "file": "factions.json",

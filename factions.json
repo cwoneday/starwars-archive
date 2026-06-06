@@ -177,7 +177,16 @@
     "one_liner": "제국 잔당이 미지의 영역에서 부활시킨 군사 체제.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "external_refs": {
+      "databank": {
+        "id": "6429291d021f17e13fbc1d2a",
+        "name": "The First Order",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-first-order-tros-main-a_9e90c9fe.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "resistance",
