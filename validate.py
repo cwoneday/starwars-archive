@@ -120,12 +120,21 @@ for c in chars:
             if b.get('event') and b['event'] not in ev_ids: err(f"[characters:{c['id']}] {fld} 깨진 사건: {b['event']}")
 
 # locations / factions
+def chk_extref(kind,o):
+    er=(o.get('external_refs') or {}).get('databank')
+    if er:
+        if not er.get('id'): err(f"[{kind}:{o['id']}] external_refs.databank.id 누락")
+        if not str(er.get('image_url') or '').startswith('http'): warn(f"[{kind}:{o['id']}] databank image_url 비정상")
+        if not er.get('credit'): err(f"[{kind}:{o['id']}] databank credit(출처 표기) 누락 — IMAGE_POLICY 위반")
+
 for l in locs:
     if l.get('canon_status') not in CANON: err(f"[locations:{l['id']}] canon_status 위반: {l.get('canon_status')}")
     if l.get('source_type') not in STYPE: warn(f"[locations:{l['id']}] source_type 비표준: {l.get('source_type')}")
+    chk_extref('locations',l)
 for f in facs:
     if f.get('alignment') not in ALIGN: err(f"[factions:{f['id']}] alignment 위반: {f.get('alignment')}")
     if f.get('canon_status') not in CANON: err(f"[factions:{f['id']}] canon_status 위반: {f.get('canon_status')}")
+    chk_extref('factions',f)
 
 # relations
 for i,r in enumerate(rels):
@@ -171,6 +180,7 @@ for v in vehicles:
         err(f"[vehicles:{v['id']}] affiliation 깨진 세력 참조: {v['affiliation']}")
     if v.get('canon_status') and v['canon_status'] not in CANON:
         err(f"[vehicles:{v['id']}] canon_status 위반: {v['canon_status']}")
+    chk_extref('vehicles',v)
 
 # ================= starships (함선 축) =================
 dup_check(starships,'starships')
@@ -184,6 +194,7 @@ for v in starships:
         err(f"[starships:{v['id']}] affiliation 깨진 세력 참조: {v['affiliation']}")
     if v.get('canon_status') and v['canon_status'] not in CANON:
         err(f"[starships:{v['id']}] canon_status 위반: {v['canon_status']}")
+    chk_extref('starships',v)
 
 # 고아 데이터 (어디서도 참조 안 됨)
 ref_loc=set(); ref_fac=set(); ref_ch=set()

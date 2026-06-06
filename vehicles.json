@@ -869,7 +869,16 @@
     ],
     "canon_status": "explicit",
     "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
-    "one_liner": "노예 소년 아나킨이 몰래 만든 청은빛 포드레이서. 분타 이브 클래식에서 다른 모든 기체보다 작고 날렵한 몸으로 우승을 따내, 소년에게 자유를 안겼다."
+    "one_liner": "노예 소년 아나킨이 몰래 만든 청은빛 포드레이서. 분타 이브 클래식에서 다른 모든 기체보다 작고 날렵한 몸으로 우승을 따내, 소년에게 자유를 안겼다.",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d40",
+        "name": "Anakin Skywalker's Podracer",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_anakinskywalkerspodracer_01_169_fe359d32.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "veh-at-act",
@@ -891,6 +900,15 @@
     "pilots": [],
     "canon_status": "explicit",
     "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
-    "one_liner": "표준 AT-AT를 키워 화물칸을 단 수송형 워커. 조선소와 연구 시설 같은 제국의 대형 건설 현장에 투입됐고, 스카리프에서 반란군과 맞닥뜨렸다."
+    "one_liner": "표준 AT-AT를 키워 화물칸을 단 수송형 워커. 조선소와 연구 시설 같은 제국의 대형 건설 현장에 투입됐고, 스카리프에서 반란군과 맞닥뜨렸다.",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d43",
+        "name": "AT-ACT walker",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/at-act-walker_78783f1b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   }
 ]

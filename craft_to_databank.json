@@ -1,0 +1,617 @@
+{
+ "veh-sand-crawler": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-t-16-skyhopper": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-x-34-landspeeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-tie-ln-starfighter": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-snowspeeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-tie-bomber": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-at-at": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-at-st": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-storm-iv-twin-pod-cloud-car": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-sail-barge": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-bantha-ii-cargo-skiff": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-tie-in-interceptor": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-imperial-speeder-bike": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-vulture-droid": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-multi-troop-transport": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-armored-assault-tank": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-single-trooper-aerial-platform": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-c-9979-landing-craft": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-tribubble-bongo": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-sith-speeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-zephyr-g-swoop-bike": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-koro-2-exodrive-airspeeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-xj-6-airspeeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-laat-i": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-laat-c": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-at-te": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-spha": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-flitknot-speeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-neimoidian-shuttle": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-geonosian-starfighter": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-tsmeu-6-personal-wheel-bike": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-emergency-firespeeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-droid-tri-fighter": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-oevvaor-jet-catamaran": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-raddaugh-gnasp-fluttercraft": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-clone-turbo-tank": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-corporate-alliance-tank-droid": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-droid-gunship": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-at-rt": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "veh-anakin-podracer": {
+  "file": "vehicles.json",
+  "databank_name": "Anakin Skywalker's Podracer",
+  "databank_id": "6429291f021f17e13fbc1d40",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_anakinskywalkerspodracer_01_169_fe359d32.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "veh-at-act": {
+  "file": "vehicles.json",
+  "databank_name": "AT-ACT walker",
+  "databank_id": "6429291f021f17e13fbc1d43",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/at-act-walker_78783f1b.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-cr90-corvette": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-star-destroyer": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-sentinel-class-landing-craft": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-death-star": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-millennium-falcon": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-y-wing": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-x-wing": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-tie-advanced-x1": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-executor": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-rebel-transport": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-slave-1": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-imperial-shuttle": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-ef76-nebulon-b-escort-frigate": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-calamari-cruiser": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-a-wing": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "fuzzy",
+  "candidates": [
+   {
+    "name": "A-wing Fighter",
+    "id": "6429291f021f17e13fbc1d3a"
+   },
+   {
+    "name": "A-wing trainer (RZ-1T)",
+    "id": "6429291f021f17e13fbc1d3b"
+   }
+  ]
+ },
+ "ss-b-wing": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-republic-cruiser": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-droid-control-ship": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-naboo-fighter": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-naboo-royal-starship": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-scimitar": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-j-type-diplomatic-barge": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-aa-9-coruscant-freighter": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-jedi-starfighter": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-h-type-nubian-yacht": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-republic-assault-ship": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-solar-sailer": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-trade-federation-cruiser": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-theta-class-t-2c-shuttle": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-republic-attack-cruiser": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-naboo-star-skiff": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-jedi-interceptor": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-arc-170": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "fuzzy",
+  "candidates": [
+   {
+    "name": "ARC-170 Starfighter",
+    "id": "6429291f021f17e13fbc1d42"
+   }
+  ]
+ },
+ "ss-banking-clan-frigate": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-belbullab-22-starfighter": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-v-wing": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-ghost": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-razor-crest": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-marauder": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-t6-shuttle": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-u-wing": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-fondor-haulcraft": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ss-antique-n1": {
+  "file": "starships.json",
+  "databank_name": "Antique N-1 starfighter",
+  "databank_id": "6429291f021f17e13fbc1d41",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/antique-n-1-starfighter-main_d9ea1e4a.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-a-wing-trainer": {
+  "file": "starships.json",
+  "databank_name": "A-wing trainer (RZ-1T)",
+  "databank_id": "6429291f021f17e13fbc1d3b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/a-wing-trainer_72ac4ed9.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ }
+}

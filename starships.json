@@ -1074,7 +1074,16 @@
     "affiliation": null,
     "canon_status": "explicit",
     "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
-    "one_liner": "공화국 몰락 후에도 살아남은 수공예 나부 N-1. 펠리 모토의 손에서 등록망 밖의 일품으로 대개조되어, 속도·정밀함·멋을 한 몸에 갖췄다. 레이저 크레스트를 잃은 딘 자린의 새 날개."
+    "one_liner": "공화국 몰락 후에도 살아남은 수공예 나부 N-1. 펠리 모토의 손에서 등록망 밖의 일품으로 대개조되어, 속도·정밀함·멋을 한 몸에 갖췄다. 레이저 크레스트를 잃은 딘 자린의 새 날개.",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d41",
+        "name": "Antique N-1 starfighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/antique-n-1-starfighter-main_d9ea1e4a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ss-a-wing-trainer",
@@ -1102,6 +1111,15 @@
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
     "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
-    "one_liner": "교관이 동승할 수 있게 2인승으로 만든 A-윙 훈련기. 반란 초기에 개발됐고, 고스트 크루의 케이넌과 에즈라가 비행 훈련에 썼다."
+    "one_liner": "교관이 동승할 수 있게 2인승으로 만든 A-윙 훈련기. 반란 초기에 개발됐고, 고스트 크루의 케이넌과 에즈라가 비행 훈련에 썼다.",
+    "external_refs": {
+      "databank": {
+        "id": "6429291f021f17e13fbc1d3b",
+        "name": "A-wing trainer (RZ-1T)",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/a-wing-trainer_72ac4ed9.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   }
 ]

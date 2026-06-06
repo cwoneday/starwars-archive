@@ -49,7 +49,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
 .notfound{text-align:center;padding:80px 20px;color:var(--dim)}
 .legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
-.fac-emblem-wrap{margin-bottom:10px}.fac-emblem{width:56px;height:56px;filter:drop-shadow(0 0 10px currentColor)}.fac-emblem use{}</style></head>
+.fac-emblem-wrap{margin-bottom:10px}.fac-emblem{width:56px;height:56px;filter:drop-shadow(0 0 10px currentColor)}.fac-emblem use{}.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}.dbk-official{margin:14px 0 4px;max-width:430px}.dbk-official img{width:100%;height:auto;display:block;border:1px solid rgba(120,140,180,.25);border-radius:11px;box-shadow:0 6px 22px rgba(0,0,0,.45)}.dbk-official figcaption{font-family:'JetBrains Mono',monospace;font-size:8.5px;color:#5a6b76;margin-top:5px;text-align:center}</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -60,7 +60,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
 <symbol id="emb-jedi-order" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="2" opacity=".5"/><path d="M32 8 L37 32 L32 52 L27 32 Z" fill="currentColor"/><circle cx="32" cy="32" r="4" fill="#04060b" stroke="currentColor" stroke-width="1.5"/></symbol>
 <symbol id="emb-sith" viewBox="0 0 64 64"><path d="M32 6 L52 50 L32 40 L12 50 Z" fill="currentColor"/><line x1="32" y1="22" x2="32" y2="58" stroke="currentColor" stroke-width="2.5"/></symbol>
@@ -111,6 +111,7 @@ function render(){
       <div><span class="k">alignment</span><span class="v">${e.alignment}</span></div>
       <div><span class="k">era</span><span class="v">${esc(e.era)}</span></div>
       <div><span class="k">canon_status</span><span class="v">${e.canon_status}</span></div></div>
+    ${(f.external_refs&&f.external_refs.databank&&f.external_refs.databank.image_url)?`<figure class="dbk-official"><img src="${esc(f.external_refs.databank.image_url)}" alt="공식 이미지" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.style.display='none'"><figcaption>이미지 출처: Star Wars Databank © Lucasfilm Ltd.</figcaption></figure>`:""}
     <div class="sec-label">이 세력이 관여한 사건 · Involved Events (${evs.length})</div>
     ${evs.length?`<div class="chips">${evs.map(evChip).join("")}</div>`:'<p class="sec-body dim">기록된 주요 사건이 아직 없습니다.</p>'}
     <div class="sec-label">소속 인물 · Members (${members.length})</div>

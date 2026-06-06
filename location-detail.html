@@ -53,7 +53,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .pd{background:var(--void);border:1px solid var(--line);border-radius:8px;padding:9px 11px;display:flex;flex-direction:column;gap:3px}
 .pd .pk{font-family:var(--fm);font-size:9px;letter-spacing:.08em;color:var(--faint);text-transform:uppercase}
 .pd .pv{font-size:13px;color:var(--ink)}
-.pd-note{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:8px}</style></head>
+.pd-note{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:8px}.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}.dbk-official{margin:14px 0 4px;max-width:430px}.dbk-official img{width:100%;height:auto;display:block;border:1px solid rgba(120,140,180,.25);border-radius:11px;box-shadow:0 6px 22px rgba(0,0,0,.45)}.dbk-official figcaption{font-family:'JetBrains Mono',monospace;font-size:8.5px;color:#5a6b76;margin-top:5px;text-align:center}</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -64,7 +64,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="films.html">작품</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <main class="wrap" id="app"></main>
 <script>
 const ERAKEYS={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
@@ -98,6 +98,7 @@ function render(){
       <div><span class="k">region</span><span class="v">${esc(e.region)}</span></div>
       <div><span class="k">source_type</span><span class="v">${e.source_type}</span></div>
       <div><span class="k">canon_status</span><span class="v">${e.canon_status}</span></div></div>
+    ${(e.external_refs&&e.external_refs.databank&&e.external_refs.databank.image_url)?`<figure class="dbk-official"><img src="${esc(e.external_refs.databank.image_url)}" alt="공식 이미지" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.style.display='none'"><figcaption>이미지 출처: Star Wars Databank © Lucasfilm Ltd.</figcaption></figure>`:""}
     ${(e.climate||e.terrain||e.gravity||e.diameter_km||e.population||e.surface_water_pct!=null)?`<div class="sec-label">행성 정보 · Planet Data</div>
     <div class="planet-grid">
       ${e.climate?`<div class="pd"><span class="pk">기후 · Climate</span><span class="pv">${esc(e.climate)}</span></div>`:""}
