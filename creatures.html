@@ -46,6 +46,7 @@ const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",
   const F={},L={};films.forEach(f=>F[f.id]=f.title);locs.forEach(l=>L[l.id]=l.name);
   document.getElementById("grid").innerHTML=crs.map(c=>`
     <div class="card" id="${c.id}">
+      ${(c.external_refs&&c.external_refs.databank&&c.external_refs.databank.image_url)?`<figure style="margin:0 0 10px"><img src="${esc(c.external_refs.databank.image_url)}" alt="${esc(c.name)}" loading="lazy" referrerpolicy="no-referrer" style="width:100%;height:auto;display:block;border:1px solid rgba(120,140,180,.25);border-radius:9px" onerror="this.parentElement.style.display='none'"><figcaption style="font-family:var(--fm);font-size:8.5px;color:var(--faint);margin-top:4px;text-align:center">이미지 출처: Star Wars Databank © Lucasfilm Ltd.</figcaption></figure>`:""}
       <div class="nm">${esc(c.name)}</div><div class="en">${esc(c.name_en)}</div>
       <span class="typ">${esc(c.type)}</span>
       <div class="ol">${esc(c.one_liner)}</div>

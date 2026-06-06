@@ -13,6 +13,7 @@ def load(n): return json.load(open(os.path.join(DIR,n),encoding='utf-8'))
 
 events=load('events.json'); chars=load('characters.json')
 locs=load('locations.json'); facs=load('factions.json'); rels=load('relations.json')
+creatures=load('creatures.json') if os.path.exists(os.path.join(DIR,'creatures.json')) else []
 try:
     films=load('films.json')
 except FileNotFoundError:
@@ -135,6 +136,12 @@ for f in facs:
     if f.get('alignment') not in ALIGN: err(f"[factions:{f['id']}] alignment 위반: {f.get('alignment')}")
     if f.get('canon_status') not in CANON: err(f"[factions:{f['id']}] canon_status 위반: {f.get('canon_status')}")
     chk_extref('factions',f)
+# creatures (생물 축)
+for cr in creatures:
+    if 'id' not in cr or 'name' not in cr: err(f"[creatures:{cr.get('id','?')}] 필수 필드 누락")
+    if cr.get('homeworld') and cr['homeworld'] not in loc_ids: err(f"[creatures:{cr['id']}] homeworld 깨진 장소 참조: {cr['homeworld']}")
+    if cr.get('canon_status') not in CANON: err(f"[creatures:{cr['id']}] canon_status 위반: {cr.get('canon_status')}")
+    chk_extref('creatures',cr)
 
 # relations
 for i,r in enumerate(rels):
@@ -157,6 +164,10 @@ for f in films:
     if f.get('canon_status') not in CANON: err(f"[films:{f['id']}] canon_status 위반: {f.get('canon_status')}")
     if f.get('source_type') not in STYPE: err(f"[films:{f['id']}] source_type 위반: {f.get('source_type')}")
     if f.get('era_primary') and f.get('era_primary') not in ERA: err(f"[films:{f['id']}] era_primary 위반: {f.get('era_primary')}")
+# 생물 works 링크 정합성
+for cr in creatures:
+    for w in cr.get('works',[]):
+        if w not in film_ids: err(f"[creatures:{cr['id']}] works 깨진 작품 참조: {w}")
 # 사건 work 링크 정합성
 for e in events:
     if e.get('work') and e['work'] not in film_ids:

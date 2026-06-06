@@ -4,7 +4,7 @@
 사용법:
   python3 scripts/entity_pipeline.py map locations      # 매핑 생성/갱신
   python3 scripts/entity_pipeline.py enrich locations   # external_refs 주입
-  (엔티티: locations | organizations | vehicles)
+  (엔티티: locations | organizations | vehicles | creatures)
 
 규칙 (캐릭터 파이프라인과 동일):
 - name_en 정규화 완전 일치 → exact / 부분 일치 → fuzzy(수동대기) / 불일치 → none
@@ -21,6 +21,9 @@ CONFIG = {
     "organizations": {"ours": ["factions.json"],
                       "cache": "cache/databank_raw/organizations.json",
                       "mapping": "mapping/factions_to_databank.json"},
+    "creatures":     {"ours": ["creatures.json"],
+                      "cache": "cache/databank_raw/creatures.json",
+                      "mapping": "mapping/creatures_to_databank.json"},
     "vehicles":      {"ours": ["vehicles.json", "starships.json"],
                       "cache": "cache/databank_raw/vehicles.json",
                       "mapping": "mapping/craft_to_databank.json"},
