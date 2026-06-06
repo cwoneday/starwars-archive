@@ -160,6 +160,9 @@ function render(){
       return `<a class="chip" href="faction-detail.html?id=${a.faction}"><span class="nm">${esc(fn)}</span>${per?`<span class="ref">${esc(per)}</span>`:""}</a>`;
     }).join("")+`</div>`;
   }
+  if(d.profile){
+    html+=`<div class="sec-label">프로필 · Profile</div><p class="sec-body">${esc(d.profile)}</p>`;
+  }
   if(d.motivation){
     html+=`<div class="sec-label">동기 · Motivation</div><p class="sec-body">${esc(d.motivation)}</p>`;
   }

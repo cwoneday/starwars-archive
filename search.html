@@ -54,7 +54,7 @@ mark{background:rgba(69,212,227,.25);color:var(--holo);border-radius:2px;padding
 <script>
 const TYPES={
   character:{label:"인물",icon:"👤",file:"characters.json",url:"character-detail.html",
-    name:o=>o.name,en:o=>o.name_en,sub:o=>o.motivation||"",fields:o=>[o.name,o.name_en,o.motivation]},
+    name:o=>o.name,en:o=>o.name_en,sub:o=>o.motivation||"",fields:o=>[o.name,o.name_en,o.motivation,o.profile]},
   film:{label:"작품",icon:"🎬",file:"films.json",url:"film-detail.html",
     name:o=>o.title,en:o=>o.title_en,sub:o=>o.summary||"",fields:o=>[o.title,o.title_en,o.summary,o.significance,(o.tags||[]).join(" ")]},
   event:{label:"사건",icon:"◆",file:"events.json",url:"event-detail.html",
