@@ -84,7 +84,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:20;padding:18px 24px;pointer-
   <div class="legend-item"><span class="dot" style="background:var(--dark);color:var(--dark)"></span>다크사이드</div>
   <div class="legend-item"><span class="dot" style="background:var(--neutral);color:var(--neutral)"></span>중립 / 기타</div>
   <input class="search" id="search" placeholder="인물 검색…" autocomplete="off" style="margin-top:16px">
-  <div class="hint">휠로 확대하면 인물이 실루엣으로 떠오릅니다. 노드 클릭 → 관계 부각 + 풀스탯 카드. 배경 드래그=이동, 노드 드래그=재배치.<br><br>노드 사진 출처: Star Wars Databank © Lucasfilm Ltd. · 로드 실패·오프라인 시 실루엣 자동 복귀</div>
+  <div class="hint">휠로 확대하면 인물이 실루엣으로 떠오릅니다. 노드 클릭 → 관계 부각 + 풀스탯 카드. 배경 드래그=이동, 노드 드래그=재배치.<br><br>노드 사진 출처: Star Wars Databank © Lucasfilm Ltd.<br>사진은 <b>확대하면</b> 화면에 보이는 인물부터 차례로 나타남 (초기 로딩 가볍게) · 실패·오프라인 시 실루엣 복귀</div>
 </div>
 <div class="detail" id="detail"></div><div class="footer" id="footer"></div><div class="tooltip" id="tooltip"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
@@ -157,9 +157,11 @@ function updateLOD(){
   const k=zt.k;
   const labelOp=Math.max(0,Math.min(1,(k-1.15)/0.5));
   const silOp=Math.max(0,Math.min(1,(k-1.8)/1.1))*0.92;
-  g.select('use.sil').attr('opacity',d=>(photoMode&&d.img)?0:silOp);
-  g.select('circle.dot').attr('opacity',d=>(photoMode&&d.img)?1:(1-0.45*silOp));
-  g.select('image.nphoto').attr('opacity',photoMode?1:0);
+  ensurePhotos();
+  const phOp=Math.max(0,Math.min(1,(k-PHOTO_K)/0.7));
+  g.select('use.sil').attr('opacity',d=>(photoMode&&d.img&&d._ph)?silOp*(1-phOp):silOp);
+  g.select('circle.dot').attr('opacity',d=>(photoMode&&d.img&&d._ph)?1:(1-0.45*silOp));
+  g.select('image.nphoto').attr('opacity',photoMode?phOp:0);
   g.select('text').attr('opacity',d=>(selected&&d.id===selected)?1:labelOp);
 }
 const zoomB=d3.zoom().scaleExtent([0.3,6])
@@ -212,21 +214,34 @@ document.getElementById('coappBtn').onclick=function(){showCoapp=!showCoapp;this
 document.getElementById('search').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();if(!q){select(null);return;}const hit=nodes.find(n=>n.kr.toLowerCase().includes(q)||n.en.toLowerCase().includes(q));if(hit)select(hit.id);});
 function updateFooter(){const tl=typed.filter(l=>activeTypes.has(l.type)).length;document.getElementById('footer').innerHTML=`인물 <b>82</b> · 관계선 <b>${tl}</b>${showCoapp?` · 공동출연 <b>${coapp.length}</b>`:''} · 타입 <b>${activeTypes.size}/4</b>`;}
 updateFooter();updateLOD();
-fetch('characters.json').then(r=>r.json()).then(cs=>{
-  NARR=Object.fromEntries(cs.map(c=>[c.id,{motivation:c.motivation,arc:c.arc}]));
-  const IMG=Object.fromEntries(cs.filter(c=>c.external_refs&&c.external_refs.databank&&c.external_refs.databank.image_url).map(c=>[c.id,c.external_refs.databank.image_url]));
+// 사진 지연 로딩: 초기엔 URL만 보관 → 확대(k>=1.5) 시 화면에 보이는 노드만 생성
+const PHOTO_K=1.5;
+function ensurePhotos(){
+  if(!photoMode||zt.k<PHOTO_K)return;
+  const M=140;
   g.each(function(d){
-    const u=IMG[d.id]; if(!u)return; d.img=u;
+    if(!d.img||d._ph)return;
+    const sx=zt.applyX(d.x),sy=zt.applyY(d.y);
+    if(sx<-M||sx>W+M||sy<-M||sy>H+M)return;
+    d._ph=true;
     const r=rScale(tdeg.get(d.id));
     d3.select(this).insert('image','text').attr('class','nphoto')
-      .attr('href',u).attr('x',-r).attr('y',-r).attr('width',2*r).attr('height',2*r)
+      .attr('href',d.img).attr('x',-r).attr('y',-r).attr('width',2*r).attr('height',2*r)
       .attr('preserveAspectRatio','xMidYMid slice').style('clip-path','circle(50%)')
-      .style('pointer-events','none')
+      .style('pointer-events','none').attr('opacity',0)
       .on('error',function(){d.img=null;d3.select(this).remove();updateLOD();});
+  });
+}
+fetch('characters.json').then(r=>r.json()).then(cs=>{
+  NARR=Object.fromEntries(cs.map(c=>[c.id,{motivation:c.motivation,arc:c.arc}]));
+  cs.forEach(c=>{
+    const u=c.external_refs&&c.external_refs.databank&&c.external_refs.databank.image_url;
+    const n=nodeById.get(c.id); if(n&&u)n.img=u;
   });
   updateLOD();
   if(selected)showDetail(nodeById.get(selected));
 }).catch(()=>{});
+sim.on('end.photos',ensurePhotos);
 document.getElementById('photoBtn').onclick=function(){photoMode=!photoMode;this.classList.toggle('off',!photoMode);updateLOD();};
 const _f=new URLSearchParams(location.search).get('focus');if(_f&&nodeById.get(_f)){setTimeout(()=>{select(_f);zoomToNode(_f);},900);}
 window.addEventListener('resize',()=>{resize();sim.force('center',d3.forceCenter(W/2,H/2));sim.alpha(.2).restart();});
