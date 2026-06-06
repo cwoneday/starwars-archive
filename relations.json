@@ -45,7 +45,7 @@
     "type": "family"
   },
   {
-    "s": "bail-prestor-organa",
+    "s": "bail-organa",
     "t": "leia-organa",
     "type": "family"
   },
@@ -150,7 +150,7 @@
     "type": "ally"
   },
   {
-    "s": "ayla-secura",
+    "s": "aayla-secura",
     "t": "mace-windu",
     "type": "ally"
   },
@@ -176,11 +176,11 @@
   },
   {
     "s": "padme-amidala",
-    "t": "bail-prestor-organa",
+    "t": "bail-organa",
     "type": "ally"
   },
   {
-    "s": "bail-prestor-organa",
+    "s": "bail-organa",
     "t": "mon-mothma",
     "type": "ally"
   },
@@ -305,7 +305,7 @@
     "type": "ally"
   },
   {
-    "s": "bail-prestor-organa",
+    "s": "bail-organa",
     "t": "raymus-antilles",
     "type": "ally"
   },
@@ -835,11 +835,6 @@
     "type": "master"
   },
   {
-    "s": "bail-organa",
-    "t": "leia-organa",
-    "type": "family"
-  },
-  {
     "s": "obi-wan-kenobi",
     "t": "leia-organa",
     "type": "ally"
@@ -847,6 +842,21 @@
   {
     "s": "obi-wan-kenobi",
     "t": "bail-organa",
+    "type": "ally"
+  },
+  {
+    "s": "hera-syndulla",
+    "t": "chopper",
+    "type": "ally"
+  },
+  {
+    "s": "ezra-bridger",
+    "t": "chopper",
+    "type": "ally"
+  },
+  {
+    "s": "r2-d2",
+    "t": "bb-8",
     "type": "ally"
   }
 ]

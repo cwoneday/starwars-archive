@@ -979,7 +979,7 @@
     "characters": [
       "palpatine",
       "mas-amedda",
-      "bail-prestor-organa",
+      "bail-organa",
       "padme-amidala"
     ],
     "locations": [
@@ -1015,7 +1015,7 @@
     "outcome": "공화국 → 제국 전환",
     "key_figures": [
       "palpatine",
-      "bail-prestor-organa",
+      "bail-organa",
       "padme-amidala"
     ],
     "background": "전쟁을 끝낸다는 명분으로 팰퍼틴이 공화국을 제국으로 재편하고 스스로 황제에 올랐다.",
@@ -1126,7 +1126,7 @@
     "category": "founding",
     "tier": 2,
     "characters": [
-      "bail-prestor-organa",
+      "bail-organa",
       "mon-mothma"
     ],
     "locations": [],
@@ -1160,7 +1160,7 @@
     },
     "outcome": "저항 세력 규합 시작",
     "key_figures": [
-      "bail-prestor-organa",
+      "bail-organa",
       "mon-mothma"
     ],
     "background": "제국의 압제에 맞서 흩어져 활동하던 저항 조직들이 서로를 찾아 하나의 연합으로 묶이기 시작했다.",
@@ -1247,7 +1247,7 @@
     "tier": 1,
     "characters": [
       "mon-mothma",
-      "bail-prestor-organa"
+      "bail-organa"
     ],
     "locations": [],
     "factions": [
@@ -1271,7 +1271,7 @@
     "outcome": "반란연합 공식 출범",
     "key_figures": [
       "mon-mothma",
-      "bail-prestor-organa"
+      "bail-organa"
     ],
     "background": "각지의 저항 세포는 서로를 의심하며 흩어져 있었고, 이들을 묶을 공개적 명분과 구심점이 필요했다.",
     "aftermath": "몬 모스마의 결별 선언이 신호탄이 되어 동맹이 결성된다. 반란은 이제 그림자에서 나와 제국과 정면으로 맞선다.",
@@ -2974,7 +2974,8 @@
     ],
     "factions": [
       "inquisitorius",
-      "galactic-empire"
+      "galactic-empire",
+      "hidden-path"
     ],
     "source": "오비완 케노비",
     "source_type": "series",

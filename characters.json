@@ -64,7 +64,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2062",
+        "name": "Luke Skywalker",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_fb34a1ff.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "c-3po",
@@ -121,7 +130,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ec5",
+        "name": "C-3PO (See-Threepio)",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_417a2902.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "r2-d2",
@@ -179,7 +197,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc210c",
+        "name": "R2-D2",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "darth-vader",
@@ -247,7 +274,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f33",
+        "name": "Darth Vader",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "leia-organa",
@@ -310,7 +346,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2046",
+        "name": "Leia Organa",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-feature-image_d0f5e9_056d9177.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "owen-lars",
@@ -352,7 +397,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20d0",
+        "name": "Owen Lars",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "beru-whitesun-lars",
@@ -393,7 +447,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e9e",
+        "name": "Beru Lars",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "r5-d4",
@@ -427,7 +490,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2114",
+        "name": "R5-D4",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "biggs-darklighter",
@@ -477,7 +549,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ea3",
+        "name": "Biggs Darklighter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "obi-wan-kenobi",
@@ -546,7 +627,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20b5",
+        "name": "Obi-Wan Kenobi",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "anakin-skywalker",
@@ -611,7 +701,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e71",
+        "name": "Anakin Skywalker",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_0326586e.png",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "wilhuff-tarkin",
@@ -662,7 +761,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fc0",
+        "name": "Grand Moff Tarkin",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/aftermath-the-bad-batch-story-gallery-14_d05778d2.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "chewbacca",
@@ -714,7 +822,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Wookiee"
+    "species_en": "Wookiee",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1eee",
+        "name": "Chewbacca",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "han-solo",
@@ -774,7 +891,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fd8",
+        "name": "Han Solo",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "greedo",
@@ -808,7 +934,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Rodian"
+    "species_en": "Rodian",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fc2",
+        "name": "Greedo",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "jabba-desilijic-tiure",
@@ -855,7 +990,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Hutt"
+    "species_en": "Hutt",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ff2",
+        "name": "Jabba the Hutt",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "wedge-antilles",
@@ -906,7 +1050,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21e5",
+        "name": "Wedge Antilles",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "jek-tono-porkins",
@@ -1018,7 +1171,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Yoda's species"
+    "species_en": "Yoda's species",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21fa",
+        "name": "Yoda",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "palpatine",
@@ -1098,7 +1260,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f6b",
+        "name": "Emperor Palpatine / Darth Sidious",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine-main_d6632d0a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "boba-fett",
@@ -1146,7 +1317,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1eab",
+        "name": "Boba Fett",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ig-88",
@@ -1185,7 +1365,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fe5",
+        "name": "IG-88",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/ig_88_cdd5cc52.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "bossk",
@@ -1224,7 +1413,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Trandoshan"
+    "species_en": "Trandoshan",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1eb8",
+        "name": "Bossk",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "lando-calrissian",
@@ -1279,7 +1477,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2040",
+        "name": "Lando Calrissian",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "lobot",
@@ -1313,7 +1520,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2053",
+        "name": "Lobot",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_lobot_01_169_8a50d7ae.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ackbar",
@@ -1363,7 +1579,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Mon Calamari"
+    "species_en": "Mon Calamari",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e51",
+        "name": "Admiral Ackbar",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "mon-mothma",
@@ -1438,7 +1663,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2096",
+        "name": "Mon Mothma",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "arvel-crynyd",
@@ -1533,7 +1767,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Ewok"
+    "species_en": "Ewok",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21e9",
+        "name": "Wicket W. Warrick",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "nien-nunb",
@@ -1578,7 +1821,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Sullustan"
+    "species_en": "Sullustan",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20aa",
+        "name": "Nien Nunb",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "qui-gon-jinn",
@@ -1628,7 +1880,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2108",
+        "name": "Qui-Gon Jinn",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/qui-gon-jinn-main_3386f119.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "nute-gunray",
@@ -1684,7 +1945,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Neimoidian"
+    "species_en": "Neimoidian",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20b3",
+        "name": "Nute Gunray",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_nutegunray_01_169_9d66ded2.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "finis-valorum",
@@ -1794,7 +2064,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20d2",
+        "name": "Padmé Amidala",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Padme-Amidala_05d50c8a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "jar-jar-binks",
@@ -1849,7 +2128,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Gungan"
+    "species_en": "Gungan",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ffa",
+        "name": "Jar Jar Binks",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_jarjarbinks_01_169_c70767ab.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "roos-tarpals",
@@ -1977,7 +2265,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2129",
+        "name": "Ric Olie",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_ricolie_01_169_f175f81b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "watto",
@@ -2022,7 +2319,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Toydarian"
+    "species_en": "Toydarian",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21e4",
+        "name": "Watto",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_watto_01_169_ecd563f1.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "sebulba",
@@ -2056,7 +2362,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Dug"
+    "species_en": "Dug",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc214f",
+        "name": "Sebulba",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/sebulba_1f3fe180.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "quarsh-panaka",
@@ -2146,7 +2461,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2160",
+        "name": "Shmi Skywalker Lars",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_shmiskywalkerlars_01_169_7449f0a8.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "darth-maul",
@@ -2209,7 +2533,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Zabrak"
+    "species_en": "Zabrak",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc207f",
+        "name": "Maul",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Darth-Maul_632eb5af.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "bib-fortuna",
@@ -2243,54 +2576,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Twi'lek"
-  },
-  {
-    "id": "ayla-secura",
-    "name": "에일라 세큐라",
-    "name_en": "Ayla Secura",
-    "alignment": "light",
-    "tier": 1,
-    "era_primary": "fall_of_the_jedi",
-    "height_cm": 178,
-    "mass_kg": 55.0,
-    "gender": "female",
-    "species": "트와일렉",
-    "birth_year": "48BBY",
-    "birth_year_value": -48.0,
-    "birth_year_certainty": "referenced",
-    "homeworld": "ryloth",
-    "affiliation_history": [
-      {
-        "faction": "jedi-order",
-        "from_event": null,
-        "to_event": null
+    "species_en": "Twi'lek",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ea0",
+        "name": "Bib Fortuna",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
       }
-    ],
-    "motivation": "충직하고 용맹한 전장의 제다이 장군. 함께 싸우는 클론들을 신뢰했다.",
-    "arc": [
-      {
-        "event": "order-66",
-        "note": "함께 싸우던 클론들의 갑작스러운 배신에 외딴 행성에서 스러진다."
-      }
-    ],
-    "key_choices": [],
-    "appears_in": [],
-    "works": [
-      "ep-1-phantom-menace",
-      "ep-2-attack-of-clones",
-      "ep-3-revenge-of-sith"
-    ],
-    "portrait": {
-      "type": "silhouette",
-      "archetype": "jedi",
-      "ref": null,
-      "license": "original"
-    },
-    "source": "스타워즈 영화 6부작 (Ep I–VI)",
-    "source_type": "film",
-    "canon_status": "explicit",
-    "species_en": "Twi'lek"
+    }
   },
   {
     "id": "ratts-tyerel",
@@ -2324,7 +2619,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Aleena"
+    "species_en": "Aleena",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2122",
+        "name": "Ratts Tyerell",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_rattstyerell_01_169_031aea6d.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "dud-bolt",
@@ -2392,7 +2696,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Xexto"
+    "species_en": "Xexto",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f9a",
+        "name": "Gasgano",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/gasgano_6f648f83.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ben-quadinaros",
@@ -2426,7 +2739,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Toong"
+    "species_en": "Toong",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e9a",
+        "name": "Ben Quadinaros",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_benquadinaros_01_169_0c77b6a0.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "mace-windu",
@@ -2487,7 +2809,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc206c",
+        "name": "Mace Windu",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Mace-Windu_b35242e5.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ki-adi-mundi",
@@ -2538,7 +2869,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Cerean"
+    "species_en": "Cerean",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2025",
+        "name": "Ki-Adi-Mundi",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_kiadimundi_01_169_0a8842d3.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "kit-fisto",
@@ -2585,7 +2925,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Nautolan"
+    "species_en": "Nautolan",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc202e",
+        "name": "Kit Fisto",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_kitfisto_01_169_21517d01.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "eeth-koth",
@@ -2626,7 +2975,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Zabrak"
+    "species_en": "Zabrak",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f62",
+        "name": "Eeth Koth",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Eeth-Koth2_246ea172.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "adi-gallia",
@@ -2667,7 +3025,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Tholothian"
+    "species_en": "Tholothian",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e50",
+        "name": "Adi Gallia",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_adigallia_169_8b798f27.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "saesee-tiin",
@@ -2713,7 +3080,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Iktotchi"
+    "species_en": "Iktotchi",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2143",
+        "name": "Saesee Tiin",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_saeseetiin_01_169_c9a8a41c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "yarael-poof",
@@ -2753,7 +3129,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Quermian"
+    "species_en": "Quermian",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21f8",
+        "name": "Yarael Poof",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-08-03_at_10_b0b47660.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "plo-koon",
@@ -2800,7 +3185,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Kel Dor"
+    "species_en": "Kel Dor",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20e6",
+        "name": "Plo Koon",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_plokoon_01_169_92e6679c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "mas-amedda",
@@ -2851,7 +3245,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Chagrian"
+    "species_en": "Chagrian",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc207d",
+        "name": "Mas Amedda",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/mas-amedda-main_3e450a61.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "gregar-typho",
@@ -2985,7 +3388,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1efd",
+        "name": "Cliegg Lars",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_cliegglars_01_169_c2f0b9cb.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "poggle-the-lesser",
@@ -3026,7 +3438,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Geonosian"
+    "species_en": "Geonosian",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20ea",
+        "name": "Poggle the Lesser",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_pogglethelesser_01_169_7095ae3c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "luminara-unduli",
@@ -3072,7 +3493,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Mirialan"
+    "species_en": "Mirialan",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2064",
+        "name": "Luminara Unduli",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/luminara_c05b2971.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "barriss-offee",
@@ -3123,7 +3553,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Mirialan"
+    "species_en": "Mirialan",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e8f",
+        "name": "Barriss Offee",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Barriss-Offee-main-image_a4f0cc76.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "dorme",
@@ -3229,71 +3668,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
-  },
-  {
-    "id": "bail-prestor-organa",
-    "name": "베일 오르가나",
-    "name_en": "Bail Prestor Organa",
-    "alignment": "light",
-    "tier": 1,
-    "era_primary": "fall_of_the_jedi",
-    "height_cm": 191,
-    "mass_kg": null,
-    "gender": "male",
-    "species": "인간",
-    "birth_year": "67BBY",
-    "birth_year_value": -67.0,
-    "birth_year_certainty": "referenced",
-    "homeworld": "alderaan",
-    "affiliation_history": [
-      {
-        "faction": "galactic-republic",
-        "from_event": null,
-        "to_event": "declaration-of-empire"
-      },
-      {
-        "faction": "rebel-alliance",
-        "from_event": "rise-of-rebellion-cells",
-        "to_event": null
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f29",
+        "name": "Count Dooku",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Count-Dooku_4f552149.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
       }
-    ],
-    "motivation": "공화국의 이상을 끝까지 믿은 정치가. 제국의 그늘에서 조용히 저항의 씨를 심는다.",
-    "arc": [
-      {
-        "event": "declaration-of-empire",
-        "note": "자유가 죽는 원로원에 앉아 침묵 속에 결심한다."
-      },
-      {
-        "event": "rise-of-rebellion-cells",
-        "note": "흩어진 저항을 하나의 연합으로 엮는다."
-      },
-      {
-        "event": "battle-of-scarif",
-        "note": "레이아에게 설계도의 임무를 맡긴다."
-      }
-    ],
-    "key_choices": [
-      {
-        "event": "rise-of-rebellion-cells",
-        "note": "딸 레이아를 저항의 길로 들이는 결정."
-      }
-    ],
-    "appears_in": [],
-    "works": [
-      "ep-2-attack-of-clones",
-      "ep-3-revenge-of-sith"
-    ],
-    "portrait": {
-      "type": "silhouette",
-      "archetype": "royal",
-      "ref": null,
-      "license": "original"
-    },
-    "source": "스타워즈 영화 6부작 (Ep I–VI)",
-    "source_type": "film",
-    "canon_status": "explicit",
-    "species_en": "Human"
+    }
   },
   {
     "id": "jango-fett",
@@ -3332,7 +3716,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ff7",
+        "name": "Jango Fett",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_jangofett_01_169_884cefab.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "zam-wesell",
@@ -3376,7 +3769,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Clawdite"
+    "species_en": "Clawdite",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21fe",
+        "name": "Zam Wesell",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/zam-wesell_bbaffe9f.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "dexter-jettster",
@@ -3415,7 +3817,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Besalisk"
+    "species_en": "Besalisk",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f43",
+        "name": "Dexter Jettster",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_dexterjettster_01_169_09c89b71.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "lama-su",
@@ -3454,7 +3865,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Kaminoan"
+    "species_en": "Kaminoan",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc203f",
+        "name": "Lama Su",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/lama-su-main_63f653f9.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "taun-we",
@@ -3493,7 +3913,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Kaminoan"
+    "species_en": "Kaminoan",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2197",
+        "name": "Taun We",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-bounty-lost-story-gallery-03_1878426f.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "jocasta-nu",
@@ -3538,7 +3967,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc200a",
+        "name": "Jocasta Nu",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/jocasta-nu_a3b32f08.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "r4-p17",
@@ -3579,7 +4017,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2113",
+        "name": "R4-P17",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/r4-p17_19602f62.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "wat-tambor",
@@ -3624,7 +4071,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Skakoan"
+    "species_en": "Skakoan",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21e3",
+        "name": "Wat Tambor",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_emirwattambor_01_169_9528ba0f.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "san-hill",
@@ -3669,7 +4125,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Muun"
+    "species_en": "Muun",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2147",
+        "name": "San Hill",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/san-hill_852a226d.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "shaak-ti",
@@ -3715,7 +4180,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Togruta"
+    "species_en": "Togruta",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc215b",
+        "name": "Shaak Ti",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/shaak_ti_9523e7c7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "grievous",
@@ -3769,7 +4243,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Kaleesh"
+    "species_en": "Kaleesh",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f9e",
+        "name": "General Grievous",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/General-Grievous_c9df9cb5.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "tarfful",
@@ -3808,7 +4291,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Wookiee"
+    "species_en": "Wookiee",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2194",
+        "name": "Tarfful",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/tarrful_f20d3412.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "raymus-antilles",
@@ -3904,7 +4396,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2171",
+        "name": "Sly Moore",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/sly-moore_6af90e66.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "tion-medon",
@@ -3948,7 +4449,16 @@
     "source": "스타워즈 영화 6부작 (Ep I–VI)",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Pau'an"
+    "species_en": "Pau'an",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21b6",
+        "name": "Tion Medon",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_tionmedon_01_169_bf78864d.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "mae-aniseya",
@@ -4194,7 +4704,16 @@
     "source": "만달로리안",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f44",
+        "name": "Din Djarin (The Mandalorian)",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/din-djarin-main_a3810794.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "grogu",
@@ -4235,7 +4754,16 @@
     "source": "만달로리안",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Unknown"
+    "species_en": "Unknown",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fc9",
+        "name": "Grogu",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/grogu-main_89c92eaa.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "rotta-the-hutt",
@@ -4275,7 +4803,16 @@
     "source": "만달로리안과 그로구",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Hutt"
+    "species_en": "Hutt",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2135",
+        "name": "Rotta the Huttlet",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_rottathehuttlet_01_169_9d6f6e21.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "colonel-ward",
@@ -4376,7 +4913,16 @@
     "source": "클론 전쟁 / 반란군",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Togruta"
+    "species_en": "Togruta",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e66",
+        "name": "Ahsoka Tano",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/ahsoka-main_47d8386d.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "cal-kestis",
@@ -4417,7 +4963,16 @@
     "source": "제다이: 폴른 오더 / 서바이버",
     "source_type": "game",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ec9",
+        "name": "Cal Kestis",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/cal-main_4829aec1.png",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "cassian-andor",
@@ -4458,7 +5013,16 @@
     "source": "안돌 / 로그 원",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ee1",
+        "name": "Cassian Andor",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/cassian-andor-main_d583d3b2.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "jyn-erso",
@@ -4498,7 +5062,16 @@
     "source": "로그 원",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc200f",
+        "name": "Jyn Erso",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/jyn-erso_ccf70c46.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "galen-erso",
@@ -4538,7 +5111,16 @@
     "source": "로그 원",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f8d",
+        "name": "Galen Erso",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/galen-erso-main_d1489952.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "k-2so",
@@ -4578,7 +5160,16 @@
     "source": "로그 원",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2010",
+        "name": "K-2SO (Kay-Tuesso)",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/k-2s0-main-b_73a8fed8.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "chirrut-imwe",
@@ -4618,7 +5209,16 @@
     "source": "로그 원",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ef4",
+        "name": "Chirrut Îmwe",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/chirrut-imwe_5ed7457a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "grand-admiral-thrawn",
@@ -4665,7 +5265,16 @@
     "source": "스론 / 반란군",
     "source_type": "novel",
     "canon_status": "explicit",
-    "species_en": "Chiss"
+    "species_en": "Chiss",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fbf",
+        "name": "Grand Admiral Thrawn",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/grand-admiral-thrawn2_bda317f3.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "ezra-bridger",
@@ -4720,7 +5329,16 @@
     "source": "반란군",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f73",
+        "name": "Ezra Bridger",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/ezra-bridger-s3_2236d8f8.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "kanan-jarrus",
@@ -4765,7 +5383,16 @@
     "source": "반란군",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2015",
+        "name": "Kanan Jarrus / Caleb Dume",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/kanan-jarrus-caleb-dume-main_f803f0ca.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "hera-syndulla",
@@ -4811,7 +5438,16 @@
     "source": "반란군",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Twi'lek"
+    "species_en": "Twi'lek",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fdc",
+        "name": "Hera Syndulla",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/hera-syndulla-main_9a8a6181.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "sabine-wren",
@@ -4867,7 +5503,16 @@
     "source": "반란군",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2141",
+        "name": "Sabine Wren",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/sabine-wren-s3_b9553ce2.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "marchion-ro",
@@ -4990,7 +5635,16 @@
     "source": "여파 3부작",
     "source_type": "novel",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2117",
+        "name": "Rae Sloane",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/rae-sloane-main_99d88b74.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "norra-wexley",
@@ -5075,7 +5729,16 @@
     "source": "안돌",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2065",
+        "name": "Luthen Rael",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/luthen-rael-main-b_2eeef63b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "nightsister-merrin",
@@ -5335,7 +5998,16 @@
     "source": "아소카",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc206e",
+        "name": "Magistrate Morgan Elsbeth",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/magistrate-morgan-elsbeth-main_d7b9d192.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "baylan-skoll",
@@ -5457,7 +6129,16 @@
     "source": "배드 배치",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human (clone)"
+    "species_en": "Human (clone)",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fe1",
+        "name": "Hunter",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/hunter-s2-a-main_10953c10.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "omega",
@@ -5496,7 +6177,16 @@
     "source": "배드 배치",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human (clone)"
+    "species_en": "Human (clone)",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20bf",
+        "name": "Omega",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/omega-s2-a-main_0216f1de.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "crosshair",
@@ -5546,7 +6236,16 @@
     "source": "배드 배치",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human (clone)"
+    "species_en": "Human (clone)",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f2b",
+        "name": "Crosshair",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/crosshair-main_92c9b4b8.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "wrecker-clone",
@@ -5585,7 +6284,16 @@
     "source": "배드 배치",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human (clone)"
+    "species_en": "Human (clone)",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21ef",
+        "name": "Wrecker",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/wrecker-s2-a-main_cd3412e7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "tech-clone",
@@ -5629,7 +6337,16 @@
     "source": "배드 배치",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human (clone)"
+    "species_en": "Human (clone)",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc219d",
+        "name": "Tech",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/tech-main_4c1adf1b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "echo-clone",
@@ -5674,7 +6391,16 @@
     "source": "배드 배치",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human (clone)"
+    "species_en": "Human (clone)",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f5e",
+        "name": "Echo",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/echo-main_832bccdb.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "dr-hemlock",
@@ -5719,7 +6445,16 @@
     "source": "배드 배치",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f56",
+        "name": "Dr. Royce Hemlock",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-story-gallery-metamorphosis-03_36241a52.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "asajj-ventress",
@@ -5769,7 +6504,16 @@
     "source": "언더월드 이야기",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Dathomirian"
+    "species_en": "Dathomirian",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e7a",
+        "name": "Asajj Ventress",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/Asajj-Ventress_d5ca9413.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "cad-bane",
@@ -5824,7 +6568,16 @@
     "source": "언더월드 이야기",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Duros"
+    "species_en": "Duros",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ec7",
+        "name": "Cad Bane",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/cad-bane-main_1fbcbcd8.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "fennec-shand",
@@ -5863,7 +6616,16 @@
     "source": "보바 펫의 북",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f77",
+        "name": "Fennec Shand",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/fennec-shand-main_25402b49.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "black-krrsantan",
@@ -5902,7 +6664,16 @@
     "source": "보바 펫의 북",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Wookiee"
+    "species_en": "Wookiee",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2039",
+        "name": "Krrsantan",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/krrsantan-main_8b84c126.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "reva",
@@ -6006,7 +6777,16 @@
     "source": "오비완 케노비",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Pau'an"
+    "species_en": "Pau'an",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21ae",
+        "name": "The Grand Inquisitor",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-grand-inquisitor-main_aba95c9f.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "fifth-brother",
@@ -6046,7 +6826,16 @@
     "source": "오비완 케노비",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f7a",
+        "name": "Fifth Brother Inquisitor",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/fifth-brother-main_e2a5caa7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "bail-organa",
@@ -6080,6 +6869,8 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
+      "ep-2-attack-of-clones",
+      "ep-3-revenge-of-sith",
       "obi-wan-kenobi"
     ],
     "portrait": {
@@ -6091,7 +6882,16 @@
     "source": "오비완 케노비",
     "source_type": "series",
     "canon_status": "explicit",
-    "species_en": "Human"
+    "species_en": "Human",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e8a",
+        "name": "Bail Organa",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/bail-organa-main_ad4b657d.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "aayla-secura",
@@ -6125,6 +6925,8 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
+      "ep-1-phantom-menace",
+      "ep-2-attack-of-clones",
       "ep-3-revenge-of-sith",
       "the-clone-wars"
     ],
@@ -6143,8 +6945,8 @@
         "id": "64292927021f17e13fbc1e4f",
         "name": "Aayla Secura",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_aaylasecura_01_169_39a65af2.jpeg",
-        "fetched_at": "2026-06-06",
-        "credit": "Star Wars Databank © Lucasfilm Ltd."
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
       }
     }
   },
@@ -6269,7 +7071,16 @@
     "source": "깨어난 포스",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e93",
+        "name": "BB-8",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "chopper",
@@ -6304,6 +7115,15 @@
     "source": "반란군",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ef5",
+        "name": "Chopper (C1-10P)",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/chopper-main_607bb2d9.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   }
 ]

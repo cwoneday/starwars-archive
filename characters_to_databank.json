@@ -1,141 +1,164 @@
 {
  "luke-skywalker": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Luke Skywalker",
+  "databank_id": "64292927021f17e13fbc2062",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_fb34a1ff.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "leia-organa": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Leia Organa",
+  "databank_id": "64292927021f17e13fbc2046",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-feature-image_d0f5e9_056d9177.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "han-solo": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Han Solo",
+  "databank_id": "64292927021f17e13fbc1fd8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "darth-vader": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Darth Vader",
+  "databank_id": "64292927021f17e13fbc1f33",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "obi-wan-kenobi": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Obi-Wan Kenobi",
+  "databank_id": "64292927021f17e13fbc20b5",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "yoda": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Yoda",
+  "databank_id": "64292927021f17e13fbc21fa",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "r2-d2": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "R2-D2",
+  "databank_id": "64292927021f17e13fbc210c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "c-3po": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "C-3PO (See-Threepio)",
+  "databank_id": "64292927021f17e13fbc1ec5",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_417a2902.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "chewbacca": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Chewbacca",
+  "databank_id": "64292927021f17e13fbc1eee",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "lando-calrissian": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Lando Calrissian",
+  "databank_id": "64292927021f17e13fbc2040",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "boba-fett": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Boba Fett",
+  "databank_id": "64292927021f17e13fbc1eab",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "wilhuff-tarkin": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Grand Moff Tarkin",
+  "databank_id": "64292927021f17e13fbc1fc0",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/aftermath-the-bad-batch-story-gallery-14_d05778d2.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "palpatine": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Emperor Palpatine / Darth Sidious",
+  "databank_id": "64292927021f17e13fbc1f6b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine-main_d6632d0a.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "mon-mothma": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Mon Mothma",
+  "databank_id": "64292927021f17e13fbc2096",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "ackbar": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Admiral Ackbar",
+  "databank_id": "64292927021f17e13fbc1e51",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "owen-lars": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Owen Lars",
+  "databank_id": "64292927021f17e13fbc20d0",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "beru-whitesun-lars": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Beru Lars",
+  "databank_id": "64292927021f17e13fbc1e9e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "r5-d4": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "R5-D4",
+  "databank_id": "64292927021f17e13fbc2114",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "biggs-darklighter": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Biggs Darklighter",
+  "databank_id": "64292927021f17e13fbc1ea3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "anakin-skywalker": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Anakin Skywalker",
+  "databank_id": "64292927021f17e13fbc1e71",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_0326586e.png",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "greedo": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Greedo",
+  "databank_id": "64292927021f17e13fbc1fc2",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "jabba-desilijic-tiure": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Jabba the Hutt",
+  "databank_id": "64292927021f17e13fbc1ff2",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "wedge-antilles": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Wedge Antilles",
+  "databank_id": "64292927021f17e13fbc21e5",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "jek-tono-porkins": {
   "databank_name": null,
@@ -144,22 +167,25 @@
   "match_status": "none"
  },
  "ig-88": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "IG-88",
+  "databank_id": "64292927021f17e13fbc1fe5",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/ig_88_cdd5cc52.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "bossk": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Bossk",
+  "databank_id": "64292927021f17e13fbc1eb8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "lobot": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Lobot",
+  "databank_id": "64292927021f17e13fbc2053",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_lobot_01_169_8a50d7ae.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "arvel-crynyd": {
   "databank_name": null,
@@ -168,46 +194,53 @@
   "match_status": "none"
  },
  "wicket-systri-warrick": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Wicket W. Warrick",
+  "databank_id": "64292927021f17e13fbc21e9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "nien-nunb": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Nien Nunb",
+  "databank_id": "64292927021f17e13fbc20aa",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "qui-gon-jinn": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Qui-Gon Jinn",
+  "databank_id": "64292927021f17e13fbc2108",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/qui-gon-jinn-main_3386f119.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "nute-gunray": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Nute Gunray",
+  "databank_id": "64292927021f17e13fbc20b3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_nutegunray_01_169_9d66ded2.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "finis-valorum": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "후보 'Val'은 동명이인"
  },
  "padme-amidala": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Padmé Amidala",
+  "databank_id": "64292927021f17e13fbc20d2",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Padme-Amidala_05d50c8a.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "jar-jar-binks": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Jar Jar Binks",
+  "databank_id": "64292927021f17e13fbc1ffa",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_jarjarbinks_01_169_c70767ab.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "roos-tarpals": {
   "databank_name": null,
@@ -222,22 +255,25 @@
   "match_status": "none"
  },
  "ric-olie": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Ric Olie",
+  "databank_id": "64292927021f17e13fbc2129",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_ricolie_01_169_f175f81b.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "watto": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Watto",
+  "databank_id": "64292927021f17e13fbc21e4",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_watto_01_169_ecd563f1.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "sebulba": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Sebulba",
+  "databank_id": "64292927021f17e13fbc214f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/sebulba_1f3fe180.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "quarsh-panaka": {
   "databank_name": null,
@@ -246,40 +282,32 @@
   "match_status": "none"
  },
  "shmi-skywalker": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Shmi Skywalker Lars",
+  "databank_id": "64292927021f17e13fbc2160",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_shmiskywalkerlars_01_169_7449f0a8.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "darth-maul": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Maul",
+  "databank_id": "64292927021f17e13fbc207f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Darth-Maul_632eb5af.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "bib-fortuna": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
- },
- "ayla-secura": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "fuzzy",
-  "candidates": [
-   {
-    "name": "Aayla Secura",
-    "id": "64292927021f17e13fbc1e4f"
-   }
-  ]
+  "databank_name": "Bib Fortuna",
+  "databank_id": "64292927021f17e13fbc1ea0",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "ratts-tyerel": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Ratts Tyerell",
+  "databank_id": "64292927021f17e13fbc2122",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_rattstyerell_01_169_031aea6d.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "dud-bolt": {
   "databank_name": null,
@@ -288,70 +316,81 @@
   "match_status": "none"
  },
  "gasgano": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Gasgano",
+  "databank_id": "64292927021f17e13fbc1f9a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/gasgano_6f648f83.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "ben-quadinaros": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Ben Quadinaros",
+  "databank_id": "64292927021f17e13fbc1e9a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_benquadinaros_01_169_0c77b6a0.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "mace-windu": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Mace Windu",
+  "databank_id": "64292927021f17e13fbc206c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Mace-Windu_b35242e5.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "ki-adi-mundi": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Ki-Adi-Mundi",
+  "databank_id": "64292927021f17e13fbc2025",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_kiadimundi_01_169_0a8842d3.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "kit-fisto": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Kit Fisto",
+  "databank_id": "64292927021f17e13fbc202e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_kitfisto_01_169_21517d01.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "eeth-koth": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Eeth Koth",
+  "databank_id": "64292927021f17e13fbc1f62",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Eeth-Koth2_246ea172.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "adi-gallia": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Adi Gallia",
+  "databank_id": "64292927021f17e13fbc1e50",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_adigallia_169_8b798f27.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "saesee-tiin": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Saesee Tiin",
+  "databank_id": "64292927021f17e13fbc2143",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_saeseetiin_01_169_c9a8a41c.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "yarael-poof": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Yarael Poof",
+  "databank_id": "64292927021f17e13fbc21f8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-08-03_at_10_b0b47660.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "plo-koon": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Plo Koon",
+  "databank_id": "64292927021f17e13fbc20e6",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_plokoon_01_169_92e6679c.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "mas-amedda": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Mas Amedda",
+  "databank_id": "64292927021f17e13fbc207d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/mas-amedda-main_3e450a61.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "gregar-typho": {
   "databank_name": null,
@@ -366,28 +405,32 @@
   "match_status": "none"
  },
  "cliegg-lars": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Cliegg Lars",
+  "databank_id": "64292927021f17e13fbc1efd",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_cliegglars_01_169_c2f0b9cb.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "poggle-the-lesser": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Poggle the Lesser",
+  "databank_id": "64292927021f17e13fbc20ea",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_pogglethelesser_01_169_7095ae3c.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "luminara-unduli": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Luminara Unduli",
+  "databank_id": "64292927021f17e13fbc2064",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/luminara_c05b2971.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "barriss-offee": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Barriss Offee",
+  "databank_id": "64292927021f17e13fbc1e8f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Barriss-Offee-main-image_a4f0cc76.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "dorme": {
   "databank_name": null,
@@ -396,148 +439,165 @@
   "match_status": "none"
  },
  "dooku": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
- },
- "bail-prestor-organa": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Count Dooku",
+  "databank_id": "64292927021f17e13fbc1f29",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Count-Dooku_4f552149.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "jango-fett": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Jango Fett",
+  "databank_id": "64292927021f17e13fbc1ff7",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_jangofett_01_169_884cefab.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "zam-wesell": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Zam Wesell",
+  "databank_id": "64292927021f17e13fbc21fe",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/zam-wesell_bbaffe9f.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "dexter-jettster": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Dexter Jettster",
+  "databank_id": "64292927021f17e13fbc1f43",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_dexterjettster_01_169_09c89b71.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "lama-su": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Lama Su",
+  "databank_id": "64292927021f17e13fbc203f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/lama-su-main_63f653f9.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "taun-we": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Taun We",
+  "databank_id": "64292927021f17e13fbc2197",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-bounty-lost-story-gallery-03_1878426f.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "jocasta-nu": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Jocasta Nu",
+  "databank_id": "64292927021f17e13fbc200a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/jocasta-nu_a3b32f08.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "r4-p17": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "R4-P17",
+  "databank_id": "64292927021f17e13fbc2113",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/r4-p17_19602f62.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "wat-tambor": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Wat Tambor",
+  "databank_id": "64292927021f17e13fbc21e3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_emirwattambor_01_169_9528ba0f.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "san-hill": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "San Hill",
+  "databank_id": "64292927021f17e13fbc2147",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/san-hill_852a226d.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "shaak-ti": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Shaak Ti",
+  "databank_id": "64292927021f17e13fbc215b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/shaak_ti_9523e7c7.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "grievous": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "General Grievous",
+  "databank_id": "64292927021f17e13fbc1f9e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/General-Grievous_c9df9cb5.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "tarfful": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Tarfful",
+  "databank_id": "64292927021f17e13fbc2194",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/tarrful_f20d3412.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "raymus-antilles": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "검색 0건"
  },
  "sly-moore": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Sly Moore",
+  "databank_id": "64292927021f17e13fbc2171",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/sly-moore_6af90e66.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "tion-medon": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Tion Medon",
+  "databank_id": "64292927021f17e13fbc21b6",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_tionmedon_01_169_bf78864d.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "mae-aniseya": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "검색 0건"
  },
  "osha-aniseya": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "검색 0건"
  },
  "master-sol": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "애콜라이트 솔 항목 부재"
  },
  "qimir": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "검색 0건"
  },
  "din-djarin": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Din Djarin (The Mandalorian)",
+  "databank_id": "64292927021f17e13fbc1f44",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/din-djarin-main_a3810794.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "grogu": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Grogu",
+  "databank_id": "64292927021f17e13fbc1fc9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/grogu-main_89c92eaa.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "rotta-the-hutt": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Rotta the Huttlet",
+  "databank_id": "64292927021f17e13fbc2135",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_rottathehuttlet_01_169_9d6f6e21.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "colonel-ward": {
   "databank_name": null,
@@ -546,118 +606,137 @@
   "match_status": "none"
  },
  "ahsoka-tano": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Ahsoka Tano",
+  "databank_id": "64292927021f17e13fbc1e66",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/ahsoka-main_47d8386d.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "cal-kestis": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Cal Kestis",
+  "databank_id": "64292927021f17e13fbc1ec9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/cal-main_4829aec1.png",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "cassian-andor": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Cassian Andor",
+  "databank_id": "64292927021f17e13fbc1ee1",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/cassian-andor-main_d583d3b2.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "jyn-erso": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Jyn Erso",
+  "databank_id": "64292927021f17e13fbc200f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/jyn-erso_ccf70c46.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "galen-erso": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Galen Erso",
+  "databank_id": "64292927021f17e13fbc1f8d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/galen-erso-main_d1489952.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "k-2so": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "K-2SO (Kay-Tuesso)",
+  "databank_id": "64292927021f17e13fbc2010",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/k-2s0-main-b_73a8fed8.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "chirrut-imwe": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Chirrut Îmwe",
+  "databank_id": "64292927021f17e13fbc1ef4",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/chirrut-imwe_5ed7457a.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "grand-admiral-thrawn": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Grand Admiral Thrawn",
+  "databank_id": "64292927021f17e13fbc1fbf",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/grand-admiral-thrawn2_bda317f3.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "ezra-bridger": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Ezra Bridger",
+  "databank_id": "64292927021f17e13fbc1f73",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/ezra-bridger-s3_2236d8f8.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "kanan-jarrus": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Kanan Jarrus / Caleb Dume",
+  "databank_id": "64292927021f17e13fbc2015",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/kanan-jarrus-caleb-dume-main_f803f0ca.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "hera-syndulla": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Hera Syndulla",
+  "databank_id": "64292927021f17e13fbc1fdc",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/hera-syndulla-main_9a8a6181.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "sabine-wren": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Sabine Wren",
+  "databank_id": "64292927021f17e13fbc2141",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/sabine-wren-s3_b9553ce2.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "marchion-ro": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "검색 0건"
  },
  "lina-soh": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "검색 0건"
  },
  "rae-sloane": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Rae Sloane",
+  "databank_id": "64292927021f17e13fbc2117",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/rae-sloane-main_99d88b74.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "norra-wexley": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "검색 0건"
  },
  "luthen-rael": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Luthen Rael",
+  "databank_id": "64292927021f17e13fbc2065",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/luthen-rael-main-b_2eeef63b.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "nightsister-merrin": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "검색 0건"
  },
  "devon-izara": {
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "검색 0건"
  },
  "eeko-dio-daki": {
   "databank_name": null,
@@ -675,13 +754,15 @@
   "databank_name": null,
   "databank_id": null,
   "image_url": null,
-  "match_status": "none"
+  "match_status": "rejected",
+  "note": "몰 시리즈 신인물, 항목 부재"
  },
  "morgan-elsbeth": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Magistrate Morgan Elsbeth",
+  "databank_id": "64292927021f17e13fbc206e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/magistrate-morgan-elsbeth-main_d7b9d192.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "baylan-skoll": {
   "databank_name": null,
@@ -696,70 +777,81 @@
   "match_status": "none"
  },
  "hunter-clone": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Hunter",
+  "databank_id": "64292927021f17e13fbc1fe1",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/hunter-s2-a-main_10953c10.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "omega": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Omega",
+  "databank_id": "64292927021f17e13fbc20bf",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/omega-s2-a-main_0216f1de.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "crosshair": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Crosshair",
+  "databank_id": "64292927021f17e13fbc1f2b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/crosshair-main_92c9b4b8.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "wrecker-clone": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Wrecker",
+  "databank_id": "64292927021f17e13fbc21ef",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/wrecker-s2-a-main_cd3412e7.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "tech-clone": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Tech",
+  "databank_id": "64292927021f17e13fbc219d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/tech-main_4c1adf1b.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "echo-clone": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Echo",
+  "databank_id": "64292927021f17e13fbc1f5e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/echo-main_832bccdb.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "dr-hemlock": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Dr. Royce Hemlock",
+  "databank_id": "64292927021f17e13fbc1f56",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-story-gallery-metamorphosis-03_36241a52.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "asajj-ventress": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Asajj Ventress",
+  "databank_id": "64292927021f17e13fbc1e7a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Asajj-Ventress_d5ca9413.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "cad-bane": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Cad Bane",
+  "databank_id": "64292927021f17e13fbc1ec7",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/cad-bane-main_1fbcbcd8.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "fennec-shand": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Fennec Shand",
+  "databank_id": "64292927021f17e13fbc1f77",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/fennec-shand-main_25402b49.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "black-krrsantan": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Krrsantan",
+  "databank_id": "64292927021f17e13fbc2039",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/krrsantan-main_8b84c126.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "reva": {
   "databank_name": null,
@@ -768,22 +860,25 @@
   "match_status": "none"
  },
  "grand-inquisitor": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "The Grand Inquisitor",
+  "databank_id": "64292927021f17e13fbc21ae",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-grand-inquisitor-main_aba95c9f.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "fifth-brother": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Fifth Brother Inquisitor",
+  "databank_id": "64292927021f17e13fbc1f7a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/fifth-brother-main_e2a5caa7.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
  },
  "bail-organa": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Bail Organa",
+  "databank_id": "64292927021f17e13fbc1e8a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/bail-organa-main_ad4b657d.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "aayla-secura": {
   "databank_name": "Aayla Secura",
@@ -807,15 +902,17 @@
   "matched_at": "2026-06-06"
  },
  "bb-8": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "BB-8",
+  "databank_id": "64292927021f17e13fbc1e93",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  },
  "chopper": {
-  "databank_name": null,
-  "databank_id": null,
-  "image_url": null,
-  "match_status": "none"
+  "databank_name": "Chopper (C1-10P)",
+  "databank_id": "64292927021f17e13fbc1ef5",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/chopper-main_607bb2d9.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
  }
 }
