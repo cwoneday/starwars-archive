@@ -1,0 +1,821 @@
+{
+ "luke-skywalker": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "leia-organa": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "han-solo": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "darth-vader": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "obi-wan-kenobi": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "yoda": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "r2-d2": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "c-3po": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "chewbacca": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "lando-calrissian": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "boba-fett": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "wilhuff-tarkin": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "palpatine": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "mon-mothma": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ackbar": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "owen-lars": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "beru-whitesun-lars": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "r5-d4": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "biggs-darklighter": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "anakin-skywalker": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "greedo": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "jabba-desilijic-tiure": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "wedge-antilles": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "jek-tono-porkins": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ig-88": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "bossk": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "lobot": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "arvel-crynyd": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "wicket-systri-warrick": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "nien-nunb": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "qui-gon-jinn": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "nute-gunray": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "finis-valorum": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "padme-amidala": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "jar-jar-binks": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "roos-tarpals": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "rugor-nass": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ric-olie": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "watto": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "sebulba": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "quarsh-panaka": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "shmi-skywalker": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "darth-maul": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "bib-fortuna": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ayla-secura": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "fuzzy",
+  "candidates": [
+   {
+    "name": "Aayla Secura",
+    "id": "64292927021f17e13fbc1e4f"
+   }
+  ]
+ },
+ "ratts-tyerel": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "dud-bolt": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "gasgano": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ben-quadinaros": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "mace-windu": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ki-adi-mundi": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "kit-fisto": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "eeth-koth": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "adi-gallia": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "saesee-tiin": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "yarael-poof": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "plo-koon": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "mas-amedda": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "gregar-typho": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "corde": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "cliegg-lars": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "poggle-the-lesser": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "luminara-unduli": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "barriss-offee": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "dorme": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "dooku": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "bail-prestor-organa": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "jango-fett": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "zam-wesell": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "dexter-jettster": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "lama-su": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "taun-we": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "jocasta-nu": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "r4-p17": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "wat-tambor": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "san-hill": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "shaak-ti": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "grievous": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "tarfful": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "raymus-antilles": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "sly-moore": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "tion-medon": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "mae-aniseya": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "osha-aniseya": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "master-sol": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "qimir": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "din-djarin": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "grogu": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "rotta-the-hutt": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "colonel-ward": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ahsoka-tano": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "cal-kestis": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "cassian-andor": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "jyn-erso": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "galen-erso": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "k-2so": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "chirrut-imwe": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "grand-admiral-thrawn": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "ezra-bridger": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "kanan-jarrus": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "hera-syndulla": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "sabine-wren": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "marchion-ro": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "lina-soh": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "rae-sloane": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "norra-wexley": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "luthen-rael": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "nightsister-merrin": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "devon-izara": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "eeko-dio-daki": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "rook-kast": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "brander-lawson": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "morgan-elsbeth": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "baylan-skoll": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "shin-hati": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "hunter-clone": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "omega": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "crosshair": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "wrecker-clone": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "tech-clone": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "echo-clone": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "dr-hemlock": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "asajj-ventress": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "cad-bane": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "fennec-shand": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "black-krrsantan": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "reva": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "grand-inquisitor": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "fifth-brother": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "bail-organa": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "aayla-secura": {
+  "databank_name": "Aayla Secura",
+  "databank_id": "64292927021f17e13fbc1e4f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_aaylasecura_01_169_39a65af2.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "4-lom": {
+  "databank_name": "4-LOM",
+  "databank_id": "64292927021f17e13fbc1e4b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/curve_4lom_a7640432.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "8d8": {
+  "databank_name": "8D8",
+  "databank_id": "64292927021f17e13fbc1e4e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "bb-8": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ },
+ "chopper": {
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "none"
+ }
+}

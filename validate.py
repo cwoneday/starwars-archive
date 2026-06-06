@@ -103,6 +103,11 @@ for c in chars:
     if c.get('era_primary') not in ERA|{None}: err(f"[characters:{c['id']}] era_primary 위반: {c.get('era_primary')}")
     arch=c.get('portrait',{}).get('archetype')
     if arch not in ARCH|{None}: err(f"[characters:{c['id']}] archetype 위반: {arch}")
+    er=(c.get('external_refs') or {}).get('databank')
+    if er:
+        if not er.get('id'): err(f"[characters:{c['id']}] external_refs.databank.id 누락")
+        if not str(er.get('image_url') or '').startswith('http'): warn(f"[characters:{c['id']}] databank image_url 비정상")
+        if not er.get('credit'): err(f"[characters:{c['id']}] databank credit(출처 표기) 누락 — IMAGE_POLICY 위반")
     if c.get('canon_status') not in CANON: err(f"[characters:{c['id']}] canon_status 위반: {c.get('canon_status')}")
     hw=c.get('homeworld')
     if hw and hw not in loc_ids: err(f"[characters:{c['id']}] homeworld 깨진 참조: {hw}")

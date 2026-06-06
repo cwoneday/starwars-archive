@@ -5,7 +5,7 @@
     "name_en": "Luke Skywalker",
     "alignment": "light",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "age_of_rebellion",
     "height_cm": 172,
     "mass_kg": 77.0,
     "gender": "male",
@@ -72,7 +72,7 @@
     "name_en": "C-3PO",
     "alignment": "neutral",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "fall_of_the_jedi",
     "height_cm": 167,
     "mass_kg": 75.0,
     "gender": "droid",
@@ -129,7 +129,7 @@
     "name_en": "R2-D2",
     "alignment": "neutral",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "fall_of_the_jedi",
     "height_cm": 96,
     "mass_kg": 32.0,
     "gender": "droid",
@@ -187,7 +187,7 @@
     "name_en": "Darth Vader",
     "alignment": "dark",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "age_of_rebellion",
     "height_cm": 202,
     "mass_kg": 136.0,
     "gender": "male",
@@ -255,7 +255,7 @@
     "name_en": "Leia Organa",
     "alignment": "light",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "age_of_rebellion",
     "height_cm": 150,
     "mass_kg": 49.0,
     "gender": "female",
@@ -318,7 +318,7 @@
     "name_en": "Owen Lars",
     "alignment": "neutral",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "age_of_rebellion",
     "height_cm": 178,
     "mass_kg": 120.0,
     "gender": "male",
@@ -360,7 +360,7 @@
     "name_en": "Beru Whitesun lars",
     "alignment": "neutral",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "age_of_rebellion",
     "height_cm": 165,
     "mass_kg": 75.0,
     "gender": "female",
@@ -485,7 +485,7 @@
     "name_en": "Obi-Wan Kenobi",
     "alignment": "light",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "fall_of_the_jedi",
     "height_cm": 182,
     "mass_kg": 77.0,
     "gender": "male",
@@ -619,7 +619,7 @@
     "name_en": "Wilhuff Tarkin",
     "alignment": "dark",
     "tier": 2,
-    "era_primary": null,
+    "era_primary": "age_of_rebellion",
     "height_cm": 180,
     "mass_kg": null,
     "gender": "male",
@@ -670,7 +670,7 @@
     "name_en": "Chewbacca",
     "alignment": "neutral",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "age_of_rebellion",
     "height_cm": 228,
     "mass_kg": 112.0,
     "gender": "male",
@@ -816,7 +816,7 @@
     "name_en": "Jabba Desilijic Tiure",
     "alignment": "neutral",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "age_of_rebellion",
     "height_cm": 175,
     "mass_kg": 1358.0,
     "gender": "other",
@@ -959,7 +959,7 @@
     "name_en": "Yoda",
     "alignment": "light",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "fall_of_the_jedi",
     "height_cm": 66,
     "mass_kg": 17.0,
     "gender": "male",
@@ -1026,7 +1026,7 @@
     "name_en": "Palpatine",
     "alignment": "dark",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "fall_of_the_jedi",
     "height_cm": 170,
     "mass_kg": 75.0,
     "gender": "male",
@@ -1106,7 +1106,7 @@
     "name_en": "Boba Fett",
     "alignment": "neutral",
     "tier": 1,
-    "era_primary": null,
+    "era_primary": "age_of_rebellion",
     "height_cm": 183,
     "mass_kg": 78.2,
     "gender": "male",
@@ -3816,7 +3816,7 @@
     "name_en": "Raymus Antilles",
     "alignment": "light",
     "tier": 2,
-    "era_primary": null,
+    "era_primary": "fall_of_the_jedi",
     "height_cm": 188,
     "mass_kg": 79.0,
     "gender": "male",
@@ -6137,7 +6137,16 @@
     "source": "시스의 복수 / 클론 전쟁",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Twi'lek"
+    "species_en": "Twi'lek",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e4f",
+        "name": "Aayla Secura",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_aaylasecura_01_169_39a65af2.jpeg",
+        "fetched_at": "2026-06-06",
+        "credit": "Star Wars Databank © Lucasfilm Ltd."
+      }
+    }
   },
   {
     "id": "4-lom",
@@ -6171,7 +6180,16 @@
     "source": "제국의 역습",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e4b",
+        "name": "4-LOM",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/curve_4lom_a7640432.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "8d8",
@@ -6206,7 +6224,16 @@
     "source": "제다이의 귀환 / 보바 펫의 북",
     "source_type": "film",
     "canon_status": "explicit",
-    "species_en": "Droid"
+    "species_en": "Droid",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e4e",
+        "name": "8D8",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-06"
+      }
+    }
   },
   {
     "id": "bb-8",
