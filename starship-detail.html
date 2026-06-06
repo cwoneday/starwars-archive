@@ -62,7 +62,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
 .notfound{text-align:center;padding:80px 20px;color:var(--dim)}
 .legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
-.worklink{color:var(--holo);text-decoration:none}.worklink:hover{text-decoration:underline}</style></head>
+.worklink{color:var(--holo);text-decoration:none}.worklink:hover{text-decoration:underline}.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -73,7 +73,7 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html" class="active">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html" class="active">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <div class="era-bg" id="eraBg"></div>
 <style>.era-bg{position:fixed;inset:0;z-index:0;opacity:.5;pointer-events:none}.era-bg svg{width:100%;height:100%}</style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
@@ -126,6 +126,7 @@ function render(){
       ${aff?`<a class="badge" href="faction-detail.html?id=${v.affiliation}" style="text-decoration:none;color:${EMBC2[(({"galactic-empire":"dark","sith":"dark","confederacy-of-independent-systems":"dark","trade-federation":"dark"})[v.affiliation])||"light"]}">${esc(aff)}</a>`:""}
       <span class="badge dim">${esc(v.canon_status||"")}</span>
     </div>
+    ${v.one_liner?`<p class="one-liner" style="font-family:var(--fd);font-size:1.05rem;color:var(--ink);border-left:2px solid var(--holo);padding-left:13px;margin:14px 0 4px;line-height:1.55">${esc(v.one_liner)}</p>`:""}
     <div class="sec-label">제원 · Specifications</div>
     <div class="spec-grid">
       ${spec(v,'manufacturer','제조사 · Maker')}

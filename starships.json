@@ -905,7 +905,8 @@
     ],
     "affiliation": "rebel-alliance",
     "canon_status": "explicit",
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "one_liner": "헤라 신둘라가 모는 VCX-100 경화물선. 고스트 크루의 집이자 초기 반란의 상징으로, 스카리프와 엔도의 하늘에도 모습을 드러냈다."
   },
   {
     "id": "ss-razor-crest",
@@ -931,6 +932,176 @@
     ],
     "affiliation": null,
     "canon_status": "explicit",
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "one_liner": "공화국 시절의 낡은 ST-70 강습정. 딘 자린과 그로구가 은하를 떠돈 집이었으나, 모프 기디언의 순양함 포격에 산화했다."
+  },
+  {
+    "id": "ss-marauder",
+    "name": "마라우더",
+    "name_en": "Marauder",
+    "model": "오미크론급 강습 셔틀 (개조)",
+    "manufacturer": "시그너스 스페이스웍스",
+    "starship_class": "attack shuttle",
+    "cost_in_credits": null,
+    "length": null,
+    "max_atmosphering_speed": null,
+    "crew": null,
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables": null,
+    "hyperdrive_rating": null,
+    "MGLT": null,
+    "films": [
+      "the-bad-batch",
+      "the-clone-wars"
+    ],
+    "pilots": [
+      "tech-clone",
+      "echo-clone",
+      "hunter-clone"
+    ],
+    "affiliation": "galactic-republic",
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "one_liner": "클론 포스 99의 수송선이자 건쉽, 그리고 집. 클론 전쟁의 비밀 임무부터 제국 치하의 도피 생활까지 배드 배치와 함께한 명예 멤버 같은 기체다."
+  },
+  {
+    "id": "ss-t6-shuttle",
+    "name": "T-6 제다이 셔틀",
+    "name_en": "T-6 Jedi Shuttle",
+    "model": "T-6 셔틀",
+    "manufacturer": null,
+    "starship_class": "shuttle",
+    "cost_in_credits": null,
+    "length": null,
+    "max_atmosphering_speed": null,
+    "crew": null,
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables": null,
+    "hyperdrive_rating": null,
+    "MGLT": null,
+    "films": [
+      "ahsoka",
+      "the-clone-wars"
+    ],
+    "pilots": [
+      "ahsoka-tano"
+    ],
+    "affiliation": "jedi-order",
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "one_liner": "클론 전쟁기 제다이 오더가 쓰던 고전 설계. 반원형 동체가 회전해 착륙·도킹 형상이 자유롭고, 평시 외교용이라 무장이 없다. 아소카가 스론 추적에 몰고 다닌다."
+  },
+  {
+    "id": "ss-u-wing",
+    "name": "U-윙",
+    "name_en": "U-wing",
+    "model": "UT-60D",
+    "manufacturer": "인콤",
+    "starship_class": "troop transport / gunship",
+    "cost_in_credits": null,
+    "length": null,
+    "max_atmosphering_speed": null,
+    "crew": null,
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables": null,
+    "hyperdrive_rating": null,
+    "MGLT": null,
+    "films": [
+      "rogue-one",
+      "andor"
+    ],
+    "pilots": [
+      "cassian-andor"
+    ],
+    "affiliation": "rebel-alliance",
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "one_liner": "반란군 특공대를 전장에 실어 나르는 인콤제 수송 건쉽. 가변 S-포일을 젖혀 장거리 비행과 화력 지원을 오간다. 스카리프의 하늘을 지킨 기체."
+  },
+  {
+    "id": "ss-fondor-haulcraft",
+    "name": "폰도르 홀크래프트",
+    "name_en": "Fondor Haulcraft",
+    "model": "V-21.1 셰블렉스 (대개조)",
+    "manufacturer": null,
+    "starship_class": "haulcraft",
+    "cost_in_credits": null,
+    "length": null,
+    "max_atmosphering_speed": null,
+    "crew": null,
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables": null,
+    "hyperdrive_rating": null,
+    "MGLT": null,
+    "films": [
+      "andor"
+    ],
+    "pilots": [
+      "luthen-rael"
+    ],
+    "affiliation": null,
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "one_liner": "골동품상의 수수한 화물선처럼 보이지만, 숨겨진 레이저와 발사체 대응수단·드로이드 부조종사를 갖춘 루선 라엘의 비밀 병기. 제국 순양함의 견인광선마저 따돌렸다."
+  },
+  {
+    "id": "ss-antique-n1",
+    "name": "골동품 N-1",
+    "name_en": "Antique N-1 Starfighter",
+    "model": "N-1 스타파이터 (개조)",
+    "manufacturer": null,
+    "starship_class": "starfighter",
+    "cost_in_credits": null,
+    "length": null,
+    "max_atmosphering_speed": null,
+    "crew": null,
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables": null,
+    "hyperdrive_rating": null,
+    "MGLT": null,
+    "films": [
+      "the-book-of-boba-fett",
+      "the-mandalorian"
+    ],
+    "pilots": [
+      "din-djarin"
+    ],
+    "affiliation": null,
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "one_liner": "공화국 몰락 후에도 살아남은 수공예 나부 N-1. 펠리 모토의 손에서 등록망 밖의 일품으로 대개조되어, 속도·정밀함·멋을 한 몸에 갖췄다. 레이저 크레스트를 잃은 딘 자린의 새 날개."
+  },
+  {
+    "id": "ss-a-wing-trainer",
+    "name": "A-윙 트레이너 (RZ-1T)",
+    "name_en": "A-wing Trainer (RZ-1T)",
+    "model": "RZ-1T",
+    "manufacturer": null,
+    "starship_class": "trainer starfighter",
+    "cost_in_credits": null,
+    "length": null,
+    "max_atmosphering_speed": null,
+    "crew": null,
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables": null,
+    "hyperdrive_rating": null,
+    "MGLT": null,
+    "films": [
+      "rebels"
+    ],
+    "pilots": [
+      "kanan-jarrus",
+      "ezra-bridger"
+    ],
+    "affiliation": "rebel-alliance",
+    "canon_status": "explicit",
+    "data_source": "Star Wars Databank (사실 참조·자기 언어 재서술)",
+    "one_liner": "교관이 동승할 수 있게 2인승으로 만든 A-윙 훈련기. 반란 초기에 개발됐고, 고스트 크루의 케이넌과 에즈라가 비행 훈련에 썼다."
   }
 ]
