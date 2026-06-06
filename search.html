@@ -127,6 +127,8 @@ function run(){
   res.innerHTML=html;
 }
 document.getElementById("q").addEventListener("input",run);
+const _q0=new URLSearchParams(location.search).get("q");
+if(_q0){document.getElementById("q").value=_q0;}
 load();
 </script>
 </body></html>

@@ -45,6 +45,7 @@ h1{font-family:var(--fd);font-weight:700;font-size:1.8rem;margin:0 0 6px}
   <p class="lead">데이터 파일에서 실시간 집계한 분포입니다.</p>
   <div class="totals" id="totals"></div>
   <div class="panel"><h2>시대별 사건·작품 분포</h2><div id="byEra"></div></div>
+  <div class="panel"><h2>연결 지표 · Connectivity</h2><div id="conn"></div><div class="legend" id="connNote"></div></div>
   <div class="cols">
     <div class="panel"><h2>인물 진영 분포</h2><div id="align"></div></div>
     <div class="panel"><h2>인물 등급(tier) 분포</h2><div id="tier"></div></div>
@@ -81,6 +82,28 @@ function countBy(arr,key){const m={};arr.forEach(o=>{const k=typeof key==="funct
   document.getElementById("byEra").innerHTML=ERAS.map(([k,lab,c])=>
     bar(lab+" · 사건",evE[k]||0,maxE,c)+bar(lab+" · 작품",fmE[k]||0,maxE,c+"99")).join("")
     +`<div class="legend"><span><i style="background:var(--holo)"></i>위=사건 / 아래=작품 (시대색)</span></div>`;
+  // connectivity metrics
+  const pbar=(label,n,d,color)=>{
+    const pct=d?Math.round(n/d*100):0;
+    return `<div class="row"><div class="lab">${esc(label)}</div><div class="track"><div class="fill" style="width:${pct}%;background:${color}"></div></div><div class="val" style="flex-basis:96px">${n}/${d} · ${pct}%</div></div>`;
+  };
+  const has=(o,k)=>Array.isArray(o[k])?o[k].length>0:!!o[k];
+  const ssP=ss.filter(s=>has(s,"pilots")).length, vhP=veh.filter(v=>has(v,"pilots")).length;
+  const cArc=chars.filter(c=>has(c,"arc")).length, cAff=chars.filter(c=>has(c,"affiliation_history")).length;
+  const cHome=chars.filter(c=>!!c.homeworld).length, cWorks=chars.filter(c=>has(c,"works")).length;
+  const evW=events.filter(e=>!!e.work).length;
+  const avgRel=chars.length?(2*rels.length/chars.length):0;
+  const density=chars.length>1?(rels.length/(chars.length*(chars.length-1)/2)*100):0;
+  document.getElementById("conn").innerHTML=
+    pbar("함선 조종사 연결",ssP,ss.length,"#45d4e3")+
+    pbar("탈것 조종사 연결",vhP,veh.length,"#45d4e3")+
+    pbar("인물 서사(arc)",cArc,chars.length,"#d8b45a")+
+    pbar("인물 소속 기록",cAff,chars.length,"#d8b45a")+
+    pbar("인물 고향 연결",cHome,chars.length,"#5ad17a")+
+    pbar("인물 작품 연결",cWorks,chars.length,"#5ad17a")+
+    pbar("사건-작품 연계",evW,events.length,"#b98aff");
+  document.getElementById("connNote").innerHTML=
+    `<span><i style="background:#ff5a8a"></i>관계망: 인물 1명당 평균 <b style="color:var(--holo)">${avgRel.toFixed(2)}</b>개 관계 · 네트워크 밀도 <b style="color:var(--holo)">${density.toFixed(2)}%</b> (전체 가능 쌍 대비 실제 관계 비율)</span>`;
   // alignment
   const al=countBy(chars,"alignment"),maxA=Math.max(1,...Object.values(al));
   document.getElementById("align").innerHTML=Object.keys(ALIGN).map(k=>bar(ALIGN[k][0],al[k]||0,maxA,ALIGN[k][1])).join("");

@@ -1,19 +1,101 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="refresh" content="0; url=timeline.html">
-<link rel="canonical" href="timeline.html">
+<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>스타워즈 캐넌 아카이브</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  html,body{height:100%;margin:0}
-  body{background:#04060b;color:#45d4e3;font-family:system-ui,sans-serif;
-    display:flex;align-items:center;justify-content:center;letter-spacing:.04em}
-  a{color:#45d4e3;text-decoration:none;border-bottom:1px dashed #45d4e3;padding-bottom:2px}
-</style>
-</head>
+:root{--void:#04060b;--base:#080c14;--panel:#0e131c;--ink:#dce4ee;--dim:#8b97a8;--faint:#515c6b;
+--line:rgba(120,140,180,.14);--holo:#45d4e3;--gold:#d8b45a;
+--fd:'Chakra Petch',sans-serif;--fb:'Spline Sans',sans-serif;--fm:'JetBrains Mono',monospace}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1100px 600px at 50% -8%,#0a1018,transparent 60%),var(--void);color:var(--ink);font-family:var(--fb);min-height:100vh;line-height:1.6}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;background:repeating-linear-gradient(to bottom,rgba(69,212,227,.025) 0 1px,transparent 1px 3px);opacity:.5}
+.site-nav{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;padding:12px 20px;border-bottom:1px solid var(--line);background:rgba(8,12,20,.7);position:relative;z-index:2}
+.site-nav .brand{font-family:var(--fd);font-weight:700;color:var(--holo);text-decoration:none;margin-right:8px}
+.site-nav .links{display:flex;flex-wrap:wrap;gap:4px 14px}
+.site-nav a{color:var(--dim);text-decoration:none;font-size:13px}
+.site-nav a:hover,.site-nav a.active{color:var(--holo)}
+.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600}
+.site-nav .nav-search:hover{background:rgba(69,212,227,.2)}
+.wrap{max-width:1000px;margin:0 auto;padding:46px 18px 80px;position:relative;z-index:2}
+.hero{text-align:center;margin-bottom:34px}
+.hero .mark{font-size:26px;color:var(--holo);letter-spacing:.3em}
+h1{font-family:var(--fd);font-weight:700;font-size:clamp(1.7rem,5vw,2.5rem);margin:8px 0 6px;letter-spacing:.02em}
+.hero p{color:var(--dim);font-size:14.5px;margin:0 auto;max-width:560px}
+.counts{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px;font-family:var(--fm);font-size:11.5px;color:var(--faint);margin-top:14px}
+.counts b{color:var(--holo)}
+.searchbar{position:relative;max-width:560px;margin:26px auto 0}
+.searchbar input{width:100%;background:var(--void);border:1px solid rgba(69,212,227,.4);border-radius:14px;padding:15px 16px 15px 44px;color:var(--ink);font-family:var(--fb);font-size:15px;outline:none;transition:all .2s}
+.searchbar input:focus{border-color:var(--holo);box-shadow:0 0 0 4px rgba(69,212,227,.12)}
+.searchbar .ic{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--holo)}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:38px 0 16px}
+.fcard{position:relative;display:block;text-decoration:none;border:1px solid var(--line);border-radius:16px;padding:20px;background:linear-gradient(180deg,var(--panel),var(--base));transition:all .18s;overflow:hidden}
+.fcard::after{content:"";position:absolute;inset:0;background:radial-gradient(220px 120px at 20% 0%,var(--c,rgba(69,212,227,.14)),transparent 70%);pointer-events:none}
+.fcard:hover{transform:translateY(-3px);border-color:var(--bc,var(--holo))}
+.fcard .ic{font-size:21px}
+.fcard h2{font-family:var(--fd);font-size:1.1rem;color:var(--ink);margin:8px 0 4px}
+.fcard p{font-size:12.5px;color:var(--dim);margin:0}
+.fcard .go{font-family:var(--fm);font-size:11px;color:var(--bc,var(--holo));margin-top:10px;display:inline-block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.gcard{display:block;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:14px 15px;background:rgba(255,255,255,.015);transition:all .15s}
+.gcard:hover{border-color:var(--holo)}
+.gcard .t{font-family:var(--fd);font-size:14.5px;color:var(--ink)}
+.gcard .s{font-family:var(--fm);font-size:10.5px;color:var(--faint);margin-top:3px}
+.sec-label{font-family:var(--fm);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);margin:30px 0 12px}
+</style></head>
 <body>
-  <a href="timeline.html">스타워즈 캐넌 아카이브 — 타임라인으로 이동…</a>
-  <script>location.replace("timeline.html");</script>
-</body>
-</html>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<div class="wrap">
+  <div class="hero">
+    <div class="mark">✦ ✦ ✦</div>
+    <h1>스타워즈 캐넌 아카이브</h1>
+    <p>연대기를 마스터 축으로, 디즈니 캐넌 전체를 매니아의 깊이로 기록하는 대장정.</p>
+    <div class="counts" id="counts"></div>
+    <form class="searchbar" onsubmit="event.preventDefault();const q=this.q.value.trim();location.href='search.html'+(q?'?q='+encodeURIComponent(q):'');">
+      <span class="ic">⌕</span><input name="q" type="text" placeholder="인물·작품·사건·장소·세력·탈것·함선 검색…" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="feat">
+    <a class="fcard" href="search.html" style="--bc:#45d4e3;--c:rgba(69,212,227,.16)">
+      <span class="ic">⌕</span><h2>전역 검색</h2>
+      <p>일곱 갈래 데이터 전체를 한 검색창에서. 한글·영문 이름부터 줄거리·태그까지.</p>
+      <span class="go">검색 열기 ▸</span></a>
+    <a class="fcard" href="eras.html" style="--bc:#d8b45a;--c:rgba(216,180,90,.15)">
+      <span class="ic">🌌</span><h2>시대 개요</h2>
+      <p>여덟 시대로 보는 은하사. 시대마다 작품·사건·인물을 한자리에.</p>
+      <span class="go">시대 허브 ▸</span></a>
+    <a class="fcard" href="dashboard.html" style="--bc:#4db5ff;--c:rgba(77,181,255,.15)">
+      <span class="ic">📊</span><h2>통계 대시보드</h2>
+      <p>시대별 분포, 진영·매체·사건 유형까지 아카이브를 숫자로 한눈에.</p>
+      <span class="go">통계 보기 ▸</span></a>
+  </div>
+
+  <div class="sec-label">Archive Sections · 아카이브 둘러보기</div>
+  <div class="grid">
+    <a class="gcard" href="timeline.html"><div class="t">타임라인</div><div class="s" id="c-tl">사건·작품 연표</div></a>
+    <a class="gcard" href="films.html"><div class="t">작품</div><div class="s" id="c-films">영화·시리즈·소설·게임·코믹</div></a>
+    <a class="gcard" href="galaxy-network.html"><div class="t">인물관계망</div><div class="s" id="c-net">인물 네트워크</div></a>
+    <a class="gcard" href="relationships.html"><div class="t">핵심관계도</div><div class="s">사제·가족·적대</div></a>
+    <a class="gcard" href="starships.html"><div class="t">함선</div><div class="s" id="c-ss">우주 기체</div></a>
+    <a class="gcard" href="vehicles.html"><div class="t">탈것</div><div class="s" id="c-veh">지상·대기권 기체</div></a>
+    <a class="gcard" href="silhouettes.html"><div class="t">실루엣</div><div class="s">오리지널 초상</div></a>
+  </div>
+</div>
+<script>
+(async function(){
+  const j=async f=>{try{return await fetch(f).then(r=>r.json())}catch(e){return null}};
+  const [films,chars,events,rels,locs,facs,veh,ss]=await Promise.all(
+    ["films.json","characters.json","events.json","relations.json","locations.json","factions.json","vehicles.json","starships.json"].map(j));
+  if(!films)return; // 데이터 못 읽으면 카운트 생략
+  document.getElementById("counts").innerHTML=
+    `<span>작품 <b>${films.length}</b></span><span>인물 <b>${chars.length}</b></span><span>사건 <b>${events.length}</b></span>`+
+    `<span>관계 <b>${rels.length}</b></span><span>장소 <b>${locs.length}</b></span><span>세력 <b>${facs.length}</b></span>`+
+    `<span>탈것 <b>${veh.length}</b></span><span>함선 <b>${ss.length}</b></span>`;
+  document.getElementById("c-tl").textContent=`사건 ${events.length} · 작품 마커 ${films.length}`;
+  document.getElementById("c-films").textContent=`${films.length}편 수록`;
+  document.getElementById("c-net").textContent=`인물 ${chars.length} · 관계 ${rels.length}`;
+  document.getElementById("c-ss").textContent=`${ss.length}척`;
+  document.getElementById("c-veh").textContent=`${veh.length}종`;
+})();
+</script>
+</body></html>

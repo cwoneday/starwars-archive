@@ -32,9 +32,13 @@ NEED={
  "starship-detail.html":["starships","characters","films"],
  "starships.html":["starships"],
  "validator.html":["characters","events","factions","locations","relations"],
+ "search.html":["characters","films","events","locations","factions","vehicles","starships"],
+ "eras.html":["films","events","characters","starships","factions"],
+ "dashboard.html":["films","characters","events","relations","locations","factions","vehicles","starships"],
+ "index.html":["films","characters","events","relations","locations","factions","vehicles","starships"],
 }
 # fetch 없이 더블클릭으로 이미 작동 (그대로 복사)
-COPY=["timeline.html","relationships.html","silhouettes.html","index.html"]
+COPY=["timeline.html","relationships.html","silhouettes.html"]
 
 # JSON 캐시
 def jdata(name): return json.load(open(os.path.join(DIR,name+".json"),encoding='utf-8'))

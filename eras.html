@@ -67,15 +67,17 @@ const ERAS=[
 const ALIGN={light:"#45d4e3",dark:"#ff5a4d",neutral:"#8b97a8"};
 const WT={film:"🎬",series:"📺",novel:"📖",game:"🎮",comic:"📗"};
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-let FILMS=[],EVENTS=[],CHARS=[];
+let FILMS=[],EVENTS=[],CHARS=[],SHIPS=[],FACS=[];
 async function load(){
   const j=async f=>{try{return await fetch(f).then(r=>r.json())}catch(e){return[]}};
-  [FILMS,EVENTS,CHARS]=await Promise.all([j("films.json"),j("events.json"),j("characters.json")]);
+  [FILMS,EVENTS,CHARS,SHIPS,FACS]=await Promise.all([j("films.json"),j("events.json"),j("characters.json"),j("starships.json"),j("factions.json")]);
   document.getElementById("jump").innerHTML=ERAS.map(e=>`<a href="#${e.key}" style="border-color:${e.color}55">${e.label}</a>`).join("");
   render();
 }
 function chipsFilm(arr){return arr.map(f=>`<a class="chip film" href="film-detail.html?id=${f.id}">${WT[f.work_type]||"●"} ${esc(f.title)}</a>`).join("");}
 function chipsEvent(arr){return arr.map(e=>`<a class="chip" href="event-detail.html?id=${e.id}"><span class="yr">${esc(e.year_label||"")}</span> ${esc(e.title)}</a>`).join("");}
+function chipsShip(arr){return arr.map(x=>`<a class="chip" href="starship-detail.html?id=${x.id}">🚀 ${esc(x.name)}</a>`).join("");}
+function chipsFac(arr){return arr.map(x=>`<a class="chip" href="faction-detail.html?id=${x.id}">⬡ ${esc(x.name)}</a>`).join("");}
 function chipsChar(arr){return arr.map(c=>`<a class="chip" href="character-detail.html?id=${c.id}"><span class="dot" style="background:${ALIGN[c.alignment]||'#515c6b'}"></span>${esc(c.name)}</a>`).join("");}
 function group(label,total,html,capped){
   if(!total)return `<div class="grp"><div class="gl"><b>${label}</b></div><div class="empty">아직 없음</div></div>`;
@@ -87,16 +89,22 @@ function render(){
     const films=FILMS.filter(f=>f.era_primary===era.key);
     let evs=EVENTS.filter(e=>e.era===era.key).sort((a,b)=>(a.tier-b.tier)||(a.year_value-b.year_value));
     let chars=CHARS.filter(c=>c.era_primary===era.key).sort((a,b)=>(a.tier-b.tier)||a.name.localeCompare(b.name,"ko"));
-    const evCap=Math.max(0,evs.length-16), chCap=Math.max(0,chars.length-16);
+    const filmIds=new Set(films.map(f=>f.id));
+    const ships=SHIPS.filter(s=>(s.films||[]).some(fi=>filmIds.has(fi)));
+    const facIds=new Set(); evs.forEach(e=>(e.factions||[]).forEach(f=>facIds.add(f)));
+    const facs=FACS.filter(f=>facIds.has(f.id));
+    const evCap=Math.max(0,evs.length-16), chCap=Math.max(0,chars.length-16), shCap=Math.max(0,ships.length-12);
     return `<section class="era" id="${era.key}"><div class="bar" style="background:${era.color}"></div>
       <div class="era-head"><span class="era-num">${String(ERAS.indexOf(era)+1).padStart(2,"0")}</span>
         <span class="era-name" style="color:${era.color}">${era.label}</span>
         <span class="era-range">${era.range}</span></div>
-      <div class="counts">작품 <b>${films.length}</b> · 사건 <b>${evs.length}</b> · 인물 <b>${chars.length}</b></div>
+      <div class="counts">작품 <b>${films.length}</b> · 사건 <b>${evs.length}</b> · 인물 <b>${chars.length}</b> · 세력 <b>${facs.length}</b> · 함선 <b>${ships.length}</b></div>
       <div class="era-desc">${era.desc}</div>
       ${group("작품",films.length,chipsFilm(films))}
       ${group("주요 사건",evs.length,chipsEvent(evs.slice(0,16)),evCap)}
       ${group("인물",chars.length,chipsChar(chars.slice(0,16)),chCap)}
+      ${group("활동 세력",facs.length,chipsFac(facs))}
+      ${group("대표 함선",ships.length,chipsShip(ships.slice(0,12)),shCap)}
     </section>`;
   }).join("");
 }
