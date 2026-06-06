@@ -38,7 +38,7 @@ h1{font-family:var(--fd);font-weight:700;font-size:1.8rem;margin:0 0 6px}
 .legend i{width:10px;height:10px;border-radius:2px;display:inline-block}
 </style></head>
 <body>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html" class="active">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html" class="active">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <div class="wrap">
   <div class="kicker">Archive Statistics · 통계 대시보드</div>
   <h1>아카이브 한눈에 보기</h1>
@@ -46,6 +46,7 @@ h1{font-family:var(--fd);font-weight:700;font-size:1.8rem;margin:0 0 6px}
   <div class="totals" id="totals"></div>
   <div class="panel"><h2>시대별 사건·작품 분포</h2><div id="byEra"></div></div>
   <div class="panel"><h2>연결 지표 · Connectivity</h2><div id="conn"></div><div class="legend" id="connNote"></div></div>
+  <div class="panel"><h2>공식 이미지 연결률 · Databank External Refs</h2><div id="dbk"></div><div class="legend" id="dbkNote"></div></div>
   <div class="cols">
     <div class="panel"><h2>인물 진영 분포</h2><div id="align"></div></div>
     <div class="panel"><h2>인물 등급(tier) 분포</h2><div id="tier"></div></div>
@@ -104,6 +105,19 @@ function countBy(arr,key){const m={};arr.forEach(o=>{const k=typeof key==="funct
     pbar("사건-작품 연계",evW,events.length,"#b98aff");
   document.getElementById("connNote").innerHTML=
     `<span><i style="background:#ff5a8a"></i>관계망: 인물 1명당 평균 <b style="color:var(--holo)">${avgRel.toFixed(2)}</b>개 관계 · 네트워크 밀도 <b style="color:var(--holo)">${density.toFixed(2)}%</b> (전체 가능 쌍 대비 실제 관계 비율)</span>`;
+  // databank external refs
+  const hasDbk=o=>!!(((o.external_refs||{}).databank)||{}).image_url;
+  const dC=chars.filter(hasDbk).length, dL=locs.filter(hasDbk).length, dF=facs.filter(hasDbk).length,
+        dV=veh.filter(hasDbk).length, dS=ss.filter(hasDbk).length;
+  document.getElementById("dbk").innerHTML=
+    pbar("인물",dC,chars.length,"#b98aff")+
+    pbar("함선",dS,ss.length,"#b98aff")+
+    pbar("세력",dF,facs.length,"#b98aff")+
+    pbar("탈것",dV,veh.length,"#b98aff")+
+    pbar("장소",dL,locs.length,"#b98aff");
+  const dT=dC+dL+dF+dV+dS, dD=chars.length+locs.length+facs.length+veh.length+ss.length;
+  document.getElementById("dbkNote").innerHTML=
+    `<span><i style="background:#b98aff"></i>합계 <b style="color:var(--holo)">${dT}/${dD}</b> 항목에 공식 이미지·출처 연결 (Star Wars Databank © Lucasfilm Ltd. · 미매칭은 데이터뱅크 항목 부재)</span>`;
   // alignment
   const al=countBy(chars,"alignment"),maxA=Math.max(1,...Object.values(al));
   document.getElementById("align").innerHTML=Object.keys(ALIGN).map(k=>bar(ALIGN[k][0],al[k]||0,maxA,ALIGN[k][1])).join("");
