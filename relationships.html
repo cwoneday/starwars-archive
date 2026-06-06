@@ -89,7 +89,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:20;padding:18px 24px;pointer-
   .detail{width:210px;right:12px;top:72px;padding:14px}
   .footer{font-size:9px;left:12px}
 }
-</style>
+.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}</style>
 </head>
 <body>
 <style>
@@ -101,14 +101,14 @@ header{position:fixed;top:0;left:0;right:0;z-index:20;padding:18px 24px;pointer-
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 #stage{top:46px}header{top:46px}.controls{top:124px}.detail{top:124px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="timeline.html">타임라인</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html" class="active">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html" class="active">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 
 <div class="starfield"></div>
 <div id="stage"><canvas id="links"></canvas><svg id="nodes"></svg></div>
 
 <header>
   <div class="title">KEY <span>TIES</span></div>
-  <div class="subtitle">스타워즈 중요인물 22인 · 인물 데이터 SWAPI (Ep I–VI) · 엣지=관계 타입</div>
+  <div class="subtitle">스타워즈 중요인물 22인 · 인물 데이터 SWAPI (Ep I–VI) + Databank 공식 사진 · 엣지=관계 타입</div>
 </header>
 
 <div class="controls">
@@ -118,6 +118,8 @@ header{position:fixed;top:0;left:0;right:0;z-index:20;padding:18px 24px;pointer-
   <div class="legend-item"><span class="dot" style="background:var(--light);color:var(--light)"></span>라이트사이드</div>
   <div class="legend-item"><span class="dot" style="background:var(--dark);color:var(--dark)"></span>다크사이드</div>
   <div class="legend-item"><span class="dot" style="background:var(--neutral);color:var(--neutral)"></span>중립 / 기타</div>
+  <button class="rel-btn" id="photoBtn" style="margin-top:10px"><span class="bar" style="background:#b98aff;color:#b98aff"></span><span>공식 사진 노드</span></button>
+  <div style="font-size:9px;color:var(--dim);line-height:1.5;margin-top:8px">노드 사진 출처: Star Wars Databank © Lucasfilm Ltd.<br>로드 실패·오프라인 시 색 원으로 복귀</div>
   <input class="search" id="search" placeholder="인물 검색…" autocomplete="off" style="margin-top:16px">
   <div class="hint">노드 클릭 → 그 인물의 타이만 빛남. 빈 공간 클릭 시 해제. 드래그로 이동.</div>
 </div>
@@ -294,7 +296,7 @@ function showDetail(d){
   const groups={family:[],master:[],ally:[],rival:[]};
   neighbors.get(d.id).forEach(n=>groups[n.type].push(n));
   const alignKo=d.align==="light"?"라이트사이드":d.align==="dark"?"다크사이드":"중립 / 기타";
-  let html=`<span class="align-tag" style="background:${ALIGN[d.align]}22;color:${ALIGN[d.align]};border:1px solid ${ALIGN[d.align]}55">${alignKo}</span>
+  let html=`${d.img?`<img src="${d.img}" style="width:64px;height:64px;border-radius:50%;object-fit:cover;border:2px solid ${ALIGN[d.align]};box-shadow:0 0 12px ${ALIGN[d.align]}55;margin-bottom:9px;display:block" onerror="this.style.display='none'">`:``}<span class="align-tag" style="background:${ALIGN[d.align]}22;color:${ALIGN[d.align]};border:1px solid ${ALIGN[d.align]}55">${alignKo}</span>
     <div class="name">${d.kr}</div>
     <div class="meta">주 활동 시대 · ${d.era}</div>`;
   if(d.avail===false){
@@ -326,6 +328,29 @@ function showDetail(d){
   detail.innerHTML=html;detail.classList.add('show');
   detail.querySelectorAll('.chip[data-id]').forEach(c=>c.onclick=()=>select(c.dataset.id));
 }
+
+// Databank 공식 사진 — 아카이브 id 매핑 후 런타임 주입 (오프라인이면 색 원 유지)
+const SHORTMAP={anakin:"anakin-skywalker",luke:"luke-skywalker",leia:"leia-organa",han:"han-solo",
+obiwan:"obi-wan-kenobi",padme:"padme-amidala",yoda:"yoda",quigon:"qui-gon-jinn",mace:"mace-windu",
+palpatine:"palpatine",maul:"darth-maul",dooku:"dooku",grievous:"grievous",ahsoka:"ahsoka-tano",
+chewbacca:"chewbacca",lando:"lando-calrissian",r2d2:"r2-d2",c3po:"c-3po"};
+let photoMode=true;
+fetch('characters.json').then(r=>r.json()).then(cs=>{
+  const BY=Object.fromEntries(cs.map(c=>[c.id,c]));
+  g.each(function(d){
+    const a=BY[SHORTMAP[d.id]];
+    const u=a&&a.external_refs&&a.external_refs.databank&&a.external_refs.databank.image_url;
+    if(!u)return; d.img=u;
+    const r=rScale(d.deg);
+    d3.select(this).insert('image','text').attr('class','nphoto').attr('href',u)
+      .attr('x',-r).attr('y',-r).attr('width',2*r).attr('height',2*r)
+      .attr('preserveAspectRatio','xMidYMid slice').style('clip-path','circle(50%)')
+      .style('pointer-events','none')
+      .on('error',function(){d.img=null;d3.select(this).remove();});
+  });
+  if(selected)showDetail(nodeById.get(selected));
+}).catch(()=>{});
+document.getElementById('photoBtn').onclick=function(){photoMode=!photoMode;this.classList.toggle('off',!photoMode);d3.selectAll('image.nphoto').attr('opacity',photoMode?1:0);};
 
 // 관계 타입 버튼
 const relBtns=document.getElementById('relBtns');
