@@ -1043,5 +1043,45 @@
     "s": "qimir",
     "t": "osha-aniseya",
     "type": "master"
+  },
+  {
+    "s": "avar-kriss",
+    "t": "elzar-mann",
+    "type": "ally"
+  },
+  {
+    "s": "avar-kriss",
+    "t": "stellan-gios",
+    "type": "ally"
+  },
+  {
+    "s": "elzar-mann",
+    "t": "stellan-gios",
+    "type": "ally"
+  },
+  {
+    "s": "loden-greatstorm",
+    "t": "bell-zettifar",
+    "type": "master"
+  },
+  {
+    "s": "avar-kriss",
+    "t": "marchion-ro",
+    "type": "rival"
+  },
+  {
+    "s": "avar-kriss",
+    "t": "lina-soh",
+    "type": "ally"
+  },
+  {
+    "s": "bell-zettifar",
+    "t": "burryaga",
+    "type": "ally"
+  },
+  {
+    "s": "stellan-gios",
+    "t": "lina-soh",
+    "type": "ally"
   }
 ]

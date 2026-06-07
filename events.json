@@ -291,7 +291,12 @@
     "category": "other",
     "tier": 1,
     "characters": [
-      "marchion-ro"
+      "marchion-ro",
+      "avar-kriss",
+      "elzar-mann",
+      "stellan-gios",
+      "lina-soh",
+      "loden-greatstorm"
     ],
     "locations": [
       "starlight-beacon"
@@ -304,9 +309,9 @@
     "source": "하이 리퍼블릭: 빛의 시대",
     "source_type": "novel",
     "canon_status": "explicit",
-    "one_liner": "초공간 사고가 연쇄 재난을 일으켜 변경계를 휩쓸다",
-    "summary": "초공간을 항행하던 대형 선박의 사고가 연쇄 폭발과 잔해 세례로 이어져 변경계 여러 행성을 덮쳤다. 공화국과 제다이는 전례 없는 규모의 구조 작전에 나섰다.",
-    "significance": "하이 리퍼블릭의 낙관에 처음으로 균열을 낸 사건으로, 변경의 위협 니힐의 등장을 알린다.",
+    "one_liner": "초공간을 항행하던 수송선 레거시 런이 산산조각 나, 빛보다 빠른 잔해가 헤트잘계를 덮친 날 — 빛의 시대의 첫 균열",
+    "summary": "외곽으로 향하던 대형 수송선 레거시 런이 초공간에서 폭발하듯 부서진다. 그 잔해는 '이머전스'가 되어 빛보다 빠른 속도로 헤트잘계 곳곳에 쏟아졌다 — 행성과 위성, 수십억의 목숨과 한 계절의 농작물이 한꺼번에 위협받는다. 아바르 크리스는 흩어진 제다이들을 포스의 '노래'로 하나로 엮어 잔해의 궤적을 막아 냈고, 리나 소 총리는 공화국의 모든 자원을 구조에 쏟았다. 영웅적 희생이 잇따랐지만, 이것이 사고가 아니라 누군가의 설계였다는 의심이 곧 고개를 든다.",
+    "significance": "하이 리퍼블릭의 낙관에 처음 균열을 낸 사건. 이 비극이 리나 소의 '위대한 과업'과 스타라이트 비콘을 낳았고, 동시에 변경의 약탈 집단 니힐과 그 배후 마키온 로의 그림자를 드러냈다 — 한 세기에 걸친 빛과 어둠의 서막.",
     "preceded_by": [
       "founding-of-the-sith"
     ],
@@ -328,25 +333,29 @@
       ]
     },
     "outcome": "대규모 인명·물적 피해, 변경 위협 부상",
-    "key_figures": [],
+    "key_figures": [
+      "avar-kriss",
+      "lina-soh",
+      "marchion-ro"
+    ],
     "background": "초공간을 항행하던 대형 선박의 사고가 연쇄 폭발과 잔해 세례로 번져 변경계 여러 행성을 덮쳤다.",
     "aftermath": "공화국과 제다이가 전례 없는 구조 작전에 나섰고, 하이 리퍼블릭의 낙관에 첫 균열이 생기며 약탈 세력 니힐의 위협이 드러난다.",
     "deep_dive": [
       {
         "phase": "평온한 확장기",
-        "note": "하이 리퍼블릭은 공화국과 제다이가 변경으로 뻗어 나가던 낙관의 시대였다. 위협보다 가능성이 앞서던 황금기다."
+        "note": "공화국과 제다이가 변경으로 뻗어 나가던 낙관의 황금기 — 위협보다 가능성이 앞서던 시대."
       },
       {
-        "phase": "초공간의 참사",
-        "note": "항행하던 대형 선박이 초공간에서 산산이 부서지고, 그 잔해가 빛보다 빠른 속도로 변경계 곳곳에 쏟아진다."
+        "phase": "레거시 런의 참사",
+        "note": "항행하던 수송선이 초공간에서 산산이 부서지고, 그 잔해 '이머전스'가 빛보다 빠르게 헤트잘계에 쏟아진다."
       },
       {
-        "phase": "전례 없는 구조전",
-        "note": "제다이와 공화국이 잔해의 궤적을 예측해 막아내려 사력을 다한다. 영웅적 희생이 잇따르지만 피해는 막대했다."
+        "phase": "포스의 합주",
+        "note": "아바르 크리스가 흩어진 제다이들을 하나의 선율로 묶는다 — 수십 명의 의지가 한 사람의 지휘 아래 잔해를 막아 선다."
       },
       {
         "phase": "니힐의 그림자",
-        "note": "사고 뒤에 변경의 약탈 집단 니힐의 흔적이 드러난다. 빛의 시대의 낙관에 첫 균열이 생기고, 새로운 위협의 윤곽이 나타난다."
+        "note": "사고 뒤에 약탈 집단 니힐과 마키온 로의 설계가 어른거린다. 빛의 시대의 낙관에 첫 균열이 새겨진다."
       }
     ],
     "work": "light-of-the-jedi"
@@ -361,7 +370,11 @@
     "year_certainty": "approximate",
     "category": "battle",
     "tier": 2,
-    "characters": [],
+    "characters": [
+      "avar-kriss",
+      "loden-greatstorm",
+      "marchion-ro"
+    ],
     "locations": [],
     "factions": [
       "galactic-republic",
@@ -412,7 +425,9 @@
     "category": "founding",
     "tier": 2,
     "characters": [
-      "lina-soh"
+      "lina-soh",
+      "avar-kriss",
+      "stellan-gios"
     ],
     "locations": [
       "starlight-beacon"
@@ -462,7 +477,11 @@
     "year_certainty": "approximate",
     "category": "battle",
     "tier": 1,
-    "characters": [],
+    "characters": [
+      "bell-zettifar",
+      "burryaga",
+      "elzar-mann"
+    ],
     "locations": [
       "valo"
     ],
@@ -532,7 +551,9 @@
     "category": "fall",
     "tier": 3,
     "characters": [
-      "marchion-ro"
+      "marchion-ro",
+      "stellan-gios",
+      "avar-kriss"
     ],
     "locations": [
       "starlight-beacon"

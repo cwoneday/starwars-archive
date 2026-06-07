@@ -8326,5 +8326,330 @@
     "source_type": "series",
     "canon_status": "explicit",
     "profile": "코파르의 숲에 은둔한 우키 제다이. 브렌독의 생존 제다이 중 하나로 침묵 속에 살아가다, 추적해 온 스트레인저에게 발각돼 최후를 맞는다."
+  },
+  {
+    "id": "avar-kriss",
+    "name": "아바르 크리스",
+    "name_en": "Avar Kriss",
+    "alignment": "light",
+    "tier": 1,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "포스를 '노래'로 듣고 그 선율로 수많은 제다이를 하나로 엮는다 — 그 합주가 곧 그녀의 지휘.",
+    "arc": [
+      {
+        "event": "great-disaster",
+        "note": "포스를 노래로 듣는 귀로 제다이들을 하나로 묶어 헤트잘을 구한다 — 빛의 시대의 영웅이 된 날."
+      },
+      {
+        "event": "fall-of-starlight",
+        "note": "스타라이트의 마셜로서 비콘의 추락을 막지 못한 죄책감이 그녀를 니힐 사냥에 몰아넣는다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "light-of-the-jedi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "하이 리퍼블릭: 빛의 시대",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "profile": "포스를 노래로 듣는 드문 재능을 지닌 제다이. 대재난의 한복판에서 수십 명의 제다이를 한 선율로 묶어 헤트잘계를 구해 내며 빛의 시대의 상징적 영웅이 됐다. 훗날 스타라이트 비콘의 마셜로서 니힐과의 전쟁을 이끈다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e81",
+        "name": "Avar Kriss",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/avar-kriss-main_019acd5b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "elzar-mann",
+    "name": "엘자르 만",
+    "name_en": "Elzar Mann",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "통념의 바깥에서 포스를 다루나, 그 자유로움이 어둠과 맞닿아 있음을 안다.",
+    "arc": [
+      {
+        "event": "great-disaster",
+        "note": "파격적인 힘으로 구조에 뛰어들지만, 자유분방함이 다크사이드의 유혹과 맞닿아 있음을 깨닫는다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "light-of-the-jedi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "하이 리퍼블릭: 빛의 시대",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "profile": "통념을 벗어난 방식으로 포스를 다루는 강력한 제다이. 아바르 크리스의 오랜 벗이자 거울 같은 존재로, 재능만큼이나 어둠의 유혹과도 가까이 선 인물이다."
+  },
+  {
+    "id": "stellan-gios",
+    "name": "스텔란 지오스",
+    "name_en": "Stellan Gios",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "오더의 얼굴로서 빛을 대표하나, 그 무게가 늘 어깨를 짓누른다.",
+    "arc": [
+      {
+        "event": "fall-of-starlight",
+        "note": "추락하는 스타라이트 비콘을 행성에서 밀어내며 산화 — 오더의 얼굴이 마지막까지 빛을 지킨다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "light-of-the-jedi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "하이 리퍼블릭: 빛의 시대",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "profile": "젊은 나이에 제다이 평의회에 오른, 오더의 공적인 얼굴. 아바르·엘자르와 파다완 시절을 함께한 벗으로, 스타라이트 비콘이 무너지던 날 행성을 지키려 비콘을 밀어내며 스러진다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc217b",
+        "name": "Stellan Gios",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/stellan-main_55328447.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "loden-greatstorm",
+    "name": "로덴 그레이트스톰",
+    "name_en": "Loden Greatstorm",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "트와일렉",
+    "species_en": "Twi'lek",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "제자에게 빛을 물려주려 하나, 니힐의 손에 시대의 잔혹함을 먼저 증명당한다.",
+    "arc": [
+      {
+        "event": "battle-of-kur",
+        "note": "쿠르 전투에서 니힐에게 사로잡힌다 — 빛의 시대 제다이도 무적이 아님을 증명한 비극."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "light-of-the-jedi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "하이 리퍼블릭: 빛의 시대",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "profile": "벨 제티파의 스승인 트와일렉 제다이 마스터. 뛰어난 검술과 온화한 지혜를 겸했으나, 니힐에게 사로잡혀 빛의 시대의 첫 균열을 몸으로 보여준다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2054",
+        "name": "Loden Greatstorm",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/loden-greatstorm-main_de6c5134.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "bell-zettifar",
+    "name": "벨 제티파",
+    "name_en": "Bell Zettifar",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "스승을 잃은 슬픔을 딛고, 차하운드 엠버와 함께 한 사람 몫의 제다이로 자란다.",
+    "arc": [
+      {
+        "event": "attack-on-valo",
+        "note": "스승 로덴을 잃은 젊은 제다이가 발로의 참극을 거치며 단단해진다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "light-of-the-jedi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "하이 리퍼블릭: 빛의 시대",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "profile": "차하운드 '엠버'와 함께하는 젊은 제다이. 스승 로덴 그레이트스톰을 니힐에게 잃은 상실을 딛고, 전쟁의 한복판에서 한 사람 몫의 기사로 성장한다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e99",
+        "name": "Bell Zettifar",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/bell-zettifar-main_3f22f9be.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "burryaga",
+    "name": "버리아가",
+    "name_en": "Burryaga",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "우키",
+    "species_en": "Wookiee",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "남다른 공감으로 동료의 고통을 제 것처럼 느끼며 곁을 지킨다.",
+    "arc": [
+      {
+        "event": "attack-on-valo",
+        "note": "공감 능력이 남다른 우키 파다완 — 발로의 혼돈 속에서 동료들의 고통을 제 것처럼 느끼며 싸운다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "light-of-the-jedi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "하이 리퍼블릭: 빛의 시대",
+    "source_type": "novel",
+    "canon_status": "explicit",
+    "profile": "공감 능력이 남달리 깊은 우키 제다이 파다완. 말 대신 마음으로 동료와 이어지며, 빛의 시대 제다이들의 따뜻한 결속을 상징한다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ec1",
+        "name": "Burryaga",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/burryaga-main_56f13902.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
   }
 ]

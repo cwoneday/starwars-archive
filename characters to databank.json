@@ -977,5 +977,40 @@
   "image_url": "https://lumiere-a.akamaihd.net/v1/images/vernestra-vern-rwoh-main_6aa5e264.jpeg",
   "match_status": "verified",
   "matched_at": "2026-06-07"
+ },
+ "avar-kriss": {
+  "databank_name": "Avar Kriss",
+  "databank_id": "64292927021f17e13fbc1e81",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/avar-kriss-main_019acd5b.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "stellan-gios": {
+  "databank_name": "Stellan Gios",
+  "databank_id": "64292927021f17e13fbc217b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/stellan-main_55328447.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "bell-zettifar": {
+  "databank_name": "Bell Zettifar",
+  "databank_id": "64292927021f17e13fbc1e99",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/bell-zettifar-main_3f22f9be.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "burryaga": {
+  "databank_name": "Burryaga",
+  "databank_id": "64292927021f17e13fbc1ec1",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/burryaga-main_56f13902.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "loden-greatstorm": {
+  "databank_name": "Loden Greatstorm",
+  "databank_id": "64292927021f17e13fbc2054",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/loden-greatstorm-main_de6c5134.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
  }
 }
