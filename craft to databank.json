@@ -1,0 +1,702 @@
+{
+ "veh-sand-crawler": {
+  "file": "vehicles.json",
+  "databank_name": "Sandcrawler",
+  "databank_id": "6429291f021f17e13fbc1de9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/sandcrawler-main_eb1b036b.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-t-16-skyhopper": {
+  "file": "vehicles.json",
+  "databank_name": "T-16 Skyhopper",
+  "databank_id": "6429291f021f17e13fbc1e03",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_t16skyhopper_01_169_ad69e901.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "veh-x-34-landspeeder": {
+  "file": "vehicles.json",
+  "databank_name": "X-34 Landspeeder",
+  "databank_id": "6429291f021f17e13fbc1e3b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/landspeeder-1-1_68b36956.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "veh-tie-ln-starfighter": {
+  "file": "vehicles.json",
+  "databank_name": "TIE Fighter",
+  "databank_id": "6429291f021f17e13fbc1e23",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/TIE-Fighter_25397c64.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-snowspeeder": {
+  "file": "vehicles.json",
+  "databank_name": "Snowspeeder",
+  "databank_id": "6429291f021f17e13fbc1df7",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/snowspeeder_ef2f9334.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "veh-tie-bomber": {
+  "file": "vehicles.json",
+  "databank_name": "TIE Bomber",
+  "databank_id": "6429291f021f17e13fbc1e1e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/tie-bomber-main_d4d9b979.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "veh-at-at": {
+  "file": "vehicles.json",
+  "databank_name": "AT-AT Walker (All Terrain Armored Transport)",
+  "databank_id": "6429291f021f17e13fbc1d44",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/AT-AT_89d0105f.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-at-st": {
+  "file": "vehicles.json",
+  "databank_name": "AT-ST Walker",
+  "databank_id": "6429291f021f17e13fbc1d4a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_5724_a150e6d4.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-storm-iv-twin-pod-cloud-car": {
+  "file": "vehicles.json",
+  "databank_name": "Cloud Car",
+  "databank_id": "6429291f021f17e13fbc1d59",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/cloud-car-main-image_8d2e4e89.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-sail-barge": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-bantha-ii-cargo-skiff": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-tie-in-interceptor": {
+  "file": "vehicles.json",
+  "databank_name": "TIE Interceptor",
+  "databank_id": "6429291f021f17e13fbc1e24",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/tie-interceptor-2_b2250e79.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-imperial-speeder-bike": {
+  "file": "vehicles.json",
+  "databank_name": "Speeder Bike",
+  "databank_id": "6429291f021f17e13fbc1dfa",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/speeder-bike-main_954f3273.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-vulture-droid": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-multi-troop-transport": {
+  "file": "vehicles.json",
+  "databank_name": "MTT",
+  "databank_id": "6429291f021f17e13fbc1dbf",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_mtt_01_169_efb8a98a.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-armored-assault-tank": {
+  "file": "vehicles.json",
+  "databank_name": "AAT Battle Tank",
+  "databank_id": "6429291f021f17e13fbc1d3d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_aatbattletank_01_169_9de46aea.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-single-trooper-aerial-platform": {
+  "file": "vehicles.json",
+  "databank_name": "STAP",
+  "databank_id": "6429291f021f17e13fbc1dfb",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_stap_01_169_75029522.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-c-9979-landing-craft": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-tribubble-bongo": {
+  "file": "vehicles.json",
+  "databank_name": "Gungan Bongo Submarine",
+  "databank_id": "6429291f021f17e13fbc1d8d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_gunganbongosubmarine_01_169_fc9286be.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-sith-speeder": {
+  "file": "vehicles.json",
+  "databank_name": "Sith Speeder",
+  "databank_id": "6429291f021f17e13fbc1df4",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_sithspeeder_01_169_cfa01a05.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "veh-zephyr-g-swoop-bike": {
+  "file": "vehicles.json",
+  "databank_name": "Swoop",
+  "databank_id": "6429291f021f17e13fbc1e01",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/solo-db-swoop-main-image_d041c11a.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06",
+  "note": "클래스 수준 매칭(스웁)"
+ },
+ "veh-koro-2-exodrive-airspeeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-xj-6-airspeeder": {
+  "file": "vehicles.json",
+  "databank_name": "XJ-6 Airspeeder",
+  "databank_id": "6429291f021f17e13fbc1e3d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/xj-6-air-speeder-square_34ff8062.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "veh-laat-i": {
+  "file": "vehicles.json",
+  "databank_name": "Republic Attack Gunship",
+  "databank_id": "6429291f021f17e13fbc1dd9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_republicattackgunship_01_169_4ed5c0a7.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-laat-c": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-at-te": {
+  "file": "vehicles.json",
+  "databank_name": "AT-TE Walker",
+  "databank_id": "6429291f021f17e13fbc1d4b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/at-te-main_09471f2b.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-spha": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-flitknot-speeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-neimoidian-shuttle": {
+  "file": "vehicles.json",
+  "databank_name": "Sheathipede-class Shuttle",
+  "databank_id": "6429291f021f17e13fbc1df1",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/sheathipede-class-shuttle_3f807659.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-geonosian-starfighter": {
+  "file": "vehicles.json",
+  "databank_name": "Geonosian Fighter",
+  "databank_id": "6429291f021f17e13fbc1d87",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/geonosian-fighter_119560e5.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-tsmeu-6-personal-wheel-bike": {
+  "file": "vehicles.json",
+  "databank_name": "General Grievous’ TSMEU-6 Wheel Bike",
+  "databank_id": "6429291f021f17e13fbc1d86",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/ep3_ia_96565_46396938.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-emergency-firespeeder": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-droid-tri-fighter": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-oevvaor-jet-catamaran": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-raddaugh-gnasp-fluttercraft": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-clone-turbo-tank": {
+  "file": "vehicles.json",
+  "databank_name": "Juggernaut Transport Vehicle",
+  "databank_id": "6429291f021f17e13fbc1da4",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/juggernaut-transport-vehicle-main_09946f42.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-corporate-alliance-tank-droid": {
+  "file": "vehicles.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "veh-droid-gunship": {
+  "file": "vehicles.json",
+  "databank_name": "Droid Gunship",
+  "databank_id": "6429291f021f17e13fbc1d69",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/droid_gunship_20546779.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "veh-at-rt": {
+  "file": "vehicles.json",
+  "databank_name": "AT-RT Walker",
+  "databank_id": "6429291f021f17e13fbc1d49",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_atrtwalker_01_169_dc4f22ad.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "veh-anakin-podracer": {
+  "file": "vehicles.json",
+  "databank_name": "Anakin Skywalker's Podracer",
+  "databank_id": "6429291f021f17e13fbc1d40",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_anakinskywalkerspodracer_01_169_fe359d32.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "veh-at-act": {
+  "file": "vehicles.json",
+  "databank_name": "AT-ACT walker",
+  "databank_id": "6429291f021f17e13fbc1d43",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/at-act-walker_78783f1b.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-cr90-corvette": {
+  "file": "starships.json",
+  "databank_name": "Tantive IV",
+  "databank_id": "6429291f021f17e13fbc1e07",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/tantive-iv-main_f1ea3fa5.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-star-destroyer": {
+  "file": "starships.json",
+  "databank_name": "Imperial Star Destroyer",
+  "databank_id": "6429291f021f17e13fbc1d9f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Star-Destroyer_ab6b94bb.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-sentinel-class-landing-craft": {
+  "file": "starships.json",
+  "databank_name": "Imperial Sentinel-Class Shuttle",
+  "databank_id": "6429291f021f17e13fbc1d9d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Imperial-Sentinel-Class-Shuttle_a2dc7d3b.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-death-star": {
+  "file": "starships.json",
+  "databank_name": "Death Star",
+  "databank_id": "64293151d99b54f25a4abb63",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Death-Star-I-copy_36ad2500.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06",
+  "note": "databank 분류상 '장소' — locations 덤프에서 매칭"
+ },
+ "ss-millennium-falcon": {
+  "file": "starships.json",
+  "databank_name": "Millennium Falcon",
+  "databank_id": "6429291f021f17e13fbc1db9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/millennium-falcon-main-tlj-a_7cf89d3a.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-y-wing": {
+  "file": "starships.json",
+  "databank_name": "Y-wing Starfighter",
+  "databank_id": "6429291f021f17e13fbc1e3e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/Y-Wing-Fighter_0e78c9ae.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-x-wing": {
+  "file": "starships.json",
+  "databank_name": "X-wing Starfighter",
+  "databank_id": "6429291f021f17e13fbc1e3c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/X-Wing-Fighter_47c7c342.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-tie-advanced-x1": {
+  "file": "starships.json",
+  "databank_name": "Darth Vader's TIE Fighter",
+  "databank_id": "6429291f021f17e13fbc1d65",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/vaders-tie-fighter_8bcb92e1.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06",
+  "note": "TIE Advanced x1 = 베이더의 TIE"
+ },
+ "ss-executor": {
+  "file": "starships.json",
+  "databank_name": "Executor",
+  "databank_id": "6429291f021f17e13fbc1d6d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_executor_01_169_8157df82.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-rebel-transport": {
+  "file": "starships.json",
+  "databank_name": "GR-75 Medium Transport",
+  "databank_id": "6429291f021f17e13fbc1d8a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/medium-transport-1-1_db17a48f.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-slave-1": {
+  "file": "starships.json",
+  "databank_name": "Slave I",
+  "databank_id": "6429291f021f17e13fbc1df6",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/slave-1-main_81d5c1c7.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-imperial-shuttle": {
+  "file": "starships.json",
+  "databank_name": "Imperial Shuttle",
+  "databank_id": "6429291f021f17e13fbc1d9e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/veh_ia_1752_040381b2.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-ef76-nebulon-b-escort-frigate": {
+  "file": "starships.json",
+  "databank_name": "Nebulon-B Frigate",
+  "databank_id": "6429291f021f17e13fbc1dc3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/nebulon-b-frigate_dce53bc2.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-calamari-cruiser": {
+  "file": "starships.json",
+  "databank_name": "Mon Calamari Star Cruiser",
+  "databank_id": "6429291f021f17e13fbc1dbe",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_2581_47f64de7.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-a-wing": {
+  "file": "starships.json",
+  "databank_name": "A-wing Fighter",
+  "databank_id": "6429291f021f17e13fbc1d3a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-05-26_at_5_16a39e17.png",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-b-wing": {
+  "file": "starships.json",
+  "databank_name": "B-wing Fighter",
+  "databank_id": "6429291f021f17e13fbc1d4d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_bwingfighter_01_169_460cc528.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-republic-cruiser": {
+  "file": "starships.json",
+  "databank_name": "Republic Cruiser",
+  "databank_id": "6429291f021f17e13fbc1ddb",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_republiccruiser_01_169_fd769e33.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-droid-control-ship": {
+  "file": "starships.json",
+  "databank_name": "Trade Federation Battleship",
+  "databank_id": "6429291f021f17e13fbc1e27",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_tradefederationbattleship_01_169_fc5458ce.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06",
+  "note": "드로이드 제어함 = 루크레헐크 전함"
+ },
+ "ss-naboo-fighter": {
+  "file": "starships.json",
+  "databank_name": "Naboo N-1 Starfighter",
+  "databank_id": "6429291f021f17e13fbc1dc0",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_naboon1starfighter_01_169_26691adf.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-naboo-royal-starship": {
+  "file": "starships.json",
+  "databank_name": "Naboo Royal Starship",
+  "databank_id": "6429291f021f17e13fbc1dc2",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_nabooroyalstarship_01_169_e61f677e.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-scimitar": {
+  "file": "starships.json",
+  "databank_name": "Sith Infiltrator",
+  "databank_id": "6429291f021f17e13fbc1df3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_sithinfiltrator_01_169_1bd0a638.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-j-type-diplomatic-barge": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "ss-aa-9-coruscant-freighter": {
+  "file": "starships.json",
+  "databank_name": "AA-9 Coruscant freighter",
+  "databank_id": "6429291f021f17e13fbc1d3c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/aa-9-coruscant-freighter_a856053d.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-jedi-starfighter": {
+  "file": "starships.json",
+  "databank_name": "Delta-7 Jedi Starfighter",
+  "databank_id": "6429291f021f17e13fbc1d67",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/delta-7-starfighter_fe9a59bc.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-h-type-nubian-yacht": {
+  "file": "starships.json",
+  "databank_name": "H-type Nubian yacht",
+  "databank_id": "6429291f021f17e13fbc1d8f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/h-type-nubian-yacht_7d67bc00.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-republic-assault-ship": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "ss-solar-sailer": {
+  "file": "starships.json",
+  "databank_name": "Solar Sailer",
+  "databank_id": "6429291f021f17e13fbc1df8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_geonosiansolarsailer_01_169_b3873578.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-trade-federation-cruiser": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "ss-theta-class-t-2c-shuttle": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "ss-republic-attack-cruiser": {
+  "file": "starships.json",
+  "databank_name": "Republic Attack Cruiser",
+  "databank_id": "6429291f021f17e13fbc1dd8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_republicattackcruiser_01_169_812f153d.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-naboo-star-skiff": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "ss-jedi-interceptor": {
+  "file": "starships.json",
+  "databank_name": "Eta-2 Jedi Starfighter",
+  "databank_id": "6429291f021f17e13fbc1d6c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/1-1-starfighter_decf3188.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-arc-170": {
+  "file": "starships.json",
+  "databank_name": "ARC-170 Starfighter",
+  "databank_id": "6429291f021f17e13fbc1d42",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_arc170starfighter_01_169_f932abcb.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-banking-clan-frigate": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "ss-belbullab-22-starfighter": {
+  "file": "starships.json",
+  "databank_name": "Soulless One",
+  "databank_id": "6429291f021f17e13fbc1df9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_soullessone_01_169_08305d9b.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-v-wing": {
+  "file": "starships.json",
+  "databank_name": "V-wing Fighter",
+  "databank_id": "6429291f021f17e13fbc1e38",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/v-wing-main_37a7dec1.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-ghost": {
+  "file": "starships.json",
+  "databank_name": "The Ghost",
+  "databank_id": "6429291f021f17e13fbc1e0d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-ghost-s3_499fca79.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-razor-crest": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 부재 — 'mandalorian' 토큰의 건틀릿 오매핑 교정"
+ },
+ "ss-marauder": {
+  "file": "starships.json",
+  "databank_name": "Marauder",
+  "databank_id": "6429291f021f17e13fbc1db6",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/marauder-main_b64030c9.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-t6-shuttle": {
+  "file": "starships.json",
+  "databank_name": "Jedi T-6 Shuttle",
+  "databank_id": "6429291f021f17e13fbc1da2",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_jedit6shuttle_01_169_2fd46362.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-06"
+ },
+ "ss-u-wing": {
+  "file": "starships.json",
+  "databank_name": "U-wing",
+  "databank_id": "6429291f021f17e13fbc1e31",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/u-wing_3a89a295.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-fondor-haulcraft": {
+  "file": "starships.json",
+  "databank_name": null,
+  "databank_id": null,
+  "image_url": null,
+  "match_status": "rejected",
+  "note": "데이터뱅크 항목 부재(2차 수색 완료)"
+ },
+ "ss-antique-n1": {
+  "file": "starships.json",
+  "databank_name": "Antique N-1 starfighter",
+  "databank_id": "6429291f021f17e13fbc1d41",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/antique-n-1-starfighter-main_d9ea1e4a.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-a-wing-trainer": {
+  "file": "starships.json",
+  "databank_name": "A-wing trainer (RZ-1T)",
+  "databank_id": "6429291f021f17e13fbc1d3b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/a-wing-trainer_72ac4ed9.jpeg",
+  "match_status": "exact",
+  "matched_at": "2026-06-06"
+ },
+ "ss-home-one": {
+  "file": "starships.json",
+  "databank_name": "Home One",
+  "databank_id": "6429291f021f17e13fbc1d93",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/home-one_823f7f7b.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "ss-finalizer": {
+  "file": "starships.json",
+  "databank_name": "Finalizer",
+  "databank_id": "6429291f021f17e13fbc1d70",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/finalizer_9c490246.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ }
+}
