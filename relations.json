@@ -858,5 +858,80 @@
     "s": "r2-d2",
     "t": "bb-8",
     "type": "ally"
+  },
+  {
+    "s": "han-solo",
+    "t": "kylo-ren",
+    "type": "family"
+  },
+  {
+    "s": "leia-organa",
+    "t": "kylo-ren",
+    "type": "family"
+  },
+  {
+    "s": "palpatine",
+    "t": "rey",
+    "type": "family"
+  },
+  {
+    "s": "luke-skywalker",
+    "t": "kylo-ren",
+    "type": "master"
+  },
+  {
+    "s": "luke-skywalker",
+    "t": "rey",
+    "type": "master"
+  },
+  {
+    "s": "leia-organa",
+    "t": "rey",
+    "type": "master"
+  },
+  {
+    "s": "snoke",
+    "t": "kylo-ren",
+    "type": "master"
+  },
+  {
+    "s": "rey",
+    "t": "kylo-ren",
+    "type": "rival"
+  },
+  {
+    "s": "rey",
+    "t": "finn",
+    "type": "ally"
+  },
+  {
+    "s": "finn",
+    "t": "poe-dameron",
+    "type": "ally"
+  },
+  {
+    "s": "finn",
+    "t": "rose-tico",
+    "type": "ally"
+  },
+  {
+    "s": "poe-dameron",
+    "t": "leia-organa",
+    "type": "ally"
+  },
+  {
+    "s": "armitage-hux",
+    "t": "kylo-ren",
+    "type": "rival"
+  },
+  {
+    "s": "finn",
+    "t": "captain-phasma",
+    "type": "rival"
+  },
+  {
+    "s": "rey",
+    "t": "chewbacca",
+    "type": "ally"
   }
 ]

@@ -2,7 +2,7 @@
 
 > 최종 갱신: 2026-06-06
 > 목적: 설계 도식(헌법·로스터)과 **실제 이행 상태**를 정직하게 대조해 기록한다.
-> 한 줄 요약: **8축 데이터(생물 축 신설)·상세·역참조·거버넌스·검색/시대/통계 허브가 모두 작동하고, Star Wars Databank 통합으로 334개 항목 중 250개(75%)에 공식 이미지·출처가, 인물 133명 전원에 화법 프로필이 붙었다.** 외부 sync 자동화 인프라(scripts·workflows)까지 갖춤.
+> 한 줄 요약: **8축 데이터(생물 축 신설)·상세·역참조·거버넌스·검색/시대/통계 허브가 모두 작동하고, Star Wars Databank 통합으로 342개 항목 중 259개(76%)에 공식 이미지·출처가, 인물 141명 전원에 화법 프로필이 붙었다.** 외부 sync 자동화 인프라(scripts·workflows)까지 갖춤.
 
 > 2026-06-06 갱신 내역: **Star Wars Databank API 통합 완료.** 인물 964·장소 326·조직 135·탈것 267 덤프 전수 대조 → 매핑(exact/verified/rejected 박제) → `external_refs` 주입(출처 캡션 의무·폴백 의무) → 영문 원문은 cache 격리(제6조). 인물 profile 133/133 완성(데이터뱅크 사실 재구성 106 + 자체 작성 27). 검색·시대·통계·랜딩·생물 도감 신설, 종족 한글 표준화, 중복 인물 2쌍 병합, era 결함 15명 수정.
 
@@ -27,8 +27,8 @@
 | 역할 | 상태 | 비고 |
 | --- | --- | --- |
 | timeline-curator | ✅ | `events.json` **49건**, 인과사슬 연결, 작품 연계 43/49 |
-| 인물 프로파일러 | ✅ | **133명** — 동기 133/133 · **profile 133/133** · arc 96/133 · 소속 94/133 · 종족 한글화(원어 `species_en` 보존) |
-| 관계 추출자 | ✅ | 타입 관계 **172개** (중복 인물 병합 후 정화) |
+| 인물 프로파일러 | ✅ | **141명(시퀄 8인 포함)** — 동기 141/141 · **profile 141/141** · arc 104/141 · 소속 102/141 · 종족 한글화(원어 `species_en` 보존) |
+| 관계 추출자 | ✅ | 타입 관계 **187개** (중복 인물 병합 후 정화) |
 | 에피소드 요약자 | ✅ | **작품 축 34편** — 신작 3편(애콜라이트·몰—섀도 로드·보바 펫) 포함. 화법 줄거리·의의 |
 | location-curator | ✅ | **79곳** (+로탈·알다니·페릭스·브라카·오비완 3곳) |
 | faction-curator | ✅ | **19개** (+파이크·크림슨 던·나이트시스터·만달로어인·헛 카르텔·인퀴지터리우스·히든 패스) |
@@ -46,16 +46,16 @@
 | 파일 | 건수 | 공식 이미지 | 상태 |
 | --- | --- | --- | --- |
 | `events.json` | 49 | — | ✅ 인과사슬·작품 연계 43/49 · canon 명시32/언급12/추론5 |
-| `characters.json` | 133 | **106 (80%)** | ✅ 동기·profile 100% · arc 96 · 소속 94 · external_refs |
+| `characters.json` | 141 | **114 (81%)** | ✅ 동기·profile 100% · arc 104 · 소속 102 · external_refs |
 | `locations.json` | 79 | **48 (61%)** | ✅ |
 | `factions.json` | 19 | **15 (79%)** | ✅ |
 | `vehicles.json` | 41 | **28 (68%)** | ✅ one_liner |
-| `starships.json` | 44 | **35 (80%)** | ✅ one_liner |
+| `starships.json` | 44 | **36 (82%)** | ✅ one_liner |
 | `creatures.json` | **18** | **18 (100%)** | ✅ 12종 선별 확장 + external_refs |
-| `relations.json` | 172 | — | ✅ |
+| `relations.json` | 187 | — | ✅ |
 | `films.json` | 34 | — | ✅ 작품 축 |
 
-**합계: 공식 이미지·출처 연결 250/334 (75%)** — 미연결분은 데이터뱅크 항목 부재(rejected로 박제, 오매핑 방지).
+**합계: 공식 이미지·출처 연결 259/342 (76%)** — 미연결분은 데이터뱅크 항목 부재(rejected로 박제, 오매핑 방지).
 마지막 감사(`validate.py`): **PASS — 오류 0 / 경고 0 / 정보 14**.
 
 ---
@@ -71,7 +71,7 @@
 | `creatures.html` | **생물 도감** | 신설 |
 | `timeline.html` 외 상세 7종 | 기존 + 상세 5종(인물·장소·세력·탈것·함선)에 **공식 이미지 렌더** | 갱신 |
 
-도구·인프라: `validate.py` · `design_audit.py` · `build_standalone.py` · `scripts/`(fetch_databank · build_mapping · enrich_characters · rewrite_descriptions · entity_pipeline) · `mapping/` 4종 · `.github/workflows/sync-databank.yml` · `IMAGE_POLICY.md` · `REWRITE_REVIEW` 1~3.
+도구·인프라: `preflight.py`(통합 게이트) · `validate.py` · `design_audit.py` · `build_standalone.py` · `scripts/`(fetch_databank · build_mapping · enrich_characters · rewrite_descriptions · entity_pipeline) · `mapping/` 4종 · `.github/workflows/sync-databank.yml` · `IMAGE_POLICY.md` · `REWRITE_REVIEW` 1~3.
 > `cache/`(영문 원문·원시 덤프)는 배포 제외 — `.gitignore` 권장(제6조).
 
 ---
@@ -103,6 +103,10 @@
 ---
 
 ## 7. 갱신 이력
+
+- 2026-06-07 (24) — **풍성화 1순위: 시퀄 3부작 패키지.** 주역 8인 등재(레이·카일로 렌·핀·포 대머론·스노크·헉스·파스마·로즈 — 전원 profile·동기·arc·소속·공식 이미지). 관계 +15(레이↔팰퍼틴 혈연, 스노크↔카일로 사제 등), 기존 주역 9명 works에 ep7~9 반영, rise 사건 5건 참여자 보강. 관계망 141인·관계 187·공동출연 2060 재생성, 핵심관계도 시퀄 4인 사진 점등. '퍼스트 오더의 부상' 시대 인물 1→9명.
+
+- 2026-06-06 (23) — **통합 사전검사 `preflight.py` + CI 게이트 신설**: 데이터 무결성(validate 위임) + 전 페이지 JS 문법(node --check) + 매핑 무결성(유령 id·중복 databank_id 오매핑·credit·역참조 일관성)을 한 명령으로. `.github/workflows/preflight.yml`로 푸시·PR마다 자동 차단. **즉시 유령 매핑 키 1건 적발·교정**(ss-nebulon-b→실제 id, 함선 36/44). 음성 테스트로 게이트 작동 확증.
 
 - 2026-06-06 (22) — **판정 오류 자가 교정**: 조직 토큰 검색의 출력 절단([:8])에 'The First Order' 본체가 가려져 오판 reject했던 건을 발견, verified로 교정·주입(세력 15/19). 전체 reject 판정 재감사 — 절단 기인 오판은 이 1건뿐(타 건은 정밀 토큰 0건으로 부재 확증). 교훈 박제: 다중 후보 출력은 절단 없이 전수 표시할 것.
 

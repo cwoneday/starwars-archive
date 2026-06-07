@@ -914,5 +914,61 @@
   "image_url": "https://lumiere-a.akamaihd.net/v1/images/chopper-main_607bb2d9.jpeg",
   "match_status": "exact",
   "matched_at": "2026-06-06"
+ },
+ "rey": {
+  "databank_name": "Rey",
+  "databank_id": "64292927021f17e13fbc2128",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "kylo-ren": {
+  "databank_name": "Supreme Leader Kylo Ren",
+  "databank_id": "64292927021f17e13fbc2183",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "finn": {
+  "databank_name": "Finn",
+  "databank_id": "64292927021f17e13fbc1f7c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "poe-dameron": {
+  "databank_name": "Poe Dameron",
+  "databank_id": "64292927021f17e13fbc20e9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "snoke": {
+  "databank_name": "Supreme Leader Snoke",
+  "databank_id": "64292927021f17e13fbc2184",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/ep8-ff-006360_c95dace6.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "armitage-hux": {
+  "databank_name": "General Hux",
+  "databank_id": "64292927021f17e13fbc1f9f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "captain-phasma": {
+  "databank_name": "Captain Phasma",
+  "databank_id": "64292927021f17e13fbc1edb",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/captain-phasma_8f4ea1d7.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "rose-tico": {
+  "databank_name": "Rose Tico",
+  "databank_id": "64292927021f17e13fbc2134",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
  }
 }

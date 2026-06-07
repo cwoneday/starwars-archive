@@ -53,7 +53,10 @@
       "ep-4-a-new-hope",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "the-book-of-boba-fett"
+      "the-book-of-boba-fett",
+      "ep-7-force-awakens",
+      "ep-8-last-jedi",
+      "ep-9-rise-of-skywalker"
     ],
     "portrait": {
       "type": "silhouette",
@@ -71,7 +74,7 @@
         "name": "Luke Skywalker",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_fb34a1ff.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "타투인의 수분 농장 소년 출신 인간 제다이. 레이아·한 솔로와 함께 제국에 맞서 싸우는 사이 자기 핏줄의 진실과 마주했고, 끝내 시스의 폭정에 종지부를 찍으며 은하 최고의 제다이 반열에 올랐다. 한 세대 뒤에는 벤 솔로의 타락에 짓눌려 제다이의 종언을 확신한 채 외딴 행성에 자취를 감췄고, 그의 행방은 은하 최대의 수수께끼가 됐다. 농장 소년에서 전설로, 전설에서 은둔자로 — 사가 전체의 척추를 이루는 인물이다."
@@ -138,7 +141,7 @@
         "name": "C-3PO (See-Threepio)",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_417a2902.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "어린 아나킨 스카이워커가 만든 의전·예법 프로토콜 드로이드. 700만 개 이상의 통신 형식을 구사하는 능력 탓에, 평화를 갈망하면서도 은하의 굵직한 분쟁 한복판에 늘 끌려다녔다. R2-D2의 영원한 단짝이며, 제국 몰락 후에는 레이아의 저항군 첩보망에서 일했다."
@@ -206,7 +209,7 @@
         "name": "R2-D2",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "파드메, 아나킨, 루크를 차례로 섬긴 아스트로멕 드로이드. 함선 정비와 전투기 보조에 능하고, 주인과 친구들을 위기에서 구해낸 용맹한 일화가 수없이 많다. 까탈스러운 프로토콜 드로이드 C-3PO와의 어울리지 않는 우정은 사가가 끝날 때까지 이어졌다."
@@ -284,7 +287,7 @@
         "name": "Darth Vader",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "한때 영웅적 제다이 기사 아나킨 스카이워커였던 시스 군주. 다크사이드에 유혹돼 무스타파에서 패배한 뒤 기계 몸의 존재로 다시 태어났다. 제국 여명기에 제다이 오더 말살과 생존자 사냥을 진두지휘했고, 수십 년간 시디어스의 칼날로서 반란연합을 짓밟았다. 그러나 그 안에는 아직 선함이 남아 있었다 — 사가에서 가장 유명한 타락과 구원의 서사다."
@@ -339,7 +342,10 @@
       "ep-4-a-new-hope",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "obi-wan-kenobi"
+      "obi-wan-kenobi",
+      "ep-7-force-awakens",
+      "ep-8-last-jedi",
+      "ep-9-rise-of-skywalker"
     ],
     "portrait": {
       "type": "silhouette",
@@ -357,7 +363,7 @@
         "name": "Leia Organa",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-feature-image_d0f5e9_056d9177.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "파드메 아미달라와 아나킨 스카이워커의 딸이자 루크의 쌍둥이 누이. 반란연합을 이끈 최고의 지도자 중 하나로, 전장에서 물러서는 법이 없었고 건달 기질의 남자에게는 약했다. 신공화국 시대에는 새 세대 정치인들에게 밀려났으나, 주저앉는 대신 저항군을 창설해 퍼스트 오더와 맞섰다. 정치적 좌절과 거듭된 개인적 상실 속에서도 끝까지 싸움을 놓지 않은, 공주이자 장군."
@@ -409,7 +415,7 @@
         "name": "Owen Lars",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/owen-lars-main_08c717c8.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "아버지 클리그의 농장을 일군 타투인의 수분 농부. 아내 베루와 함께 고된 일상을 꾸리며 조카 루크를 거두었고, 소년의 하늘을 향한 꿈을 누구보다 경계했다 — 그 핏줄이 무엇을 의미하는지 알았기에."
@@ -460,7 +466,7 @@
         "name": "Beru Lars",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/beru-lars-main_fa680a4c.png",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "타투인 너머를 꿈꾸지 않았던 수줍은 여인. 오웬 라스와 결혼해 수분 농장의 고단한 삶을 택했고, 맡겨진 조카 루크에게는 어머니 같은 보호자가 되어 주었다."
@@ -504,7 +510,7 @@
         "name": "R5-D4",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/r5-d4_main_image_7d5f078e.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "자와에게 팔려 라스 농장에 정착하는 줄 알았던 붉은 아스트로멕. 굴러가자마자 모티베이터가 터지는 바람에 반품됐고 — 그 덕에 R2-D2가 대신 팔려 은하의 역사가 바뀌었다."
@@ -564,7 +570,7 @@
         "name": "Biggs Darklighter",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/image_606ff7f7.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "루크와 함께 타투인에서 자라며 사막 행성 탈출을 같이 꿈꾼 친구. 제국 사관학교를 졸업하자마자 탈영해 반란에 합류했고, 야빈 전투에서 옛 친구의 곁을 지키다 산화했다."
@@ -643,7 +649,7 @@
         "name": "Obi-Wan Kenobi",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "전설적인 제다이 마스터. 아나킨 스카이워커를 길러냈고, 클론 전쟁에서는 공화국군 장군으로 싸웠으며, 훗날 루크 스카이워커를 이끄는 스승이 됐다. 두 스카이워커 세대를 모두 가르친, 사가의 다리 같은 존재."
@@ -718,7 +724,7 @@
         "name": "Anakin Skywalker",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/anakin-skywalker-main_0326586e.png",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "콰이곤과 오비완이 타투인에서 발견한 노예 소년. 포스에 균형을 가져올 '선택받은 자'로 여겨질 만큼 잠재력이 컸고, 실제로 역대 가장 강력한 제다이 반열에 올랐다. 그러나 그 힘의 끝에서 기다린 것은 다크사이드였다 — 사가 전체가 그의 타락과 구원 위에 서 있다."
@@ -779,7 +785,7 @@
         "name": "Grand Moff Tarkin",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/aftermath-the-bad-batch-story-gallery-14_d05778d2.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "군사력 지상주의의 야심가로 팰퍼틴의 총애 속에 제국 서열을 빠르게 오른 그랜드 모프. 제국 수립 직후 데스 스타 건조를 총괄했으며, 행성 파괴 슈퍼레이저의 공포로 은하를 줄 세울 수 있다고 믿었다. 그 신념대로 알데란을 본보기 삼아 파괴했지만, 정작 자신은 곧 데스 스타와 함께 산화했다."
@@ -820,10 +826,13 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
+      "ep-3-revenge-of-sith",
       "ep-4-a-new-hope",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "ep-3-revenge-of-sith"
+      "ep-7-force-awakens",
+      "ep-8-last-jedi",
+      "ep-9-rise-of-skywalker"
     ],
     "portrait": {
       "type": "silhouette",
@@ -841,7 +850,7 @@
         "name": "Chewbacca",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "한 솔로의 오랜 부조종사인 우키 전사. 제국 치하에서 은하의 자유를 되찾은 반란 핵심 멤버였고, 이후로도 팰컨의 조종간을 잡고 퍼스트 오더에 맞섰다. 다혈질에 보우캐스터 명사수지만, 친구를 향한 의리와 큰 마음으로 더 기억되는 인물."
@@ -893,7 +902,9 @@
     "works": [
       "ep-4-a-new-hope",
       "ep-5-empire",
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "ep-7-force-awakens",
+      "ep-9-rise-of-skywalker"
     ],
     "portrait": {
       "type": "silhouette",
@@ -911,7 +922,7 @@
         "name": "Han Solo",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "코렐리아 뒷골목의 가난한 소년에서 반란의 영웅까지 올라간 밀수꾼. 밀레니엄 팰컨의 선장으로서 부조종사 추바카와 함께 은하의 자유라는 대의를 믿게 됐고, 루크·레이아와 어깨를 나란히 했다. 엔도 전투 이후의 혼란한 은하에서 고난을 겪었으며, 그 끝에서 멀어진 아들 벤과의 파국적 대면이 기다리고 있었다."
@@ -955,7 +966,7 @@
         "name": "Greedo",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_greedo_01_169_3e4b96ef.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "맥과 같은 주둥이에 퉁방울눈의 로디안 현상금 사냥꾼. 의욕만 앞서고 눈치도 사격 솜씨도 신통치 않았다. 모스 아이슬리 술집에서 한 솔로에게 빚 독촉을 하다 생을 마감한 것으로 영원히 기억된다."
@@ -1012,7 +1023,7 @@
         "name": "Jabba the Hutt",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/Jabba-The-Hutt_b5a08a70.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "정계와 암흑가 양쪽에 손을 뻗친 은하 최강의 갱스터. 자바에게 두 번째 기회란 없었다 — 한 솔로가 몸소 증명했듯이. 타투인의 궁전에서 군림하다 목줄을 쥐었다고 믿었던 공주의 손에 최후를 맞았다."
@@ -1073,7 +1084,7 @@
         "name": "Wedge Antilles",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_wedgeantilles_01_169_b8185dce.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "코렐리아 출신의 재능 있는 반란군 조종사. 첫 데스 스타 공격의 생존자로, 호스에서는 스노스피더로 워커를 묶었고, 엔도에선 레드 편대를 이끌고 두 번째 데스 스타 심장부까지 들어갔다 — 두 데스 스타 격파에 모두 참여한 유일한 조종사."
@@ -1196,7 +1207,7 @@
         "name": "Yoda",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "800년 넘게 제다이를 길러낸 전설의 그랜드 마스터. 작은 몸집과 달리 포스와의 교감은 누구보다 깊었다. 클론 전쟁의 한복판에 섰고, 루크를 가르쳤으며, 죽음 너머로 이어지는 불멸의 길을 열었다."
@@ -1264,11 +1275,12 @@
     ],
     "appears_in": [],
     "works": [
-      "ep-5-empire",
-      "ep-6-return-of-jedi",
       "ep-1-phantom-menace",
       "ep-2-attack-of-clones",
-      "ep-3-revenge-of-sith"
+      "ep-3-revenge-of-sith",
+      "ep-5-empire",
+      "ep-6-return-of-jedi",
+      "ep-9-rise-of-skywalker"
     ],
     "portrait": {
       "type": "silhouette",
@@ -1286,7 +1298,7 @@
         "name": "Emperor Palpatine / Darth Sidious",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine-main_d6632d0a.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "시스를 부활시키고 제다이 오더를 무너뜨린 다크사이드의 화신, 쉬브 팰퍼틴. 나부 의원이라는 얼굴 뒤에 다스 시디어스라는 정체를 숨긴 이중생활로 공화국 정치를 주물러 최고의장에, 끝내 황제에 올랐다. 공포와 폭정으로 은하를 다스리다 엔도에서 죽었다고 모두가 환호했으나 — 그는 죽음마저 속였다."
@@ -1344,7 +1356,7 @@
         "name": "Boba Fett",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "장고 펫의 무수정 유전자 클론으로 태어나 어릴 때부터 전투를 익힌 만달로어 갑주의 현상금 사냥꾼. 제국과 암흑가를 오가는 의뢰 경력으로 전설이 됐다. 타투인의 살락 구덩이에 떨어져 최후를 맞은 줄 알았으나 괴수의 뱃속에서 살아 나왔고, 갑옷을 되찾은 뒤 자바의 옥좌까지 차지했다."
@@ -1393,7 +1405,7 @@
         "name": "IG-88",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/ig_88_cdd5cc52.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클론 전쟁의 배틀 드로이드보다 더 공포스러웠던 존재, 주인 없는 암살 드로이드. 독자 프로그램으로 움직이는 기계 살인자로, 베이더의 팰컨 추적 소집에도 모습을 드러냈다."
@@ -1442,7 +1454,7 @@
         "name": "Bossk",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_bossk_01_169_c3c42fbe.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "은하에서 가장 두려움을 산 현상금 사냥꾼 중 하나인 트란도샨. 종족 특유의 사냥 본능으로 사냥감을 몰았고, 클론 전쟁기엔 오라 싱·어린 보바 펫과 한패로 움직였다."
@@ -1489,7 +1501,8 @@
     "appears_in": [],
     "works": [
       "ep-5-empire",
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "ep-9-rise-of-skywalker"
     ],
     "portrait": {
       "type": "silhouette",
@@ -1507,7 +1520,7 @@
         "name": "Lando Calrissian",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/lando-main_a207290e.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "사바크 도박판에서 한몫을 노리던 한량이, 클라우드 시티의 남작 행정관을 거쳐 반란의 영웅이 된 인물. 싸움에는 늦게 합류했지만 두 번째 데스 스타 파괴의 주역으로 명예를 굳혔다. 한 솔로에게 애선 팰컨을 잃은 일화는 두 사람 관계의 영원한 안주거리. 훗날 개인적 비극을 겪고 파사나에 은둔했으나, 은하는 그를 다시 불러냈다."
@@ -1551,7 +1564,7 @@
         "name": "Lobot",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_lobot_01_169_8a50d7ae.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클라우드 시티의 전산 연락관이자 랜도의 보좌. 두개골 뒤를 감싼 임플란트로 도시 전산망과 직접 교신하며, 말없이 결정적인 순간마다 랜도의 신호에 응답했다."
@@ -1593,7 +1606,9 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
-      "ep-6-return-of-jedi"
+      "ep-6-return-of-jedi",
+      "ep-7-force-awakens",
+      "ep-8-last-jedi"
     ],
     "portrait": {
       "type": "silhouette",
@@ -1611,7 +1626,7 @@
         "name": "Admiral Ackbar",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_ackbar_01_169_55137220.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클론 전쟁에서 고향 몬 칼라 방어전을 이끈 백전노장. 엔도 전투에서 반란 함대의 두 번째 데스 스타 공격을 총지휘했고, 함정에 빠졌음을 간파하고도 함대로 시간을 벌어 작전을 성공시켰다. 신공화국 대제독으로 자쿠 전투 등 숱한 승리를 거둔 뒤 은퇴했으나, 레이아의 부름에 저항군으로 복귀했다."
@@ -1696,7 +1711,7 @@
         "name": "Mon Mothma",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/mon-mothma-main_06f17008.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "찬드릴라 출신 의원이자 반란연합의 공동 창설자. 공화국 말기 원로원 충성파를 이끌며 팰퍼틴의 정책에 맞섰고, 제국 수립 후에는 코러산트 정치의 그림자 속을 조심스레 오가며 '공화국 재건 연합'이라는 최종 목표를 향해 움직였다. 겉으로는 의원, 속으로는 반란의 설계자였던 이중의 삶."
@@ -1802,7 +1817,7 @@
         "name": "Wicket W. Warrick",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_wickettwwarrick_01_169_86d1210c.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "엔도의 숲 위성에서 반란군을 도운 용감한 어린 이워크. 반란군을 만나기 전부터 제국 장비를 무력화할 궁리를 해두었던 꼬마 전략가로, 레이아와의 첫 만남이 사가의 사랑스러운 장면으로 남았다."
@@ -1857,7 +1872,7 @@
         "name": "Nien Nunb",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/nien-nunb-main_1dbef681.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "설러스트 출신 밀수꾼에서 반란과 저항군을 두루 거친 베테랑 조종사. 엔도 전투에서 랜도의 팰컨 부조종석에 앉아 두 번째 데스 스타 돌입을 함께했다."
@@ -1917,7 +1932,7 @@
         "name": "Qui-Gon Jinn",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/qui-gon-jinn-main_3386f119.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "'생각 말고 느껴라'를 신조로 삼은 이단아적 제다이 마스터. 살아 있는 포스의 학생으로서 의회와 자주 부딪혔고, 타투인에서 노예 소년 아나킨을 발견해 그 운명에 불을 댕겼다. 죽어서도 불멸의 길을 열어 사가의 영적 스승으로 남았다."
@@ -1983,7 +1998,7 @@
         "name": "Nute Gunray",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_nutegunray_01_169_9d66ded2.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "장사 수완으로 유명한 네이모이디안 중에서도 유독 비정했던 무역연합 총독. 시디어스와 결탁해 나부 봉쇄와 침공을 일으켰고, 그 비겁한 야합의 끝은 무스타파에서 베이더의 검이었다."
@@ -2104,7 +2119,7 @@
         "name": "Padmé Amidala",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/Padme-Amidala_05d50c8a.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "나부의 여왕에서 의원이 된 용감하고 이상주의적인 지도자. 블래스터 솜씨도 수준급이었다. 평화를 위해 헌신했으나, 제다이 아나킨과의 금지된 비밀 결혼이 그 모든 이상 위에 비극의 그림자를 드리웠다."
@@ -2169,7 +2184,7 @@
         "name": "Jar Jar Binks",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_jarjarbinks_01_169_c70767ab.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "나부 늪지에서 추방당한 덜렁이 건간. 평생 제 쓸모를 증명하려 애썼고, 늪을 떠나 코러산트 정치라는 더 탁한 물에 발을 들였다 — 그 선의의 한 표가 공화국의 운명을 바꿨다."
@@ -2309,7 +2324,7 @@
         "name": "Ric Olie",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_ricolie_01_169_f175f81b.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "나부 우주전투단의 베테랑이자 브라보 편대장. 아미달라 여왕의 왕실 우주선 조종을 맡은 일급 조종사로, 어린 아나킨에게 조종간을 처음 설명해 준 이이기도 하다."
@@ -2364,7 +2379,7 @@
         "name": "Watto",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_watto_01_169_ecd563f1.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "모스 에스파의 토이다리안 고물상. 도박에서 슈미와 아나킨 모자를 따내 부렸고, 포드레이스에 아나킨을 내보내면서 정작 제 노예에게 반대로 거는 못 말리는 도박꾼이었다 — 그 내기 한 판에 소년의 자유가 걸렸다."
@@ -2408,7 +2423,7 @@
         "name": "Sebulba",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/sebulba_1f3fe180.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "외곽 최고의 성공을 누린 교활하고 악랄한 더그 포드레이서. 공격적이고 오만했으며 승리를 위해서라면 반칙도 서슴지 않았다 — 그 거대한 주황 포드가 노예 소년의 자작 기체에 따라잡히기 전까지는."
@@ -2509,7 +2524,7 @@
         "name": "Shmi Skywalker Lars",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_shmiskywalkerlars_01_169_7449f0a8.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "노예의 삶을 견뎌내고 타투인의 수분 농부로 생을 마친 강인한 여인. 아들 아나킨을 제다이의 길로 떠나보낸 그 결단이 — 은하 역사상 가장 위대하고 가장 비극적인 운명의 출발점이 됐다."
@@ -2582,7 +2597,7 @@
         "name": "Maul",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/Darth-Maul_632eb5af.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "시디어스가 길러낸 민첩하고 치명적인 시스. 위협적인 양날 라이트세이버와 사나운 전투술의 소유자로, 나부에서 두 동강 났다고 모두가 믿었으나 증오를 연료로 살아 돌아왔다. 이후 암흑가의 군주로, 복수의 화신으로 사가 곳곳을 떠돈 가장 끈질긴 악역."
@@ -2626,7 +2641,7 @@
         "name": "Bib Fortuna",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/bib-fortuna-main_376ba1ba.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "자바 더 헛의 오랜 집사였던 트와일렉. 주인이 죽자 그 옥좌를 차지하고 타투인 암흑가를 손에 넣으려 했으나, 살아 돌아온 보바 펫 앞에서 그 야심은 짧게 끝났다."
@@ -2670,7 +2685,7 @@
         "name": "Ratts Tyerell",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_rattstyerell_01_169_031aea6d.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "분타 이브 클래식 최소 체구의 포드레이서. 몸집과 어울리지 않는 거대한 엔진을 몰았고 — 그 엔진이 끝내 좁은 동굴 구간을 통과하지 못했다."
@@ -2749,7 +2764,7 @@
         "name": "Gasgano",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/gasgano_6f648f83.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "여섯 팔의 깡마른 젝스토 포드레이서. 극한 스포츠에 꼭 맞는 스릴 추구자로, 분타 이브에서 아나킨·세불바와 선두를 다퉜다."
@@ -2793,7 +2808,7 @@
         "name": "Ben Quadinaros",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_benquadinaros_01_169_0c77b6a0.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "분타 이브 클래식에 출전한 신참 포드레이서. 퉁 종족 특유의 익살맞은 얼굴로 기억되지만 경험 부족이 발목을 잡았다. 아나킨이 자유를 얻은 그 경주의 출발선에 함께 있었다."
@@ -2864,7 +2879,7 @@
         "name": "Mace Windu",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/Mace-Windu_b35242e5.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "자수정빛 검을 든 제다이 오더의 챔피언. 원로원의 무능에도, 정치인의 궤변에도, 반항적인 제다이에게도 관용이 없던 준엄한 마스터로, 의회의 정점에서 오더의 마지막 시대를 지켰다."
@@ -2925,7 +2940,7 @@
         "name": "Ki-Adi-Mundi",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_kiadimundi_01_169_0a8842d3.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "제다이 의회에 앉은 세리안 마스터. 두 개의 뇌를 담은 원뿔형 두개골이 트레이드마크로, 콰이곤이 시스의 귀환을 보고했을 때 회의적이던 의회의 목소리를 대변했다."
@@ -2982,7 +2997,7 @@
         "name": "Kit Fisto",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_kitfisto_01_169_21517d01.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "머리에서 촉수 타래가 흘러내리는 노톨란 제다이 마스터. 수중 행성이 고향답게 물속이 제집이었고, 특유의 미소와 함께 지오노시스와 코러산트의 전장을 누볐다."
@@ -3033,7 +3048,7 @@
         "name": "Eeth Koth",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/Eeth-Koth2_246ea172.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "오더 말기의 제다이 최고 의회 일원이었던 자브락 마스터. 코러산트 사원의 의회실에서 기사단의 행보를 관장한 12인 중 하나였다."
@@ -3084,7 +3099,7 @@
         "name": "Adi Gallia",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_adigallia_169_8b798f27.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클론 전쟁기 제다이 최고 의회의 일원이었던 마스터. 코러산트 사원 꼭대기의 의회실에서 오더의 중대사를 결정하는 자리에 있었다."
@@ -3140,7 +3155,7 @@
         "name": "Saesee Tiin",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_saeseetiin_01_169_c9a8a41c.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "공화국 말기 제다이 의회의 위압적인 익토치 마스터. 노련한 검사이면서 일급 전투기 조종사였고, 팰퍼틴 체포 작전에 나섰다가 시디어스의 검에 스러졌다."
@@ -3190,7 +3205,7 @@
         "name": "Yarael Poof",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-08-03_at_10_b0b47660.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "공화국 말기 제다이 의회의 콰미안 마스터. 제다이 로브 아래 두 개의 뇌와 네 개의 팔을 감추고 있었고, 긴 목 위의 작은 머리로 회의실의 한 자리를 지켰다."
@@ -3247,7 +3262,7 @@
         "name": "Plo Koon",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_plokoon_01_169_92e6679c.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "도린 출신의 켈 도어 마스터. 침착한 판단과 흔들리지 않는 평정으로 의회에서 가장 지혜로운 축에 들었고, 생명을 향한 깊은 애정으로 클론 병사들을 '숫자가 아닌 사람'으로 대했다. 아소카를 처음 발굴한 이도 그였다."
@@ -3308,7 +3323,7 @@
         "name": "Mas Amedda",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/mas-amedda-main_3e450a61.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "발로룸 의장 시절부터 원로원 부의장을 지낸 차그리안. 팰퍼틴이 공화국을 제국으로 바꿔가는 동안에도 그 자리를 지키며, 우렁찬 목소리로 회의장의 질서를 — 그리고 권력의 이양을 — 선포했다."
@@ -3454,7 +3469,7 @@
         "name": "Cliegg Lars",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_cliegglars_01_169_c2f0b9cb.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "앵커헤드 인근 농장의 소박하고 마음 따뜻한 수분 농부. 모스 에스파에서 노예 신분의 슈미 스카이워커와 사랑에 빠져 그를 해방시키고 아내로 맞았다."
@@ -3505,7 +3520,7 @@
         "name": "Poggle the Lesser",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_pogglethelesser_01_169_7095ae3c.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클론 전쟁기 지오노시안의 지도자. 배틀 드로이드 공장을 쥔 덕에 분리연합의 실세였고, 그 공장들이 토해낸 군대가 전쟁의 첫 포문을 열었다."
@@ -3561,7 +3576,7 @@
         "name": "Luminara Unduli",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/luminara_c05b2971.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "공화국 말기의 미리알란 제다이 마스터. 패다완 배리스 오피를 길렀고 지오노시스 등 클론 전쟁의 격전을 치렀다. 빈틈없는 원칙주의자였던 그의 최후는 인퀴지터의 미끼로 쓰였다."
@@ -3622,7 +3637,7 @@
         "name": "Barriss Offee",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/Barriss-Offee-main-image_a4f0cc76.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "루미나라 운둘리의 미리알란 패다완. 전쟁보다 사원의 옛 문헌을 파고드는 쪽을 좋아했으나, 그 고결해 보이던 신념이 그를 어두운 길로 이끌어 친구를 배신하고 끔찍한 일을 저지르게 했다."
@@ -3739,7 +3754,7 @@
         "name": "Count Dooku",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/Count-Dooku_4f552149.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "요다에게 배운 제다이였으나 오더에 환멸을 느끼고 더 큰 힘을 갈망해 스스로 빛을 떠난 백작. 시스 군주 다스 티라누스로서 분리주의 진영을 이끌며 클론 전쟁의 중심에 섰다."
@@ -3788,7 +3803,7 @@
         "name": "Jango Fett",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_jangofett_01_169_884cefab.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "공화국 말기 은하 최고로 꼽힌 현상금 사냥꾼. 흉터를 가린 매끈한 갑주 차림의 명사수이자 격투가로, 클론 군대 전체의 유전자 원본이 됐다. 아들 보바에게 갑옷과 기술, 그리고 복수심을 남겼다."
@@ -3842,7 +3857,7 @@
         "name": "Zam Wesell",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/zam-wesell_bbaffe9f.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "어떤 인간형으로든 둔갑하는 졸란 출신 클로다이트 암살자. 장고 펫의 의뢰로 파드메를 노렸으나 거듭 실패했고, 입을 열기 직전 고용주의 독침에 침묵당했다 — 그 독침이 카미노로 이어지는 첫 단서가 됐다."
@@ -3891,7 +3906,7 @@
         "name": "Dexter Jettster",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_dexterjettster_01_169_09c89b71.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "오비완의 오랜 친구인 베살리스크 요리사. 제다이 기록보관소도 못 찾은 카미노 세이버다트를 단번에 알아봐, 클론 군대로 이어지는 실마리를 쥐여 준 인물."
@@ -3940,7 +3955,7 @@
         "name": "Lama Su",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/lama-su-main_63f653f9.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "카미노의 총리로서 공화국 클론 군대의 생산을 총괄한 카미노안. 티포카 시티를 찾아온 오비완에게 군대의 진척을 자랑스레 브리핑하며, 주문자가 누구인지도 모른 채 전쟁의 톱니를 돌렸다."
@@ -3989,7 +4004,7 @@
         "name": "Taun We",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-bounty-lost-story-gallery-03_1878426f.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "카미노 총리 라마 수의 행정 보좌관. 빗속의 티포카 시티에 도착한 오비완을 맞이한 우아한 카미노안으로, 클론 군단의 탄생 현장을 안내한 그 목소리는 기묘하게 평온했다."
@@ -4044,7 +4059,7 @@
         "name": "Jocasta Nu",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/jocasta-nu_a3b32f08.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "은하 최대의 지식 보고인 제다이 기록보관소의 수석 사서. 단말 검색을 돕고 열람을 통제하던 그에게 '기록에 없으면 존재하지 않는다'는 확신은 직업적 신념이자 맹점이었다."
@@ -4095,7 +4110,7 @@
         "name": "R4-P17",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/r4-p17_19602f62.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "오비완 케노비의 전속 아스트로멕. 카미노에서 지오노시스, 테스에서 타투인까지 숱한 임무를 함께했으나, 코러산트 전투에서 버즈 드로이드 떼에 뜯겨 산화했다."
@@ -4150,7 +4165,7 @@
         "name": "Wat Tambor",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_emirwattambor_01_169_9528ba0f.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "테크노 유니언의 의장이자 가장 열렬한 초기 분리주의자. 지오노시스의 회동에서 두쿠에게 배틀 드로이드 군단을 바쳤고, 무스타파의 숙청을 피하지 못했다."
@@ -4205,7 +4220,7 @@
         "name": "San Hill",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/san-hill_852a226d.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "은하은행연합 의장이었던 문 종족. 클론 전쟁 발발과 함께 두쿠의 조약에 서명하며 분리연합 평의회에 돈줄을 댔고, 무스타파에서 다른 평의회원들과 함께 베이더에게 숙청당했다."
@@ -4261,7 +4276,7 @@
         "name": "Shaak Ti",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/shaak_ti_9523e7c7.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "지오노시스에서 싸우고 카미노에서 클론 사관후보생들의 훈련을 감독한 토그루타 마스터. 유능한 병사를 길러내야 하는 책무와 한 명 한 명을 향한 연민 사이에서 균형을 고민한, 지혜롭고 인내심 깊은 제다이."
@@ -4325,7 +4340,7 @@
         "name": "General Grievous",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/General-Grievous_c9df9cb5.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "분리주의 진영의 탁월한 전략가이자 공포의 제다이 사냥꾼. 기침 소리와 함께 네 팔로 라이트세이버를 휘두르는 기계 몸 자체가 무기였다. 전리품처럼 모은 제다이의 검들이 그의 잔혹함을 증언한다."
@@ -4374,7 +4389,7 @@
         "name": "Tarfful",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/tarrful_f20d3412.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클론 전쟁기 고향 카쉬크를 지킨 거구의 우키 장군. 사냥터에서 트란도샨에게 붙잡힌 추바카를 구하러 달려온 전우였고, 카쉬크 전투에선 요다 곁에서 싸웠다."
@@ -4481,7 +4496,7 @@
         "name": "Sly Moore",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/sly-moore_6af90e66.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "팰퍼틴 의장의 수석 행정 보좌관이었던 창백한 움바란. 국정의 무수한 실무를 처리하면서도 수수께끼 같은 침묵으로 일관해, 코러산트의 호사가들에게 끝없는 궁금증의 대상이었다."
@@ -4535,7 +4550,7 @@
         "name": "Tion Medon",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_tionmedon_01_169_bf78864d.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "그리버스를 쫓아 우타파우에 온 오비완을 맞이한 항만 행정관. 모르는 척 연기하면서 귓속말로 '그들이 여기 있다'는 경고를 흘린, 점령지 주민의 조용한 용기."
@@ -4795,7 +4810,7 @@
         "name": "Din Djarin (The Mandalorian)",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/din-djarin-main_a3810794.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "'만달로리안'이라 불리는 역전의 현상금 사냥꾼. 불확실한 시대의 위험한 은하를 홀로 떠돌다 그로구와 재회한 뒤, 만달로어 사회에서 자신의 자리를 되찾는 새 여정에 나선다."
@@ -4846,7 +4861,7 @@
         "name": "Grogu",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/grogu-main_89c92eaa.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "제국 잔당의 사주를 받은 사냥꾼들에게 쫓기던 수수께끼의 아이. 만달로리안 딘 자린의 보호 아래 은하를 여행하며 포스 능력을 갈고닦는다. '베이비 요다'라는 별명으로 전 세계를 사로잡은, 신작 시대의 아이콘."
@@ -4896,7 +4911,7 @@
         "name": "Rotta the Huttlet",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_rottathehuttlet_01_169_9d6f6e21.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "헛 제국의 후계자인 자바의 갓난 아들. 클론 전쟁기, 권력에 눈먼 종조부 지로의 음모로 납치돼 — 아나킨과 아소카의 구출 작전이라는 전쟁 초기의 외교적 화약고가 됐다."
@@ -5008,7 +5023,7 @@
         "name": "Ahsoka Tano",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/ahsoka-main_47d8386d.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "아나킨 스카이워커의 패다완으로 클론 전쟁의 영웅이 된 토그루타. 혈기 넘치는 제자에서 성숙한 지휘관으로 자랐으나, 그의 운명은 오더와는 다른 길 위에 있었다. 떠난 뒤에도 자신만의 방식으로 은하를 지킨, 애니메이션이 낳은 가장 사랑받는 인물."
@@ -5059,7 +5074,7 @@
         "name": "Cal Kestis",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/cal-main_4829aec1.png",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "오더 66의 생존자. 마스터 자로 타팔에게 배운 패다완으로, 도망자의 세월을 거치며 사나운 제다이 전사로 자랐다. 무너진 오더의 기억과 기대를 짊어진 채 제국과 싸운다."
@@ -5110,7 +5125,7 @@
         "name": "Cassian Andor",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/cassian-andor-main_d583d3b2.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "제국이 은하를 황폐화시키는 모습을 평생 지켜본 남자. 알다니 급여 탈취라는 위험한 임무로 반란에 발을 들였고, 끝내 동맹 최고의 정보 장교가 되어 모든 것을 바쳤다."
@@ -5160,7 +5175,7 @@
         "name": "Jyn Erso",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/jyn-erso_ccf70c46.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "굴곡진 과거를 뒤로하고 더 큰 대의에 솜씨를 빌려준 반항아. 혼자 움직이는 데 익숙했지만, 아버지가 남긴 희망을 좇는 필사의 임무에서 더 높은 목적을 찾았다. 로그 원의 그 이름이 그에게서 나왔다."
@@ -5210,7 +5225,7 @@
         "name": "Galen Erso",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/galen-erso-main_d1489952.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "카이버 크리스털 에너지 연구의 권위자였던 과학자. 친구라 믿었던 크레닉이 그 연구를 데스 스타의 슈퍼레이저로 무기화하자 가족과 함께 라무로 숨었고, 끌려간 뒤에는 설계 깊숙이 치명적 약점을 심는 것으로 저항했다. 진 어소의 아버지."
@@ -5260,7 +5275,7 @@
         "name": "K-2SO (Kay-Tuesso)",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/k-2s0-main-b_73a8fed8.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "재프로그램돼 동맹에 충성하게 된 제국 보안 드로이드. 제국 시설에 완벽히 섞여드는 침투 요원이면서, 확률을 입 밖에 내고야 마는 직설 화법으로 카시안 곁을 지켰다."
@@ -5310,7 +5325,7 @@
         "name": "Chirrut Îmwe",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/chirrut-imwe_5ed7457a.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "모든 생명이 포스로 이어져 있다고 믿는 맹인 무사. 포스 능력은 없지만 수행으로 단련한 몸은 보는 눈이 필요 없을 만큼 날카로웠다. 스카리프에서 그 믿음을 끝까지 증명했다."
@@ -5367,7 +5382,7 @@
         "name": "Grand Admiral Thrawn",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/grand-admiral-thrawn2_bda317f3.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "로탈의 반란을 짓밟기 위해 제국이 내보낸 답, 대제독 스론. 푸른 피부와 붉은 눈의 치스로, 적의 예술과 문화에서 전술을 읽어내는 탁월한 두뇌의 소유자다. 패배를 모르던 그는 먼 은하로 사라졌다가 — 돌아왔다."
@@ -5432,7 +5447,7 @@
         "name": "Ezra Bridger",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/ezra-bridger-s3_2236d8f8.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "제국의 시대에 부모 없이 자라며 거리의 눈치와 — 자신도 모르던 — 포스 감각으로 살아남은 로탈의 소년. 좀도둑에서 케이넌의 제자로, 끝내 반란의 불씨로 자랐다."
@@ -5487,7 +5502,7 @@
         "name": "Kanan Jarrus / Caleb Dume",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/kanan-jarrus-caleb-dume-main_f803f0ca.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "오더 66을 살아남은 제다이. 본명 케일럽 듐을 버리고 정체를 숨긴 채 떠돌다, 고스트 크루에서 다시 검을 들고 에즈라의 스승이 됐다. 숨는 자에서 가르치는 자로 — 생존자가 어떻게 다시 제다이가 되는가에 대한 답."
@@ -5543,7 +5558,7 @@
         "name": "Hera Syndulla",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/hera-syndulla-main_9a8a6181.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "고스트 크루의 선장이자 심장. 타이 파이터와의 공중전에 특히 능한 천부적 조종사면서, 크루를 품는 따뜻한 지휘관이었다. 라일로스 출신 트와일렉으로 훗날 신공화국 장군까지 오른다."
@@ -5609,7 +5624,7 @@
         "name": "Sabine Wren",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/sabine-wren-s3_b9553ce2.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "만달로어 전사이자 폭발물 전문가, 그리고 그래피티 아티스트. 그 세 가지가 전부 무기가 된 최초의 반란자 중 하나로, 고스트 크루에서 폭탄에 예술을 입혔다. 훗날 아소카의 제자가 되어 에즈라를 찾아 먼 은하까지 간다."
@@ -5744,7 +5759,7 @@
         "name": "Rae Sloane",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/rae-sloane-main_99d88b74.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "팰퍼틴 사후의 혼돈에서 떠오른 제국의 새 구심점. 훈장 가득한 백전노장으로, 약한 고리를 떨궈낸 제국이 더 강해질 수 있다는 비전을 품고 잔당을 이끌었다."
@@ -5840,7 +5855,7 @@
         "name": "Luthen Rael",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/luthen-rael-main-b_2eeef63b.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "값진 물건을 알아보는 눈을 가진 수수께끼의 골동품상 — 은 겉모습일 뿐, 무수한 가면 뒤에서 초기 반란을 설계한 카멜레온. 자신은 결코 보지 못할 새벽을 위해 모든 것을 태운 인물."
@@ -6115,7 +6130,7 @@
         "name": "Magistrate Morgan Elsbeth",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/magistrate-morgan-elsbeth-main_d7b9d192.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "칼로단의 냉혹한 행정관. 철권으로 권력을 움켜쥔 채 많은 비밀을 숨기고 있었다 — 나이트시스터의 핏줄과, 먼 은하의 스론에게 닿으려는 집념까지."
@@ -6249,7 +6264,7 @@
         "name": "Hunter",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/hunter-s2-a-main_10953c10.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "카미노의 실험이 낳은 특수 클론 부대, 클론 포스 99의 리더. 강인하고 과묵한 전사로, 감각이 비정상적으로 예민하다. 오더 66 이후 명령 대신 가족을 택해 오메가의 보호자가 됐다."
@@ -6298,7 +6313,7 @@
         "name": "Omega",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/omega-s2-a-main_0216f1de.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클론 포스 99의 '형제들'과 은하를 떠도는 어린 클론. 제국이 들어서기 전엔 카미노에서 나라 박사의 의료 조수였고, 에너지 보우를 다루는 솜씨가 만만치 않은 어엿한 팀의 일원으로 자랐다. 배드 배치 서사의 심장."
@@ -6358,7 +6373,7 @@
         "name": "Crosshair",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/crosshair-main_92c9b4b8.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클론 포스 99의 저격수. 차갑고 빠르고 계산적이며, 평범한 클론('레그')과 일하기를 경멸했다. 오더 66 이후 제국에 남은 쪽을 택했으나, 그 선택의 끝에서 형제들 곁으로 돌아온다."
@@ -6407,7 +6422,7 @@
         "name": "Wrecker",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/wrecker-s2-a-main_cd3412e7.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "배드 배치의 떠들썩한 괴력 담당. 평균 클론을 한참 웃도는 근력의 거구로, 별명값을 하듯 부수는 일이라면 신이 났다. 그러나 오메가에게는 누구보다 다정한 형제였다."
@@ -6461,7 +6476,7 @@
         "name": "Tech",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/tech-main_4c1adf1b.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "배드 배치의 컴퓨터·무기 전문가이자 팀에서 가장 수다스러운 두뇌. 데이터 분석으로 어떤 난관도 풀어냈고, 추락하는 순간 스스로 손을 놓아 가족을 살린 그 선택으로 팬덤에 가장 깊은 상처를 남겼다."
@@ -6516,7 +6531,7 @@
         "name": "Echo",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/echo-main_832bccdb.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "테크노 유니언에서 구출된 뒤 클론 전쟁 막바지에 배드 배치에 합류한 전 ARC 트루퍼. 공화국 대군 시절부터 가장 용맹한 클론으로 꼽혔고, 사이보그가 된 몸으로 동족 클론의 해방에 눈을 돌린다."
@@ -6571,7 +6586,7 @@
         "name": "Dr. Royce Hemlock",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-story-gallery-metamorphosis-03_36241a52.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "한때 공화국에 봉직했으나 실험을 향한 집착이 민주주의의 이상을 삼켜버린 과학자. 제국 수립 후 첨단과학부 수장이 되어 마운트 탄티스의 비밀 복제 계획을 휘둘렀다."
@@ -6631,7 +6646,7 @@
         "name": "Asajj Ventress",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/Asajj-Ventress_d5ca9413.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "두쿠 백작에게 다크사이드를 사사한 암살자. '둘의 법칙' 탓에 끝내 허락되지 않은 진짜 시스의 자리를 갈망했고, 붉은 쌍검을 휘두르며 클론 전쟁을 누볐다. 버려진 뒤에는 누구의 것도 아닌 자신의 길을 찾아 나섰다."
@@ -6696,7 +6711,7 @@
         "name": "Cad Bane",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/cad-bane-main_1fbcbcd8.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "듀로스 출신의 냉혹한 총잡이. 클론 전쟁기와 그 이후를 통틀어 은하 최고가의 청부 사냥꾼이었다. 무기와 인맥을 가리지 않는 잔인한 프로페셔널의 전형으로, 훗날 모스 에스파에서 보바 펫과 최후의 결판을 짓는다."
@@ -6745,7 +6760,7 @@
         "name": "Fennec Shand",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/fennec-shand-main_25402b49.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "내로라하는 신디케이트들을 두루 거친 일급 암살자이자 용병. 영리하고 유능하며 변수로 가득한 인물로, 살락에서 살아 돌아온 보바 펫의 오른팔이 되어 타투인 장악을 함께했다."
@@ -6794,7 +6809,7 @@
         "name": "Krrsantan",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/krrsantan-main_8b84c126.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "검은 털의 거구 우키. 검투사 출신 현상금 사냥꾼으로, 제국기 암흑가에서 위압적인 존재감과 막을 수 없는 완력으로 이름을 떨쳤다. 훗날 보바 펫의 편에 선다."
@@ -6909,7 +6924,7 @@
         "name": "The Grand Inquisitor",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-grand-inquisitor-main_aba95c9f.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "알려진 것이 많지 않은 제국의 제다이 사냥 총책. 파우안 출신으로, 오더 66을 빠져나간 생존자들을 쫓는 포스 민감 심문관 정예 집단을 이끌며 베이더에게 직접 보고했다."
@@ -6959,7 +6974,7 @@
         "name": "Fifth Brother Inquisitor",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/fifth-brother-main_e2a5caa7.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "오더 66의 생존 제다이를 사냥하는 인퀴지터리우스의 일원. 말수가 적은 대신 압도적인 체격과 완력으로 겁에 질린 시민들에게서 단서를 짜낸다."
@@ -7016,7 +7031,7 @@
         "name": "Bail Organa",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/bail-organa-main_ad4b657d.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클론 전쟁 시기부터 공화국 원로원에서 알데란을 대표한 왕가의 일원. 정직함과 정의를 향한 헌신으로 코러산트에서 존경받았고, 제국 수립 후에는 레이아의 양부이자 초기 반란의 숨은 기둥이 됐다."
@@ -7074,7 +7089,7 @@
         "name": "Aayla Secura",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_aaylasecura_01_169_39a65af2.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "클론 전쟁기의 트와일렉 제다이 기사. 푸른 피부와 날랜 몸놀림으로 제다이 중에서도 눈에 띄었고, 클론 사령관 블라이와 숱한 전장을 함께 누비며 배운 것을 나누는 데 힘썼다. 오더 66 때 자기 부대의 총구 앞에서 다른 제다이 장군들과 함께 쓰러졌다."
@@ -7118,7 +7133,7 @@
         "name": "4-LOM",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/curve_4lom_a7640432.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "곤충형 머리의 낡은 프로토콜 드로이드 출신 현상금 사냥꾼. 논리 회로의 결함으로 본래 프로그램을 벗어났고, 차갑고 계산적인 기질이 새 직업에 꼭 맞았다. 베이더가 팰컨 추적에 소집한 사냥꾼 중 하나."
@@ -7163,7 +7178,7 @@
         "name": "8D8",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/astromech-jabba-s-palace-main_cdc9691a.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "홀쭉한 제련 드로이드. 제국기에는 자바의 궁전에서 EV-9D9 밑에서 드로이드들을 윽박지르는 일을 했으나, 제국 몰락 후 보바 펫 휘하로 옮겨 전략·교섭 보좌라는 점잖은 직무를 받았다."
@@ -7209,7 +7224,7 @@
         "name": "BB-8",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/bb-8-main_72775463.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "저항군 조종사 포 대머론과 임무를 함께한 충직한 BB유닛 아스트로멕. 포가 자쿠에서 퍼스트 오더에 붙잡히자 홀로 사막으로 달아나 — 루크 스카이워커에게 이르는 지도를 품은 채 — 사가의 새 막을 굴려서 열었다."
@@ -7254,9 +7269,494 @@
         "name": "Chopper (C1-10P)",
         "image_url": "https://lumiere-a.akamaihd.net/v1/images/chopper-main_607bb2d9.jpeg",
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
-        "fetched_at": "2026-06-06"
+        "fetched_at": "2026-06-07"
       }
     },
     "profile": "라일로스의 추락 잔해에서 헤라가 끌어낸 C1 아스트로멕. 고스트호의 정비부터 전투까지 — 내키지 않아도 — 도맡은 괴팍한 터줏대감으로, 불평 많은 성격 자체가 크루의 일원이었다."
+  },
+  {
+    "id": "rey",
+    "name": "레이",
+    "name_en": "Rey",
+    "alignment": "light",
+    "tier": 1,
+    "era_primary": "rise_of_the_first_order",
+    "height_cm": 170,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": "15 ABY",
+    "birth_year_value": 15,
+    "birth_year_certainty": "exact",
+    "homeworld": "jakku",
+    "affiliation_history": [
+      {
+        "faction": "resistance",
+        "from_event": "battle-of-takodana",
+        "to_event": null
+      },
+      {
+        "faction": "jedi-order",
+        "from_event": "battle-of-crait",
+        "to_event": null
+      }
+    ],
+    "motivation": "버려진 가족을 기다리며 살았으나, 진짜 가족은 핏줄이 아니라 선택임을 깨달아 간다.",
+    "arc": [
+      {
+        "event": "battle-of-starkiller-base",
+        "note": "고철 청소부의 포스가 깨어나 카일로 렌과 처음 맞선다."
+      },
+      {
+        "event": "battle-of-crait",
+        "note": "교본 없이도 제다이가 될 수 있음을 보이기 시작한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ep-7-force-awakens",
+      "ep-8-last-jedi",
+      "ep-9-rise-of-skywalker"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "깨어난 포스",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "profile": "자쿠의 폐선 무덤에서 고철을 긁어 연명하던 고아 청소부. BB-8과 핀을 만나며 운명에 휘말렸고, 잠재된 포스가 깨어나 루크와 레아에게 차례로 배웠다. 팰퍼틴의 손녀라는 핏줄의 진실 앞에서 무너지는 대신 스스로 이름을 선택했다 — 레이 스카이워커. 시퀄 3부작의 중심축.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2128",
+        "name": "Rey",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "kylo-ren",
+    "name": "카일로 렌",
+    "name_en": "Kylo Ren",
+    "alignment": "dark",
+    "tier": 1,
+    "era_primary": "rise_of_the_first_order",
+    "height_cm": 189,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": "5 ABY",
+    "birth_year_value": 5,
+    "birth_year_certainty": "exact",
+    "homeworld": "chandrila",
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "first-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "베이더의 유산을 완성하려 하지만, 빛의 부름이 끊이지 않아 괴로워한다.",
+    "arc": [
+      {
+        "event": "battle-of-starkiller-base",
+        "note": "아버지를 베어 어둠에 스스로를 봉인하려 했으나 더 깊이 흔들린다."
+      },
+      {
+        "event": "battle-of-crait",
+        "note": "스승의 자리를 빼앗아 최고지도자에 오르지만 공허는 깊어진다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ep-7-force-awakens",
+      "ep-8-last-jedi",
+      "ep-9-rise-of-skywalker"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "sith",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "깨어난 포스",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "profile": "한 솔로와 레아 오르가나의 아들, 벤 솔로. 루크의 제자였으나 스노크의 속삭임과 스승의 찰나의 의심이 그를 어둠으로 밀었다. 다스 베이더의 후계를 자처하며 렌 기사단을 이끌었고, 끝내 빛과 어둠 사이에서 갈라진 자신과 마주한다 — 할아버지의 길을 거꾸로 걷는, 타락과 구원의 계승자.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2183",
+        "name": "Supreme Leader Kylo Ren",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "finn",
+    "name": "핀",
+    "name_en": "Finn",
+    "alignment": "light",
+    "tier": 1,
+    "era_primary": "rise_of_the_first_order",
+    "height_cm": 178,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "first-order",
+        "from_event": null,
+        "to_event": "battle-of-takodana"
+      },
+      {
+        "faction": "resistance",
+        "from_event": "battle-of-takodana",
+        "to_event": null
+      }
+    ],
+    "motivation": "도망치는 자에서 지키는 자로 — 공포가 아니라 신념으로 싸우는 법을 배운다.",
+    "arc": [
+      {
+        "event": "battle-of-takodana",
+        "note": "도망자에서, 친구를 위해 검을 드는 자로."
+      },
+      {
+        "event": "battle-of-starkiller-base",
+        "note": "옛 교관 파스마와 옛 체제에 정면으로 맞선다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ep-7-force-awakens",
+      "ep-8-last-jedi",
+      "ep-9-rise-of-skywalker"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "깨어난 포스",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "profile": "태어나자마자 끌려가 번호 FN-2187로 길러진 퍼스트 오더 스톰트루퍼. 첫 학살 명령 앞에서 방아쇠를 거부하고 탈주해, 스톰트루퍼가 사람으로 돌아온 최초의 얼굴이 됐다. 저항군의 전사로 거듭나며 자기 이름을 가진 삶을 싸워서 얻어낸다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f7c",
+        "name": "Finn",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/finn-main_ad2b705b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "poe-dameron",
+    "name": "포 대머론",
+    "name_en": "Poe Dameron",
+    "alignment": "light",
+    "tier": 1,
+    "era_primary": "rise_of_the_first_order",
+    "height_cm": 172,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": "2 ABY",
+    "birth_year_value": 2,
+    "birth_year_certainty": "exact",
+    "homeworld": "yavin-4",
+    "affiliation_history": [
+      {
+        "faction": "new-republic",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "resistance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "영웅적 한 방보다 모두를 살리는 지휘가 무엇인지 배워 간다.",
+    "arc": [
+      {
+        "event": "siege-of-dqar",
+        "note": "드레드노트 격침의 대가로 폭격대를 잃고, 지휘의 무게를 배운다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ep-7-force-awakens",
+      "ep-8-last-jedi",
+      "ep-9-rise-of-skywalker"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "pilot",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "깨어난 포스",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "profile": "야빈 4에서 반란군 부부의 아들로 태어난 저항군 최고의 X-윙 조종사, 블랙 리더. 레아의 신임을 받는 돌격형 지휘관으로, 무모함과 영웅심 사이에서 지도자의 무게를 배워 간다. 반란 2세대의 상징.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20e9",
+        "name": "Poe Dameron",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/poe-main_611e1021.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "snoke",
+    "name": "스노크",
+    "name_en": "Snoke",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "rise_of_the_first_order",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간형(배양체)",
+    "species_en": "Humanoid strand-cast",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": "exegol",
+    "affiliation_history": [
+      {
+        "faction": "first-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "어둠으로 은하를 지배하려 하나, 그 야심조차 설계된 것이었다.",
+    "arc": [
+      {
+        "event": "siege-of-dqar",
+        "note": "추격의 정점, 옥좌에서 제자의 검에 최후 — 조종자가 꼭두각시였음이 드러나는 서막."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ep-7-force-awakens",
+      "ep-8-last-jedi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "sith",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "깨어난 포스",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "profile": "퍼스트 오더를 지배한 기형의 최고지도자. 포스의 어둠에 능통해 벤 솔로를 타락시켰으나, 그 자신이 엑세골에서 배양된 팰퍼틴의 피조물이었다. 제자의 검에 옥좌에서 두 동강 난 — 조종자인 줄 알았던 꼭두각시.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2184",
+        "name": "Supreme Leader Snoke",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/ep8-ff-006360_c95dace6.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "armitage-hux",
+    "name": "아미티지 헉스",
+    "name_en": "Armitage Hux",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "rise_of_the_first_order",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "first-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "권력 서열의 정점을 향한 야심, 그리고 카일로 렌을 향한 증오.",
+    "arc": [
+      {
+        "event": "hosnian-cataclysm",
+        "note": "스타킬러 발사 연설로 공포 정치의 얼굴이 된다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ep-7-force-awakens",
+      "ep-8-last-jedi",
+      "ep-9-rise-of-skywalker"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "깨어난 포스",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "profile": "퍼스트 오더의 야심가 장군. 스타킬러 기지를 휘두르고 호스니안 학살 연설로 공포 정치의 얼굴이 됐다. 카일로 렌과의 권력 다툼 끝에 — 렌이 이기는 꼴은 못 보겠다는 이유만으로 — 저항군의 첩자가 되는 뒤틀린 최후를 맞는다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f9f",
+        "name": "General Hux",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/general-hux-main_9dbfab69.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "captain-phasma",
+    "name": "캡틴 파스마",
+    "name_en": "Captain Phasma",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "rise_of_the_first_order",
+    "height_cm": 200,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "first-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "충성보다 생존 — 체제는 그녀에게 갑옷일 뿐이다.",
+    "arc": [
+      {
+        "event": "battle-of-starkiller-base",
+        "note": "쉴드를 제 손으로 내리며, 갑주 뒤의 생존주의가 드러난다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ep-7-force-awakens",
+      "ep-8-last-jedi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "깨어난 포스",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "profile": "크롬 갑주의 퍼스트 오더 트루퍼 총교관. 황무지 파나소스의 생존자로, 살아남기 위해서라면 무엇이든 버리는 냉혹함으로 그 자리에 올랐다. 자신이 길러낸 탈주병 FN-2187과의 악연이 수프리머시의 화염 속 결투로 끝난다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1edb",
+        "name": "Captain Phasma",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/captain-phasma_8f4ea1d7.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "rose-tico",
+    "name": "로즈 티코",
+    "name_en": "Rose Tico",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "rise_of_the_first_order",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "resistance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "언니의 희생을 헛되이 하지 않기 위해, 지키는 싸움을 한다.",
+    "arc": [
+      {
+        "event": "battle-of-crait",
+        "note": "사랑하는 것을 지키는 싸움으로 핀을 구한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "ep-8-last-jedi",
+      "ep-9-rise-of-skywalker"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "라스트 제다이",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "profile": "헤이스 마이너 출신의 저항군 정비병. 언니 페이지를 디카르에서 잃고도 무너지지 않았고, 핀과 함께 칸토 바이트 임무를 거치며 후방의 기술병에서 전선의 전사로 자랐다. '싸움은 미워하는 것을 부수는 게 아니라 사랑하는 것을 지키는 것' — 시퀄의 주제를 입으로 말한 인물.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2134",
+        "name": "Rose Tico",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
   }
 ]

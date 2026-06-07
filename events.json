@@ -1934,7 +1934,11 @@
     "tier": 2,
     "characters": [
       "han-solo",
-      "chewbacca"
+      "chewbacca",
+      "rey",
+      "finn",
+      "kylo-ren",
+      "bb-8"
     ],
     "locations": [
       "takodana"
@@ -1987,7 +1991,9 @@
     "year_certainty": "exact",
     "category": "other",
     "tier": 1,
-    "characters": [],
+    "characters": [
+      "armitage-hux"
+    ],
     "locations": [
       "hosnian-prime"
     ],
@@ -2056,7 +2062,12 @@
     "characters": [
       "chewbacca",
       "han-solo",
-      "leia-organa"
+      "leia-organa",
+      "rey",
+      "finn",
+      "kylo-ren",
+      "poe-dameron",
+      "captain-phasma"
     ],
     "locations": [
       "starkiller-base"
@@ -2128,7 +2139,12 @@
     "category": "battle",
     "tier": 1,
     "characters": [
-      "leia-organa"
+      "leia-organa",
+      "poe-dameron",
+      "snoke",
+      "kylo-ren",
+      "finn",
+      "rose-tico"
     ],
     "locations": [
       "dqar"
@@ -2200,7 +2216,13 @@
     "tier": 1,
     "characters": [
       "luke-skywalker",
-      "leia-organa"
+      "leia-organa",
+      "rey",
+      "finn",
+      "rose-tico",
+      "poe-dameron",
+      "kylo-ren",
+      "chewbacca"
     ],
     "locations": [
       "crait"
