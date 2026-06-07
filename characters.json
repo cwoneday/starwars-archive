@@ -8047,5 +8047,284 @@
         "fetched_at": "2026-06-07"
       }
     }
+  },
+  {
+    "id": "vernestra-rwoh",
+    "name": "버네스트라 로",
+    "name_en": "Vernestra Rwoh",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "미리알란",
+    "species_en": "Mirialan",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "오더의 평판을 지키려 진실을 봉인하지만, 그 침묵이 더 큰 어둠을 키운다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "브렌독의 진실을 덮으며 오더의 명예를 택한다 — 그 침묵이 제 옛 제자의 그림자를 가린다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "하이 리퍼블릭의 신동으로 이름을 떨친 미리알란 제다이 마스터. 채찍처럼 휘어지는 보라색 라이트세이버를 다룬다. 애콜라이트 시대엔 솔의 조사를 감독하는 상급자로 등장하지만 — 한때 그녀가 가르친 파다완이 어둠으로 떨어져 '스트레인저'가 되었다는 진실은 깊이 감춰져 있다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21d8",
+        "name": "Vernestra \"Vern\" Rwoh",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/vernestra-vern-rwoh-main_6aa5e264.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "mother-aniseya",
+    "name": "마더 아니세야",
+    "name_en": "Mother Aniseya",
+    "alignment": "neutral",
+    "tier": 2,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "두 딸과 결사를 지키려 하나, 제다이와의 충돌이 모든 것을 불태운다.",
+    "arc": [
+      {
+        "event": "the-brendok-tragedy",
+        "note": "딸들을 지키려 한 선택이 결사 전체의 화재로 번진다 — 메이의 복수와 오샤의 상실이 모두 그 밤에서 비롯됐다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "브렌독의 마녀 결사를 이끈 어머니. '실(the Thread)'이라 불리는 포스의 힘으로 쌍둥이 오샤와 메이를 잉태시켰다. 제다이가 결사에 발을 들인 그 밤, 딸들을 지키려다 비극의 한복판에서 스러진다."
+  },
+  {
+    "id": "indara",
+    "name": "인다라",
+    "name_en": "Indara",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "평화의 수호자로 살아가나, 과거 브렌독의 빚이 그녀를 찾아온다.",
+    "arc": [
+      {
+        "event": "assassination-of-indara",
+        "note": "메이의 첫 표적이 되어 쓰러진다 — 하이 리퍼블릭의 황혼을 알리는 첫 핏자국."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "제다이 마스터. 우주 변경의 술집에서 평온히 지내던 어느 날, 복수에 찬 메이의 칼을 받는다 — 애콜라이트의 첫 희생자이자 '제다이도 칼에 쓰러진다'는 시대의 서막."
+  },
+  {
+    "id": "jecki-lon",
+    "name": "제키 론",
+    "name_en": "Jecki Lon",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "시린트 혼혈",
+    "species_en": "Half-Theelin",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "스승들의 신뢰에 부응하려는 성실한 수련생.",
+    "arc": [
+      {
+        "event": "massacre-on-khofar",
+        "note": "코파르에서 스트레인저와 맞서다 산화 — 그 죽음이 솔 일행을 절망으로 몰아넣는다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "명민하고 충직한 파다완. 조사단의 일원으로 솔을 보좌하며 두각을 드러냈으나, 코파르의 숲에서 스트레인저의 검에 짧은 생을 마친다."
+  },
+  {
+    "id": "yord-fandar",
+    "name": "요드 판다르",
+    "name_en": "Yord Fandar",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "제다이의 규율을 지키는 것이 곧 사람을 지키는 길이라 믿는다.",
+    "arc": [
+      {
+        "event": "massacre-on-khofar",
+        "note": "원칙주의자에서 동료를 위해 목숨을 거는 기사로 — 코파르에서 최후를 맞는다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "규율을 절대시하는 곧은 성품의 제다이 기사. 원칙을 두고 오샤와 부딪히기도 하지만, 끝까지 동료를 지키려 싸우다 스러진다."
+  },
+  {
+    "id": "kelnacca",
+    "name": "켈나카",
+    "name_en": "Kelnacca",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "high_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "우키",
+    "species_en": "Wookiee",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "과거의 비극을 등지고 은둔하나, 어둠은 끝내 그를 찾아낸다.",
+    "arc": [
+      {
+        "event": "massacre-on-khofar",
+        "note": "브렌독의 생존자로 숨어 살다 스트레인저의 손에 스러진다 — 그의 죽음이 솔 일행에게 닥칠 위협을 예고한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-acolyte"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "코파르의 숲에 은둔한 우키 제다이. 브렌독의 생존 제다이 중 하나로 침묵 속에 살아가다, 추적해 온 스트레인저에게 발각돼 최후를 맞는다."
   }
 ]

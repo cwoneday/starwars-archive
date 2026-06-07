@@ -978,5 +978,70 @@
     "s": "leia-organa",
     "t": "chewbacca",
     "type": "ally"
+  },
+  {
+    "s": "vernestra-rwoh",
+    "t": "qimir",
+    "type": "master"
+  },
+  {
+    "s": "vernestra-rwoh",
+    "t": "master-sol",
+    "type": "ally"
+  },
+  {
+    "s": "mother-aniseya",
+    "t": "osha-aniseya",
+    "type": "family"
+  },
+  {
+    "s": "mother-aniseya",
+    "t": "mae-aniseya",
+    "type": "family"
+  },
+  {
+    "s": "mae-aniseya",
+    "t": "indara",
+    "type": "rival"
+  },
+  {
+    "s": "master-sol",
+    "t": "indara",
+    "type": "ally"
+  },
+  {
+    "s": "master-sol",
+    "t": "jecki-lon",
+    "type": "ally"
+  },
+  {
+    "s": "master-sol",
+    "t": "yord-fandar",
+    "type": "ally"
+  },
+  {
+    "s": "master-sol",
+    "t": "kelnacca",
+    "type": "ally"
+  },
+  {
+    "s": "qimir",
+    "t": "jecki-lon",
+    "type": "rival"
+  },
+  {
+    "s": "qimir",
+    "t": "kelnacca",
+    "type": "rival"
+  },
+  {
+    "s": "qimir",
+    "t": "master-sol",
+    "type": "rival"
+  },
+  {
+    "s": "qimir",
+    "t": "osha-aniseya",
+    "type": "master"
   }
 ]
