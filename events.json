@@ -3876,5 +3876,232 @@
       "클랜 오브 투"
     ],
     "work": "the-mandalorian"
+  },
+  {
+    "id": "the-brendok-tragedy",
+    "title": "브렌독의 비극",
+    "title_en": "The Brendok Tragedy",
+    "era": "high_republic",
+    "year_value": -148,
+    "year_label": "~148 BBY",
+    "year_certainty": "approximate",
+    "category": "fall",
+    "tier": 1,
+    "characters": [
+      "mother-aniseya",
+      "osha-aniseya",
+      "mae-aniseya",
+      "master-sol",
+      "indara",
+      "kelnacca"
+    ],
+    "locations": [
+      "brendok"
+    ],
+    "factions": [
+      "jedi-order"
+    ],
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "제다이가 브렌독 결사에 발을 들인 밤, 화재 속에 마더 아니세야와 결사가 스러지고 쌍둥이의 운명이 갈린다",
+    "summary": "포스 민감한 쌍둥이를 발견한 제다이 넷이 브렌독의 마녀 결사를 조사한다. 시험과 불신이 충돌로 번지고, 결사를 지키려는 마녀들과 아이들을 '구하려는' 제다이 사이에서 화재가 일어난다. 마더 아니세야와 결사가 불길에 사라지고, 오샤는 제다이에게 거두어지고, 메이는 죽은 줄로 여겨진다 — 한 밤의 비극이 두 자매를 정반대의 길로 갈라놓는다.",
+    "significance": "애콜라이트 서사 전체의 뿌리. 누구의 잘못이었는가라는 질문이 16년 뒤 복수와 진실의 추적으로 돌아온다. 제다이의 '선의'가 비극을 낳을 수 있음을 보여준 사건.",
+    "background": "솔은 오샤에게서 특별한 포스의 끈을 느꼈고, 결사의 방식과 제다이의 율법이 정면으로 부딪쳤다.",
+    "aftermath": "진실은 네 제다이의 침묵 속에 묻힌다. 그 봉인이 메이의 칼끝과 오샤의 의심으로 다시 열릴 때까지.",
+    "deep_dive": [
+      {
+        "phase": "발견",
+        "note": "포스의 '실'로 잉태된 쌍둥이 — 제다이에겐 설명할 수 없는 금기, 결사에겐 신성한 권능."
+      },
+      {
+        "phase": "충돌",
+        "note": "시험과 통제가 신뢰를 무너뜨린다. 결사를 지키려는 어머니와 아이를 데려가려는 제다이."
+      },
+      {
+        "phase": "화재",
+        "note": "불길 속에 결사가 사라진다. 살아남은 두 아이는 서로를 잃었다고 믿는다 — 거짓 위에 세워진 평생."
+      }
+    ],
+    "key_figures": [
+      "mother-aniseya",
+      "master-sol",
+      "osha-aniseya",
+      "mae-aniseya"
+    ],
+    "preceded_by": [],
+    "followed_by": [
+      "assassination-of-indara"
+    ],
+    "tags": [
+      "브렌독",
+      "결사",
+      "쌍둥이"
+    ],
+    "work": "the-acolyte"
+  },
+  {
+    "id": "assassination-of-indara",
+    "title": "인다라 암살",
+    "title_en": "Assassination of Indara",
+    "era": "high_republic",
+    "year_value": -132,
+    "year_label": "132 BBY",
+    "year_certainty": "exact",
+    "category": "duel",
+    "tier": 2,
+    "characters": [
+      "mae-aniseya",
+      "indara"
+    ],
+    "locations": [],
+    "factions": [
+      "jedi-order"
+    ],
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "복수에 나선 메이가 변경의 술집에서 제다이 마스터 인다라를 베다 — '제다이도 칼에 쓰러진다'",
+    "summary": "브렌독의 빚을 갚으려는 메이가 첫 표적, 인다라를 찾아 우주 변경의 술집에 나타난다. 무기 없이 싸우길 고집한 인다라는 끝내 메이의 손에 쓰러지고 — 평화의 시대에 제다이가 살해됐다는 충격이 오더를 뒤흔든다. 추적은 엉뚱하게도 오샤를 용의자로 지목한다.",
+    "significance": "애콜라이트의 개막이자 하이 리퍼블릭 황혼의 신호탄. 평화에 익숙해진 오더가 '내부가 아닌 외부의 칼'을 처음 마주한 순간.",
+    "preceded_by": [
+      "the-brendok-tragedy"
+    ],
+    "followed_by": [
+      "massacre-on-khofar"
+    ],
+    "tags": [
+      "복수",
+      "제다이 사냥"
+    ],
+    "work": "the-acolyte"
+  },
+  {
+    "id": "massacre-on-khofar",
+    "title": "코파르 학살",
+    "title_en": "Massacre on Khofar",
+    "era": "high_republic",
+    "year_value": -132,
+    "year_label": "132 BBY",
+    "year_certainty": "exact",
+    "category": "duel",
+    "tier": 1,
+    "characters": [
+      "qimir",
+      "master-sol",
+      "jecki-lon",
+      "yord-fandar",
+      "kelnacca",
+      "osha-aniseya",
+      "mae-aniseya"
+    ],
+    "locations": [
+      "khofar"
+    ],
+    "factions": [
+      "jedi-order",
+      "sith"
+    ],
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "숲의 행성에서 가면의 시스 '스트레인저'가 정체를 드러내고 솔의 조사단을 도륙하다",
+    "summary": "켈나카를 찾아 코파르의 숲에 든 솔의 조사단 앞에, 코르토시스 갑주와 가면을 쓴 어둠의 검객이 나타난다. 라이트세이버가 통하지 않는 갑주 앞에서 제다이들이 차례로 쓰러진다 — 켈나카, 요드, 그리고 제키. 가면 너머의 정체는 메이의 스승, 시스 키미르. 평화의 시대가 감춰 온 '시스가 살아 있다'는 진실이 피로 증명된다.",
+    "significance": "하이 리퍼블릭 시대에 시스가 실재함을 드러낸 결정적 사건. 다스 베인의 '둘의 법칙'이 그림자 속에서 작동하고 있었음을, 오더가 처음으로 — 그러나 너무 늦게 — 목격한다.",
+    "background": "오더는 인다라 살해를 단독범의 소행으로 좁혀 보았다. 배후에 스승이 있다는 가능성은 누구도 입에 올리지 않았다.",
+    "aftermath": "살아남은 솔과 오샤는 흩어지고, 진실을 아는 자는 더 줄었다. 키미르는 메이 대신 오샤에게 눈을 돌린다.",
+    "deep_dive": [
+      {
+        "phase": "가면의 검객",
+        "note": "코르토시스 갑주는 라이트세이버를 무력화한다 — 제다이의 가장 큰 무기가 통하지 않는 공포."
+      },
+      {
+        "phase": "도륙",
+        "note": "켈나카·요드·제키가 차례로 스러진다. 시리즈에서 가장 잔혹하고 빠른 전투."
+      },
+      {
+        "phase": "정체",
+        "note": "가면을 벗은 얼굴은 메이의 스승. '스트레인저'가 곧 시스였다."
+      }
+    ],
+    "key_figures": [
+      "qimir",
+      "master-sol",
+      "jecki-lon"
+    ],
+    "preceded_by": [
+      "assassination-of-indara"
+    ],
+    "followed_by": [
+      "truth-on-brendok"
+    ],
+    "tags": [
+      "시스의 귀환",
+      "코르토시스",
+      "스트레인저"
+    ],
+    "work": "the-acolyte"
+  },
+  {
+    "id": "truth-on-brendok",
+    "title": "브렌독의 진실",
+    "title_en": "The Truth on Brendok",
+    "era": "high_republic",
+    "year_value": -132,
+    "year_label": "132 BBY",
+    "year_certainty": "exact",
+    "category": "duel",
+    "tier": 1,
+    "characters": [
+      "osha-aniseya",
+      "master-sol",
+      "mae-aniseya",
+      "qimir",
+      "vernestra-rwoh"
+    ],
+    "locations": [
+      "brendok"
+    ],
+    "factions": [
+      "jedi-order",
+      "sith"
+    ],
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "오샤가 16년 전의 진실을 마주하고 — 스승 솔을 제 손으로 보내며 어둠의 제자가 되다",
+    "summary": "브렌독으로 돌아온 오샤는 솔에게서 그 밤의 진실을 듣는다. 결사의 죽음에 제다이의 잘못이 있었고, 자신이 평생 믿어 온 이야기가 거짓이었음을. 분노 속에서 오샤는 포스로 솔의 숨을 끊는다 — 빛의 제자가 처음으로 어둠을 휘두른 순간. 오샤는 키미르를 따라 스트레인저의 곁에 서고, 오더는 진실을 또 한 번 봉인한다. 버네스트라가 사건을 '단독범의 소행'으로 덮으며.",
+    "significance": "한 사람의 타락이 완성되는 자리이자, 오더가 진실을 거듭 묻는 모습을 통해 '제다이의 자만'이라는 시대의 병을 드러낸 결말. 시디어스가 오기 한 세기 전, 어둠은 이미 오더의 맹점 속에서 자라고 있었다.",
+    "background": "키미르는 오샤에게서 메이보다 더 큰 가능성을 보았다 — 상실과 분노라는 가장 좋은 땔감을.",
+    "aftermath": "오샤는 키미르의 제자가 되어 떠나고, 버네스트라는 진실을 봉인한다. 그 침묵이 다음 세기의 어둠을 가린다.",
+    "deep_dive": [
+      {
+        "phase": "진실",
+        "note": "평생 믿어 온 이야기가 거짓이었다 — 그 밤의 책임은 결사가 아니라 제다이에게도 있었다."
+      },
+      {
+        "phase": "선택",
+        "note": "분노 속에서 오샤가 솔의 숨을 끊는다. 빛의 제자가 처음 어둠을 휘두른다."
+      },
+      {
+        "phase": "봉인",
+        "note": "버네스트라가 사건을 단독범의 소행으로 덮는다 — 오더의 명예가 진실보다 앞섰다."
+      }
+    ],
+    "key_figures": [
+      "osha-aniseya",
+      "master-sol",
+      "qimir"
+    ],
+    "preceded_by": [
+      "massacre-on-khofar"
+    ],
+    "followed_by": [],
+    "tags": [
+      "타락",
+      "둘의 법칙",
+      "봉인된 진실"
+    ],
+    "work": "the-acolyte"
   }
 ]

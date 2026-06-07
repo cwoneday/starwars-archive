@@ -1797,5 +1797,372 @@
         "fetched_at": "2026-06-07"
       }
     }
+  },
+  {
+    "id": "khofar",
+    "name": "코파르",
+    "name_en": "Khofar",
+    "type": null,
+    "region": null,
+    "one_liner": "은하 외곽의 울창한 숲 행성. 우키 제다이 켈나카가 은둔했고, 솔의 조사단이 스트레인저와 맞닥뜨려 참극을 겪은 곳이다.",
+    "source": "애콜라이트",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "climate": "온대",
+    "terrain": "거대 수림·안개 숲",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "data_source": null
+  },
+  {
+    "id": "jedha",
+    "name": "제다",
+    "name_en": "Jedha",
+    "type": "moon",
+    "region": null,
+    "one_liner": "카이버 크리스털의 성지로 순례자가 모이던 사막 위성. 로그 원에서 제국이 도시 전체를 데스 스타 시험 사격으로 지워 버렸다.",
+    "source": "로그 원",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "climate": "한랭 사막",
+    "terrain": "사막·협곡",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb9c",
+        "name": "Jedha",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/jedha-main-image_4e3dd512.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "eadu",
+    "name": "에아두",
+    "name_en": "Eadu",
+    "type": null,
+    "region": null,
+    "one_liner": "폭풍우 몰아치는 산악 행성. 갈렌 에르소가 데스 스타의 핵심을 설계한 비밀 연구소가 숨어 있었다.",
+    "source": "로그 원",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "climate": "폭풍·한랭",
+    "terrain": "산악·고원",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb6c",
+        "name": "Eadu",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/eadu-main_7ebaa60a.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "nevarro",
+    "name": "네바로",
+    "name_en": "Nevarro",
+    "type": null,
+    "region": null,
+    "one_liner": "용암 평원의 화산 행성. 만달로리안 딘 자린의 거점이자, 제국 잔당의 은신처에서 신공화국의 교역 도시로 거듭났다.",
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "climate": "건조",
+    "terrain": "화산 평원",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbe1",
+        "name": "Nevarro",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/nevarro-main_deddc805.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "malachor",
+    "name": "말라코어",
+    "name_en": "Malachor",
+    "type": null,
+    "region": null,
+    "one_liner": "제다이에게 금지된 시스의 행성. 고대 시스 사원이 잠든 이곳에서 아소카·에즈라·케이넌이 베이더와 인퀴지터에 맞섰다.",
+    "source": "스타워즈 반란군",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "climate": null,
+    "terrain": "황무지·시스 유적",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbc1",
+        "name": "Malachor",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/malachor_ee5a7517.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "christophsis",
+    "name": "크리스토피스",
+    "name_en": "Christophsis",
+    "type": null,
+    "region": null,
+    "one_liner": "거대한 청록 크리스털 도시의 행성. 클론 전쟁 초기, 아나킨과 아소카가 처음 함께 싸운 전장.",
+    "source": "클론 전쟁",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "climate": null,
+    "terrain": "크리스털 도시",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb4b",
+        "name": "Christophsis",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_christophsis_01_169_2daae94e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "felucia",
+    "name": "펠루시아",
+    "name_en": "Felucia",
+    "type": null,
+    "region": null,
+    "one_liner": "거대 균류와 야광 식물이 뒤덮은 정글 행성. 오더 66의 그날, 아일라 세큐라가 제 부대의 총구에 스러진 곳.",
+    "source": "스타워즈 에피소드 3: 시스의 복수",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "climate": "습윤",
+    "terrain": "균류 정글",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb75",
+        "name": "Felucia",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_felucia_01_169_2070e38e.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "sorgan",
+    "name": "소르간",
+    "name_en": "Sorgan",
+    "type": null,
+    "region": null,
+    "one_liner": "고요한 숲과 논의 농경 위성. 딘 자린과 그로구가 잠시 몸을 숨겼던 변경의 피난처.",
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "climate": null,
+    "terrain": "숲·습지 농경",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc20",
+        "name": "Sorgan",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/sorgan-main_a175bd85.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "cantonica",
+    "name": "칸토니카",
+    "name_en": "Cantonica",
+    "type": null,
+    "region": null,
+    "one_liner": "사막 위에 세워진 호화 도박 도시 칸토 바이트의 행성. 라스트 제다이에서 부의 그늘과 파시어 경주가 펼쳐진다.",
+    "source": "라스트 제다이",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "climate": "건조",
+    "terrain": "사막·인공 해안 도시",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abb42",
+        "name": "Cantonica",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/ep8-ff-004338_6dd8c0f4.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "pasaana",
+    "name": "파사나",
+    "name_en": "Pasaana",
+    "type": null,
+    "region": null,
+    "one_liner": "끝없는 사막의 행성. 사십이 년마다 열리는 '조상의 축제'가 벌어지고, 시스 단검의 단서가 잠든 곳.",
+    "source": "라이즈 오브 스카이워커",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "climate": "건조",
+    "terrain": "사막",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbf9",
+        "name": "Pasaana",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/pasaana-main_716cbcfa.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "kijimi",
+    "name": "키지미",
+    "name_en": "Kijimi",
+    "type": null,
+    "region": null,
+    "one_liner": "눈 덮인 산악 도시의 행성. 저항군이 시스 웨이파인더의 좌표를 해독한 은신처.",
+    "source": "라이즈 오브 스카이워커",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "climate": "한랭",
+    "terrain": "설산·도시",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbaa",
+        "name": "Kijimi",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/kijimi-city-main_530d8d0c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "polis-massa",
+    "name": "폴리스 마사",
+    "name_en": "Polis Massa",
+    "type": "asteroid",
+    "region": null,
+    "one_liner": "외곽의 소행성 의료 기지. 파드메가 숨을 거두고 루크와 레아가 태어난, 사가의 가장 은밀한 출생지.",
+    "source": "스타워즈 에피소드 3: 시스의 복수",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "climate": null,
+    "terrain": "소행성·연구 기지",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abbfc",
+        "name": "Polis Massa",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_polismassa_01_169_21f04b76.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
+  },
+  {
+    "id": "zeffo",
+    "name": "제포",
+    "name_en": "Zeffo",
+    "type": null,
+    "region": null,
+    "one_liner": "고대 제포 문명의 유적이 잠든 바람의 행성. 칼 케스티스가 홀로크론의 단서를 좇은 곳.",
+    "source": "제다이: 폴른 오더",
+    "source_type": "game",
+    "canon_status": "explicit",
+    "climate": null,
+    "terrain": "고원·고대 유적",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "surface_water_pct": null,
+    "data_source": null,
+    "external_refs": {
+      "databank": {
+        "id": "64293151d99b54f25a4abc58",
+        "name": "Zeffo",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/zeffo_1b9445c4.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-07"
+      }
+    }
   }
 ]
