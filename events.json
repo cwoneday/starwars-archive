@@ -290,7 +290,9 @@
     "year_certainty": "exact",
     "category": "other",
     "tier": 1,
-    "characters": [],
+    "characters": [
+      "marchion-ro"
+    ],
     "locations": [
       "starlight-beacon"
     ],
@@ -409,7 +411,9 @@
     "year_certainty": "exact",
     "category": "founding",
     "tier": 2,
-    "characters": [],
+    "characters": [
+      "lina-soh"
+    ],
     "locations": [
       "starlight-beacon"
     ],
@@ -527,7 +531,9 @@
     "year_certainty": "approximate",
     "category": "fall",
     "tier": 3,
-    "characters": [],
+    "characters": [
+      "marchion-ro"
+    ],
     "locations": [
       "starlight-beacon"
     ],
@@ -587,7 +593,9 @@
       "nute-gunray",
       "r2-d2",
       "roos-tarpals",
-      "rugor-nass"
+      "rugor-nass",
+      "quarsh-panaka",
+      "ric-olie"
     ],
     "locations": [
       "naboo"
@@ -605,7 +613,8 @@
     "summary": "무역연합의 봉쇄로 점령당한 나부를 두고 여왕과 제다이, 그리고 토착 군구안족이 손잡아 행성을 되찾았다. 이 전투 끝에 제다이는 천 년 만에 시스의 생존을 확인한다.",
     "significance": "사라진 줄 알았던 시스의 귀환이 드러나고, 한 노예 소년이 제다이의 길에 들어서는 출발점이 된다.",
     "preceded_by": [
-      "fall-of-starlight"
+      "fall-of-starlight",
+      "boonta-eve-classic"
     ],
     "followed_by": [
       "first-battle-of-geonosis"
@@ -675,7 +684,19 @@
       "dooku",
       "mace-windu",
       "yoda",
-      "jango-fett"
+      "jango-fett",
+      "kit-fisto",
+      "luminara-unduli",
+      "shaak-ti",
+      "aayla-secura",
+      "barriss-offee",
+      "plo-koon",
+      "ki-adi-mundi",
+      "eeth-koth",
+      "adi-gallia",
+      "poggle-the-lesser",
+      "wat-tambor",
+      "san-hill"
     ],
     "locations": [
       "geonosis"
@@ -693,7 +714,9 @@
     "significance": "공화국이 군대를 손에 쥐는 순간이자, 팰퍼틴이 설계한 거대한 전쟁의 막이 오르는 지점.",
     "preceded_by": [
       "battle-of-naboo",
-      "dooku-disillusion"
+      "dooku-disillusion",
+      "discovery-of-clone-army",
+      "death-of-shmi"
     ],
     "followed_by": [
       "battle-of-coruscant"
@@ -756,7 +779,8 @@
       "obi-wan-kenobi",
       "palpatine",
       "dooku",
-      "grievous"
+      "grievous",
+      "r4-p17"
     ],
     "locations": [
       "coruscant"
@@ -896,7 +920,14 @@
       "obi-wan-kenobi",
       "mace-windu",
       "tarfful",
-      "saesee-tiin"
+      "saesee-tiin",
+      "aayla-secura",
+      "ki-adi-mundi",
+      "plo-koon",
+      "grogu",
+      "cal-kestis",
+      "kanan-jarrus",
+      "luminara-unduli"
     ],
     "locations": [
       "coruscant"
@@ -981,7 +1012,8 @@
       "palpatine",
       "mas-amedda",
       "bail-organa",
-      "padme-amidala"
+      "padme-amidala",
+      "sly-moore"
     ],
     "locations": [
       "coruscant"
@@ -1128,7 +1160,9 @@
     "tier": 2,
     "characters": [
       "bail-organa",
-      "mon-mothma"
+      "mon-mothma",
+      "luthen-rael",
+      "cassian-andor"
     ],
     "locations": [],
     "factions": [
@@ -1318,7 +1352,12 @@
     "category": "battle",
     "tier": 1,
     "characters": [
-      "darth-vader"
+      "darth-vader",
+      "cassian-andor",
+      "jyn-erso",
+      "k-2so",
+      "chirrut-imwe",
+      "raymus-antilles"
     ],
     "locations": [
       "scarif"
@@ -1648,7 +1687,10 @@
     "year_certainty": "exact",
     "category": "battle",
     "tier": 1,
-    "characters": [],
+    "characters": [
+      "rae-sloane",
+      "norra-wexley"
+    ],
     "locations": [
       "jakku"
     ],
@@ -2732,7 +2774,9 @@
     "one_liner": "보바 펫이 파이크 신디케이트에 맞서 모스 에스파의 지배권을 건 결전을 벌이다",
     "summary": "자바의 옛 영역을 차지하려는 보바 펫과, 타투인을 장악하려는 파이크 신디케이트가 모스 에스파에서 정면충돌한다. 펜넥 샨드와 딘 자린, 블랙 크르샨탄까지 가세하고, 파이크가 고용한 캐드 베인이 보바 앞을 막아선다.",
     "significance": "보바 펫이 '공포가 아닌 존중으로 다스리겠다'던 선언을 실력으로 증명하며 모스 에스파의 다이묘로 올라선 분기점.",
-    "preceded_by": [],
+    "preceded_by": [
+      "rescue-of-grogu"
+    ],
     "followed_by": [],
     "tags": [
       "타투인",
@@ -2802,7 +2846,8 @@
     "summary": "아소카와 사빈은 모건 엘스베스 일당이 먼 은하의 스론을 데려오려는 음모를 쫓는다. 페리디아에서 사빈은 실종됐던 에즈라와 재회하지만, 스론의 귀환을 막지는 못한다. 베일런 스콜과 신 하티라는 새로운 다크사이드 검객들도 이 사건에서 등장한다.",
     "significance": "엔도 이후 흩어진 제국 잔당의 '미래 전쟁 군주' 스론이 복귀하며, 뉴 리퍼블릭 시대의 새로운 갈등 축을 연 사건.",
     "preceded_by": [
-      "battle-of-endor"
+      "battle-of-endor",
+      "liberation-of-lothal"
     ],
     "followed_by": [],
     "tags": [
@@ -3437,5 +3482,399 @@
       "몰"
     ],
     "work": "the-clone-wars"
+  },
+  {
+    "id": "boonta-eve-classic",
+    "title": "분타 이브 클래식",
+    "title_en": "Boonta Eve Classic",
+    "era": "fall_of_the_jedi",
+    "year_value": -32,
+    "year_label": "32 BBY",
+    "year_certainty": "exact",
+    "category": "other",
+    "tier": 2,
+    "characters": [
+      "anakin-skywalker",
+      "sebulba",
+      "watto",
+      "shmi-skywalker",
+      "qui-gon-jinn",
+      "padme-amidala",
+      "jar-jar-binks",
+      "r2-d2",
+      "c-3po",
+      "ratts-tyerel",
+      "dud-bolt",
+      "gasgano",
+      "ben-quadinaros"
+    ],
+    "locations": [
+      "tatooine"
+    ],
+    "factions": [
+      "hutt-cartel"
+    ],
+    "source": "스타워즈 에피소드 1: 보이지 않는 위험",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "one_liner": "노예 소년 아나킨이 자작 포드로 무패의 세불바를 꺾고 자유를 따낸, 모든 것의 출발선",
+    "summary": "하이퍼드라이브 부품값이 없던 콰이곤은 와토와 도박을 건다 — 노예 소년이 직접 만든 포드레이서를 분타 이브에 출전시키는 것. 인간이 감당할 수 없다는 700km/h의 경주에서 아나킨은 세불바의 반칙과 기체 고장을 모두 이겨내고 결승선을 끊는다. 상금은 부품이 되고, 내기의 진짜 판돈이었던 소년의 자유가 함께 따라온다.",
+    "significance": "스카이워커 사가 전체의 출발점. 콰이곤이 '선택받은 자'의 확신을 굳힌 무대이자, 어머니를 타투인에 남겨둔 작별이 훗날 비극의 씨앗이 된다.",
+    "preceded_by": [],
+    "followed_by": [
+      "battle-of-naboo"
+    ],
+    "tags": [
+      "포드레이스",
+      "자유",
+      "타투인"
+    ],
+    "work": "ep-1-phantom-menace"
+  },
+  {
+    "id": "attempt-on-amidala",
+    "title": "아미달라 암살 시도",
+    "title_en": "Assassination Attempt on Amidala",
+    "era": "fall_of_the_jedi",
+    "year_value": -22,
+    "year_label": "22 BBY",
+    "year_certainty": "exact",
+    "category": "politics",
+    "tier": 2,
+    "characters": [
+      "padme-amidala",
+      "corde",
+      "zam-wesell",
+      "jango-fett",
+      "gregar-typho",
+      "dorme",
+      "anakin-skywalker",
+      "obi-wan-kenobi"
+    ],
+    "locations": [
+      "coruscant"
+    ],
+    "factions": [
+      "confederacy-of-independent-systems"
+    ],
+    "source": "스타워즈 에피소드 2: 클론의 습격",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "one_liner": "군 창설법 표결 직전 파드메를 노린 두 차례의 암살 — 대역 코르데가 죽고, 추적의 실이 카미노로 이어진다",
+    "summary": "분리주의 위기의 한복판, 군 창설에 반대하는 파드메가 코러산트에 도착하는 순간 착륙장이 폭발한다. 의원의 옷을 입고 의원의 자리에 섰던 대역 코르데가 숨지고, 이어진 독충 암습마저 제다이가 막아낸다. 추격 끝에 붙잡힌 변신술사 잠 웨셀은 고용주를 말하려는 찰나 독침에 침묵당한다 — 세이버다트 한 발이 남긴 단서가 카미노를 가리킨다.",
+    "significance": "클론의 습격 전체를 여는 방아쇠. 파드메에게 호위 아나킨을 붙인 결정이 금지된 사랑의 시작이 됐고, 오비완의 추적이 클론 군단의 발견으로 이어진다.",
+    "preceded_by": [],
+    "followed_by": [
+      "discovery-of-clone-army"
+    ],
+    "tags": [
+      "암살",
+      "대역",
+      "세이버다트"
+    ],
+    "work": "ep-2-attack-of-clones"
+  },
+  {
+    "id": "discovery-of-clone-army",
+    "title": "카미노 클론군 발견",
+    "title_en": "Discovery of the Clone Army",
+    "era": "fall_of_the_jedi",
+    "year_value": -22,
+    "year_label": "22 BBY",
+    "year_certainty": "exact",
+    "category": "politics",
+    "tier": 1,
+    "characters": [
+      "obi-wan-kenobi",
+      "jango-fett",
+      "lama-su",
+      "taun-we",
+      "dexter-jettster",
+      "jocasta-nu",
+      "yoda",
+      "boba-fett"
+    ],
+    "locations": [
+      "kamino"
+    ],
+    "factions": [
+      "galactic-republic",
+      "jedi-order"
+    ],
+    "source": "스타워즈 에피소드 2: 클론의 습격",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "one_liner": "기록보관소에서 지워진 행성에서 오비완이 발견한 것 — 공화국 몰래 자라고 있던 20만의 클론 군단",
+    "summary": "세이버다트의 출처를 기록보관소도 답하지 못하자, 단골 식당의 덱스터가 단번에 카미노를 짚는다. 좌표는 보관소에서 지워져 있었다 — '기록에 없으면 존재하지 않는다'던 조카스타 누의 확신이 무색하게. 빗속의 티포카 시티에서 총리 라마 수는 오비완을 '주문 확인차 온 손님'으로 환대하며 클론 군단을 자랑스레 브리핑한다. 주문자는 오래전 죽은 제다이, 유전자 원본은 현상금 사냥꾼 장고 펫. 모든 답이 더 큰 질문이 되어 돌아온다.",
+    "significance": "시디어스 설계의 핵심이 처음 수면 위로 드러난 사건. 누가, 왜, 누구를 위해 — 이 질문이 풀리기 전에 전쟁이 먼저 터지고, 공화국은 의심스러운 군대를 그대로 받아 쓴다.",
+    "background": "기록 말소는 제다이 내부자의 소행이었다 — 보관소의 맹점이 곧 오더의 맹점이었다.",
+    "aftermath": "오비완은 장고를 추적해 지오노시스의 분리주의 회동까지 닿고, 그의 송신 한 통이 전쟁의 개전으로 이어진다.",
+    "deep_dive": [
+      {
+        "phase": "지워진 행성",
+        "note": "중력은 그 자리에 행성이 있다고 말하는데 지도엔 없다. 요다는 영링들 앞에서 답한다 — '기록을 지운 자가 있는 것이지.'"
+      },
+      {
+        "phase": "빗속의 환대",
+        "note": "카미노안들은 숨기는 게 없었다. 그들에겐 정당한 주문이었으니까 — 그래서 더 섬뜩한 브리핑."
+      },
+      {
+        "phase": "장고와의 대면",
+        "note": "'주문자를 아느냐'는 질문에 장고는 답 대신 떠날 채비를 한다. 우천 착륙장의 격투가 지오노시스 추적의 서막이 된다."
+      }
+    ],
+    "key_figures": [
+      "obi-wan-kenobi",
+      "jango-fett",
+      "lama-su"
+    ],
+    "preceded_by": [
+      "attempt-on-amidala"
+    ],
+    "followed_by": [
+      "first-battle-of-geonosis"
+    ],
+    "tags": [
+      "클론 군단",
+      "카미노",
+      "기록 말소"
+    ],
+    "work": "ep-2-attack-of-clones"
+  },
+  {
+    "id": "death-of-shmi",
+    "title": "슈미의 죽음",
+    "title_en": "Death of Shmi Skywalker",
+    "era": "fall_of_the_jedi",
+    "year_value": -22,
+    "year_label": "22 BBY",
+    "year_certainty": "exact",
+    "category": "fall",
+    "tier": 2,
+    "characters": [
+      "shmi-skywalker",
+      "anakin-skywalker",
+      "cliegg-lars",
+      "owen-lars",
+      "beru-whitesun-lars",
+      "padme-amidala"
+    ],
+    "locations": [
+      "tatooine"
+    ],
+    "factions": [],
+    "source": "스타워즈 에피소드 2: 클론의 습격",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "one_liner": "투스켄에게 납치된 어머니가 아들의 품에서 숨을 거두다 — 아나킨이 처음 선을 넘은 밤",
+    "summary": "악몽에 시달리던 아나킨은 타투인으로 돌아와 어머니가 한 달 전 투스켄에게 끌려갔음을 듣는다. 야영지에서 찾아낸 슈미는 아들의 얼굴을 확인하고 숨을 거두고 — 아나킨은 그 막사의 남자도, 여자도, 아이들도 남기지 않는다. '짐승처럼 전부 베었어'라는 고백을 파드메는 감싸 안지만, 그 밤 요다는 멀리서 다크사이드의 동요를 듣는다.",
+    "significance": "아나킨의 첫 학살이자 타락의 진짜 기점. 사랑하는 이를 잃는 공포가 그의 급소임이 드러났고 — 시디어스는 훗날 정확히 그 급소를 찌른다. 라스 가족이 사가에 등장하는 순간이기도 하다.",
+    "preceded_by": [
+      "attempt-on-amidala"
+    ],
+    "followed_by": [
+      "first-battle-of-geonosis"
+    ],
+    "tags": [
+      "투스켄",
+      "첫 학살",
+      "라스 농장"
+    ],
+    "work": "ep-2-attack-of-clones"
+  },
+  {
+    "id": "kessel-run",
+    "title": "케셀 런",
+    "title_en": "The Kessel Run",
+    "era": "reign_of_the_empire",
+    "year_value": -10,
+    "year_label": "~10 BBY",
+    "year_certainty": "approximate",
+    "category": "other",
+    "tier": 2,
+    "characters": [
+      "han-solo",
+      "chewbacca",
+      "lando-calrissian"
+    ],
+    "locations": [
+      "corellia"
+    ],
+    "factions": [
+      "crimson-dawn",
+      "galactic-empire"
+    ],
+    "source": "한 솔로: 스타워즈 스토리",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "one_liner": "훔친 코액시엄을 싣고 소용돌이를 가로지른 12파섹 — 한 솔로와 팰컨의 전설이 시작된 항해",
+    "summary": "케셀 광산에서 탈취한 미정제 코액시엄은 시한폭탄이었다. 정제소까지 가는 정규 항로는 20파섹 — 폭발이 먼저다. 한은 랜도의 팰컨을 몰아 아무도 가지 않는 소용돌이 성운을 가로지른다. 중력 우물과 괴수 사이를 뚫고 나온 기록이 12파섹. 숫자는 거리지만, 그날부터 그것은 한 솔로라는 이름의 단위가 됐다.",
+    "significance": "'12파섹에 케셀 런을 주파한 배'라는 사가 최고의 허풍이 사실이었음을 보여준 사건. 한·츄바카·랜도·팰컨 — 오리지널의 핵심 인연이 전부 여기서 묶인다.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "12파섹",
+      "밀레니엄 팰컨",
+      "코액시엄"
+    ],
+    "work": "solo"
+  },
+  {
+    "id": "raid-on-fortress-inquisitorius",
+    "title": "인퀴지터 요새 습격",
+    "title_en": "Raid on Fortress Inquisitorius",
+    "era": "reign_of_the_empire",
+    "year_value": -14,
+    "year_label": "14 BBY",
+    "year_certainty": "exact",
+    "category": "other",
+    "tier": 2,
+    "characters": [
+      "cal-kestis",
+      "nightsister-merrin",
+      "darth-vader"
+    ],
+    "locations": [],
+    "factions": [
+      "inquisitorius"
+    ],
+    "source": "제다이: 폴른 오더",
+    "source_type": "game",
+    "canon_status": "explicit",
+    "one_liner": "칼 케스티스가 인퀴지터의 심장부에서 영링 명단을 탈취하고 — 베이더 앞에서 살아 나오다",
+    "summary": "포스 민감 아이들의 명단을 담은 홀로크론이 인퀴지터리우스의 수중 요새에 있다. 칼 케스티스는 머린의 마법에 기대 요새 심장부까지 잠입해 홀로크론을 되찾지만, 출구에서 기다리던 것은 다스 베이더였다. 검 한 번 제대로 섞지 못한 채 바다로 도주한 칼은, 살아남은 뒤 더 어려운 선택을 한다 — 명단을 지키는 대신 부수는 것.",
+    "significance": "오더 66 이후 세대가 제국의 심장을 찌르고 생환한 드문 사례. '미래는 명단이 아니라 포스에 맡긴다'는 결말이 생존자 서사의 한 정점을 찍는다.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "홀로크론",
+      "베이더",
+      "생존자"
+    ],
+    "work": "jedi-fallen-order"
+  },
+  {
+    "id": "liberation-of-lothal",
+    "title": "로탈 해방",
+    "title_en": "Liberation of Lothal",
+    "era": "reign_of_the_empire",
+    "year_value": -1,
+    "year_label": "~1 BBY",
+    "year_certainty": "approximate",
+    "category": "battle",
+    "tier": 1,
+    "characters": [
+      "ezra-bridger",
+      "hera-syndulla",
+      "sabine-wren",
+      "kanan-jarrus",
+      "chopper",
+      "grand-admiral-thrawn"
+    ],
+    "locations": [
+      "lothal"
+    ],
+    "factions": [
+      "rebel-alliance",
+      "galactic-empire"
+    ],
+    "source": "스타워즈 반란군 (시즌 4)",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "고스트 크루가 고향 로탈을 되찾다 — 에즈라는 퍼걸 떼와 함께 스론의 함대를 휘감아 은하 밖으로 사라진다",
+    "summary": "고스트 크루의 마지막 작전. 연료 저장고의 화염 앞에서 케이넌이 크루를 지키고 산화하지만, 그 희생이 로탈 작전의 길을 연다. 스론의 함대가 도시를 겨눈 최후의 국면 — 에즈라가 부른 것은 함대가 아니라 퍼걸 떼였다. 우주 고래들이 키메라호를 휘감았고, 에즈라는 스론과 함께 하이퍼스페이스 너머로 사라진다. 로탈의 하늘에서 제국이 걷혔다.",
+    "significance": "야빈 이전, 행성 하나가 통째로 해방된 반란의 선례. 그리고 '사라진 스론과 에즈라'라는 수수께끼가 시작된 사건 — 십 년 뒤 아소카의 추적(스론의 귀환)이 바로 이 실을 잇는다.",
+    "background": "케이넌의 죽음 이후 크루는 흩어지는 대신 로탈로 돌아왔다. 에즈라는 늑대들과 행성의 포스가 가리키는 길을 따랐다.",
+    "aftermath": "사빈은 '돌아오겠다'던 에즈라의 약속을 지키는 파수꾼이 됐고, 헤라는 반란 함대의 장군으로 야빈의 하늘에 선다.",
+    "deep_dive": [
+      {
+        "phase": "케이넌의 빛",
+        "note": "폭발의 화염을 포스로 붙든 마지막 순간, 멀었던 눈이 헤라를 본다 — 시리즈 전체에서 가장 회자되는 장면."
+      },
+      {
+        "phase": "퍼걸의 부름",
+        "note": "밀수꾼의 전설로 떠돌던 우주 고래가 에즈라의 교감에 응답한다. 함대를 이기는 법이 함대가 아니었다."
+      },
+      {
+        "phase": "두 사람의 실종",
+        "note": "'스론을 데려가면 나도 같이 가야 해.' — 승리와 작별이 한 문장에 담긴 퇴장."
+      }
+    ],
+    "key_figures": [
+      "ezra-bridger",
+      "grand-admiral-thrawn",
+      "kanan-jarrus"
+    ],
+    "preceded_by": [],
+    "followed_by": [
+      "return-of-thrawn"
+    ],
+    "tags": [
+      "퍼걸",
+      "스론 실종",
+      "고스트 크루"
+    ],
+    "work": "rebels"
+  },
+  {
+    "id": "rescue-of-grogu",
+    "title": "그로구 구출작전",
+    "title_en": "Rescue of Grogu",
+    "era": "new_republic",
+    "year_value": 9,
+    "year_label": "9 ABY",
+    "year_certainty": "exact",
+    "category": "battle",
+    "tier": 1,
+    "characters": [
+      "din-djarin",
+      "grogu",
+      "boba-fett",
+      "fennec-shand",
+      "luke-skywalker",
+      "r2-d2"
+    ],
+    "locations": [],
+    "factions": [
+      "mandalorians",
+      "galactic-empire"
+    ],
+    "source": "만달로리안 (시즌 2)",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "기디언의 순양함에 뛰어든 딘 자린 — 다크세이버를 따내고, 푸른 검의 제다이에게 그로구를 맡기다",
+    "summary": "모프 기디언에게 납치된 그로구를 되찾기 위해 딘 자린이 제국 잔당의 경순양함에 오른다. 기디언과의 결투에서 다크세이버를 따내지만, 다크트루퍼 군단 앞에 모두가 갇힌 순간 — X-윙 한 대가 격납고에 내려앉는다. 푸른 라이트세이버의 제다이가 복도를 쓸어내고 함교에 이른다. 루크 스카이워커. 딘은 투구를 벗어 맨얼굴로 작별한다. '다시 만날 거다, 약속할게.'",
+    "significance": "만달로리안 서사의 정점이자 두 시대의 악수 — OT의 영웅이 새 시대의 부자(父子) 앞에 나타난 순간. 의도치 않게 따낸 다크세이버는 만달로어 왕좌 서사의 불씨가 된다.",
+    "background": "그로구가 타이손에서 포스로 신호를 보낸 것이 추적과 납치의 빌미가 됐다. 딘은 보바·펜넥과 손잡고 함선의 항로를 알아낸다.",
+    "aftermath": "그로구는 루크의 수련지로 떠나지만, 결국 검과 갑옷 중 갑옷을 — 아버지를 — 택해 돌아온다. 다크세이버는 딘과 보카탄 사이의 숙제로 남는다.",
+    "deep_dive": [
+      {
+        "phase": "다크세이버 결투",
+        "note": "빔소드를 막는 베스카 창. 기디언을 꺾은 순간 딘은 원치 않던 왕관 — 다크세이버의 소유권 — 을 얻는다."
+      },
+      {
+        "phase": "푸른 검",
+        "note": "통신 화면 속 복도를 베어 오는 검은 장갑의 제다이 — 공개 당시 전 세계 팬덤을 멈춰 세운 장면."
+      },
+      {
+        "phase": "맨얼굴의 작별",
+        "note": "'이건 계율 위반이 아니야. 그로구는 내 가족이니까.' 딘이 투구를 벗는다."
+      }
+    ],
+    "key_figures": [
+      "din-djarin",
+      "grogu",
+      "luke-skywalker"
+    ],
+    "preceded_by": [],
+    "followed_by": [
+      "battle-of-mos-espa"
+    ],
+    "tags": [
+      "다크세이버",
+      "루크의 귀환",
+      "클랜 오브 투"
+    ],
+    "work": "the-mandalorian"
   }
 ]
