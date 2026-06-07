@@ -933,5 +933,50 @@
     "s": "rey",
     "t": "chewbacca",
     "type": "ally"
+  },
+  {
+    "s": "anakin-skywalker",
+    "t": "luke-skywalker",
+    "type": "family"
+  },
+  {
+    "s": "anakin-skywalker",
+    "t": "leia-organa",
+    "type": "family"
+  },
+  {
+    "s": "leia-organa",
+    "t": "han-solo",
+    "type": "family"
+  },
+  {
+    "s": "anakin-skywalker",
+    "t": "kylo-ren",
+    "type": "family"
+  },
+  {
+    "s": "palpatine",
+    "t": "anakin-skywalker",
+    "type": "master"
+  },
+  {
+    "s": "palpatine",
+    "t": "snoke",
+    "type": "master"
+  },
+  {
+    "s": "han-solo",
+    "t": "luke-skywalker",
+    "type": "ally"
+  },
+  {
+    "s": "obi-wan-kenobi",
+    "t": "yoda",
+    "type": "ally"
+  },
+  {
+    "s": "leia-organa",
+    "t": "chewbacca",
+    "type": "ally"
   }
 ]

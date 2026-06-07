@@ -109,12 +109,30 @@ def stage_mapping():
             total_linked += 1
     print(f"  매핑 무결성 확인 — 공식 이미지 연결 {total_linked}건")
 
+# ── 4) 관계 일관성: 핵심관계도(relationships.html) ⊂ relations.json ──
+def stage_relations():
+    path=os.path.join(DIR,"relationships.html")
+    if not os.path.exists(path): return
+    s=open(path,encoding="utf-8").read()
+    links=re.findall(r'\{s:"(\w+)",t:"(\w+)",type:"(\w+)"\}',s)
+    msm=re.search(r"const SHORTMAP=\{(.*?)\};",s,re.S)
+    if not links or not msm:
+        warn("핵심관계도 LINKS/SHORTMAP 파싱 실패 — 관계 일관성 검사 건너뜀"); return
+    sm=dict(re.findall(r'(\w+):"([\w-]+)"',msm.group(1)))
+    rel=load("relations.json")
+    have={(r["s"],r["t"],r["type"]) for r in rel}|{(r["t"],r["s"],r["type"]) for r in rel}
+    miss=[(sm.get(a),sm.get(b),t) for a,b,t in links if sm.get(a) and sm.get(b) and (sm[a],sm[b],t) not in have]
+    if miss:
+        for m in miss: fail(f"핵심관계도에만 있는 관계(원천 누락): {m}")
+    print(f"  핵심관계도 {len(links)}개 관계 ⊆ relations.json 확인")
+
 # ── 실행 ──────────────────────────────────────────────────────────
 if __name__ == "__main__":
     print("PREFLIGHT — 통합 사전검사")
     print("1) 데이터 무결성"); stage_validate()
     print("2) 페이지 JS 문법"); stage_js()
     print("3) 매핑 무결성");   stage_mapping()
+    print("4) 관계 일관성");   stage_relations()
     print("─" * 48)
     for w in WARN: print(f"  ⚠️  {w}")
     if FAIL:
