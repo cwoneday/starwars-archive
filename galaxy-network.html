@@ -153,6 +153,27 @@ function drawLinks(){
   ctx.globalAlpha=1;ctx.setTransform(DPR,0,0,DPR,0,0);
 }
 function ticked(){drawLinks();g.attr('transform',d=>`translate(${d.x},${d.y})`);}
+// 사진 지연 로딩: 초기 0장 → 확대 시 화면 내 노드만 / 클릭 시 해당 인물 즉시
+const PHOTO_K=1.5;
+function loadPhoto(d,el){
+  if(!d.img||d._ph)return;
+  d._ph=true;
+  const r=rScale(tdeg.get(d.id));
+  d3.select(el).insert('image','text').attr('class','nphoto')
+    .attr('href',d.img).attr('x',-r).attr('y',-r).attr('width',2*r).attr('height',2*r)
+    .attr('preserveAspectRatio','xMidYMid slice').style('clip-path','circle(50%)')
+    .style('pointer-events','none').attr('opacity',0)
+    .on('error',function(){d.img=null;d3.select(this).remove();updateLOD();});
+}
+function ensurePhotos(){
+  if(!photoMode||zt.k<PHOTO_K)return;
+  const M=140;
+  g.each(function(d){
+    const sx=zt.applyX(d.x),sy=zt.applyY(d.y);
+    if(sx<-M||sx>W+M||sy<-M||sy>H+M)return;
+    loadPhoto(d,this);
+  });
+}
 function updateLOD(){
   const k=zt.k;
   const labelOp=Math.max(0,Math.min(1,(k-1.15)/0.5));
@@ -161,7 +182,7 @@ function updateLOD(){
   const phOp=Math.max(0,Math.min(1,(k-PHOTO_K)/0.7));
   g.select('use.sil').attr('opacity',d=>(photoMode&&d.img&&d._ph)?silOp*(1-phOp):silOp);
   g.select('circle.dot').attr('opacity',d=>(photoMode&&d.img&&d._ph)?1:(1-0.45*silOp));
-  g.select('image.nphoto').attr('opacity',photoMode?phOp:0);
+  g.select('image.nphoto').attr('opacity',d=>photoMode?(d.id===selected?1:phOp):0);
   g.select('text').attr('opacity',d=>(selected&&d.id===selected)?1:labelOp);
 }
 const zoomB=d3.zoom().scaleExtent([0.3,6])
@@ -174,7 +195,7 @@ function applyVisual(){
   g.transition().duration(220).style('opacity',d=>{if(!selected)return 1;if(d.id===selected)return 1;return nbAll(selected).has(d.id)?.95:.12;});
   g.select('text').attr('fill',d=>(selected&&d.id===selected)?'var(--ink)':'var(--dim)');
 }
-function select(id){selected=id;applyVisual();updateLOD();if(!id){detail.classList.remove('show');return;}showDetail(nodeById.get(id));}
+function select(id){selected=id;if(id)g.filter(d=>d.id===id).each(function(d){loadPhoto(d,this);});applyVisual();updateLOD();if(!id){detail.classList.remove('show');return;}showDetail(nodeById.get(id));}
 let NARR={};
 function showDetail(d){
   const groups={family:[],master:[],ally:[],rival:[]};
@@ -214,24 +235,6 @@ document.getElementById('coappBtn').onclick=function(){showCoapp=!showCoapp;this
 document.getElementById('search').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();if(!q){select(null);return;}const hit=nodes.find(n=>n.kr.toLowerCase().includes(q)||n.en.toLowerCase().includes(q));if(hit)select(hit.id);});
 function updateFooter(){const tl=typed.filter(l=>activeTypes.has(l.type)).length;document.getElementById('footer').innerHTML=`인물 <b>82</b> · 관계선 <b>${tl}</b>${showCoapp?` · 공동출연 <b>${coapp.length}</b>`:''} · 타입 <b>${activeTypes.size}/4</b>`;}
 updateFooter();updateLOD();
-// 사진 지연 로딩: 초기엔 URL만 보관 → 확대(k>=1.5) 시 화면에 보이는 노드만 생성
-const PHOTO_K=1.5;
-function ensurePhotos(){
-  if(!photoMode||zt.k<PHOTO_K)return;
-  const M=140;
-  g.each(function(d){
-    if(!d.img||d._ph)return;
-    const sx=zt.applyX(d.x),sy=zt.applyY(d.y);
-    if(sx<-M||sx>W+M||sy<-M||sy>H+M)return;
-    d._ph=true;
-    const r=rScale(tdeg.get(d.id));
-    d3.select(this).insert('image','text').attr('class','nphoto')
-      .attr('href',d.img).attr('x',-r).attr('y',-r).attr('width',2*r).attr('height',2*r)
-      .attr('preserveAspectRatio','xMidYMid slice').style('clip-path','circle(50%)')
-      .style('pointer-events','none').attr('opacity',0)
-      .on('error',function(){d.img=null;d3.select(this).remove();updateLOD();});
-  });
-}
 fetch('characters.json').then(r=>r.json()).then(cs=>{
   NARR=Object.fromEntries(cs.map(c=>[c.id,{motivation:c.motivation,arc:c.arc}]));
   cs.forEach(c=>{
