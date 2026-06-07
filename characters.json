@@ -488,7 +488,12 @@
     "homeworld": null,
     "affiliation_history": [],
     "motivation": "운반·정비를 맡는 평범한 작업 드로이드. 고장 하나가 운명의 갈림길을 만들기도 한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "팔리던 순간 모티베이터가 터져 반품 — 그 사소한 고장이 R2-D2를 라스 농장으로, 은하를 다른 역사로 보냈다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -942,9 +947,20 @@
     "birth_year_value": -44.0,
     "birth_year_certainty": "referenced",
     "homeworld": "rodia",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "hutt-cartel",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "보수를 좇는 풋내기 현상금 사냥꾼. 큰 한 건을 노리다 제 명을 재촉한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "모스 아이슬리 술집에서 한 솔로를 몰아붙이다 선수를 빼앗긴다 — 사냥꾼의 최후로 영원히 회자되는 한 장면."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -1542,7 +1558,12 @@
     "homeworld": "bespin",
     "affiliation_history": [],
     "motivation": "베스핀 행정관의 충직한 보좌. 기계와 연결된 머리로 도시 운영을 떠받친다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "duel-on-cloud-city",
+        "note": "랜도의 신호 한 번에 제국 경비를 제압한다 — 말없는 충성이 방향을 바꾼 순간."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2401,7 +2422,12 @@
     "homeworld": "malastare",
     "affiliation_history": [],
     "motivation": "수단을 가리지 않는 포드레이스 챔피언. 승리를 위해 반칙도 서슴지 않는다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "분타 이브에서 반칙으로 선두를 지키다 노예 소년의 자작 기체에 추월당한다 — 무패 신화의 끝."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2617,9 +2643,24 @@
     "birth_year_value": null,
     "birth_year_certainty": "inferred",
     "homeworld": "ryloth",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "hutt-cartel",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "범죄 군주 곁에 붙은 교활한 집사. 권력의 곁에서 제 잇속을 챙긴다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "rescue-from-jabbas-palace",
+        "note": "루크의 정신 조작에 문을 열어 준다 — 궁전 몰락의 첫 균열."
+      },
+      {
+        "event": null,
+        "note": "자바 사후 옥좌를 차지하지만, 살아 돌아온 보바 펫 앞에서 그 찬탈은 짧게 끝난다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2663,7 +2704,12 @@
     "homeworld": "aleen-minor",
     "affiliation_history": [],
     "motivation": "민첩함을 무기로 삼는 포드레이서. 위험한 코스에 도전했다 스러진다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "분타 이브의 협곡 동굴 구간 — 거대한 엔진이 좁은 길을 통과하지 못했다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2707,7 +2753,12 @@
     "homeworld": "vulpter",
     "affiliation_history": [],
     "motivation": "작고 날렵한 포드레이스 경쟁자. 속도에 모든 것을 건다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "분타 이브의 난폭한 선두권 다툼에 작은 기체로 끼어든다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2742,7 +2793,12 @@
     "homeworld": "troiken",
     "affiliation_history": [],
     "motivation": "여러 팔로 기체를 다루는 노련한 포드레이서. 침착한 운전이 강점이다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "여섯 팔의 조종술로 분타 이브 상위권을 달린다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -2786,7 +2842,12 @@
     "homeworld": "tund",
     "affiliation_history": [],
     "motivation": "운에 기대 출전한 포드레이스 도전자. 출발선에서부터 불운에 발목 잡힌다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "분타 이브 출발선 — 네 개의 엔진이 제각각 폭발하며 출발조차 못 한 불운으로 기억된다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3025,7 +3086,12 @@
       }
     ],
     "motivation": "과묵하고 강인한 평의회의 제다이. 절제된 힘으로 임무를 수행한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "클론 전쟁 중 그리버스에게 생포되어 의회의 구출 작전을 부른다 — 전쟁이 의회실까지 닿았음을 알린 사건."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3076,7 +3142,12 @@
       }
     ],
     "motivation": "기민하고 충직한 평의회의 제다이. 첩보와 외교에 능하다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "클론 전쟁의 전장에서 새비지 오프레스의 손에 스러진다 — 의회석이 비워지는 시대의 서막."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3183,7 +3254,12 @@
       }
     ],
     "motivation": "신비로운 분위기의 평의회 제다이. 정신 수련에 능하다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "나부 위기를 심의한 의회 12인의 한 자리 — 클론 전쟁이 오기 전, 마지막 평시 의회의 얼굴."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3497,7 +3573,16 @@
       }
     ],
     "motivation": "지오노시안을 이끄는 대공. 분리주의에 가담해 무기를 대량 생산한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "first-battle-of-geonosis",
+        "note": "드로이드 공장의 주인으로 전쟁의 첫 포문을 연다."
+      },
+      {
+        "event": null,
+        "note": "무스타파에서 분리주의 평의회와 함께 베이더의 검에 처형된다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -3774,7 +3859,13 @@
     "birth_year_value": -66.0,
     "birth_year_certainty": "referenced",
     "homeworld": "concord-dawn",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "confederacy-of-independent-systems",
+        "from_event": null,
+        "to_event": "first-battle-of-geonosis"
+      }
+    ],
     "motivation": "보수와 실력으로 사는 최고의 현상금 사냥꾼. 자신을 복제한 '아들' 보바를 남기려 한다.",
     "arc": [
       {
@@ -4087,7 +4178,12 @@
       }
     ],
     "motivation": "제다이 전투기의 충실한 정비 드로이드. 조종사를 그림자처럼 보조한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-coruscant",
+        "note": "코러산트 상공, 버즈 드로이드 떼에 뜯겨 산화 — 오비완 전속기로서의 마지막 비행."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -4830,7 +4926,18 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": "order-66"
+      },
+      {
+        "faction": "mandalorians",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "포스에 민감한 어린 존재('베이비 요다'). 딘 자린과 부자 같은 유대를 맺는다.",
     "arc": [
       {
@@ -4889,7 +4996,12 @@
       }
     ],
     "motivation": "자바 더 헛의 아들. 극장판에서 군벌에게 붙잡혀 구출 대상이 된다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "납치와 구출의 소용돌이 끝에 아버지 품으로 — 그 거래가 공화국-헛 항로 협정을 만들었다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5051,7 +5163,16 @@
       }
     ],
     "motivation": "대숙청에서 살아남은 패다완. 숨어 살다 다시 제다이의 길을 되찾으려 한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "은신 5년, 폐선장의 정비공으로 숨죽이다 인퀴지터의 추적으로 다시 검을 든다."
+      },
+      {
+        "event": null,
+        "note": "포스 민감 아이들의 명단을 지키는 대신 파괴를 택한다 — 미래는 명단이 아니라 포스에 맡기는 것."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5102,7 +5223,16 @@
       }
     ],
     "motivation": "냉소적인 좀도둑에서 반란에 모든 것을 바치는 정보 요원으로 거듭난다. 디에고 루나가 연기했다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "알다니 급여 탈취로 돌이킬 수 없는 강을 건넌다 — 도둑이 반란자가 된 날."
+      },
+      {
+        "event": "battle-of-scarif",
+        "note": "스카리프에서 모든 것을 바친다 — 반란은 희망 위에 선다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5153,7 +5283,12 @@
       }
     ],
     "motivation": "무관심하던 떠돌이에서 아버지가 남긴 희망을 좇아 데스 스타 설계도를 탈취하는 전사가 된다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-scarif",
+        "note": "도망자에서 로그 원의 리더로 — 아버지가 남긴 메시지가 그녀에게 대의를 줬다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5203,7 +5338,12 @@
       }
     ],
     "motivation": "데스 스타 설계를 강요받지만, 치명적 약점을 몰래 심어 저항한다. 진 어소의 아버지.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "협력을 가장한 저항 — 설계 깊숙이 심은 배기구 하나가 제국의 종말이 된다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5253,7 +5393,12 @@
       }
     ],
     "motivation": "재프로그램된 제국 보안 드로이드. 직설적인 입담으로 카시안과 동행한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-scarif",
+        "note": "재프로그램된 제국 드로이드가 스카리프의 문 앞에서 친구들을 위해 멈춰 선다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5303,7 +5448,12 @@
       }
     ],
     "motivation": "포스를 믿는 눈먼 무사. 스카리프 작전에 합류한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-scarif",
+        "note": "'나는 포스와 하나, 포스는 나와 함께' — 믿음만으로 포화 속 스위치까지 걸어간다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5480,7 +5630,16 @@
       }
     ],
     "motivation": "오더 66에서 살아남아 숨어 살던 제다이. 에즈라의 스승이자 고스트의 일원.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "숨는 생존자에서 가르치는 스승으로 — 에즈라를 받아들이며 다시 제다이가 된다."
+      },
+      {
+        "event": null,
+        "note": "로탈 연료 저장고의 화염을 막아내고 크루를 지키며 산화한다 — 마지막 순간, 멀었던 눈이 헤라를 본다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5652,7 +5811,16 @@
       }
     ],
     "motivation": "니힐의 '눈(Eye)'으로서 제다이와 공화국에 깊은 복수를 꾀하는 수괴.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "great-disaster",
+        "note": "대재난의 진짜 설계자 — 니힐의 '눈'이 폭풍의 손이었음이 드러난다."
+      },
+      {
+        "event": "fall-of-starlight",
+        "note": "스타라이트 비콘을 떨어뜨리며 공화국의 등불을 꺼뜨린다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5694,7 +5862,12 @@
       }
     ],
     "motivation": "'하나의 공화국'을 기치로 변경을 통합하려는 하이 리퍼블릭 시대의 수상.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "starlight-beacon",
+        "note": "'우리는 모두 공화국이다' — 스타라이트 점등이 그 이상의 정점이었다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5737,7 +5910,12 @@
       }
     ],
     "motivation": "엔도 이후 흩어진 제국 잔당을 이끄는 대제독. 신공화국 최고 수배자가 된다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-jakku",
+        "note": "자쿠의 패전 속에서 잔당을 미지 영역으로 이끈다 — 퍼스트 오더의 씨앗."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5792,7 +5970,16 @@
       }
     ],
     "motivation": "신공화국을 위해 제국 전범을 쫓는 전직 반란군 조종사.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-endor",
+        "note": "엔도의 조종사에서 전범 사냥꾼으로 — 전쟁이 끝나도 그녀의 전쟁은 계속됐다."
+      },
+      {
+        "event": "battle-of-jakku",
+        "note": "자쿠의 하늘에서 아들 스냅 곁으로 돌아온다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5833,7 +6020,12 @@
       }
     ],
     "motivation": "골동품상으로 위장한 채 초기 반란을 은밀히 설계하는 인물.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "rise-of-rebellion-cells",
+        "note": "'내가 결코 보지 못할 새벽을 위해' — 골동품상의 가면 아래 반란을 설계한다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -5883,7 +6075,12 @@
       }
     ],
     "motivation": "다투미르의 나이트시스터 마법사. 칼 케스티스와 동행하며 자매들의 복수를 짊어진다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "복수심에 갇힌 마지막 나이트시스터에서, 칼 케스티스를 만나 맨티스 크루의 일원으로 은하에 나선다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -6017,7 +6214,12 @@
       }
     ],
     "motivation": "몰에게 충성하는 만달로어인 부관. 그의 신디케이트 재건을 돕는다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "사이도니아 탈옥부터 자닉스까지 — 몰의 곁을 지키는 만달로어의 창."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -6052,7 +6254,12 @@
     "homeworld": "janix",
     "affiliation_history": [],
     "motivation": "자닉스의 형사. 신디케이트 전쟁을 수사하며 제국에는 협력하지 않는 강직한 인물.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "janix-syndicate-war",
+        "note": "신디케이트 전쟁 수사가 그를 제국과 몰 사이의 외줄 위로 밀어 넣는다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -6150,7 +6357,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": "order-66"
+      }
+    ],
     "motivation": "한때 제다이였으나 길을 떠난 용병. 또 다른 전쟁이 불가피하다 믿으며 더 큰 힘을 좇는다.",
     "arc": [
       {
@@ -6230,7 +6443,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": "kamino",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      }
+    ],
     "motivation": "감각이 예민한 클론 포스 99의 리더. 오메가의 보호자를 자처하며 부대를 이끈다.",
     "arc": [
       {
@@ -6393,7 +6612,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": "kamino",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      }
+    ],
     "motivation": "괴력의 폭파 담당. 우직하고 충직한 배드 배치의 일원.",
     "arc": [
       {
@@ -6442,7 +6667,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": "kamino",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "galactic-republic",
+        "from_event": null,
+        "to_event": "declaration-of-empire"
+      }
+    ],
     "motivation": "분석과 기술에 능한 두뇌. 어떤 상황도 데이터로 풀어낸다.",
     "arc": [
       {
@@ -6780,7 +7011,13 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "hutt-cartel",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "흉포한 워키 현상금 사냥꾼이자 검투사. 적이었다가 보바의 편에 선다.",
     "arc": [
       {
@@ -6952,7 +7189,12 @@
       }
     ],
     "motivation": "인퀴지터리우스의 일원으로, 서열을 두고 레바와 신경전을 벌인다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "로탈 일대의 제다이 사냥 끝에 말라코어에서 몰의 검에 스러진다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -7007,7 +7249,16 @@
       }
     ],
     "motivation": "알데란의 의원이자 레이아의 양부. 위기에 처하자 옛 동지 오비완에게 도움을 청한다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "declaration-of-empire",
+        "note": "제국 선포의 박수 속에서 침묵한 소수 — 그날부터 반란을 준비했다."
+      },
+      {
+        "event": "destruction-of-alderaan",
+        "note": "고향과 함께 산화한다 — 그러나 그가 기른 딸과 반란은 살아남았다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -7111,7 +7362,12 @@
     "homeworld": null,
     "affiliation_history": [],
     "motivation": "예법과 언어로 가득하던 프로토콜 드로이드가 논리 회로의 오류로 프로그램을 벗어나, 냉정하고 계산적인 현상금 사냥꾼이 됐다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "베이더의 소집에 응해 팰컨을 쫓는다 — 전리품은 끝내 보바 펫의 몫이었다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -7153,9 +7409,20 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": "tatooine",
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "hutt-cartel",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "자바의 궁전에서 드로이드들을 다루던 제련 드로이드. 제국 몰락 후엔 보바 펫 휘하에서 전략·교섭 보좌로 자리를 옮겼다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "자바의 고문실에서 보바의 회의실로 — 드로이드에게도 정권 교체는 승진이었다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -7198,9 +7465,20 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "resistance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "공처럼 구르는 충직한 BB유닛 아스트로멕. 저항군 최고의 조종사 곁을 지키며, 루크에게 이르는 지도의 절반을 품고 사가를 굴러간다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": "battle-of-takodana",
+        "note": "지도를 품고 사막을 굴러 저항군 전체의 희망 배달부가 된다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
@@ -7244,9 +7522,20 @@
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
     "homeworld": null,
-    "affiliation_history": [],
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
     "motivation": "클론 전쟁의 고철 더미에서 살아남은 괴팍한 C1 아스트로멕. 불평 많고 짓궂지만, 고스트 크루의 누구보다 오래 헤라 곁을 지킨 가족이다.",
-    "arc": [],
+    "arc": [
+      {
+        "event": null,
+        "note": "라일로스의 추락 잔해에서 고스트호의 심장으로 — 불평 많은 고철이 가족이 됐다."
+      }
+    ],
     "key_choices": [],
     "appears_in": [],
     "works": [
