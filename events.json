@@ -913,7 +913,8 @@
     "summary": "최고의장 팰퍼틴의 비밀 명령이 발동되자, 함께 싸우던 클론들이 제다이를 일제히 겨눴다. 수많은 제다이가 같은 순간 스러졌고 교단은 사실상 절멸했다.",
     "significance": "수만 년을 이어온 제다이 질서가 하룻밤에 무너지고, 어둠의 시대가 열린다.",
     "preceded_by": [
-      "battle-of-utapau"
+      "battle-of-utapau",
+      "siege-of-mandalore"
     ],
     "followed_by": [
       "declaration-of-empire",
@@ -1414,7 +1415,8 @@
     "summary": "제국은 행성을 통째로 부수는 초병기 데스 스타를 완성하고, 그 위력을 알데란 파괴로 증명한 직후였다. 빼낸 설계도에서 반란연합은 단 하나의 약점을 찾아낸다 — 표면의 작은 배기구로 정밀 사격을 넣으면 원자로가 연쇄 폭발한다는 것. 야빈 4의 비밀 기지를 겨눈 데스 스타가 사정거리에 들기 전, 루크 스카이워커가 이끄는 소수의 전투기 편대가 참호를 따라 돌입한다. 동료들이 차례로 스러지고 베이더의 타이 전투기가 추격하는 가운데, 한 솔로의 기습과 포스에 몸을 맡긴 루크의 마지막 사격이 약점을 꿰뚫는다.",
     "significance": "무적으로 보이던 제국이 처음으로 꺾이며, 저항이 이길 수 있다는 희망이 은하 전체로 번진다. 또한 한 농장 소년이 포스의 길에 들어섰음을 알린 사건이기도 하다.",
     "preceded_by": [
-      "battle-of-scarif"
+      "battle-of-scarif",
+      "destruction-of-alderaan"
     ],
     "followed_by": [
       "battle-of-hoth"
@@ -1502,7 +1504,8 @@
       "battle-of-yavin"
     ],
     "followed_by": [
-      "battle-of-endor"
+      "dagobah-training",
+      "duel-on-cloud-city"
     ],
     "tags": [
       "에코 기지",
@@ -1583,7 +1586,7 @@
     "summary": "반란연합이 건설 중이던 두 번째 데스 스타와 그 방어막을 노려 총공세를 펼쳤다. 지상과 우주, 그리고 한 부자의 대결이 동시에 결판나며 황제와 베이더가 최후를 맞았다.",
     "significance": "시스의 지배가 끝나고 제국의 등뼈가 부러진, 은하 내전의 결정적 승리.",
     "preceded_by": [
-      "battle-of-hoth"
+      "rescue-from-jabbas-palace"
     ],
     "followed_by": [
       "battle-of-jakku",
@@ -2294,7 +2297,8 @@
     "category": "other",
     "tier": 1,
     "characters": [
-      "palpatine"
+      "palpatine",
+      "kylo-ren"
     ],
     "locations": [
       "exegol"
@@ -2318,7 +2322,8 @@
     },
     "outcome": "시디어스 생존 폭로, 공포 확산",
     "key_figures": [
-      "palpatine"
+      "palpatine",
+      "kylo-ren"
     ],
     "background": "엔도에서 황제가 죽은 뒤에도 시스의 음모는 변경의 어둠 속에서 은밀히 이어졌다.",
     "aftermath": "황제의 귀환 신호에 저항군이 그 근원을 추적하기 시작하고, 엑세골 결전으로 치닫는다.",
@@ -2363,7 +2368,10 @@
     "year_certainty": "approximate",
     "category": "founding",
     "tier": 2,
-    "characters": [],
+    "characters": [
+      "palpatine",
+      "kylo-ren"
+    ],
     "locations": [
       "exegol"
     ],
@@ -2385,7 +2393,9 @@
       "side_b": []
     },
     "outcome": "시스 함대 출격 준비 완료",
-    "key_figures": [],
+    "key_figures": [
+      "palpatine"
+    ],
     "background": "시디어스는 추종 교단의 노동력으로 미지의 행성에서 함대를 비밀리에 건조해왔다.",
     "aftermath": "이 함대의 출격이 임박하면서, 저항군은 막지 못하면 은하가 끝난다는 절박함 속에 결집한다.",
     "deep_dive": [],
@@ -2412,7 +2422,17 @@
     "year_certainty": "exact",
     "category": "battle",
     "tier": 1,
-    "characters": [],
+    "characters": [
+      "rey",
+      "kylo-ren",
+      "palpatine",
+      "finn",
+      "poe-dameron",
+      "lando-calrissian",
+      "chewbacca",
+      "c-3po",
+      "r2-d2"
+    ],
     "locations": [
       "exegol"
     ],
@@ -2447,7 +2467,11 @@
       ]
     },
     "outcome": "시스 종결 — 시디어스·함대 격파",
-    "key_figures": [],
+    "key_figures": [
+      "rey",
+      "palpatine",
+      "kylo-ren"
+    ],
     "background": "숨겨진 행성 엑세골에서 부활한 시디어스와 함대에 맞서 저항군과 은하의 시민들이 결집했다.",
     "aftermath": "마지막 스카이워커의 싸움으로 시스의 혈통과 함대가 함께 무너지고, 천 년의 시스 위협이 종결된다.",
     "deep_dive": [
@@ -2484,7 +2508,10 @@
     "year_certainty": "approximate",
     "category": "founding",
     "tier": 1,
-    "characters": [],
+    "characters": [
+      "rey",
+      "bb-8"
+    ],
     "locations": [],
     "factions": [
       "jedi-order"
@@ -2502,7 +2529,9 @@
       "side_b": []
     },
     "outcome": "시스 종결, 제다이 전통 재건 시작",
-    "key_figures": [],
+    "key_figures": [
+      "rey"
+    ],
     "background": "수만 년을 이어온 시스가 마침내 종결되며, 제다이 전통을 다시 세울 기회가 열렸다.",
     "aftermath": "흩어진 가르침과 살아남은 이들이 새 세대를 기르며, 아카이브의 첫 사건(제다이 오더의 창건)과 수미상관을 이룬다.",
     "deep_dive": [
@@ -3092,5 +3121,320 @@
         "note": "레바는 복수의 끝에서 루크를 해치지 못하고 멈춰 선다."
       }
     ]
+  },
+  {
+    "id": "destruction-of-alderaan",
+    "title": "알데란 파괴",
+    "title_en": "Destruction of Alderaan",
+    "era": "age_of_rebellion",
+    "year_value": 0,
+    "year_label": "0 BBY",
+    "year_certainty": "exact",
+    "category": "fall",
+    "tier": 1,
+    "characters": [
+      "leia-organa",
+      "wilhuff-tarkin",
+      "darth-vader",
+      "bail-organa"
+    ],
+    "locations": [
+      "alderaan",
+      "death-star"
+    ],
+    "factions": [
+      "galactic-empire",
+      "rebel-alliance"
+    ],
+    "source": "스타워즈 에피소드 4: 새로운 희망",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "one_liner": "타킨이 데스 스타의 위력을 증명하려 평화의 행성 알데란을 한 발에 소멸시킨, 제국 공포 통치의 정점",
+    "summary": "포로로 잡힌 레아에게서 반란 기지의 위치를 캐내려던 타킨은 심문 대신 시범을 택한다. 슈퍼레이저의 첫 실전 표적은 군대도 없는 평화의 행성, 레아의 고향 알데란. 레아가 거짓 좌표를 내놓았음에도 타킨은 발사를 명령했고, 베일 오르가나와 수십억 주민이 한순간에 사라졌다.",
+    "significance": "'공포로 줄 세운다'는 타킨 독트린이 실행된 단 한 번의 사례이자, 그 역효과가 증명된 사건. 은하는 굴복 대신 분노했고, 알데란의 이름은 반란의 깃발이 됐다.",
+    "background": "데스 스타 완공 직후, 제국 내부에서도 행성 파괴 병기의 실효성에 회의가 있었다. 타킨에게는 의심을 잠재울 증명이 필요했다.",
+    "aftermath": "알데란 생존자(외유 중이던 이들)는 뿔뿔이 흩어졌고, 레아는 고향과 양아버지를 함께 잃었다. 며칠 뒤 데스 스타 자체가 야빈에서 파괴되며 타킨 독트린은 창시자와 함께 소멸한다.",
+    "deep_dive": [
+      {
+        "phase": "심문과 협박",
+        "note": "베이더의 심문에도 입을 열지 않던 레아 앞에서, 타킨은 고향 행성을 인질로 꺼낸다."
+      },
+      {
+        "phase": "거짓 좌표, 그리고 발사",
+        "note": "레아는 단토인의 버려진 기지를 댔다. 타킨은 '시범은 시범대로' 발사를 명령한다 — 협상은 처음부터 없었다."
+      },
+      {
+        "phase": "은하의 메아리",
+        "note": "오비완은 멀리서 '수백만의 목소리가 일순 비명을 지르고 잠잠해지는' 포스의 동요를 느낀다."
+      }
+    ],
+    "belligerents": {
+      "side_a": [
+        "galactic-empire"
+      ],
+      "side_b": []
+    },
+    "outcome": "알데란 소멸 — 비무장 행성에 대한 일방적 파괴",
+    "key_figures": [
+      "wilhuff-tarkin",
+      "leia-organa"
+    ],
+    "preceded_by": [
+      "battle-of-scarif"
+    ],
+    "followed_by": [
+      "battle-of-yavin"
+    ],
+    "tags": [
+      "데스 스타",
+      "타킨 독트린",
+      "알데란"
+    ],
+    "work": "ep-4-a-new-hope"
+  },
+  {
+    "id": "dagobah-training",
+    "title": "다고바 수련",
+    "title_en": "Training on Dagobah",
+    "era": "age_of_rebellion",
+    "year_value": 3,
+    "year_label": "3 ABY",
+    "year_certainty": "exact",
+    "category": "other",
+    "tier": 2,
+    "characters": [
+      "luke-skywalker",
+      "yoda",
+      "r2-d2",
+      "obi-wan-kenobi"
+    ],
+    "locations": [
+      "dagobah"
+    ],
+    "factions": [
+      "jedi-order"
+    ],
+    "source": "스타워즈 에피소드 5: 제국의 역습",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "one_liner": "루크가 늪 행성의 은둔자 요다에게 제다이 수련을 받다 — '하거나, 하지 않거나. 해 본다는 건 없다'",
+    "summary": "오비완의 영혼이 가리킨 다고바에서 루크는 괴짜 노인을 만난다. 그가 800년간 제다이를 길러낸 그랜드 마스터 요다임을 알았을 때, 수련은 이미 시작돼 있었다. 늪과 안개 속 혹독한 단련, 어둠의 동굴에서 마주한 베이더의 환영 — 그 투구 안의 얼굴은 루크 자신이었다. 친구들의 고통을 예지한 루크는 수련을 끝내지 못한 채 베스핀으로 떠난다.",
+    "significance": "오리지널 3부작의 영적 중심. 제다이의 가르침이 다음 세대로 건너간 다리이자, '준비되지 않은 채 어둠과 마주서는' 클라우드 시티 비극의 복선.",
+    "preceded_by": [
+      "battle-of-hoth"
+    ],
+    "followed_by": [
+      "duel-on-cloud-city"
+    ],
+    "tags": [
+      "요다",
+      "수련",
+      "어둠의 동굴"
+    ],
+    "work": "ep-5-empire"
+  },
+  {
+    "id": "duel-on-cloud-city",
+    "title": "클라우드 시티 결투",
+    "title_en": "Duel on Cloud City",
+    "era": "age_of_rebellion",
+    "year_value": 3,
+    "year_label": "3 ABY",
+    "year_certainty": "exact",
+    "category": "duel",
+    "tier": 1,
+    "characters": [
+      "luke-skywalker",
+      "darth-vader",
+      "han-solo",
+      "leia-organa",
+      "lando-calrissian",
+      "chewbacca",
+      "c-3po",
+      "r2-d2",
+      "boba-fett"
+    ],
+    "locations": [
+      "bespin"
+    ],
+    "factions": [
+      "galactic-empire",
+      "rebel-alliance"
+    ],
+    "source": "스타워즈 에피소드 5: 제국의 역습",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "one_liner": "베이더의 함정에 걸린 친구들, 카보나이트에 얼어붙은 한, 그리고 사가 최대의 진실 — '내가 네 아버지다'",
+    "summary": "호스에서 달아난 한 일행은 랜도의 클라우드 시티로 피신하지만, 보바 펫의 추적 끝에 도착해 있던 것은 베이더였다. 한은 카보나이트에 얼려져 현상금 사냥꾼의 전리품이 되고, 그 모든 것은 루크를 끌어내기 위한 미끼였다. 탄소 동결실에서 시작된 사제 아닌 사제의 결투는 도시의 심연 위 통로에서 끝난다 — 오른손을 잃고 절벽 끝에 매달린 루크에게, 베이더는 검 대신 진실을 내민다.",
+    "significance": "영화사에 남은 반전이자 사가 전체의 축. 오비완과 요다가 감춘 진실이 적의 입으로 드러나며, 루크의 싸움은 '제국 대 반란'에서 '아버지의 구원'으로 바뀐다.",
+    "background": "제국은 호스 이후 팰컨을 집요하게 추적했다. 베이더는 현상금 사냥꾼까지 소집했고, 보바 펫이 팰컨의 항로를 읽어냈다.",
+    "aftermath": "한은 자바에게 압송되고, 랜도는 제국에 등을 돌려 탈출을 돕는다. 절단된 손과 함께 루크의 순진한 확신도 잘려 나갔다 — 다음 만남에서 그는 다른 사람이 되어 있다.",
+    "deep_dive": [
+      {
+        "phase": "함정",
+        "note": "클라우드 시티는 도착 전에 이미 함락돼 있었다. 랜도의 '거래'는 도시를 지키려는 강요된 선택이었다."
+      },
+      {
+        "phase": "탄소 동결",
+        "note": "루크용 동결 장치를 한으로 시험한다. '사랑해' — '알아'. 사가에서 가장 유명한 즉흥 대사가 여기서 나왔다."
+      },
+      {
+        "phase": "결투",
+        "note": "동결실에서 통로까지, 베이더는 시종 루크를 시험하듯 몰아붙인다. 창밖으로 빨려 나간 루크가 마지막 통로에 내몰린다."
+      },
+      {
+        "phase": "진실",
+        "note": "'오비완은 네 아버지에게 무슨 일이 있었는지 말해 주지 않았지.' — '그가 널 죽였다고 했어.' — '아니. 내가 네 아버지다.'"
+      },
+      {
+        "phase": "추락과 구조",
+        "note": "루크는 손을 내미는 베이더 대신 심연을 택한다. 도시 바닥의 안테나에 걸린 그를 레아가 포스의 부름으로 찾아낸다."
+      }
+    ],
+    "belligerents": {
+      "side_a": [
+        "galactic-empire"
+      ],
+      "side_b": [
+        "rebel-alliance"
+      ]
+    },
+    "outcome": "베이더 우세 — 루크 오른손 상실·혈연의 진실 공개, 한 솔로 카보나이트 압송",
+    "key_figures": [
+      "luke-skywalker",
+      "darth-vader",
+      "han-solo",
+      "lando-calrissian"
+    ],
+    "preceded_by": [
+      "battle-of-hoth",
+      "dagobah-training"
+    ],
+    "followed_by": [
+      "rescue-from-jabbas-palace"
+    ],
+    "tags": [
+      "내가 네 아버지다",
+      "카보나이트",
+      "베스핀"
+    ],
+    "work": "ep-5-empire"
+  },
+  {
+    "id": "rescue-from-jabbas-palace",
+    "title": "자바 궁전 구출작전",
+    "title_en": "Rescue from Jabba's Palace",
+    "era": "age_of_rebellion",
+    "year_value": 4,
+    "year_label": "4 ABY",
+    "year_certainty": "exact",
+    "category": "other",
+    "tier": 2,
+    "characters": [
+      "luke-skywalker",
+      "leia-organa",
+      "han-solo",
+      "lando-calrissian",
+      "chewbacca",
+      "c-3po",
+      "r2-d2",
+      "jabba-desilijic-tiure",
+      "boba-fett",
+      "bib-fortuna"
+    ],
+    "locations": [
+      "tatooine"
+    ],
+    "factions": [
+      "hutt-cartel",
+      "rebel-alliance"
+    ],
+    "source": "스타워즈 에피소드 6: 제다이의 귀환",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "one_liner": "친구들이 겹겹의 위장으로 자바의 궁전에 스며들어 한을 되찾다 — 자바는 죽고, 보바 펫은 살락 구덩이로",
+    "summary": "카보나이트 속 한을 되찾기 위해 친구들이 하나씩 궁전에 스며든다. 드로이드는 선물로, 레아는 현상금 사냥꾼으로, 루크는 제다이가 되어 정문으로. 계획이 어긋나 전원이 붙잡히지만 그것까지 계산이었다 — 살락 구덩이 위 처형 무대에서 R2가 쏘아 올린 라이트세이버와 함께 반격이 시작된다. 레아는 자신을 묶은 사슬로 자바의 숨통을 끊고, 보바 펫은 살락의 입속으로 떨어진다.",
+    "significance": "루크가 '완성된 제다이'로 처음 모습을 드러낸 사건. 타투인 암흑가의 시대가 끝났고, 그 권좌의 공백은 수십 년 뒤 보바 펫 자신이 채우러 돌아온다.",
+    "preceded_by": [
+      "duel-on-cloud-city"
+    ],
+    "followed_by": [
+      "battle-of-endor"
+    ],
+    "tags": [
+      "살락",
+      "카보나이트 해동",
+      "자바"
+    ],
+    "work": "ep-6-return-of-jedi"
+  },
+  {
+    "id": "siege-of-mandalore",
+    "title": "만달로어 공성전",
+    "title_en": "Siege of Mandalore",
+    "era": "fall_of_the_jedi",
+    "year_value": -19,
+    "year_label": "19 BBY",
+    "year_certainty": "exact",
+    "category": "battle",
+    "tier": 1,
+    "characters": [
+      "ahsoka-tano",
+      "darth-maul"
+    ],
+    "locations": [
+      "mandalore"
+    ],
+    "factions": [
+      "galactic-republic",
+      "mandalorians"
+    ],
+    "source": "클론 전쟁 (시즌 7)",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "오더를 떠난 아소카가 몰의 만달로어를 치다 — 승리의 순간, 오더 66이 떨어진다",
+    "summary": "클론 전쟁의 마지막 대규모 작전. 오더를 떠났던 아소카가 몰을 잡기 위해 클론 부대와 함께 만달로어를 친다. 몰은 '시디어스의 진짜 설계'를 경고하며 아소카에게 손을 내밀지만 거절당하고, 왕좌의 방 위 들보에서 벌어진 결투 끝에 생포된다. 그러나 승전 함대가 코러산트로 향하던 그 순간 — 오더 66이 발령된다. 어제의 전우들이 일제히 총구를 돌리는 가운데, 아소카는 렉스를 구해 함께 사지를 빠져나온다.",
+    "significance": "클론 전쟁 애니메이션 전체의 종착점이자, 영화 에피소드 3과 같은 시각에 겹쳐 흐르는 또 하나의 비극. 몰의 경고가 옳았음이 몇 시간 만에 증명된다.",
+    "background": "몰의 섀도 컬렉티브는 데스 워치의 쿠데타로 만달로어를 장악한 상태였다. 공화국은 종전 국면에서 이 마지막 화근을 정리하려 했다.",
+    "aftermath": "몰은 호송 중 혼란을 틈타 탈출하고, 아소카는 라이트세이버를 묘비 삼아 죽음을 위장한 채 잠적한다 — 제국 시대의 '풀크럼'으로 돌아올 때까지.",
+    "deep_dive": [
+      {
+        "phase": "마지막 작전",
+        "note": "오더 소속이 아닌 아소카가 '시민 자격의 사령관'으로 클론들과 다시 선다. 부대원들은 투구에 그녀의 토그루타 문양을 그려 넣었다."
+      },
+      {
+        "phase": "몰의 제안",
+        "note": "몰은 시디어스의 설계를 꿰뚫고 있었다. '함께 그를 막자'는 제안은 진심이었으나, 그 손에 묻은 피가 너무 많았다."
+      },
+      {
+        "phase": "승리, 그리고 오더 66",
+        "note": "생포한 몰을 싣고 귀환하던 함대 안에서 클론들의 총구가 돌아선다. 전쟁의 승자가 몇 시간 만에 사냥감이 된다."
+      }
+    ],
+    "belligerents": {
+      "side_a": [
+        "galactic-republic"
+      ],
+      "side_b": [
+        "mandalorians"
+      ]
+    },
+    "outcome": "공화국 승리·몰 생포 — 직후 오더 66으로 모든 것이 뒤집힘",
+    "key_figures": [
+      "ahsoka-tano",
+      "darth-maul"
+    ],
+    "preceded_by": [
+      "battle-of-coruscant"
+    ],
+    "followed_by": [
+      "order-66"
+    ],
+    "tags": [
+      "오더 66",
+      "아소카",
+      "몰"
+    ],
+    "work": "the-clone-wars"
   }
 ]

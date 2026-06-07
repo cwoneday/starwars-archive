@@ -31,7 +31,8 @@ def main():
             continue
         if not m.get("databank_id"):
             continue
-        c.setdefault("external_refs", {})["databank"] = {
+        if not c.get("external_refs"): c["external_refs"] = {}
+        c["external_refs"]["databank"] = {
             "id": m["databank_id"],
             "name": m.get("databank_name"),
             "image_url": m.get("image_url"),

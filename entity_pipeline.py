@@ -93,7 +93,8 @@ def cmd_enrich(entity):
             m = mapping.get(o["id"])
             if not m or m.get("match_status") not in ("exact", "verified") or not m.get("databank_id"):
                 continue
-            o.setdefault("external_refs", {})["databank"] = {
+            if not o.get("external_refs"): o["external_refs"] = {}
+            o["external_refs"]["databank"] = {
                 "id": m["databank_id"], "name": m.get("databank_name"),
                 "image_url": m.get("image_url"),
                 "credit": "Star Wars Databank \u00a9 Lucasfilm Ltd.", "fetched_at": today}
