@@ -704,5 +704,37 @@
   "image_url": "https://lumiere-a.akamaihd.net/v1/images/zeffo_1b9445c4.jpeg",
   "match_status": "verified",
   "matched_at": "2026-06-07"
+ },
+ "nur": {
+  "file": "locations.json",
+  "databank_name": "Nur",
+  "databank_id": "64293151d99b54f25a4abbe7",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/nur-main_addbdab4.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "narkina-5": {
+  "file": "locations.json",
+  "databank_name": "Narkina 5",
+  "databank_id": "64293151d99b54f25a4abbdf",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/narkina-5-main_495a8873.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "atollon": {
+  "file": "locations.json",
+  "databank_name": "Atollon",
+  "databank_id": "64293151d99b54f25a4abb2a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/atollon_2b7a5ec2.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "dantooine": {
+  "file": "locations.json",
+  "databank_name": "Dantooine",
+  "databank_id": "64293151d99b54f25a4abb5f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/dantooine_f1c04676.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
  }
 }

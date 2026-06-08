@@ -10,7 +10,9 @@
     "category": "founding",
     "tier": 1,
     "characters": [],
-    "locations": [],
+    "locations": [
+      "ahch-to"
+    ],
     "factions": [
       "jedi-order"
     ],
@@ -115,7 +117,9 @@
     "category": "fall",
     "tier": 2,
     "characters": [],
-    "locations": [],
+    "locations": [
+      "tython"
+    ],
     "factions": [
       "jedi-order",
       "sith"
@@ -375,7 +379,9 @@
       "loden-greatstorm",
       "marchion-ro"
     ],
-    "locations": [],
+    "locations": [
+      "hetzal"
+    ],
     "factions": [
       "galactic-republic",
       "jedi-order",
@@ -1185,7 +1191,9 @@
       "luthen-rael",
       "cassian-andor"
     ],
-    "locations": [],
+    "locations": [
+      "coruscant"
+    ],
     "factions": [
       "rebel-alliance",
       "galactic-empire"
@@ -1317,7 +1325,9 @@
       "mon-mothma",
       "bail-organa"
     ],
-    "locations": [],
+    "locations": [
+      "dantooine"
+    ],
     "factions": [
       "rebel-alliance",
       "galactic-empire"
@@ -1945,7 +1955,9 @@
     "characters": [
       "leia-organa"
     ],
-    "locations": [],
+    "locations": [
+      "dqar"
+    ],
     "factions": [
       "resistance",
       "new-republic"
@@ -2588,7 +2600,9 @@
       "rey",
       "bb-8"
     ],
-    "locations": [],
+    "locations": [
+      "tatooine"
+    ],
     "factions": [
       "jedi-order"
     ],
@@ -2756,7 +2770,9 @@
       "darth-maul",
       "darth-vader"
     ],
-    "locations": [],
+    "locations": [
+      "malachor"
+    ],
     "factions": [
       "sith"
     ],
@@ -2936,7 +2952,9 @@
       "tech-clone",
       "dr-hemlock"
     ],
-    "locations": [],
+    "locations": [
+      "kamino"
+    ],
     "factions": [
       "galactic-empire"
     ],
@@ -3019,7 +3037,9 @@
       "barriss-offee",
       "morgan-elsbeth"
     ],
-    "locations": [],
+    "locations": [
+      "coruscant"
+    ],
     "factions": [
       "galactic-empire",
       "nightsisters"
@@ -3056,7 +3076,9 @@
       "asajj-ventress",
       "cad-bane"
     ],
-    "locations": [],
+    "locations": [
+      "tatooine"
+    ],
     "factions": [
       "nightsisters"
     ],
@@ -3773,7 +3795,9 @@
       "nightsister-merrin",
       "darth-vader"
     ],
-    "locations": [],
+    "locations": [
+      "nur"
+    ],
     "factions": [
       "inquisitorius"
     ],
@@ -3995,7 +4019,9 @@
       "mae-aniseya",
       "indara"
     ],
-    "locations": [],
+    "locations": [
+      "ueda"
+    ],
     "factions": [
       "jedi-order"
     ],
@@ -4196,7 +4222,9 @@
       "cassian-andor",
       "kino-loy"
     ],
-    "locations": [],
+    "locations": [
+      "narkina-5"
+    ],
     "factions": [
       "galactic-empire"
     ],
@@ -4383,7 +4411,9 @@
       "alexsandr-kallus",
       "chopper"
     ],
-    "locations": [],
+    "locations": [
+      "atollon"
+    ],
     "factions": [
       "rebel-alliance",
       "galactic-empire"
