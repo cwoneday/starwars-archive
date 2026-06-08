@@ -1083,5 +1083,55 @@
     "s": "stellan-gios",
     "t": "lina-soh",
     "type": "ally"
+  },
+  {
+    "s": "cassian-andor",
+    "t": "maarva-andor",
+    "type": "family"
+  },
+  {
+    "s": "cassian-andor",
+    "t": "bix-caleen",
+    "type": "ally"
+  },
+  {
+    "s": "cassian-andor",
+    "t": "kino-loy",
+    "type": "ally"
+  },
+  {
+    "s": "luthen-rael",
+    "t": "kleya-marki",
+    "type": "ally"
+  },
+  {
+    "s": "dedra-meero",
+    "t": "syril-karn",
+    "type": "ally"
+  },
+  {
+    "s": "dedra-meero",
+    "t": "partagaz",
+    "type": "ally"
+  },
+  {
+    "s": "syril-karn",
+    "t": "cassian-andor",
+    "type": "rival"
+  },
+  {
+    "s": "dedra-meero",
+    "t": "cassian-andor",
+    "type": "rival"
+  },
+  {
+    "s": "saw-gerrera",
+    "t": "luthen-rael",
+    "type": "ally"
+  },
+  {
+    "s": "mon-mothma",
+    "t": "luthen-rael",
+    "type": "ally"
   }
 ]

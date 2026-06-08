@@ -1284,7 +1284,8 @@
       "저항의 분노"
     ],
     "preceded_by": [
-      "rise-of-rebellion-cells"
+      "rise-of-rebellion-cells",
+      "ferrix-uprising"
     ],
     "followed_by": [
       "formation-of-rebel-alliance"
@@ -4124,5 +4125,122 @@
       "봉인된 진실"
     ],
     "work": "the-acolyte"
+  },
+  {
+    "id": "aldhani-heist",
+    "title": "알다니 급여 강탈",
+    "title_en": "The Aldhani Heist",
+    "era": "reign_of_the_empire",
+    "year_value": -5,
+    "year_label": "~5 BBY",
+    "year_certainty": "approximate",
+    "category": "battle",
+    "tier": 1,
+    "characters": [
+      "cassian-andor",
+      "luthen-rael"
+    ],
+    "locations": [
+      "aldhani"
+    ],
+    "factions": [
+      "galactic-empire"
+    ],
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "루선이 설계한 제국 수비대 급여 강탈 — 카시안이 돌이킬 수 없는 강을 건넌 첫 작전",
+    "summary": "용병으로 고용된 카시안은 알다니의 제국 수비대 금고를 터는 위험한 작전에 합류한다. 성지 순례 '디 아이' 축제의 혼란을 틈타 수억 크레딧의 급여를 통째로 탈취한 이 강도극은, 흩어진 저항에 자금을 대는 동시에 제국의 강경 탄압을 불러온다. 돈을 위해 뛰어든 카시안에게, 이 한 건이 '대의'로 가는 문턱이 된다.",
+    "significance": "안도르 시즌 1의 분기점. 한 도둑이 반란자로 바뀌는 출발점이자, 제국이 변경을 옥죄는 신질서법(PORD)의 빌미가 된 사건 — 작은 강도극이 은하 규모의 탄압을 촉발한다.",
+    "preceded_by": [],
+    "followed_by": [
+      "narkina-5-escape"
+    ],
+    "tags": [
+      "알다니",
+      "급여 강탈",
+      "루선"
+    ],
+    "work": "andor"
+  },
+  {
+    "id": "narkina-5-escape",
+    "title": "나르키나 5 탈옥",
+    "title_en": "Escape from Narkina 5",
+    "era": "reign_of_the_empire",
+    "year_value": -4,
+    "year_label": "~4 BBY",
+    "year_certainty": "approximate",
+    "category": "other",
+    "tier": 2,
+    "characters": [
+      "cassian-andor",
+      "kino-loy"
+    ],
+    "locations": [],
+    "factions": [
+      "galactic-empire"
+    ],
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "끝없는 노역의 제국 감옥에서 죄수들이 봉기하다 — '나가는 길은 하나뿐'",
+    "summary": "누명을 쓰고 나르키나 5의 수중 공장 감옥에 갇힌 카시안은, 제국이 형기를 끝없이 늘린다는 사실을 알게 된다. 작업반장 키노 로이와 함께 '나가는 길은 하나뿐'이라는 절박함으로 전 층의 봉기를 이끈다. 수백의 죄수가 바다로 뛰어들지만, 정작 봉기를 이끈 키노는 헤엄칠 줄 모른다 — 자유의 문턱에서 멈춰 선 그의 모습이 제국 노동 체제의 잔혹함을 응축한다.",
+    "significance": "제국의 '평범한' 폭력 — 공장식 감옥과 무한 형기 — 을 정면으로 그린 안도르의 백미. 카시안의 분노가 사적 생존에서 집단 저항으로 전환되는 지점.",
+    "preceded_by": [
+      "aldhani-heist"
+    ],
+    "followed_by": [
+      "ferrix-uprising"
+    ],
+    "tags": [
+      "나르키나 5",
+      "감옥",
+      "봉기"
+    ],
+    "work": "andor"
+  },
+  {
+    "id": "ferrix-uprising",
+    "title": "페릭스 봉기",
+    "title_en": "The Ferrix Uprising",
+    "era": "reign_of_the_empire",
+    "year_value": -4,
+    "year_label": "~4 BBY",
+    "year_certainty": "approximate",
+    "category": "battle",
+    "tier": 1,
+    "characters": [
+      "cassian-andor",
+      "maarva-andor",
+      "bix-caleen",
+      "dedra-meero",
+      "syril-karn"
+    ],
+    "locations": [
+      "ferrix"
+    ],
+    "factions": [
+      "galactic-empire",
+      "rebel-alliance"
+    ],
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "마르바의 장례 연설이 도시를 봉기로 불붙이다 — '싸워라'",
+    "summary": "카시안을 잡으려는 제국이 페릭스를 옥죄는 가운데, 양어머니 마르바의 장례식이 열린다. 그녀가 홀로그램으로 남긴 마지막 연설 — 침묵하던 이웃들에게 '싸워라'는 외침 — 이 도시를 일제히 봉기로 일으켜 세운다. 혼란 속에서 카시안은 빅스를 구해 페릭스를 떠나고, 마침내 루선 앞에 서서 스스로 반란에 투신한다.",
+    "significance": "평범한 노동자 도시가 제국에 맞서 일어선 첫 집단 봉기. 카시안이 도망자에서 자발적 반란자로 거듭나는 결정적 전환점이자, 흩어진 분노가 '운동'이 되는 순간.",
+    "preceded_by": [
+      "narkina-5-escape"
+    ],
+    "followed_by": [
+      "ghorman-massacre"
+    ],
+    "tags": [
+      "페릭스",
+      "마르바",
+      "봉기"
+    ],
+    "work": "andor"
   }
 ]

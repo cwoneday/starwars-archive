@@ -970,5 +970,82 @@
   "image_url": "https://lumiere-a.akamaihd.net/v1/images/rose-tico-main_cbac29b9.jpeg",
   "match_status": "verified",
   "matched_at": "2026-06-07"
+ },
+ "vernestra-rwoh": {
+  "databank_name": "Vernestra \"Vern\" Rwoh",
+  "databank_id": "64292927021f17e13fbc21d8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/vernestra-vern-rwoh-main_6aa5e264.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "avar-kriss": {
+  "databank_name": "Avar Kriss",
+  "databank_id": "64292927021f17e13fbc1e81",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/avar-kriss-main_019acd5b.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "stellan-gios": {
+  "databank_name": "Stellan Gios",
+  "databank_id": "64292927021f17e13fbc217b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/stellan-main_55328447.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "bell-zettifar": {
+  "databank_name": "Bell Zettifar",
+  "databank_id": "64292927021f17e13fbc1e99",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/bell-zettifar-main_3f22f9be.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "burryaga": {
+  "databank_name": "Burryaga",
+  "databank_id": "64292927021f17e13fbc1ec1",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/burryaga-main_56f13902.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "loden-greatstorm": {
+  "databank_name": "Loden Greatstorm",
+  "databank_id": "64292927021f17e13fbc2054",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/loden-greatstorm-main_de6c5134.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "saw-gerrera": {
+  "databank_name": "Saw Gerrera",
+  "databank_id": "64292927021f17e13fbc214c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/the-bad-batch-story-gallery-the-summit-11_7d643c8e.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "dedra-meero": {
+  "databank_name": "Dedra Meero",
+  "databank_id": "64292927021f17e13fbc1f3a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/dedra-meero-main_fb525dc1.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "syril-karn": {
+  "databank_name": "Syril Karn",
+  "databank_id": "64292927021f17e13fbc2189",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/syril-karn-main-a_da01439f.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "bix-caleen": {
+  "databank_name": "Bix Caleen",
+  "databank_id": "64292927021f17e13fbc1ea7",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/bix-caleen-main-b_1450fe71.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "kino-loy": {
+  "databank_name": "Kino Loy",
+  "databank_id": "64292927021f17e13fbc202d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/andor-108-quote-kino_8d7f1704.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
  }
 }
