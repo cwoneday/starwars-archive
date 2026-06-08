@@ -1133,5 +1133,55 @@
     "s": "mon-mothma",
     "t": "luthen-rael",
     "type": "ally"
+  },
+  {
+    "s": "vel-sartha",
+    "t": "cinta-kaz",
+    "type": "ally"
+  },
+  {
+    "s": "vel-sartha",
+    "t": "mon-mothma",
+    "type": "family"
+  },
+  {
+    "s": "vel-sartha",
+    "t": "cassian-andor",
+    "type": "ally"
+  },
+  {
+    "s": "cinta-kaz",
+    "t": "cassian-andor",
+    "type": "ally"
+  },
+  {
+    "s": "wilmon-paak",
+    "t": "cassian-andor",
+    "type": "ally"
+  },
+  {
+    "s": "wilmon-paak",
+    "t": "bix-caleen",
+    "type": "ally"
+  },
+  {
+    "s": "perrin-fertha",
+    "t": "mon-mothma",
+    "type": "family"
+  },
+  {
+    "s": "lonni-jung",
+    "t": "luthen-rael",
+    "type": "ally"
+  },
+  {
+    "s": "lonni-jung",
+    "t": "dedra-meero",
+    "type": "rival"
+  },
+  {
+    "s": "vel-sartha",
+    "t": "luthen-rael",
+    "type": "ally"
   }
 ]

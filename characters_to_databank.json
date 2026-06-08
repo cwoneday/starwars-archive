@@ -1047,5 +1047,33 @@
   "image_url": "https://lumiere-a.akamaihd.net/v1/images/andor-108-quote-kino_8d7f1704.jpeg",
   "match_status": "verified",
   "matched_at": "2026-06-08"
+ },
+ "vel-sartha": {
+  "databank_name": "Vel Sartha",
+  "databank_id": "64292927021f17e13fbc21d5",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/vel-sartha-main_c1baec00.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "cinta-kaz": {
+  "databank_name": "Cinta Kaz",
+  "databank_id": "64292927021f17e13fbc1ef9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/cinta-kaz-main_690b1173.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "wilmon-paak": {
+  "databank_name": "Wilmon Paak",
+  "databank_id": "64292927021f17e13fbc21ec",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/wilmon-paak-main_3d7178a1.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "perrin-fertha": {
+  "databank_name": "Perrin Fertha",
+  "databank_id": "64292927021f17e13fbc20e0",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/perrin-fertha-main_0638c3a9.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
  }
 }

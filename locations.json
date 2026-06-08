@@ -2164,5 +2164,24 @@
         "fetched_at": "2026-06-07"
       }
     }
+  },
+  {
+    "id": "mina-rau",
+    "name": "미라",
+    "name_en": "Mina-Rau",
+    "type": null,
+    "region": null,
+    "one_liner": "제국의 변경에 자리한 농업 행성. 카시안·빅스·윌몬·B2EMO가 제국의 눈을 피해 숨어든 곡창지대로, 제국의 '감사' 명목 단속이 들이닥친 곳.",
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "climate": "온대",
+    "terrain": "광활한 곡창 평원",
+    "gravity": null,
+    "diameter_km": null,
+    "population": null,
+    "rotation_period_h": null,
+    "orbital_period_d": null,
+    "data_source": null
   }
 ]

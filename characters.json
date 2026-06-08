@@ -9034,5 +9034,247 @@
     "source_type": "series",
     "canon_status": "explicit",
     "profile": "제국 보안국(ISB)을 지휘하는 감독관. 부하들을 두려움으로 조이며 흩어진 반란의 실마리를 좇는, 제국 관료주의의 차가운 얼굴."
+  },
+  {
+    "id": "vel-sartha",
+    "name": "벨 사르타",
+    "name_en": "Vel Sartha",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "귀족의 신분을 위장막 삼아, 대의를 위해 가장 위험한 현장에 선다.",
+    "arc": [
+      {
+        "event": "aldhani-heist",
+        "note": "몬 모스마의 사촌이자 루선의 현장 요원 — 알다니 작전을 직접 이끈다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "andor"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "몬 모스마의 사촌이자 루선의 현장 요원. 귀족 출신이라는 신분을 위장막 삼아 반란의 위험한 임무를 지휘한다. 연인 신타 카즈와 함께 알다니 급여 강탈의 핵심이었다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21d5",
+        "name": "Vel Sartha",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/vel-sartha-main_c1baec00.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "cinta-kaz",
+    "name": "신타 카즈",
+    "name_en": "Cinta Kaz",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "대의를 위해 사적 감정을 미루는 규율의 화신 — 그 절제가 끝내 그녀를 앗아간다.",
+    "arc": [
+      {
+        "event": "aldhani-heist",
+        "note": "가족을 제국에 잃은 냉철한 요원으로 알다니 작전에 투입된다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "andor"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "가족을 제국에 잃은 냉철한 반란 요원. 대의를 위해 사적 감정을 미루는 규율의 화신으로, 벨 사르타의 연인이자 알다니 작전의 저격수였다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ef9",
+        "name": "Cinta Kaz",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/cinta-kaz-main_690b1173.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "wilmon-paak",
+    "name": "윌몬 파크",
+    "name_en": "Wilmon Paak",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "아버지를 제국에 잃은 소년이, 폭발물을 손에 들고 어른의 싸움에 들어선다.",
+    "arc": [
+      {
+        "event": "ferrix-uprising",
+        "note": "페릭스에서 아버지를 잃은 어린 기술자 — 반란에 투신해 카시안 곁에서 싸운다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "andor"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "페릭스 출신의 어린 폭발물 기술자. 아버지를 제국에 잃고 반란에 투신해, 빅스·카시안과 함께 농업 행성 미라에서 숨어 지낸다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21ec",
+        "name": "Wilmon Paak",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/wilmon-paak-main_3d7178a1.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "perrin-fertha",
+    "name": "페린 페르타",
+    "name_en": "Perrin Fertha",
+    "alignment": "neutral",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "사교계의 한량 — 그 무심함이 아내의 가장 든든한 위장막이 된다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "사교와 도박에 빠진 상원의원의 남편 — 아내의 비밀 활동을 모른 채 그녀의 위장이 되어 준다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "andor"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "몬 모스마의 남편. 코러산트 사교계와 도박에 빠진 한량으로, 아내의 비밀 반란 활동을 알지 못한 채 역설적으로 그녀의 완벽한 위장막이 되어 준다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20e0",
+        "name": "Perrin Fertha",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/perrin-fertha-main_0638c3a9.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "lonni-jung",
+    "name": "로니 융",
+    "name_en": "Lonni Jung",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "제국의 제복 안에서 반란에 정보를 흘리는 — 가장 외로운 줄타기.",
+    "arc": [
+      {
+        "event": "ghorman-massacre",
+        "note": "ISB 내부에서 루선에게 정보를 흘리는 이중간첩 — 그 줄타기가 고르만의 진실을 밖으로 전한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "andor"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "ISB 내부의 반란 첩자. 데드라 미로 밑에서 일하며 루선에게 정보를 흘리는 이중간첩으로, 발각되면 곧 죽음인 가장 위험한 줄타기를 한다."
   }
 ]

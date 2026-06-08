@@ -1234,7 +1234,14 @@
     "year_certainty": "approximate",
     "category": "fall",
     "tier": 1,
-    "characters": [],
+    "characters": [
+      "dedra-meero",
+      "syril-karn",
+      "cassian-andor",
+      "mon-mothma",
+      "partagaz",
+      "lonni-jung"
+    ],
     "locations": [
       "ghorman"
     ],
@@ -1246,8 +1253,8 @@
     "source_type": "series",
     "canon_status": "referenced",
     "one_liner": "제국이 평화 시위대를 학살해 저항의 분노에 불을 지피다",
-    "summary": "제국이 자원 수탈에 항의하는 고르만 시민들의 평화 시위를 무력으로 짓밟았다. 광장에서 벌어진 학살은 제국의 본질을 만천하에 드러냈고, 흩어진 저항을 하나로 결집시키는 도화선이 된다.",
-    "significance": "제국의 잔혹함이 공개적으로 폭로되며, 미온적이던 이들까지 저항으로 돌아서게 만든 분기점.",
+    "summary": "제국은 데스 스타 건조에 필요한 희귀 광물 칼카이트를 캐내려 고르만 행성을 통째로 파내려 했다. 주민의 저항이 거세지자 ISB의 데드라 미로는 시위를 '폭동'으로 조작할 도발을 설계하고, 광장으로 몰린 군중을 향해 발포가 시작된다. 제 신념을 좇아 그곳에 섰던 시릴 칸은 자신이 학살의 톱니였음을 뒤늦게 깨닫고 군중 속에서 스러진다. 평화 시위가 피의 광장이 된 그 날의 영상은 은하 전역으로 퍼진다.",
+    "significance": "제국의 잔혹함이 카메라 앞에서 민낯을 드러낸 사건. 데스 스타라는 거대한 비밀을 위해 한 행성을 희생시킨 이 학살이, 몬 모스마를 상원 공개 결별로 떠밀고 미온적이던 이들까지 저항으로 돌려세운다 — 로그 원과 야빈으로 향하는 분노의 출발점.",
     "belligerents": {
       "side_a": [
         "galactic-empire"
@@ -1257,25 +1264,29 @@
       ]
     },
     "outcome": "제국의 학살, 저항 결집 가속",
-    "key_figures": [],
+    "key_figures": [
+      "dedra-meero",
+      "syril-karn",
+      "mon-mothma"
+    ],
     "background": "제국은 군수 자원을 얻기 위해 고르만을 수탈했고, 시민들은 평화 시위로 맞섰다.",
     "aftermath": "학살의 진상이 퍼지며 저항의 명분이 굳어진다. 곧 반란 동맹의 공식 결성으로 이어진다.",
     "deep_dive": [
       {
-        "phase": "수탈과 저항",
-        "note": "제국의 자원 수탈에 고르만 시민들이 평화 시위로 맞선다."
+        "phase": "칼카이트와 데스 스타",
+        "note": "제국이 고르만을 파내려는 진짜 이유는 데스 스타에 필요한 희귀 광물 — 학살은 처음부터 자원 수탈의 알리바이였다."
       },
       {
-        "phase": "광장의 덫",
-        "note": "제국은 시위를 빌미로 무력 진압을 준비하고 군중을 광장으로 몰아넣는다."
+        "phase": "설계된 도발",
+        "note": "데드라 미로의 ISB가 시위를 '폭동'으로 둔갑시킬 도발을 심는다. 진압의 명분은 사전에 제작됐다."
       },
       {
-        "phase": "학살",
-        "note": "무방비의 시위대를 향해 발포가 시작되고 광장은 피로 물든다."
+        "phase": "광장의 학살",
+        "note": "평화 시위대를 향해 발포가 시작된다. 신념을 좇던 시릴 칸조차 자신이 도구였음을 깨닫고 군중 속에 스러진다."
       },
       {
-        "phase": "불붙은 분노",
-        "note": "학살의 진상이 은하에 퍼지며, 미온적이던 이들까지 저항으로 돌아선다."
+        "phase": "퍼지는 진실",
+        "note": "학살의 영상이 은하로 퍼진다. 미온적이던 이들까지 돌아서고, 몬 모스마는 침묵을 끝낼 결심을 한다."
       }
     ],
     "tags": [
@@ -1356,7 +1367,8 @@
       "정치"
     ],
     "preceded_by": [
-      "ghorman-massacre"
+      "ghorman-massacre",
+      "mon-mothma-defection"
     ],
     "followed_by": [
       "battle-of-scarif"
@@ -4240,6 +4252,47 @@
       "페릭스",
       "마르바",
       "봉기"
+    ],
+    "work": "andor"
+  },
+  {
+    "id": "mon-mothma-defection",
+    "title": "몬 모스마의 결별",
+    "title_en": "Mon Mothma's Defection",
+    "era": "reign_of_the_empire",
+    "year_value": -2,
+    "year_label": "~2 BBY",
+    "year_certainty": "approximate",
+    "category": "politics",
+    "tier": 1,
+    "characters": [
+      "mon-mothma",
+      "cassian-andor",
+      "perrin-fertha"
+    ],
+    "locations": [
+      "coruscant"
+    ],
+    "factions": [
+      "galactic-empire",
+      "rebel-alliance"
+    ],
+    "source": "안도르",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "몬 모스마가 상원에서 황제를 '살인자'라 부르고 — 도망자가 되어 반란에 완전히 투신하다",
+    "summary": "고르만 학살 직후, 몬 모스마는 상원 연단에서 끝내 금기를 깬다. 황제를 거짓의 화신이자 살인자로 규탄하는 연설로 — 자신이 그 순간부터 제국의 표적이 됨을 알면서. 연설을 마친 그녀를 카시안 안도르가 코러산트에서 빼돌린다. 신중한 정치인이 모든 위장을 벗고 공개적 반란자가 된 순간.",
+    "significance": "반란이 그림자에서 빛으로 나온 정치적 분수령. 몬 모스마의 결별 선언이 흩어진 세포들에 공개적 구심점을 주었고, 머지않은 반란 동맹의 공식 결성으로 이어진다.",
+    "preceded_by": [
+      "ghorman-massacre"
+    ],
+    "followed_by": [
+      "formation-of-rebel-alliance"
+    ],
+    "tags": [
+      "몬 모스마",
+      "상원",
+      "결별 연설"
     ],
     "work": "andor"
   }
