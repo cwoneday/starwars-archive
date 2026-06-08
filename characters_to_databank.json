@@ -1117,5 +1117,33 @@
   "image_url": "https://lumiere-a.akamaihd.net/v1/images/fenn-rau_f1be177c.jpeg",
   "match_status": "verified",
   "matched_at": "2026-06-08"
+ },
+ "tala-durith": {
+  "databank_name": "Tala Durith",
+  "databank_id": "64292927021f17e13fbc218e",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/tala-durith-main_fb094502.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "haja-estree": {
+  "databank_name": "Haja Estree",
+  "databank_id": "64292927021f17e13fbc1fd3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/haja-estree-main_1f4ef582.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "nari": {
+  "databank_name": "Nari",
+  "databank_id": "64292927021f17e13fbc20a3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/nari-main_a1eb51a0.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "quinlan-vos": {
+  "databank_name": "Quinlan Vos",
+  "databank_id": "64292927021f17e13fbc210a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_quinlanvos_01_169_77d70d48.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
  }
 }

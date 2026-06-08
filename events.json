@@ -3094,7 +3094,9 @@
       "reva",
       "leia-organa",
       "bail-organa",
-      "grand-inquisitor"
+      "grand-inquisitor",
+      "reva-sevander",
+      "haja-estree"
     ],
     "locations": [
       "tatooine",
@@ -3156,7 +3158,10 @@
     "characters": [
       "obi-wan-kenobi",
       "darth-vader",
-      "reva"
+      "reva",
+      "reva-sevander",
+      "tala-durith",
+      "roken"
     ],
     "locations": [
       "mustafar",

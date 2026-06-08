@@ -9605,5 +9605,311 @@
         "fetched_at": "2026-06-08"
       }
     }
+  },
+  {
+    "id": "reva-sevander",
+    "name": "레바 세반더 (서드 시스터)",
+    "name_en": "Reva Sevander",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "베이더를 향한 복수가 전부 — 그 칼끝이 끝내 자신을 겨눈다.",
+    "arc": [
+      {
+        "event": "obi-wan-vader-rematch",
+        "note": "오더 66의 영링 생존자가 복수를 위해 인퀴지터가 되지만, 어린 루크 앞에서 복수의 칼을 거두며 자신을 되찾는다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "sith",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "오더 66 때 동료 영링들이 베이더에게 도륙당하는 걸 죽은 척 숨어 지켜본 생존자. 그 트라우마로 인퀴지터(서드 시스터)가 되어 베이더에게 복수할 기회를 노린다. 오비완 추적은 사다리였을 뿐 — 끝내 어린 루크에게서 복수의 칼을 거두며 자신을 되찾는다."
+  },
+  {
+    "id": "tala-durith",
+    "name": "탈라 두리스",
+    "name_en": "Tala Durith",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "hidden-path",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "제국의 제복 안에서 양심을 따른다 — 도망자들을 빼돌리는 비밀의 손.",
+    "arc": [
+      {
+        "event": null,
+        "note": "제국 장교로 위장한 '히든 패스' 요원 — 인퀴지터 요새에서 오비완과 레아를 구하고 산화한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "제국 장교로 위장한 '히든 패스'의 비밀 요원. 양심을 따라 제국 안에서 도망자들을 빼돌리다, 인퀴지터 요새에서 오비완과 레아를 구하고 자신을 희생한다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc218e",
+        "name": "Tala Durith",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/tala-durith-main_fb094502.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "haja-estree",
+    "name": "하자 에스트리",
+    "name_en": "Haja Estree",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "사기꾼의 가면 뒤에 남은 양심의 불씨.",
+    "arc": [
+      {
+        "event": null,
+        "note": "가짜 제다이로 사기를 치던 다이우의 사기꾼 — 양심을 좇아 오비완과 레아를 도우며 위험을 떠안는다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "가짜 제다이 행세로 절박한 이들에게 사기를 치던 다이우의 사기꾼. 그러나 양심의 불씨가 남아, 오비완과 레아를 도우며 스스로 위험을 떠안는다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fd3",
+        "name": "Haja Estree",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/haja-estree-main_1f4ef582.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "roken",
+    "name": "로켄",
+    "name_en": "Roken",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "hidden-path",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "포스 민감자였던 아내를 잃은 슬픔을, 추적당하는 이들을 구하는 길로 바꾼다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "전직 밀수꾼이 '히든 패스'를 이끈다 — 추적당하는 이들을 은하 밖으로 빼돌리는 지하 통로의 운영자."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "'히든 패스'를 이끄는 전직 밀수꾼. 포스 민감자였던 아내를 제국에 잃고, 쫓기는 이들을 은하 밖으로 빼돌리는 지하 통로를 운영한다."
+  },
+  {
+    "id": "quinlan-vos",
+    "name": "퀸런 보스",
+    "name_en": "Quinlan Vos",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "fall_of_the_jedi",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "키파르",
+    "species_en": "Kiffar",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "파격적인 추적자 — 살아남아 다음 세대를 위한 흔적을 남긴다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "오더 66의 생존자 — '히든 패스'를 통해 포스 민감 아이들을 구하는 일에 흔적을 남긴다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "추적 능력이 남다른 파격적인 제다이 마스터. 오더 66에서 살아남아, 포스 민감 아이들을 구하는 '히든 패스'의 길에 (벽에 새긴 표식으로) 흔적을 남긴다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc210a",
+        "name": "Quinlan Vos",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_quinlanvos_01_169_77d70d48.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "nari",
+    "name": "나리",
+    "name_en": "Nari",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "숨어 사는 법을 끝내 배우지 못한, 쫓기는 제다이의 비극.",
+    "arc": [
+      {
+        "event": null,
+        "note": "타투인에 숨어든 제다이 생존자 — 오비완에게 도움을 청하지만 거절당하고, 인퀴지터에게 붙잡혀 본보기로 매달린다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "obi-wan-kenobi"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "오비완 케노비",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "타투인에 숨어든 제다이 생존자. 오비완에게 도움을 청하지만 '숨어 살라'는 거절을 듣고, 끝내 인퀴지터에게 붙잡혀 마을 광장에 본보기로 매달린다 — 숨어 사는 제다이의 비극.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20a3",
+        "name": "Nari",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/nari-main_a1eb51a0.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
   }
 ]

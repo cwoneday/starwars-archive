@@ -1253,5 +1253,50 @@
     "s": "grand-admiral-thrawn",
     "t": "hera-syndulla",
     "type": "rival"
+  },
+  {
+    "s": "reva-sevander",
+    "t": "obi-wan-kenobi",
+    "type": "rival"
+  },
+  {
+    "s": "reva-sevander",
+    "t": "darth-vader",
+    "type": "rival"
+  },
+  {
+    "s": "reva-sevander",
+    "t": "grand-inquisitor",
+    "type": "rival"
+  },
+  {
+    "s": "tala-durith",
+    "t": "obi-wan-kenobi",
+    "type": "ally"
+  },
+  {
+    "s": "tala-durith",
+    "t": "roken",
+    "type": "ally"
+  },
+  {
+    "s": "haja-estree",
+    "t": "obi-wan-kenobi",
+    "type": "ally"
+  },
+  {
+    "s": "roken",
+    "t": "obi-wan-kenobi",
+    "type": "ally"
+  },
+  {
+    "s": "quinlan-vos",
+    "t": "obi-wan-kenobi",
+    "type": "ally"
+  },
+  {
+    "s": "nari",
+    "t": "obi-wan-kenobi",
+    "type": "ally"
   }
 ]
