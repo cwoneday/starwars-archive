@@ -1183,5 +1183,75 @@
     "s": "vel-sartha",
     "t": "luthen-rael",
     "type": "ally"
+  },
+  {
+    "s": "garazeb-orrelios",
+    "t": "kanan-jarrus",
+    "type": "ally"
+  },
+  {
+    "s": "garazeb-orrelios",
+    "t": "hera-syndulla",
+    "type": "ally"
+  },
+  {
+    "s": "garazeb-orrelios",
+    "t": "ezra-bridger",
+    "type": "ally"
+  },
+  {
+    "s": "garazeb-orrelios",
+    "t": "sabine-wren",
+    "type": "ally"
+  },
+  {
+    "s": "garazeb-orrelios",
+    "t": "chopper",
+    "type": "ally"
+  },
+  {
+    "s": "garazeb-orrelios",
+    "t": "alexsandr-kallus",
+    "type": "ally"
+  },
+  {
+    "s": "alexsandr-kallus",
+    "t": "grand-admiral-thrawn",
+    "type": "rival"
+  },
+  {
+    "s": "cham-syndulla",
+    "t": "hera-syndulla",
+    "type": "family"
+  },
+  {
+    "s": "bo-katan-kryze",
+    "t": "sabine-wren",
+    "type": "ally"
+  },
+  {
+    "s": "fenn-rau",
+    "t": "sabine-wren",
+    "type": "ally"
+  },
+  {
+    "s": "fenn-rau",
+    "t": "kanan-jarrus",
+    "type": "ally"
+  },
+  {
+    "s": "hondo-ohnaka",
+    "t": "ezra-bridger",
+    "type": "ally"
+  },
+  {
+    "s": "bo-katan-kryze",
+    "t": "darth-maul",
+    "type": "rival"
+  },
+  {
+    "s": "grand-admiral-thrawn",
+    "t": "hera-syndulla",
+    "type": "rival"
   }
 ]

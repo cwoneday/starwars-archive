@@ -9276,5 +9276,334 @@
     "source_type": "series",
     "canon_status": "explicit",
     "profile": "ISB 내부의 반란 첩자. 데드라 미로 밑에서 일하며 루선에게 정보를 흘리는 이중간첩으로, 발각되면 곧 죽음인 가장 위험한 줄타기를 한다."
+  },
+  {
+    "id": "garazeb-orrelios",
+    "name": "가라제브 \"젭\" 오렐리오스",
+    "name_en": "Garazeb Orrelios",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "라사트",
+    "species_en": "Lasat",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "멸절당한 고향의 분노를 품되, 끝내 적에게서도 사람을 본다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "제국이 멸절시킨 라사트의 생존자 — 적이던 ISB 요원 칼루스와 얼음 위성에서 살아남으며 뜻밖의 우정을 맺는다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "스타워즈 반란군",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "라사트 종족의 몇 안 되는 생존자. 제국이 멸절시킨 고향의 분노를 품은 고스트 크루의 거구 전사로, 거칠지만 따뜻한 맏형이다. 적이던 ISB 요원 칼루스와 얼음 위성에서 함께 살아남으며 뜻밖의 우정을 맺는다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f93",
+        "name": "Garazeb \"Zeb\" Orrelios",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/zeb-main-tms3_b370aa93.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "alexsandr-kallus",
+    "name": "알렉산드르 칼루스",
+    "name_en": "Alexsandr Kallus",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "가해자에서 속죄자로 — 제복 안에서 양심을 따르기로 한다.",
+    "arc": [
+      {
+        "event": "battle-of-atollon",
+        "note": "ISB 요원에서 '풀크럼'이라는 암호명의 내부 첩자로 — 가해자가 속죄의 길을 택한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "스타워즈 반란군",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "라사트 학살에 가담했던 ISB 요원. 젭과의 조우로 제국의 본질을 의심하기 시작해, 끝내 '풀크럼'이라는 암호명으로 반란에 정보를 흘리는 내부 첩자가 된다 — 가해자에서 속죄자로.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1e6a",
+        "name": "Alexsandr Kallus",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/agent-kallus-s3_46fb5ec2.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "cham-syndulla",
+    "name": "참 신둘라",
+    "name_en": "Cham Syndulla",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "트와일렉",
+    "species_en": "Twi'lek",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "고향 라일로스의 자유가 먼저 — 그 신념이 딸과 부딪힌다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "클론 전쟁기 라일로스 저항의 영웅 — 딸 헤라와 '대의 우선'을 두고 갈등하지만 끝내 같은 하늘 아래 선다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "스타워즈 반란군",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "트와일렉 자유 투사. 클론 전쟁기 라일로스 저항을 이끈 영웅으로, 딸 헤라와는 '무엇이 먼저인가'를 두고 갈등하지만 끝내 같은 대의 아래 선다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ee9",
+        "name": "Cham Syndulla",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/cham-syndulla-main_5bc690b3.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "hondo-ohnaka",
+    "name": "혼도 오나카",
+    "name_en": "Hondo Ohnaka",
+    "alignment": "neutral",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "위퀘이",
+    "species_en": "Weequay",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "이익이 곧 신념 — 그러나 기묘한 의리로 거듭 옳은 편에 선다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "이익을 좇는 해적이지만, 기묘한 의리로 제다이와 반란군의 길에 거듭 끼어든다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "bounty",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "스타워즈 반란군",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "위퀘이 해적 두목. 이익이 곧 신념인 기회주의자지만, 기묘한 의리로 제다이와 반란군의 길에 거듭 끼어든다 — 은하의 가장 유쾌한 회색지대.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fdf",
+        "name": "Hondo Ohnaka",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/hondo-ohnaka_6ab3af8b.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "bo-katan-kryze",
+    "name": "보카탄 크라이즈",
+    "name_en": "Bo-Katan Kryze",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "mandalorians",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "긍지와 회한을 함께 진 채, 만달로어의 미래를 짊어진다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "데스 워치에서 시작해 어둠의 검과 만달로어의 왕좌를 짊어지는, 긍지와 회한을 함께 진 지도자."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "스타워즈 반란군",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "만달로어의 전사이자 왕좌의 계승자. 데스 워치에서 출발해 언니 사틴의 죽음과 만달로어의 몰락을 겪고, 어둠의 검(다크세이버)과 고향의 미래를 짊어진다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1eaa",
+        "name": "Bo-Katan Kryze",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/bo-katan-main_45a1c0c4.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "fenn-rau",
+    "name": "펜 라우",
+    "name_en": "Fenn Rau",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "mandalorians",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "콩코드 던의 하늘을 지키던 긍지 — 그 자존심이 결국 반란에 손을 내민다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "만달로어 프로텍터의 비행대장 — 사빈·케이넌과의 인연으로 반란에 합류한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "rebels"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "스타워즈 반란군",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "만달로어 프로텍터의 지도자. 콩코드 던의 하늘을 지키던 긍지 높은 비행대장으로, 사빈·케이넌과 명예를 건 대결 끝에 반란에 합류한다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f76",
+        "name": "Fenn Rau",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/fenn-rau_f1be177c.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
   }
 ]

@@ -3839,7 +3839,9 @@
       "grand-admiral-thrawn",
       "kanan-jarrus"
     ],
-    "preceded_by": [],
+    "preceded_by": [
+      "battle-of-atollon"
+    ],
     "followed_by": [
       "return-of-thrawn"
     ],
@@ -4295,5 +4297,114 @@
       "결별 연설"
     ],
     "work": "andor"
+  },
+  {
+    "id": "duel-on-malachor",
+    "title": "말라코어 결투",
+    "title_en": "Duel on Malachor",
+    "era": "reign_of_the_empire",
+    "year_value": -3,
+    "year_label": "~3 BBY",
+    "year_certainty": "approximate",
+    "category": "duel",
+    "tier": 1,
+    "characters": [
+      "ahsoka-tano",
+      "darth-vader",
+      "ezra-bridger",
+      "kanan-jarrus",
+      "darth-maul",
+      "grand-inquisitor"
+    ],
+    "locations": [
+      "malachor"
+    ],
+    "factions": [
+      "jedi-order",
+      "galactic-empire"
+    ],
+    "source": "스타워즈 반란군 (시즌 2)",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "금지된 시스 행성에서 아소카가 옛 스승 베이더와 마주하다 — 케이넌은 시력을, 아소카는 행방을 잃는다",
+    "summary": "시스의 비밀을 좇아 말라코어의 고대 사원에 든 고스트 크루는 몰의 배신과 인퀴지터들의 습격에 휘말린다. 케이넌은 그 와중에 시력을 잃지만 오히려 더 또렷이 싸우는 법을 배우고, 아소카는 사원 깊은 곳에서 다스 베이더와 마주한다 — 갈라진 가면 너머로 옛 스승 아나킨의 목소리를 듣는다. 결투의 끝, 아소카는 어둠 속으로 사라지고 에즈라는 금지된 지식의 유혹과 마주한다.",
+    "significance": "반란군의 가장 어두운 분기점. '스승이 곧 베이더'라는 진실 앞에 선 아소카, 시력을 잃고 진짜 기사가 된 케이넌, 어둠에 한 발 들인 에즈라 — 세 운명이 한 사원에서 갈린다.",
+    "preceded_by": [],
+    "followed_by": [
+      "battle-of-atollon"
+    ],
+    "tags": [
+      "말라코어",
+      "아소카",
+      "베이더"
+    ],
+    "work": "rebels",
+    "deep_dive": [
+      {
+        "phase": "시스 사원",
+        "note": "금지된 행성의 고대 사원에서 시스의 홀로크론을 둘러싼 위험한 동행이 시작된다 — 몰의 속내는 처음부터 달랐다."
+      },
+      {
+        "phase": "케이넌의 눈",
+        "note": "인퀴지터의 일격에 시력을 잃지만, 케이넌은 그 어둠 속에서 오히려 더 또렷한 기사가 된다."
+      },
+      {
+        "phase": "스승과 제자",
+        "note": "아소카가 베이더의 가면 한 조각을 부수자 아나킨의 목소리가 새어 나온다 — '내가 너를 버린 게 아니야.'"
+      }
+    ],
+    "key_figures": [
+      "ahsoka-tano",
+      "darth-vader",
+      "kanan-jarrus"
+    ]
+  },
+  {
+    "id": "battle-of-atollon",
+    "title": "아톨론 전투",
+    "title_en": "Battle of Atollon",
+    "era": "reign_of_the_empire",
+    "year_value": -2,
+    "year_label": "~2 BBY",
+    "year_certainty": "approximate",
+    "category": "battle",
+    "tier": 1,
+    "characters": [
+      "ezra-bridger",
+      "hera-syndulla",
+      "kanan-jarrus",
+      "sabine-wren",
+      "grand-admiral-thrawn",
+      "alexsandr-kallus",
+      "chopper"
+    ],
+    "locations": [],
+    "factions": [
+      "rebel-alliance",
+      "galactic-empire"
+    ],
+    "source": "스타워즈 반란군 (시즌 3)",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "스론의 봉쇄에 갇힌 반란 함대 — 만달로어의 지원과 토착 베일런의 힘으로 가까스로 탈출하다",
+    "summary": "스론은 첩자를 통해 반란 함대의 거점 초퍼 베이스를 알아내고 아톨론을 완벽히 봉쇄한다. 정면 돌파가 좌절되고 함대가 궤멸 직전에 몰리지만, 사빈이 부른 만달로어 지원군과 행성의 토착 존재 '벤두'의 개입으로 일부가 가까스로 탈출한다. 풀크럼 칼루스의 정보가 생존의 실마리가 됐다.",
+    "significance": "스론이라는 적의 무게를 처음 절감한 패전. 반란이 '이길 수 있다'는 낙관에서 '살아남아야 한다'는 현실로 넘어가는 전환점.",
+    "preceded_by": [
+      "duel-on-malachor"
+    ],
+    "followed_by": [
+      "liberation-of-lothal"
+    ],
+    "tags": [
+      "스론",
+      "초퍼 베이스",
+      "벤두"
+    ],
+    "work": "rebels",
+    "key_figures": [
+      "grand-admiral-thrawn",
+      "ezra-bridger",
+      "alexsandr-kallus"
+    ]
   }
 ]

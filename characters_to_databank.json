@@ -1075,5 +1075,47 @@
   "image_url": "https://lumiere-a.akamaihd.net/v1/images/perrin-fertha-main_0638c3a9.jpeg",
   "match_status": "verified",
   "matched_at": "2026-06-08"
+ },
+ "garazeb-orrelios": {
+  "databank_name": "Garazeb \"Zeb\" Orrelios",
+  "databank_id": "64292927021f17e13fbc1f93",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/zeb-main-tms3_b370aa93.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "alexsandr-kallus": {
+  "databank_name": "Alexsandr Kallus",
+  "databank_id": "64292927021f17e13fbc1e6a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/agent-kallus-s3_46fb5ec2.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "cham-syndulla": {
+  "databank_name": "Cham Syndulla",
+  "databank_id": "64292927021f17e13fbc1ee9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/cham-syndulla-main_5bc690b3.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "hondo-ohnaka": {
+  "databank_name": "Hondo Ohnaka",
+  "databank_id": "64292927021f17e13fbc1fdf",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/hondo-ohnaka_6ab3af8b.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "bo-katan-kryze": {
+  "databank_name": "Bo-Katan Kryze",
+  "databank_id": "64292927021f17e13fbc1eaa",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/bo-katan-main_45a1c0c4.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "fenn-rau": {
+  "databank_name": "Fenn Rau",
+  "databank_id": "64292927021f17e13fbc1f76",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/fenn-rau_f1be177c.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
  }
 }
