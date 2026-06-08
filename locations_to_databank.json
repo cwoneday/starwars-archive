@@ -608,5 +608,157 @@
   "image_url": "https://lumiere-a.akamaihd.net/v1/images/Dagobah_890df592.jpeg",
   "match_status": "exact",
   "matched_at": "2026-06-07"
+ },
+ "jedha": {
+  "file": "locations.json",
+  "databank_name": "Jedha",
+  "databank_id": "64293151d99b54f25a4abb9c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/jedha-main-image_4e3dd512.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "eadu": {
+  "file": "locations.json",
+  "databank_name": "Eadu",
+  "databank_id": "64293151d99b54f25a4abb6c",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/eadu-main_7ebaa60a.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "nevarro": {
+  "file": "locations.json",
+  "databank_name": "Nevarro",
+  "databank_id": "64293151d99b54f25a4abbe1",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/nevarro-main_deddc805.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "malachor": {
+  "file": "locations.json",
+  "databank_name": "Malachor",
+  "databank_id": "64293151d99b54f25a4abbc1",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/malachor_ee5a7517.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "christophsis": {
+  "file": "locations.json",
+  "databank_name": "Christophsis",
+  "databank_id": "64293151d99b54f25a4abb4b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_christophsis_01_169_2daae94e.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "felucia": {
+  "file": "locations.json",
+  "databank_name": "Felucia",
+  "databank_id": "64293151d99b54f25a4abb75",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_felucia_01_169_2070e38e.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "sorgan": {
+  "file": "locations.json",
+  "databank_name": "Sorgan",
+  "databank_id": "64293151d99b54f25a4abc20",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/sorgan-main_a175bd85.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "cantonica": {
+  "file": "locations.json",
+  "databank_name": "Cantonica",
+  "databank_id": "64293151d99b54f25a4abb42",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/ep8-ff-004338_6dd8c0f4.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "pasaana": {
+  "file": "locations.json",
+  "databank_name": "Pasaana",
+  "databank_id": "64293151d99b54f25a4abbf9",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/pasaana-main_716cbcfa.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "kijimi": {
+  "file": "locations.json",
+  "databank_name": "Kijimi",
+  "databank_id": "64293151d99b54f25a4abbaa",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/kijimi-city-main_530d8d0c.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "polis-massa": {
+  "file": "locations.json",
+  "databank_name": "Polis Massa",
+  "databank_id": "64293151d99b54f25a4abbfc",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_polismassa_01_169_21f04b76.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "zeffo": {
+  "file": "locations.json",
+  "databank_name": "Zeffo",
+  "databank_id": "64293151d99b54f25a4abc58",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/zeffo_1b9445c4.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-07"
+ },
+ "nur": {
+  "file": "locations.json",
+  "databank_name": "Nur",
+  "databank_id": "64293151d99b54f25a4abbe7",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/nur-main_addbdab4.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "narkina-5": {
+  "file": "locations.json",
+  "databank_name": "Narkina 5",
+  "databank_id": "64293151d99b54f25a4abbdf",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/narkina-5-main_495a8873.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "atollon": {
+  "file": "locations.json",
+  "databank_name": "Atollon",
+  "databank_id": "64293151d99b54f25a4abb2a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/atollon_2b7a5ec2.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "dantooine": {
+  "file": "locations.json",
+  "databank_name": "Dantooine",
+  "databank_id": "64293151d99b54f25a4abb5f",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/dantooine_f1c04676.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "kenari": {
+  "file": "locations.json",
+  "databank_name": "Kenari",
+  "databank_id": "64293151d99b54f25a4abba7",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/kenari-main_094ad854.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "lah-mu": {
+  "file": "locations.json",
+  "databank_name": "Lah'mu",
+  "databank_id": "64293151d99b54f25a4abbb3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/lahmu-main_f38442ce.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "onderon": {
+  "file": "locations.json",
+  "databank_name": "Onderon",
+  "databank_id": "64293151d99b54f25a4abbf0",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_onderon_01_169_bf7861a4.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
  }
 }

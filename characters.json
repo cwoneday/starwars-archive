@@ -4665,7 +4665,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "brendok",
     "affiliation_history": [
       {
         "faction": "sith",
@@ -4716,7 +4716,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "brendok",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -4859,7 +4859,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "aq-vetina",
     "affiliation_history": [
       {
         "faction": "mandalorians",
@@ -5214,7 +5214,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "kenari",
     "affiliation_history": [
       {
         "faction": "rebel-alliance",
@@ -5274,7 +5274,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "lah-mu",
     "affiliation_history": [
       {
         "faction": "rebel-alliance",
@@ -5439,7 +5439,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "jedha",
     "affiliation_history": [
       {
         "faction": "rebel-alliance",
@@ -5494,7 +5494,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "csilla",
     "affiliation_history": [
       {
         "faction": "galactic-empire",
@@ -6113,7 +6113,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "ryloth",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -6205,7 +6205,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "mandalore",
     "affiliation_history": [
       {
         "faction": "mandalorians",
@@ -6291,7 +6291,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "dathomir",
     "affiliation_history": [
       {
         "faction": "galactic-empire",
@@ -6896,7 +6896,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "duro",
     "affiliation_history": [
       {
         "faction": "pyke-syndicate",
@@ -7010,7 +7010,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "kashyyyk",
     "affiliation_history": [
       {
         "faction": "hutt-cartel",
@@ -7053,7 +7053,7 @@
   },
   {
     "id": "reva",
-    "name": "레바 세반데르",
+    "name": "레바 세반더 (서드 시스터)",
     "name_en": "Reva Sevander",
     "alignment": "dark",
     "tier": 2,
@@ -7104,7 +7104,7 @@
     "source_type": "series",
     "canon_status": "explicit",
     "species_en": "Human",
-    "profile": "오더 66의 밤, 영링으로서 학살을 살아남은 생존자. 인퀴지터리우스의 제3자매가 되어 — 베이더에게 복수의 칼을 꽂기 위해 — 오비완을 집요하게 쫓는다. 복수와 구원의 갈림길에 선 오비완 시리즈의 문제적 축."
+    "profile": "오더 66 때 동료 영링들이 베이더에게 도륙당하는 걸 죽은 척 숨어 지켜본 생존자. 그 트라우마로 인퀴지터(서드 시스터)가 되어 베이더에게 복수할 기회를 노린다. 오비완 추적은 사다리였을 뿐 — 끝내 어린 루크에게서 복수의 칼을 거두며 자신을 되찾는다."
   },
   {
     "id": "grand-inquisitor",
@@ -7120,7 +7120,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "utapau",
     "affiliation_history": [
       {
         "faction": "inquisitorius",
@@ -7894,7 +7894,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "arkanis",
     "affiliation_history": [
       {
         "faction": "first-order",
@@ -7951,7 +7951,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "parnassos",
     "affiliation_history": [
       {
         "faction": "first-order",
@@ -8007,7 +8007,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "hays-minor",
     "affiliation_history": [
       {
         "faction": "resistance",
@@ -8063,7 +8063,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "mirial",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -8118,7 +8118,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "brendok",
     "affiliation_history": [],
     "motivation": "두 딸과 결사를 지키려 하나, 제다이와의 충돌이 모든 것을 불태운다.",
     "arc": [
@@ -8296,7 +8296,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "kashyyyk",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -8502,7 +8502,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "ryloth",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -8612,7 +8612,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "kashyyyk",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -8667,7 +8667,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "onderon",
     "affiliation_history": [],
     "motivation": "수단을 가리지 않는 저항 — 온건함을 비겁으로 여긴다.",
     "arc": [
@@ -8826,7 +8826,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "ferrix",
     "affiliation_history": [],
     "motivation": "평범한 삶을 지키려다, 평범함이 허락되지 않는 시대에 휩쓸린다.",
     "arc": [
@@ -8924,7 +8924,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "ferrix",
     "affiliation_history": [],
     "motivation": "살아서 못다 한 저항을, 죽어서 완성한다.",
     "arc": [
@@ -9050,7 +9050,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "chandrila",
     "affiliation_history": [],
     "motivation": "귀족의 신분을 위장막 삼아, 대의를 위해 가장 위험한 현장에 선다.",
     "arc": [
@@ -9148,7 +9148,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "ferrix",
     "affiliation_history": [],
     "motivation": "아버지를 제국에 잃은 소년이, 폭발물을 손에 들고 어른의 싸움에 들어선다.",
     "arc": [
@@ -9197,7 +9197,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "chandrila",
     "affiliation_history": [],
     "motivation": "사교계의 한량 — 그 무심함이 아내의 가장 든든한 위장막이 된다.",
     "arc": [
@@ -9292,7 +9292,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "lasan",
     "affiliation_history": [
       {
         "faction": "rebel-alliance",
@@ -9407,7 +9407,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "ryloth",
     "affiliation_history": [
       {
         "faction": "rebel-alliance",
@@ -9511,7 +9511,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "mandalore",
     "affiliation_history": [
       {
         "faction": "mandalorians",
@@ -9566,7 +9566,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "mandalore",
     "affiliation_history": [
       {
         "faction": "mandalorians",
@@ -9605,52 +9605,6 @@
         "fetched_at": "2026-06-08"
       }
     }
-  },
-  {
-    "id": "reva-sevander",
-    "name": "레바 세반더 (서드 시스터)",
-    "name_en": "Reva Sevander",
-    "alignment": "dark",
-    "tier": 2,
-    "era_primary": "reign_of_the_empire",
-    "height_cm": null,
-    "mass_kg": null,
-    "gender": "female",
-    "species": "인간",
-    "species_en": "Human",
-    "birth_year": null,
-    "birth_year_value": null,
-    "birth_year_certainty": "referenced",
-    "homeworld": null,
-    "affiliation_history": [
-      {
-        "faction": "galactic-empire",
-        "from_event": null,
-        "to_event": null
-      }
-    ],
-    "motivation": "베이더를 향한 복수가 전부 — 그 칼끝이 끝내 자신을 겨눈다.",
-    "arc": [
-      {
-        "event": "obi-wan-vader-rematch",
-        "note": "오더 66의 영링 생존자가 복수를 위해 인퀴지터가 되지만, 어린 루크 앞에서 복수의 칼을 거두며 자신을 되찾는다."
-      }
-    ],
-    "key_choices": [],
-    "appears_in": [],
-    "works": [
-      "obi-wan-kenobi"
-    ],
-    "portrait": {
-      "type": "silhouette",
-      "archetype": "sith",
-      "ref": null,
-      "license": "original"
-    },
-    "source": "오비완 케노비",
-    "source_type": "series",
-    "canon_status": "explicit",
-    "profile": "오더 66 때 동료 영링들이 베이더에게 도륙당하는 걸 죽은 척 숨어 지켜본 생존자. 그 트라우마로 인퀴지터(서드 시스터)가 되어 베이더에게 복수할 기회를 노린다. 오비완 추적은 사다리였을 뿐 — 끝내 어린 루크에게서 복수의 칼을 거두며 자신을 되찾는다."
   },
   {
     "id": "tala-durith",
@@ -9817,7 +9771,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "kiffu",
     "affiliation_history": [
       {
         "faction": "jedi-order",
@@ -9982,7 +9936,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "nevarro",
     "affiliation_history": [
       {
         "faction": "new-republic",
@@ -10037,7 +9991,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "alderaan",
     "affiliation_history": [
       {
         "faction": "rebel-alliance",
@@ -10250,7 +10204,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "mandalore",
     "affiliation_history": [
       {
         "faction": "mandalorians",
@@ -10354,7 +10308,7 @@
     "birth_year": null,
     "birth_year_value": null,
     "birth_year_certainty": "referenced",
-    "homeworld": null,
+    "homeworld": "tatooine",
     "affiliation_history": [],
     "motivation": "무법의 변경에서, 빌린 갑옷 한 벌로 마을을 지킨다.",
     "arc": [
