@@ -1255,18 +1255,8 @@
     "type": "rival"
   },
   {
-    "s": "reva-sevander",
-    "t": "obi-wan-kenobi",
-    "type": "rival"
-  },
-  {
-    "s": "reva-sevander",
+    "s": "reva",
     "t": "darth-vader",
-    "type": "rival"
-  },
-  {
-    "s": "reva-sevander",
-    "t": "grand-inquisitor",
     "type": "rival"
   },
   {
