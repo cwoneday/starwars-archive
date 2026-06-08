@@ -4,7 +4,7 @@
     "name": "코러산트",
     "name_en": "Coruscant",
     "type": "planet",
-    "region": "코어",
+    "region": "core",
     "one_liner": "행성 전체가 하나의 도시인 은하의 정치 심장부. 공화국·제국의 수도.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -25,14 +25,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "L-9",
+    "grid_certainty": "canon",
+    "gx": 11.5,
+    "gy": 8.5
   },
   {
     "id": "alderaan",
     "name": "알데란",
     "name_en": "Alderaan",
     "type": "planet",
-    "region": "코어",
+    "region": "core",
     "one_liner": "평화를 상징하던 아름다운 행성. 데스 스타의 첫 표적이 된다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -54,14 +58,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "M-10",
+    "grid_certainty": "canon",
+    "gx": 12.5,
+    "gy": 9.5
   },
   {
     "id": "corellia",
     "name": "코렐리아",
     "name_en": "Corellia",
     "type": "planet",
-    "region": "코어",
+    "region": "core",
     "one_liner": "뛰어난 조선소와 거친 파일럿들로 이름난 산업 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -83,14 +91,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "M-11",
+    "grid_certainty": "canon",
+    "gx": 12.5,
+    "gy": 10.5
   },
   {
     "id": "chandrila",
     "name": "챈드릴라",
     "name_en": "Chandrila",
     "type": "planet",
-    "region": "코어",
+    "region": "core",
     "one_liner": "온건한 정치 전통의 행성. 신공화국 초기의 중심지.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -103,14 +115,18 @@
     "rotation_period_h": 20,
     "orbital_period_d": 368,
     "surface_water_pct": 40,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": "K-9",
+    "grid_certainty": "canon",
+    "gx": 10.5,
+    "gy": 8.5
   },
   {
     "id": "naboo",
     "name": "나부",
     "name_en": "Naboo",
     "type": "planet",
-    "region": "미드림",
+    "region": "mid_rim",
     "one_liner": "호수와 초원의 행성. 인간과 군구안족이 함께 사는 곳.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -132,14 +148,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "O-17",
+    "grid_certainty": "canon",
+    "gx": 14.5,
+    "gy": 16.5
   },
   {
     "id": "tatooine",
     "name": "타투인",
     "name_en": "Tatooine",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "쌍둥이 태양의 사막 행성. 스카이워커 가문의 시작점.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -161,14 +181,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "R-16",
+    "grid_certainty": "canon",
+    "gx": 17.5,
+    "gy": 15.5
   },
   {
     "id": "kashyyyk",
     "name": "카시크",
     "name_en": "Kashyyyk",
     "type": "planet",
-    "region": "미드림",
+    "region": "mid_rim",
     "one_liner": "거대한 숲의 행성, 우키족의 고향.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -190,14 +214,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "P-9",
+    "grid_certainty": "canon",
+    "gx": 15.5,
+    "gy": 8.5
   },
   {
     "id": "serenno",
     "name": "세레노",
     "name_en": "Serenno",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "유서 깊은 귀족 가문의 행성. 두쿠 백작의 본가.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -214,14 +242,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "O-6",
+    "grid_certainty": "canon",
+    "gx": 14.5,
+    "gy": 5.5
   },
   {
     "id": "dathomir",
     "name": "다소미르",
     "name_en": "Dathomir",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "어둠의 마녀단과 붉은 안개의 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -242,14 +274,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "Q-22",
+    "grid_certainty": "canon",
+    "gx": 16.5,
+    "gy": 21.5
   },
   {
     "id": "haruun-kal",
     "name": "하룬 칼",
     "name_en": "Haruun Kal",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "정글과 화산의 행성. 메이스 윈두의 고향.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -261,14 +297,18 @@
     "population": 705300,
     "rotation_period_h": 25,
     "orbital_period_d": 383,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.43,
+    "gy": 16.84
   },
   {
     "id": "kalee",
     "name": "칼리",
     "name_en": "Kalee",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "그리버스 장군을 낳은 케일리시족의 척박한 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -280,14 +320,18 @@
     "population": 4000000000,
     "rotation_period_h": 23,
     "orbital_period_d": 378,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.48,
+    "gy": 16.73
   },
   {
     "id": "socorro",
     "name": "소코로",
     "name_en": "Socorro",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "사막과 밀수업자의 행성. 랜도와 인연이 깊다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -298,14 +342,18 @@
     "population": 300000000,
     "rotation_period_h": 20,
     "orbital_period_d": 326,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 18.97,
+    "gy": 2.85
   },
   {
     "id": "nal-hutta",
     "name": "날 허타",
     "name_en": "Nal Hutta",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "헛족 범죄 조직의 본거지.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -326,14 +374,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "S-11",
+    "grid_certainty": "canon",
+    "gx": 18.5,
+    "gy": 10.5
   },
   {
     "id": "toydaria",
     "name": "토이다리아",
     "name_en": "Toydaria",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "날개 달린 토이다리안족의 늪지 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -354,14 +406,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 3.01,
+    "gy": 19.17
   },
   {
     "id": "malastare",
     "name": "말라스타레",
     "name_en": "Malastare",
     "type": "planet",
-    "region": "미드림",
+    "region": "mid_rim",
     "one_liner": "포드레이스로 유명한 더그족의 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -382,14 +438,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "N-19",
+    "grid_certainty": "canon",
+    "gx": 13.5,
+    "gy": 18.5
   },
   {
     "id": "neimoidia",
     "name": "네이모이디아",
     "name_en": "Cato Neimoidia",
     "type": "planet",
-    "region": "코어",
+    "region": "core",
     "one_liner": "무역연합 지도부 네모이디안의 부유한 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -405,14 +465,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 12.95,
+    "gy": 8.63
   },
   {
     "id": "endor",
     "name": "엔도 (숲의 달)",
     "name_en": "Endor",
     "type": "moon",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "이워크족이 사는 숲의 위성. 제2 데스 스타의 방어막 기지가 있던 곳.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -434,14 +498,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "H-16",
+    "grid_certainty": "canon",
+    "gx": 7.5,
+    "gy": 15.5
   },
   {
     "id": "mon-cala",
     "name": "몬 칼라",
     "name_en": "Mon Cala",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "바다 행성. 애크바 제독의 몬 칼라마리족 고향.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -463,14 +531,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "U-6",
+    "grid_certainty": "canon",
+    "gx": 20.5,
+    "gy": 5.5
   },
   {
     "id": "cerea",
     "name": "세레아",
     "name_en": "Cerea",
     "type": "planet",
-    "region": "미드림",
+    "region": "mid_rim",
     "one_liner": "전통을 중시하는 세레안족의 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -482,14 +554,18 @@
     "rotation_period_h": 27,
     "orbital_period_d": 386,
     "surface_water_pct": 20,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 6.92,
+    "gy": 3.97
   },
   {
     "id": "glee-anselm",
     "name": "글리 안셀름",
     "name_en": "Glee Anselm",
     "type": "planet",
-    "region": "미드림",
+    "region": "mid_rim",
     "one_liner": "물의 행성, 노틀란족 킷 피스토의 고향.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -502,14 +578,18 @@
     "rotation_period_h": 33,
     "orbital_period_d": 206,
     "surface_water_pct": 80,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 6.83,
+    "gy": 19.97
   },
   {
     "id": "dorin",
     "name": "도린",
     "name_en": "Dorin",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "켈 도르족의 행성. 호흡기를 쓰는 플로 쿤의 고향.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -520,14 +600,18 @@
     "diameter_km": 13400,
     "rotation_period_h": 22,
     "orbital_period_d": 409,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 13.04,
+    "gy": 0.55
   },
   {
     "id": "ryloth",
     "name": "릴로스",
     "name_en": "Ryloth",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "트윌렉족의 행성. 한쪽은 영원한 낮, 한쪽은 영원한 밤.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -549,14 +633,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "R-6",
+    "grid_certainty": "canon",
+    "gx": 17.5,
+    "gy": 5.5
   },
   {
     "id": "mirial",
     "name": "미리알",
     "name_en": "Mirial",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "미리알란족의 추운 행성. 문신으로 운명을 새긴다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -564,14 +652,18 @@
     "climate": "한랭·건조",
     "terrain": "사막",
     "gravity": "표준",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 6.8,
+    "gy": 1.74
   },
   {
     "id": "kamino",
     "name": "카미노",
     "name_en": "Kamino",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "비바람의 바다 행성. 클론 군대가 만들어진 곳.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -593,14 +685,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "S-15",
+    "grid_certainty": "canon",
+    "gx": 18.5,
+    "gy": 14.5
   },
   {
     "id": "concord-dawn",
     "name": "콩코드 던",
     "name_en": "Concord Dawn",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "만달로어계 변경 행성. 장고 펫의 고향.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -617,14 +713,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.6,
+    "gy": 7.54
   },
   {
     "id": "geonosis",
     "name": "지오노시스",
     "name_en": "Geonosis",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "바위와 곤충형 지오노시안의 행성. 클론 전쟁이 시작된 곳.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -646,14 +746,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "R-16",
+    "grid_certainty": "canon",
+    "gx": 17.5,
+    "gy": 15.5
   },
   {
     "id": "skako",
     "name": "스카코",
     "name_en": "Skako",
     "type": "planet",
-    "region": "코어",
+    "region": "core",
     "one_liner": "테크노 유니온 와트 탬보의 고향.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -664,14 +768,18 @@
     "population": 500000000000,
     "rotation_period_h": 27,
     "orbital_period_d": 384,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 15.32,
+    "gy": 10.89
   },
   {
     "id": "rodia",
     "name": "로디아",
     "name_en": "Rodia",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "정글과 늪의 행성, 로디안 현상금 사냥꾼의 고향.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -693,14 +801,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "M-18",
+    "grid_certainty": "canon",
+    "gx": 12.5,
+    "gy": 17.5
   },
   {
     "id": "trandosha",
     "name": "트란도샤",
     "name_en": "Trandosha",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "파충류형 트란도샨 사냥꾼의 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -711,14 +823,18 @@
     "population": 42000000,
     "rotation_period_h": 25,
     "orbital_period_d": 371,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": "M-9",
+    "grid_certainty": "canon",
+    "gx": 12.5,
+    "gy": 8.5
   },
   {
     "id": "eriadu",
     "name": "에리아두",
     "name_en": "Eriadu",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "공업 오염의 행성. 타킨 가문의 본거지.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -739,14 +855,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "M-18",
+    "grid_certainty": "canon",
+    "gx": 12.5,
+    "gy": 17.5
   },
   {
     "id": "bespin",
     "name": "베스핀",
     "name_en": "Bespin",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "구름 위 채굴 도시가 떠 있는 가스 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -767,14 +887,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "K-18",
+    "grid_certainty": "canon",
+    "gx": 10.5,
+    "gy": 17.5
   },
   {
     "id": "sullust",
     "name": "술러스트",
     "name_en": "Sullust",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "화산 동굴의 행성, 술러스탄족의 고향.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -787,14 +911,18 @@
     "rotation_period_h": 20,
     "orbital_period_d": 263,
     "surface_water_pct": 5,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": "M-18",
+    "grid_certainty": "canon",
+    "gx": 12.5,
+    "gy": 17.5
   },
   {
     "id": "champala",
     "name": "참팔라",
     "name_en": "Champala",
     "type": "planet",
-    "region": "코어",
+    "region": "core",
     "one_liner": "챠갸리안족 마스 아메다의 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -805,14 +933,18 @@
     "population": 3500000000,
     "rotation_period_h": 27,
     "orbital_period_d": 318,
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 9.57,
+    "gy": 14.52
   },
   {
     "id": "utapau",
     "name": "우타파우",
     "name_en": "Utapau",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "거대한 싱크홀 도시의 행성. 그리버스의 은신처였다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -833,25 +965,33 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "P-21",
+    "grid_certainty": "canon",
+    "gx": 15.5,
+    "gy": 20.5
   },
   {
     "id": "zolan",
     "name": "조란",
     "name_en": "Zolan",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "변신술을 쓰는 클로다이트족의 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 18.97,
+    "gy": 21.15
   },
   {
     "id": "stewjon",
     "name": "스튜존",
     "name_en": "Stewjon",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "오비완 케노비의 고향으로만 알려진 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -859,14 +999,18 @@
     "climate": "온대",
     "terrain": "초지",
     "gravity": "1 표준",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 8.97,
+    "gy": 22.57
   },
   {
     "id": "death-star",
     "name": "데스 스타",
     "name_en": "Death Star",
     "type": "battlestation",
-    "region": "이동",
+    "region": "outer_rim",
     "one_liner": "행성을 통째로 파괴하는 제국의 초병기. 야빈에서 파괴된다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -879,14 +1023,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 3.32,
+    "gy": 18.76
   },
   {
     "id": "death-star-ii",
     "name": "제2 데스 스타",
     "name_en": "Death Star II",
     "type": "battlestation",
-    "region": "엔도 궤도",
+    "region": "outer_rim",
     "one_liner": "엔도 상공에서 건설 중이던 더 큰 데스 스타.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -899,25 +1047,33 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 0.78,
+    "gy": 9.47
   },
   {
     "id": "starlight-beacon",
     "name": "스타라이트 비콘",
     "name_en": "Starlight Beacon",
     "type": "station",
-    "region": "변경",
+    "region": "outer_rim",
     "one_liner": "하이 리퍼블릭 시대 변경 수호의 상징이던 거대 정거장.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
-    "canon_status": "referenced"
+    "canon_status": "referenced",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 1.54,
+    "gy": 16.79
   },
   {
     "id": "yavin-4",
     "name": "야빈 4",
     "name_en": "Yavin 4",
     "type": "moon",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "정글 위성. 반란연합의 비밀 기지가 있던 곳.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -930,14 +1086,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "P-6",
+    "grid_certainty": "canon",
+    "gx": 15.5,
+    "gy": 5.5
   },
   {
     "id": "scarif",
     "name": "스카리프",
     "name_en": "Scarif",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "열대 해변의 행성. 제국의 자료 보관소가 있었다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -953,14 +1113,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "U-7",
+    "grid_certainty": "canon",
+    "gx": 20.5,
+    "gy": 6.5
   },
   {
     "id": "hoth",
     "name": "호스",
     "name_en": "Hoth",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "눈과 얼음뿐인 행성. 반란군의 에코 기지가 숨어 있었다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -981,14 +1145,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "K-18",
+    "grid_certainty": "canon",
+    "gx": 10.5,
+    "gy": 17.5
   },
   {
     "id": "jakku",
     "name": "자쿠",
     "name_en": "Jakku",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "폐선이 널린 사막 행성. 은하 내전의 마지막 대회전지.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -1004,14 +1172,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "P-4",
+    "grid_certainty": "canon",
+    "gx": 15.5,
+    "gy": 3.5
   },
   {
     "id": "hosnian-prime",
     "name": "호스니안 프라임",
     "name_en": "Hosnian Prime",
     "type": "planet",
-    "region": "코어",
+    "region": "core",
     "one_liner": "신공화국의 수도 행성. 스타킬러에 소멸된다.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -1027,14 +1199,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "K-10",
+    "grid_certainty": "canon",
+    "gx": 10.5,
+    "gy": 9.5
   },
   {
     "id": "starkiller-base",
     "name": "스타킬러 기지",
     "name_en": "Starkiller Base",
     "type": "battlestation",
-    "region": "미지의 영역",
+    "region": "unknown_regions",
     "one_liner": "행성을 무기로 개조한 퍼스트 오더의 초병기.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -1047,14 +1223,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 2.47,
+    "gy": 13
   },
   {
     "id": "exegol",
     "name": "엑세골",
     "name_en": "Exegol",
     "type": "planet",
-    "region": "미지의 영역",
+    "region": "unknown_regions",
     "one_liner": "시스의 비밀이 잠든 숨겨진 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -1070,14 +1250,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 4.97,
+    "gy": 12
   },
   {
     "id": "ahch-to",
     "name": "아크-투",
     "name_en": "Ahch-To",
     "type": "planet",
-    "region": "미지의 영역",
+    "region": "unknown_regions",
     "one_liner": "최초의 제다이 신전이 세워진 외딴 바다 섬 세계.",
     "source": "스타워즈 전승",
     "source_type": "film",
@@ -1093,28 +1277,36 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 2.84,
+    "gy": 14
   },
   {
     "id": "tython",
     "name": "타이손",
     "name_en": "Tython",
     "type": "planet",
-    "region": "딥 코어",
+    "region": "deep_core",
     "one_liner": "포스가 강하게 흐르는 고대 행성. 제다이의 기원과 얽혀 있다.",
     "source": "스타워즈 전승",
     "source_type": "novel",
     "canon_status": "inferred",
     "climate": "온대",
     "terrain": "산악·평원(고대 포스의 땅)",
-    "gravity": "표준"
+    "gravity": "표준",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 13.65,
+    "gy": 13.12
   },
   {
     "id": "moraband",
     "name": "모라반드",
     "name_en": "Moraband",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "시스의 고대 본향으로 전해지는 죽음의 행성.",
     "source": "스타워즈 전승",
     "source_type": "novel",
@@ -1130,28 +1322,36 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 6.16,
+    "gy": 2.09
   },
   {
     "id": "valo",
     "name": "발로",
     "name_en": "Valo",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "공화국 대축제가 열렸다가 니힐의 기습으로 폐허가 된 행성.",
     "source": "하이 리퍼블릭",
     "source_type": "novel",
     "canon_status": "referenced",
     "climate": "온대",
     "terrain": "강·숲·호수",
-    "gravity": "표준"
+    "gravity": "표준",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 0.76,
+    "gy": 9.55
   },
   {
     "id": "mustafar",
     "name": "무스타파",
     "name_en": "Mustafar",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "용암이 흐르는 화산 행성. 아나킨이 베이더로 추락한 곳.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -1172,28 +1372,36 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "L-19",
+    "grid_certainty": "canon",
+    "gx": 11.5,
+    "gy": 18.5
   },
   {
     "id": "ghorman",
     "name": "고르만",
     "name_en": "Ghorman",
     "type": "planet",
-    "region": "미드림",
+    "region": "mid_rim",
     "one_liner": "제국의 학살이 벌어져 반란의 분노에 불을 지핀 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "series",
     "canon_status": "referenced",
     "climate": "온대",
     "terrain": "도시·평원(직물 산업)",
-    "gravity": "표준"
+    "gravity": "표준",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 4.24,
+    "gy": 6.52
   },
   {
     "id": "takodana",
     "name": "타코다나",
     "name_en": "Takodana",
     "type": "planet",
-    "region": "미드림",
+    "region": "mid_rim",
     "one_liner": "마즈 카나타의 성이 있던 숲의 행성.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -1209,14 +1417,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 18.16,
+    "gy": 4.77
   },
   {
     "id": "crait",
     "name": "크레이트",
     "name_en": "Crait",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "붉은 소금 사막의 광물 행성. 저항군 최후의 항전지.",
     "source": "스타워즈 캐넌",
     "source_type": "film",
@@ -1232,14 +1444,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 2.89,
+    "gy": 4.98
   },
   {
     "id": "iktotch",
     "name": "익토치",
     "name_en": "Iktotch",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "익토치족의 고향. 거센 바람이 부는 바위투성이 세계.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1249,14 +1465,18 @@
     "terrain": "바위",
     "gravity": "1 표준",
     "rotation_period_h": 22,
-    "orbital_period_d": 481
+    "orbital_period_d": 481,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 1.13,
+    "gy": 10.3
   },
   {
     "id": "shili",
     "name": "실리",
     "name_en": "Shili",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "토그루타족의 고향. 붉은 초원과 사바나의 행성.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1264,26 +1484,34 @@
     "data_source": "SWAPI",
     "climate": "온대",
     "terrain": "도시·사바나·바다·평원",
-    "gravity": "1 표준"
+    "gravity": "1 표준",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 1.34,
+    "gy": 14.72
   },
   {
     "id": "quermia",
     "name": "퀘르미아",
     "name_en": "Quermia",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "퀘르미안족의 고향으로 알려진 행성.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
     "canon_status": "referenced",
-    "data_source": "SWAPI"
+    "data_source": "SWAPI",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.96,
+    "gy": 12.94
   },
   {
     "id": "ojom",
     "name": "오좀",
     "name_en": "Ojom",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "베살리스크족의 고향. 빙하와 바다로 덮인 한랭 행성.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1292,14 +1520,18 @@
     "climate": "한랭",
     "terrain": "바다·빙하",
     "population": 500000000,
-    "surface_water_pct": 100
+    "surface_water_pct": 100,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 9.53,
+    "gy": 1.28
   },
   {
     "id": "umbara",
     "name": "움바라",
     "name_en": "Umbara",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "움바란족의 고향. '그림자의 세계'로 불리는 어두운 행성.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1313,14 +1545,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.98,
+    "gy": 12.69
   },
   {
     "id": "muunilinst",
     "name": "무운일린스트",
     "name_en": "Muunilinst",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "무운족과 은행 클랜의 본거지. 금융의 중심.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1333,14 +1569,18 @@
     "population": 5000000000,
     "rotation_period_h": 28,
     "orbital_period_d": 412,
-    "surface_water_pct": 25
+    "surface_water_pct": 25,
+    "grid": "P-12",
+    "grid_certainty": "canon",
+    "gx": 15.5,
+    "gy": 11.5
   },
   {
     "id": "iridonia",
     "name": "이리도니아",
     "name_en": "Iridonia",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "자브락족의 고향. 협곡과 산성 호수의 거친 행성.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1348,14 +1588,18 @@
     "data_source": "SWAPI",
     "terrain": "바위 협곡·산성 호수",
     "rotation_period_h": 29,
-    "orbital_period_d": 413
+    "orbital_period_d": 413,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 1.9,
+    "gy": 7.65
   },
   {
     "id": "bestine-iv",
     "name": "베스틴 IV",
     "name_en": "Bestine IV",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "바위섬과 바다의 행성. 파일럿 포킨스의 고향.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1367,14 +1611,18 @@
     "population": 62000000,
     "rotation_period_h": 26,
     "orbital_period_d": 680,
-    "surface_water_pct": 98
+    "surface_water_pct": 98,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 21.9,
+    "gy": 7.2
   },
   {
     "id": "aleen-minor",
     "name": "알린 마이너",
     "name_en": "Aleen Minor",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "알리나족의 고향으로 알려진 작은 세계.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1388,27 +1636,35 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.58,
+    "gy": 9.0
   },
   {
     "id": "troiken",
     "name": "트로이켄",
     "name_en": "Troiken",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "젝스토족의 고향. 사막과 우림이 공존하는 행성.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
     "canon_status": "referenced",
     "data_source": "SWAPI",
-    "terrain": "사막·동토·우림·산악"
+    "terrain": "사막·동토·우림·산악",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 7.72,
+    "gy": 22.13
   },
   {
     "id": "tund",
     "name": "툰드",
     "name_en": "Tund",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "잿빛 재와 불모지로 덮인 행성.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1417,14 +1673,18 @@
     "terrain": "불모지·잿빛 재",
     "diameter_km": 12190,
     "rotation_period_h": 48,
-    "orbital_period_d": 1770
+    "orbital_period_d": 1770,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 17.01,
+    "gy": 21.79
   },
   {
     "id": "vulpter",
     "name": "불프터",
     "name_en": "Vulpter",
     "type": "planet",
-    "region": "불명",
+    "region": "outer_rim",
     "one_liner": "불펜인족의 고향. 도시와 황무지가 뒤덮은 행성.",
     "source": "SWAPI / 캐넌",
     "source_type": "film",
@@ -1436,14 +1696,18 @@
     "diameter_km": 14900,
     "population": 421000000,
     "rotation_period_h": 22,
-    "orbital_period_d": 391
+    "orbital_period_d": 391,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 1.2,
+    "gy": 14.08
   },
   {
     "id": "dqar",
     "name": "디카르",
     "name_en": "D'Qar",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "저항군의 비밀 기지가 있던 외딴 숲의 행성.",
     "climate": "온대",
     "terrain": "숲·평원",
@@ -1458,14 +1722,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 20.1,
+    "gy": 20.16
   },
   {
     "id": "janix",
     "name": "자닉스",
     "name_en": "Janix",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "제국의 손이 닿지 않은 변경 행성. 범죄 신디케이트들이 불안한 균형 속에 자치하는 무법지대.",
     "source": "몰 — 섀도 로드",
     "source_type": "series",
@@ -1477,14 +1745,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 7.54,
+    "gy": 22.6
   },
   {
     "id": "wayland",
     "name": "웨이랜드",
     "name_en": "Wayland",
     "type": "planet",
-    "region": "미지",
+    "region": "unknown_regions",
     "one_liner": "마운트 탄티스 깊은 곳에 제국의 비밀 복제 시설이 숨겨진 행성.",
     "source": "배드 배치",
     "source_type": "series",
@@ -1505,14 +1777,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 2.43,
+    "gy": 11
   },
   {
     "id": "peridea",
     "name": "페리디아",
     "name_en": "Peridea",
     "type": "planet",
-    "region": "은하 외부",
+    "region": "unknown_regions",
     "one_liner": "나이트시스터의 고향이자 먼 은하에 자리한 고대 행성. 스론이 유배됐던 곳.",
     "source": "아소카",
     "source_type": "series",
@@ -1524,14 +1800,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 4.22,
+    "gy": 7
   },
   {
     "id": "brendok",
     "name": "브렌독",
     "name_en": "Brendok",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "메이와 오샤가 나고 자란 행성. 나이트시스터 무리가 은둔하던 곳.",
     "source": "애콜라이트",
     "source_type": "series",
@@ -1543,14 +1823,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": "starwars.com"
+    "data_source": "starwars.com",
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 2.08,
+    "gy": 6.18
   },
   {
     "id": "mandalore",
     "name": "만달로어",
     "name_en": "Mandalore",
     "type": "planet",
-    "region": "내부 변경",
+    "region": "inner_rim",
     "one_liner": "전사 문화로 이름난 만달로어인의 모행성. 대숙청으로 폐허가 됐다 재건된다.",
     "source": "만달로리안",
     "source_type": "series",
@@ -1571,14 +1855,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "N-9",
+    "grid_certainty": "canon",
+    "gx": 13.5,
+    "gy": 8.5
   },
   {
     "id": "daiyu",
     "name": "다이유",
     "name_en": "Daiyu",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "범죄와 향료 밀매가 들끓는 무법의 항구 행성.",
     "source": "오비완 케노비",
     "source_type": "series",
@@ -1599,14 +1887,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 23.34,
+    "gy": 13.9
   },
   {
     "id": "mapuzo",
     "name": "마푸조",
     "name_en": "Mapuzo",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "제국의 압제 아래 놓인 광산 행성. 히든 패스의 은신 경로가 지난다.",
     "source": "오비완 케노비",
     "source_type": "series",
@@ -1627,14 +1919,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 17.68,
+    "gy": 22.0
   },
   {
     "id": "jabiim",
     "name": "자비임",
     "name_en": "Jabiim",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "제다이와 도망자를 숨기는 히든 패스의 비밀 거점이 있던 행성.",
     "source": "오비완 케노비",
     "source_type": "series",
@@ -1655,14 +1951,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 3.06,
+    "gy": 19.24
   },
   {
     "id": "lothal",
     "name": "로탈",
     "name_en": "Lothal",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "제국의 수탈에 신음하던 변경 행성. 에즈라 브리저의 고향이자 반란의 불씨가 처음 타오른 곳.",
     "source": "반란군",
     "source_type": "series",
@@ -1683,14 +1983,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "K-6",
+    "grid_certainty": "canon",
+    "gx": 10.5,
+    "gy": 5.5
   },
   {
     "id": "aldhani",
     "name": "알다니",
     "name_en": "Aldhani",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "제국 주둔지의 금고가 있던 행성. '눈의 축제' 밤하늘 아래 벌어진 급여 탈취가 반란의 신호탄이 됐다.",
     "source": "안돌",
     "source_type": "series",
@@ -1711,14 +2015,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.51,
+    "gy": 16.66
   },
   {
     "id": "ferrix",
     "name": "페릭스",
     "name_en": "Ferrix",
     "type": "planet",
-    "region": "외곽",
+    "region": "outer_rim",
     "one_liner": "고철과 부품의 노동자 행성. 카시안 안도르가 자란 곳이자, 벽돌 두드리는 소리로 제국에 맞서 일어선 공동체.",
     "source": "안돌",
     "source_type": "series",
@@ -1739,14 +2047,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 12.16,
+    "gy": 0.5
   },
   {
     "id": "bracca",
     "name": "브라카",
     "name_en": "Bracca",
     "type": "planet",
-    "region": "중간 변경",
+    "region": "mid_rim",
     "one_liner": "클론 전쟁의 함선들이 해체되는 고철 행성. 오더 66 이후 칼 케스티스가 신분을 숨기고 일하던 곳.",
     "source": "제다이: 폴른 오더",
     "source_type": "series",
@@ -1767,14 +2079,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 21.49,
+    "gy": 12.46
   },
   {
     "id": "dagobah",
     "name": "다고바",
     "name_en": "Dagobah",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "포스가 짙게 고인 외곽의 늪 행성. 요다가 제국의 눈을 피해 은둔했고, 루크 스카이워커가 제다이 수련을 받은 곳이다. 어둠의 동굴은 수련자의 내면을 비추는 거울로 악명 높다.",
     "source": "제국의 역습",
     "source_type": "film",
@@ -1796,14 +2112,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "M-19",
+    "grid_certainty": "canon",
+    "gx": 12.5,
+    "gy": 18.5
   },
   {
     "id": "khofar",
     "name": "코파르",
     "name_en": "Khofar",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "은하 외곽의 울창한 숲 행성. 우키 제다이 켈나카가 은둔했고, 솔의 조사단이 스트레인저와 맞닥뜨려 참극을 겪은 곳이다.",
     "source": "애콜라이트",
     "source_type": "series",
@@ -1815,14 +2135,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 16.89,
+    "gy": 21.85
   },
   {
     "id": "jedha",
     "name": "제다",
     "name_en": "Jedha",
     "type": "moon",
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "카이버 크리스털의 성지로 순례자가 모이던 사막 위성. 로그 원에서 제국이 도시 전체를 데스 스타 시험 사격으로 지워 버렸다.",
     "source": "로그 원",
     "source_type": "film",
@@ -1844,14 +2168,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 1.62,
+    "gy": 15.65
   },
   {
     "id": "eadu",
     "name": "에아두",
     "name_en": "Eadu",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "폭풍우 몰아치는 산악 행성. 갈렌 에르소가 데스 스타의 핵심을 설계한 비밀 연구소가 숨어 있었다.",
     "source": "로그 원",
     "source_type": "film",
@@ -1873,14 +2201,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 13.32,
+    "gy": 22.92
   },
   {
     "id": "nevarro",
     "name": "네바로",
     "name_en": "Nevarro",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "용암 평원의 화산 행성. 만달로리안 딘 자린의 거점이자, 제국 잔당의 은신처에서 신공화국의 교역 도시로 거듭났다.",
     "source": "만달로리안",
     "source_type": "series",
@@ -1902,14 +2234,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 20.06,
+    "gy": 19.49
   },
   {
     "id": "malachor",
     "name": "말라코어",
     "name_en": "Malachor",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "제다이에게 금지된 시스의 행성. 고대 시스 사원이 잠든 이곳에서 아소카·에즈라·케이넌이 베이더와 인퀴지터에 맞섰다.",
     "source": "스타워즈 반란군",
     "source_type": "series",
@@ -1931,14 +2267,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 9.32,
+    "gy": 22.67
   },
   {
     "id": "christophsis",
     "name": "크리스토피스",
     "name_en": "Christophsis",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "거대한 청록 크리스털 도시의 행성. 클론 전쟁 초기, 아나킨과 아소카가 처음 함께 싸운 전장.",
     "source": "클론 전쟁",
     "source_type": "series",
@@ -1960,14 +2300,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 21.02,
+    "gy": 5.71
   },
   {
     "id": "felucia",
     "name": "펠루시아",
     "name_en": "Felucia",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "거대 균류와 야광 식물이 뒤덮은 정글 행성. 오더 66의 그날, 아일라 세큐라가 제 부대의 총구에 스러진 곳.",
     "source": "스타워즈 에피소드 3: 시스의 복수",
     "source_type": "film",
@@ -1989,14 +2333,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "Q-15",
+    "grid_certainty": "canon",
+    "gx": 16.5,
+    "gy": 14.5
   },
   {
     "id": "sorgan",
     "name": "소르간",
     "name_en": "Sorgan",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "고요한 숲과 논의 농경 위성. 딘 자린과 그로구가 잠시 몸을 숨겼던 변경의 피난처.",
     "source": "만달로리안",
     "source_type": "series",
@@ -2018,14 +2366,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": "L-20",
+    "grid_certainty": "canon",
+    "gx": 11.5,
+    "gy": 19.5
   },
   {
     "id": "cantonica",
     "name": "칸토니카",
     "name_en": "Cantonica",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "사막 위에 세워진 호화 도박 도시 칸토 바이트의 행성. 라스트 제다이에서 부의 그늘과 파시어 경주가 펼쳐진다.",
     "source": "라스트 제다이",
     "source_type": "film",
@@ -2047,14 +2399,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 12.77,
+    "gy": 22.97
   },
   {
     "id": "pasaana",
     "name": "파사나",
     "name_en": "Pasaana",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "끝없는 사막의 행성. 사십이 년마다 열리는 '조상의 축제'가 벌어지고, 시스 단검의 단서가 잠든 곳.",
     "source": "라이즈 오브 스카이워커",
     "source_type": "film",
@@ -2076,14 +2432,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 1.0,
+    "gy": 11.92
   },
   {
     "id": "kijimi",
     "name": "키지미",
     "name_en": "Kijimi",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "눈 덮인 산악 도시의 행성. 저항군이 시스 웨이파인더의 좌표를 해독한 은신처.",
     "source": "라이즈 오브 스카이워커",
     "source_type": "film",
@@ -2105,14 +2465,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 7.51,
+    "gy": 1.96
   },
   {
     "id": "polis-massa",
     "name": "폴리스 마사",
     "name_en": "Polis Massa",
     "type": "asteroid",
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "외곽의 소행성 의료 기지. 파드메가 숨을 거두고 루크와 레아가 태어난, 사가의 가장 은밀한 출생지.",
     "source": "스타워즈 에피소드 3: 시스의 복수",
     "source_type": "film",
@@ -2134,14 +2498,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.4,
+    "gy": 8.42
   },
   {
     "id": "zeffo",
     "name": "제포",
     "name_en": "Zeffo",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "고대 제포 문명의 유적이 잠든 바람의 행성. 칼 케스티스가 홀로크론의 단서를 좇은 곳.",
     "source": "제다이: 폴른 오더",
     "source_type": "game",
@@ -2163,14 +2531,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 21.13,
+    "gy": 5.86
   },
   {
     "id": "mina-rau",
     "name": "미라",
     "name_en": "Mina-Rau",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "제국의 변경에 자리한 농업 행성. 카시안·빅스·윌몬·B2EMO가 제국의 눈을 피해 숨어든 곡창지대로, 제국의 '감사' 명목 단속이 들이닥친 곳.",
     "source": "안도르",
     "source_type": "series",
@@ -2182,14 +2554,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 19.72,
+    "gy": 19.83
   },
   {
     "id": "hetzal",
     "name": "헤트잘",
     "name_en": "Hetzal",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "외곽 변경의 풍요로운 농업 항성계. 하이 리퍼블릭 대재난 당시 레거시 런의 잔해 '이머전스'가 쏟아져, 아바르 크리스가 이끈 제다이 대규모 구조의 무대가 됐다.",
     "source": "하이 리퍼블릭: 빛의 시대",
     "source_type": "novel",
@@ -2201,14 +2577,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 20.31,
+    "gy": 4.8
   },
   {
     "id": "ueda",
     "name": "우에다",
     "name_en": "Ueda",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "변경의 한적한 술집 행성. 애콜라이트에서 복수에 나선 메이가 제다이 마스터 인다라를 습격해, 평화의 시대에 첫 핏자국을 남긴 곳.",
     "source": "애콜라이트",
     "source_type": "series",
@@ -2220,14 +2600,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 1.01,
+    "gy": 12.5
   },
   {
     "id": "nur",
     "name": "누르",
     "name_en": "Nur",
     "type": "moon",
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "무스타파 항성계의 바다 위성. 인퀴지터리우스의 수중 요새가 자리한 제국의 비밀 거점으로, 칼 케스티스가 영링 명단을 노리고 잠입한 곳.",
     "source": "제다이: 폴른 오더",
     "source_type": "game",
@@ -2248,14 +2632,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 9.94,
+    "gy": 22.81
   },
   {
     "id": "narkina-5",
     "name": "나르키나 5",
     "name_en": "Narkina 5",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "제국의 수중 공장 감옥 행성. 죄수들이 끝없는 노역에 동원되며, 카시안 안도르가 키노 로이와 함께 봉기를 이끈 곳.",
     "source": "안도르",
     "source_type": "series",
@@ -2276,14 +2664,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 5.85,
+    "gy": 21.12
   },
   {
     "id": "atollon",
     "name": "아톨론",
     "name_en": "Atollon",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "외곽의 황량한 산호빛 사막 행성. 반란 함대의 비밀 거점 '초퍼 베이스'가 있었고, 토착의 신비한 존재 '벤두'가 깃든 곳.",
     "source": "스타워즈 반란군",
     "source_type": "series",
@@ -2304,14 +2696,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 17.97,
+    "gy": 2.76
   },
   {
     "id": "dantooine",
     "name": "단투인",
     "name_en": "Dantooine",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "한적한 초원의 변경 행성. 초기 반란 동맹의 집결지 중 하나로, 제국의 눈을 피한 피난처가 됐다.",
     "source": "스타워즈 반란군",
     "source_type": "series",
@@ -2332,14 +2728,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.64,
+    "gy": 9.21
   },
   {
     "id": "duro",
     "name": "듀로",
     "name_en": "Duro",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "듀로스 종족의 고향. 일찍이 우주 항행에 능했던 산업 행성으로, 현상금 사냥꾼 캐드 베인을 비롯한 듀로스의 본향이다.",
     "source": "클론 전쟁",
     "source_type": "series",
@@ -2351,14 +2751,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 9.58,
+    "gy": 1.27
   },
   {
     "id": "kiffu",
     "name": "키푸",
     "name_en": "Kiffu",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "키파르 종족의 고향. 접촉으로 과거를 읽는 '사이코메트리'로 알려진 씨족 사회로, 제다이 퀸런 보스의 출신지.",
     "source": "클론 전쟁",
     "source_type": "series",
@@ -2370,14 +2774,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 17.1,
+    "gy": 2.25
   },
   {
     "id": "arkanis",
     "name": "아카니스",
     "name_en": "Arkanis",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "비 잦은 항구 세계. 제국 사관학교가 있던 곳으로, 훗날 퍼스트 오더의 아미티지 헉스가 태어났다.",
     "source": "스타워즈 에피소드 7: 깨어난 포스",
     "source_type": "film",
@@ -2389,14 +2797,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 4.73,
+    "gy": 20.25
   },
   {
     "id": "parnassos",
     "name": "파르나소스",
     "name_en": "Parnassos",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "재앙으로 황폐해진 가혹한 행성. 생존만이 전부였던 이 땅에서 훗날의 캡틴 파스마가 자랐다.",
     "source": "깨어난 포스 (소설 '파스마')",
     "source_type": "novel",
@@ -2408,14 +2820,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 21.15,
+    "gy": 5.9
   },
   {
     "id": "hays-minor",
     "name": "헤이즈 마이너",
     "name_en": "Hays Minor",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "제국의 수탈에 시달린 광산 위성. 로즈 티코와 언니 페이지가 자란 고향으로, 저항에 투신한 자매의 뿌리.",
     "source": "라스트 제다이",
     "source_type": "film",
@@ -2427,14 +2843,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 5.72,
+    "gy": 21.03
   },
   {
     "id": "kenari",
     "name": "케나리",
     "name_en": "Kenari",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "제국이 파괴한 외딴 정글 행성. 카시안 안도르가 태어나 어린 시절을 보낸 고향으로, 부족과 함께 사라진 잃어버린 땅.",
     "source": "안도르",
     "source_type": "series",
@@ -2455,14 +2875,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 6.92,
+    "gy": 2.24
   },
   {
     "id": "lah-mu",
     "name": "라무",
     "name_en": "Lah'mu",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "검은 모래 해안의 외딴 농경 행성. 갈렌·라이라 어소가 제국을 피해 숨어 진을 키운 곳으로, 로그 원의 비극이 시작된 무대.",
     "source": "로그 원",
     "source_type": "film",
@@ -2483,14 +2907,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 8.44,
+    "gy": 22.41
   },
   {
     "id": "csilla",
     "name": "실라",
     "name_en": "Csilla",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "미지 영역의 얼음 행성. 치스 종족의 본향이자 치스 거주 영역의 중심으로, 그랜드 애드미럴 스론이 태어난 곳.",
     "source": "스타워즈 반란군",
     "source_type": "series",
@@ -2502,14 +2930,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 4.25,
+    "gy": 4.19
   },
   {
     "id": "onderon",
     "name": "온더론",
     "name_en": "Onderon",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "거대 정글과 고대 성벽 도시의 행성. 클론 전쟁기 반제국 저항의 요람으로, 소 게레라 남매가 자란 곳.",
     "source": "클론 전쟁",
     "source_type": "series",
@@ -2530,14 +2962,18 @@
         "credit": "Star Wars Databank © Lucasfilm Ltd.",
         "fetched_at": "2026-06-08"
       }
-    }
+    },
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.54,
+    "gy": 15.16
   },
   {
     "id": "lasan",
     "name": "라산",
     "name_en": "Lasan",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "제국이 멸절시킨 라사트 종족의 본향. 한때 명예로운 전사 문화가 번성했으나 제국의 학살로 폐허가 됐고, 젭은 그 마지막 생존자 중 하나다.",
     "source": "스타워즈 반란군",
     "source_type": "series",
@@ -2549,14 +2985,18 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 22.43,
+    "gy": 15.49
   },
   {
     "id": "aq-vetina",
     "name": "아크 베티나",
     "name_en": "Aq Vetina",
     "type": null,
-    "region": null,
+    "region": "outer_rim",
     "one_liner": "분리주의 전쟁의 포화에 휩쓸린 변경 행성. 어린 딘 자린이 부모를 잃고 만달로어인에게 거둬진 곳 — '포스라이트'의 시작.",
     "source": "만달로리안",
     "source_type": "series",
@@ -2568,6 +3008,10 @@
     "population": null,
     "rotation_period_h": null,
     "orbital_period_d": null,
-    "data_source": null
+    "data_source": null,
+    "grid": null,
+    "grid_certainty": "approx",
+    "gx": 16.21,
+    "gy": 22.16
   }
 ]

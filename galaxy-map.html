@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>은하 지도 — 스타워즈 캐넌 아카이브</title>
+<style>
+:root{--bg:#04060b;--panel:rgba(10,15,24,.9);--line:rgba(255,255,255,.09);--dim:#8b97a8;--ink:#e8edf4}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
+#map{position:fixed;inset:0;touch-action:none;cursor:grab}#map:active{cursor:grabbing}
+.hud{position:fixed;z-index:10;background:var(--panel);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px;padding:13px 15px}
+#title{top:14px;left:14px;max-width:min(340px,70vw)}
+#title h1{font-size:15px;font-weight:800;letter-spacing:.4px}
+#title .sub{font-size:11px;color:var(--dim);margin-top:5px;line-height:1.5}
+#legend{top:14px;right:14px;font-size:10.5px;line-height:1.85;max-height:78vh;overflow:auto}
+#legend h4{font-size:9px;letter-spacing:1.4px;color:var(--dim);text-transform:uppercase;margin:2px 0 4px}
+#legend .row{display:flex;align-items:center;gap:7px}
+#legend .dot{width:10px;height:10px;border-radius:50%;flex:none}
+#ctrls{bottom:14px;left:14px;display:flex;gap:7px;flex-wrap:wrap;align-items:center;max-width:min(560px,92vw)}
+.btn{background:rgba(255,255,255,.06);border:1px solid var(--line);color:#cfd8e3;border-radius:9px;padding:6px 10px;font-size:11px;cursor:pointer;font-weight:600;white-space:nowrap}
+.btn:hover{background:rgba(255,255,255,.12)}.btn.on{background:#5aa9ff;color:#04060b;border-color:#5aa9ff}
+a.btn{text-decoration:none}
+#era{background:rgba(255,255,255,.06);border:1px solid var(--line);color:#cfd8e3;border-radius:9px;padding:6px 9px;font-size:11px}
+#search{background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--ink);border-radius:9px;padding:6px 10px;font-size:11px;width:130px}
+#detail{bottom:14px;right:14px;max-width:min(330px,82vw);max-height:74vh;overflow:auto;display:none}
+#detail .nm{font-size:17px;font-weight:800}#detail .en{font-size:11px;color:var(--dim)}
+#detail img{width:100%;height:120px;object-fit:cover;border-radius:9px;margin:9px 0;border:1px solid var(--line)}
+#detail .tag{display:inline-block;font-size:10px;padding:2px 9px;border-radius:20px;margin:4px 4px 0 0;font-weight:700}
+#detail .ol{font-size:12px;line-height:1.6;margin-top:8px;color:#cfd6e0}
+#detail .meta{font-size:11px;color:var(--dim);margin-top:7px}
+#detail h5{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--dim);margin:12px 0 5px}
+#detail .item{font-size:11.5px;padding:3px 0;border-bottom:1px solid var(--line)}
+#detail .item .y{color:var(--dim);font-size:10px}
+.close{float:right;cursor:pointer;color:var(--dim);font-size:18px;line-height:1}
+#hint{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:9;font-size:10px;color:var(--dim);background:var(--panel);padding:5px 13px;border-radius:20px;border:1px solid var(--line)}
+@media(max-width:640px){#hint{display:none}#legend{font-size:9.5px}}
+</style></head><body>
+<svg id="map"></svg>
+<div id="title" class="hud"><h1>🌌 은하 지도</h1><div class="sub" id="subt">불러오는 중…</div></div>
+<div id="legend" class="hud"></div>
+<div id="ctrls" class="hud">
+  <input id="search" placeholder="행성 검색…">
+  <select id="era"><option value="">모든 시대</option></select>
+  <button class="btn on" id="gridBtn">격자</button>
+  <button class="btn on" id="labelBtn">이름</button>
+  <button class="btn" id="resetBtn">초기화</button>
+  <a class="btn" href="index.html">← 메인</a>
+</div>
+<div id="detail" class="hud"></div>
+<div id="hint">🖱️ 드래그=이동 · 휠=확대 · 행성 클릭=상세</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const REGION={deep_core:{c:'#fff3b0',ko:'딥 코어'},core:{c:'#ffd24a',ko:'코어'},colonies:{c:'#ffaa3a',ko:'콜로니'},
+ inner_rim:{c:'#7ee787',ko:'이너 림'},expansion_region:{c:'#45d4e3',ko:'익스팬션'},mid_rim:{c:'#5aa9ff',ko:'미드 림'},
+ outer_rim:{c:'#b98aff',ko:'아우터 림'},unknown_regions:{c:'#ff5a4d',ko:'미지 영역'},wild_space:{c:'#8b97a8',ko:'와일드 스페이스'},hutt_space:{c:'#f4b740',ko:'헛 스페이스'}};
+const ERAKO={dawn_of_the_jedi:'제다이의 여명',high_republic:'하이 리퍼블릭',fall_of_the_jedi:'제다이의 몰락',reign_of_the_empire:'제국의 시대',age_of_rebellion:'반란의 시대',new_republic:'뉴 리퍼블릭',rise_of_the_first_order:'퍼스트 오더의 부상',new_jedi_order:'뉴 제다이 오더'};
+const N=26, PAD=40, SIZE=1000;            // 격자 26x26
+const sc=v=>PAD+(v/N)*(SIZE-2*PAD);       // 격자좌표 → 픽셀
+const svg=d3.select('#map').attr('viewBox',`0 0 ${SIZE} ${SIZE}`);
+const defs=svg.append('defs');
+const gg=defs.append('radialGradient').attr('id','core').attr('cx','50%').attr('cy','50%');
+gg.append('stop').attr('offset','0%').attr('stop-color','#9fb8ff').attr('stop-opacity','.55');
+gg.append('stop').attr('offset','30%').attr('stop-color','#5a78c8').attr('stop-opacity','.18');
+gg.append('stop').attr('offset','100%').attr('stop-color','#04060b').attr('stop-opacity','0');
+const root=svg.append('g');                // 줌 대상
+// ── 은하 배경 (자체 제작 나선팔, IP 안전)
+const bg=root.append('g').attr('opacity',.5);
+bg.append('circle').attr('cx',sc(12)).attr('cy',sc(12)).attr('r',(SIZE-2*PAD)*0.46).attr('fill','url(#core)');
+const cx=sc(12),cy=sc(12);
+for(let arm=0;arm<2;arm++){const pts=[];for(let t=0;t<=60;t++){const a=arm*Math.PI+t*0.13,r=t*6.0;pts.push([cx+r*Math.cos(a),cy+r*Math.sin(a)]);}
+  bg.append('path').attr('d',d3.line().curve(d3.curveBasis)(pts)).attr('fill','none').attr('stroke','#6f8bd0').attr('stroke-width',26).attr('stroke-linecap','round').attr('opacity',.1);}
+// ── 격자 오버레이
+const gridG=root.append('g');
+for(let i=0;i<=N;i++){gridG.append('line').attr('x1',sc(i)).attr('y1',sc(0)).attr('x2',sc(i)).attr('y2',sc(N)).attr('stroke','rgba(255,255,255,.05)');
+  gridG.append('line').attr('x1',sc(0)).attr('y1',sc(i)).attr('x2',sc(N)).attr('y2',sc(i)).attr('stroke','rgba(255,255,255,.05)');}
+for(let i=0;i<N;i++){gridG.append('text').attr('x',sc(i+0.5)).attr('y',sc(0)-8).attr('fill','#5a6473').attr('font-size',9).attr('text-anchor','middle').text(String.fromCharCode(65+i));
+  gridG.append('text').attr('x',sc(0)-10).attr('y',sc(i+0.5)+3).attr('fill','#5a6473').attr('font-size',9).attr('text-anchor','end').text(i+1);}
+const nodeG=root.append('g');
+let LOC=[],EV=[],CH=[],showLabel=true;
+
+Promise.all([d3.json('locations.json'),d3.json('events.json'),d3.json('characters.json')]).then(([loc,ev,ch])=>{
+  LOC=loc.filter(l=>l.gx!=null); EV=ev; CH=ch;
+  document.getElementById('subt').textContent=`행성 ${LOC.length}곳 · 캐넌 격자 ${LOC.filter(l=>l.grid_certainty==='canon').length} · 근사 ${LOC.filter(l=>l.grid_certainty==='approx').length}`;
+  // 중요도(사건+출신인물 수)로 크기
+  const score={}; LOC.forEach(l=>score[l.id]=0);
+  EV.forEach(e=>(e.locations||[]).forEach(id=>{if(score[id]!=null)score[id]+=1.4;}));
+  CH.forEach(c=>{if(c.homeworld&&score[c.homeworld]!=null)score[c.homeworld]+=1;});
+  // 시대 셀렉터
+  const eras=[...new Set(EV.map(e=>e.era))];
+  const sel=document.getElementById('era');
+  Object.keys(ERAKO).filter(e=>eras.includes(e)).forEach(e=>{const o=document.createElement('option');o.value=e;o.textContent=ERAKO[e];sel.appendChild(o);});
+  // 노드
+  const nodes=nodeG.selectAll('g.loc').data(LOC).join('g').attr('class','loc')
+    .attr('transform',d=>`translate(${sc(d.gx)},${sc(d.gy)})`).style('cursor','pointer')
+    .on('click',(e,d)=>{e.stopPropagation();select(d);});
+  nodes.append('circle').attr('class','glow').attr('r',d=>6+Math.min(score[d.id],10)*1.3)
+    .attr('fill',d=>(REGION[d.region]||REGION.outer_rim).c).attr('opacity',.12);
+  nodes.append('circle').attr('class','core').attr('r',d=>3+Math.min(score[d.id],10)*0.8)
+    .attr('fill',d=>(REGION[d.region]||REGION.outer_rim).c)
+    .attr('stroke',d=>d.grid_certainty==='canon'?'#fff':(REGION[d.region]||REGION.outer_rim).c)
+    .attr('stroke-width',d=>d.grid_certainty==='canon'?1:0.8)
+    .attr('stroke-dasharray',d=>d.grid_certainty==='approx'?'2,2':null)
+    .attr('opacity',d=>d.grid_certainty==='canon'?1:.7);
+  nodes.append('text').attr('class','lbl').attr('y',d=>-(6+Math.min(score[d.id],10)*0.8)-3)
+    .attr('text-anchor','middle').attr('fill','#cdd6e2').attr('font-size',8.5).attr('pointer-events','none')
+    .style('paint-order','stroke').attr('stroke','#04060b').attr('stroke-width',2).text(d=>d.name);
+  buildLegend();
+});
+function buildLegend(){
+  const used=[...new Set(LOC.map(l=>l.region))];
+  let h='<h4>권역</h4>';
+  Object.keys(REGION).filter(r=>used.includes(r)).forEach(r=>h+=`<div class="row"><span class="dot" style="background:${REGION[r].c}"></span>${REGION[r].ko}</div>`);
+  h+='<h4 style="margin-top:9px">격자</h4><div class="row"><span class="dot" style="background:#fff"></span>캐넌 정확</div><div class="row"><span class="dot" style="border:1px dashed #8b97a8;background:transparent"></span>권역 근사</div>';
+  document.getElementById('legend').innerHTML=h;
+}
+function select(d){
+  const det=document.getElementById('detail');
+  const evs=EV.filter(e=>(e.locations||[]).includes(d.id)).sort((a,b)=>(a.year_value??0)-(b.year_value??0));
+  const natives=CH.filter(c=>c.homeworld===d.id);
+  const img=(d.external_refs||{}).databank?.image_url;
+  const rc=(REGION[d.region]||REGION.outer_rim);
+  let h=`<span class="close" onclick="document.getElementById('detail').style.display='none'">×</span>`;
+  h+=`<div class="nm">${d.name}</div><div class="en">${d.name_en||''}</div>`;
+  if(img) h+=`<img src="${img}" onerror="this.style.display='none'">`;
+  h+=`<span class="tag" style="background:${rc.c}22;color:${rc.c};border:1px solid ${rc.c}">${rc.ko}</span>`;
+  h+=`<span class="tag" style="background:rgba(255,255,255,.06);color:#cfd6e0">${d.grid?'격자 '+d.grid:'권역 근사'}</span>`;
+  if(d.one_liner) h+=`<div class="ol">${d.one_liner}</div>`;
+  if(d.climate||d.terrain) h+=`<div class="meta">${[d.climate,d.terrain].filter(Boolean).join(' · ')}</div>`;
+  h+=`<h5>이곳에서 벌어진 사건 (${evs.length})</h5>`;
+  h+= evs.length? evs.map(e=>`<div class="item">${e.title} <span class="y">${e.year_label||''}</span></div>`).join('') : `<div class="meta">기록된 사건 없음</div>`;
+  h+=`<h5>이곳 출신 인물 (${natives.length})</h5>`;
+  h+= natives.length? natives.map(c=>`<div class="item">${c.name}</div>`).join('') : `<div class="meta">기록된 인물 없음</div>`;
+  det.innerHTML=h; det.style.display='block';
+}
+// ── 줌
+const zoom=d3.zoom().scaleExtent([0.6,9]).on('zoom',e=>{root.attr('transform',e.transform);
+  const k=e.transform.k; nodeG.selectAll('text.lbl').attr('opacity',(showLabel&&k>1.4)?1:0).attr('font-size',8.5/Math.sqrt(k));});
+svg.call(zoom).on('click',()=>{document.getElementById('detail').style.display='none';});
+nodeG.selectAll('text.lbl').attr('opacity',0);
+// ── 컨트롤
+document.getElementById('gridBtn').onclick=function(){this.classList.toggle('on');gridG.attr('display',this.classList.contains('on')?null:'none');};
+document.getElementById('labelBtn').onclick=function(){this.classList.toggle('on');showLabel=this.classList.contains('on');svg.dispatch('customlbl');};
+svg.on('customlbl',()=>nodeG.selectAll('text.lbl').attr('opacity',showLabel?1:0));
+document.getElementById('resetBtn').onclick=()=>{svg.transition().duration(500).call(zoom.transform,d3.zoomIdentity);document.getElementById('detail').style.display='none';};
+document.getElementById('search').addEventListener('input',function(){const q=this.value.trim().toLowerCase();
+  nodeG.selectAll('g.loc').attr('opacity',d=>!q?1:((d.name+(d.name_en||'')).toLowerCase().includes(q)?1:.12));});
+document.getElementById('era').addEventListener('change',function(){const era=this.value;
+  const lit=new Set(); if(era) EV.filter(e=>e.era===era).forEach(e=>(e.locations||[]).forEach(id=>lit.add(id)));
+  nodeG.selectAll('g.loc').attr('opacity',d=>!era?1:(lit.has(d.id)?1:.12))
+    .select('circle.core').attr('opacity',d=>!era?(d.grid_certainty==='canon'?1:.7):(lit.has(d.id)?1:.2));});
+</script></body></html>
