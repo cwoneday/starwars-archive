@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>은하 지도 3D — 스타워즈 캐넌 아카이브</title>
+<style>
+:root{--panel:rgba(10,15,24,.9);--line:rgba(255,255,255,.09);--dim:#8b97a8;--ink:#e8edf4}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;background:#03040a;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
+#scene{position:fixed;inset:0;touch-action:none;cursor:grab}#scene:active{cursor:grabbing}
+.hud{position:fixed;z-index:10;background:var(--panel);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px;padding:13px 15px}
+#title{top:14px;left:14px;max-width:min(340px,70vw)}
+#title h1{font-size:15px;font-weight:800;letter-spacing:.4px}
+#title .sub{font-size:11px;color:var(--dim);margin-top:5px;line-height:1.5}
+#legend{top:14px;right:14px;font-size:10.5px;line-height:1.8;max-height:80vh;overflow:auto}
+#legend h4{font-size:9px;letter-spacing:1.4px;color:var(--dim);text-transform:uppercase;margin:2px 0 4px}
+#legend .row{display:flex;align-items:center;gap:7px}
+#legend .au{width:13px;height:13px;border-radius:50%;flex:none;filter:blur(1px)}
+#legend .star{width:9px;height:9px;border-radius:50%;background:#fff;flex:none;box-shadow:0 0 6px #fff}
+#ctrls{bottom:14px;left:14px;display:flex;gap:7px;flex-wrap:wrap;align-items:center;max-width:min(560px,92vw)}
+.btn{background:rgba(255,255,255,.06);border:1px solid var(--line);color:#cfd8e3;border-radius:9px;padding:6px 10px;font-size:11px;cursor:pointer;font-weight:600;white-space:nowrap}
+.btn:hover{background:rgba(255,255,255,.12)}.btn.on{background:#5aa9ff;color:#03040a;border-color:#5aa9ff}
+a.btn{text-decoration:none}
+#era,#search{background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--ink);border-radius:9px;padding:6px 9px;font-size:11px}#search{width:120px}
+#detail{bottom:14px;right:14px;max-width:min(330px,82vw);max-height:74vh;overflow:auto;display:none}
+#detail .nm{font-size:17px;font-weight:800}#detail .en{font-size:11px;color:var(--dim)}
+#detail img{width:100%;height:120px;object-fit:cover;border-radius:9px;margin:9px 0;border:1px solid var(--line)}
+#detail .tag{display:inline-block;font-size:10px;padding:2px 9px;border-radius:20px;margin:4px 4px 0 0;font-weight:700}
+#detail .ol{font-size:12px;line-height:1.6;margin-top:8px;color:#cfd6e0}
+#detail .meta{font-size:11px;color:var(--dim);margin-top:7px}
+#detail h5{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--dim);margin:12px 0 5px}
+#detail .item{font-size:11.5px;padding:3px 0;border-bottom:1px solid var(--line)}#detail .item .y{color:var(--dim);font-size:10px}
+.close{float:right;cursor:pointer;color:var(--dim);font-size:18px;line-height:1}
+#hint{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:9;font-size:10px;color:var(--dim);background:var(--panel);padding:5px 13px;border-radius:20px;border:1px solid var(--line)}
+@media(max-width:640px){#hint{display:none}#legend{font-size:9.5px}}
+</style></head><body>
+<canvas id="scene"></canvas>
+<div id="title" class="hud"><h1>🌌 은하 지도 · 3D</h1><div class="sub" id="subt">불러오는 중…</div></div>
+<div id="legend" class="hud"></div>
+<div id="ctrls" class="hud">
+  <input id="search" placeholder="행성 검색…">
+  <select id="era"><option value="">모든 시대</option></select>
+  <button class="btn on" id="rotBtn">자동 표류</button>
+  <button class="btn on" id="labelBtn">이름</button>
+  <button class="btn" id="resetBtn">시점 초기화</button>
+  <a class="btn" href="galaxy-map.html">2D 지도</a>
+</div>
+<div id="detail" class="hud"></div>
+<div id="hint">🖱️ 드래그=회전 · 휠=확대 · 행성 클릭=상세</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const BLOC={
+ empire:{c:'#ff4d4d',ko:'제국·시스',f:['galactic-empire','first-order','final-order','sith','inquisitorius']},
+ republic:{c:'#4da9ff',ko:'공화국·반란',f:['galactic-republic','rebel-alliance','resistance','new-republic','jedi-order','hidden-path']},
+ separatist:{c:'#c97aff',ko:'분리주의',f:['confederacy-of-independent-systems','trade-federation']},
+ mando:{c:'#ff9a3a',ko:'만달로어',f:['mandalorians']},
+ syndicate:{c:'#d4af37',ko:'범죄 신디케이트',f:['hutt-cartel','crimson-dawn','pyke-syndicate']},
+ fringe:{c:'#8fd44a',ko:'변경 위협',f:['nihil','nightsisters']}};
+const FAC2BLOC={};Object.entries(BLOC).forEach(([k,v])=>v.f.forEach(f=>FAC2BLOC[f]=k));
+const REGION_KO={deep_core:'딥 코어',core:'코어',colonies:'콜로니',inner_rim:'이너 림',expansion_region:'익스팬션',mid_rim:'미드 림',outer_rim:'아우터 림',unknown_regions:'미지 영역',wild_space:'와일드 스페이스',hutt_space:'헛 스페이스'};
+const ERAKO={dawn_of_the_jedi:'제다이의 여명',high_republic:'하이 리퍼블릭',fall_of_the_jedi:'제다이의 몰락',reign_of_the_empire:'제국의 시대',age_of_rebellion:'반란의 시대',new_republic:'뉴 리퍼블릭',rise_of_the_first_order:'퍼스트 오더의 부상',new_jedi_order:'뉴 제다이 오더'};
+const S=3.0; // 격자 한 칸 = 3 유닛
+function hash(s){let h=0;for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))>>>0;return h;}
+
+const cv=document.getElementById('scene');
+const renderer=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+const scene=new THREE.Scene();
+const camera=new THREE.PerspectiveCamera(55,innerWidth/innerHeight,.1,4000);
+
+// ── 텍스처 (소프트 글로우)
+function glowTex(){const c=document.createElement('canvas');c.width=c.height=128;const x=c.getContext('2d');
+ const g=x.createRadialGradient(64,64,0,64,64,64);g.addColorStop(0,'rgba(255,255,255,1)');g.addColorStop(.25,'rgba(255,255,255,.55)');g.addColorStop(1,'rgba(255,255,255,0)');
+ x.fillStyle=g;x.fillRect(0,0,128,128);return new THREE.CanvasTexture(c);}
+const TEX=glowTex();
+
+// ── 별빛 배경 (2겹 시차)
+function starLayer(n,r0,r1,size,col,op){const geo=new THREE.BufferGeometry(),p=new Float32Array(n*3);
+ for(let i=0;i<n;i++){const r=r0+Math.random()*(r1-r0),t=Math.random()*Math.PI*2,ph=Math.acos(2*Math.random()-1);
+  p[i*3]=r*Math.sin(ph)*Math.cos(t);p[i*3+1]=r*Math.cos(ph)*0.6;p[i*3+2]=r*Math.sin(ph)*Math.sin(t);}
+ geo.setAttribute('position',new THREE.BufferAttribute(p,3));
+ const pts=new THREE.Points(geo,new THREE.PointsMaterial({color:col,size:size,map:TEX,transparent:true,opacity:op,depthWrite:false,blending:THREE.AdditiveBlending}));
+ scene.add(pts);return pts;}
+const starsFar=starLayer(1600,160,500,2.4,0x88a0d8,.7);
+const starsNear=starLayer(700,80,180,3.2,0xbcd0ff,.85);
+
+// ── NASA 은하 디스크 (있으면 평면에 깔기, 없으면 절차적 코어 글로우)
+const tl=new THREE.TextureLoader();
+tl.load('assets/galaxy.jpg',tex=>{const geo=new THREE.PlaneGeometry(130,130);
+ const mat=new THREE.MeshBasicMaterial({map:tex,transparent:true,opacity:.55,depthWrite:false,blending:THREE.AdditiveBlending});
+ const m=new THREE.Mesh(geo,mat);m.rotation.x=-Math.PI/2;m.position.y=-1;scene.add(m);},undefined,()=>{
+ // 폴백: 디스크 평면에 코어 글로우 스프라이트
+ const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:TEX,color:0x6f8bd0,transparent:true,opacity:.4,depthWrite:false,blending:THREE.AdditiveBlending}));
+ sp.scale.set(120,120,1);sp.position.y=-1;scene.add(sp);
+ // 절차적 나선 점
+ const arm=new THREE.BufferGeometry(),AN=900,p=new Float32Array(AN*3);
+ for(let i=0;i<AN;i++){const t=Math.random()*60,a=(i%2)*Math.PI+t*0.13+ (Math.random()-.5)*0.4,r=t*0.9;
+  p[i*3]=r*Math.cos(a)*S*0.55;p[i*3+1]=(Math.random()-.5)*2;p[i*3+2]=r*Math.sin(a)*S*0.55;}
+ arm.setAttribute('position',new THREE.BufferAttribute(p,3));
+ scene.add(new THREE.Points(arm,new THREE.PointsMaterial({color:0x7e96d8,size:1.5,map:TEX,transparent:true,opacity:.5,depthWrite:false,blending:THREE.AdditiveBlending})));});
+
+// ── 떠다니는 성운 (은은한 표류)
+const nebs=[];[['#3a5fb0',60],['#7a3a9a',46],['#2f7a8a',52]].forEach(([col,sz],i)=>{
+ const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:TEX,color:new THREE.Color(col),transparent:true,opacity:.12,depthWrite:false,blending:THREE.AdditiveBlending}));
+ sp.scale.set(sz,sz,1);sp.position.set((i-1)*28,(Math.random()-.5)*8,(i-1)*20);sp._ph=Math.random()*9;scene.add(sp);nebs.push(sp);});
+
+const labelGrp=new THREE.Group();scene.add(labelGrp);
+let LOC=[],EV=[],CH=[],planets=[],showLabel=true;
+
+Promise.all([fetch('locations.json').then(r=>r.json()),fetch('events.json').then(r=>r.json()),fetch('characters.json').then(r=>r.json())])
+.then(([loc,ev,ch])=>{
+ LOC=loc.filter(l=>l.gx!=null);EV=ev;CH=ch;
+ const tally={};EV.forEach(e=>(e.locations||[]).forEach(id=>{(e.factions||[]).forEach(f=>{(tally[id]=tally[id]||{})[f]=(tally[id][f]||0)+1;});}));
+ const score={};LOC.forEach(l=>{score[l.id]=0;const t=tally[l.id];
+  if(t){const top=Object.entries(t).sort((a,b)=>b[1]-a[1])[0][0];l._fac=top;l._bloc=FAC2BLOC[top]||null;}else l._bloc=null;});
+ EV.forEach(e=>(e.locations||[]).forEach(id=>{if(score[id]!=null)score[id]+=1.4;}));
+ CH.forEach(c=>{if(c.homeworld&&score[c.homeworld]!=null)score[c.homeworld]+=1;});
+ document.getElementById('subt').textContent=`행성 ${LOC.length}곳 · 캐넌 격자 ${LOC.filter(l=>l.grid_certainty==='canon').length} · 근사 ${LOC.filter(l=>l.grid_certainty==='approx').length}`;
+ const sel=document.getElementById('era'),eras=[...new Set(EV.map(e=>e.era))];
+ Object.keys(ERAKO).filter(e=>eras.includes(e)).forEach(e=>{const o=document.createElement('option');o.value=e;o.textContent=ERAKO[e];sel.appendChild(o);});
+
+ LOC.forEach(l=>{
+  const base=1.0+Math.min(score[l.id],11)*0.16;
+  const rr=Math.hypot(l.gx-12,l.gy-12);
+  const thick=(6*Math.exp(-rr/8)+1.2);             // 코어 벌지 두껍게
+  const hy=((hash(l.id)%1000)/1000-0.5)*2*thick;   // 디스크 두께(결정적)
+  const pos=new THREE.Vector3((l.gx-12)*S,hy,(l.gy-12)*S);
+  const grp=new THREE.Group();grp.position.copy(pos);
+  // 세력 오로라
+  if(l._bloc){const a=new THREE.Sprite(new THREE.SpriteMaterial({map:TEX,color:new THREE.Color(BLOC[l._bloc].c),transparent:true,opacity:.5,depthWrite:false,blending:THREE.AdditiveBlending}));
+   a.scale.set(base*9,base*9,1);grp.add(a);l._aur=a;}
+  // 별 글로우
+  const gl=new THREE.Sprite(new THREE.SpriteMaterial({map:TEX,color:0xcfe0ff,transparent:true,opacity:l.grid_certainty==='canon'?.7:.45,depthWrite:false,blending:THREE.AdditiveBlending}));
+  gl.scale.set(base*4.5,base*4.5,1);grp.add(gl);
+  // 별 코어 (반짝임)
+  const co=new THREE.Sprite(new THREE.SpriteMaterial({map:TEX,color:0xffffff,transparent:true,opacity:l.grid_certainty==='canon'?.98:.6,depthWrite:false,blending:THREE.AdditiveBlending}));
+  co.scale.set(base*1.9,base*1.9,1);grp.add(co);
+  l._core=co;l._glow=gl;l._base=base;l._ph=(hash(l.id)%628)/100;l._pos=pos;
+  grp.userData=l;scene.add(grp);planets.push(grp);
+  // 라벨
+  const lab=makeLabel(l.name);lab.position.copy(pos).y+=base*3+1.5;lab.userData=l;labelGrp.add(lab);l._label=lab;
+ });
+ buildLegend();
+});
+function makeLabel(txt){const c=document.createElement('canvas'),x=c.getContext('2d');
+ x.font='600 38px -apple-system,Noto Sans KR,sans-serif';const w=x.measureText(txt).width;c.width=w+30;c.height=52;
+ x.font='600 38px -apple-system,Noto Sans KR,sans-serif';x.fillStyle='rgba(3,4,10,.5)';x.fillRect(0,0,c.width,c.height);
+ x.fillStyle='#dde6f2';x.textBaseline='middle';x.fillText(txt,15,28);
+ const t=new THREE.CanvasTexture(c);t.minFilter=THREE.LinearFilter;
+ const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:t,transparent:true,depthWrite:false,depthTest:false}));
+ sp.scale.set(c.width/52*2.4,2.4,1);return sp;}
+function buildLegend(){const used=new Set(LOC.map(l=>l._bloc).filter(Boolean));let h='<h4>세력 오로라</h4>';
+ Object.entries(BLOC).filter(([k])=>used.has(k)).forEach(([k,v])=>h+=`<div class="row"><span class="au" style="background:${v.c}"></span>${v.ko}</div>`);
+ h+='<div class="row"><span class="au" style="background:transparent;border:1px dashed #556"></span>세력 미상</div>';
+ h+='<h4 style="margin-top:9px">행성</h4><div class="row"><span class="star"></span>밝을수록 사건·인물 많음</div>';
+ document.getElementById('legend').innerHTML=h;}
+
+// ── 오빗 컨트롤 (측면 45° 기울기 디폴트)
+const ROLL=THREE.MathUtils.degToRad(45);
+const upVec=new THREE.Vector3(Math.sin(ROLL),Math.cos(ROLL),0);
+const DEF={theta:0.55,phi:1.15,radius:96};
+let rot={...DEF};const target=new THREE.Vector3(0,0,0);
+function updateCam(){const r=rot.radius;
+ camera.position.set(target.x+r*Math.sin(rot.phi)*Math.cos(rot.theta),target.y+r*Math.cos(rot.phi),target.z+r*Math.sin(rot.phi)*Math.sin(rot.theta));
+ camera.up.copy(upVec);camera.lookAt(target);}
+updateCam();
+let drag=false,lx=0,ly=0,moved=0;
+cv.addEventListener('pointerdown',e=>{drag=true;lx=e.clientX;ly=e.clientY;moved=0;cv.setPointerCapture(e.pointerId);});
+cv.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-lx,dy=e.clientY-ly;moved+=Math.abs(dx)+Math.abs(dy);
+ rot.theta-=dx*.005;rot.phi-=dy*.005;rot.phi=Math.max(.18,Math.min(Math.PI-.18,rot.phi));lx=e.clientX;ly=e.clientY;});
+cv.addEventListener('pointerup',e=>{drag=false;if(moved<6)pick(e);});
+cv.addEventListener('wheel',e=>{e.preventDefault();rot.radius*=(1+Math.sign(e.deltaY)*.08);rot.radius=Math.max(28,Math.min(320,rot.radius));},{passive:false});
+
+// ── 클릭 → 상세
+const ray=new THREE.Raycaster(),mouse=new THREE.Vector2();
+function pick(e){mouse.x=(e.clientX/innerWidth)*2-1;mouse.y=-(e.clientY/innerHeight)*2+1;
+ ray.setFromCamera(mouse,camera);ray.params.Sprite={threshold:0};
+ const cores=planets.map(g=>g.userData._core);const hit=ray.intersectObjects(cores,false);
+ if(hit.length){select(hit[0].object.parent.userData);}else{document.getElementById('detail').style.display='none';}}
+function select(d){const det=document.getElementById('detail');
+ const evs=EV.filter(e=>(e.locations||[]).includes(d.id)).sort((a,b)=>(a.year_value??0)-(b.year_value??0));
+ const natives=CH.filter(c=>c.homeworld===d.id);const img=(d.external_refs||{}).databank?.image_url;
+ let h=`<span class="close" onclick="document.getElementById('detail').style.display='none'">×</span>`;
+ h+=`<div class="nm">${d.name}</div><div class="en">${d.name_en||''}</div>`;
+ if(img) h+=`<img src="${img}" onerror="this.style.display='none'">`;
+ if(d._bloc){const b=BLOC[d._bloc];h+=`<span class="tag" style="background:${b.c}22;color:${b.c};border:1px solid ${b.c}">세력: ${b.ko}</span>`;}
+ h+=`<span class="tag" style="background:rgba(255,255,255,.06);color:#cfd6e0">${REGION_KO[d.region]||'권역 미상'}</span>`;
+ h+=`<span class="tag" style="background:rgba(255,255,255,.06);color:#cfd6e0">${d.grid?'격자 '+d.grid:'권역 근사'}</span>`;
+ if(d.one_liner) h+=`<div class="ol">${d.one_liner}</div>`;
+ if(d.climate||d.terrain) h+=`<div class="meta">${[d.climate,d.terrain].filter(Boolean).join(' · ')}</div>`;
+ h+=`<h5>이곳에서 벌어진 사건 (${evs.length})</h5>`+(evs.length?evs.map(e=>`<div class="item">${e.title} <span class="y">${e.year_label||''}</span></div>`).join(''):`<div class="meta">기록된 사건 없음</div>`);
+ h+=`<h5>이곳 출신 인물 (${natives.length})</h5>`+(natives.length?natives.map(c=>`<div class="item">${c.name}</div>`).join(''):`<div class="meta">기록된 인물 없음</div>`);
+ det.innerHTML=h;det.style.display='block';}
+
+// ── 컨트롤 버튼
+let auto=true;
+document.getElementById('rotBtn').onclick=function(){auto=!auto;this.classList.toggle('on',auto);};
+document.getElementById('labelBtn').onclick=function(){showLabel=!showLabel;this.classList.toggle('on',showLabel);};
+document.getElementById('resetBtn').onclick=()=>{rot={...DEF};document.getElementById('detail').style.display='none';};
+document.getElementById('search').addEventListener('input',function(){const q=this.value.trim().toLowerCase();
+ planets.forEach(g=>{const d=g.userData,on=!q||((d.name+(d.name_en||'')).toLowerCase().includes(q));
+  g.visible=on;d._label.visible=on&&showLabel&&_lblOn;});});
+document.getElementById('era').addEventListener('change',function(){const era=this.value;const lit=new Set();
+ if(era) EV.filter(e=>e.era===era).forEach(e=>(e.locations||[]).forEach(id=>lit.add(id)));
+ planets.forEach(g=>{const d=g.userData,on=!era||lit.has(d.id);
+  if(d._aur)d._aur.material.opacity=on?.5:.06; d._glow.material.opacity=on?(d.grid_certainty==='canon'?.7:.45):.08;
+  d._core.material.opacity=on?(d.grid_certainty==='canon'?.98:.6):.12; d._dim=!on;});});
+
+addEventListener('resize',()=>{renderer.setSize(innerWidth,innerHeight);camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();});
+renderer.setSize(innerWidth,innerHeight);
+
+let _lblOn=false;const clock=new THREE.Clock();
+(function loop(){requestAnimationFrame(loop);const t=clock.getElapsedTime();
+ if(auto&&!drag) rot.theta+=0.0006;                    // 자동 표류
+ target.y=Math.sin(t*0.18)*1.4;                         // 부드러운 부유
+ updateCam();
+ starsFar.rotation.y=t*0.005; starsNear.rotation.y=t*0.009;  // 시차
+ nebs.forEach((n,i)=>{n.position.x+=Math.sin(t*0.05+n._ph)*0.006;n.material.opacity=.10+0.04*Math.sin(t*0.2+n._ph);});
+ // 별 반짝임 + 라벨 가시성(줌·정면도)
+ _lblOn = showLabel && rot.radius<80;
+ planets.forEach(g=>{const d=g.userData;if(d._dim)return;
+  const tw=0.7+0.3*Math.sin(t*1.6+d._ph); d._core.material.opacity=(d.grid_certainty==='canon'?.98:.6)*tw;
+  d._label.visible=_lblOn&&g.visible;});
+ renderer.render(scene,camera);})();
+</script></body></html>
