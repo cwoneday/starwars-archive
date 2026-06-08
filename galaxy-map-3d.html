@@ -8,10 +8,10 @@
 html,body{height:100%;overflow:hidden;background:#03040a;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
 #scene{position:fixed;inset:0;touch-action:none;cursor:grab}#scene:active{cursor:grabbing}
 .hud{position:fixed;z-index:10;background:var(--panel);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px;padding:13px 15px}
-#title{top:14px;left:14px;max-width:min(340px,70vw)}
+#title{top:56px;left:14px;max-width:min(340px,70vw)}
 #title h1{font-size:15px;font-weight:800;letter-spacing:.4px}
 #title .sub{font-size:11px;color:var(--dim);margin-top:5px;line-height:1.5}
-#legend{top:14px;right:14px;font-size:10.5px;line-height:1.8;max-height:80vh;overflow:auto}
+#legend{top:56px;right:14px;font-size:10.5px;line-height:1.8;max-height:80vh;overflow:auto}
 #legend h4{font-size:9px;letter-spacing:1.4px;color:var(--dim);text-transform:uppercase;margin:2px 0 4px}
 #legend .row{display:flex;align-items:center;gap:7px}
 #legend .au{width:13px;height:13px;border-radius:50%;flex:none;filter:blur(1px)}
@@ -32,7 +32,17 @@ a.btn{text-decoration:none}
 .close{float:right;cursor:pointer;color:var(--dim);font-size:18px;line-height:1}
 #hint{position:fixed;bottom:14px;left:50%;transform:translateX(-50%);z-index:9;font-size:10px;color:var(--dim);background:var(--panel);padding:5px 13px;border-radius:20px;border:1px solid var(--line)}
 @media(max-width:640px){#hint{display:none}#legend{font-size:9.5px}}
+
+.site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:ui-monospace,'JetBrains Mono',monospace;box-sizing:border-box}
+.site-nav .brand{color:#45d4e3;font-weight:700;font-size:12px;letter-spacing:.12em;text-decoration:none;white-space:nowrap}
+.site-nav .links{display:flex;gap:4px;flex-wrap:wrap;overflow:hidden}
+.site-nav .links a{color:#8b97a8;font-size:12px;letter-spacing:.03em;text-decoration:none;padding:6px 11px;border-radius:6px;white-space:nowrap;border:1px solid transparent}
+.site-nav .links a:hover{color:#dce4ee;background:rgba(255,255,255,.06)}
+.site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
+.site-nav .nav-search{color:#45d4e3;border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600}
+@media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 </style></head><body>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-map.html" class=" active">은하지도</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <canvas id="scene"></canvas>
 <div id="title" class="hud"><h1>🌌 은하 지도 · 3D</h1><div class="sub" id="subt">불러오는 중…</div></div>
 <div id="legend" class="hud"></div>
@@ -155,9 +165,9 @@ function buildLegend(){const used=new Set(LOC.map(l=>l._bloc).filter(Boolean));l
  document.getElementById('legend').innerHTML=h;}
 
 // ── 오빗 컨트롤 (측면 45° 기울기 디폴트)
-const ROLL=THREE.MathUtils.degToRad(45);
+const ROLL=THREE.MathUtils.degToRad(-20);
 const upVec=new THREE.Vector3(Math.sin(ROLL),Math.cos(ROLL),0);
-const DEF={theta:0.55,phi:1.15,radius:96};
+const DEF={theta:0.55,phi:1.15,radius:64};
 let rot={...DEF};const target=new THREE.Vector3(0,0,0);
 function updateCam(){const r=rot.radius;
  camera.position.set(target.x+r*Math.sin(rot.phi)*Math.cos(rot.theta),target.y+r*Math.cos(rot.phi),target.z+r*Math.sin(rot.phi)*Math.sin(rot.theta));
@@ -210,7 +220,7 @@ renderer.setSize(innerWidth,innerHeight);
 
 let _lblOn=false;const clock=new THREE.Clock();
 (function loop(){requestAnimationFrame(loop);const t=clock.getElapsedTime();
- if(auto&&!drag) rot.theta+=0.0006;                    // 자동 표류
+ if(auto&&!drag) rot.theta+=0.0003;                    // 자동 표류
  target.y=Math.sin(t*0.18)*1.4;                         // 부드러운 부유
  updateCam();
  starsFar.rotation.y=t*0.005; starsNear.rotation.y=t*0.009;  // 시차

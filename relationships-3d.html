@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>핵심 인물 관계망 — 3D</title>
+<style>
+:root{--light:#5aa9ff;--dark:#ff5a4d;--neutral:#c2a86a;--bg:#04060b;--panel:rgba(12,17,26,.88);--dim:#8b97a8;--line:rgba(255,255,255,.1)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:#e8edf4;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
+#scene{position:fixed;inset:0;touch-action:none;cursor:grab}
+#scene:active{cursor:grabbing}
+.hud{position:fixed;z-index:10;background:var(--panel);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+#title{top:56px;left:16px;max-width:min(360px,72vw)}
+#title h1{font-size:16px;font-weight:800;letter-spacing:.3px}
+#title .sub{font-size:11px;color:var(--dim);margin-top:5px;line-height:1.5}
+#legend{top:56px;right:16px;font-size:11px;line-height:1.9}
+#legend .row{display:flex;align-items:center;gap:7px}
+#legend .sw{width:18px;height:3px;border-radius:2px;flex:none}
+#legend .dot{width:11px;height:11px;border-radius:50%;flex:none}
+#legend h4{font-size:9px;letter-spacing:1.5px;color:var(--dim);text-transform:uppercase;margin:8px 0 4px}
+#ctrls{bottom:16px;left:16px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:11px;color:var(--dim)}
+.btn{background:rgba(255,255,255,.06);border:1px solid var(--line);color:#cfd8e3;border-radius:9px;padding:7px 11px;font-size:11px;cursor:pointer;font-weight:600}
+.btn:hover{background:rgba(255,255,255,.12)}
+.btn.on{background:var(--light);color:#04060b;border-color:var(--light)}
+a.btn{text-decoration:none}
+#detail{bottom:16px;right:16px;max-width:min(320px,80vw);display:none}
+#detail .nm{font-size:17px;font-weight:800}
+#detail .tag{display:inline-block;font-size:10px;padding:2px 9px;border-radius:20px;margin-top:7px;font-weight:700}
+#detail .meta{font-size:11px;color:var(--dim);margin-top:8px;line-height:1.6}
+#detail .rels{margin-top:11px;font-size:12px}
+#detail .rels .grp{margin-bottom:7px}
+#detail .rels .gl{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--dim);margin-bottom:2px}
+#detail .rels .item{display:inline-block;background:rgba(255,255,255,.05);border-radius:7px;padding:2px 8px;margin:2px 3px 0 0;font-size:11px}
+#hint{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);z-index:9;font-size:10px;color:var(--dim);background:var(--panel);padding:6px 14px;border-radius:20px;border:1px solid var(--line);white-space:nowrap}
+@media(max-width:640px){#legend{font-size:10px;padding:10px}#hint{display:none}#title{max-width:60vw}}
+
+.site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:ui-monospace,'JetBrains Mono',monospace;box-sizing:border-box}
+.site-nav .brand{color:#45d4e3;font-weight:700;font-size:12px;letter-spacing:.12em;text-decoration:none;white-space:nowrap}
+.site-nav .links{display:flex;gap:4px;flex-wrap:wrap;overflow:hidden}
+.site-nav .links a{color:#8b97a8;font-size:12px;letter-spacing:.03em;text-decoration:none;padding:6px 11px;border-radius:6px;white-space:nowrap;border:1px solid transparent}
+.site-nav .links a:hover{color:#dce4ee;background:rgba(255,255,255,.06)}
+.site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
+.site-nav .nav-search{color:#45d4e3;border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600}
+@media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
+</style></head><body>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-map.html">은하지도</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html" class=" active">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<canvas id="scene"></canvas>
+<div id="title" class="hud"><h1>핵심 인물 관계망 · 3D</h1>
+<div class="sub">22인 · 관계 38 · 드래그로 자유 회전 · 휠로 확대 · 노드 클릭</div></div>
+<div id="legend" class="hud">
+<h4>정렬</h4>
+<div class="row"><span class="dot" style="background:#5aa9ff"></span>라이트</div>
+<div class="row"><span class="dot" style="background:#ff5a4d"></span>다크</div>
+<div class="row"><span class="dot" style="background:#c2a86a"></span>중립</div>
+<h4>관계</h4>
+<div class="row"><span class="sw" style="background:#ff79c6"></span>가족</div>
+<div class="row"><span class="sw" style="background:#45d4e3"></span>사제</div>
+<div class="row"><span class="sw" style="background:#7ee787"></span>동맹</div>
+<div class="row"><span class="sw" style="background:#f4b740"></span>적대</div></div>
+<div id="ctrls" class="hud">
+<button class="btn on" id="rotBtn">자동 회전</button>
+<button class="btn" id="resetBtn">시점 초기화</button>
+<a class="btn" href="relationships.html">← 2D 보기</a></div>
+<div id="detail" class="hud"></div>
+<div id="hint">🖱️ 드래그 = 회전 · 휠 = 확대/축소 · 노드 클릭 = 상세</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const NODES = [
+  {id:"anakin",kr:"아나킨 / 베이더",align:"dark",era:"제다이의 몰락 · 제국의 시대",h:"188",m:"84",b:"41.9BBY",g:"male",home:"타투인",films:[4,5,6,1,2,3],note:"다스 베이더 슈트 착용 시 202cm · 136kg"},
+  {id:"luke",kr:"루크 스카이워커",align:"light",era:"반란의 시대",h:"172",m:"77",b:"19BBY",g:"male",home:"타투인",films:[1,2,3,6]},
+  {id:"leia",kr:"레이아 오르가나",align:"light",era:"반란의 시대",h:"150",m:"49",b:"19BBY",g:"female",home:"알데란",films:[1,2,3,6]},
+  {id:"han",kr:"한 솔로",align:"neutral",era:"반란의 시대",h:"180",m:"80",b:"29BBY",g:"male",home:"코렐리아",films:[1,2,3]},
+  {id:"obiwan",kr:"오비완 케노비",align:"light",era:"제다이의 몰락",h:"182",m:"77",b:"57BBY",g:"male",home:"스튜존",films:[1,2,3,4,5,6]},
+  {id:"padme",kr:"파드메 아미달라",align:"neutral",era:"제다이의 몰락",h:"185",m:"45",b:"46BBY",g:"female",home:"나부",films:[4,5,6]},
+  {id:"yoda",kr:"요다",align:"light",era:"하이 리퍼블릭~",h:"66",m:"17",b:"896BBY",g:"male",home:"불명",films:[2,3,4,5,6]},
+  {id:"quigon",kr:"퀴곤 진",align:"light",era:"제다이의 몰락",h:"193",m:"89",b:"92BBY",g:"male",home:"불명",films:[4]},
+  {id:"mace",kr:"메이스 윈두",align:"light",era:"제다이의 몰락",h:"188",m:"84",b:"72BBY",g:"male",home:"하룬 칼",films:[4,5,6]},
+  {id:"palpatine",kr:"팰퍼틴 / 시디어스",align:"dark",era:"제국의 시대",h:"170",m:"75",b:"82BBY",g:"male",home:"나부",films:[2,3,4,5,6]},
+  {id:"maul",kr:"다스 몰",align:"dark",era:"제다이의 몰락",h:"175",m:"80",b:"54BBY",g:"male",home:"다소미르",films:[4]},
+  {id:"dooku",kr:"두쿠 백작",align:"dark",era:"제다이의 몰락",h:"193",m:"80",b:"102BBY",g:"male",home:"세레노",films:[5,6]},
+  {id:"grievous",kr:"그리버스 장군",align:"dark",era:"제다이의 몰락",h:"216",m:"159",b:"불명",g:"male",home:"칼리",films:[6]},
+  {id:"ahsoka",kr:"아소카 타노",align:"light",era:"제다이의 몰락",avail:false},
+  {id:"chewbacca",kr:"추바카",align:"neutral",era:"반란의 시대",h:"228",m:"112",b:"200BBY",g:"male",home:"카시크",films:[1,2,3,6]},
+  {id:"lando",kr:"랜도 칼리시안",align:"neutral",era:"반란의 시대",h:"177",m:"79",b:"31BBY",g:"male",home:"소코로",films:[2,3]},
+  {id:"r2d2",kr:"R2-D2",align:"neutral",era:"전 시대",h:"96",m:"32",b:"33BBY",g:"droid",home:"나부",films:[1,2,3,4,5,6]},
+  {id:"c3po",kr:"C-3PO",align:"neutral",era:"전 시대",h:"167",m:"75",b:"112BBY",g:"droid",home:"타투인",films:[1,2,3,4,5,6]},
+  {id:"rey",kr:"레이",align:"light",era:"뉴 제다이 오더",avail:false},
+  {id:"kylo",kr:"카일로 렌 / 벤 솔로",align:"dark",era:"퍼스트 오더",avail:false},
+  {id:"finn",kr:"핀",align:"light",era:"퍼스트 오더",avail:false},
+  {id:"snoke",kr:"스노크",align:"dark",era:"퍼스트 오더",avail:false}
+];
+const LINKS = [
+  {s:"anakin",t:"luke",type:"family"},
+  {s:"anakin",t:"leia",type:"family"},
+  {s:"anakin",t:"padme",type:"family"},
+  {s:"luke",t:"leia",type:"family"},
+  {s:"leia",t:"han",type:"family"},
+  {s:"leia",t:"kylo",type:"family"},
+  {s:"han",t:"kylo",type:"family"},
+  {s:"anakin",t:"kylo",type:"family"},
+
+  {s:"obiwan",t:"anakin",type:"master"},
+  {s:"quigon",t:"obiwan",type:"master"},
+  {s:"dooku",t:"quigon",type:"master"},
+  {s:"yoda",t:"dooku",type:"master"},
+  {s:"palpatine",t:"anakin",type:"master"},
+  {s:"palpatine",t:"dooku",type:"master"},
+  {s:"palpatine",t:"maul",type:"master"},
+  {s:"yoda",t:"luke",type:"master"},
+  {s:"obiwan",t:"luke",type:"master"},
+  {s:"anakin",t:"ahsoka",type:"master"},
+  {s:"palpatine",t:"snoke",type:"master"},
+  {s:"snoke",t:"kylo",type:"master"},
+
+  {s:"han",t:"luke",type:"ally"},
+  {s:"han",t:"chewbacca",type:"ally"},
+  {s:"han",t:"lando",type:"ally"},
+  {s:"luke",t:"r2d2",type:"ally"},
+  {s:"r2d2",t:"c3po",type:"ally"},
+  {s:"anakin",t:"r2d2",type:"ally"},
+  {s:"rey",t:"finn",type:"ally"},
+  {s:"obiwan",t:"yoda",type:"ally"},
+  {s:"mace",t:"yoda",type:"ally"},
+  {s:"leia",t:"chewbacca",type:"ally"},
+  {s:"rey",t:"chewbacca",type:"ally"},
+
+  {s:"obiwan",t:"maul",type:"rival"},
+  {s:"mace",t:"palpatine",type:"rival"},
+  {s:"anakin",t:"dooku",type:"rival"},
+  {s:"obiwan",t:"grievous",type:"rival"},
+  {s:"anakin",t:"grievous",type:"rival"},
+  {s:"rey",t:"kylo",type:"rival"},
+  {s:"luke",t:"palpatine",type:"rival"}
+];
+const ALIGN={light:'#5aa9ff',dark:'#ff5a4d',neutral:'#c2a86a'};
+const REL={family:{c:'#ff79c6',ko:'가족'},master:{c:'#45d4e3',ko:'사제'},ally:{c:'#7ee787',ko:'동맹'},rival:{c:'#f4b740',ko:'적대'}};
+const nodeById={}; NODES.forEach(n=>nodeById[n.id]=n);
+const deg={}; LINKS.forEach(l=>{deg[l.s]=(deg[l.s]||0)+1;deg[l.t]=(deg[l.t]||0)+1;});
+// 연결 맵
+const conn={}; NODES.forEach(n=>conn[n.id]=[]);
+LINKS.forEach(l=>{ if(nodeById[l.s]&&nodeById[l.t]){conn[l.s].push({o:l.t,t:l.type});conn[l.t].push({o:l.s,t:l.type});}});
+
+// ── 3D 포스 레이아웃 (사전 계산) ──
+NODES.forEach(n=>{n.x=(Math.random()-.5)*70;n.y=(Math.random()-.5)*70;n.z=(Math.random()-.5)*70;});
+for(let it=0;it<450;it++){
+  for(let i=0;i<NODES.length;i++)for(let j=i+1;j<NODES.length;j++){
+    const a=NODES[i],b=NODES[j];let dx=a.x-b.x,dy=a.y-b.y,dz=a.z-b.z;
+    let d2=dx*dx+dy*dy+dz*dz+.1,d=Math.sqrt(d2),f=150/d2;dx/=d;dy/=d;dz/=d;
+    a.x+=dx*f;a.y+=dy*f;a.z+=dz*f;b.x-=dx*f;b.y-=dy*f;b.z-=dz*f;
+  }
+  LINKS.forEach(l=>{const a=nodeById[l.s],b=nodeById[l.t];if(!a||!b)return;
+    let dx=b.x-a.x,dy=b.y-a.y,dz=b.z-a.z,d=Math.sqrt(dx*dx+dy*dy+dz*dz)+.1,f=(d-20)*.025;dx/=d;dy/=d;dz/=d;
+    a.x+=dx*f;a.y+=dy*f;a.z+=dz*f;b.x-=dx*f;b.y-=dy*f;b.z-=dz*f;});
+  NODES.forEach(n=>{n.x*=.985;n.y*=.985;n.z*=.985;});
+}
+
+const cv=document.getElementById('scene');
+const renderer=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+const scene=new THREE.Scene();
+const camera=new THREE.PerspectiveCamera(55,innerWidth/innerHeight,.1,2000);
+scene.add(new THREE.AmbientLight(0xffffff,.7));
+const pl=new THREE.PointLight(0xffffff,.9);scene.add(pl);
+
+// 별빛 배경
+(function(){const g=new THREE.BufferGeometry(),N=1400,p=new Float32Array(N*3);
+for(let i=0;i<N;i++){const r=300+Math.random()*600,t=Math.random()*Math.PI*2,ph=Math.acos(2*Math.random()-1);
+p[i*3]=r*Math.sin(ph)*Math.cos(t);p[i*3+1]=r*Math.cos(ph);p[i*3+2]=r*Math.sin(ph)*Math.sin(t);}
+g.setAttribute('position',new THREE.BufferAttribute(p,3));
+scene.add(new THREE.Points(g,new THREE.PointsMaterial({color:0x6680aa,size:1.4,transparent:true,opacity:.7})));})();
+
+function rScale(d){return 1.8+Math.sqrt(d||1)*1.5;}
+// 노드 메시
+const meshes=[];
+NODES.forEach(n=>{
+  const col=new THREE.Color(ALIGN[n.align]||'#c2a86a');
+  const m=new THREE.Mesh(new THREE.SphereGeometry(rScale(deg[n.id]),28,28),
+    new THREE.MeshStandardMaterial({color:col,emissive:col,emissiveIntensity:.55,roughness:.45,metalness:.1}));
+  m.position.set(n.x,n.y,n.z);m.userData=n;scene.add(m);
+  // 글로우 헤일로
+  const halo=new THREE.Mesh(new THREE.SphereGeometry(rScale(deg[n.id])*1.6,20,20),
+    new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.13,blending:THREE.AdditiveBlending}));
+  m.add(halo);
+  n._mesh=m;meshes.push(m);
+  // 라벨
+  n._label=makeLabel(n.kr,col);n._label.position.set(n.x,n.y+rScale(deg[n.id])+1.9,n.z);scene.add(n._label);
+});
+function makeLabel(txt,col){
+  const c=document.createElement('canvas'),x=c.getContext('2d');
+  x.font='600 40px -apple-system,Noto Sans KR,sans-serif';const w=x.measureText(txt).width;
+  c.width=w+40;c.height=58;
+  x.font='600 40px -apple-system,Noto Sans KR,sans-serif';x.fillStyle='rgba(4,6,11,.55)';
+  x.fillRect(0,0,c.width,c.height);x.fillStyle='#eef3fa';x.textBaseline='middle';x.fillText(txt,20,30);
+  const tex=new THREE.CanvasTexture(c);tex.minFilter=THREE.LinearFilter;
+  const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:tex,transparent:true,depthWrite:false}));
+  sp.scale.set(c.width/58*2.6,2.6,1);return sp;
+}
+// 엣지
+const edges=[];
+LINKS.forEach(l=>{const a=nodeById[l.s],b=nodeById[l.t];if(!a||!b)return;
+  const g=new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(a.x,a.y,a.z),new THREE.Vector3(b.x,b.y,b.z)]);
+  const mat=new THREE.LineBasicMaterial({color:new THREE.Color(REL[l.type].c),transparent:true,opacity:.42});
+  const ln=new THREE.Line(g,mat);ln.userData={s:l.s,t:l.type,e:l.t};scene.add(ln);edges.push(ln);});
+
+// ── 오빗 컨트롤 (구글어스식) ──
+const rot={theta:0.7,phi:1.05,radius:140};
+function updateCam(){const r=rot.radius;
+  camera.position.set(r*Math.sin(rot.phi)*Math.cos(rot.theta),r*Math.cos(rot.phi),r*Math.sin(rot.phi)*Math.sin(rot.theta));
+  camera.lookAt(0,0,0);pl.position.copy(camera.position);}
+updateCam();
+let drag=false,lx=0,ly=0,moved=0;
+cv.addEventListener('pointerdown',e=>{drag=true;lx=e.clientX;ly=e.clientY;moved=0;cv.setPointerCapture(e.pointerId);});
+cv.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-lx,dy=e.clientY-ly;moved+=Math.abs(dx)+Math.abs(dy);
+  rot.theta-=dx*.006;rot.phi-=dy*.006;rot.phi=Math.max(.12,Math.min(Math.PI-.12,rot.phi));lx=e.clientX;ly=e.clientY;updateCam();});
+cv.addEventListener('pointerup',e=>{drag=false;if(moved<6)pick(e);});
+cv.addEventListener('wheel',e=>{e.preventDefault();rot.radius*=(1+Math.sign(e.deltaY)*.09);rot.radius=Math.max(45,Math.min(420,rot.radius));updateCam();},{passive:false});
+
+// ── 선택/하이라이트 ──
+const ray=new THREE.Raycaster(),mouse=new THREE.Vector2();let selected=null;
+function pick(e){
+  mouse.x=(e.clientX/innerWidth)*2-1;mouse.y=-(e.clientY/innerHeight)*2+1;
+  ray.setFromCamera(mouse,camera);const hit=ray.intersectObjects(meshes,false);
+  select(hit.length?hit[0].object.userData:null);
+}
+function select(n){
+  selected=n;const det=document.getElementById('detail');
+  const near=n?new Set([n.id,...conn[n.id].map(c=>c.o)]):null;
+  meshes.forEach(m=>{const on=!n||near.has(m.userData.id);
+    m.material.emissiveIntensity=on?(n&&m.userData.id===n.id?1.1:.55):.12;
+    m.material.opacity=on?1:.25;m.material.transparent=!on;
+    m.userData._label.material.opacity=on?1:.12;});
+  edges.forEach(ed=>{const u=ed.userData,act=!n||u.s===n.id||u.e===n.id;
+    ed.material.opacity=act?(n?.85:.42):.05;});
+  if(!n){det.style.display='none';return;}
+  const grp={};conn[n.id].forEach(c=>{(grp[c.t]=grp[c.t]||[]).push(nodeById[c.o].kr);});
+  let rels='';['family','master','ally','rival'].forEach(t=>{if(grp[t])rels+=`<div class="grp"><div class="gl" style="color:${REL[t].c}">${REL[t].ko}</div>${grp[t].map(k=>`<span class="item">${k}</span>`).join('')}</div>`;});
+  const ac=ALIGN[n.align],al={light:'라이트',dark:'다크',neutral:'중립'}[n.align];
+  det.innerHTML=`<div class="nm">${n.kr}</div><span class="tag" style="background:${ac}22;color:${ac};border:1px solid ${ac}">${al}</span>
+  <div class="meta">${n.era}${n.home?' · '+n.home:''}${n.b?' · '+n.b:''}</div><div class="rels">${rels}</div>`;
+  det.style.display='block';
+}
+
+let auto=true;
+document.getElementById('rotBtn').onclick=function(){auto=!auto;this.classList.toggle('on',auto);};
+document.getElementById('resetBtn').onclick=()=>{rot.theta=0.7;rot.phi=1.05;rot.radius=140;updateCam();select(null);};
+addEventListener('resize',()=>{renderer.setSize(innerWidth,innerHeight);camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();});
+renderer.setSize(innerWidth,innerHeight);
+
+(function loop(){requestAnimationFrame(loop);
+  if(auto&&!drag){rot.theta+=.0016;updateCam();}
+  renderer.render(scene,camera);})();
+</script></body></html>
