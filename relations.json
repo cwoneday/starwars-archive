@@ -1298,5 +1298,80 @@
     "s": "nari",
     "t": "obi-wan-kenobi",
     "type": "ally"
+  },
+  {
+    "s": "din-djarin",
+    "t": "greef-karga",
+    "type": "ally"
+  },
+  {
+    "s": "din-djarin",
+    "t": "cara-dune",
+    "type": "ally"
+  },
+  {
+    "s": "din-djarin",
+    "t": "ig-11",
+    "type": "ally"
+  },
+  {
+    "s": "din-djarin",
+    "t": "kuiil",
+    "type": "ally"
+  },
+  {
+    "s": "din-djarin",
+    "t": "the-armorer",
+    "type": "ally"
+  },
+  {
+    "s": "din-djarin",
+    "t": "paz-vizsla",
+    "type": "ally"
+  },
+  {
+    "s": "din-djarin",
+    "t": "migs-mayfeld",
+    "type": "ally"
+  },
+  {
+    "s": "din-djarin",
+    "t": "cobb-vanth",
+    "type": "ally"
+  },
+  {
+    "s": "din-djarin",
+    "t": "bo-katan-kryze",
+    "type": "ally"
+  },
+  {
+    "s": "moff-gideon",
+    "t": "din-djarin",
+    "type": "rival"
+  },
+  {
+    "s": "moff-gideon",
+    "t": "bo-katan-kryze",
+    "type": "rival"
+  },
+  {
+    "s": "the-armorer",
+    "t": "bo-katan-kryze",
+    "type": "ally"
+  },
+  {
+    "s": "ig-11",
+    "t": "grogu",
+    "type": "ally"
+  },
+  {
+    "s": "kuiil",
+    "t": "grogu",
+    "type": "ally"
+  },
+  {
+    "s": "greef-karga",
+    "t": "cara-dune",
+    "type": "ally"
   }
 ]

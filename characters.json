@@ -9911,5 +9911,481 @@
         "fetched_at": "2026-06-08"
       }
     }
+  },
+  {
+    "id": "moff-gideon",
+    "name": "모프 기디언",
+    "name_en": "Moff Gideon",
+    "alignment": "dark",
+    "tier": 2,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "galactic-empire",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "제국의 재건과 그로구의 피 — 다크세이버로 만달로어를 다시 쥐려 한다.",
+    "arc": [
+      {
+        "event": "reclamation-of-mandalore",
+        "note": "다크세이버와 그로구의 피를 노린 제국 잔당의 군벌 — 만달로어 탈환전에서 무너진다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "제국 잔당의 집요한 군벌. 다크세이버를 손에 쥐고 그로구의 피(높은 미디클로리언)를 노리며, 복제 연구와 만달로어 재점령 야망의 중심에 선다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc2091",
+        "name": "Moff Gideon",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/moff-gideon-main_fa8551f4.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "greef-karga",
+    "name": "그리프 카르가",
+    "name_en": "Greef Karga",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "new-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "거래가 곧 신념 — 그러나 옛 의뢰인을 끝내 동지로 택한다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "네바로 현상금 길드 수장에서 신공화국 행정관으로 — 딘과 거래로 얽혔다 동지가 된다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "네바로의 현상금 길드 수장에서 신공화국 행정관으로 거듭난 실용주의자. 딘 자린과 거래로 얽혔다가, 그로구를 둘러싼 위기 속에서 든든한 동지가 된다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fc3",
+        "name": "Greef Karga",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/greef-karga-main_d3deb9fb.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "cara-dune",
+    "name": "카라 듄",
+    "name_en": "Cara Dune",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "rebel-alliance",
+        "from_event": null,
+        "to_event": null
+      },
+      {
+        "faction": "new-republic",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "알데란을 잃은 분노를 질서를 지키는 힘으로 바꾼다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "알데란 출신 전직 반란군 충격병 — 딘의 전우에서 신공화국 마샬이 된다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "알데란 출신의 전직 반란군 충격병. 고향을 데스 스타에 잃은 분노를 딛고 딘의 든든한 전우가 되며, 훗날 네바로의 신공화국 마샬로 질서를 지킨다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1ede",
+        "name": "Cara Dune",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/cara-dune-main_a908bc80.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "ig-11",
+    "name": "IG-11",
+    "name_en": "IG-11",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "none",
+    "species": "드로이드",
+    "species_en": "Droid",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "암살 프로토콜이 보호 프로토콜로 — 희생으로 그 전환을 증명한다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "그로구를 노린 암살 드로이드였으나 재프로그램돼 보모이자 수호자가 된다 — 자폭으로 크루를 구한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "droid",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "본래 그로구를 노린 IG 시리즈 암살 드로이드. 쿠일에게 재프로그램돼 보모이자 수호자가 되고, 끝내 자기희생으로 크루를 구한다 — 드로이드의 '선택'을 묻는 인물.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1fe4",
+        "name": "IG-11",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/ig-11-databank_0f4bb5cc.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "kuiil",
+    "name": "쿠일",
+    "name_en": "Kuiil",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "우그노트",
+    "species_en": "Ugnaught",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "예속을 청산하고 산 자유 — 그 평온을 지키려다 목숨을 내준다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "평생의 예속을 청산하고 자유를 산 우그노트 현자 — 그로구를 지키다 스러진다. '내가 말한 대로 됐다.'"
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "우그노트 농부이자 정비공. 평생의 예속을 청산하고 자유를 산 현자로, IG-11을 재건하고 그로구를 지키다 제국 병사들에게 스러진다. '내가 말한 대로 됐다(I have spoken).'",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc203a",
+        "name": "Kuiil",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/kuiil-main-2_45d75406.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "the-armorer",
+    "name": "아머러",
+    "name_en": "The Armorer",
+    "alignment": "light",
+    "tier": 2,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "female",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "mandalorians",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "베스카를 벼리고 계율을 지킨다 — 부족의 신앙과 기억의 수호자.",
+    "arc": [
+      {
+        "event": "reclamation-of-mandalore",
+        "note": "딘의 부족을 이끄는 대장장이 — 흩어진 만달로어인을 신앙과 강철로 묶어 고향 탈환을 이끈다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "딘의 부족을 이끄는 만달로어 대장장이. 베스카를 벼리고 '이것이 길이다'라는 계율을 지키는 신앙과 기억의 수호자로, 흩어진 부족을 고향 탈환으로 이끈다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc21aa",
+        "name": "The Armorer",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/emily-swallow-interview-c_23a33c08.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "paz-vizsla",
+    "name": "파즈 비즐라",
+    "name_en": "Paz Vizsla",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "mandalorians",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "긍지로 부딪히되, 같은 계율 아래 형제로 싸운다.",
+    "arc": [
+      {
+        "event": "reclamation-of-mandalore",
+        "note": "딘과 부딪히던 비즐라 가문의 거구 전사 — 만달로어 탈환에서 형제들을 위해 산화한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "비즐라 가문의 거구 전사. 딘 자린과 긍지를 두고 부딪히지만 같은 계율 아래 형제로, 만달로어 탈환전에서 동족을 지키며 산화한다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc20d8",
+        "name": "Paz Vizsla",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/paz-vizla-main_4d1071bc.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "migs-mayfeld",
+    "name": "믹스 메이펠드",
+    "name_en": "Migs Mayfeld",
+    "alignment": "neutral",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "냉소 뒤에 남은 양심 — 제국의 민낯 앞에서 선을 긋는다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "전직 제국 저격수이자 용병 — 딘과 함께 제국 시설에 잠입해 제 과거의 민낯을 마주한다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "trooper",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "전직 제국 저격수 출신의 용병. 냉소 뒤에 양심이 남아, 딘과 함께 제국 정유소에 잠입해 자신이 복무했던 제국의 민낯을 마주하고 선을 긋는다.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc208b",
+        "name": "Migs Mayfeld",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/migs-mayfeld-main_16da5097.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
+  },
+  {
+    "id": "cobb-vanth",
+    "name": "코브 반스",
+    "name_en": "Cobb Vanth",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "new_republic",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [],
+    "motivation": "무법의 변경에서, 빌린 갑옷 한 벌로 마을을 지킨다.",
+    "arc": [
+      {
+        "event": null,
+        "note": "모스 페이가의 보안관 — 보바 펫의 옛 갑옷을 입고 변경 마을을 지킨다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "the-mandalorian"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "civilian",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "profile": "타투인 모스 페이가의 보안관. 자와에게서 산 보바 펫의 옛 갑옷을 입고, 무법의 변경에서 마을을 지키는 외로운 수호자.",
+    "external_refs": {
+      "databank": {
+        "id": "64292927021f17e13fbc1f1d",
+        "name": "Cobb Vanth",
+        "image_url": "https://lumiere-a.akamaihd.net/v1/images/cobb-vanth-main_fa090bff.jpeg",
+        "credit": "Star Wars Databank © Lucasfilm Ltd.",
+        "fetched_at": "2026-06-08"
+      }
+    }
   }
 ]

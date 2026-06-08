@@ -1145,5 +1145,68 @@
   "image_url": "https://lumiere-a.akamaihd.net/v1/images/databank_quinlanvos_01_169_77d70d48.jpeg",
   "match_status": "verified",
   "matched_at": "2026-06-08"
+ },
+ "moff-gideon": {
+  "databank_name": "Moff Gideon",
+  "databank_id": "64292927021f17e13fbc2091",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/moff-gideon-main_fa8551f4.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "greef-karga": {
+  "databank_name": "Greef Karga",
+  "databank_id": "64292927021f17e13fbc1fc3",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/greef-karga-main_d3deb9fb.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "cara-dune": {
+  "databank_name": "Cara Dune",
+  "databank_id": "64292927021f17e13fbc1ede",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/cara-dune-main_a908bc80.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "ig-11": {
+  "databank_name": "IG-11",
+  "databank_id": "64292927021f17e13fbc1fe4",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/ig-11-databank_0f4bb5cc.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "kuiil": {
+  "databank_name": "Kuiil",
+  "databank_id": "64292927021f17e13fbc203a",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/kuiil-main-2_45d75406.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "the-armorer": {
+  "databank_name": "The Armorer",
+  "databank_id": "64292927021f17e13fbc21aa",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/emily-swallow-interview-c_23a33c08.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "paz-vizsla": {
+  "databank_name": "Paz Vizsla",
+  "databank_id": "64292927021f17e13fbc20d8",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/paz-vizla-main_4d1071bc.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "migs-mayfeld": {
+  "databank_name": "Migs Mayfeld",
+  "databank_id": "64292927021f17e13fbc208b",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/migs-mayfeld-main_16da5097.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
+ },
+ "cobb-vanth": {
+  "databank_name": "Cobb Vanth",
+  "databank_id": "64292927021f17e13fbc1f1d",
+  "image_url": "https://lumiere-a.akamaihd.net/v1/images/cobb-vanth-main_fa090bff.jpeg",
+  "match_status": "verified",
+  "matched_at": "2026-06-08"
  }
 }

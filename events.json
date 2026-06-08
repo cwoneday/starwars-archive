@@ -4411,5 +4411,52 @@
       "ezra-bridger",
       "alexsandr-kallus"
     ]
+  },
+  {
+    "id": "reclamation-of-mandalore",
+    "title": "만달로어 탈환",
+    "title_en": "Reclamation of Mandalore",
+    "era": "new_republic",
+    "year_value": 9,
+    "year_label": "~9 ABY",
+    "year_certainty": "approximate",
+    "category": "battle",
+    "tier": 1,
+    "characters": [
+      "din-djarin",
+      "grogu",
+      "bo-katan-kryze",
+      "moff-gideon",
+      "the-armorer",
+      "paz-vizsla"
+    ],
+    "locations": [
+      "mandalore"
+    ],
+    "factions": [
+      "mandalorians",
+      "galactic-empire"
+    ],
+    "source": "만달로리안 (시즌 3)",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "one_liner": "흩어진 부족들이 보카탄 아래 뭉쳐 고향을 되찾다 — 모프 기디언의 제국 기지를 무너뜨리고",
+    "summary": "'저주받은 땅'으로 버려졌던 만달로어가 실은 살아 있음이 밝혀지고, 딘과 보카탄은 흩어진 부족들을 하나로 모은다. 다크세이버를 둘러싼 자존심과 계율의 갈등을 넘어, 만달로어인들은 모프 기디언이 비밀리에 세운 제국 기지를 친다. 파즈 비즐라가 동족을 위해 산화하고, 기디언이 무너지며 — 보카탄이 어둠의 검을 들고 흩어졌던 만달로어를 다시 하나로 세운다.",
+    "significance": "몰락 이후 처음으로 만달로어가 통합된 사건. 다크세이버 서사가 매듭지어지고, 딘과 그로구가 '클랜 오브 투'를 넘어 한 부족의 일원으로 자리 잡는다.",
+    "preceded_by": [
+      "rescue-of-grogu"
+    ],
+    "followed_by": [],
+    "tags": [
+      "만달로어",
+      "다크세이버",
+      "보카탄"
+    ],
+    "work": "the-mandalorian",
+    "key_figures": [
+      "bo-katan-kryze",
+      "din-djarin",
+      "moff-gideon"
+    ]
   }
 ]
