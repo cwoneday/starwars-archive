@@ -152,12 +152,14 @@ Promise.all([fetch('locations.json').then(r=>r.json()),fetch('events.json').then
  buildLegend();
 });
 function makeLabel(txt){const c=document.createElement('canvas'),x=c.getContext('2d');
- x.font='600 38px -apple-system,Noto Sans KR,sans-serif';const w=x.measureText(txt).width;c.width=w+30;c.height=52;
- x.font='600 38px -apple-system,Noto Sans KR,sans-serif';x.fillStyle='rgba(3,4,10,.5)';x.fillRect(0,0,c.width,c.height);
- x.fillStyle='#dde6f2';x.textBaseline='middle';x.fillText(txt,15,28);
+ const F='600 26px -apple-system,Noto Sans KR,sans-serif';
+ x.font=F;const w=x.measureText(txt).width;c.width=Math.ceil(w)+14;c.height=36;
+ x.font=F;x.textBaseline='middle';x.lineJoin='round';
+ x.strokeStyle='rgba(0,0,0,.8)';x.lineWidth=4.5;x.strokeText(txt,7,19);
+ x.fillStyle='#eef3fb';x.fillText(txt,7,19);
  const t=new THREE.CanvasTexture(c);t.minFilter=THREE.LinearFilter;
  const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:t,transparent:true,depthWrite:false,depthTest:false}));
- sp.scale.set(c.width/52*2.4,2.4,1);return sp;}
+ sp.scale.set(c.width/36*1.45,1.45,1);return sp;}
 function buildLegend(){const used=new Set(LOC.map(l=>l._bloc).filter(Boolean));let h='<h4>세력 오로라</h4>';
  Object.entries(BLOC).filter(([k])=>used.has(k)).forEach(([k,v])=>h+=`<div class="row"><span class="au" style="background:${v.c}"></span>${v.ko}</div>`);
  h+='<div class="row"><span class="au" style="background:transparent;border:1px dashed #556"></span>세력 미상</div>';
@@ -167,7 +169,7 @@ function buildLegend(){const used=new Set(LOC.map(l=>l._bloc).filter(Boolean));l
 // ── 오빗 컨트롤 (측면 45° 기울기 디폴트)
 const ROLL=THREE.MathUtils.degToRad(-20);
 const upVec=new THREE.Vector3(Math.sin(ROLL),Math.cos(ROLL),0);
-const DEF={theta:0.55,phi:1.15,radius:64};
+const DEF={theta:0.55,phi:1.15,radius:96};
 let rot={...DEF};const target=new THREE.Vector3(0,0,0);
 function updateCam(){const r=rot.radius;
  camera.position.set(target.x+r*Math.sin(rot.phi)*Math.cos(rot.theta),target.y+r*Math.cos(rot.phi),target.z+r*Math.sin(rot.phi)*Math.sin(rot.theta));
