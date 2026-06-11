@@ -1,0 +1,295 @@
+[
+  {
+    "id": "darksaber",
+    "name": "다크세이버",
+    "name_en": "Darksaber",
+    "type": "lightsaber",
+    "type_ko": "라이트세이버",
+    "era_origin": null,
+    "one_liner": "만달로어 통치의 상징이 된 유일무이한 검은 칼날 — 쟁취한 자에게 권좌가 따른다.",
+    "description": "만달로어 출신 최초의 제다이 타르 비즈라가 벼린, 납작하고 검은 칼날의 라이트세이버. 만달로어인에게는 단순한 무기가 아니라 정통성의 상징으로, '결투로 쟁취한 자만이 진정한 주인'이라는 신조가 그 손에서 손으로의 역사를 만들었다.",
+    "provenance": [
+      {
+        "holder": null,
+        "holder_label": "타르 비즈라",
+        "era": null,
+        "year_label": "고대",
+        "note": "만달로어 출신 최초의 제다이가 검은 칼날을 벼린다.",
+        "event": null
+      },
+      {
+        "holder": null,
+        "holder_label": "비즐라 가문",
+        "era": null,
+        "year_label": "고대",
+        "note": "그의 사후 제다이 신전에 안치되었다가, 비즐라 가문이 되찾아 만달로어 통치의 상징으로 삼는다.",
+        "event": null
+      },
+      {
+        "holder": null,
+        "holder_label": "프리 비즐라",
+        "era": "fall_of_the_jedi",
+        "year_label": "클론 전쟁",
+        "note": "데스 워치의 수장 프리 비즐라가 다크세이버를 들고 만달로어의 주도권을 노린다.",
+        "event": null
+      },
+      {
+        "holder": "darth-maul",
+        "holder_label": "다스 몰",
+        "era": "fall_of_the_jedi",
+        "year_label": "~19 BBY",
+        "note": "몰이 프리 비즐라를 결투로 꺾고 검을 빼앗아 만달로어를 장악한다.",
+        "event": null
+      },
+      {
+        "holder": "sabine-wren",
+        "holder_label": "사빈 렌",
+        "era": "reign_of_the_empire",
+        "year_label": "~3 BBY",
+        "note": "반란군 시절 사빈이 다크세이버를 되찾아 사용법을 익히고, 흩어진 만달로어인의 단결을 호소한다.",
+        "event": null
+      },
+      {
+        "holder": "bo-katan-kryze",
+        "holder_label": "보카탄 크라이즈",
+        "era": "reign_of_the_empire",
+        "year_label": "~2 BBY",
+        "note": "사빈이 정통 계승자 보카탄에게 검을 넘기며 만달로어 재건의 구심점으로 세운다.",
+        "event": null
+      },
+      {
+        "holder": "moff-gideon",
+        "holder_label": "모프 기디언",
+        "era": "new_republic",
+        "year_label": "~9 ABY",
+        "note": "제국 잔당의 군벌 기디언이 다크세이버를 탈취해 만달로어 지배의 명분으로 삼는다.",
+        "event": null
+      },
+      {
+        "holder": "din-djarin",
+        "holder_label": "딘 자린",
+        "era": "new_republic",
+        "year_label": "~9 ABY",
+        "note": "딘이 기디언을 꺾고 신조상 뜻하지 않게 검의 주인이 된다 — '쟁취한 자의 것'.",
+        "event": "rescue-of-grogu"
+      },
+      {
+        "holder": "bo-katan-kryze",
+        "holder_label": "보카탄 크라이즈",
+        "era": "new_republic",
+        "year_label": "~9 ABY",
+        "note": "만달로어 탈환에서 검이 다시 보카탄에게 이어지고, 그녀가 부족을 통합한다.",
+        "event": "reclamation-of-mandalore"
+      }
+    ],
+    "fate": "만달로어 탈환의 격전 중 모프 기디언에 의해 파괴된다 — 상징은 사라졌으나, 검이 지켜온 '통합'은 끝내 남는다.",
+    "source": "클론 전쟁 · 반란군 · 만달로리안",
+    "source_type": "series",
+    "canon_status": "explicit",
+    "tags": [
+      "만달로어",
+      "다크세이버",
+      "비즐라",
+      "통치 정통성"
+    ]
+  },
+  {
+    "id": "skywalker-lightsaber",
+    "name": "스카이워커의 라이트세이버",
+    "name_en": "Skywalker Lightsaber",
+    "type": "lightsaber",
+    "type_ko": "라이트세이버",
+    "era_origin": "fall_of_the_jedi",
+    "one_liner": "아나킨에서 루크, 그리고 레이로 — 스카이워커 사가를 관통한 푸른 검.",
+    "description": "아나킨 스카이워커가 클론 전쟁기에 직접 조립한 청색 라이트세이버. 세 세대의 손을 거치며 희망과 몰락, 그리고 구원의 순간마다 함께했고, 끝내 사가의 마지막 빛이 되었다.",
+    "provenance": [
+      {
+        "holder": "anakin-skywalker",
+        "holder_label": "아나킨 스카이워커",
+        "era": "fall_of_the_jedi",
+        "year_label": "클론 전쟁",
+        "note": "아나킨이 직접 조립한 청색 검 — 클론 전쟁 내내 그의 분신이었다.",
+        "event": null
+      },
+      {
+        "holder": "obi-wan-kenobi",
+        "holder_label": "오비완 케노비",
+        "era": "fall_of_the_jedi",
+        "year_label": "19 BBY",
+        "note": "무스타파의 결투 뒤 오비완이 검을 거둬 오랜 세월 간직한다.",
+        "event": null
+      },
+      {
+        "holder": "luke-skywalker",
+        "holder_label": "루크 스카이워커",
+        "era": "age_of_rebellion",
+        "year_label": "0 BBY",
+        "note": "오비완이 '아버지의 검'이라며 루크에게 건넨다. 클라우드 시티 결투에서 손과 함께 잃는다.",
+        "event": "battle-of-yavin"
+      },
+      {
+        "holder": null,
+        "holder_label": "마즈 카나타",
+        "era": "rise_of_the_first_order",
+        "year_label": "~34 ABY",
+        "note": "수십 년 뒤 마즈 카나타의 성 지하에서 검이 다시 모습을 드러낸다.",
+        "event": null
+      },
+      {
+        "holder": "rey",
+        "holder_label": "레이",
+        "era": "rise_of_the_first_order",
+        "year_label": "~35 ABY",
+        "note": "검이 레이를 부른다. 둘로 갈라졌다 수리되어 끝내 그녀의 손에 쥐어진다.",
+        "event": null
+      }
+    ],
+    "fate": "레이가 타투인의 라스 농장에 검을 묻고 '레이 스카이워커'라는 이름을 택한다 — 사가의 마지막 안식.",
+    "source": "스카이워커 사가",
+    "source_type": "film",
+    "canon_status": "explicit",
+    "tags": [
+      "스카이워커",
+      "라이트세이버",
+      "청색 검"
+    ]
+  },
+  {
+    "id": "vader-lightsaber",
+    "name": "다스 베이더의 라이트세이버",
+    "name_en": "Darth Vader's Lightsaber",
+    "type": "lightsaber",
+    "type_ko": "라이트세이버",
+    "era_origin": "reign_of_the_empire",
+    "one_liner": "분노로 카이버를 피 흘려 만든, 시스의 붉은 칼날.",
+    "description": "갓 타락한 다스 베이더가 제다이 마스터 키락 인필라를 꺾고 빼앗은 카이버 크리스털을, 다크사이드의 분노로 '피 흘리게(bleed)' 만들어 벼린 붉은 라이트세이버. 시스 검이 왜 붉은지를 보여주는 상징.",
+    "provenance": [
+      {
+        "holder": "kirak-infila",
+        "holder_label": "키락 인필라",
+        "era": "reign_of_the_empire",
+        "year_label": "~19 BBY",
+        "note": "검의 카이버 크리스털은 본래 베이더에게 쓰러진 제다이 인필라의 것이었다.",
+        "event": "vader-hunt-bleeding-kyber"
+      },
+      {
+        "holder": "darth-vader",
+        "holder_label": "다스 베이더",
+        "era": "reign_of_the_empire",
+        "year_label": "~19 BBY",
+        "note": "베이더가 크리스털을 분노로 피 흘려 붉은 검을 완성한다 — 그의 상징.",
+        "event": "vader-hunt-bleeding-kyber"
+      }
+    ],
+    "fate": "황제를 들어 엔도의 심연으로 던지던 그 순간까지 베이더의 손에 있었다.",
+    "source": "다스 베이더 (코믹)",
+    "source_type": "comic",
+    "canon_status": "explicit",
+    "tags": [
+      "시스",
+      "붉은 라이트세이버",
+      "카이버",
+      "피 흘리기"
+    ]
+  },
+  {
+    "id": "sith-holocron",
+    "name": "시스 홀로크론",
+    "name_en": "Sith Holocron",
+    "type": "holocron",
+    "type_ko": "홀로크론",
+    "era_origin": null,
+    "one_liner": "다크사이드의 비밀을 봉인한, 탐하는 자를 삼키는 지식의 그릇.",
+    "description": "시스가 다크사이드의 지식을 봉인해 둔 피라미드형 장치. 그 안의 비밀은 강대한 힘을 약속하지만, 들여다본 이를 어둠으로 끌어당긴다.",
+    "provenance": [
+      {
+        "holder": null,
+        "holder_label": "고대 시스",
+        "era": null,
+        "year_label": "고대",
+        "note": "다크사이드의 비밀을 봉인한 피라미드형 장치가 만들어진다.",
+        "event": null
+      },
+      {
+        "holder": "darth-maul",
+        "holder_label": "다스 몰",
+        "era": "reign_of_the_empire",
+        "year_label": "~3 BBY",
+        "note": "몰이 금단의 지식을 좇아 말라코어의 홀로크론을 탐한다.",
+        "event": null
+      },
+      {
+        "holder": "ezra-bridger",
+        "holder_label": "에즈라 브리저",
+        "era": "reign_of_the_empire",
+        "year_label": "~3 BBY",
+        "note": "말라코어에서 에즈라가 시스 홀로크론을 손에 넣고 그 유혹에 이끌린다.",
+        "event": "duel-on-malachor"
+      }
+    ],
+    "fate": "그 위험을 깨달은 케이넌과 에즈라가 끝내 홀로크론을 봉인한다.",
+    "source": "스타워즈 반란군",
+    "source_type": "series",
+    "canon_status": "referenced",
+    "tags": [
+      "시스",
+      "홀로크론",
+      "다크사이드",
+      "말라코어"
+    ]
+  },
+  {
+    "id": "sith-wayfinder",
+    "name": "시스 웨이파인더",
+    "name_en": "Sith Wayfinder",
+    "type": "wayfinder",
+    "type_ko": "항법 장치",
+    "era_origin": null,
+    "one_liner": "숨겨진 시스 행성 엑세골로 이끄는 단 하나의 길.",
+    "description": "미지의 영역 깊숙이 숨겨진 시스 행성 엑세골로 향하는 항로를 새긴 시스의 항법 장치. 이 길을 아는 자만이 부활한 황제 앞에 설 수 있었다.",
+    "provenance": [
+      {
+        "holder": "palpatine",
+        "holder_label": "다스 시디어스",
+        "era": "reign_of_the_empire",
+        "year_label": "고대~",
+        "note": "엑세골로 향하는 길이 시스의 비밀로 봉인된다.",
+        "event": null
+      },
+      {
+        "holder": "darth-vader",
+        "holder_label": "다스 베이더",
+        "era": "reign_of_the_empire",
+        "year_label": "제국 시대",
+        "note": "베이더가 무스타파의 성채에 웨이파인더 하나를 보관한다.",
+        "event": null
+      },
+      {
+        "holder": "kylo-ren",
+        "holder_label": "카일로 렌",
+        "era": "rise_of_the_first_order",
+        "year_label": "~35 ABY",
+        "note": "카일로가 무스타파에서 웨이파인더를 찾아 엑세골에 이른다.",
+        "event": null
+      },
+      {
+        "holder": "rey",
+        "holder_label": "레이",
+        "era": "rise_of_the_first_order",
+        "year_label": "~35 ABY",
+        "note": "레이가 또 다른 웨이파인더로 같은 길을 따라 최후의 결전으로 향한다.",
+        "event": null
+      }
+    ],
+    "fate": "두 웨이파인더는 모두 부서지지만, 그 길은 이미 운명에 새겨졌다.",
+    "source": "스카이워커 사가",
+    "source_type": "film",
+    "canon_status": "referenced",
+    "tags": [
+      "시스",
+      "엑세골",
+      "웨이파인더",
+      "항법"
+    ]
+  }
+]

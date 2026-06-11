@@ -257,6 +257,19 @@ block("ERROR (반드시 수정)",ERR,"❌")
 block("WARNING (검토 권장)",WARN,"⚠️ ")
 block("INFO (리포트)",INFO,"ℹ️ ")
 print("\n"+"-"*54)
+# ── 유물(artifacts.json) 참조 무결성
+try:
+    arts=load('artifacts.json'); aid=set()
+    for a in arts:
+        if a['id'] in aid: err(f"[artifacts] 중복 id: {a['id']}")
+        aid.add(a['id'])
+        if a.get('canon_status') not in CANON: err(f"[artifacts:{a['id']}] canon_status 위반: {a.get('canon_status')}")
+        for p in a.get('provenance',[]):
+            if p.get('holder') and p['holder'] not in ch_ids: err(f"[artifacts:{a['id']}] 깨진 holder 참조: {p['holder']}")
+            if p.get('event') and p['event'] not in ev_ids: err(f"[artifacts:{a['id']}] 깨진 event 참조: {p['event']}")
+            if p.get('era') and p['era'] not in ERA: err(f"[artifacts:{a['id']}] era enum 위반: {p['era']}")
+except FileNotFoundError: pass
+
 verdict = "PASS ✅ — 구조 오류 없음" if not ERR else f"FAIL ❌ — 오류 {len(ERR)}건"
 print(f" 판정: {verdict}  |  경고 {len(WARN)}  정보 {len(INFO)}")
 print("-"*54)

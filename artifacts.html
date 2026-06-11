@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>유물 — 스타워즈 캐넌 아카이브</title>
+<style>
+:root{--bg:#04060b;--ink:#e8edf4;--dim:#8b97a8;--holo:#45d4e3;--line:rgba(120,140,180,.16);--panel:rgba(10,15,24,.7)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;min-height:100vh}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;background:repeating-linear-gradient(to bottom,rgba(69,212,227,.025) 0 1px,transparent 1px 3px);opacity:.5}
+.site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);font-family:ui-monospace,monospace;box-sizing:border-box}
+.site-nav .brand{color:var(--holo);font-weight:700;font-size:12px;letter-spacing:.12em;text-decoration:none;white-space:nowrap}
+.site-nav .links{display:flex;gap:4px;flex-wrap:wrap;overflow:hidden}
+.site-nav .links a{color:var(--dim);font-size:12px;text-decoration:none;padding:6px 11px;border-radius:6px;white-space:nowrap}
+.site-nav .links a:hover{color:#dce4ee;background:rgba(255,255,255,.06)}.site-nav .links a.active{color:var(--holo);background:rgba(69,212,227,.10)}
+.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600}
+@media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
+.wrap{max-width:1000px;margin:0 auto;padding:74px 18px 60px;position:relative;z-index:2}
+.kicker{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.2em;color:var(--holo);text-transform:uppercase}
+h1{font-size:1.8rem;margin:6px 0 4px}.lead{color:var(--dim);font-size:13px;line-height:1.6;margin-bottom:24px;max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.acard{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;text-decoration:none;color:var(--ink);display:block;position:relative;overflow:hidden}
+.acard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--tc)}
+.acard:hover{border-color:var(--tc)}
+.tbadge{display:inline-block;font-size:10px;font-weight:700;color:var(--tc);border:1px solid var(--tc);border-radius:20px;padding:2px 10px;letter-spacing:.04em}
+.acard h3{font-size:1.2rem;margin:11px 0 2px}.acard .en{font-size:11px;color:var(--dim)}
+.acard .ol{font-size:12.5px;color:#cdd6e2;line-height:1.6;margin-top:10px}
+.acard .meta{font-size:11px;color:var(--dim);margin-top:12px;display:flex;justify-content:space-between;align-items:center}
+.acard .hands{color:var(--tc);font-weight:700}
+</style></head><body>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="artifacts.html" class="active">유물</a><a href="galaxy-map.html">은하지도</a><a href="galaxy-network.html">인물관계망</a><a href="relationship-path.html">관계경로</a></div></nav>
+<div class="wrap">
+  <div class="kicker">Artifacts</div>
+  <h1>유물</h1>
+  <p class="lead">은하의 운명을 손에서 손으로 옮겨 다닌 전설의 물건들. 각 유물은 누가 · 언제 · 왜 지녔는지의 <b>소유 계보</b>로 시대를 가로지릅니다.</p>
+  <div class="grid" id="grid"></div>
+</div>
+<script>
+const TYPEC={lightsaber:"#5aa9ff",holocron:"#c97aff",wayfinder:"#45d4e3",armor:"#ff9a3a",relic:"#d4af37"};
+fetch("artifacts.json").then(r=>r.json()).then(arts=>{
+  const esc=s=>(s||"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+  document.getElementById("grid").innerHTML=arts.map(a=>{
+    const tc=TYPEC[a.type]||"#8b97a8", hands=a.provenance?a.provenance.length:0;
+    return `<a class="acard" href="artifact-detail.html?id=${a.id}" style="--tc:${tc}">
+      <span class="tbadge">${esc(a.type_ko||a.type)}</span>
+      <h3>${esc(a.name)}</h3><div class="en">${esc(a.name_en||"")}</div>
+      <div class="ol">${esc(a.one_liner||"")}</div>
+      <div class="meta"><span class="hands">거쳐간 손 ${hands}</span><span>계보 보기 ▸</span></div>
+    </a>`;
+  }).join("");
+}).catch(()=>{document.getElementById("grid").innerHTML=`<p style="color:var(--dim)">데이터를 불러오지 못했습니다. 로컬에선 <code>python3 -m http.server</code>로 열어주세요.</p>`;});
+</script></body></html>
