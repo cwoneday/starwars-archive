@@ -1363,5 +1363,15 @@
     "s": "greef-karga",
     "t": "cara-dune",
     "type": "ally"
+  },
+  {
+    "s": "kirak-infila",
+    "t": "darth-vader",
+    "type": "rival"
+  },
+  {
+    "s": "jocasta-nu",
+    "t": "darth-vader",
+    "type": "rival"
   }
 ]

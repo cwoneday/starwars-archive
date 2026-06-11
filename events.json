@@ -4486,5 +4486,64 @@
       "din-djarin",
       "moff-gideon"
     ]
+  },
+  {
+    "id": "vader-hunt-bleeding-kyber",
+    "title": "베이더의 사냥과 붉은 검",
+    "title_en": "Vader's Hunt and the Bleeding Kyber",
+    "era": "reign_of_the_empire",
+    "year_value": -19,
+    "year_label": "~19 BBY",
+    "year_certainty": "approximate",
+    "category": "duel",
+    "tier": 2,
+    "characters": [
+      "darth-vader",
+      "palpatine",
+      "kirak-infila",
+      "jocasta-nu",
+      "grand-inquisitor"
+    ],
+    "key_figures": [
+      "darth-vader",
+      "kirak-infila",
+      "jocasta-nu"
+    ],
+    "locations": [
+      "coruscant"
+    ],
+    "factions": [
+      "galactic-empire",
+      "jedi-order"
+    ],
+    "source": "다스 베이더 (코믹)",
+    "source_type": "comic",
+    "canon_status": "explicit",
+    "one_liner": "갓 타락한 베이더가 첫 제다이를 사냥하고, 분노로 크리스털을 피 흘려 자신의 붉은 검을 벼리다",
+    "summary": "〈시스의 복수〉 직후, 다크사이드의 방식을 익히던 다스 베이더는 황제의 시험으로 첫 표적을 받는다 — 은둔하던 강력한 제다이 마스터 키락 인필라. 거의 패배 직전까지 몰린 베이더는 인필라를 쓰러뜨리고 그의 카이버 크리스털을 빼앗아, 분노로 크리스털을 '피 흘리게(bleed)' 만들어 시스의 붉은 라이트세이버를 완성한다. 이어 제다이 신전의 사서 조카스타 누마저 그의 손에 스러지고, 다크사이드 사냥꾼 집단 인퀴지토리우스가 윤곽을 드러낸다.",
+    "significance": "시스 라이트세이버가 왜 붉은지를 캐넌으로 확립한 사건 — 크리스털을 분노로 피 흘리게 만든다는 설정의 기원. 영화가 건너뛴 '베이더가 된 직후'의 공백을 메우며, 인퀴지토리우스의 태동을 보여준다.",
+    "preceded_by": [],
+    "followed_by": [],
+    "tags": [
+      "붉은 라이트세이버",
+      "조카스타 누",
+      "인퀴지토리우스",
+      "카이버"
+    ],
+    "work": "darth-vader-comic",
+    "deep_dive": [
+      {
+        "phase": "첫 표적, 인필라",
+        "note": "황제는 갓 타락한 베이더에게 은둔 제다이 키락 인필라를 시험으로 던진다 — 베이더는 거의 죽을 뻔한다."
+      },
+      {
+        "phase": "피 흘리는 크리스털",
+        "note": "인필라를 꺾고 빼앗은 카이버 크리스털을 분노로 '피 흘리게' 만들어, 베이더의 상징인 붉은 검이 탄생한다."
+      },
+      {
+        "phase": "사서의 최후",
+        "note": "제다이 신전의 기억을 지키던 사서 조카스타 누마저 베이더의 손에 스러진다."
+      }
+    ]
   }
 ]

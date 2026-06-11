@@ -269,7 +269,8 @@
       "ep-5-empire",
       "ep-6-return-of-jedi",
       "maul-shadow-lord",
-      "obi-wan-kenobi"
+      "obi-wan-kenobi",
+      "darth-vader-comic"
     ],
     "portrait": {
       "type": "silhouette",
@@ -1296,7 +1297,8 @@
       "ep-3-revenge-of-sith",
       "ep-5-empire",
       "ep-6-return-of-jedi",
-      "ep-9-rise-of-skywalker"
+      "ep-9-rise-of-skywalker",
+      "darth-vader-comic"
     ],
     "portrait": {
       "type": "silhouette",
@@ -4132,7 +4134,8 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
-      "ep-2-attack-of-clones"
+      "ep-2-attack-of-clones",
+      "darth-vader-comic"
     ],
     "portrait": {
       "type": "silhouette",
@@ -7143,7 +7146,8 @@
     "key_choices": [],
     "appears_in": [],
     "works": [
-      "obi-wan-kenobi"
+      "obi-wan-kenobi",
+      "darth-vader-comic"
     ],
     "portrait": {
       "type": "silhouette",
@@ -10341,5 +10345,51 @@
         "fetched_at": "2026-06-08"
       }
     }
+  },
+  {
+    "id": "kirak-infila",
+    "name": "키락 인필라",
+    "name_en": "Kirak Infil'a",
+    "alignment": "light",
+    "tier": 3,
+    "era_primary": "reign_of_the_empire",
+    "height_cm": null,
+    "mass_kg": null,
+    "gender": "male",
+    "species": "인간",
+    "species_en": "Human",
+    "birth_year": null,
+    "birth_year_value": null,
+    "birth_year_certainty": "referenced",
+    "homeworld": null,
+    "affiliation_history": [
+      {
+        "faction": "jedi-order",
+        "from_event": null,
+        "to_event": null
+      }
+    ],
+    "motivation": "오더 66에서 살아남아 은둔하지만, 제다이의 긍지는 끝내 칼을 들게 한다.",
+    "arc": [
+      {
+        "event": "vader-hunt-bleeding-kyber",
+        "note": "은둔하던 강력한 제다이 마스터 — 갓 타락한 베이더의 첫 표적이 되어 그를 거의 무너뜨린다."
+      }
+    ],
+    "key_choices": [],
+    "appears_in": [],
+    "works": [
+      "darth-vader-comic"
+    ],
+    "portrait": {
+      "type": "silhouette",
+      "archetype": "jedi",
+      "ref": null,
+      "license": "original"
+    },
+    "source": "다스 베이더 (코믹)",
+    "source_type": "comic",
+    "canon_status": "explicit",
+    "profile": "오더 66에서 살아남아 외딴 물의 위성에 은둔한 강력한 제다이 마스터. 제다이의 길을 버린 자에게만 칼을 든다는 맹세를 지키다, 갓 타락한 다스 베이더의 첫 사냥감이 되어 그를 거의 죽음 직전까지 몰아붙인다 — 베이더가 붉은 검을 벼리게 되는 계기."
   }
 ]
