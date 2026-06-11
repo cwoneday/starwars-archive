@@ -26,8 +26,9 @@ h1{font-size:1.8rem;margin:6px 0 4px}.lead{color:var(--dim);font-size:13px;line-
 .acard .ol{font-size:12.5px;color:#cdd6e2;line-height:1.6;margin-top:10px}
 .acard .meta{font-size:11px;color:var(--dim);margin-top:12px;display:flex;justify-content:space-between;align-items:center}
 .acard .hands{color:var(--tc);font-weight:700}
+.aglyph{width:52px;height:52px;float:right;margin:-2px -4px 0 8px;filter:drop-shadow(0 0 6px var(--tc))}
 </style></head><body>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="artifacts.html" class="active">유물</a><a href="galaxy-map.html">은하지도</a><a href="galaxy-network.html">인물관계망</a><a href="relationship-path.html">관계경로</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="watch-guide.html">시청가이드</a><a href="artifacts.html" class="active">유물</a><a href="galaxy-map.html">은하지도</a><a href="galaxy-network.html">인물관계망</a><a href="relationship-path.html">관계경로</a></div></nav>
 <div class="wrap">
   <div class="kicker">Artifacts</div>
   <h1>유물</h1>
@@ -36,11 +37,18 @@ h1{font-size:1.8rem;margin:6px 0 4px}.lead{color:var(--dim);font-size:13px;line-
 </div>
 <script>
 const TYPEC={lightsaber:"#5aa9ff",holocron:"#c97aff",wayfinder:"#45d4e3",armor:"#ff9a3a",relic:"#d4af37"};
+const ACCENT={darksaber:"#d8d8e6","skywalker-lightsaber":"#5aa9ff","vader-lightsaber":"#ff4d4d","sith-holocron":"#ff5a4d","sith-wayfinder":"#c97aff"};
+function glyph(a,cls){const ac=ACCENT[a.id]||TYPEC[a.type]||"#8b97a8",c=cls||"aglyph";
+  if(a.type==="lightsaber"){const dark=a.id==="darksaber";
+    return `<svg class="${c}" viewBox="0 0 100 100"><rect x="45" y="14" width="10" height="44" rx="5" fill="${ac}" opacity=".18"/><rect x="${dark?47:47.5}" y="14" width="${dark?6:5}" height="44" rx="3" fill="${dark?'#1a1a22':ac}" ${dark?'stroke=\"#fff\" stroke-width=\"1\"':''} opacity=".95"/><rect x="49" y="14" width="2" height="44" fill="#fff" opacity=".82"/><rect x="44" y="58" width="12" height="6" rx="1" fill="#c2c6cd"/><rect x="45.5" y="63" width="9" height="25" rx="2" fill="#8a8f99"/><rect x="45.5" y="69" width="9" height="2" fill="#5a5f68"/><rect x="45.5" y="75" width="9" height="2" fill="#5a5f68"/></svg>`;}
+  if(a.type==="holocron")return `<svg class="${c}" viewBox="0 0 100 100"><path d="M50 20 L78 50 L50 80 L22 50 Z" fill="${ac}" opacity=".12"/><path d="M50 20 L78 50 L50 80 L22 50 Z" fill="none" stroke="${ac}" stroke-width="3"/><path d="M50 20 L50 80 M22 50 L78 50" stroke="${ac}" stroke-width="1.4" opacity=".5"/><circle cx="50" cy="50" r="7" fill="${ac}" opacity=".55"/></svg>`;
+  return `<svg class="${c}" viewBox="0 0 100 100"><path d="M50 12 L66 50 L50 88 L34 50 Z" fill="${ac}" opacity=".12"/><path d="M50 12 L66 50 L50 88 L34 50 Z" fill="none" stroke="${ac}" stroke-width="3"/><path d="M34 50 L66 50 M50 12 L50 88" stroke="${ac}" stroke-width="1.2" opacity=".5"/></svg>`;}
 fetch("artifacts.json").then(r=>r.json()).then(arts=>{
   const esc=s=>(s||"").replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
   document.getElementById("grid").innerHTML=arts.map(a=>{
     const tc=TYPEC[a.type]||"#8b97a8", hands=a.provenance?a.provenance.length:0;
     return `<a class="acard" href="artifact-detail.html?id=${a.id}" style="--tc:${tc}">
+      ${glyph(a)}
       <span class="tbadge">${esc(a.type_ko||a.type)}</span>
       <h3>${esc(a.name)}</h3><div class="en">${esc(a.name_en||"")}</div>
       <div class="ol">${esc(a.one_liner||"")}</div>
