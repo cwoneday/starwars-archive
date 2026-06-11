@@ -127,6 +127,8 @@ function relsOf(id){
   return out;
 }
 const ERACOL={dawn_of_the_jedi:'#c9b458',high_republic:'#ffd24a',fall_of_the_jedi:'#7aa2ff',reign_of_the_empire:'#ff5a4d',age_of_rebellion:'#ff9a3a',new_republic:'#45d4e3',rise_of_the_first_order:'#c97aff',new_jedi_order:'#8fd44a'};
+const STYP={film:"영화",series:"시리즈",novel:"소설",comic:"코믹",game:"게임"};
+const CANON_KO={explicit:"원작 확정",referenced:"작중 언급",inferred:"정황 추론"};const CANON_C={explicit:"#5fd38a",referenced:"#ffb454",inferred:"#8b97a8"};
 function render(){
   const d=CH[getId()],app=document.getElementById("app");
   if(!d){app.innerHTML=`<div class="notfound">해당 인물 기록을 찾을 수 없습니다.<br><a class="back" href="galaxy-network.html">← 관계망으로</a></div>`;return;}
@@ -208,7 +210,7 @@ function render(){
   if(myss.length){html+=`<div class="sec-label" style="margin-top:18px">조종한 함선 · Starships</div>`+myss.map(v=>`<a class="film-tag" href="starship-detail.html?id=${v.id}">${v.name}</a>`).join("");}
 
     if(sp){html+=`<div class="sec-label" style="margin-top:18px">종족 · Species</div><div class="readout"><div><span class="k">종족</span><span class="v">${esc(sp.ko)} (${esc(d.species)})</span></div><div><span class="k">분류</span><span class="v">${esc(sp.cls)}</span></div><div><span class="k">언어</span><span class="v">${esc(sp.lang)}</span></div><div><span class="k">평균 수명</span><span class="v">${sp.life==='unknown'?'불명':esc(sp.life)+(/^[0-9]+$/.test(sp.life)?'년':'')}</span></div></div>`;}
-  html+=`<div class="srcline" style="margin-top:14px">출처 · <b>${esc(d.source)}</b> · ${d.source_type} · canon ${d.canon_status}</div>
+  html+=`<div class="srcline" style="margin-top:14px">근거 · <b>${esc(d.source)}</b> · ${STYP[d.source_type]||d.source_type} · <span style="border:1px solid ${CANON_C[d.canon_status]||'#8b97a8'};color:${CANON_C[d.canon_status]||'#8b97a8'};border-radius:20px;padding:1px 8px;font-size:10px;white-space:nowrap" title="원작 확정도 — 직접 묘사=확정·작중 언급=언급·정황 추론=추론">${CANON_KO[d.canon_status]||d.canon_status}</span></div>
     <div class="legend-hint">동기·변화·결정적 선택 = 인물 프로파일러(제3·6조) · 관계 = 관계 추출자(제4조) · 등장 사건 = events.json 역참조 · 실루엣 = asset-designer(제6조).</div>
   </article>
   <div class="nav"><a href="galaxy-network.html"><div class="dir">← 인물 관계망</div><div class="t">전체 인물 보기</div></a><a class="next" href="timeline.html"><div class="dir">타임라인 →</div><div class="t">사건 연대기</div></a></div>

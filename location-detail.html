@@ -64,13 +64,13 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-map.html">은하지도</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <main class="wrap" id="app"></main>
 <script>
 const ERAKEYS={dawn_of_the_jedi:"제다이의 여명",high_republic:"하이 리퍼블릭",fall_of_the_jedi:"제다이의 몰락",reign_of_the_empire:"제국의 시대",age_of_rebellion:"반란의 시대",new_republic:"뉴 리퍼블릭",rise_of_the_first_order:"퍼스트 오더의 부상",new_jedi_order:"뉴 제다이 오더"};
 const STYP={film:"영화",series:"시리즈",novel:"소설",comic:"코믹",game:"게임"};
 const CANON_OP={explicit:1,referenced:.9,inferred:.78};
-const CANON_KO={explicit:"명시",referenced:"언급",inferred:"추론"};
+const CANON_KO={explicit:"원작 확정",referenced:"작중 언급",inferred:"정황 추론"};const CANON_C={explicit:"#5fd38a",referenced:"#ffb454",inferred:"#8b97a8"};
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function getId(d){const u=new URLSearchParams(location.search);return u.get("id")||location.hash.replace("#","")||d;}
 function evChip(e){return `<a class="chip" href="event-detail.html?id=${e.id}"><span class="nm">${esc(e.title)}</span><span class="ref">${esc(e.year_label)}</span></a>`;}
@@ -115,7 +115,7 @@ function render(){
     ${evs.length?`<div class="chips">${evs.map(evChip).join("")}</div>`:'<p class="sec-body dim">기록된 주요 사건이 아직 없습니다.</p>'}
     <div class="sec-label">이곳 출신 인물 · Natives (${natives.length})</div>
     ${natives.length?`<div class="chips">${natives.map(charChip).join("")}</div>`:'<p class="sec-body dim">기록된 출신 인물이 아직 없습니다.</p>'}
-    <div class="srcline">출처 · <b>${esc(e.source)}</b> · ${STYP[e.source_type]||e.source_type}</div>
+    <div class="srcline">근거 · <b>${esc(e.source)}</b> · ${STYP[e.source_type]||e.source_type} · <span style="border:1px solid ${CANON_C[e.canon_status]||'#8b97a8'};color:${CANON_C[e.canon_status]||'#8b97a8'};border-radius:20px;padding:1px 8px;font-size:10px;white-space:nowrap" title="원작 확정도 — 직접 묘사=확정·작중 언급=언급·정황 추론=추론">${CANON_KO[e.canon_status]||e.canon_status}</span></div>
     <div class="legend-hint">‘이곳 출신 인물’은 인물 데이터의 homeworld 역참조, ‘사건’은 events.json의 locations 역참조입니다 (헌법 제2조).</div>
   </article>
   <a class="back" href="timeline.html">← 전체 타임라인으로</a>`;
