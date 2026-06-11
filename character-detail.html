@@ -49,7 +49,16 @@ a.chip:hover{border-color:var(--holo);transform:translateY(-1px)}
 .back{display:inline-block;margin-top:22px;font-family:var(--fm);font-size:12px;color:var(--holo);text-decoration:none;border-bottom:1px dashed var(--holo)}
 .notfound{text-align:center;padding:80px 20px;color:var(--dim)}
 .legend-hint{font-family:var(--fm);font-size:10px;color:var(--faint);margin-top:18px;line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
-a.film-tag{text-decoration:none;color:inherit;cursor:pointer}a.film-tag:hover{border-color:var(--holo)}.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}</style></head>
+a.film-tag{text-decoration:none;color:inherit;cursor:pointer}a.film-tag:hover{border-color:var(--holo)}.site-nav .nav-search{color:var(--holo);border:1px solid rgba(69,212,227,.55);border-radius:20px;padding:3px 13px;background:rgba(69,212,227,.10);font-weight:600;letter-spacing:.02em}.site-nav .nav-search:hover{background:rgba(69,212,227,.2);color:var(--holo)}.lifeline{margin-top:10px;position:relative}
+.life-row{display:grid;grid-template-columns:74px 16px 1fr;gap:8px;align-items:start;padding:7px 0;position:relative}
+.life-row:not(:last-child)::after{content:"";position:absolute;left:80px;top:18px;bottom:-7px;width:1px;background:rgba(120,140,180,.22)}
+.life-year{font-family:var(--fm,monospace);font-size:11px;color:var(--dim);text-align:right;padding-top:2px;white-space:nowrap}
+.life-dot{width:9px;height:9px;border-radius:50%;background:var(--ec);box-shadow:0 0 7px var(--ec);margin-top:4px;justify-self:center;z-index:1}
+.life-body{min-width:0}
+.life-ev{color:var(--ink);text-decoration:none;font-weight:600;font-size:14px}.life-ev:hover{color:var(--holo)}
+.era-badge{font-size:9.5px;color:var(--ec);border:1px solid var(--ec);border-radius:20px;padding:1px 8px;margin-left:7px;white-space:nowrap;opacity:.85}
+.life-note{font-size:12px;color:#cdd6e2;margin-top:4px;line-height:1.55;border-left:2px solid var(--ec,#45d4e3);padding-left:9px}
+.life-note.choice{border-left-color:var(--amber,#ffb454);color:#f0d9b0}</style></head>
 <body>
 <style>
 .site-nav{position:fixed;top:0;left:0;right:0;height:46px;z-index:3000;display:flex;align-items:center;gap:16px;padding:0 18px;background:rgba(6,9,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(120,140,180,.16);font-family:'JetBrains Mono',monospace;box-sizing:border-box}
@@ -60,7 +69,7 @@ a.film-tag{text-decoration:none;color:inherit;cursor:pointer}a.film-tag:hover{bo
 .site-nav .links a.active{color:#45d4e3;background:rgba(69,212,227,.10);border-color:rgba(69,212,227,.32)}
 @media(max-width:560px){.site-nav{gap:8px;padding:0 10px}.site-nav .brand{font-size:10px}.site-nav .links a{font-size:10px;padding:5px 7px}}
 body{padding-top:46px}</style>
-<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
+<nav class="site-nav"><a class="brand" href="index.html">✦ 캐넌 아카이브</a><div class="links"><a href="search.html" class="nav-search">⌕ 검색</a><a href="timeline.html">타임라인</a><a href="eras.html">시대</a><a href="dashboard.html">통계</a><a href="films.html">작품</a><a href="vehicles.html">탈것</a><a href="starships.html">함선</a><a href="creatures.html">생물</a><a href="galaxy-map.html">은하지도</a><a href="galaxy-network.html">인물관계망</a><a href="relationships.html">핵심관계도</a><a href="silhouettes.html">실루엣</a></div></nav>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
 <symbol id="sil-jedi" viewBox="0 0 100 130"><g fill="currentColor"><path d="M50 30 C41 30 35 36 33 46 L26 120 C25 125 29 126 33 126 L67 126 C71 126 75 125 74 120 L67 46 C65 36 59 30 50 30 Z"/><path d="M50 8 C36 8 28 22 31 42 C31 42 39 30 50 30 C61 30 69 42 69 42 C72 22 64 8 50 8 Z"/><path d="M66 48 C74 50 80 56 80 66 L74 66 C74 58 70 54 64 53 Z"/><rect x="75" y="64" width="9" height="9" rx="1.5"/></g><rect x="77" y="10" width="5" height="56" rx="2.5" fill="var(--blade,#45d4e3)"/></symbol>
 <symbol id="sil-sith" viewBox="0 0 100 130"><g fill="currentColor"><path d="M50 30 C40 30 34 37 32 47 L24 122 C23 127 28 127 32 127 L68 127 C72 127 77 127 76 122 L68 47 C66 37 60 30 50 30 Z"/><path d="M50 5 C33 8 25 25 31 44 C31 44 39 30 50 30 C61 30 69 44 69 44 C75 25 67 8 50 5 Z"/><path d="M33 47 L24 39 L37 51 Z"/><path d="M67 47 L76 39 L63 51 Z"/><path d="M68 50 C78 52 86 58 88 70 L82 72 C80 62 74 57 66 56 Z"/><rect x="83" y="86" width="9" height="9" rx="1.5"/></g><rect x="85" y="40" width="5" height="48" rx="2.5" fill="var(--blade,#ff5a4d)"/></symbol>
@@ -117,6 +126,7 @@ function relsOf(id){
   });
   return out;
 }
+const ERACOL={dawn_of_the_jedi:'#c9b458',high_republic:'#ffd24a',fall_of_the_jedi:'#7aa2ff',reign_of_the_empire:'#ff5a4d',age_of_rebellion:'#ff9a3a',new_republic:'#45d4e3',rise_of_the_first_order:'#c97aff',new_jedi_order:'#8fd44a'};
 function render(){
   const d=CH[getId()],app=document.getElementById("app");
   if(!d){app.innerHTML=`<div class="notfound">해당 인물 기록을 찾을 수 없습니다.<br><a class="back" href="galaxy-network.html">← 관계망으로</a></div>`;return;}
@@ -166,12 +176,6 @@ function render(){
   if(d.motivation){
     html+=`<div class="sec-label">동기 · Motivation</div><p class="sec-body">${esc(d.motivation)}</p>`;
   }
-  if(d.arc&&d.arc.length){
-    html+=`<div class="sec-label">변화 · Arc</div>`+d.arc.map(a=>`<div class="beat">${a.event&&EVBY[a.event]?`<a class="ev" href="event-detail.html?id=${a.event}">▸ ${esc(EVBY[a.event].title)}</a><br>`:""}${esc(a.note)}</div>`).join("");
-  }
-  if(d.key_choices&&d.key_choices.length){
-    html+=`<div class="sec-label">결정적 선택 · Key Choices</div>`+d.key_choices.map(a=>`<div class="beat" style="border-color:var(--amber)">${a.event&&EVBY[a.event]?`<a class="ev" href="event-detail.html?id=${a.event}">▸ ${esc(EVBY[a.event].title)}</a><br>`:""}${esc(a.note)}</div>`).join("");
-  }
   if(!d.motivation){
     html+=`<div class="sec-body dim" style="margin-top:6px;font-style:italic">심층 서사(동기·변화)는 인물 프로파일러가 아직 작성하지 않았습니다.</div>`;
   }
@@ -185,8 +189,17 @@ function render(){
   });
   if(!any)html+=`<p class="sec-body dim">기록된 관계가 없습니다.</p>`;
 
-  html+=`<div class="sec-label" style="margin-top:18px">등장 사건 · Appears In (${appears.length})</div>`;
-  html+= appears.length?`<div class="chips">${appears.map(e=>`<a class="chip" href="event-detail.html?id=${e.id}"><span class="nm">${esc(e.title)}</span><span class="ref">${esc(e.year_label)}</span></a>`).join("")}</div>`:`<p class="sec-body dim">events.json에서 직접 참조된 사건이 없습니다.</p>`;
+  const noteMap={};
+  (d.arc||[]).forEach(a=>{if(a.event)noteMap[a.event]={note:a.note,kind:"arc"};});
+  (d.key_choices||[]).forEach(a=>{if(a.event)noteMap[a.event]={note:a.note,kind:"choice"};});
+  const lifeIds=new Set(appears.map(e=>e.id));
+  Object.keys(noteMap).forEach(id=>{if(EVBY[id])lifeIds.add(id);});
+  const life=[...lifeIds].map(id=>EVBY[id]).filter(Boolean).sort((a,b)=>(a.year_value??0)-(b.year_value??0));
+  html+=`<div class="rule"></div><div class="sec-label">생애 연대기 · Lifeline (${life.length})</div>`;
+  html+= life.length?`<div class="lifeline">`+life.map(e=>{
+    const erk=ERA[e.era]||"", erc=ERACOL[e.era]||"#5a6473", nm=noteMap[e.id];
+    return `<div class="life-row"><div class="life-year">${esc(e.year_label||"")}</div><div class="life-dot" style="--ec:${erc}"></div><div class="life-body"><a class="life-ev" href="event-detail.html?id=${e.id}">${esc(e.title)}</a><span class="era-badge" style="--ec:${erc}">${erk}</span>${nm?`<div class="life-note ${nm.kind}" style="--ec:${erc}">${nm.kind==="choice"?"◆ ":"★ "}${esc(nm.note)}</div>`:""}</div></div>`;
+  }).join("")+`</div>`:`<p class="sec-body dim">events.json에서 직접 참조된 사건이 없습니다.</p>`;
 
   if(fl.length){html+=`<div class="sec-label" style="margin-top:18px">출연작 · Filmography</div>`+fl.map(w=>`<a class="film-tag" href="film-detail.html?id=${w}"><b>${WORKS[w][0]}</b> ${WORKS[w][1]}</a>`).join("");}
   const myveh=VEH.filter(v=>(v.pilots||[]).includes(d.id));
@@ -198,7 +211,7 @@ function render(){
   html+=`<div class="srcline" style="margin-top:14px">출처 · <b>${esc(d.source)}</b> · ${d.source_type} · canon ${d.canon_status}</div>
     <div class="legend-hint">동기·변화·결정적 선택 = 인물 프로파일러(제3·6조) · 관계 = 관계 추출자(제4조) · 등장 사건 = events.json 역참조 · 실루엣 = asset-designer(제6조).</div>
   </article>
-  <div class="nav"><a href="galaxy-network.html"><div class="dir">← 인물 관계망</div><div class="t">전체 82인 보기</div></a><a class="next" href="timeline.html"><div class="dir">타임라인 →</div><div class="t">사건 연대기</div></a></div>
+  <div class="nav"><a href="galaxy-network.html"><div class="dir">← 인물 관계망</div><div class="t">전체 인물 보기</div></a><a class="next" href="timeline.html"><div class="dir">타임라인 →</div><div class="t">사건 연대기</div></a></div>
   <a class="back" href="timeline.html">← 전체 타임라인으로</a>`;
   app.innerHTML=html;window.scrollTo(0,0);
 }
